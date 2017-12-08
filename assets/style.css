@@ -1,0 +1,94 @@
+/* 
+Global
+------ */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin: 10px auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 
+Card
+------ */
+.card {
+    display: flex;
+    border: 1px solid;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 900px;
+    -webkit-box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
+    -moz-box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
+    box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
+}
+
+.card p {
+    padding: 8px;
+}
+
+/* ** Card contributor photo and name** */
+.contributor {
+    background-color: #1da1f2;
+    border-radius: 20px 0 0 20px;
+}
+
+.contributor img {
+    border-bottom: 1px solid;
+    border-top-left-radius: 20px;
+    max-width: 150px;
+    max-height: 200px;
+}
+
+/* .contributor p {
+    white-space: nowrap;
+    overflow: hidden;
+} */
+
+.name {
+    white-space: initial;
+    max-width: 150px;
+    font-weight: bold;
+}
+
+/* **Card information** */
+.information {
+    border-left: 1px solid;
+    background-color: rgba(245, 231, 104, 0.8);
+    border-radius: 0 20px 20px 0;
+}
+
+.contact {
+    border-bottom: 1px solid;
+    background-color: rgba(245, 231, 104, 0.8);
+    border-top-right-radius: 20px;
+}
+
+.contact i {
+    color: #1da1f2;
+}
+
+.about {
+    background-color: #1da1f2;
+    border-bottom: 1px solid;
+}
+
+.resources p {
+    font-weight: bold;
+}
