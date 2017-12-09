@@ -41,7 +41,17 @@ Now that you are all setup let's get on with the business of contributing to the
 
 ### Step 1: Fork this repository
 
-Cli
+### Step 2: Clone the repository
+
+### Step 3: Create a new branch
+
+### Step 4: Open the index.html file
+
+### Step 5: Copy the card template
+
+### Step 6: Apply your changes
+
+### Step 7: 
 
 ## Next Steps
 
