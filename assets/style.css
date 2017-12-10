@@ -3,15 +3,33 @@ Global
 ------ */
 body {
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 header {
-    margin: 10px auto;
+    margin: 10px auto 20px auto;
     text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    margin-bottom: 25px;
+}
+
+.button {
+    border: 2px solid #555;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    color: #1da1f2;
 }
 
 .grid {
@@ -20,23 +38,19 @@ a {
     justify-content: center;
 }
 
-p {
-    margin: 0;
-    padding: 0;
-}
 
 /* 
 Card
 ------ */
 .card {
     display: flex;
-    border: 1px solid;
-    margin: 10px;
+    border: 2px solid #555;
+    margin: 18px;
     border-radius: 20px;
     max-width: 900px;
-    -webkit-box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
-    -moz-box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
-    box-shadow: -7px 13px 15px -3px rgba(54,7,255,0.45);
+    -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
+    -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
+    box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
 }
 
 .card p {
@@ -45,7 +59,7 @@ Card
 
 /* ** Card contributor photo and name** */
 .contributor {
-    background-color: #1da1f2;
+    background-color: rgba(29,161,242,.8);
     border-radius: 20px 0 0 20px;
 }
 
@@ -70,13 +84,13 @@ Card
 /* **Card information** */
 .information {
     border-left: 1px solid;
-    background-color: rgba(245, 231, 104, 0.8);
+    background-color: rgba(245, 231, 104, .6);
     border-radius: 0 20px 20px 0;
 }
 
 .contact {
     border-bottom: 1px solid;
-    background-color: rgba(245, 231, 104, 0.8);
+    /* background-color: rgba(245, 231, 104, 0.8); */
     border-top-right-radius: 20px;
 }
 
@@ -85,7 +99,7 @@ Card
 }
 
 .about {
-    background-color: #1da1f2;
+    background-color: rgba(29,161,242,.8);
     border-bottom: 1px solid;
 }
 
