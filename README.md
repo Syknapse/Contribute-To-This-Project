@@ -22,7 +22,7 @@ Any web developer, aspiring or experienced needs to use Git version control, and
 
 ![Contributor Card](readme-only/card.PNG "Contributor Card")
 
-You are going to contribute a card just like this one to this project's web page. It will include your name, a photo, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+You are going to contribute a card just like this one to this project's web page. It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
@@ -54,7 +54,7 @@ _Estimated time: Less than 30 minutes_.
 + A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
 + Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project "https://github.com/Syknapse/Contribute-To-This-Project") of this repo.
 
-| <li>Click on _Fork_ at the top left of the page</li> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
 |:---|---:|
 
 + You now have a complete copy of the project in your own account
@@ -64,9 +64,9 @@ _Estimated time: Less than 30 minutes_.
 ### Step 2: Clone the repository
 
 + Now we want to make a local copy of the project. That is a copy saved on your own machine.
-+ Open the GitHub desktop app.
++ Open the GitHub desktop app. In the app:
 
-| <li>At the top left corner, click on _File_ then _Clone repository_</li> | ![Clone](readme-only/clone.PNG "click clone repository") |
+| <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG "click clone repository") |
 |:---|---:|
 
 | <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Then click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
@@ -82,14 +82,19 @@ _Estimated time: Less than 30 minutes_.
 + Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
 + A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| <ul><li>Click on _Current branch_ at the top center</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>Click on _Current branch_</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 |:---|---:|
 
-| <ul><li>Give your branch a name</li><li>You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice to make the intention of this branch clear</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
+| <ul><li>Give your branch a name</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
+|:---|---:|
+
++ You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice to make the intention of this branch clear
+
+| <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG "Click publish to send the new branch to your remote repo on GitHub") |
 |:---|---:|
 
 + Now you have created a new branch separate from the master.
-+ For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app.
++ For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
 
 ---
 
@@ -97,6 +102,7 @@ _Estimated time: Less than 30 minutes_.
 
 + Now we need to open the file we are going to add code to with your favourite code editor.
 + Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
++ The `index.html` file is directly in the `Contribute-To-This-Project` folder.
 
 | <ul><li>Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project</li><li>Alternatively you can locate the file on your hard drive, right click, and open with your editor</li></ul> | ![Open index file](readme-only/index-open.PNG "Open index.html in your text editor") |
 |:---|---:|
@@ -109,43 +115,55 @@ _Estimated time: Less than 30 minutes_.
 
 + We will make a copy of the card template to start working on it
 
-| <ul><li>Scroll down towards the end of the file where you will find the section labeled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> | ![Copy card template](readme-only/card-copy.PNG "Copy the card template") |
-|:---|---:|
+| <ul><li>Scroll down towards the end of the file where you will find the section labeled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> |
+|:------|
+|![Copy card template](readme-only/card-copy.PNG "Copy the card template")|
 
-| <ul><li>Paste the whole thing directly above the comment indicating it</li><li>Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible</li><li>Make sure your indentation is correct and matches the template</li></ul> | <img src="readme-only/card-paste.PNG" alt="Paste card template" style="width: 2500px" title="Paste above the indicated line"/>  |
-|:---|---:|
+| <ul><li>Paste the whole thing directly above the comment indicating it</li><li>Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible</li><li>Make sure your indentation is correct and matches the template</li></ul> |
+|:------|
+|![Paste card template](readme-only/card-paste.PNG "Paste above the indicated line")|
 
-+ This now is **your** card for you to customise and edit.
++ This now is **your** card for you to customise and edit
 
 ---
 
 ### Step 6: Apply your changes
 
-+ We will now start changing the customizable fields in our card
++ We will now start editing the html, changing the customizable fields in our card
 
-|  | ![Change image]() |
+| <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG "Type your name") |
 |:---|---:|
 
-| instructions | ![Change name](readme-only/change-name.PNG "Type your name") |
+| <ul><li>Insert the URL of your Twitter account `href="Insert URL here"`</li><li>Type your handle in the text field</li></ul> |
+|:-----|
+| ![Change contact](readme-only/change-contact.PNG "Insert a link to your Twitter account and type your handle") |
+
++ If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then Follow the same steps above.
+
+| <ul><li>Tell us something about you</li><li>Keep it short and sweet. Think about it more like a tweet than a blog post</li></ul> | ![Change about](readme-only/change-about.PNG "Write a sentence about you") |
 |:---|---:|
 
-| instructions | ![Change contact](readme-only/change-contact.PNG "Insert a link to your Twitter account and type your handle") |
-|:---|---:|
+| <ul><li>Share with the community 3 links to resources that are useful for web development</li><li>This can be anything, a video, a talk, a podcast, an article, a reference, or a tool</li><li>If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit</li></ul> |
+|:-----|
+| ![Change resources](readme-only/change-resources.PNG "Insert link, write a short description, and type the name of the resource") |
+| <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
-| instructions | ![Change about](readme-only/change-about.PNG "Write a sentence about you") |
-|:---|---:|
-
-| <ul><li>item1</li><li>item2</li></ul> | ![Change resources](readme-only/change-resources.PNG "Insert link, write a short description, and type the name of the resource") |
-|:---|---:|
++ Make sure you have **saved all your changes**
++ Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to them to be merged with the main project.
 
 ---
 
 ### Step 7: Commit your changes
 
-| instructions | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
++ Go back to the GiyHub desktop app
++ Your changes will have been added automatically to the staging area
++ This means that Git has recorded all the **saved** changes
++ You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red
+
+| <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 |:---|---:|
 
-| instructions | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
+| <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Added my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 |:---|---:|
 
 ---
