@@ -69,7 +69,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG "click clone repository") |
 |:---|---:|
 
-| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Then click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
+| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
 |:---|---:|
 
 + This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
@@ -88,7 +88,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Give your branch a name</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
 |:---|---:|
 
-+ You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice to make the intention of this branch clear
++ You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
 
 | <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG "Click publish to send the new branch to your remote repo on GitHub") |
 |:---|---:|
@@ -149,16 +149,16 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
 + Make sure you have **saved all your changes**
-+ Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to them to be merged with the main project.
++ Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 ---
 
 ### Step 7: Commit your changes
 
-+ Go back to the GiyHub desktop app
-+ Your changes will have been added automatically to the staging area
-+ This means that Git has recorded all the **saved** changes
-+ You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red
++ Go back to the GitHub desktop app.
++ Your changes will have been added automatically to the staging area.
++ This means that Git has recorded all the **saved** changes.
++ You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 
 | <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 |:---|---:|
@@ -170,15 +170,37 @@ _Estimated time: Less than 30 minutes_.
 
 ### Step 8: Push your changes to GitHub
 
-| instructions | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
++ Your changes are now saved or commited. But they are saved only locally, that is on your computer.
++ Synchronizing local changes with your repository on Github is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on Github.
+
+| <ul><li>Click the _Push_ button</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 |:---|---:|
+
++ After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
 ---
 
 ### Step 9: Submit a PR
 
-| instructions | ![Submit a Pull Request](readme-only/#####.PNG "////////////") |
++ This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
++ So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
++ Now it's time to send your changes to the main project to be merged with it.
++ This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ "About Pull Requests - GitHub Help") because you are asking the original project maintainer to "pull" your changes into their project.
++ REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
++ Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
++ Towards the top of the page you will see a highlighted pull request message with a green button.
+
+| <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG "Click the green button. Don't be scared!") |
 |:---|---:|
+
++ Your message is not going to look exactly like the image above because your are merging from your branch on your fork to the original project's master branch.
+
+| <ul><li>Create a pull request:</li><li>Write a title</li><li>Add optional information in the description</li><li>Click `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
+|:---|---:|
+
++ Don't be phased by all the options. You only need to do these three steps for now.
++ Leave the option `Allow edits from maintainers` ticked.
++ Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [Project web page](https://syknapse.github.io/Contribute-To-This-Project "Contribute To This Project web page").
 
 ---
 
@@ -186,9 +208,11 @@ _Estimated time: Less than 30 minutes_.
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
-You have added code to a live web page: https://syknapse.github.io/Contribute-To-This-Project
+You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Your changes **won't be visible immediatly**, first they have to be merged by the project maintainer. Once they are merged your card should be visible and live on the page. I will try to make the merges as soon as possible but a couple of days delay might be expected sometimes.
+Your changes **won't be visible immediatly**, first they have to be merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+
+I promise I will try to make the merges as soon as possible but a couple of days delay might be expected sometimes.
 
 ---
 
@@ -200,13 +224,13 @@ Your changes **won't be visible immediatly**, first they have to be merged by th
 + If you found this project useful please give it a star at the top of the page and Tweet about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project%20by%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode)
 + You can follow me and get in touch on [Twitter](https://twitter.com/Syknapse "@Syknapse") or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact "My contact section | Portfolio")
 + This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ "Mastering Issues | GitHub Guides") or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ "Creating a pull request from a fork | GitHub Help")
-+ Thanks for contributing to this project. Now you can go ahead and try contributing to other projects; look for the first-contribu?? label
++ Thanks for contributing to this project. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for begginer-friendly contribution options.
 
 ## Acknowledgements
 
 This project is heavily influenced by [Peter Lazar's](https://github.com/peterlazar1993) great [first-contributions](https://github.com/Syknapse/first-contributions) project with it's excellent tutorial.
 
-It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe. 
+It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
 ## Licence
 
