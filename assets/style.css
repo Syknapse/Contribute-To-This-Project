@@ -1,5 +1,4 @@
-/* 
-Global
+/* Global
 ------ */
 body {
     font-family: 'Roboto', sans-serif;
@@ -9,6 +8,7 @@ body {
 header {
     margin: 10px auto 20px auto;
     text-align: center;
+    max-width: 1200px;
 }
 
 a {
@@ -39,59 +39,35 @@ p {
 }
 
 
-/* 
-Card
+/* Card
 ------ */
 .card {
     display: flex;
+    flex-direction: column;
     border: 2px solid #555;
     margin: 18px;
     border-radius: 20px;
-    max-width: 900px;
+    max-width: 600px;
+    text-align: justify;
     -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
 }
 
 .card p {
-    padding: 8px;
+    padding: 10px;
 }
-
-/* ** Card contributor photo and name** */
-.contributor {
-    background-color: rgba(29,161,242,.8);
-    border-radius: 20px 0 0 20px;
-}
-
-.contributor img {
-    border-bottom: 1px solid;
-    border-top-left-radius: 20px;
-    max-width: 150px;
-    max-height: 150px;
-}
-
-/* .contributor p {
-    white-space: nowrap;
-    overflow: hidden;
-} */
 
 .name {
-    white-space: initial;
-    max-width: 150px;
+    background-color: rgba(29,161,242,.8);
     font-weight: bold;
-}
-
-/* **Card information** */
-.information {
-    border-left: 1px solid;
-    background-color: rgba(245, 231, 104, .6);
-    border-radius: 0 20px 20px 0;
+    border-bottom: 1px solid;
+    border-radius: 20px 20px 0 0;
 }
 
 .contact {
     border-bottom: 1px solid;
-    /* background-color: rgba(245, 231, 104, 0.8); */
-    border-top-right-radius: 20px;
+    background-color: rgba(255, 242, 66, 0.61);
 }
 
 .contact i {
@@ -101,6 +77,11 @@ Card
 .about {
     background-color: rgba(29,161,242,.8);
     border-bottom: 1px solid;
+}
+
+.resources {
+    background-color: rgba(255, 242, 66, 0.61);
+    border-radius: 0 0 20px 20px;
 }
 
 .resources p {
