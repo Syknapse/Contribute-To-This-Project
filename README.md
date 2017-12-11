@@ -38,47 +38,92 @@ First let's get setup to do the work
 
 Now that you are all setup let's get on with the business of contributing to the project.
 
+---
+
+---
+
 ## Contribute
 
 Become an open source contributor in 10 easy steps.
 
+_Estimated time: Less than 30 minutes_.
+
 ### Step 1: Fork this repository
 
-| instructions | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
++ The objective here is to make a copy of this project and place it in your account.
++ A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
++ Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project "https://github.com/Syknapse/Contribute-To-This-Project") of this repo.
+
+| <li>Click on _Fork_ at the top left of the page</li> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
 |:---|---:|
+
++ You now have a complete copy of the project in your own account
+
+---
 
 ### Step 2: Clone the repository
 
-| instructions | ![Clone](readme-only/clone.PNG "click clone repository") |
++ Now we want to make a local copy of the project. That is a copy saved on your own machine.
++ Open the GitHub desktop app.
+
+| <li>At the top left corner, click on _File_ then _Clone repository_</li> | ![Clone](readme-only/clone.PNG "click clone repository") |
 |:---|---:|
 
-| instructions | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
+| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Then click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
 |:---|---:|
+
++ This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
++ Now you have a local copy of the project.
+
+---
 
 ### Step 3: Create a new branch
 
-| instructions | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
++ Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
++ A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+
+| <ul><li>Click on _Current branch_ at the top center</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 |:---|---:|
 
-| instructions | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
+| <ul><li>Give your branch a name</li><li>You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice to make the intention of this branch clear</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
 |:---|---:|
+
++ Now you have created a new branch separate from the master.
++ For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app.
+
+---
 
 ### Step 4: Open the index.html file
 
-| instructions | ![Open index file](readme-only/index-open.PNG "Open index.html in your text editor") |
++ Now we need to open the file we are going to add code to with your favourite code editor.
++ Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
+
+| <ul><li>Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project</li><li>Alternatively you can locate the file on your hard drive, right click, and open with your editor</li></ul> | ![Open index file](readme-only/index-open.PNG "Open index.html in your text editor") |
 |:---|---:|
+
++ Now you have the file you are going to edit open in your editor and you are ready to start making changes to it. 
+
+---
 
 ### Step 5: Copy the card template
 
-| instructions | ![Copy card template](readme-only/card-copy.PNG "Copy the card template") |
++ We will make a copy of the card template to start working on it
+
+| <ul><li>Scroll down towards the end of the file where you will find the section labeled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> | ![Copy card template](readme-only/card-copy.PNG "Copy the card template") |
 |:---|---:|
 
-| instructions | ![Paste card template](readme-only/card-paste.PNG "Paste above the indicated line") |
+| <ul><li>Paste the whole thing directly above the comment indicating it</li><li>Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible</li><li>Make sure your indentation is correct and matches the template</li></ul> | <img src="readme-only/card-paste.PNG" alt="Paste card template" style="width: 2500px" title="Paste above the indicated line"/>  |
 |:---|---:|
+
++ This now is **your** card for you to customise and edit.
+
+---
 
 ### Step 6: Apply your changes
 
-| instructions | ![Change image](readme-only/change-image.PNG "Insert the url of your image") |
++ We will now start changing the customizable fields in our card
+
+|  | ![Change image]() |
 |:---|---:|
 
 | instructions | ![Change name](readme-only/change-name.PNG "Type your name") |
@@ -93,6 +138,8 @@ Become an open source contributor in 10 easy steps.
 | <ul><li>item1</li><li>item2</li></ul> | ![Change resources](readme-only/change-resources.PNG "Insert link, write a short description, and type the name of the resource") |
 |:---|---:|
 
+---
+
 ### Step 7: Commit your changes
 
 | instructions | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
@@ -101,15 +148,21 @@ Become an open source contributor in 10 easy steps.
 | instructions | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 |:---|---:|
 
+---
+
 ### Step 8: Push your changes to GitHub
 
 | instructions | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 |:---|---:|
 
+---
+
 ### Step 9: Submit a PR
 
 | instructions | ![Submit a Pull Request](readme-only/#####.PNG "////////////") |
 |:---|---:|
+
+---
 
 ### Step 10: Celebrate!
 
@@ -118,6 +171,10 @@ That's it. You have done it! You have now contributed to open source on GitHub.
 You have added code to a live web page: https://syknapse.github.io/Contribute-To-This-Project
 
 Your changes **won't be visible immediatly**, first they have to be merged by the project maintainer. Once they are merged your card should be visible and live on the page. I will try to make the merges as soon as possible but a couple of days delay might be expected sometimes.
+
+---
+
+---
 
 ## Next Steps
 
@@ -135,4 +192,4 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 ## Licence
 
-[MIT License](#)
+[MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
