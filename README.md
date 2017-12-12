@@ -186,14 +186,16 @@ _Estimated time: Less than 30 minutes_.
 + So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
 + Now it's time to send your changes to the main project to be merged with it.
 + This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ "About Pull Requests - GitHub Help") because you are asking the original project maintainer to "pull" your changes into their project.
-+ REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
 + Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
-+ Towards the top of the page you will see a highlighted pull request message with a green button.
++ Towards the top of the repo you will see a highlighted pull request message with a green button.
 
 | <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG "Click the green button. Don't be scared!") |
 |:---|---:|
 
-+ Your message is not going to look exactly like the image above because your are merging from your branch on your fork to the original project's master branch.
+| <ul><li>This is the `Open a pull request` page looks like.</li><li>REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.</li><li>The image below gives you an idea of how the header of your pull request should look like.</li><li>On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.</li></ul> |
+|:------|
+| ![Open a Pull Request](readme-only/pull-request-branches.PNG "You are requesting to merge your branch from your fork into the master branch of the original project") |
+
 
 | <ul><li>Create a pull request:</li><li>Write a title</li><li>Add optional information in the description</li><li>Click `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
 |:---|---:|
