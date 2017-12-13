@@ -22,7 +22,7 @@ Any web developer, aspiring or experienced needs to use Git version control, and
 
 ![Contributor Card](readme-only/card.PNG "Contributor Card")
 
-You are going to contribute a card just like this one to this project's web page. It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ "https://syknapse.github.io/Contribute-To-This-Project"). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
@@ -33,7 +33,7 @@ First let's get setup to do the work
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 1. Download [GitHub Desktop app](https://desktop.github.com/).
     + Alternatively if you are comfortable using Git on the command line you can do so (here's [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR 
-    + If you use VS Code it comes with integrated Git and allows you to do what we need straight from the editor.
+    + If you use [VS Code](https://code.visualstudio.com/ "Visual Studio Code website") it comes with integrated Git and allows you to do what we need straight from the editor.
     + However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
 Now that you are all setup let's get on with the business of contributing to the project.
@@ -85,7 +85,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on _Current branch_</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 |:---|---:|
 
-| <ul><li>Give your branch a name</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
+| <ul><li>Give your branch a name</li><li>Click `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG "Name your branch") |
 |:---|---:|
 
 + You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
@@ -100,7 +100,7 @@ _Estimated time: Less than 30 minutes_.
 
 ### Step 4: Open the index.html file
 
-+ Now we need to open the file we are going to add code to with your favourite code editor.
++ Now we need to open the file we are going to edit with your favourite code editor.
 + Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
 + The `index.html` file is directly in the `Contribute-To-This-Project` folder.
 
@@ -189,10 +189,10 @@ _Estimated time: Less than 30 minutes_.
 + Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 + Towards the top of the repo you will see a highlighted pull request message with a green button.
 
-| <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG "Click the green button. Don't be scared!") |
+| <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG "This is usually towards the top of the page, under the description and above the project files and folders") |
 |:---|---:|
 
-| <ul><li>This is the `Open a pull request` page looks like.</li><li>REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.</li><li>The image below gives you an idea of how the header of your pull request should look like.</li><li>On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.</li></ul> |
+| <ul><li>This is what the `Open a pull request` page looks like.</li><li>REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.</li><li>The image below gives you an idea of how the header of your pull request should look like.</li><li>On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.</li></ul> |
 |:------|
 | ![Open a Pull Request](readme-only/pull-request-branches.PNG "You are requesting to merge your branch from your fork into the master branch of the original project") |
 
