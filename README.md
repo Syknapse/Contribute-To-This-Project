@@ -1,4 +1,4 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project%20by%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode)
+# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
 
 ## Introduction
 
@@ -107,7 +107,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project</li><li>Alternatively you can locate the file on your hard drive, right click, and open with your editor</li></ul> | ![Open index file](readme-only/index-open.PNG "Open index.html in your text editor") |
 |:---|---:|
 
-+ Now you have the file you are going to edit open in your editor and you are ready to start making changes to it. 
++ Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
 
 ---
 
@@ -115,7 +115,7 @@ _Estimated time: Less than 30 minutes_.
 
 + We will make a copy of the card template to start working on it
 
-| <ul><li>Scroll down towards the end of the file where you will find the section labeled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> |
+| <ul><li>Scroll down towards the end of the file where you will find the section labelled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> |
 |:------|
 |![Copy card template](readme-only/card-copy.PNG "Copy the card template")|
 
@@ -123,13 +123,13 @@ _Estimated time: Less than 30 minutes_.
 |:------|
 |![Paste card template](readme-only/card-paste.PNG "Paste above the indicated line")|
 
-+ This now is **your** card for you to customise and edit
++ This now is **your** card for you to customise and edit.
 
 ---
 
 ### Step 6: Apply your changes
 
-+ We will now start editing the html, changing the customizable fields in our card
++ We will now start editing the html, changing the customizable fields in our card.
 
 | <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG "Type your name") |
 |:---|---:|
@@ -148,7 +148,7 @@ _Estimated time: Less than 30 minutes_.
 | ![Change resources](readme-only/change-resources.PNG "Insert link, write a short description, and type the name of the resource") |
 | <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
-+ Make sure you have **saved all your changes**
++ Make sure you have **saved all your changes**.
 + Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 ---
@@ -170,7 +170,7 @@ _Estimated time: Less than 30 minutes_.
 
 ### Step 8: Push your changes to GitHub
 
-+ Your changes are now saved or commited. But they are saved only locally, that is on your computer.
++ Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 + Synchronizing local changes with your repository on Github is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on Github.
 
 | <ul><li>Click the _Push_ button</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
@@ -200,9 +200,9 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Create a pull request:</li><li>Write a title</li><li>Add optional information in the description</li><li>Click `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
 |:---|---:|
 
-+ Don't be phased by all the options. You only need to do these three steps for now.
++ Don't be fazed by all the options. You only need to do these three steps for now.
 + Leave the option `Allow edits from maintainers` ticked.
-+ Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [Project web page](https://syknapse.github.io/Contribute-To-This-Project "Contribute To This Project web page").
++ Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project "Contribute To This Project web page").
 
 ---
 
@@ -212,7 +212,7 @@ That's it. You have done it! You have now contributed to open source on GitHub.
 
 You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Your changes **won't be visible immediatly**, first they have to be merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+Your changes **won't be visible immediately**; first they have to be merged by the project maintainer. Once they are merged your card should be visible and live on the page.
 
 I promise I will try to make the merges as soon as possible but a couple of days delay might be expected sometimes.
 
@@ -223,10 +223,10 @@ I promise I will try to make the merges as soon as possible but a couple of days
 ## Next Steps
 
 + Come back in a while to check for your merged Pull Request.
-+ If you found this project useful please give it a star at the top of the page and Tweet about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project%20by%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode)
++ If you found this project useful please give it a star at the top of the page and Tweet about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
 + You can follow me and get in touch on [Twitter](https://twitter.com/Syknapse "@Syknapse") or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact "My contact section | Portfolio")
 + This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ "Mastering Issues | GitHub Guides") or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ "Creating a pull request from a fork | GitHub Help")
-+ Thanks for contributing to this project. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for begginer-friendly contribution options.
++ Thanks for contributing to this project. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 
 ## Acknowledgements
 
