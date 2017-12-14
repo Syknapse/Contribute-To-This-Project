@@ -8,7 +8,7 @@ body {
 header {
     margin: 10px auto 20px auto;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 a {
@@ -47,7 +47,7 @@ p {
     border: 2px solid #555;
     margin: 18px;
     border-radius: 20px;
-    max-width: 600px;
+    max-width: 500px;
     text-align: justify;
     -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
@@ -82,6 +82,8 @@ p {
 .resources {
     background-color: rgba(255, 242, 66, 0.61);
     border-radius: 0 0 20px 20px;
+    height: 100%;
+    padding-right: 10px;
 }
 
 .resources p {

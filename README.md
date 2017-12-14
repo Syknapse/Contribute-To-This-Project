@@ -149,6 +149,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
 + Make sure you have **saved all your changes**.
++ Test your changes. Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site.
 + Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 ---
