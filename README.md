@@ -26,6 +26,11 @@ You are going to contribute a card just like this one to this [project's web pag
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
+## Quick Access Index
+
+| <ul><li>[Introduction](https://github.com/Syknapse/Contribute-To-This-Project#introduction)</li><li>[What am I going to contribute?](https://github.com/Syknapse/Contribute-To-This-Project#what-am-i-going-to-contribute)</li><li>[Setup](https://github.com/Syknapse/Contribute-To-This-Project#setup)</li><li>[Contribute &rightarrow;](https://github.com/Syknapse/Contribute-To-This-Project#contribute)</li><li>[Next Steps](https://github.com/Syknapse/Contribute-To-This-Project#next-steps)</li><li>[Acknowledgements](https://github.com/Syknapse/Contribute-To-This-Project#acknowledgements)</li></ul> | Contribute: <ul><li>[Fork this repository](https://github.com/Syknapse/Contribute-To-This-Project#step-1-fork-this-repository)</li><li>[Clone the repository](https://github.com/Syknapse/Contribute-To-This-Project#step-2-clone-the-repository)</li><li>[Create a new branch](https://github.com/Syknapse/Contribute-To-This-Project#step-3-create-a-new-branch)</li><li>[Open the index.html file](https://github.com/Syknapse/Contribute-To-This-Project#step-4-open-the-indexhtml-file)</li><li>[Copy the card template](https://github.com/Syknapse/Contribute-To-This-Project#step-5-copy-the-card-template)</li><li>[Apply your changes](https://github.com/Syknapse/Contribute-To-This-Project#step-6-apply-your-changes)</li><li>[Commit your changes](https://github.com/Syknapse/Contribute-To-This-Project#step-7-commit-your-changes)</li><li>[Push your changes to GitHub](https://github.com/Syknapse/Contribute-To-This-Project#step-8-push-your-changes-to-github)</li><li>[Submit a PR](https://github.com/Syknapse/Contribute-To-This-Project#step-9-submit-a-pr)</li><li>[Celebrate!](https://github.com/Syknapse/Contribute-To-This-Project#step-10-celebrate)</li></ul> |
+|:----|:----|
+
 ## Setup
 
 First let's get setup to do the work
@@ -149,7 +154,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
 + Make sure you have **saved all your changes**.
-+ Test your changes. Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site.
++ **Test your changes**. Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site.
 + Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 ---
@@ -231,10 +236,12 @@ I promise I will try to make the merges as soon as possible but a couple of days
 
 ## Acknowledgements
 
-This project is heavily influenced by [Peter Lazar's](https://github.com/peterlazar1993) great [first-contributions](https://github.com/Syknapse/first-contributions) project with it's excellent tutorial.
+This project is heavily influenced by [Peter Lazar's](https://github.com/peterlazar1993) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with it's excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
 ## Licence
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
+
+[Back to the top &uparrow;](https://github.com/Syknapse/Contribute-To-This-Project#contribute-to-this-project-)

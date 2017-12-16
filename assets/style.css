@@ -22,6 +22,11 @@ p {
 
 .description {
     margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.description a img {
+    margin: 10px auto 5px auto;
 }
 
 .button {
@@ -48,7 +53,6 @@ p {
     margin: 18px;
     border-radius: 20px;
     max-width: 500px;
-    text-align: justify;
     -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
