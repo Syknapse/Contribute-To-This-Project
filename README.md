@@ -74,8 +74,9 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG "click clone repository") |
 |:---|---:|
 
-| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
+| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
 |:---|---:|
+|<ul><li>Your fork will have your own GitHub user name.</li></ul> | ![your fork](readme-only/clone-your-fork.PNG "your fork will look like this, with your own user name") |
 
 + This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
 + Now you have a local copy of the project.
