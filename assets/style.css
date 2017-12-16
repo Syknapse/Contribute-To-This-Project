@@ -21,6 +21,9 @@ p {
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 25px;
     line-height: 1.7;
 }
@@ -29,9 +32,26 @@ p {
     margin: 10px auto 5px auto;
 }
 
+#contributions-number {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #1da1f2;
+    border: 2px solid #555;
+    padding: 5px;
+    transition: .8s;
+}
+
+/* .test {
+    font-size: 18px;
+} */
+
 .button {
+    width: 200px;
     border: 2px solid #555;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 20px;
     box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     color: #1da1f2;
