@@ -17,7 +17,8 @@ function countUp() {
             countUp();
         }
         if (i === numberOfCards-1){
-            displayClass.add("test");
+            displayClass.add("pulse");
+            displayClass.add("count-complete");
         }
     }, 130)  // delay
 }

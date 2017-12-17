@@ -40,12 +40,15 @@ p {
     color: #1da1f2;
     border: 2px solid #555;
     padding: 5px;
-    transition: .8s;
+    transition: 2.8s;
 }
 
-/* .test {
-    font-size: 18px;
-} */
+.count-complete {
+    background-color: rgba(255, 242, 66, 0.55);
+    -webkit-box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    -moz-box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
+}
 
 .button {
     width: 200px;
@@ -53,6 +56,8 @@ p {
     padding: 10px;
     margin-top: 10px;
     border-radius: 20px;
+    -webkit-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    -moz-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     color: #1da1f2;
 }
