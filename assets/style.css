@@ -28,8 +28,9 @@ p {
     line-height: 1.7;
 }
 
-.description a img {
-    margin: 10px auto 5px auto;
+.twitter-button {
+    margin: 10px auto;
+    height: 35px;
 }
 
 #contributions-number {
