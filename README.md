@@ -28,7 +28,7 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 ## Quick Access Index
 
-| <ul><li>[Introduction](https://github.com/Syknapse/Contribute-To-This-Project#introduction)</li><li>[What am I going to contribute?](https://github.com/Syknapse/Contribute-To-This-Project#what-am-i-going-to-contribute)</li><li>[Setup](https://github.com/Syknapse/Contribute-To-This-Project#setup)</li><li>[Contribute &rightarrow;](https://github.com/Syknapse/Contribute-To-This-Project#contribute)</li><li>[Next Steps](https://github.com/Syknapse/Contribute-To-This-Project#next-steps)</li><li>[Acknowledgements](https://github.com/Syknapse/Contribute-To-This-Project#acknowledgements)</li></ul> | Contribute: <ul><li>[Fork this repository](https://github.com/Syknapse/Contribute-To-This-Project#step-1-fork-this-repository)</li><li>[Clone the repository](https://github.com/Syknapse/Contribute-To-This-Project#step-2-clone-the-repository)</li><li>[Create a new branch](https://github.com/Syknapse/Contribute-To-This-Project#step-3-create-a-new-branch)</li><li>[Open the index.html file](https://github.com/Syknapse/Contribute-To-This-Project#step-4-open-the-indexhtml-file)</li><li>[Copy the card template](https://github.com/Syknapse/Contribute-To-This-Project#step-5-copy-the-card-template)</li><li>[Apply your changes](https://github.com/Syknapse/Contribute-To-This-Project#step-6-apply-your-changes)</li><li>[Commit your changes](https://github.com/Syknapse/Contribute-To-This-Project#step-7-commit-your-changes)</li><li>[Push your changes to GitHub](https://github.com/Syknapse/Contribute-To-This-Project#step-8-push-your-changes-to-github)</li><li>[Submit a PR](https://github.com/Syknapse/Contribute-To-This-Project#step-9-submit-a-pr)</li><li>[Celebrate!](https://github.com/Syknapse/Contribute-To-This-Project#step-10-celebrate)</li></ul> |
+| <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute-)</li><li>[Setup](#setup)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-index-html-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate-)</li></ul> |
 |:----|:----|
 
 ## Setup
@@ -169,7 +169,10 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 |:---|---:|
-| <ul><li>This is what your GitHub desktop header should look like</li><li>Notice the fork symbol next to the project name, and the branch name</li></ul> | ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
+
+| <ul><li>This is what your GitHub desktop header should look like</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
+|:-----|
+| ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 
 | <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Added my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 |:---|---:|
@@ -246,4 +249,4 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
-[Back to the top &uparrow;](https://github.com/Syknapse/Contribute-To-This-Project#contribute-to-this-project-)
+[Back to the top &uparrow;](#introduction)
