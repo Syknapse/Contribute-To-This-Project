@@ -252,4 +252,4 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
-[Back to the top &uparrow;](#-contribute-to-this-project-https-syknapse-github-io-contribute-to-this-project-)
+[Back to the top &uparrow;](#introduction)
