@@ -8,7 +8,7 @@ body {
 header {
     margin: 10px auto 20px auto;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 a {
@@ -21,13 +21,44 @@ p {
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 25px;
+    line-height: 1.7;
+}
+
+.twitter-button {
+    margin: 10px auto;
+    height: 35px;
+}
+
+#contributions-number {
+    width: 150px;
+    border: 1px solid;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    color: #1da1f2;
+    border: 2px solid #555;
+    padding: 5px;
+    transition: 2.8s;
+}
+
+.count-complete {
+    background-color: rgba(255, 242, 66, 0.55);
+    -webkit-box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    -moz-box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    box-shadow: inset -3px 8px 15px -3px rgba(82, 81, 85, .53);
 }
 
 .button {
+    width: 200px;
     border: 2px solid #555;
     padding: 10px;
+    margin-top: 10px;
     border-radius: 20px;
+    -webkit-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
+    -moz-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     color: #1da1f2;
 }
@@ -47,8 +78,7 @@ p {
     border: 2px solid #555;
     margin: 18px;
     border-radius: 20px;
-    max-width: 600px;
-    text-align: justify;
+    width: 500px;
     -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
     box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, .53);
@@ -82,6 +112,8 @@ p {
 .resources {
     background-color: rgba(255, 242, 66, 0.61);
     border-radius: 0 0 20px 20px;
+    height: 100%;
+    padding-right: 10px;
 }
 
 .resources p {
