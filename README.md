@@ -1,4 +1,6 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
+# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
 
 ## Introduction
 
@@ -25,6 +27,11 @@ Any web developer, aspiring or experienced needs to use Git version control, and
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ "https://syknapse.github.io/Contribute-To-This-Project"). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
+
+## Quick Access Index
+
+| <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute-)</li><li>[Setup](#setup)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-index-html-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate-)</li></ul> |
+|:----|:----|
 
 ## Setup
 
@@ -69,8 +76,9 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG "click clone repository") |
 |:---|---:|
 
-| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Your fork will have your own GitHub user name.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
-|:---|---:|
+| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG "click on <your-github-username>/Contribute-To-This-Project") |
+|:---|:---:|
+|<ul><li>A forked project will have the fork symbol on the left.</li><li>Your fork will have your own GitHub user name.</li></ul> | ![your fork](readme-only/clone-your-fork.PNG "your fork will look like this, with your own user name") |
 
 + This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
 + Now you have a local copy of the project.
@@ -149,6 +157,7 @@ _Estimated time: Less than 30 minutes_.
 | <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul> |
 
 + Make sure you have **saved all your changes**.
++ **Test your changes**. Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site.
 + Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 ---
@@ -162,6 +171,10 @@ _Estimated time: Less than 30 minutes_.
 
 | <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 |:---|---:|
+
+| <ul><li>This is what your GitHub desktop header should look like</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
+|:-----|
+| ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 
 | <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Added my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 |:---|---:|
@@ -223,17 +236,20 @@ I promise I will try to make the merges as soon as possible but a couple of days
 ## Next Steps
 
 + Come back in a while to check for your merged Pull Request.
-+ If you found this project useful please give it a star at the top of the page and Tweet about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
-+ You can follow me and get in touch on [Twitter](https://twitter.com/Syknapse "@Syknapse") or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact "My contact section | Portfolio")
++ You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
++ If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode "Tweet this project")
++ You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse "@Syknapse") or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact "My contact section | Portfolio")
 + This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ "Mastering Issues | GitHub Guides") or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ "Creating a pull request from a fork | GitHub Help")
-+ Thanks for contributing to this project. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
++ **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 
 ## Acknowledgements
 
-This project is heavily influenced by [Peter Lazar's](https://github.com/peterlazar1993) great [first-contributions](https://github.com/Syknapse/first-contributions) project with it's excellent tutorial.
+This project is heavily influenced by [Peter Lazar's](https://github.com/peterlazar1993) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with it's excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
 ## Licence
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
+
+[Back to the top &uparrow;](#introduction)
