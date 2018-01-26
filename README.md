@@ -18,7 +18,8 @@ This is a tutorial to help first-time contributors to participate in a simple an
 
 ### Why do I need to do this?
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
+Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
+If you are a new developer and you are wondering if you need to learn Git and GitHUb then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa "New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io").
 
 ## What am I going to contribute?
 
