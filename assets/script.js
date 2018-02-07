@@ -20,7 +20,7 @@ function countUp() {
             displayClass.add("pulse");
             displayClass.add("count-complete");
         }
-    }, 80)  // delay
+    }, 60)  // delay
 }
 
 countUp();
