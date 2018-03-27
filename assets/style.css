@@ -1,9 +1,6 @@
 /* Global
 ------ */
 body {
-  min-height: 100%;
-}
-body {
   background-image: linear-gradient(to bottom, #FFFFFF 30%, #88D9FF, #24206C, #222 80%);
   color: #333;
   background-size: 100% 400%;
@@ -20,7 +17,7 @@ header {
 }
 
 a:link {
-    color: #7FFFD4;
+    color: #1da1f2;
 }
 
 p {
@@ -51,11 +48,10 @@ p {
     border: 1px solid;
     margin-bottom: 10px;
     border-radius: 20px;
-    color: #7FFFD4;
+    color: #1da1f2;
     border: 2px solid #555;
     padding: 5px;
     transition: 2.8s:;
-    background-color: #666666;
     font-weight: bold;
 
 
@@ -74,7 +70,7 @@ p {
     padding: 10px;
     margin-top: 10px;
     border-radius: 20px;
-    color: #4682B4;
+    color: #1da1f2;
     font-weight: bold;
     -webkit-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
     -moz-box-shadow: -3px 8px 15px -3px rgba(82, 81, 85, .53);
@@ -115,12 +111,11 @@ p {
 
 .contact {
     border-bottom: 1px solid;
-    background-color: #666666;
-    color: #000080;
+    background-color: rgba(255, 242, 66, 0.61);
 }
 
 .contact i {
-    color: #0084b4;
+    color: #1da1f2;
 }
 
 .about {
@@ -129,7 +124,7 @@ p {
 }
 
 .resources {
-    background-color: #666666;
+    background-color: rgba(255, 242, 66, 0.61);
     border-radius: 0 0 20px 20px;
     height: 100%;
     padding-right: 10px;
@@ -145,7 +140,7 @@ p {
 
 body.night {
   background-position: 100% 100%;
-  color: #fff;
+  filter: invert(90%) hue-rotate(360deg);
 }
 
 .toggle-box-label-left:empty {
@@ -165,8 +160,6 @@ body.night {
 }
 .toggle-box input[type=checkbox],
 .toggle-box input[type=checkbox]:active {
-  position: absolute;
-  top: -5000px;
   height: 0;
   width: 0;
   opacity: 0;

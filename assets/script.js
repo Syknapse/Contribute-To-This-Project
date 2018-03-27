@@ -26,7 +26,7 @@ function countUp() {
 countUp();
 
 
-// add night mode effect
+// night mode feature
 $('#toggle-box-checkbox').on('change', function(){
   if(this.checked){
     $('body').addClass('night');
@@ -35,7 +35,6 @@ $('#toggle-box-checkbox').on('change', function(){
     $('body').removeClass('night');
   }
 });
-
 
 // 
 function demo(){
