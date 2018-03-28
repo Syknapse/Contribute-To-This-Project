@@ -25,5 +25,23 @@ function countUp() {
 
 countUp();
 
-// add effect
 
+// night mode feature
+$('#toggle-box-checkbox').on('change', function(){
+  if(this.checked){
+    $('body').addClass('night');
+  }
+  else {
+    $('body').removeClass('night');
+  }
+});
+
+// 
+function demo(){
+    setInterval(function(){
+      $("#toggle-box-checkbox").trigger('click');
+    }, 1000);
+}
+if (document.location.pathname.indexOf('fullcpgrid')>-1){
+  demo();
+}
