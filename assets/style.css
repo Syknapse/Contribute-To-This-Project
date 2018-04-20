@@ -1,7 +1,6 @@
 /* Global
 ------ */
 body {
-  background-image: linear-gradient(to bottom, #FFFFFF 30%, #88D9FF, #24206C, #222 80%);
   color: #333;
   background-size: 100% 400%;
   background-position: 100% 0%;
@@ -236,6 +235,62 @@ body.night {
   font-weight: bold;
 }
 
+/*Theme Change CSS Code*/
+body{}
+body.dark-theme {
+  background-color: #000;
+  color: #fff;
+
+}
+#change-theme-btn {
+  font: inherit;
+  padding: 0.3em 0.4em;
+  border: 3;
+  outline: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.15s ease-out;
+  background-color: #FDB12B;
+  overflow: hidden;
+  border-radius: 7px;
+  float: left;
+}
+
+.card:before{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #555;
+    margin: 18px;
+    width: 500px;
+
+}
+#change-theme-btn::before, #change-theme-btn::after {
+  content: ‘’;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  transition: all 0.15s ease-out;
+}
+#change-theme-btn::after {
+  background-color: #fff;
+  left: 100%;
+}
+#change-theme-btn:hover {
+  text-decoration: underline;
+}
+.dark-theme #change-theme-btn {
+  color: #333;
+}
+.dark-theme #change-theme-btn::before {
+  left: -100%;
+}
+.dark-theme #change-theme-btn::after {
+  left: 0;
+}
       
 
  
