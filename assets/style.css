@@ -138,9 +138,12 @@ p {
 /* Night Mode Codes
 ------ */
 
-body.night {
-  background-position: 100% 100%;
+.night {
   filter: invert(90%) hue-rotate(360deg);
+}
+
+.bg-position{
+  background-position: 100% 100%;
 }
 
 .toggle-box-label-left:empty {
