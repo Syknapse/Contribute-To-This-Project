@@ -29,10 +29,13 @@ countUp();
 // night mode feature
 $('#toggle-box-checkbox').on('change', function(){
   if(this.checked){
-    $('body').addClass('night');
+    $('.container').addClass('night');
+    $('body').addClass('bg-position');
+
   }
   else {
-    $('body').removeClass('night');
+    $('.container').removeClass('night');
+    $('body').removeClass('bg-position');
   }
 });
 
