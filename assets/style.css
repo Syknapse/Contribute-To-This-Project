@@ -25,7 +25,7 @@ p {
     padding: 0;
 }
 
-.a, resources { 
+.a, resources {
   color: #7FFFD4;
 
 }
@@ -51,7 +51,7 @@ p {
     color: #1da1f2;
     border: 2px solid #555;
     padding: 5px;
-    transition: 2.8s:;
+    transition: 2.8s;
     font-weight: bold;
 
 
@@ -132,7 +132,7 @@ p {
 
 .resources p {
     font-weight: bold;
-    
+
 }
 
 /* Night Mode Codes
@@ -239,6 +239,6 @@ p {
   font-weight: bold;
 }
 
-      
 
- 
+
+
