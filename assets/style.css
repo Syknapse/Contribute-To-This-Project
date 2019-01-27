@@ -83,6 +83,14 @@ p {
     justify-content: center;
 }
 
+footer {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 16px;
+}
+
 
 /* Card
 ------ */
