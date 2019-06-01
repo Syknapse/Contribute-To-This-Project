@@ -9,7 +9,7 @@ This is a tutorial to help first-time contributors to participate in a simple an
 ### Objectives
 
 + Make a contribution to an open source project.
-+ Get more comfortable using GitHub.
++ Get more comfortable in using GitHub.
 
 ### Who is this for?
 
@@ -19,7 +19,7 @@ This is a tutorial to help first-time contributors to participate in a simple an
 ### Why do I need to do this?
 
 Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
-If you are a new developer and you are wondering if you need to learn Git and GitHUb then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa "New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io").
+If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa "New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io").
 
 ## What am I going to contribute?
 
@@ -249,7 +249,7 @@ This project is heavily influenced by [Roshan Jossey's](https://github.com/Rosha
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-## Licence
+## License
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
