@@ -2,7 +2,7 @@
 ------ */
 body {
   background-image: linear-gradient(to bottom, #FFFFFF 30%, #88D9FF, #24206C, #222 80%);
-  color: #333;
+  color: #666;
   background-size: 100% 400%;
   background-position: 100% 0%;
   transition: all 1s;
