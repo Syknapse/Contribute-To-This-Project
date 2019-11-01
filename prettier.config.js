@@ -6,7 +6,7 @@ module.exports = {
 
     endOfLine: "lf",
 
-    htmlWhitespaceSensitivity: "css",
+    htmlWhitespaceSensitivity: "ignore",
 
     insertPragma: false,
 
@@ -26,7 +26,7 @@ module.exports = {
 
     singleQuote: true,
 
-    tabWidth: 2,
+    tabWidth: 4,
 
     trailingComma: "es5",
 
