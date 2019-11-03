@@ -1,12 +1,11 @@
 module.exports = {
-
-    arrowParens: "avoid",
+    arrowParens: 'avoid',
 
     bracketSpacing: true,
 
-    endOfLine: "lf",
+    endOfLine: 'lf',
 
-    htmlWhitespaceSensitivity: "ignore",
+    htmlWhitespaceSensitivity: 'ignore',
 
     insertPragma: false,
 
@@ -16,9 +15,9 @@ module.exports = {
 
     printWidth: 120,
 
-    proseWrap: "preserve",
+    proseWrap: 'preserve',
 
-    quoteProps: "as-needed",
+    quoteProps: 'as-needed',
 
     requirePragma: false,
 
@@ -28,8 +27,7 @@ module.exports = {
 
     tabWidth: 4,
 
-    trailingComma: "es5",
+    trailingComma: 'es5',
 
-    useTabs: false
-
-};
+    useTabs: false,
+}
