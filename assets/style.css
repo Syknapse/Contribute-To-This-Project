@@ -25,11 +25,6 @@ p {
     padding: 0;
 }
 
-.a,
-resources {
-    color: #7fffd4;
-}
-
 .description {
     display: flex;
     flex-direction: column;
@@ -139,11 +134,13 @@ footer {
     font-weight: bold;
 }
 
-/* Night Mode Codes
------- */
+/* Night Mode Codes */
 
 body.night {
     background-position: 100% 100%;
+}
+
+.night .container {
     filter: invert(90%) hue-rotate(360deg);
 }
 
