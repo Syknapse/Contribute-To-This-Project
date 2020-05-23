@@ -26,7 +26,7 @@ Si eres nuevo en el desarrollo de software y te estás preguntando si necesitas 
 
 ## ¿Con qué voy a contribuir?
 
-![Tarjeta de contribuyente](readme-only/card.PNG 'Tarjeta de contribuyente')
+![Tarjeta de contribuyente](/readme-only/card.PNG 'Tarjeta de contribuyente')
 
 Vas a contribuir con una tarjeta como ésta a la [página del proyecto](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). La tarjeta va a incluir tu nombre, tu usuario de twitter, una descripción y tres recomendaciones de hipervínculos apuntando a recursos que tú creas útiles para desarrolladores.
 
@@ -66,7 +66,7 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Un repositorio (repo) el nombre que se le da a un proyecto en GitHub y una bifurcación (fork) es una copia del mismo.
 -   Asegúrate de estar en la [página principal](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de éste repositorio.
 
-| <ul><li>Haz click en el botón _Fork_ </li></ul> | ![Fork](readme-only/fork.PNG "Haz click en 'Fork'") |
+| <ul><li>Haz click en el botón _Fork_ </li></ul> | ![Fork](/readme-only/fork.PNG "Haz click en 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
@@ -79,13 +79,13 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Ahora queremos hacer una copia local del proyecto, ésto es, una copia guardada en tu computadora.
 -   Abre la aplicacion GitHub Desktop y en la aplicación:
 
-| <ul><li>Haz click en _File_ y luego en _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'Haz click en "clone repository"') |
+| <ul><li>Haz click en _File_ y luego en _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'Haz click en "clone repository"') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Vas a ver una lista de tus proyectos y bifurcaciones en GitHub.</li><li>Selecciona `<tu-nombre-de-usuario-de-github'>/Contribute-To-This-Project`.</li><li>Haz click en _Clone_</li></ul> | ![Clona el proyecto](readme-only/clone-project.PNG 'Selecciona <tu-nombre-de-usuario-de-github>/Contribute-To-This-Project') |
+| <ul><li>Vas a ver una lista de tus proyectos y bifurcaciones en GitHub.</li><li>Selecciona `<tu-nombre-de-usuario-de-github'>/Contribute-To-This-Project`.</li><li>Haz click en _Clone_</li></ul> | ![Clona el proyecto](/readme-only/clone-project.PNG 'Selecciona <tu-nombre-de-usuario-de-github>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Un proyecto bifurcado va a tener el símbolo de bifurcación a la izquierda</li><li>Tu bifurcación  va a tener tu propio nombre de usuario de GitHub.</li></ul> | ![Tu bifurcación](readme-only/clone-your-fork.PNG 'Tu bifurcación va a verse así, con tu propio nombre de usuario')    |
+| <ul><li>Un proyecto bifurcado va a tener el símbolo de bifurcación a la izquierda</li><li>Tu bifurcación  va a tener tu propio nombre de usuario de GitHub.</li></ul> | ![Tu bifurcación](/readme-only/clone-your-fork.PNG 'Tu bifurcación va a verse así, con tu propio nombre de usuario')    |
 
 -   Va a tomar un momento realizar la copia del proyecto a tu disco duro. Te recomiendo que dejes la ruta por defecto que normalmente es `..\Documentos\GitHub`.
 -   Ahora tienes una copia local del proyecto
@@ -99,17 +99,17 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Una vez que el repositorio se ha clonado y tienes abierto GitHub Desktop es hora de crear una nueva rama (branch).
 -   Una rama es la manera de mantener separados tus cambios del proyecto principal llamado `Master`. Si, por ejemplo, las cosas van mal y no estas conforme con los cambios que has hecho, simplemente puedes borrar la rama y el proyecto principal no se verá afectado.
 
-| <ul><li>Haz click en _Current branch_</li><li>Luego en _New_</li></ul> | ![Crear rama](readme-only/branch-new.PNG "Click en 'Branch', luego en 'New'") |
+| <ul><li>Haz click en _Current branch_</li><li>Luego en _New_</li></ul> | ![Crear rama](/readme-only/branch-new.PNG "Click en 'Branch', luego en 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Dale un nombre a tu rama</li><li>Haz click en `Create branch`</li></ul> | ![Nombra tu rama](readme-only/branch-name.PNG 'Nombra tu rama') |
+| <ul><li>Dale un nombre a tu rama</li><li>Haz click en `Create branch`</li></ul> | ![Nombra tu rama](/readme-only/branch-name.PNG 'Nombra tu rama') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
 -   La puedes llamar como desees pero dado que es una rama en la que agregarás una tarjeta al proyecto, llamarla `tarjeta-de-tu-nombre` es una buena práctica, ya que quedará clara cual es la intención de la rama.
 
-| <ul><li>Publica tu nueva rama en Github</li></ul> | ![Nombre de la rama](readme-only/branch-publish.PNG 'Haz click en "Publish" para enviar la nueva rama a tu repositorio en GitHub') |
+| <ul><li>Publica tu nueva rama en Github</li></ul> | ![Nombre de la rama](/readme-only/branch-publish.PNG 'Haz click en "Publish" para enviar la nueva rama a tu repositorio en GitHub') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -126,7 +126,7 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Busca la carpeta en tu computadora. Si usaste las opciones por defecto debería estar en `tu-nombre-de-usuario-de-windows > Documentos > GitHub > Contribute-To-This-Project`
 -   El archivo `index.html` está justo en la carpeta `Contribute-To-This-Project`.
 
-| <ul><li>Abre tu editor (Sublime, VS Code, Atom, etc.) y utiliza el comando `Open file` para localizar el archivo index.html en el directorio principal del proyecto</li><li>También puedes hacerlo localizando el archivo en tu disco duro, darle click derecho y abrir con tu editor.</li></ul> | ![Abrir el archivo index](readme-only/index-open.PNG 'Abrir index.html en tu editor de texto') |
+| <ul><li>Abre tu editor (Sublime, VS Code, Atom, etc.) y utiliza el comando `Open file` para localizar el archivo index.html en el directorio principal del proyecto</li><li>También puedes hacerlo localizando el archivo en tu disco duro, darle click derecho y abrir con tu editor.</li></ul> | ![Abrir el archivo index](/readme-only/index-open.PNG 'Abrir index.html en tu editor de texto') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
@@ -140,11 +140,11 @@ _Tiempo estimado: Menos de 30 minutos._
 
 | <ul><li>Desplázate hacia abajo hasta el final del archivo, donde encontrarás una sección etiquetada como `== TEMPLATE ==`</li><li>Copia todo lo que está dentro del recuadro rojo en la imagen, desde el comentario `Contributor card START` hasta el comentario `Contributor card END`</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copia la plantilla de la tarjeta](readme-only/card-copy.PNG 'Copia la plantilla de la tarjeta')                                                                                                                                                                                       |
+| ![Copia la plantilla de la tarjeta](/readme-only/card-copy.PNG 'Copia la plantilla de la tarjeta')                                                                                                                                                                                       |
 
 | <ul><li>Pega todo justo debajo del comentario que lo indica</li><li>Asegúrate de dejar sólo una linea entre el final de la última tarjeta y el principio de tu tarjeta. Es una buena práctica dejar tu código tan claro como sea posible</li><li>Asegúrate de que la indentación de tu código es la correcta y que coincide con la de la plantilla</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Pega la plantilla de la tarjeta](readme-only/card-paste.PNG 'Pega sobre la línea indicada')                                                                                                                                                                                                                               |
+| ![Pega la plantilla de la tarjeta](/readme-only/card-paste.PNG 'Pega sobre la línea indicada')                                                                                                                                                                                                                               |
 
 -   Ésta es ahora **tu** tarjeta y puedes personalizarla.
 
@@ -154,23 +154,23 @@ _Tiempo estimado: Menos de 30 minutos._
 
 -   Comenzaremos editando el html, cambiando los campos personalizables en nuestra tarjeta.
 
-| <ul><li>Reemplaza 'Name' con tu nombre</li><li>Nota: No cambies `class="name"`</li></ul> | ![Cambia el nombre](readme-only/change-name.PNG 'Escribe tu nombre') |
+| <ul><li>Reemplaza 'Name' con tu nombre</li><li>Nota: No cambies `class="name"`</li></ul> | ![Cambia el nombre](/readme-only/change-name.PNG 'Escribe tu nombre') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
 | <ul><li>Inserta la URL de tu cuenta de Twitter `href="Insert URL here"`</li><li>Escribe tu @ en el campo de texto</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------- |
-| ![Cambiar contacto](readme-only/change-contact.PNG 'Inserta un vínculo a tu cuenta de Twitter y escribe tu arroba')               |
+| ![Cambiar contacto](/readme-only/change-contact.PNG 'Inserta un vínculo a tu cuenta de Twitter y escribe tu arroba')               |
 
 -   Si prefieres usar otro método de contacto en lugar de Twitter, deberás reemplazar el ícono`<i class="fa fa-twitter"></i>` yendo a [Font Awesome Icons](http://fontawesome.io/icons/), buscando el ícono adecuado y reemplazando sólo la parte de `fa-twitter` con la del nuevo ícono. `fa-facebook` por ejemplo. Luego continúa con los mismos pasos.
 
-| <ul><li>Dinos algo acerca de tí</li><li>Hazlo corto y sencillo. Piensa mas en un tweet que en un artículo de un blog</li></ul> | ![Cambia el "Acerca de"](readme-only/change-about.PNG 'Escribe una oración acerca de tí') |
+| <ul><li>Dinos algo acerca de tí</li><li>Hazlo corto y sencillo. Piensa mas en un tweet que en un artículo de un blog</li></ul> | ![Cambia el "Acerca de"](/readme-only/change-about.PNG 'Escribe una oración acerca de tí') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
 | <ul><li>Comparte con la comunidad tres enlaces que puedan ser útiles para el desarrollo web</li><li>Puede ser lo que quieras: un vídeo, una charla, un podcast, un artículo, una referencia o una herramienta</li><li>Si eres un principiante no te sientas intimidado por ésto, comparte lo que conozcas aunque pienses que es básico. Te sorprenderá la cantidad de gente que se beneficiará de eso</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Cambia recursos](readme-only/change-resources.PNG 'Inserta un enlace, escribe una descripción corta y el nombre del recurso')                                                                                                                                                                                                                                   |
+| ![Cambia recursos](/readme-only/change-resources.PNG 'Inserta un enlace, escribe una descripción corta y el nombre del recurso')                                                                                                                                                                                                                                   |
 | <ul><li>Enlace: Inserta el enlace `href="aquí"` reemplazando el `#`</li><li>Título: Escribe una breve descripción `title="aquí"`</li><li>Nombre: Escribe el nombre del recurso en el campo de texto `>aquí</a>`</li></ul>                                                                                                                                                               |
 
 -   Asegúrate de haber **guardado todos tus cambios**.
@@ -186,15 +186,15 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Ésto significa que Git ha registrado todos los cambios **guardados**.
 -   Puedes ver ésto reflejado en la aplicación. Todo lo que has agregado al archivo estará en verde y lo que has borrado se mostrará en rojo.
 
-| <ul><li>El próximo paso se llama _Commit_</li><li>Ésto significa "confirma los cambios"</li></ul> | ![confirma los cambios](readme-only/commit.PNG "Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda") |
+| <ul><li>El próximo paso se llama _Commit_</li><li>Ésto significa "confirma los cambios"</li></ul> | ![confirma los cambios](/readme-only/commit.PNG "Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Así es como debería verse la cabecera de GitHub Desktop</li><li>Nota el símbolo de bifurcación cerca del nombre del proyecto en `Current repository` (Repositorio actual)</li><li>Tu `Current branch` (Rama actual) tendrá el nombre que le diste en el paso 3</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Confirma los cambios](readme-only/commit-header.PNG "Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda")                                               |
+| ![Confirma los cambios](/readme-only/commit-header.PNG "Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda")                                               |
 
-| <ul><li>Para confirmar tus cambios (_Commit_) deberás llenar el campo _Summary_ (Resumen)</li><li>Éste es el mensaje de confirmación que explica tus cambios</li><li>En éste caso "Agregué mi tarjeta de información" sería un mensaje acorde</li><li>Opcionalmente puedes usar el campo _Description_ para añadir mas información</li><li>Haz click en el botón _Commit_. Tu boton va a decir algo como `Commit to "nombre-de-tu-rama"`</li></ul> | ![Escribe un mensaje y confirma](readme-only/commit-message.PNG "Escribe un breve mensaje en 'summary' y haz click en 'commit'") |
+| <ul><li>Para confirmar tus cambios (_Commit_) deberás llenar el campo _Summary_ (Resumen)</li><li>Éste es el mensaje de confirmación que explica tus cambios</li><li>En éste caso "Agregué mi tarjeta de información" sería un mensaje acorde</li><li>Opcionalmente puedes usar el campo _Description_ para añadir mas información</li><li>Haz click en el botón _Commit_. Tu boton va a decir algo como `Commit to "nombre-de-tu-rama"`</li></ul> | ![Escribe un mensaje y confirma](/readme-only/commit-message.PNG "Escribe un breve mensaje en 'summary' y haz click en 'commit'") |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -205,7 +205,7 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Tus cambios ahora están guardados o confirmados. Pero ellos están guardados localmente, es decir, en tu computadora.
 -   Sincronizar cambios locales con tu repositorio en GitHub es llamado _Push_. Estás "pusheando" (subiendo) los cambios desde tu ambiente local a tu repositorio remoto en GitHub.
 
-| <ul><li>Haz click en el botón _Push_</li></ul> | ![Push a GitHub](readme-only/push.PNG "Sube tus cambios a GitHub, haz click en el botón 'Push'") |
+| <ul><li>Haz click en el botón _Push_</li></ul> | ![Push a GitHub](/readme-only/push.PNG "Sube tus cambios a GitHub, haz click en el botón 'Push'") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
 
 
@@ -222,15 +222,15 @@ _Tiempo estimado: Menos de 30 minutos._
 -   Vé a la página principal de tu **bifurcación** en GitHub (tendrá el símbolo de bifurcación y tu nombre arriba).
 -   Hacia la parte superior del repositorio verás un mensaje de solicitud de extracción resaltado con un botón verde.
 
-| <ul><li>Haz click en `Compare and pull request`</li></ul> | ![Enviar una solicitud de extracción](readme-only/pull-request.PNG 'Ésto usualmente está ubicado hacia la parte superior de la página, bajo la descripción y sobre las carpetas y archivos del proyecto') |
+| <ul><li>Haz click en `Compare and pull request`</li></ul> | ![Enviar una solicitud de extracción](/readme-only/pull-request.PNG 'Ésto usualmente está ubicado hacia la parte superior de la página, bajo la descripción y sobre las carpetas y archivos del proyecto') |
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Así es como luce la página `Open a pull request` (Abrir una solicitud de extracción).</li><li>RECUERDA _estás tratando de unir tu rama con el proyecto original, no con la rama `master` de tu bifurcación_.</li><li>La imagen a continuación de una idea de como debería verse la cabecera de tu solicitud de extracción.</li><li>A la izquierda el proyecto original, seguido por la rama master. A la derecha está tu bifurcación y la rama que creaste.</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Abre una solicitud de extracción](readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                      |
+| ![Abre una solicitud de extracción](/readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                      |
 
-| <ul><li>Crear una solicitud de extracción:</li><li>Escribe un título</li><li>Agrega información adicional en la descripción</li><li>Haz click en `Create pull request`</li></ul> | ![Envía una solicitud de extracción](readme-only/pull-request-open.PNG "Haz click en el boton verde, no tengas miedo!!") |
+| <ul><li>Crear una solicitud de extracción:</li><li>Escribe un título</li><li>Agrega información adicional en la descripción</li><li>Haz click en `Create pull request`</li></ul> | ![Envía una solicitud de extracción](/readme-only/pull-request-open.PNG "Haz click en el boton verde, no tengas miedo!!") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
