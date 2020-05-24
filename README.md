@@ -6,7 +6,7 @@
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (only Portuguese currently. Translations welcome).
+This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Portuguese, Spanish, and Italian currently. Translations very welcome).
 
 ### Objectives
 
