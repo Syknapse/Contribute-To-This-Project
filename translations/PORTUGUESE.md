@@ -31,7 +31,7 @@ Você fará uma cópia do modelo do cartão dentro do arquivo HTML e o personali
 
 ## Índice de Acesso Rápido
 
-| <ul><li>[Introdução](#introduction)</li><li>[Com o que vou contribuir?](#what-am-i-going-to-contribute-)</li><li>[Setup](#setup)</li><li>[Contribua &rightarrow;](#contribute)</li><li>[Próximos passos](#next-steps)</li><li>[Agradecimentos](#Agradecimentos)</li></ul> | Contribuindo: <ul><li>[Passo 1: dê um Fork nesse repositório](#step-1-fork-this-repository)</li><li>[Passo 2: Clone o repositório](#step-2-clone-the-repository)</li><li>[Passo 3: Cria uma nova Branch](#step-3-create-a-new-branch)</li><li>[Passo 4: Abra o arquivo index.html](#step-4-open-the-index-html-file)</li><li>[Passo 5: Copie o modelo do cartão](#step-5-copy-the-card-template)</li><li>[Passo 6: Aplique suas mudanças](#step-6-apply-your-changes)</li><li>[Passo 7: Commit suas mudanças](#step-7-commit-your-changes)</li><li>[Passo 8: Envie suas alterações para o GitHub](#step-8-push-your-changes-to-github)</li><li>[Passo 9: Submita a PR](#step-9-submit-a-pr)</li><li>[Passo 10: Comemore!](#step-10-celebrate-)</li></ul> |
+| <ul><li>[Introdução](#introdução)</li><li>[Com o que vou contribuir?](#com-o-que-vou-contribuir)</li><li>[Configurando](#configurando)</li><li>[Contribua &rightarrow;](#contribuindo)</li><li>[Próximos passos](#next-steps)</li><li>[Agradecimentos](#Agradecimentos)</li></ul> | Contribuindo: <ul><li>[Passo 1: dê um Fork nesse repositório](#passo-1-de-um-fork-nesse-repositório)</li><li>[Passo 2: Clone o repositório](#passo-2-clone-o-repositório)</li><li>[Passo 3: Cria uma nova Branch](#passo-3-crie-uma-nova-branch)</li><li>[Passo 4: Abra o arquivo index.html](#passo-4-abra-o-arquivo-indexhtml)</li><li>[Passo 5: Copie o modelo do cartão](#passo-5-copie-o-modelo-do-cartão)</li><li>[Passo 6: Aplique suas mudanças](#passo-6-aplique-suas-mudanças)</li><li>[Passo 7: Commit suas mudanças](#passo-7-commit-nas-suas-mudanças)</li><li>[Passo 8: Envie suas alterações para o GitHub](#passo-8-envie-suas-mudanças-ao-github)</li><li>[Passo 9: Submita a PR](#passo-9-envie-um-pr)</li><li>[Passo 10: Comemore!](#passo-10-comemore)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
@@ -145,7 +145,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 ---
 
-### Step 6: Aplique suas mudanças
+### Passo 6: Aplique suas mudanças
 
 -   Agora começaremos a editar o html, alterando os campos personalizáveis em nosso cartão.
 
@@ -195,7 +195,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 ---
 
-### Passe 8: Envie suas mudanças ao GitHub
+### Passo 8: Envie suas mudanças ao GitHub
 
 -   Suas alterações agora estão salvas ou confirmadas. Mas eles são salvos apenas localmente, ou seja, no seu computador.
 -   A sincronização de alterações locais com seu repositório no Github é chamada de _Push_. Você está "enviando" as alterações do seu repositório local para o repositório remoto no Github.
@@ -268,4 +268,4 @@ Também é particularmente inspirado pela grande comunidade em torno de [#Google
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
-[Volte ao topo &uparrow;](#introduction)
+[Volte ao topo &uparrow;](#introdução)
