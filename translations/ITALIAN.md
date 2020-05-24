@@ -31,7 +31,7 @@ Farai una copia del modello di questa card all'interno del file HTML e lo person
 
 ## Indice di accesso rapido
 
-| <ul><li>[Introduzione](#Introduzione)</li><li>[A Che cosa andrò a contribuire?](#A-Che-cosa-andrò-a-contribuire?-)</li><li>[Setup](#setup)</li><li>[Contribuisci &rightarrow;](#Contribuisci)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-index-html-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate-)</li></ul> |
+| <ul><li>[Introduzione](#introduzione)</li><li>[A Che cosa andrò a contribuire?](#a-che-cosa-andrò-a-contribuire)</li><li>[Setup](#setup)</li><li>[Contribuisci &rightarrow;](#Contribuisci)</li><li>[Prossimi passi](#prossimi-passi)</li><li>[Ringraziamenti](#ringraziamenti)</li></ul> | Contribuisci: <ul><li>[Passaggio 1: eseguire il fork di questo repository](#passaggio-1-eseguire-il-fork-di-questo-repository)</li><li>[Passaggio 2: Clona il repository](#passaggio-2-clona-il-repository)</li><li>[Passaggio 3: Crea un nuovo branch](#passaggio-3-crea-un-nuovo-branch)</li><li>[Passaggio 4: Apri il file index.html](#passaggio-4-apri-il-file-indexhtml)</li><li>[Passaggio 5: copia il modello della card](#passaggio-5-copia-il-modello-della-card)</li><li>[Passaggio 6: applicare le modifiche](#passaggio-6-applicare-le-modifiche)</li><li>[Passaggio 7: eseguire il commit delle modifiche](#passaggio-7-eseguire-il-commit-delle-modifiche)</li><li>[Passaggio 8: invia(operazione di Push) le modifiche(changes) a GitHub](#passaggio-8-inviaoperazione-di-push-le-modifichechanges-a-github)</li><li>[Passaggio 9: inviare una PR (Pull Request)](#passaggio-9-inviare-una-pr-pull-request)</li><li>[Passaggio 10: Festeggiare!](#passaggio-10-festeggiare)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
@@ -116,7 +116,7 @@ _ Tempo stimato: meno di 30 minuti_.
 
 ---
 
-### Step 4: Apri il file index.html
+### Passaggio 4: Apri il file index.html
 
 -	Ora dobbiamo aprire il file che stiamo per modificare con un qualsiasi editor di codice che ti consenta di modificare il file index.html.
 -	Trova la cartella del progetto sul tuo computer. Se hai mantenuto l'impostazione predefinita, dovrebbe essere qualcosa come `tuo-computer> Documenti> GitHub> Contribute-To-This-Project`
@@ -130,7 +130,7 @@ _ Tempo stimato: meno di 30 minuti_.
 
 ---
 
-### Passaggio 5: copia il modello della card.
+### Passaggio 5: copia il modello della card
 
 - Faremo una copia del modello della card per iniziare a lavorarci
 
@@ -235,7 +235,7 @@ _ Tempo stimato: meno di 30 minuti_.
 - 	Ora, una _Pull Request_ verrà inviata al manutentore del progetto. Non appena esaminato e accettato, le modifiche verranno visualizzate nella [pagina web del progetto](https://syknapse.github.io/Contribute-To-This-Project 'Contribuisci a questo progetto pagina Web').
 ---
 
-### Step 10: Festeggiare!
+### Passaggio 10: Festeggiare!
 
 Questo è tutto. ce l'hai fatta! Ora hai contribuito all'open source su GitHub.
 
