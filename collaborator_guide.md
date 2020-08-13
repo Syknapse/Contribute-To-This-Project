@@ -42,3 +42,7 @@ I recommend the use of a tool like [GitKraken](https://www.gitkraken.com/downloa
 Download GitKraken, clone the project. Using a combination of your code editor and GitKraken's integrated merge conflict tool gives you full control to quickly go through PRs, fixing conflicts and merging.
 
 If you are ever in doubt, you can always mention me or the other collaborators in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
+
+## Join us
+
+Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you.
