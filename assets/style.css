@@ -103,10 +103,11 @@ footer {
 }
 
 .name {
-    background-color: rgba(29, 161, 242, 0.8);
+    background-color: rgba(255, 0, 0, 0.8);
     font-weight: bold;
     border-bottom: 1px solid;
     border-radius: 20px 20px 0 0;
+    color:white;
 }
 
 .contact {
@@ -235,4 +236,13 @@ body.night {
 .toggle-box input[type='checkbox']:checked + .toggle-box-label-left + .toggle-box-label {
     color: rgba(250, 250, 250, 0.51);
     font-weight: bold;
+}
+footer {
+    background-color:black;
+    color:white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+    margin: 16px;
 }
