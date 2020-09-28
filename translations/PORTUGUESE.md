@@ -74,7 +74,7 @@ _Tempos estimado: menos de 30 minutos_.
 ### Passo 2: Clone o repositório
 
 -   Agora nós temos que fazer uma cópia local do projeto. Essa é uma cópia salva na sua máquina.
--   Open the GitHub desktop app. In the app:
+-   Abra o Github Desktop. E no seu Aplicativo:
 
 | <ul><li>Clique no _arquivo_ e então _Clone o repositório_</li></ul> | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
