@@ -91,11 +91,11 @@ footer {
   flex-direction: column;
   border: 2px solid #555;
   margin: 18px;
-  border-radius: 20px;
   width: 500px;
-  -webkit-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, 0.53);
-  -moz-box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, 0.53);
-  box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, 0.53);
+  border-radius: 16px;
+  background: #edf4f7;
+box-shadow:  -19px -19px 38px #a6abad, 
+             19px 19px 38px #ffffff;
 }
 
 .card p {
