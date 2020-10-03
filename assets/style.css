@@ -94,8 +94,8 @@ footer {
   width: 500px;
   border-radius: 16px;
   background: #edf4f7;
-box-shadow:  -19px -19px 38px #a6abad, 
-             19px 19px 38px #ffffff;
+  box-shadow:  -19px -19px 38px #a6abad, 
+               19px 19px 38px #ffffff;
 }
 
 .card p {
