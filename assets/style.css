@@ -23,7 +23,7 @@ a:link {
 p {
   margin: 0;
   padding: 0;
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .description {
@@ -34,42 +34,38 @@ p {
 }
 
 .twitter-button {
-    text-align: right;
-    margin-bottom: 24px
+  text-align: right;
+  margin-bottom: 24px;
 }
 
 #contributions-number {
   color: #fa3d66;
   transition: 2.8s;
   font-weight: bold;
-    font-size: 36px;
-}
-
-.count-complete {
+  font-size: 36px;
 }
 
 .button {
-    color: #ffffff!important;
-    width: 230px;
+  color: #ffffff !important;
+  width: 230px;
   background: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
   border: none;
   padding: 16px 20px;
-border-radius: 5px;
+  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 24px 2px;
   cursor: pointer;
-    -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
 }
 
-
 .container {
   max-width: 1614px;
-      margin: auto;
+  margin: auto;
 }
 .grid {
   display: flex;
@@ -82,8 +78,8 @@ border-radius: 5px;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-    padding-top: 16px;
-padding-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .column {
@@ -93,16 +89,15 @@ padding-bottom: 16px;
 }
 
 .left-column {
-    text-align: left;
-    margin-left: 16px;
-    margin-right: 16px;
+  text-align: left;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 .right-column {
-    text-align: right;
-    margin-left: 16px;
-    margin-right: 16px;
+  text-align: right;
+  margin-left: 16px;
+  margin-right: 16px;
 }
-
 
 .double-column {
   display: flex;
@@ -146,7 +141,7 @@ footer {
 .contact {
   background-color: #f2f2f2;
   border-bottom: 1px solid #100633;
-   margin-bottom: 8px;   
+  margin-bottom: 8px;
 }
 
 .contact i {
@@ -168,32 +163,30 @@ footer {
   font-weight: bold;
 }
 
-
 /* Night Mode Codes */
 
 body.night {
   background-position: 100% 100%;
-    background-color: #100633;
+  background-color: #100633;
 }
 
 .night .container {
   color: #d2d6dc;
 }
 .night h1 {
-    color: #ffbc22;
+  color: #ffbc22;
 }
 .night .card {
-    border: 1px solid #ffbc22;
-    
+  border: 1px solid #ffbc22;
 }
 .night .name {
-    color: #d2d6dc;
+  color: #d2d6dc;
   background-color: #1f0b6b;
 }
 
 .night .contact {
   background-color: #1f0b6b;
-    border-bottom: 1px solid #ffbc22;
+  border-bottom: 1px solid #ffbc22;
 }
 
 .night .contact i {
@@ -201,12 +194,12 @@ body.night {
 }
 
 .night .about {
-    color: #d2d6dc;
+  color: #d2d6dc;
   background-color: #100633;
 }
 
 .night .resources {
-    color: #d2d6dc;
+  color: #d2d6dc;
   background-color: #100633;
 }
 
@@ -236,7 +229,7 @@ body.night {
 .toggle-box label {
   float: left;
   display: inline-block;
-  position: relative ;
+  position: relative;
   padding: 0px;
   margin-bottom: 20px;
   font-size: 14px;
@@ -304,10 +297,10 @@ body.night {
 }
 @media screen and (min-width: 800px) {
   .column {
-    flex: 1
+    flex: 1;
   }
 
   .double-column {
-    flex: 2
+    flex: 2;
   }
 }
