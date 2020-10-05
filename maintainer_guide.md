@@ -1,15 +1,15 @@
-# Collaborator's Guide
+# Maintainer's Guide
 
-This guide is for those who would like to join the project as collaborators, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
+This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
 ## Objectives
 
-Our main objective is to give our collaborators the quickest feedback possible from the point they make their pull request. This primarily means giving code reviews, and merging accepted PRs.  
+Our main objective is to give our contributors the quickest feedback possible from the point they make their pull request. This primarily means giving code reviews, and merging accepted PRs.  
 Apart from that we can maintain the project making sure everything is working correctly and as helpful and useful as it can be for our contributors.
 
-## Who is collaboration for?
+## Who is this for?
 
-Anyone with a bit of Git and GitHub skills. You don't have to be an expert, this guide should help even beginners. This is an active project that receives regular contributions and it helps many people make their first open source contribution. Being a collaborator on this project helps make sure it continues to give our contributors a good first experience and encouraging them to contribute more.
+Anyone with a bit of Git and GitHub skills. You don't have to be an expert, this guide should help even beginners. This is an active project that receives regular contributions and it helps many people make their first open source contribution. Being a maintainer on this project helps make sure it continues to give our contributors a good first experience and encouraging them to contribute more.
 
 You can commit as much or as little time as you want to this. Between us we hopefully can keep it running smoothly.
 
@@ -18,9 +18,9 @@ You can commit as much or as little time as you want to this. Between us we hope
 - Go to the project's pull request section, start with the oldest pull request that is not in 'changes requested' state.
 - Open a PR and go to the files changes tab and start a code review.
 - Check the PR, make sure it follows the spec in the tutorial.
-- Make sure the HTML, the links, and the data are all correct. Make sure the card is positioned at the end of the file where it should be.
+- Make sure the HTML, the links, and the data are all correct. Make sure the card is positioned at the start of the file where it should be.
 - Next check for any conflicts. Merge `master` into the PR branch to fix the conflicts. Conflicts usually happen when it's been a while since the previous merges and several PRs are using the same outdated version.
-- If this is the case fix the conflict. Usually you will have to add the new card at the bottom of cards that had been added since the fork was made.
+- If this is the case fix the conflict. Usually you will have to add the new card on top of cards that had been added since the fork was made.
 - If everything else is ok, approve the PR, write a message to the contributor thanking them for the contribution (remembering they are first timers and would benefit from encouragement).
 - Merge the PR into `master`.
 
@@ -44,7 +44,7 @@ Download GitKraken, clone the project. Using a combination of your code editor a
 The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with he same indentation and style.  
 If you notice the HTML file looking messy run `npm run prettier-html` in the project root. It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
 
-If you are ever in doubt, you can always mention me or the other collaborators in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
+If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
 
 ## Join us
 
