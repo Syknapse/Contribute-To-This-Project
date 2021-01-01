@@ -29,7 +29,7 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 
 ![Contributor Card](readme-only/card.PNG 'Contributor Card')
 
-You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project' 'https://www.phpcodingstuff.com/'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
