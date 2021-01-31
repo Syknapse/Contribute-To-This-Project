@@ -304,3 +304,7 @@ body.night {
     flex: 2;
   }
 }
+
+#archiveObject {
+  width: 100%
+}
