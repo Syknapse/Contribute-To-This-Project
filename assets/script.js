@@ -1,25 +1,12 @@
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
-const numberOfCards = document.getElementsByClassName('card').length
-const numberOfContributors = numberOfCards - 1 // minus the example card
 let displayNumber = 0
 let i = 0
 
-document.getElementById('archiveObject').onload = function() {
-  const archiveObject = document.getElementById('archiveObject')
-  const cards = archiveObject.contentDocument.querySelectorAll('.card')
-  const grid = document.querySelector('.grid')
-
-  console.log('cards: ', cards)
-  
-  cards.forEach(card => {
-    grid.append(card)
-  })
-  archiveObject.remove()
-}
-
-
 function countUp() {
+  const numberOfCards = document.getElementsByClassName('card').length
+  const numberOfContributors = numberOfCards - 1 // minus the example card
+
   setTimeout(function() {
     displayNumber += 1
     // print result to html
@@ -36,7 +23,17 @@ function countUp() {
   }, 15) // delay
 }
 
-countUp()
+document.getElementById('archiveObject').onload = function() {
+  const archiveObject = document.getElementById('archiveObject')
+  const cards = archiveObject.contentDocument.querySelectorAll('.card')
+  const grid = document.querySelector('.grid')
+
+  cards.forEach(card => {
+    grid.append(card)
+  })
+  archiveObject.remove()
+  countUp()
+}
 
 // night mode feature
 $('#toggle-box-checkbox').on('change', function() {
