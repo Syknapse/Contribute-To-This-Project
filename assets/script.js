@@ -23,17 +23,37 @@ function countUp() {
   }, 15) // delay
 }
 
-document.getElementById('archiveObject').onload = function() {
-  const archiveObject = document.getElementById('archiveObject')
-  const cards = archiveObject.contentDocument.querySelectorAll('.card')
-  const grid = document.querySelector('.grid')
-
-  cards.forEach(card => {
-    grid.append(card)
-  })
-  archiveObject.remove()
-  countUp()
+const createArchiveObject = i => {
+  const container = document.querySelector('.container')
+  const archiveObject = document.createElement('object')
+  archiveObject.setAttribute('id', `archiveObject_${i}`)
+  archiveObject.setAttribute('data', `archive/archive_${i}.html`)
+  archiveObject.setAttribute('type', 'text/html')
+  archiveObject.setAttribute('width', '300')
+  archiveObject.setAttribute('height', '5000')
+  container.append(archiveObject)
 }
+
+const NUMBER_OF_FILES = 2
+const files = [...Array(NUMBER_OF_FILES).keys()]
+
+files.forEach(file => {
+  const i = file + 1
+  createArchiveObject(i)
+  
+  document.getElementById(`archiveObject_${i}`).onload = function() {
+    const archiveObject = document.getElementById(`archiveObject_${i}`)
+    const cards = archiveObject.contentDocument.querySelectorAll('.card')
+    const grid = document.querySelector('.grid')
+  
+    cards.forEach(card => {
+      grid.append(card)
+    })
+    archiveObject.remove()
+    countUp()
+  }
+})
+
 
 // night mode feature
 $('#toggle-box-checkbox').on('change', function() {
