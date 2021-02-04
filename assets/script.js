@@ -2,6 +2,15 @@ const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
 
+const showInfoInConsole = () => {
+  const cardsInIndex = document.getElementsByClassName('card').length - 1
+
+  console.info('Cards in index.html', cardsInIndex)
+  if (cardsInIndex > 30) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
+}
+showInfoInConsole()
+
+
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
