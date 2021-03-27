@@ -63,7 +63,7 @@ _Tempos estimado: menos de 30 minutos_.
 -   Um repositório (repo) é como o projeto é chamado no GitHub e o Fork é uma cópia dele.
 -   Garanta que você esteja na [página principal](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') desse repositório.
 
-| <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](/readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Clique no botão _Fork_ </li></ul> | ![Fork](/readme-only/fork.PNG "click on 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
@@ -94,7 +94,7 @@ _Tempos estimado: menos de 30 minutos_.
 -  Depois que o repositório for clonado e você o abrir na área de trabalho do GitHub, é hora de criar um novo ramo.
 -  Uma ramificação é uma maneira de manter suas alterações separadas da parte principal do projeto chamada `Mestre '. Por exemplo, se as coisas derem errado e você não estiver satisfeito com as alterações, basta excluir a ramificação e o projeto principal não será afetado.
 
-| <ul><li>Click em _Current branch_</li><li>Then click on _New_</li></ul> | ![Crie a branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>Clique em _Current branch_</li><li>Em seguida, clique em _New_</li></ul> | ![Crie a branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
@@ -149,7 +149,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 -   Agora começaremos a editar o html, alterando os campos personalizáveis em nosso cartão.
 
-| <ul><li>Replace 'Name' com seu nome</li><li>Nota: não mude `class="name"`</li></ul> | ![Altere o nome](/readme-only/change-name.PNG 'Type your name') |
+| <ul><li>Substitua 'Name' com seu nome</li><li>Nota: não mude `class="name"`</li></ul> | ![Altere o nome](/readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
@@ -166,7 +166,7 @@ _Tempos estimado: menos de 30 minutos_.
 | <ul><li>Compartilhe com a comunidade 3 links para recursos úteis para o desenvolvimento web</li><li>Pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta</li><li>Se você é iniciante, não se deixe intimidar por isso, compartilhe o que sabe, mesmo que você ache básico. Você ficará surpreso com quantas pessoas se beneficiarão</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Alterar recurso](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                   |
-| <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul>                                                                                                                                                               |
+| <ul><li>Link: Insira o link `href="here"` substituindo o `#`</li><li>Título: Escreva uma breve descrição `title="here"`</li><li> Nome: escreva o nome do recurso no campo de texto `>here</a>`</li></ul>                                                                                                                                                               |
 
 -   Garanta que você **salvou todas as suas mudanças**.
 -   **Teste suas mudanças**. ISSO É IMPORTANTE!Abra o arquivo html no seu navegador (clicando duas vezes nele, por exemplo) e veja como será o seu cartão no site. Veja que a página inteira ainda parece a mesma e nada está quebrado. Clique nos seus links e verifique se eles estão funcionando.Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
@@ -185,7 +185,7 @@ _Tempos estimado: menos de 30 minutos_.
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>É assim que o cabeçalho da área de trabalho do GitHub deve parecer</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
+| <ul><li>É assim que o cabeçalho da área de trabalho do GitHub deve parecer</li><li>Observe o símbolo de bifurcação ao lado do nome do projeto no repositório atual `Current repository`</li><li>Seu `Current branch` terá o nome que você deu na etapa 3 </li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Commit suas mudanças](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left")                                               |
 
