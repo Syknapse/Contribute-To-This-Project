@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* Global
 ------ */
 body {
@@ -7,6 +9,10 @@ body {
   transition: all 1s;
   box-sizing: border-box;
   font-family: roboto, arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
 }
 
 header {
@@ -48,7 +54,7 @@ p {
 .button {
   color: #ffffff !important;
   width: 230px;
-  background: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
+  background-image: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
   border: none;
   padding: 16px 20px;
   border-radius: 5px;
@@ -61,6 +67,15 @@ p {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+}
+
+.button:hover {
+  background-image: radial-gradient(yellow,tomato);
+}
+
+.button:active {
+  background-image: linear-gradient(yellow, lime);
+  color:rgba(82, 81, 85, 0.25)
 }
 
 .container {
@@ -129,6 +144,7 @@ footer {
 
 .card p {
   padding: 8px 24px 8px 24px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .name {
@@ -136,6 +152,7 @@ footer {
   font-weight: bold;
   border-radius: 5px 5px 0 0;
   font-size: 20px;
+  font-family: 'Lato', sans-serif;
 }
 
 .contact {
