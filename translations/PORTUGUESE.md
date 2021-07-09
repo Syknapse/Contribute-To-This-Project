@@ -14,7 +14,7 @@ Esse é um tutorial para ajudar os contribuidores inicial a participar de um sim
 ### Para quem é isso?
 
 -   Isto é para iniciantes absolutos. Se você sabe como escrever e editar uma tag de âncora `<a href="" target=""> </a>`, deve poder fazer isso.
--   Isto é para aqueles com um pouco mais de experiência mas que querem fazer a sua primeira contribuição para um Open Sour, or possuir mais contribuições para maior experiência e confiança.
+-   Isto é para aqueles com um pouco mais de experiência mas que querem fazer a sua primeira contribuição para um Open Source, or possuir mais contribuições para maior experiência e confiança.
 
 ### Por que eu preciso fazer isso?
 
@@ -74,7 +74,7 @@ _Tempos estimado: menos de 30 minutos_.
 ### Passo 2: Clone o repositório
 
 -   Agora nós temos que fazer uma cópia local do projeto. Essa é uma cópia salva na sua máquina.
--   Open the GitHub desktop app. In the app:
+-   Abra o Github Desktop. E no seu Aplicativo:
 
 | <ul><li>Clique no _arquivo_ e então _Clone o repositório_</li></ul> | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
