@@ -14,7 +14,7 @@ Esse é um tutorial para ajudar os contribuidores inicial a participar de um sim
 ### Para quem é isso?
 
 -   Isto é para iniciantes absolutos. Se você sabe como escrever e editar uma tag de âncora `<a href="" target=""> </a>`, deve poder fazer isso.
--   Isto é para aqueles com um pouco mais de experiência mas que querem fazer a sua primeira contribuição para um Open Source, or possuir mais contribuições para maior experiência e confiança.
+-   Isto é para aqueles com um pouco mais de experiência mas que querem fazer a sua primeira contribuição para um Open Source, ou possuir mais contribuições para maior experiência e confiança.
 
 ### Por que eu preciso fazer isso?
 
@@ -25,13 +25,13 @@ Se você é um novo desenvolvedor e está se perguntando se precisa aprender Git
 
 ![Cartão de Colaborador](/readme-only/card.PNG 'Contributor Card')
 
-Você contribuirá com um cartão como este para este [pagina de projetos](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Ele incluirá seu nome, seu endereço no Twitter, uma breve descrição e três links para recursos úteis para os desenvolvedores da web que você recomenda.
+Você contribuirá com um cartão como este para esta [página de projetos](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Ele incluirá seu nome, seu endereço no Twitter, uma breve descrição e três links para recursos úteis para os desenvolvedores da web que você recomenda.
 
 Você fará uma cópia do modelo do cartão dentro do arquivo HTML e o personalizará com suas próprias informações.
 
 ## Índice de Acesso Rápido
 
-| <ul><li>[Introdução](#introdução)</li><li>[Com o que vou contribuir?](#com-o-que-vou-contribuir)</li><li>[Configurando](#configurando)</li><li>[Contribua &rightarrow;](#contribuindo)</li><li>[Próximos passos](#next-steps)</li><li>[Agradecimentos](#Agradecimentos)</li></ul> | Contribuindo: <ul><li>[Passo 1: dê um Fork nesse repositório](#passo-1-de-um-fork-nesse-repositório)</li><li>[Passo 2: Clone o repositório](#passo-2-clone-o-repositório)</li><li>[Passo 3: Cria uma nova Branch](#passo-3-crie-uma-nova-branch)</li><li>[Passo 4: Abra o arquivo index.html](#passo-4-abra-o-arquivo-indexhtml)</li><li>[Passo 5: Copie o modelo do cartão](#passo-5-copie-o-modelo-do-cartão)</li><li>[Passo 6: Aplique suas mudanças](#passo-6-aplique-suas-mudanças)</li><li>[Passo 7: Commit suas mudanças](#passo-7-commit-nas-suas-mudanças)</li><li>[Passo 8: Envie suas alterações para o GitHub](#passo-8-envie-suas-mudanças-ao-github)</li><li>[Passo 9: Submita a PR](#passo-9-envie-um-pr)</li><li>[Passo 10: Comemore!](#passo-10-comemore)</li></ul> |
+| <ul><li>[Introdução](#introdução)</li><li>[Com o que vou contribuir?](#com-o-que-vou-contribuir)</li><li>[Configurando](#configurando)</li><li>[Contribua &rightarrow;](#contribuindo)</li><li>[Próximos passos](#próximos-passos)</li><li>[Agradecimentos](#Agradecimentos)</li></ul> | Contribuindo: <ul><li>[Passo 1: dê um Fork nesse repositório](#passo-1-de-um-fork-nesse-repositório)</li><li>[Passo 2: Clone o repositório](#passo-2-clone-o-repositório)</li><li>[Passo 3: Cria uma nova Branch](#passo-3-crie-uma-nova-branch)</li><li>[Passo 4: Abra o arquivo index.html](#passo-4-abra-o-arquivo-indexhtml)</li><li>[Passo 5: Copie o modelo do cartão](#passo-5-copie-o-modelo-do-cartão)</li><li>[Passo 6: Aplique suas mudanças](#passo-6-aplique-suas-mudanças)</li><li>[Passo 7: Commit suas mudanças](#passo-7-commit-nas-suas-mudanças)</li><li>[Passo 8: Envie suas alterações para o GitHub](#passo-8-envie-suas-mudanças-ao-github)</li><li>[Passo 9: Submeta a PR](#passo-9-envie-um-pr)</li><li>[Passo 10: Comemore!](#passo-10-comemore)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
@@ -63,7 +63,7 @@ _Tempos estimado: menos de 30 minutos_.
 -   Um repositório (repo) é como o projeto é chamado no GitHub e o Fork é uma cópia dele.
 -   Garanta que você esteja na [página principal](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') desse repositório.
 
-| <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](/readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Clique no botão _Fork_ </li></ul> | ![Fork](/readme-only/fork.PNG "click on 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
@@ -94,7 +94,7 @@ _Tempos estimado: menos de 30 minutos_.
 -  Depois que o repositório for clonado e você o abrir na área de trabalho do GitHub, é hora de criar um novo ramo.
 -  Uma ramificação é uma maneira de manter suas alterações separadas da parte principal do projeto chamada `Mestre '. Por exemplo, se as coisas derem errado e você não estiver satisfeito com as alterações, basta excluir a ramificação e o projeto principal não será afetado.
 
-| <ul><li>Click em _Current branch_</li><li>Then click on _New_</li></ul> | ![Crie a branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>Clique em _Current branch_</li><li>Em seguida, clique em _New_</li></ul> | ![Crie a branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
@@ -149,7 +149,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 -   Agora começaremos a editar o html, alterando os campos personalizáveis em nosso cartão.
 
-| <ul><li>Replace 'Name' com seu nome</li><li>Nota: não mude `class="name"`</li></ul> | ![Altere o nome](/readme-only/change-name.PNG 'Type your name') |
+| <ul><li>Substitua 'Name' com seu nome</li><li>Nota: não mude `class="name"`</li></ul> | ![Altere o nome](/readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
@@ -166,7 +166,7 @@ _Tempos estimado: menos de 30 minutos_.
 | <ul><li>Compartilhe com a comunidade 3 links para recursos úteis para o desenvolvimento web</li><li>Pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta</li><li>Se você é iniciante, não se deixe intimidar por isso, compartilhe o que sabe, mesmo que você ache básico. Você ficará surpreso com quantas pessoas se beneficiarão</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Alterar recurso](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                   |
-| <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul>                                                                                                                                                               |
+| <ul><li>Link: Insira o link `href="here"` substituindo o `#`</li><li>Título: Escreva uma breve descrição `title="here"`</li><li> Nome: escreva o nome do recurso no campo de texto `>here</a>`</li></ul>                                                                                                                                                               |
 
 -   Garanta que você **salvou todas as suas mudanças**.
 -   **Teste suas mudanças**. ISSO É IMPORTANTE!Abra o arquivo html no seu navegador (clicando duas vezes nele, por exemplo) e veja como será o seu cartão no site. Veja que a página inteira ainda parece a mesma e nada está quebrado. Clique nos seus links e verifique se eles estão funcionando.Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
@@ -181,11 +181,11 @@ _Tempos estimado: menos de 30 minutos_.
 -   Isso significa que o Git registrou todas as alterações **salvas**.
 -   Você pode ver isso refletido no aplicativo. Tudo o que você adicionou ao arquivo ficará em verde e as exclusões aparecerão em vermelho.
 
-| <ul><li>O próximo passo é chamda _Commit_</li><li>Isso aproximadamente significa "confirmar as mudanças"</li></ul> | ![Commit suas mudanças](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
+| <ul><li>O próximo passo é chamado _Commit_</li><li>Isso aproximadamente significa "confirmar as mudanças"</li></ul> | ![Commit suas mudanças](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>É assim que o cabeçalho da área de trabalho do GitHub deve parecer</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
+| <ul><li>É assim que o cabeçalho da área de trabalho do GitHub deve parecer</li><li>Observe o símbolo de bifurcação ao lado do nome do projeto no repositório atual `Current repository`</li><li>Seu `Current branch` terá o nome que você deu na etapa 3 </li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Commit suas mudanças](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the buttom left")                                               |
 
@@ -212,7 +212,7 @@ _Tempos estimado: menos de 30 minutos_.
 -   Este é o momento que você estava esperando; enviando um _Pull Request_ (PR).
 -   Até agora, todo o trabalho que você fez esteve na bifurcação do projeto, que, como você se lembra, reside em sua própria conta do GitHub.
 -   Agora é hora de enviar as alterações para o projeto principal a serem mescladas.
--   Isso é chamado de [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'Sobre solicitações de recebimento - Ajuda do GitHub') porque você está pedindo ao mantenedor do projeto original para "puxar" seu mudanças em seu projeto.
+-   Isso é chamado de [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'Sobre solicitações de recebimento - Ajuda do GitHub') porque você está pedindo ao mantenedor do projeto original para "puxar" suas mudanças em seu projeto.
 -   Vá para a página principal de **seu fork** no GitHub (ele terá o ícone do fork e seu próprio nome de usuário na parte superior).
 -   Na parte superior do repositório, você verá uma mensagem destacada de solicitação de recebimento com um botão verde.
 
@@ -252,9 +252,9 @@ Prometo que tentarei revisar e mesclar o mais rápido possível, mas faço isso 
 
 -  Volte em um tempo para verificar sua solicitação de solicitação mesclada.
 -  Você deve receber um email do GitHub quando suas alterações forem aprovadas ou se alterações adicionais forem solicitadas. E quando o PR for finalmente mesclado ao mestre e seu cartão foi adicionado.
--  Se você encontrou este projeto **útil**, dê a ele: estrela: estrela: estrela: no topo da página e **Tweet** sobre ele para ajudar a espalhar a palavra [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
--  Você pode **me seguir** e entrar em contato no [Twitter](https://twitter.com/Syknapse '@Syknapse') ou [usando qualquer uma dessas outras opções](https: //syknapse.github. io / Syk-Houdeib / # contact 'A minha secção de contactos | Portfólio')
--  Este é um projeto de código aberto. Além de contribuir com sua placa, você pode ajudar a corrigir bugs, melhorias ou novos recursos. Abra um [issue](https://help.github.com/articles/creating-an-issue/ 'Como dominar problemas | Guias do GitHub') ou envie uma nova [solicitação de recebimento](https://help.github.com / articles / Criando uma solicitação pull de uma bifurcação / 'Criando uma solicitação pull de uma bifurcação | Ajuda do GitHub')
+-  Se você achou este projeto **útil**, dê a ele: estrela: ⭐ no topo da página e **Tweet** sobre ele para ajudar a espalhar a palavra [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+-  Você pode **me seguir** e entrar em contato no [Twitter](https://twitter.com/Syknapse '@Syknapse') ou [usando qualquer uma dessas outras opções](https://syknapse.github.io/Syk-Houdeib/#contact 'A minha secção de contactos | Portfólio')
+-  Este é um projeto de código aberto. Além de contribuir com seu board, você pode ajudar a corrigir bugs, melhorias ou novos recursos. Abra um [issue](https://help.github.com/articles/creating-an-issue/ 'Como dominar problemas | Guias do GitHub') ou envie uma nova [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Criando uma solicitação pull de uma bifurcação | Ajuda do GitHub')
 -  **Obrigado por contribuir com este projeto**. Agora você pode ir em frente e tentar contribuir com outros projetos; procure o rótulo [![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para obter opções de contribuição para iniciantes.
 -  Também estou procurando colaboradores para me ajudar na revisão e mesclagem de PRs. Se você deseja obter uma prática mais avançada do Git, envie-me um DM no Twitter.
 
