@@ -26,7 +26,7 @@ You can commit as much or as little time as you want to this. Between us we hope
 
 ### Request changes
 
-- Sometimes there are problems with he PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
+- Sometimes there are problems with the PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
 - Start a code review on GitHub and request changes. Try to be as descriptive as possible, comment the exact line, tell them exactly what the problem is and how to fix it, and encourage them that this is a normal part of the PR review process.
 - When you are ready submit the review.
 - Keep an eye on the conversation in case the contributor has follow up questions you can help with. Our objective is to get everyone past the finish line, so we try to guide them all the way there.
