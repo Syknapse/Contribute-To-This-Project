@@ -45,7 +45,7 @@ const getArchiveCards = i => {
 
   document.getElementById(`archiveObject_${i}`).onload = function() {
     const archiveObject = document.getElementById(`archiveObject_${i}`)
-    const cards = archiveObject.contentDocument.querySelectorAll('.card')
+    const cards = archiveObject.querySelectorAll('.card')
     const grid = document.querySelector('.grid')
 
     cards.forEach(card => grid.append(card))
