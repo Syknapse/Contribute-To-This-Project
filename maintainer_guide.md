@@ -41,7 +41,7 @@ However, it is not uncommon to have a few PRs waiting and that's when there will
 I recommend the use of a tool like [GitKraken](https://www.gitkraken.com/download). It is visual and it allows for an easier management of the project when there is a few PRs to go through.  
 Download GitKraken, clone the project. Using a combination of your code editor and GitKraken's integrated merge conflict tool gives you full control to quickly go through PRs, fixing conflicts and merging.
 
-The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with he same indentation and style.  
+The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with the same indentation and style.  
 If you notice the HTML file looking messy run `npm run prettier-html` in the project root. It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
 
 If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
