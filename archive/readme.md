@@ -13,7 +13,7 @@ If an archive directory gets too big (say around 3k lines of code) we can create
 
 ## Create a new archive file
 
-Create a new html file and name it 'archive_<number>.html` where `<number>` is the next available number.  
+Create a new html file and name it `archive_<number>.html` where `<number>` is the next available number.  
 Copy the following template into it.
 
 ```html
