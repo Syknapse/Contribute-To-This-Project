@@ -38,8 +38,7 @@ Then add the cards into it.
 
 ## How does it work
 
-The `getArchiveCards()` method creates `<object>` elements. As many as there are archive files (based on the manually updated `NUMBER_OF_FILES`).  
-Each object element imports the archive file with the corresponding index.  
+The `getArchiveCards()` method creates an `<object>` element for each archived file. The total number of archived files is based on the manually updated `NUMBER_OF_FILES`.
 These import the cards into the main document. But they are within their own context created by the object element.  
 We wait until the elements have loaded then we go into the context's `contentDocument` and retrieve the cards.  
 Then we simply append them back into the main container with the rest of the cards in the `index.html`.  
