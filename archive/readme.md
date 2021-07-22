@@ -13,7 +13,7 @@ If an archive directory gets too big (say around 3k lines of code) we can create
 
 ## Create a new archive file
 
-Create a new html file and name it `archive_<number>.html` where `<number>` is the next available number.  
+Create a new html file and name it 'archive_<number>.html` where `<number>` is the next available number.  
 Copy the following template into it.
 
 ```html
@@ -38,7 +38,7 @@ Then add the cards into it.
 
 ## How does it work
 
-The 'getArchiveCards()' method creates an '<object>' element for each archived file. The total number of archived files is based on the manually updated 'NUMBER_OF_FILES'.
+The `getArchiveCards()` method creates an `<object>` element for each archived file. The total number of archived files is based on the manually updated `NUMBER_OF_FILES`.
 These import the cards into the main document. But they are within their own context created by the object element.  
 We wait until the elements have loaded then we go into the context's `contentDocument` and retrieve the cards.  
 Then we simply append them back into the main container with the rest of the cards in the `index.html`.  
