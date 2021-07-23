@@ -27,7 +27,7 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 
 ## What am I going to contribute?
 
-![Contributor Card](readme-only/newCard2.PNG 'Contributor Card')
+![Contributor Card](readme-only/newCard.PNG 'Contributor Card')
 
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
