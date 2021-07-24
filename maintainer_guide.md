@@ -1,6 +1,6 @@
 # Maintainer's Guide
 
-This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
+This guide is for those who would like to join the project as maintainers, to help, manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
 ## Objectives
 
