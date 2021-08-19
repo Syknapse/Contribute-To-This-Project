@@ -6,7 +6,7 @@
 
 Éste es un tutorial para ayudar a aquellos que quieren contribuir por primera vez a un proyecto fácil y simple.
 
-El tutorial está también disponible en [otros idiomas](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (actualmente Portugués, Italiano y Español. Nuevas traducciones seran bienvenidas).
+El tutorial está también disponible en [otros idiomas](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (actualmente [Francés](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Italiano](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Polaco](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugués](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), e [Inglés](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD)). Nuevas traducciones seran bienvenidas).
 
 ### Objetivos
 
