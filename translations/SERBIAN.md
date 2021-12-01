@@ -102,13 +102,13 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Dajte grani ime</li><li>Kliknite `Create branch`</li></ul> | ![Naziv grane](readme-only/branch-name.PNG 'Dajte naziv grani') |
+| <ul><li>Dajte grani ime</li><li>Kliknite `Create branch`</li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
 - Možete nazvati granu kako god želite, ali pošto je ovo grana za dodavanje kartice sa vašim imenom u projekat, nazvati je `your-name-card` je dobra praksa jer nameru ove grane održava jasnom.
 
-| <ul><li>Objavite Vašu granu na Github'u</li></ul> | ![Ime grane](readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
+| <ul><li>Objavite Vašu granu na Github'u</li></ul> | ![Ime grane](/readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
