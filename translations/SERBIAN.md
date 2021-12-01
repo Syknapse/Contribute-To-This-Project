@@ -20,9 +20,9 @@ Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Co
 - Ovo je namenjeno apsolutnim početnicima. Ukoliko ynate kako da napišete tag `<a href="" target=""></a>` , trebalo bi da budete u mogućnosti da ovo odradite.
 - Ovo je namjenjeno i onima sa malo više iskustva, ali koji žele da daju svoj prvi doprinos projektu otvorenog koda, ili da dobiju više iskustva i samopouzdanja.
 
-### zašto sam započeo ovaj projekat?
+### Zašto sam započeo ovaj projekat?
 
-Svaki veb developer koji je ambicioza ili iskustan treba da koristi Git - kontrolu verzija, a GitHub je najpopularnija uluga Git hostinga koju koriste svi. Takođe je srce zajednice otvorenog koda. Dobro poznavanje GitHub-a je neophodna veština. Davanje doprinosa projektu povećava vaše samopouzdanje i daje vam nešto što možete da pokažete na svom GitHub profilu.<br>
+Svaki veb developer koji je ambiciozaN ili iskusan treba da koristi Git - kontrolu verzija, a GitHub je najpopularnija uluga Git hostinga koju koriste svi. Takođe je srce zajednice otvorenog koda. Dobro poznavanje GitHub-a je neophodna veština. Davanje doprinosa projektu povećava vaše samopouzdanje i daje vam nešto što možete da pokažete na svom GitHub profilu.<br>
 Ako ste novi u programiranju i pitate se da li treba da naučite Git i GitHub, evo odgovora: [Trebali ste naučiti Git juče](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ## Šta ću ja da doprinesem?
