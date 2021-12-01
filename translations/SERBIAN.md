@@ -1,8 +1,8 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Doprinesi ovom projektu](https://syknapse.github.io/Contribute-To-This-Project/)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-> **Objava:** Želite da pomognete razvoj ovog projekta? Ako ste zainteresovani posaljite mi poruku na Tviteru. [Twitter](https://twitter.com/Syknapse) i procitajte vodic [maintainer's guide](maintainer_guide.md).
+> **Objava:** Želite da pomognete razvoj ovog projekta? Ako ste zainteresovani posaljite mi poruku na Tviteru. [Twitter](https://twitter.com/Syknapse) i procitajte vodič [vodič ya održavaoca](maintainer_guide.md).
 
 ## Uvod
 
@@ -25,31 +25,31 @@ Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Co
 Svaki veb developer koji je ambicioza ili iskustan treba da koristi Git - kontrolu verzija, a GitHub je najpopularnija uluga Git hostinga koju koriste svi. Takođe je srce zajednice otvorenog koda. Dobro poznavanje GitHub-a je neophodna veština. Davanje doprinosa projektu povećava vaše samopouzdanje i daje vam nešto što možete da pokažete na svom GitHub profilu.<br>
 Ako ste novi u programiranju i pitate se da li treba da naučite Git i GitHub, evo odgovora: [Trebali ste naučiti Git juče](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-## Šta ću ja da doprinesem_
+## Šta ću ja da doprinesem?
 
-![Contributor Card](readme-only/card.PNG 'Contributor Card')
+![Kartica saradnika](readme-only/card.PNG 'Contributor Card')
 
-Vi ćete doprineti projektu karticom kao što je ova [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Uključiće vaše ime, vaš tviter profil i veze do korisnih resursa za veb programere koje preporučujete.
+Vi ćete doprineti projektu karticom kao što je ova [stranica projekta](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Uključiće vaše ime, vaš tviter profil i veze do korisnih resursa za veb programere koje preporučujete.
 
 Napravićete kopiju šablona kartice unutar index.html fajla i prilagoditi je sopstvenim informacijama.
 
-## Quick Access Index
+## Index brzog pristupa
 
 | <ul><li>[Uvod](#uvod)</li><li>[Šta ću da doprinesem?](#šta-cu-da-doprinesem)</li><li>[Nameštanje](#nameštanje)</li><li>[Doprinsi &rightarrow;](#doprinesi)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#step-6-primeni-svoje-promene)</li><li>[Step 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Setup! :)
+## Podešavanje! :)
 
-First let's get setup to do the work
+Prvo hajde sve da podesimo za posao!
 
-1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-1. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so (here's [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
-   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+1. Ulogujte se na svoj GitHub nalog. Ako još uvek nemate nalog [pridruži se GitHub'u](https://github.com/join). Preporučujem da pogledate [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) pre nego što nastavite.
+1. Skinite [GitHub Desktop aplikaciju](https://desktop.github.com/).
+   - Alternativni ako Vam je prijatnije da koristite Git na komadnoj liniji možete i tako (ovdje su [prvi-doprinosi](https://github.com/Syknapse/first-contributions), sličan projekat u kojem možete videti neophodne komande). ILI
+   - Ako koristie [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') dolazi sa integrisanim Gitom i omogućava Vam da uradite ono što nam je potrebno direktno iz editora.
+   - Međutim najjednostavniji i najlakši način da pratite ovaj tutorijal je korišćenhe GitHub Desktop aplikacije.
 
-Now that you are all setup let's get on with the business of contributing to the project.
+Sada kada ste sve podesili, hajde da nastavimo sa poslom doprinosa projektu.
 
 ---
 
