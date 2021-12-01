@@ -67,7 +67,7 @@ _Procenjeno vreme: Manje od 30 minuta_.
 - Repozitorijum (repo) je način na koji se projekat naziva na GitHub-u, a fork je njegova kopija.
 - Uverite se da ste na [glavnoj stranici](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
-| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](readme-only/fork.PNG "klikni na 'Fork'") |
+| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
@@ -80,13 +80,13 @@ _Procenjeno vreme: Manje od 30 minuta_.
 - Sada želimo da napravimo lokalnu kopiju projekta. To je kopija sačuvana na Vašoj mašini.
 - Otvorite GitHub desktop aplikaciju. U aplikaciji :
 
-| <ul><li>Klikni na _File_ potom _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'klikni clone repository') |
+| <ul><li>Klikni na _File_ potom _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Videćete listu svojih projekata i forkova na GitHub-u.</li><li>Select `<vaše-github-username>/Contribute-To-This-Project`.</li><li>Klikni _Clone_</li></ul> | ![Kloniraj projekat](readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>Videćete listu svojih projekata i forkova na GitHub-u.</li><li>Select `<vaše-github-username>/Contribute-To-This-Project`.</li><li>Klikni _Clone_</li></ul> | ![Kloniraj projekat](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
+| <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
 - Ovo će potrajati trenutak dok se projekat ne kopira na vaš hard disk. Preporučujem Vam da zadržite podrazumevanu putanju koja je obično `..\Documents\GitHub`.
 - Sada imate lokalnu kopiju projekta.
@@ -98,7 +98,7 @@ _Procenjeno vreme: Manje od 30 minuta_.
 - Kada se repo klonira i otvorite ga na GitHub radnoj površini, vreme je da napravite novu granu.
 - Grana je način da Vaše izmene držite odvojeno od glavnog dela projekta pod nazivom `Master`. Na primer, ako stvari krenu naopako i niste zadovoljni svojim izmenama, možete jednostavno da izbrišete granu i to neće uticati na glavni projekat.
 
-| <ul><li>Kliknite na _Current branch_</li><li>Potom kliknite na _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
+| <ul><li>Kliknite na _Current branch_</li><li>Potom kliknite na _New_</li></ul> | ![Create branch](/readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
