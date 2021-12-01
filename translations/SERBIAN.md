@@ -17,7 +17,7 @@ Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Co
 
 ### Za koga je ovo namenjeno?
 
-- Ovo je namenjeno apsolutnim početnicima. Ukoliko ynate kako da napišete tag `<a href="" target=""></a>` , trebalo bi da budete u mogućnosti da ovo odradite.
+- Ovo je namenjeno apsolutnim početnicima. Ukoliko znate kako da napišete tag `<a href="" target=""></a>` , trebalo bi da budete u mogućnosti da ovo odradite.
 - Ovo je namjenjeno i onima sa malo više iskustva, ali koji žele da daju svoj prvi doprinos projektu otvorenog koda, ili da dobiju više iskustva i samopouzdanja.
 
 ### Zašto sam započeo ovaj projekat?
@@ -55,67 +55,67 @@ Sada kada ste sve podesili, hajde da nastavimo sa poslom doprinosa projektu.
 
 ---
 
-## Contribute
+## Doprinesi
 
-Become an open source contributor in 10 easy steps.
+Postanite saradnik otvorenog koda u 10 jednostavnih koraka.
 
-_Estimated time: Less than 30 minutes_.
+_Procenjeno vreme: Manje od 30 minuta_.
 
-### Step 1: Fork this repository
+### Korak 1: Račvaj (fork) ovaj repozitorijum
 
-- The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
-- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
+- Ovde je cilj da napravite kopiju ovog projekta i postavite je na svoj nalog.
+- Repozitorijum (repo) je način na koji se projekat naziva na GitHub-u, a fork je njegova kopija.
+- Uverite se da ste na [glavnoj stranici](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
-| <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](readme-only/fork.PNG "klikni na 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
-- You now have a complete copy of the project in your own account.
+- Sada imate kompletnu kopiju projekta na svom nalogu.
 
 ---
 
-### Step 2: Clone the repository
+### Korak 2: Kloniraj repozitorijum
 
-- Now we want to make a local copy of the project. That is a copy saved on your own machine.
-- Open the GitHub desktop app. In the app:
+- Sada želimo da napravimo lokalnu kopiju projekta. To je kopija sačuvana na Vašoj mašini.
+- Otvorite GitHub desktop aplikaciju. U aplikaciji :
 
-| <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
+| <ul><li>Klikni na _File_ potom _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'klikni clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>Videćete listu svojih projekata i forkova na GitHub-u.</li><li>Select `<vaše-github-username>/Contribute-To-This-Project`.</li><li>Klikni _Clone_</li></ul> | ![Kloniraj projekat](readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>A forked project will have the fork symbol on the left.</li><li>Your fork will have your own GitHub user name.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
-- This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
-- Now you have a local copy of the project.
+- Ovo će potrajati trenutak dok se projekat ne kopira na vaš hard disk. Preporučujem Vam da zadržite podrazumevanu putanju koja je obično `..\Documents\GitHub`.
+- Sada imate lokalnu kopiju projekta.
 
 ---
 
-### Step 3: Create a new branch
+### Korak 3: Napravite novu granu
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- Kada se repo klonira i otvorite ga na GitHub radnoj površini, vreme je da napravite novu granu.
+- Grana je način da Vaše izmene držite odvojeno od glavnog dela projekta pod nazivom `Master`. Na primer, ako stvari krenu naopako i niste zadovoljni svojim izmenama, možete jednostavno da izbrišete granu i to neće uticati na glavni projekat.
 
-| <ul><li>Click on _Current branch_</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>Kliknite na _Current branch_</li><li>Potom kliknite na _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Give your branch a name</li><li>Click `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG 'Name your branch') |
+| <ul><li>Dajte grani ime</li><li>Kliknite `Create branch`</li></ul> | ![Naziv grane](readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
+- Možete nazvati granu kako god želite, ali pošto je ovo grana za dodavanje kartice sa vašim imenom u projekat, nazvati je `your-name-card` je dobra praksa jer nameru ove grane održava jasnom.
 
-| <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| <ul><li>Objavite Vašu granu na Github'u</li></ul> | ![Ime grane](readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- Sada ste kreirali novu granu odvojenu od mastera.
+- Za sledeće korake proverite da li radite na ovoj grani. Videćete ime grane na kojoj se nalazite u gornjem centru GitHub desktop aplikacije gde piše _Current branch_.
 
-**Do NOT work on the `master` branch**
+**NEMOJTE da radite na `master` grani**
 
 ---
 
