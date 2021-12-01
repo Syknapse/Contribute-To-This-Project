@@ -8,7 +8,7 @@
 
 Ovo je tutorijal koji pomaže onima koji prvi put žele da učestvuju u jednostavnom i lakom projektu.
 
-Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations)([Engleski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), ([Portugalski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italijanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) trenutno. Prevodi su veoma dobrosošli.).
+Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations)([Engleski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portugalski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italijanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) trenutno. Prevodi su veoma dobrosošli.).
 
 ### Ciljevi
 
