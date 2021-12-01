@@ -27,7 +27,7 @@ Ako ste novi u programiranju i pitate se da li treba da naučite Git i GitHub, e
 
 ## Šta ću ja da doprinesem?
 
-![Kartica saradnika](readme-only/card.PNG 'Contributor Card')
+![Kartica saradnika](/readme-only/card.PNG 'Kartica saradnika')
 
 Vi ćete doprineti projektu karticom kao što je ova [stranica projekta](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Uključiće vaše ime, vaš tviter profil i veze do korisnih resursa za veb programere koje preporučujete.
 
