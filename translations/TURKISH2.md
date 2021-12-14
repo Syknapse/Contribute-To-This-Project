@@ -35,11 +35,11 @@ HTML dosyasının içindeki kart şablonunun bir kopyasını oluşturacak ve ken
 
 ## Hızlı Erişim Dizini
 
-| <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Kurulum](#kurulum)</li><li>[Doprinsi &rightarrow;](#doprinesi)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
+| <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Setup](#setup)</li><li>[Katkı &rightarrow;](#katkı)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Kurulum! :)
+## Setup! :)
 
 İlk önce uygulamamızı gerçekleştirmek için kurulumu yapalım
 
@@ -61,7 +61,7 @@ Artık hazır olduğunuza göre, projeye katkıda bulunma işine geçebiliriz.
 
 _Tahmini süre: 30 dakikadan az_.
 
-### Korak 1: Račvaj (fork) ovaj repozitorijum
+### Adım 1: Bu depoyu çatallayın(fork)
 
 - Ovde je cilj da napravite kopiju ovog projekta i postavite je na svoj nalog.
 - Repozitorijum (repo) je način na koji se projekat naziva na GitHub-u, a fork je njegova kopija.
@@ -75,7 +75,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 2: Kloniraj repozitorijum
+### Adım 2: Depoyu klonlayın(clone)
 
 - Sada želimo da napravimo lokalnu kopiju projekta. To je kopija sačuvana na Vašoj mašini.
 - Otvorite GitHub desktop aplikaciju. U aplikaciji :
@@ -93,7 +93,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 3: Napravite novu granu
+### Adım 3: Yeni bir şube oluşturun(branch)
 
 - Kada se repo klonira i otvorite ga na GitHub radnoj površini, vreme je da napravite novu granu.
 - Grana je način da Vaše izmene držite odvojeno od glavnog dela projekta pod nazivom `Master`. Na primer, ako stvari krenu naopako i niste zadovoljni svojim izmenama, možete jednostavno da izbrišete granu i to neće uticati na glavni projekat.
@@ -119,7 +119,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 4: Otvori index.html fajl
+### Adım 4: index.html dosyasını açın
 
 - Sada moramo da otvorimo datoteku koju ćemo urediti pomoću Vašeg omiljenog kod editora.
 - Pronađite folder projekta na računaru. Ako ste zadržali podrazumevano, ovo bi trebalo da bude nešto slično `your-computer > Documents > GitHub > Contribute-To-This-Project`
