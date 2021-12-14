@@ -87,8 +87,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 | <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<github-kullanıcı-adı>/Contribute-To-This-Project` seçelim.</li><li>Klonlaya tıklayalım </li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Forklanmış bir projenin solunda çatal sembolü olacaktır..</li><li>Forkladığınız projenin kendi GitHub kullanıcı adı olacaktır.
-</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
+| <ul><li>Forklanmış bir projenin solunda çatal sembolü olacaktır..</li><li>Forkladığınız projenin kendi GitHub kullanıcı adı olacaktır.</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
 - Proje sabit diskinize kopyalanırken bu biraz zaman alacaktır. Genellikle varsayılan dizini korumanız önerilmektedir. `..\Documents\GitHub`.
 - Artık projenin yerel bir kopyasına sahipsiniz.
