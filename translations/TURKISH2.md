@@ -39,27 +39,27 @@ HTML dosyasının içindeki kart şablonunun bir kopyasını oluşturacak ve ken
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Podešavanje! :)
+## Kurulum !:)
 
-Prvo hajde sve da podesimo za posao!
+İlk önce uygulamamızı gerçekleştirmek için kurulumu yapalım
 
-1. Ulogujte se na svoj GitHub nalog. Ako još uvek nemate nalog [pridruži se GitHub'u](https://github.com/join). Preporučujem da pogledate [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) pre nego što nastavite.
-1. Skinite [GitHub Desktop aplikaciju](https://desktop.github.com/).
-   - Alternativni ako Vam je prijatnije da koristite Git na komadnoj liniji možete i tako (ovdje su [prvi-doprinosi](https://github.com/Syknapse/first-contributions), sličan projekat u kojem možete videti neophodne komande). ILI
-   - Ako koristie [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') dolazi sa integrisanim Gitom i omogućava Vam da uradite ono što nam je potrebno direktno iz editora.
-   - Međutim najjednostavniji i najlakši način da pratite ovaj tutorijal je korišćenhe GitHub Desktop aplikacije.
+1. GitHub hesabınıza giriş yapın. Henüz bir hesabınız yoksa [Github'a kayıt ol](https://github.com/join). Devam etmeden önce [GitHub Merhaba Dünya eğitimi](https://guides.github.com/activities/hello-world/)ni yapmanızı tavsiye ediyoruz.
+2. [GitHub Masaüstü](https://desktop.github.com/) uygulamasını indirin.
+   - •	Alternatif olarak, Git'i komut satırında kullanmakta rahatsanız, yapabileceğiniz [ilk katkılar](https://github.com/Syknapse/first-contributions), gerekli komutlar için rehber olarak hizmet edebilecek benzer bir projedir. VEYA
+   - [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') kullanıyorsanız, VS Code entegre Git ile birlikte gelir ve ihtiyacımız olanı doğrudan düzenleyiciden yapmanızı sağlar.
+   - Ancak bu eğitimi uygulamanın en basit ve en kolay yolu GitHub Desktop kullanmaktır.
 
-Sada kada ste sve podesili, hajde da nastavimo sa poslom doprinosa projektu.
-
----
+Artık hazır olduğunuza göre, projeye katkıda bulunma işine geçebiliriz.
 
 ---
 
-## Doprinesi
+---
 
-Postanite saradnik otvorenog koda u 10 jednostavnih koraka.
+## Katkı
 
-_Procenjeno vreme: Manje od 30 minuta_.
+10 kolay adımda açık kaynağa katkıda bulunun.
+
+_Tahmini süre: 30 dakikadan az_.
 
 ### Korak 1: Račvaj (fork) ovaj repozitorijum
 
