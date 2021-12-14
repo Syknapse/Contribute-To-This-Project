@@ -65,7 +65,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 - Buradaki amaç, bu projenin bir kopyasını oluşturmak ve hesabınız bünyesine yerleştirmektir.
 - GitHub'da bir proje depo(repo) olarak adlandırılmakta, çatal(fork) ise bunun kopyalanmasıdır.
-- Bu reponun [ana sayfa](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')(main) olduğunuzdan emin olun.
+- Bu reponun [ana sayfa](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')'sında (main) olduğunuzdan emin olun.
 
 | <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
