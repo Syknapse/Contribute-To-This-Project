@@ -85,7 +85,7 @@ _Tahmini süre: 30 dakikadan az_.
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<vaše-github-username>/Contribute-To-This-Project` seçelim.</li><li>Klikni _Clone_</li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<github-kullanıcı-adı>/Contribute-To-This-Project` seçelim.</li><li>_Klonla_ya tıklayalım </li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
 | <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
