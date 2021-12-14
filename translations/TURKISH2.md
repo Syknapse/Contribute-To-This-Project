@@ -4,21 +4,21 @@
 
 > **Duyuru:** Bu projede yönetici olmak ve projenin sürdürülmesine yardımcı olmak ister misiniz?? Eğer ilgileniyorsanız, bana [Twitter](https://twitter.com/Syknapse)'dan DM atabilir ve [klavuz](maintainer_guide.md)'u inceleyebilirsiniz.
 
-## Uvod
+## Giriş
 
-Ovo je tutorijal koji pomaže onima koji prvi put žele da učestvuju u jednostavnom i lakom projektu.
+Bu eğitim aracılığıyla Github üzerinde ilk kez katkıda bulunacak kişilerin, basit ve kolay bir projeye katılmalarına yardımcı olunması amaçlanmıştır.
 
-Ovaj tutorijal je takođe dostupan [drugi jezici](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Engleski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portugalski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italijanski](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) trenutno. Prevodi su veoma dobrodošli.).
+Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([İngilizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portekizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [İspanyolca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), ve [İtalyanca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Çeviri destekleriniz memnuniyetle karşılanır).
 
-### Ciljevi
+### Hedefler
 
-- Dajte doprinos projektu otvorenog koda.
-- Učite GitHub.
+- Açık kaynaklı bir projeye katkıda bulunulması.
+- GitHub'ta kullanım kolaylığı elde edilmesi.
 
-### Za koga je ovo namenjeno?
+### Bu eğitim kimler için?
 
-- Ovo je namenjeno apsolutnim početnicima. Ukoliko znate kako da napišete tag `<a href="" target=""></a>` , trebalo bi da budete u mogućnosti da ovo odradite.
-- Ovo je namjenjeno i onima sa malo više iskustva, ali koji žele da daju svoj prvi doprinos projektu otvorenog koda, ili da dobiju više iskustva i samopouzdanja.
+- Eğitim yeni başlayanlar için olmak ile birlikte `<a href="" target=""></a>` bağlantı etiketini nasıl yazacağınızı ve düzenleyeceğinizi biliyorsanız, uygulamamızı başarabilirsiniz.
+- Ayrıca biraz daha deneyim sahibi ancak ilk açık kaynak katkısını yapmak veya konu ile ilgili daha fazla güven ve ekstra deneyim amacıyla katkıda bulunmak isteyenler içindir.
 
 ### Zašto sam započeo ovaj projekat?
 
