@@ -8,7 +8,7 @@
 
 Bu eğitim aracılığıyla Github üzerinde ilk kez katkıda bulunacak kişilerin, basit ve kolay bir projeye katılmalarına yardımcı olunması amaçlanmıştır.
 
-Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([İngilizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portekizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [İspanyolca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), ve [İtalyanca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Çeviri destekleriniz memnuniyetle karşılanır).
+Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Şimdilik [İngilizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portekizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [İspanyolca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), ve [İtalyanca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Bu konuda çeviri destekleriniz memnuniyetle karşılanır).
 
 ### Hedefler
 
@@ -25,17 +25,17 @@ Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Sykna
 Hevesli veya deneyimli herhangi bir web geliştiricisinin Git versiyon kontrolünü ve herkes tarafından kullanılan en popüler Git barındırma hizmeti olan GitHub’ı kullanması gerekir. Github Aynı zamanda Açık Kaynak topluluğunun da kalbidir. GitHub'ı rahat kullanmak önemli bir beceridir. Github üzerinde bir projeye katkıda bulunmak kendinize olan güveninizi arttıracak ve size GitHub profilinizde sunabileceğiniz bir içerik vererek profil değerinizi arttıracaktır.<br>
 Yeni bir geliştiriciyseniz, Git ve GitHub'ı öğrenmeniz gerekip gerekmediğini merak ediyorsanız işte cevap: [Git'i Dün Öğrenmiş Olmalıydın](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-## Šta ću ja da doprinesem?
+## Ne katkıda bulunacağım?
 
-![Kartica saradnika](/readme-only/card.PNG 'Kartica saradnika')
+![Katılımcı Kartı](/readme-only/card.PNG 'Kartica saradnika')
 
-Vi ćete doprineti projektu karticom kao što je ova [stranica projekta](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Uključiće vaše ime, vaš tviter profil i veze do korisnih resursa za veb programere koje preporučujete.
+[Proje web sayfası](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project')'ndaki bunun gibi bir kartla katkıda bulunacaksınız. Üzerinde Adınızı, Twitter kullanıcı adınızı, kısa bir açıklamayı ve tavsiye ettiğiniz web geliştiricileri için faydalı kaynaklara yönelik 3 bağlantıyı içerecektir.
 
-Napravićete kopiju šablona kartice unutar index.html fajla i prilagoditi je sopstvenim informacijama.
+HTML dosyasının içindeki kart şablonunun bir kopyasını oluşturacak ve kendi bilgilerinizle özelleştireceksiniz.
 
-## Index brzog pristupa
+## Hızlı Erişim Dizini
 
-| <ul><li>[Uvod](#uvod)</li><li>[Šta ću da doprinesem?](#šta-cu-da-doprinesem)</li><li>[Nameštanje](#nameštanje)</li><li>[Doprinsi &rightarrow;](#doprinesi)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
+| <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Kurulum](#kurulum)</li><li>[Doprinsi &rightarrow;](#doprinesi)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
