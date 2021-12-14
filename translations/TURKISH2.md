@@ -277,4 +277,4 @@ Takođe je posebno inspirisano velikom zajednicom u okolini [#GoogleUdacitySchol
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
-[Vrati se na početak &uparrow;](#uvod)
+[Başa dön &uparrow;](#uvod)
