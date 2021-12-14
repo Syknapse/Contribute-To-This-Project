@@ -63,9 +63,9 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 1: Bu depoyu çatallayın(fork)
 
-- Ovde je cilj da napravite kopiju ovog projekta i postavite je na svoj nalog.
-- Repozitorijum (repo) je način na koji se projekat naziva na GitHub-u, a fork je njegova kopija.
-- Uverite se da ste na [glavnoj stranici](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
+- Buradaki amaç, bu projenin bir kopyasını oluşturmak ve hesabınız bünyesine yerleştirmektir.
+- GitHub'da bir proje depo(repo) olarak adlandırılmakta, çatal(fork) ise bunun kopyalanmasıdır.
+- Bu reponun [ana sayfa](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')(main) olduğunuzdan emin olun.
 
 | <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
