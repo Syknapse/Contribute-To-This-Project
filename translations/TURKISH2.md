@@ -273,8 +273,6 @@ Bu proje büyük ölçüde [Roshan Jossey'in](https://github.com/Roshanjossey) m
 
 Ayrıca, özellikle [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, 2017 Avrupa kümesindeki büyük topluluktan ilham almıştır.
 
-Takođe je posebno inspirisano velikom zajednicom u okolini  The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
-
 ## Lisans
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
