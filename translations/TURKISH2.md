@@ -2,7 +2,7 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-> **Duyuru:** Bu projede yönetici olmak ve projenin sürdürülmesine yardımcı olmak ister misiniz?? Eğer ilgileniyorsanız, bana [Twitter](https://twitter.com/Syknapse)'dan DM gönderebilir ve [klavuz](maintainer_guide.md)'u inceleyebilirsiniz.
+> **Duyuru:** Bu projede yönetici olmak ve projenin sürdürülmesine yardımcı olmak ister misiniz?? Eğer ilgileniyorsanız, bana [Twitter](https://twitter.com/Syknapse)'dan DM atabilir ve [klavuz](maintainer_guide.md)'u inceleyebilirsiniz.
 
 ## Uvod
 
