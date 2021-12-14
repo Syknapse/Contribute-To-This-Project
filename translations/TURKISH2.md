@@ -35,11 +35,11 @@ HTML dosyasının içindeki kart şablonunun bir kopyasını oluşturacak ve ken
 
 ## Hızlı Erişim Dizini
 
-| <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Setup](#setup)</li><li>[Katkı &rightarrow;](#katkı)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
+| <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Kurulum](#kurulum)</li><li>[Katkı &rightarrow;](#katkı)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Setup! :)
+## Kurulum
 
 İlk önce uygulamamızı gerçekleştirmek için kurulumu yapalım
 
@@ -133,7 +133,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 5: Kopirajte šablon kartice
+### Adım 5: Kart şablonunu kopyalayın
 
 - Napravićemo kopiju šablona kartice da bismo počeli da radimo na njemu
 
@@ -149,7 +149,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 6: Primenite promene
+### Adım 6: Değişikliklerinizi uygulayın
 
 - Sada ćemo početi da uređujemo html, menjajući prilagodljiva polja na našoj kartici.
 
@@ -178,7 +178,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 7: Potvrdite svoje promene
+### Adım 7: Değişikliklerinizi kabul edin(commit)
 
 - Vratite se na GitHub desktop aplikaciju.
 - Vaše promene će biti automatski dodate u oblast za pripremu.
@@ -199,7 +199,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 8: Pošalji svoje promene na GitHub
+### Adım 8: Değişikliklerinizi GitHub'a aktarın(push)
 
 - Vaše promene su sada sačuvane ili unete. Ali oni se čuvaju samo lokalno, to jest na vašem računaru.
 - Sinhronizacija lokalnih promena sa vašim repozitorijumom na Github-u se zove  _Push_. Vi „gurate“ promene iz vašeg lokalnog repozitorijuma na repozitorijum na Github-u.
@@ -212,7 +212,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 9: Pošalji izmene na reviziju (Pull Request)
+### Adım 9: Bir PR (Çekme İsteği) Gönderin(Pull Request)
 
 - Ovo je trenutak koji ste čekali; podnošenje _Pull Request_ (PR).
 - Do sada je sav posao koji ste uradili bio na granici projekta, koji se, kako se sećate, nalazi na vašem nalogu GitHub-a.
@@ -239,7 +239,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ---
 
-### Korak 10: Proslavite!!
+### Adım 10: Kutlama
 
 To je to. Uspeli ste! Sada ste doprineli otvorenom kodu na GitHub-u.
 
@@ -255,7 +255,7 @@ Obećavam da ću pokušati da pregledam i spojim što je pre moguće, ali ovo
 
 ---
 
-## Sledeci koraci
+## Sonraki adımlar
 
 - Nakon nekog vremena proverite da li imate spojeni zahtev za povlačenje.
 - Trebalo bi da dobijete mejl u od GitHub-a kada vaše promene budu odobrene ili ako se zahtevaju dodatne promene. A kada se PR konačno spoji sa master granom, vaša kartica je dodata.
@@ -266,13 +266,13 @@ Obećavam da ću pokušati da pregledam i spojim što je pre moguće, ali ovo
 -**Hvala što ste doprineli ovom projektu**. Sada možete nastaviti i pokušati da doprinesete drugim projektima; potražite ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) oznaku za opcije doprinosa prilagođene početnicima.
 - Takođe tražim saradnike da mi pomognu u pregledu i spajanju PR-a. Ako želite da dobijete napredniju Git praksu, pošaljite mi DM na Tvitter-u i pročitajte [maintainer's guide](maintainer_guide.md).
 
-## Priznanja
+## Teşekkür
 
 Na ovaj projekat veliki uticaj je imao [Roshan Jossey's](https://github.com/Roshanjossey) odlični [first-contributions](https://github.com/Roshanjossey/first-contributions) projekat sa sjajnim tutorijalom.
 
 Takođe je posebno inspirisano velikom zajednicom u okolini [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-## Licenca
+## Lisans
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
