@@ -269,9 +269,11 @@ Obećavam da ću pokušati da pregledam i spojim što je pre moguće, ali ovo
 
 ## Teşekkür
 
-Na ovaj projekat veliki uticaj je imao [Roshan Jossey's](https://github.com/Roshanjossey) odlični [first-contributions](https://github.com/Roshanjossey/first-contributions) projekat sa sjajnim tutorijalom.
+Bu proje büyük ölçüde [Roshan Jossey'in](https://github.com/Roshanjossey) mükemmel eğitimlere sahip [ilk-katkılar](https://github.com/Roshanjossey/first-contributions) projesinden esinlenmiştir.
 
-Takođe je posebno inspirisano velikom zajednicom u okolini [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+Ayrıca, özellikle [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, 2017 Avrupa kümesindeki büyük topluluktan ilham almıştır.
+
+Takođe je posebno inspirisano velikom zajednicom u okolini  The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
 ## Lisans
 
