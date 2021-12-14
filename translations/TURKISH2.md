@@ -67,24 +67,25 @@ _Tahmini süre: 30 dakikadan az_.
 - GitHub'da bir proje depo(repo) olarak adlandırılmakta, çatal(fork) ise bunun kopyalanmasıdır.
 - Bu reponun [ana sayfa](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')'sında (main) olduğunuzdan emin olun.
 
-| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
+| <ul><li>Fork butonuna basın</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
-- Sada imate kompletnu kopiju projekta na svom nalogu.
+- Artık kendi hesabınızda projenin tam bir kopyasına sahipsiniz.
 
 ---
 
 ### Adım 2: Depoyu klonlayın(clone)
 
-- Sada želimo da napravimo lokalnu kopiju projekta. To je kopija sačuvana na Vašoj mašini.
-- Otvorite GitHub desktop aplikaciju. U aplikaciji :
+- Şimdi projenin yerel bir kopyasını oluşturmak istiyoruz. Yani kendi cihazımıza kaydedilmiş bir kopya.
+- GitHub masaüstü uygulamasını açalım. Uygulamada:
 
-| <ul><li>Klikni na _File_ potom _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
+
+| <ul><li>_Dosya_'ya ve ardından _Depoyu Klonla_'ya tıklayın</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Videćete listu svojih projekata i forkova na GitHub-u.</li><li>Izaberite `<vaše-github-username>/Contribute-To-This-Project`.</li><li>Klikni _Clone_</li></ul> | ![Kloniraj projekat](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<vaše-github-username>/Contribute-To-This-Project` seçelim.</li><li>Klikni _Clone_</li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
 | <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
