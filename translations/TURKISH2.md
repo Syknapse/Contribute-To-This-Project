@@ -20,10 +20,10 @@ Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Sykna
 - Eğitim yeni başlayanlar için olmak ile birlikte `<a href="" target=""></a>` bağlantı etiketini nasıl yazacağınızı ve düzenleyeceğinizi biliyorsanız, uygulamamızı başarabilirsiniz.
 - Ayrıca biraz daha deneyim sahibi ancak ilk açık kaynak katkısını yapmak veya konu ile ilgili daha fazla güven ve ekstra deneyim amacıyla katkıda bulunmak isteyenler içindir.
 
-### Zašto sam započeo ovaj projekat?
+### Neden bunu yapmam gerekiyor?
 
-Svaki veb developer koji je ambiciozaN ili iskusan treba da koristi Git - kontrolu verzija, a GitHub je najpopularnija uluga Git hostinga koju koriste svi. Takođe je srce zajednice otvorenog koda. Dobro poznavanje GitHub-a je neophodna veština. Davanje doprinosa projektu povećava vaše samopouzdanje i daje vam nešto što možete da pokažete na svom GitHub profilu.<br>
-Ako ste novi u programiranju i pitate se da li treba da naučite Git i GitHub, evo odgovora: [Trebali ste naučiti Git juče](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+Hevesli veya deneyimli herhangi bir web geliştiricisinin Git versiyon kontrolünü ve herkes tarafından kullanılan en popüler Git barındırma hizmeti olan GitHub’ı kullanması gerekir. Github Aynı zamanda Açık Kaynak topluluğunun da kalbidir. GitHub'ı rahat kullanmak önemli bir beceridir. Github üzerinde bir projeye katkıda bulunmak kendinize olan güveninizi arttıracak ve size GitHub profilinizde sunabileceğiniz bir içerik vererek profil değerinizi arttıracaktır.<br>
+Yeni bir geliştiriciyseniz, Git ve GitHub'ı öğrenmeniz gerekip gerekmediğini merak ediyorsanız işte cevap: [Git'i Dün Öğrenmiş Olmalıydın](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ## Šta ću ja da doprinesem?
 
