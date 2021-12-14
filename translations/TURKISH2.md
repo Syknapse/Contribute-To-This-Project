@@ -81,16 +81,17 @@ _Tahmini süre: 30 dakikadan az_.
 - GitHub masaüstü uygulamasını açalım. Uygulamada:
 
 
-| <ul><li>_Dosya_'ya ve ardından _Depoyu Klonla_'ya tıklayın</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
+| <ul><li>_Dosya_'ya ve ardından _Depoyu klonla_'ya tıklayın</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<github-kullanıcı-adı>/Contribute-To-This-Project` seçelim.</li><li>_Klonla_ya tıklayalım </li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<github-kullanıcı-adı>/Contribute-To-This-Project` seçelim.</li><li>Klonlaya tıklayalım </li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Izračvan projekat će imati simbol viljuške sa leve strane.</li><li>Vaše račvanje će imati vaše sopstveno GitHub korisničko ime.</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
+| <ul><li>Forklanmış bir projenin solunda çatal sembolü olacaktır..</li><li>Forkladığınız projenin kendi GitHub kullanıcı adı olacaktır.
+</li></ul>                                      |    ![vaše račvanje](/readme-only/clone-your-fork.PNG 'vaše račvanje će izgledati ovako, sa vašim korisničkim imenom')    |
 
-- Ovo će potrajati trenutak dok se projekat ne kopira na vaš hard disk. Preporučujem Vam da zadržite podrazumevanu putanju koja je obično `..\Documents\GitHub`.
-- Sada imate lokalnu kopiju projekta.
+- Proje sabit diskinize kopyalanırken bu biraz zaman alacaktır. Genellikle varsayılan dizini korumanız önerilmektedir. `..\Documents\GitHub`.
+- Artık projenin yerel bir kopyasına sahipsiniz.
 
 ---
 
