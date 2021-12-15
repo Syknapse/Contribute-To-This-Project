@@ -117,7 +117,7 @@ _Tahmini süre: 30 dakikadan az_.
 - Şimdi ana daldan ayrı yeni bir dal oluşturdunuz.
 - Sonraki adımlar için bu dalda çalıştığınızdan emin olun. Bulunduğunuz şubenin adını GitHub masaüstü uygulamasının üst orta kısmında _Current branch_ şeklinde yazdığını göreceksiniz.
 
-** `master` branch üzerinde çalışmayın **
+** `master` branch üzerinde çalışmayın
 
 ---
 
