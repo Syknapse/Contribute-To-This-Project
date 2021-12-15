@@ -104,13 +104,13 @@ _Tahmini süre: 30 dakikadan az_.
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Dajte grani ime</li><li>Kliknite `Create branch`</li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
+| <ul><li>Şubenize(branch) bir isim verin</li><li>`Create branch`'u tıklayın </li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
-- Možete nazvati granu kako god želite, ali pošto je ovo grana za dodavanje kartice sa vašim imenom u projekat, nazvati je `your-name-card` je dobra praksa jer nameru ove grane održava jasnom.
+- İstediğiniz bir isim koyabilirsiniz, ancak bu dal(branch) projeye adınızın olduğu bir kart eklemek amacıyla olduğundan, `your-name-card` şeklinde isimlendirmek iyi bir uygulama olacağından bu dalın amacını açık tutar.
 
-| <ul><li>Objavite Vašu granu na Github'u</li></ul> | ![Ime grane](/readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
+| <ul><li>Yeni şubenizi(branch) Github'da yayınlayın</li></ul> | ![Ime grane](/readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
