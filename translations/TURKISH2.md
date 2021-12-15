@@ -96,8 +96,9 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 3: Yeni bir şube oluşturun(branch)
 
-- Kada se repo klonira i otvorite ga na GitHub radnoj površini, vreme je da napravite novu granu.
-- Grana je način da Vaše izmene držite odvojeno od glavnog dela projekta pod nazivom `Master`. Na primer, ako stvari krenu naopako i niste zadovoljni svojim izmenama, možete jednostavno da izbrišete granu i to neće uticati na glavni projekat.
+- Depo klonlandıktan ve GitHub masaüstünde açıldıktan sonra yeni bir şube(branch) oluşturma zamanı gelmiştir.
+- Dal(branch), değişikliklerinizi projenin Ana adlı ana bölümünden ayrı tutmanın bir yoludur.
+Grana je način da Vaše izmene držite odvojeno od glavnog dela projekta pod nazivom `Master`. Na primer, ako stvari krenu naopako i niste zadovoljni svojim izmenama, možete jednostavno da izbrišete granu i to neće uticati na glavni projekat.
 
 | <ul><li>Kliknite na _Current branch_</li><li>Potom kliknite na _New_</li></ul> | ![Create branch](/readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
