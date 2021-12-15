@@ -139,11 +139,12 @@ _Tahmini süre: 30 dakikadan az_.
 
 - Üzerinde çalışmaya başlamak için kart şablonunun bir kopyasını oluşturacağız
 
-| <ul><li>Html dosyasının en üstünde, `<head>` ve `<header>` bölümlerinin altında `== TEMPLATE ==` etiketli bölümü bulacaksınız. </li><li>`Contributor card START` yorumundan `Contributor card END` yorumuna, resimdeki kırmızı kare içindeki her şeyi kopyalayın</li></ul> |
+| <ul><li>Html dosyasının en üstünde, `<head>` ve `<header>` bölümlerinin altında `== TEMPLATE ==` etiketli bölümü bulacaksınız. </li><li>`Contributor card START` yorumundan `Contributor card END` yorumuna, resimdeki kırmızı kare içindeki her şeyi kopyalayın.</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Kopirajte šablon kartice](/readme-only/card-copy.PNG 'Kopirajte šablon kartice')                                                                                                                                                                                                                 |
 
-| <ul><li>Zalepite celu stvar direktno ispod komentara koji na to ukazuje</li><li>Uverite se da postoji jedna linija razmaka između početka i kraja poslednje kartice. Dobra je praksa da naš kod bude što jasniji</li><li>Nikada ne koristite lintere ili formatere stilova. Projekat ima lepšu postavku</li></ul> |
+| <ul><li>Her şeyi doğrudan yapıştırılacak yeri belirten yorumun altına yapıştırın.</li><li>Kartın başlangıcının öncesi ile sonununun ardında tek bir satır boşluk olduğundan emin olun. Bu kodumuzu olabildiğince okunabilir tutmak için iyi bir uygulamadır.</li><li>Asla linter veya stil formatlayıcı kullanmayın. Proje daha güzel bir kuruluma sahiptir.
+</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Nalepite šablon kartice](/readme-only/card-paste.PNG 'Zalepite ispod naznačene linije')                                                                                                                                                                                                                                        |
 
