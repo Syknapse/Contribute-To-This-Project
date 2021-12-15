@@ -117,17 +117,18 @@ _Tahmini süre: 30 dakikadan az_.
 - Şimdi ana daldan ayrı yeni bir dal oluşturdunuz.
 - Sonraki adımlar için bu dalda çalıştığınızdan emin olun. Bulunduğunuz şubenin adını GitHub masaüstü uygulamasının üst orta kısmında _Current branch_ şeklinde yazdığını göreceksiniz.
 
-** `master` branch üzerinde çalışmayın
+**Lütfen `master` branch üzerinde çalışmayın**
 
 ---
 
 ### Adım 4: index.html dosyasını açın
 
-- Sada moramo da otvorimo datoteku koju ćemo urediti pomoću Vašeg omiljenog kod editora.
-- Pronađite folder projekta na računaru. Ako ste zadržali podrazumevano, ovo bi trebalo da bude nešto slično `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- `index.html` fajl je direktno u `Contribute-To-This-Project` folderu.
+- Şimdi düzenleyeceğimiz dosyayı favori kod düzenleyicinizle açmamız gerekiyor.
+- Bilgisayarınızdaki proje klasörünü bulun. Varsayılanı koruduysanız bu şöyle bir şey olmalıdır `your-computer > Documents > GitHub > Contribute-To-This-Project`
+- `index.html` dosyası doğrudan `Contribute-To-This-Project` klasöründedir.
 
-| <ul><li>Otvorite kod editor (Sublime, VS Code, Atom..etc) i otvorite fajl `Open file` komandom i locirajte index.html fajl u glavnom direktorijumu projekta.</li><li>Alternativno, možete locirati datoteku na hard disku, kliknuti desnim tasterom miša i otvoriti je pomoću uređivača</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
+| <ul><li>Kod düzenleyicinizi (Sublime, VS Code, Atom..etc) açın ve `Open file` komutunu kullanın ve index.html dosyasını projenin ana dizininde bulun.</li><li>Alternatif olarak, dosyayı sabit sürücünüzde bulabilir, sağ tıklayıp düzenleyicinizle açabilirsiniz.
+</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
