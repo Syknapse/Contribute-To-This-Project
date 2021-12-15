@@ -127,8 +127,7 @@ _Tahmini süre: 30 dakikadan az_.
 - Bilgisayarınızdaki proje klasörünü bulun. Varsayılanı koruduysanız bu şöyle bir şey olmalıdır `your-computer > Documents > GitHub > Contribute-To-This-Project`
 - `index.html` dosyası doğrudan `Contribute-To-This-Project` klasöründedir.
 
-| <ul><li>Kod düzenleyicinizi (Sublime, VS Code, Atom..etc) açın ve `Open file` komutunu kullanın ve index.html dosyasını projenin ana dizininde bulun.</li><li>Alternatif olarak, dosyayı sabit sürücünüzde bulabilir, sağ tıklayıp düzenleyicinizle açabilirsiniz.
-</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
+| <ul><li>Kod düzenleyicinizi (Sublime, VS Code, Atom..etc) açın ve `Open file` komutunu kullanın ve index.html dosyasını projenin ana dizininde bulun.</li><li>Alternatif olarak, dosyayı sabit sürücünüzde bulabilir, sağ tıklayıp düzenleyicinizle açabilirsiniz.</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
