@@ -143,12 +143,11 @@ _Tahmini süre: 30 dakikadan az_.
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Kopirajte šablon kartice](/readme-only/card-copy.PNG 'Kopirajte šablon kartice')                                                                                                                                                                                                                 |
 
-| <ul><li>Her şeyi doğrudan yapıştırılacak yeri belirten yorumun altına yapıştırın.</li><li>Kartın başlangıcının öncesi ile sonununun ardında tek bir satır boşluk olduğundan emin olun. Bu kodumuzu olabildiğince okunabilir tutmak için iyi bir uygulamadır.</li><li>Asla linter veya stil formatlayıcı kullanmayın. Proje daha güzel bir kuruluma sahiptir.
-</li></ul> |
+| <ul><li>Her şeyi doğrudan yapıştırılacak yeri belirten yorumun altına yapıştırın.</li><li>Kartın başlangıcının öncesi ile sonununun ardında tek bir satır boşluk olduğundan emin olun. Bu kodumuzu olabildiğince okunabilir tutmak için iyi bir uygulamadır.</li><li>Asla linter veya stil formatlayıcı kullanmayın. Proje daha güzel bir kuruluma sahiptir.</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Nalepite šablon kartice](/readme-only/card-paste.PNG 'Zalepite ispod naznačene linije')                                                                                                                                                                                                                                        |
 
-- Ovo je sada **vaša** kartica koju možete prilagoditi i urediti.
+- Artık, kişiselleştirmeniz ve düzenlemeniz için size ait **kartınız** var.
 
 ---
 
