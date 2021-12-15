@@ -139,7 +139,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 - Üzerinde çalışmaya başlamak için kart şablonunun bir kopyasını oluşturacağız
 
-| <ul><li>Html dosyasının en üstünde, `<head>` ve `<header>` bölümlerinin altında `== TEMPLATE ==` etiketli bölümü bulacaksınız. </li><li>Kopirajte sve unutar crvenog kvadrata na slici, iz `Contributor card START` komentara do `Contributor card END` komentara</li></ul> |
+| <ul><li>Html dosyasının en üstünde, `<head>` ve `<header>` bölümlerinin altında `== TEMPLATE ==` etiketli bölümü bulacaksınız. </li><li>`Contributor card START` yorumundan `Contributor card END` yorumuna, resimdeki kırmızı kare içindeki her şeyi kopyalayın</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Kopirajte šablon kartice](/readme-only/card-copy.PNG 'Kopirajte šablon kartice')                                                                                                                                                                                                                 |
 
