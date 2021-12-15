@@ -114,10 +114,10 @@ _Tahmini süre: 30 dakikadan az_.
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
-- Sada ste kreirali novu granu odvojenu od mastera.
-- Za sledeće korake proverite da li radite na ovoj grani. Videćete ime grane na kojoj se nalazite u gornjem centru GitHub desktop aplikacije gde piše _Current branch_.
+- Şimdi ana daldan ayrı yeni bir dal oluşturdunuz.
+- Sonraki adımlar için bu dalda çalıştığınızdan emin olun. Bulunduğunuz şubenin adını GitHub masaüstü uygulamasının üst orta kısmında _Current branch_ şeklinde yazdığını göreceksiniz.
 
-**NEMOJTE da radite na `master` grani**
+** `master` branch üzerinde çalışmayın**
 
 ---
 
