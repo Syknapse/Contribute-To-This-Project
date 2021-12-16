@@ -232,13 +232,13 @@ _Tahmini süre: 30 dakikadan az_.
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Zahtevate da spojite svoju granu sa vaše vilice u glavnu granu originalnog projekta')                                                                                                                                                                                                                                                                      |
 
-| <ul><li>Kreirajte pull request:</li><li>Napišite naslov</li><li>Dodajte opcionalne informacije i opis</li><li>Kliknite `Create pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Kliknite yeleno dugme. Nemojte se plašiti!") |
+| <ul><li>Çekme(Pull request) isteği oluşturun</li><li>Bir başlık yazın</li><li>Açıklamaya isteğe bağlı bilgiler ekleyin</li><li>`Create pull request` butonuna tıklayın</li></ul> | ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Kliknite yeleno dugme. Nemojte se plašiti!") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
-- Nemojte da vas uznemiravaju sve opcije. Za sada treba da uradite samo ova tri koraka.
-- Ostavi opciju `Allow edits from maintainers` obeleženom.
-- Sada, _Pull Request_ će biti poslat održavaocu projekta. Čim bude pregledan i prihvaćen, vaše promene će se pojaviti na [veb stranici projekta](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
+- Tüm seçenekler sizi şaşırtmasın. Şimdilik sadece bu üç adımı yapmanız gerekiyor.
+- `Allow edits from maintainers` (Bakımcıların düzenlemelerine izin ver) seçeneğini işaretli bırakın.
+- Şimdi, proje yürütücüsüne bir _Pull Request_(Çekme talebi) gönderilecektir. İncelenip kabul edildiği anda değişiklikleriniz [proje web sayfası](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page')nda görünecektir.
 
 ---
 
