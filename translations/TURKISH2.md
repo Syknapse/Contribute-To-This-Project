@@ -153,17 +153,18 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 6: Değişikliklerinizi uygulayın
 
-- Sada ćemo početi da uređujemo html, menjajući prilagodljiva polja na našoj kartici.
+- Şimdi kartımızdaki özelleştirilebilir alanları değiştirerek html düzenlemeye başlayacağız.
 
-| <ul><li>Yamenite 'Name' sa Vašim imenom</li><li>Poruka: Nemojte menjati `class="name"`</li></ul> | ![Promeni ime](/readme-only/change-name.PNG 'Ukucaj svoje ime') |
+| <ul><li>'Name' kısmını adınız ile değiştirin</li><li>Not: `class="name" değiştirilmemelidir`</li></ul> | ![Promeni ime](/readme-only/change-name.PNG 'Ukucaj svoje ime') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
-| <ul><li>Unesite URL svog Tvitter naloga `href="Insert URL here"`</li><li>Unesite svoju oznaku u polje za tekst</li></ul> |
+| <ul><li>Twitter hesabınızın URL'sini girin `href="Insert URL here"`</li><li>Kullanıcı adınızı(handle) metin alanına yazın</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Promeni kontakt](/readme-only/change-contact.PNG 'Umetnite vezu do svog Tvitter naloga i otkucajte svoje tviter username')               |
 
-- Ako više volite da koristite kontakt koji nije Tviter, moraćete da zamenite tviter ikonicu`<i class="fa fa-twitter"></i>` tako što ćete da odete na [Font Awesome Icons](http://fontawesome.io/icons/) pronađete odgovarajucu ikonicu i zamenite samo `fa-twitter` deo sa novom ikonicom `fa-facebook` fna primer. Potom pratite iste korake iznad.
+- Twitter dışında bir platform kullanmayı tercih ederseniz twitter simgesini değiştirmeniz gerekecektir `<i class="fa fa-twitter"></i>`. [Font Awesome Icons](http://fontawesome.io/icons/)'a giderek doğru simgeyi bulmanız sonrasında yalnızca `fa-twitter` bölümünü örneğin `fa-facebook` gibi yeni simgeyle değiştirebilirsiniz.
+
 
 | <ul><li>Recite nam nešto o sebi</li><li>Neka bude kratko i slatko. Razmislite o tome više kao na tvit nego na post na blogu</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
