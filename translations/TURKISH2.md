@@ -203,14 +203,14 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 8: Değişikliklerinizi GitHub'a aktarın(push)
 
-- Vaše promene su sada sačuvane ili unete. Ali oni se čuvaju samo lokalno, to jest na vašem računaru.
-- Sinhronizacija lokalnih promena sa vašim repozitorijumom na Github-u se zove  _Push_. Vi „gurate“ promene iz vašeg lokalnog repozitorijuma na repozitorijum na Github-u.
+- Değişiklikleriniz artık kaydedildi veya taahhüt(commit) edildi. Ancak bunlar yalnızca yerel olarak, yani bilgisayarınızda kaydedilmiştir.
+- Yerel değişiklikleri Github'daki deponuzla senkronize etmeye _Push_ denir. Yerel deponuzdaki değişiklikleri Github'daki uzak depoya "ittirme(pushlama)" işlemi gerçekleştirilecektir.
 
-| <ul><li>Kliknite _Push_ dugme</li></ul> | ![Pušuj na GitHub](/readme-only/push.PNG "Pošalji svoje promene na GitHub, klikni na 'Push' dugme") |
+| <ul><li>_Push_ Butonuna tıklayınız</li></ul> | ![Pušuj na GitHub](/readme-only/push.PNG "Pošalji svoje promene na GitHub, klikni na 'Push' dugme") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
 
 
-- Posle nekoliko sekundi operacija je završena i sada imate potpuno istu kopiju ove grane na vašoj mašini kao i na GitHub-u.
+- Birkaç saniye sonra işlem tamamlanır ve artık bu dalın(branch) tam olarak aynı kopyası hem makinenizde hem de GitHub'da bulunur.
 
 ---
 
