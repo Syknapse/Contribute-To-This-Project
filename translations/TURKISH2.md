@@ -123,7 +123,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 4: index.html dosyasını açın
 
-- Şimdi düzenleyeceğimiz dosyayı favori kod düzenleyicinizle açmamız gerekiyor.
+- Şimdi düzenleyeceğimiz dosyayı favori kod düzenleyicinizle açmanız gerekiyor.
 - Bilgisayarınızdaki proje klasörünü bulun. Varsayılanı koruduysanız bu şöyle bir şey olmalıdır `your-computer > Documents > GitHub > Contribute-To-This-Project`
 - `index.html` dosyası doğrudan `Contribute-To-This-Project` klasöründedir.
 
