@@ -280,4 +280,5 @@ Ayrıca, özellikle [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleU
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
-[Başa dön &uparrow;](#uvod)
+[Başa dön &uparrow;](#Giriş)
+
