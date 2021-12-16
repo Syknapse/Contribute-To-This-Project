@@ -244,9 +244,9 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 10: Kutlama
 
-To je to. Uspeli ste! Sada ste doprineli otvorenom kodu na GitHub-u.
+Bu kadar. Başardın! GitHub'da açık kaynağa katkıda bulundunuz.
 
-Dodali ste kod na živu veb stranicu: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+Canlı bir web sayfasına kod eklediniz: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
 Vaše promene **neće biti vidljive odmah**; prvo se moraju pregledati, prihvatiti i spojiti sa master granom što odobrava nosilac projekta. Kada se spoje, vaša kartica treba da bude vidljiva i aktivna na stranici.
 
