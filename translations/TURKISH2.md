@@ -217,18 +217,18 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 9: Bir PR (Çekme İsteği) Gönderin(Pull Request)
 
-- Ovo je trenutak koji ste čekali; podnošenje _Pull Request_ (PR).
-- Do sada je sav posao koji ste uradili bio na granici projekta, koji se, kako se sećate, nalazi na vašem nalogu GitHub-a.
-- Sada je vreme da svoje izmene pošaljete glavnom projektu da se spoje sa njim.
-- Ovo se zove  [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') jer tražite od originalnog održavaoca projekta da "uvuče" vaše izmene u svoj projekat.
-- Idite na glavnu stranicu **vašeg račvanja** na GitHub'u (imaće ikonicu račvanja i vaše korisničko ime na vrhu).
-- Pri vrhu repo-a videćete istaknutu poruku zahteva za povlačenje sa zelenim dugmetom. (Pull request)
+- İşte beklediğiniz an; _Pull Request_ gönderme zamanı.
+- Şimdiye kadar yaptığınız tüm işler, hatırladığınız gibi kendi GitHub hesabınızda bulunan çatallanmış proje dahilindeydi(fork).
+- Şimdi, değişikliklerinizi birleştirilecek ana projeye gönderme zamanı.
+- Orijinal proje yürütücüsünden, gerçekleştirmiş olduğunuz değişikliklerinizi projelerine "çekmesini" istediğiniz için buna [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') denir.
+- GitHub'da çatalınızın ana sayfasına gidin (üstte çatal simgesi ve kendi kullanıcı adınız olacaktır).
+- Deponun üst kısmına doğru, yeşil bir düğme ile vurgulanmış bir çekme talebi mesajı göreceksiniz. (Pull request)
 
-| <ul><li>Kliknite na `Compare and pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'Ovo se obično nalazi na vrhu stranice, ispod opisa i iznad projektnih datoteka i fascikli') |
+| <ul><li>`Compare and pull request` butonuna tıklayınız</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'Ovo se obično nalazi na vrhu stranice, ispod opisa i iznad projektnih datoteka i fascikli') |
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>Ovako `Open a pull request` stranica izgleda.</li><li>SETITE SE _vi pokušavate da spojite Vašu granu sa originalnim projektom, a ne sa `Master` granom na vašem račvanju_.</li><li>Slika ispod daje vam ideju kako bi zaglavlje vašeg zahteva za povlačenje trebalo da izgleda</li><li>a levoj strani je originalni projekat, a zatim glavna grana. Na desnoj strani je vaše račvanje i grana koju ste kreirali.</li></ul> |
+| <ul><li>`Open a pull request` sayfası bu şekilde gözükmektedir.</li><li>UNUTMAYIN, dalınızı çatalınızdaki `Master` dalıyla değil, orijinal projeyle birleştirmeye çalışıyorsunuz.</li><li>Aşağıdaki resim, çekme isteğinizin başlığının nasıl görünmesi gerektiği hakkında bir fikir verecektir.</li><li>Solda orijinal proje ve ardından ana dal bulunur. Sağda ise çatalımız ve oluşturduğumuz dal vardır.</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Zahtevate da spojite svoju granu sa vaše vilice u glavnu granu originalnog projekta')                                                                                                                                                                                                                                                                      |
 
