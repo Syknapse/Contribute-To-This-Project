@@ -166,11 +166,11 @@ _Tahmini süre: 30 dakikadan az_.
 - Twitter dışında bir platform kullanmayı tercih ederseniz twitter simgesini değiştirmeniz gerekecektir `<i class="fa fa-twitter"></i>`. [Font Awesome Icons](http://fontawesome.io/icons/)'a giderek doğru simgeyi bulmanız sonrasında yalnızca `fa-twitter` bölümünü örneğin `fa-facebook` gibi yeni simgeyle değiştirebilirsiniz.
 
 
-| <ul><li>Recite nam nešto o sebi</li><li>Neka bude kratko i slatko. Razmislite o tome više kao na tvit nego na post na blogu</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
+| <ul><li>bize kendin hakkında bir şey söyle</li><li>Kısa ve güzel tut. Bunu bir blog gönderisinden çok bir tweet gibi düşünün</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
-| <ul><li>Podelite sa zajednicom 3 veze do resursa koji su korisni za razvoj veba</li><li>Ovo može biti bilo šta, video, razgovor, podkast, članak, referenca ili alat</li><li>Ako ste početnik, nemojte da Vas ovo plaši, podelite sve što znate čak i ako mislite da je osnovno. Iznenadićete se koliko će ljudi imati koristi</li></ul> |
+| <ul><li>Web geliştirme için yararlı olan 3 kaynağa ait bağlantının topluluk ile paylaşılması</li><li>Bu herhangi bir şey, video, konuşma, podcast, makale, referans veya araç olabilir</li><li>Yeni başlayan biriyseniz, bundan korkmayın, basit olduğunu düşünseniz bile bildiklerinizi paylaşın. Kaç kişinin faydalanacağına şaşıracaksınız</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![izmeni resurse](/readme-only/change-resources.PNG 'Umetnite vezu, napišite kratak opis i otkucajte naziv resursa')                                                                                                                                                                                                                                   |
 | <ul><li>Link: Umetnite link `href="here"` zamenite `#`</li><li>Title: Napišite kratak opis `title="here"`</li><li>Name: Upišite naziv resursa u tekstualno polje `>ovde</a>`</li></ul>                                                                                                                                                               |
