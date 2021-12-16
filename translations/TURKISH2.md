@@ -2,13 +2,13 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-> **Duyuru:** Bu projede yönetici olmak ve projenin sürdürülmesine yardımcı olmak ister misiniz?? Eğer ilgileniyorsanız, bana [Twitter](https://twitter.com/Syknapse)'dan DM atabilir ve [klavuz](https://github.com/cgncvk/Contribute-To-This-Project/blob/master/maintainer_guide.md)'u inceleyebilirsiniz.
+> **Duyuru:** Bu projede yönetici olmak ve projenin sürdürülmesine yardımcı olmak ister misiniz?? Eğer ilgileniyorsanız, bana [Twitter](https://twitter.com/Syknapse)'dan DM atabilir ve [klavuz](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/maintainer_guide.md)'u inceleyebilirsiniz.
 
 ## Giriş
 
 Bu eğitim aracılığıyla Github üzerinde ilk kez katkıda bulunacak kişilerin, basit ve kolay bir projeye katılmalarına yardımcı olunması amaçlanmıştır.
 
-Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Şimdilik [İngilizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD), [Portekizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [İspanyolca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), ve [İtalyanca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Bu konuda çeviri destekleriniz memnuniyetle karşılanır).
+Bu eğitim başka dillerde de mevcuttur [diğer diller](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Şimdilik [İngilizce](https://github.com/Syknapse/Contribute-To-This-Project), [Portekizce](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [İspanyolca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), ve [İtalyanca](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Bu konuda çeviri destekleriniz memnuniyetle karşılanır).
 
 ### Hedefler
 
