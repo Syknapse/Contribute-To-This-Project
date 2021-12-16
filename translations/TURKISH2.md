@@ -183,16 +183,16 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 7: Değişikliklerinizi kabul edin(commit)
 
-- Vratite se na GitHub desktop aplikaciju.
-- Vaše promene će biti automatski dodate u oblast za pripremu.
-- To znači da je Git zabeležio sve **sačuvane** promene.
-- To možete videti u aplikaciji. Sve što ste dodali u datoteku biće zeleno, a brisanja će biti prikazana crvenom bojom.
+- GitHub masaüstü uygulamasına geri dönün.
+- Değişiklikleriniz staging alanına otomatik olarak eklenecektir.
+- Bu, Git'in şuana kadar mevcut gerçekleştirilen tüm değişiklikleri **kaydettiği** anlamına gelir.
+- Bunun uygulamaya yansıdığını görebilirsiniz. Dosyaya eklediğiniz her şey yeşil olacak ve silme işlemleri kırmızı olarak gösterilecektir.
 
-| <ul><li>Sledeći korak se zove _Commit_</li><li>Ugrubo ovo znači "potvrdi promene"</li></ul> | ![Komituj promene](/readme-only/commit.PNG "Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za komitovanje se nalazi u donjem levom uglu") |
+| <ul><li>Bir sonraki adıma _Commit_ denir </li><li>Bu kabaca "değişiklikleri onayla" anlamına gelir</li></ul> | ![Komituj promene](/readme-only/commit.PNG "Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za komitovanje se nalazi u donjem levom uglu") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>Tako bi trebalo da izgleda zaglavlje vašeg GitHub desktopa</li><li>Obratite pažnju na simbol račvanja pored naziva projekta u `Current repository`</li><li>Vaša `Current branch` imaće ime koje ste mu dali u koraku 3</li></ul> |
+| <ul><li>GitHub masaüstü başlığınız böyle görünmelidir</li><li>`Geçerli depoda` proje adının yanındaki çatal sembolüne dikkat edin</li><li>`Mevcut şubeniz`, 3. adımda verdiğiniz isme sahip olacaktır.</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Komituj promene](/readme-only/commit-header.PNG "Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za urezivanje se nalazi u donjem levom uglu")                                               |
 
@@ -271,7 +271,7 @@ Obećavam da ću pokušati da pregledam i spojim što je pre moguće, ali ovo
 
 ## Teşekkür
 
-Bu proje büyük ölçüde [Roshan Jossey'in](https://github.com/Roshanjossey) mükemmel eğitimlere sahip [ilk-katkılar](https://github.com/Roshanjossey/first-contributions) projesinden esinlenmiştir.
+Bu proje büyük ölçüde [Roshan Jossey'in](https://github.com/Roshanjossey) mükemmel eğitimlere sahip [first-conributions](https://github.com/Roshanjossey/first-contributions) projesinden esinlenmiştir.
 
 Ayrıca, özellikle [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, 2017 Avrupa kümesindeki büyük topluluktan ilham almıştır.
 
