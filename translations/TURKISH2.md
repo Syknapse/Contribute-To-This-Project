@@ -104,7 +104,7 @@ _Tahmini süre: 30 dakikadan az_.
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Şubenize(branch) bir isim verin</li><li>`Create branch`'u tıklayın </li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
+| <ul><li>Şubenize(branch) bir isim verin</li><li>`Create branch`'ı tıklayın </li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
