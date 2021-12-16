@@ -248,11 +248,11 @@ Bu kadar. Başardın! GitHub'da açık kaynağa katkıda bulundunuz.
 
 Canlı bir web sayfasına kod eklediniz: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Vaše promene **neće biti vidljive odmah**; prvo se moraju pregledati, prihvatiti i spojiti sa master granom što odobrava nosilac projekta. Kada se spoje, vaša kartica treba da bude vidljiva i aktivna na stranici.
+Değişiklikleriniz **hemen görünmeyecektir**; öncelikle proje yürütücüsü tarafından gözden geçirilip kabul edilmeli ve birleştirilmelidir(merge). Bir kez birleştirildikten sonra kartınız sayfada görünür ve canlı olacaktır.
 
-Veoma je normalno da recenzent traži izmene u Pull Request-u. Smatrajte to dobrom praksom ako Vam se to dogodi. Pratite komentare i tražene izmene. Jednom kada izvršite tražene izmene (povratak u svoju granu) sve što treba da uradite je da izvršite i pogurate svoje promene. PR će se automatski ažurirati novim izmenama.
+Gözden geçiren kişinin bir PR üzerinde değişiklik istemesi çok normaldir. Başınıza gelirse iyi bir uygulama olarak düşünün. Yorumlara ve istenen değişikliklere dikkat edin. İstenen değişiklikleri yaptıktan sonra (size ait branch'a geri döndüğünüzde) tek yapmanız gereken değişikliklerinizi taahhüt(commit) etmek ve push etmektir. PR, yeni değişikliklerle otomatik olarak güncellenecektir.
 
-Obećavam da ću pokušati da pregledam i spojim što je pre moguće, ali ovo radim u slobodno vreme, tako da je kašnjenje od nekoliko dana neizbežno.
+En kısa zamanda incelemeye ve birleştirmeye çalışacağıma söz veriyorum ama bunu boş zamanlarımda yapıyorum, bu yüzden birkaç gün gecikme kaçınılmaz.
 
 ---
 
