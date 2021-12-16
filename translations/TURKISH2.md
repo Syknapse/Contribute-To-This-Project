@@ -175,9 +175,9 @@ _Tahmini süre: 30 dakikadan az_.
 | ![izmeni resurse](/readme-only/change-resources.PNG 'Umetnite vezu, napišite kratak opis i otkucajte naziv resursa')                                                                                                                                                                                                                                   |
 | <ul><li>Link: `#` değiştirilerek buraya bağlantı eklenir `href="here"`</li><li>Title: Kısa bir başlık açıklaması yazın `title="here"`</li><li>Name: Ad: Metin alanına kaynağın adını yazın `>link to resources</a>`</li></ul>                                                                                                                                                               |
 
-- Uverite se da ste **sačuvali sve promene**.
-- **Testirajte svoje promene**. OVO JE VAŽNO! Otvorite html datoteku u svom pretraživaču (na primer dvostrukim klikom na nju) i pogledajte kako će vaša kartica izgledati na sajtu. Uverite se da cela stranica i dalje izgleda isto i da ništa nije pokvareno. Kliknite na svoje veze i uverite se da rade. Otvorite konzolu (Ctrl + Shift + J (Windows / Linux) ili Cmd + Opt + J (Mac)) i proverite da nema poruka o grešci.
-- Odlično, završili ste sa uređivanjem koda! Sledeći koraci će poslati vaše izmene na GitHub, a zatim ih poslati da se spoje sa glavnim projektom.
+- Tüm değişikliklerinizi **kaydettiğinizden emin olun**.
+- **Değişikliklerinizi test edin**. BU ÖNEMLİ! Html dosyasını tarayıcınızda açın (üzerine çift taklayarak açabilirsiniz) ve kartınızın sitede nasıl görüneceğine bakın. Bağlantılarınızı tıklayın ve çalıştıklarından emin olun. Konsolu açın (Ctrl + Shift + J (Windows / Linux) veya Cmd + Opt + J (Mac)) ve hata mesajı olmadığını kontrol edin.
+- Harika, kodunuzu düzenlemeyi bitirdiniz! Sonraki adımlarda, değişikliklerinizi GitHub'a gönderecek ve ardından ana projeyle birleştirilmek(merge) üzere sunacaksınız.
 
 ---
 
