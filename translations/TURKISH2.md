@@ -166,14 +166,14 @@ _Tahmini süre: 30 dakikadan az_.
 - Twitter dışında bir platform kullanmayı tercih ederseniz twitter simgesini değiştirmeniz gerekecektir `<i class="fa fa-twitter"></i>`. [Font Awesome Icons](http://fontawesome.io/icons/)'a giderek doğru simgeyi bulmanız sonrasında yalnızca `fa-twitter` bölümünü örneğin `fa-facebook` gibi yeni simgeyle değiştirebilirsiniz.
 
 
-| <ul><li>Bize kendin hakkında bir şey söyle</li><li>Kısa ve güzel tut. Bunu bir blog gönderisinden çok bir tweet gibi düşünün</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
+| <ul><li>Bize kendin hakkında birşeyler söyle</li><li>Kısa ve güzel tut. Bunu blog gönderisinden çok bir tweet gibi düşünebilirsiniz</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
 | <ul><li>Web geliştirme için yararlı olan 3 kaynağa ait bağlantının topluluk ile paylaşılması</li><li>Bu herhangi bir şey, video, konuşma, podcast, makale, referans veya araç olabilir</li><li>Yeni başlayan biriyseniz, bundan korkmayın, basit olduğunu düşünseniz bile bildiklerinizi paylaşın. Kaç kişinin faydalanacağına şaşıracaksınız</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![izmeni resurse](/readme-only/change-resources.PNG 'Umetnite vezu, napišite kratak opis i otkucajte naziv resursa')                                                                                                                                                                                                                                   |
-| <ul><li>Link: `#` değiştirilerek buraya bağlantı eklenir `href="here"`</li><li>Title: Kısa bir başlık açıklaması yazın `title="here"`</li><li>Name: Ad: Metin alanına kaynağın adını yazın `>link to resources</a>`</li></ul>                                                                                                                                                               |
+| <ul><li>Link: `#` değiştirilerek buraya bağlantı eklenir `href="here"`</li><li>Title: Kısa bir başlık açıklaması yazın `title="here"`</li><li>Name: Metin alanına kaynağın adını yazın `>here</a>`</li></ul>                                                                                                                                                               |
 
 - Tüm değişikliklerinizi **kaydettiğinizden emin olun**.
 - **Değişikliklerinizi test edin**. BU ÖNEMLİ! Html dosyasını tarayıcınızda açın (üzerine çift taklayarak açabilirsiniz) ve kartınızın sitede nasıl görüneceğine bakın. Bağlantılarınızı tıklayın ve çalıştıklarından emin olun. Konsolu açın (Ctrl + Shift + J (Windows / Linux) veya Cmd + Opt + J (Mac)) ve hata mesajı olmadığını kontrol edin.
