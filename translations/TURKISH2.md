@@ -272,7 +272,7 @@ En kısa zamanda incelemeye ve birleştirmeye çalışacağıma söz veriyorum a
 
 ## Teşekkür
 
-Bu proje büyük ölçüde [Roshan Jossey'in](https://github.com/Roshanjossey) mükemmel eğitimlere sahip [first-conributions](https://github.com/Roshanjossey/first-contributions) projesinden esinlenmiştir.
+Bu proje büyük ölçüde [Roshan Jossey](https://github.com/Roshanjossey)'in mükemmel eğitimlere sahip [first-conributions](https://github.com/Roshanjossey/first-contributions) projesinden esinlenmiştir.
 
 Ayrıca, özellikle [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, 2017 Avrupa kümesindeki büyük topluluktan ilham almıştır.
 
