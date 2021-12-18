@@ -192,7 +192,7 @@ _Tahmini süre: 30 dakikadan az_.
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>GitHub masaüstü başlığınız böyle görünmelidir</li><li>`Geçerli depoda` proje adının yanındaki çatal sembolüne dikkat edin</li><li>`Mevcut şubeniz` 3. adımda verdiğiniz isme sahip olacaktır.</li></ul> |
+| <ul><li>GitHub masaüstü başlığınız böyle görünmelidir</li><li>`Geçerli depoda` proje adının yanındaki çatal sembolüne dikkat edin</li><li>`Mevcut şubeniz` 3. adımda verdiğiniz isme sahip olacaktır</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Komituj promene](/readme-only/commit-header.PNG "Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za urezivanje se nalazi u donjem levom uglu")                                               |
 
