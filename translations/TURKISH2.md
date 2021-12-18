@@ -244,7 +244,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 ### Adım 10: Kutlama
 
-Bu kadar. Başardın! GitHub'da açık kaynağa katkıda bulundunuz.
+Bu kadar. Başardın! GitHub'ta açık kaynağa katkıda bulundunuz.
 
 Canlı bir web sayfasına kod eklediniz: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
@@ -261,7 +261,7 @@ En kısa zamanda incelemeye ve birleştirmeye çalışacağıma söz veriyorum a
 ## Sonraki adımlar
 
 - Merge edilmiş Çekme Talebinizi(pull request) kontrol etmek için bir süre sonra tekrar gelin.
-- Değişiklikleriniz onaylandığında veya ek değişiklikler istendiğinde GitHub'dan bir e-posta almalısınız. Ve PR nihayet master ile birleştiğinde ve kartınız eklendiğinde.
+- Değişiklikleriniz onaylandığında veya ek değişiklikler istendiğinde GitHub'dan bir e-posta almalısınız. Ve aynı zamanda PR nihayet master ile birleştiğinde ve kartınız eklendiğinde de.
 - Bu projeyi faydalı bulduysanız, lütfen sayfanın üst kısmına bir ⭐ yıldız ⭐ verin ve projenin yayılmasına yardımcı olmak için bu konuda **Tweet** atın.[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 - Beni **takip edebilir** ve [Twitter](https://twitter.com/Syknapse '@Syknapse') veya [bu diğer seçenekler](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')den herhangi birini kullanarak iletişime geçebilirsiniz.
 - Bu açık kaynaklı bir projedir, dolayısıyla kartınız ile katkıda bulunmanın yanı sıra hataları düzeltmeye, iyileştirmelere veya yeni özellikleri eklemeye yardımcı olabilirsiniz. Bir [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') açabilir ve [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help') gönderebilirsiniz.
