@@ -205,7 +205,7 @@ _Tahmini süre: 30 dakikadan az_.
 ### Adım 8: Değişikliklerinizi GitHub'a aktarın(push)
 
 - Değişiklikleriniz artık kaydedildi veya taahhüt(commit) edildi. Ancak bunlar yalnızca yerel olarak, yani bilgisayarınızda kaydedilmiştir.
-- Yerel değişiklikleri Github'daki deponuzla senkronize etmeye _Push_ denir. Yerel deponuzdaki değişiklikleri Github'daki uzak depoya "ittirme(pushlama)" işlemi gerçekleştirilecektir.
+- Yerel değişiklikleri Github'daki deponuzla senkronize etmeye _Push_ denir. Yerel deponuzdaki değişiklikleri Github'taki uzak depoya "ittirme(pushlama)" işlemi gerçekleştirilecektir.
 
 | <ul><li>_Push_ Butonuna tıklayınız</li></ul> | ![Pušuj na GitHub](/readme-only/push.PNG "Pošalji svoje promene na GitHub, klikni na 'Push' dugme") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
@@ -238,7 +238,7 @@ _Tahmini süre: 30 dakikadan az_.
 
 - Tüm seçenekler sizi şaşırtmasın. Şimdilik sadece bu üç adımı yapmanız gerekiyor.
 - `Allow edits from maintainers` (Bakımcıların düzenlemelerine izin ver) seçeneğini işaretli bırakın.
-- Şimdi, proje yürütücüsüne bir _Pull Request_(Çekme talebi) gönderilecektir. İncelenip kabul edildiği anda değişiklikleriniz [proje web sayfası](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page')nda görünecektir.
+- Şimdi, proje yürütücüsüne bir _Pull Request_(Çekme talebi) gönderilecektir. İncelenip kabul edildiği anda değişiklikleriniz [proje web sayfası](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page')'nda görünecektir.
 
 ---
 
