@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Esse é um tutorial para ajudar os contribuidores inicial a participar de um simples e fácil projeto.
+Esse é um tutorial para ajudar os contribuidores iniciantes a participar de um simples e fácil projeto.
 
 ### Objetivos
 
@@ -57,7 +57,7 @@ Torne-se um contribuidor Open Source em 10 passos.
 
 _Tempos estimado: menos de 30 minutos_.
 
-### Passo 1: de um Fork nesse repositório
+### Passo 1: dê um Fork nesse repositório
 
 -   O objetivo aqui é fazer uma cópia desse projeto e colocar na sua conta.
 -   Um repositório (repo) é como o projeto é chamado no GitHub e o Fork é uma cópia dele.
@@ -74,7 +74,7 @@ _Tempos estimado: menos de 30 minutos_.
 ### Passo 2: Clone o repositório
 
 -   Agora nós temos que fazer uma cópia local do projeto. Essa é uma cópia salva na sua máquina.
--   Abra o Github Desktop. E no seu Aplicativo:
+-   Abra o GitHub Desktop. E no seu Aplicativo:
 
 | <ul><li>Clique no _arquivo_ e então _Clone o repositório_</li></ul> | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
@@ -104,11 +104,11 @@ _Tempos estimado: menos de 30 minutos_.
 
 -   Você pode dar o nome que desejar, mas como esse é um ramo para adicionar um cartão com o seu nome ao projeto, chamá-lo de `seu nome do cartão 'é uma boa prática, pois mantém clara a intenção desse ramo.
 
-| <ul><li>Publique sua nova branch no Github</li></ul> | ![Nome da branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| <ul><li>Publique sua nova branch no GitHub</li></ul> | ![Nome da branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
--   Agora você criou uma nova branch separada da master.
+-   Agora você criou um novo ramo separado da master.
 -   Para as próximas etapas, verifique se você está trabalhando neste ramo. Você verá o nome da filial em que se encontra, na parte superior central do aplicativo de desktop do GitHub, onde diz _Current branch_.
 
 **Não trabalhe na branch `master`**
@@ -137,7 +137,7 @@ _Tempos estimado: menos de 30 minutos_.
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                                                       |
 
-| <ul><li>Cole a coisa toda diretamente acima do comentário indicando</li><li>Verifique se há uma única linha de espaço entre o início do cartão e o último final do cartão. É uma boa prática manter nosso código o mais claro possível </li><li> Verifique se o seu recuo está correto e corresponde ao modelo</li></ul> |
+| <ul><li>Cole tudo diretamente acima do comentário indicando</li><li>Verifique se há uma única linha de espaço entre o início do cartão e o último final do cartão. É uma boa prática manter nosso código o mais claro possível </li><li> Verifique se o seu recuo está correto e corresponde ao modelo</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Cole o modelo de cartão](/readme-only/card-paste.PNG 'Paste above the indicated line')                                                                                                                                                                                                                               |
 
@@ -170,7 +170,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 -   Garanta que você **salvou todas as suas mudanças**.
 -   **Teste suas mudanças**. ISSO É IMPORTANTE!Abra o arquivo html no seu navegador (clicando duas vezes nele, por exemplo) e veja como será o seu cartão no site. Veja que a página inteira ainda parece a mesma e nada está quebrado. Clique nos seus links e verifique se eles estão funcionando.Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
--   Ótimo, você terminou de editar seu código! As próximas etapas enviarão suas alterações para o GitHub e as enviarão para serem mescladas com o projeto principal.
+-   Ótimo, você terminou de editar seu código! As próximas etapas enviarão suas alterações para o GitHub e as enviarão para serem integradas com o projeto principal.
 
 ---
 
@@ -198,7 +198,7 @@ _Tempos estimado: menos de 30 minutos_.
 ### Passo 8: Envie suas mudanças ao GitHub
 
 -   Suas alterações agora estão salvas ou confirmadas. Mas eles são salvos apenas localmente, ou seja, no seu computador.
--   A sincronização de alterações locais com seu repositório no Github é chamada de _Push_. Você está "enviando" as alterações do seu repositório local para o repositório remoto no Github.
+-   A sincronização de alterações locais com seu repositório no GitHub é chamada de _Push_. Você está "enviando" as alterações do seu repositório local para o repositório remoto no GitHub.
 
 | <ul><li>Clique no botão _Push_ </li></ul> | ![Envie ao GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
@@ -211,7 +211,7 @@ _Tempos estimado: menos de 30 minutos_.
 
 -   Este é o momento que você estava esperando; enviando um _Pull Request_ (PR).
 -   Até agora, todo o trabalho que você fez esteve na bifurcação do projeto, que, como você se lembra, reside em sua própria conta do GitHub.
--   Agora é hora de enviar as alterações para o projeto principal a serem mescladas.
+-   Agora é hora de enviar as alterações para o projeto principal a serem integradas.
 -   Isso é chamado de [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'Sobre solicitações de recebimento - Ajuda do GitHub') porque você está pedindo ao mantenedor do projeto original para "puxar" suas mudanças em seu projeto.
 -   Vá para a página principal de **seu fork** no GitHub (ele terá o ícone do fork e seu próprio nome de usuário na parte superior).
 -   Na parte superior do repositório, você verá uma mensagem destacada de solicitação de recebimento com um botão verde.
@@ -220,7 +220,7 @@ _Tempos estimado: menos de 30 minutos_.
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>Isso é o que uma página `Open a pull request` parece.</li><li>LEMBRE-SE _você está tentando mesclar sua ramificação com o projeto original e não com a ramificação `Master` no seu fork_.</li><li>A imagem abaixo fornece uma idéia de como deve ser o cabeçalho da sua solicitação pull.</li><li>À esquerda está o projeto original, seguido pelo ramo mestre. À direita está o seu Fork e o ramo que você criou.</li></ul> |
+| <ul><li>Isso é o que uma página `Open a pull request` parece.</li><li>LEMBRE-SE _você está tentando integrar sua ramificação com o projeto original e não com a ramificação `Master` no seu fork_.</li><li>A imagem abaixo fornece uma idéia de como deve ser o cabeçalho da sua pull request.</li><li>À esquerda está o projeto original, seguido pelo ramo mestre. À direita está o seu Fork e o ramo que você criou.</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Abra um Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                                                      |
 
@@ -228,7 +228,7 @@ _Tempos estimado: menos de 30 minutos_.
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
--   Não se assuste com todas as opções. Você só precisa executar essas três etapas por enquanto.
+- Não se assuste com todas as opções. Você só precisa executar essas três etapas por enquanto.
 - Deixe a opção "Permitir edições dos mantenedores" marcada.
 - Agora, um _Pull Request_ será enviado ao mantenedor do projeto. Assim que for revisado e aceito, suas alterações aparecerão na [página da web do projeto](https://syknapse.github.io/Contribute-To-This-Project 'Contribuir para esta página da web do projeto').
 ---
@@ -239,24 +239,24 @@ _Tempos estimado: menos de 30 minutos_.
 
 Você adicionou código a uma página da web ao vivo: [https://syknapse.github.io/Contribute-To-This-ProjectBody((https://syknapse.github.io/Contribute-To-This-Project)
 
-Suas alterações **não serão visíveis imediatamente**; primeiro eles precisam ser revisados, aceitos e mesclados pelo mantenedor do projeto. Depois que eles forem mesclados, seu cartão estará visível e estará na página.
+Suas alterações **não serão visíveis imediatamente**; primeiro eles precisam ser revisados, aceitos e integradas pelo mantenedor do projeto. Depois que as suas alterações forem integradas, seu cartão estará visível e estará na página.
 
 É muito normal que um revisor solicite alterações em um PR. Pense nisso como uma boa prática, se acontecer com você. Fique de olho nos comentários e nas alterações solicitadas. Depois de fazer as alterações solicitadas (de volta ao seu ramo), tudo o que você precisa fazer é confirmar e enviar as alterações. O PR será atualizado automaticamente com as novas alterações.
 
-Prometo que tentarei revisar e mesclar o mais rápido possível, mas faço isso no meu tempo livre, por isso é inevitável um atraso de alguns dias.
+Prometo que tentarei revisar e integrar o mais rápido possível, mas faço isso no meu tempo livre, por isso é inevitável um atraso de alguns dias.
 ---
 
 ---
 
 ## Próximos passos
 
--  Volte em um tempo para verificar sua solicitação de solicitação mesclada.
--  Você deve receber um email do GitHub quando suas alterações forem aprovadas ou se alterações adicionais forem solicitadas. E quando o PR for finalmente mesclado ao mestre e seu cartão foi adicionado.
+-  Volte em um tempo para verificar sua solicitação de integração.
+-  Você deve receber um email do GitHub quando suas alterações forem aprovadas ou se alterações adicionais forem solicitadas. E quando o PR for finalmente integrado ao mestre e seu cartão foi adicionado.
 -  Se você achou este projeto **útil**, dê a ele: estrela: ⭐ no topo da página e **Tweet** sobre ele para ajudar a espalhar a palavra [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 -  Você pode **me seguir** e entrar em contato no [Twitter](https://twitter.com/Syknapse '@Syknapse') ou [usando qualquer uma dessas outras opções](https://syknapse.github.io/Syk-Houdeib/#contact 'A minha secção de contactos | Portfólio')
--  Este é um projeto de código aberto. Além de contribuir com seu board, você pode ajudar a corrigir bugs, melhorias ou novos recursos. Abra um [issue](https://help.github.com/articles/creating-an-issue/ 'Como dominar problemas | Guias do GitHub') ou envie uma nova [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Criando uma solicitação pull de uma bifurcação | Ajuda do GitHub')
--  **Obrigado por contribuir com este projeto**. Agora você pode ir em frente e tentar contribuir com outros projetos; procure o rótulo [![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para obter opções de contribuição para iniciantes.
--  Também estou procurando colaboradores para me ajudar na revisão e mesclagem de PRs. Se você deseja obter uma prática mais avançada do Git, envie-me um DM no Twitter.
+-  Este é um projeto de código aberto. Além de contribuir com seu cartão, você pode ajudar a corrigir bugs, melhorias ou novos recursos. Abra um [issue](https://help.github.com/articles/creating-an-issue/ 'Como dominar problemas | Guias do GitHub') ou envie uma nova [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Criando uma solicitação pull de uma bifurcação | Ajuda do GitHub')
+-  **Obrigado por contribuir com este projeto**. Agora você pode ir em frente e tentar contribuir com outros projetos; procure o rótulo ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para obter opções de contribuição para iniciantes.
+-  Também estou procurando colaboradores para me ajudar na revisão e integração de PRs. Se você deseja obter uma prática mais avançada do Git, envie-me um DM no Twitter.
 
 ## Agradecimentos
 
