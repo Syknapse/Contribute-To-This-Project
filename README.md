@@ -1,5 +1,5 @@
-# Debian или Ubuntu
-sudo apt install git
+# Debian или Ubuntu LINUX
+Sudo apt install git
 
 # CentOS
 sudo yum install git
