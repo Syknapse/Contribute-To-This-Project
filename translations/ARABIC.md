@@ -4,11 +4,11 @@
 
 > **إعلان:** أترغب في أن تكون مشرفاً في هذا المشروع وتعين على إستمراريته؟ إن كنت مهتما أرسل لي رسالة خاصة على [Twitter](https://twitter.com/Syknapse) واقرأ [دليل المشرفين](maintainer_guide.md).
 
-## Introduction
+## مقدمة
 
-This is a tutorial to help first-time contributors to participate in a simple and easy project.
+هذا دليل تعليمي لمساعدة المساهمين لأول مرة للمشاركة في مشروع سهل وبسيط.
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) currently. Translations very welcome).
+هذا الدليل متوفر أيضاً [بلغات أخرى](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([البرتغالية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [الإسبانية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), و [الإيطالية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) في الوقت الحالي. نرحب بالترجمات).
 
 ### Objectives
 
