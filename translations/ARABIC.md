@@ -15,15 +15,16 @@
 - المساهمة في مشروع مفتوح المصدر.
 - الإعتياد على التعامل مع GitHub.
 
-### لمن هذا الدليل
+### لمن هذا الدليل؟
 
 - هذا الدليل للمبتدئين جداً. إن كنت تعرف كيف تكتب وتعدل على وسم الروابط `<a href="" target=""></a>` فيمكنك فعلها.
 - إنه لأولئك الذين لديهم القليل من الخبرة ويرغبون في تسجيل أول مساهمة لهم في المصدر المفتوح، أو تسجيل مساهمات أكثر للمزيد من الخبرة أو لاكتساب الثقة.
 
-### Why do I need to do this?
+### لماذا علي القيام بذلك؟
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
-If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+أي مبرمج ويب صاعد أو خبير يحتاج لاستخدام نظام إصدارات قيت (git version control)، و GitHub هو خدمة الإستضافة الأشهر لمشاريع Git والذي يستخدمه الجميع. هو كذلك القلب النابض لمجتمع المصدر المفتوح. الإعتياد على استعمال GitHub مهارة لا غنى عنها. المساهمة في مشروع مفتوح المصدر يعطيك دفعة من الثقة ومادة يمكنك عرضها على صفحتك الشخصية على GitHub.<br>
+
+إن كنت مبرمجاً جديداً وتتسائل إن كان يجب عليك أن تتعلم Git و GitHub ففي المقال التالي تجد الإجابة: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ## What am I going to contribute?
 
