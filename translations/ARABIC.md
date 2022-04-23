@@ -10,15 +10,15 @@
 
 هذا الدليل متوفر أيضاً [بلغات أخرى](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([البرتغالية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [الإسبانية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), و [الإيطالية](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) في الوقت الحالي. نرحب بالترجمات).
 
-### Objectives
+### الأهداف
 
-- Make a contribution to an open source project.
-- Get more comfortable in using GitHub.
+- المساهمة في مشروع مفتوح المصدر.
+- الإعتياد على التعامل مع GitHub.
 
-### Who is this for?
+### لمن هذا الدليل
 
-- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
-- It is for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+- هذا الدليل للمبتدئين جداً. إن كنت تعرف كيف تكتب وتعدل على وسم الروابط `<a href="" target=""></a>` فيمكنك فعلها.
+- إنه لأولئك الذين لديهم القليل من الخبرة ويرغبون في تسجيل أول مساهمة لهم في المصدر المفتوح، أو تسجيل مساهمات أكثر للمزيد من الخبرة أو لاكتساب الثقة.
 
 ### Why do I need to do this?
 
