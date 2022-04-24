@@ -36,21 +36,21 @@
 
 ## فهرس الوصول السريع
 
-| <ul><li>[المقدمة](#Introduction)</li><li>[بم سأساهم؟](#what-am-i-going-to-contribute)</li><li>[التثبيت](#setup)</li><li>[المساهمة &rightarrow;](#contribute)</li><li>[الخطوات التالية](#next-steps)</li><li>[شكر وعرفان](#acknowledgements)</li></ul> | المساهمة: <ul><li>[الخطوة الأولى: انسخ (fork) هذا المستودع](#step-1-fork-this-repository)</li><li>[الخطوة الثانية: انسخ (clone) هذا المستودع](#step-2-clone-the-repository)</li><li>[الخطوة الثالثة: أنشئ تفرعاً جديداً](#step-3-create-a-new-branch)</li><li>[الخطوة الرابعة: افتح ملف index.html](#step-4-open-the-indexhtml-file)</li><li>[الخطوة الخامسة: انسخ كود الكرت](#step-5-copy-the-card-template)</li><li>[الخطوة السادسة: نفذ تعديلاتك](#step-6-apply-your-changes)</li><li>[الخطوة السابعة: قم بعمل commit لتغييراتك](#step-7-commit-your-changes)</li><li>[الخطوة الثامنة: ادفع بتغييراتك ل GitHub](#step-8-push-your-changes-to-github)</li><li>[الخطوة التاسعة: قم بتقديم Pull Request](#step-9-submit-a-pr)</li><li>[الخطوة العاشرة: وقت الإحتفال!](#step-10-celebrate)</li></ul> |
+| <ul><li>[المقدمة](#Introduction)</li><li>[بم سأساهم؟](#what-am-i-going-to-contribute)</li><li>[التجهيز](#setup)</li><li>[المساهمة &rightarrow;](#contribute)</li><li>[الخطوات التالية](#next-steps)</li><li>[شكر وعرفان](#acknowledgements)</li></ul> | المساهمة: <ul><li>[الخطوة الأولى: انسخ (fork) هذا المستودع](#step-1-fork-this-repository)</li><li>[الخطوة الثانية: انسخ (clone) هذا المستودع](#step-2-clone-the-repository)</li><li>[الخطوة الثالثة: أنشئ تفرعاً جديداً](#step-3-create-a-new-branch)</li><li>[الخطوة الرابعة: افتح ملف index.html](#step-4-open-the-indexhtml-file)</li><li>[الخطوة الخامسة: انسخ كود الكرت](#step-5-copy-the-card-template)</li><li>[الخطوة السادسة: نفذ تعديلاتك](#step-6-apply-your-changes)</li><li>[الخطوة السابعة: قم بعمل commit لتغييراتك](#step-7-commit-your-changes)</li><li>[الخطوة الثامنة: ادفع بتغييراتك ل GitHub](#step-8-push-your-changes-to-github)</li><li>[الخطوة التاسعة: قم بتقديم Pull Request](#step-9-submit-a-pr)</li><li>[الخطوة العاشرة: وقت الإحتفال!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Setup! :)
+## التجهيز! :)
 
-First let's get setup to do the work
+في البداية، لنتجهز لبدء العمل
 
-1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-1. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so (here's [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
-   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+1. سجل الدخول لحسابك على GitHub. إن لم تقم بعد بإنشاء حساب فقم [بالإنضمام](https://github.com/join). أنصحك باتباع [دليل البداية من GitHub](https://guides.github.com/activities/hello-world/) قبل الإستمرار.
+1. قم بتحميل [GitHub لسطح المكتب](https://desktop.github.com/).
+   - كخيار آخر، إن كنت ترتاح لاستخدام Git على ال command line فيمكنك استخدامه (هنا تجد [المساهمين لأول مرة](https://github.com/Syknapse/first-contributions), مشروعاً مشابهاً يمكن أن يكون دليلاً للأوامر المطلوبة.) وكخيار ثالث...
+   - إن كنت تستخدم محرر [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') فهو يأتي مع نظام Git مدمجاً ويسمح لك بتنفيذ ما نريده مباشرة من داخل البرنامج.
+   - وعلى كل حال، الطريقة الأبسط لاتباع هذا الدليل هي استخدام GitHub لسطح المكتب.
 
-Now that you are all setup let's get on with the business of contributing to the project.
+الآن وقد تجهزت، لنبدأ عملية المساهمة في هذا المشروع.
 
 ---
 
