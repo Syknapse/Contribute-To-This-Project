@@ -26,13 +26,13 @@
 
 إن كنت مبرمجاً جديداً وتتسائل إن كان يجب عليك أن تتعلم Git و GitHub ففي المقال التالي تجد الإجابة: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-## What am I going to contribute?
+## بم سأساهم؟
 
-![Contributor Card](readme-only/card.PNG 'Contributor Card')
+![كرت المساهمين](../readme-only/card.PNG 'Contributor Card')
 
-You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+سوف تساهم بكرت كهذا تماماً على [صفحة الويب لهذا المشروع](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). سيحتوي الكرت على اسمك، معرف تويتر الخاص بك، وصف مختصر، و 3 روابط لمصادر من ترشيحك لمطوري الويب.
 
-You will make a copy of the card template inside the HTML file and customise it with your own information.
+ستقوم بعمل نسخة من كود الكرت داخل ملف ال HTML وتخصيصه بعلوماتك الخاصة.
 
 ## Quick Access Index
 
