@@ -56,41 +56,41 @@
 
 ---
 
-## Contribute
+## المساهمة
 
-Become an open source contributor in 10 easy steps.
+تحول لمساهم في المصدر المفتوح عبر 10 خطوات بسيطة.
 
-_Estimated time: Less than 30 minutes_.
+_الوقت المقدر: أقل من 30 دقيقة_.
 
-### Step 1: Fork this repository
+### الخطوة الأولى: انسخ (Fork) هذا المستودع
 
-- The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
-- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
+- الهدف هنا هو عمل نسخة من هذا المشروع ووضعها في حسابك الشخصي.
+- المستودع (repo) هو الإسم الذي يطلق على أي مشروع في GitHub وال fork هي نسخة منه.
+- تأكد من أنك في [الصفحة الرئيسية](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') لهذا المشروع.
 
-| <ul><li>Click on the _Fork_ button</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>اضغط على زر _Fork_</li></ul> | ![Fork](../readme-only/fork.PNG "click on 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
-- You now have a complete copy of the project in your own account.
+- لديك الآن نسخة كاملة من المشروع على حسابك الخاص.
 
 ---
 
-### Step 2: Clone the repository
+### الخطوة الثانية: انسخ (Clone) هذا المستودع
 
-- Now we want to make a local copy of the project. That is a copy saved on your own machine.
-- Open the GitHub desktop app. In the app:
+- الآن نريد عمل نسخة محلية من المشروع. هذا يعني نسخة من المشروع محفوظة على جهازك الشخصي.
+- افتح تطبيق GitHub لسطح المكتب. في التطبيق:
 
-| <ul><li>Click on _File_ then _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
+| <ul><li>اضغط على _File_ ثم _Clone repository_</li></ul> | ![Clone](../readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>You will see a list of your projects and forks on GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Click _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>سترى قائمة من مشاريعك ونسخاتك على GitHub.</li><li>اختر `<your-github-username>/Contribute-To-This-Project`.</li><li>اضغط على _Clone_</li></ul> | ![Clone project](../readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>A forked project will have the fork symbol on the left.</li><li>Your fork will have your own GitHub user name.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>المشاريع المستنسخة ستملك أيقونة النسخ (fork) على يسارها</li><li>نسختك ستكون تحت اسم حسابك الشخصي</li></ul>                                      |    ![your fork](../readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
 
-- This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
-- Now you have a local copy of the project.
+- سيستغرق الأمر بعض الوقت ريثما يتم نسخ المشروع إلى القرص الخاص بك. أنصحك بترك المسار الافتراضي كما هو والذي هو عادة `..\Documents\GitHub`.
+- الآن لديك نسخة محلية من المشروع.
 
 ---
 
