@@ -150,32 +150,31 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 6: Apply your changes
+### الخطوة السادسة: قم بتطبيق تعديلاتك
 
-- We'll  now start editing html, changing the customizable fields in our card.
+- سنقوم الآن ببدء تعديل كود ال html، بتغيير الخانات المخصصة على الكرت الخاص بنا.
 
-| <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Type your name') |
+| <ul><li>استبدل 'Name' بإسمك</li><li>ملاحظة: لا تقم بتغيير `class="name"`</li></ul> | ![Change name](../readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
-| <ul><li>Insert the URL of your Twitter account `href="Insert URL here"`</li><li>Type your handle in the text field</li></ul> |
+| <ul><li>أدخل رابط حساب تويتر الخاص بك `href="Insert URL here"`</li><li>اكتب المعرف الخاص بك في حقل النص</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------- |
-| ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
+| ![Change contact](../readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
 
-- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then Follow the same steps above.
+- إذا كنت ترغب باستخدام وسيلة تواصل غير تويتر فعليك استبدال الأيقونة `<i class="fa fa-twitter"></i>` بالذهاب إلى [Font Awesome Icons](http://fontawesome.io/icons/) والبحث عن الأيقونة المناسبة ثم فقط استبدال جزئية `fa-twitter` بالأيقونة الجديدة مثل `fa-facebook` على سبيل المثال. ثم اتبع نفس الخطوات بالأعلى.
 
-| <ul><li>Tell us something about you</li><li>Keep it short and sweet. Think about it more like a tweet than a blog post</li></ul> | ![Change about](readme-only/change-about.PNG 'Write a sentence about you') |
+| <ul><li>أخبرنا شيئاً عنك</li><li>حافظ عليها قصيرة ومختصرة. فكر بها كتغيرة بدلاً عن مقالة</li></ul> | ![Change about](../readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
-| <ul><li>Share with the community 3 links to resources that are useful for web development</li><li>This can be anything, a video, a talk, a podcast, an article, a reference, or a tool</li><li>If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit</li></ul> |
+| <ul><li>شارك مع المجتمع 3 روابط لمصادر مفيدة في مجال تطوير الويب</li><li>المصدر يمكن أن يكون أي شئ, فيديو, مخاطبة, بودكاست, مقال, مرجع, أو أداة</li><li>إن كنت مبتدئاً فلا تجعل هذا يخيفك، شارك ما تعرفه حتى إن كنت تعرف أنه بسيط. ستفاجئ كم من الناس سيجده ذو فائدة</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                   |
-| <ul><li>Link: Insert the link `href="here"` replacing the `#`</li><li>Title: Write a brief description `title="here"`</li><li>Name: Write the resource's name in the text field `>here</a>`</li></ul>                                                                                                                                                               |
-
-- Make sure you have **saved all your changes**.
-- **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
-- Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
+| ![Change resources](../readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                   |
+| <ul><li>رابط: أدرج الرابط هنا`href="here"` مستبدلاً `#`</li><li>العنوان: اكتب وصفاً مختصراً `title="here"`</li><li>الاسم: اكتب اسم المصدر في حقل النص `>here</a>`</li></ul>                                                                                                                                                               |
+- تأكد من قيامك **بحفظ جميع تعديلاتك**.
+- **اختبر تعديلاتك**. هذا في غاية الأهمية! افتح ملف ال html في المتصفح الخاص بك (بالضغط عليه لمرتين مثلاً) وانظر كيف سيبدو شكل الكرت الخاص بك على الموقع. تحقق من أن الصفحة بالكامل تبدو كما كانت عليه ولا شئ يبدو خطأً. اضفط على الروابط الخاصة بك وتأكد من أنها تعمل. افتح ال console (Ctrl + Shift + J) (ويندوز \ لينكس) أو Cmd + Opt + J على الماك)) وتحقق من أنه لا توجد رسائل خطأ.
+- ممتاز، لقد قمت بإنهاء تعديلاتك على الكود! الخطوات التالية سترسل تغييراتك إلى GitHub وثم ستفوم بتقديم طلب لدمجها في المشروع الأساسي.
 
 ---
 
