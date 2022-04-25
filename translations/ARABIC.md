@@ -134,19 +134,19 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 5: Copy the card template
+### الخطوة الخامسة: انسخ كود الكرت.
 
-- We will make a copy of the card template to start working on it
+- سنقوم بعمل نسخة من كود الكرت لبدء العمل عليه.
 
-| <ul><li>At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`</li><li>Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment</li></ul> |
+| <ul><li>في أعلى ملف ال html, تحت فسمي `<head>` و `<header>` ستجد القسم المسمى `== TEMPLATE ==`</li><li>قم بنسخ كل شئ داخل المربع الأحمر في الصورة, بدءًا من التعليق `Contributor card START` إلى التعليق `Contributor card END`</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copy card template](readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                                                                                 |
+| ![Copy card template](../readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                                                                                 |
 
-| <ul><li>Paste the whole thing directly below the comment indicating it</li><li>Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible</li><li>Never use a linters or style formatters. The project has Prettier setup</li></ul> |
+| <ul><li>قم بلصق ما نسخته مباشرة تحت التعليق الذي يشير لذلك</li><li>تأكد من وجود مسافة (space) واحدة بين بداية كرتك ونهاية آخر كرت. إن من جودة العمل أن نحافظ على الكود الخاص بنا واضحاً ما أمكن</li><li>لا تقم باستخدام معالجات تنسيق الكود. المشروع به Prettier مثبت مسبقاً</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                                                        |
+| ![Paste card template](../readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                                                        |
 
-- This now is **your** card for you to customise and edit.
+- الآن هذا هو **كرتك الخاص** لتقوم بتخصيصه وتعديله.
 
 ---
 
