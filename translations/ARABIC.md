@@ -94,29 +94,29 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 3: Create a new branch
+### أنشئ تفرعاً جديداً (branch)
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- بمجرد أن أنشأت نسخة من المستودع وفمت بفتحها على تطبيق GitHub لسطح المكتب فقد حان وقت إنشاء تفرع جديد (branch).
+- التفرع (branch) هي وسيلة لفصل تغييراتك عن المشروع الأساسي المسمى `Master`. على سبيل المثال إن لم تسر الأمور على ما يرام ولست سعيداً بالتغييرات التي قمت بها فيمكنك ببساطة حذف التفرع من دون أن تؤثر على المشروع الأساسي.
 
-| <ul><li>Click on _Current branch_</li><li>Then click on _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>اضغط على _Current branch_</li><li>ثم اضغط على _New_</li></ul> | ![Create branch](../readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Give your branch a name</li><li>Click `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG 'Name your branch') |
+| <ul><li>أعط التفرع الجديد اسماً</li><li>اضفط على `Create branch`</li></ul> | ![Name branch](../readme-only/branch-name.PNG 'Name your branch') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
+- يمكنك تسمية التفرع ما تشاء، لكن بما أن الغرض من هذا التفرع هو إضافة كرت بإسمك إلى المشروع، فتسمية التفرع بـ `your-name-card` على سبيل المثال خيار جيد، فهو يجعل الغرض من التفرع واضحاً من خلال الإسم.
 
-| <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| <ul><li>أنشر تفرعك الجديد على GitHub</li></ul> | ![Name branch](../readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- الآن لقد قمت بإنشاء تفرع جديد منفصل من التفرع الأصل `Master`.
+- خلال الخطوات القادمة تأكد أنك تعمل على هذا التفرع. سترى اسم التفرع الحالي في وسط الجزء العلوي من تطبيق GitHub لسطح المكتب حيث تقول _Current branch_.
 
-**Do NOT work on the `master` branch**
+**إياك أن تعمل على تفرع `Master`**
 
 ---
 
