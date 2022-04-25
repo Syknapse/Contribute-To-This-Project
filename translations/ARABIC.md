@@ -94,7 +94,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### أنشئ تفرعاً جديداً (branch)
+### الخطوة الثالثة: أنشئ تفرعاً جديداً (branch)
 
 - بمجرد أن أنشأت نسخة من المستودع وفمت بفتحها على تطبيق GitHub لسطح المكتب فقد حان وقت إنشاء تفرع جديد (branch).
 - التفرع (branch) هي وسيلة لفصل تغييراتك عن المشروع الأساسي المسمى `Master`. على سبيل المثال إن لم تسر الأمور على ما يرام ولست سعيداً بالتغييرات التي قمت بها فيمكنك ببساطة حذف التفرع من دون أن تؤثر على المشروع الأساسي.
@@ -120,17 +120,17 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 4: Open the index.html file
+### الخطوة الرابعة: افتح ملف index.html
 
-- Now we need to open the file we are going to edit with your favourite code editor.
-- Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
+- الآن علينا فتح الملف الذي سنقوم بتعديله بواسطة محرر الأكواد المفضل لدينا.
+- جد مجلد المشروع على جهازك. إن كنت حافظت على المسار الافتراضي فسيكون نحو التالي `your-computer > Documents > GitHub > Contribute-To-This-Project`
+- ملف `index.html` يوجد مباشرة داخل مجلد `Contribute-To-This-Project`.
 
-| <ul><li>Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project</li><li>Alternatively you can locate the file on your hard drive, right click, and open with your editor</li></ul> | ![Open index file](readme-only/index-open.PNG 'Open index.html in your text editor') |
+| <ul><li>افتح محرر الأكواد خاصتك (Sublime, VS Code, Atom..etc) واستعمل أمر `Open file` وجد ملف index.html في المجلد الرئيسي للمشروع</li><li>أو بدلاً من ذلك يمكنك إيجاد الملف على القرص الخاص بك, الضغط بزر الماوس الأيمن, ثم فتح عبر محرر الأكواد الذي تفضله</li></ul> | ![Open index file](../readme-only/index-open.PNG 'Open index.html in your text editor') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+- الآن لديك الملف والذي ستقوم بتحريره على محرر الأكواد وأنت جاهز لبدء التعديل عليه.
 
 ---
 
