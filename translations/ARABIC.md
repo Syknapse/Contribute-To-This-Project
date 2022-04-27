@@ -36,7 +36,7 @@
 
 ## فهرس الوصول السريع
 
-| <ul><li>[المقدمة](#Introduction)</li><li>[بم سأساهم؟](#what-am-i-going-to-contribute)</li><li>[التجهيز](#setup)</li><li>[المساهمة &rightarrow;](#contribute)</li><li>[الخطوات التالية](#next-steps)</li><li>[شكر وعرفان](#acknowledgements)</li></ul> | المساهمة: <ul><li>[الخطوة الأولى: انسخ (fork) هذا المستودع](#step-1-fork-this-repository)</li><li>[الخطوة الثانية: انسخ (clone) هذا المستودع](#step-2-clone-the-repository)</li><li>[الخطوة الثالثة: أنشئ تفرعاً جديداً](#step-3-create-a-new-branch)</li><li>[الخطوة الرابعة: افتح ملف index.html](#step-4-open-the-indexhtml-file)</li><li>[الخطوة الخامسة: انسخ كود الكرت](#step-5-copy-the-card-template)</li><li>[الخطوة السادسة: نفذ تعديلاتك](#step-6-apply-your-changes)</li><li>[الخطوة السابعة: قم بعمل commit لتغييراتك](#step-7-commit-your-changes)</li><li>[الخطوة الثامنة: ادفع بتغييراتك ل GitHub](#step-8-push-your-changes-to-github)</li><li>[الخطوة التاسعة: قم بتقديم Pull Request](#step-9-submit-a-pr)</li><li>[الخطوة العاشرة: وقت الإحتفال!](#step-10-celebrate)</li></ul> |
+| <ul><li>[المقدمة](#Introduction)</li><li>[بم سأساهم؟](#what-am-i-going-to-contribute)</li><li>[التجهيز](#setup)</li><li>[المساهمة &rightarrow;](#contribute)</li><li>[الخطوات التالية](#next-steps)</li><li>[شكر وعرفان](#acknowledgements)</li></ul> | المساهمة: <ul><li>[الخطوة الأولى: انسخ (fork) هذا المستودع](#step-1-fork-this-repository)</li><li>[الخطوة الثانية: انسخ (clone) هذا المستودع](#step-2-clone-the-repository)</li><li>[الخطوة الثالثة: أنشئ تفرعاً جديداً](#step-3-create-a-new-branch)</li><li>[الخطوة الرابعة: افتح ملف index.html](#step-4-open-the-indexhtml-file)</li><li>[الخطوة الخامسة: انسخ كود الكرت](#step-5-copy-the-card-template)</li><li>[الخطوة السادسة: نفذ تعديلاتك](#step-6-apply-your-changes)</li><li>[الخطوة السابعة: قم بعمل commit لتغييراتك](#step-7-commit-your-changes)</li><li>[الخطوة الثامنة: ادفع بتغييراتك ل GitHub](#step-8-push-your-changes-to-github)</li><li>[الخطوة التاسعة: قم بتقديم Pull Request](#step-9-submit-a-pr)</li><li>[الخطوة العاشرة: الإحتفال!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
@@ -244,17 +244,17 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 10: Celebrate!!
+### الخطوة العاشرة: الإحتفال!!
 
-That's it. You have done it! You have now contributed to open source on GitHub.
+لقد فعلتها! أنت الآن قد شاركت في المصدر المفتوع على GitHub.
 
-You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+لقد قمت بإضافة كود لصفحة ويب نشطة: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+تغييراتك لن تكون **لن تكون متاحة مباشرة**؛ عليها أولاً أن تخضع للمراجعة، الموافقة، ثم الدمج عن طريق مشرف المشروع. بمجرد أن يتم الدمج سيظهر الكرت الخاص بك على الصفحة.
 
-It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+من الطبيعي جداً أن يطلب منك المراجع تغييرات على ال PR. فكر بها بشكل حميد ان تعرضت لذلك. أبق عينك مفتوحة لأي تعليق أو طلبات بالتغيير. بمجرد أن تقوم بالتغييرات المطلوبة (في تفرعك الخاص) كل ما عليك فعله هو تأكيد (commit) ودفع تغييراتك. سيتم تحديث ال PR مباشرة بالتغييرات الجديدة.
 
-I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
+أعدك أني سأحاول المراجعة والدمج بأسرع ما يمكنني، لكني أقوم بذلك في وقت فراغي، لذا فلا مفر من التأخر لعدة أيام.
 
 ---
 
