@@ -217,30 +217,30 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 9: Submit a PR(Pull Request)
+### الخطوة التاسعة: قم بتقديم طلب PR(Pull Request)
 
-- This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
-- So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
-- Now it's time to send your changes to the main project to be merged with it.
-- This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
-- Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
-- Towards the top of the repo you will see a highlighted pull request message with a green button.
+- هذه هي اللحظة التي كنت بانتظارها، تقديم طلب _Pull Request_ (PR).
+- حتى الآن قل العمل الذي قمت به كان على النسخة (fork) من هذا المشروع. والذي كما تذكر موجود تحت حسابك الشخصي على GitHub.
+- الآن حان وقت إرسال تغييراتك إلى المشروع الرئيسي ليتم دمجها.
+- هذه العملية تسمى طلب [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') لأنك تطلب من المشرف على المشروع الأصلي أن يسحب (pull) تعديلاتك إلى المشروع الأساسي.
+- إذهب إلى الصفحة الرئيسية **لنسختك (fork)** على GitHub (ستحتوي على أيقونة النسخ واسم المستخدم الخاص بك في الأعلى).
+- في اتجاه الجزء العلوي من المستودع ستجد رسالة مظللة لعملية pull request مع زر أخضر اللون.
 
-| <ul><li>Click on the `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
+| <ul><li>اضغط على `Compare and pull request`</li></ul> | ![Submit a Pull Request](../readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>This is what the `Open a pull request` page looks like.</li><li>REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.</li><li>The image below gives you an idea of how the header of your pull request should look like.</li><li>On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.</li></ul> |
+| <ul><li>هذا هو ما تبدو عليه صفحة تقديم طلب pull request جديد</li><li>تذكر _أنت تحاول دمج تفرعك مع المشروع الأساسي، وليس مع تفرع Master في نسختك_.</li><li>الصورة أدنه تعطيك فكرة عن كيف سيبدو الجزء الأعلى من طلب pull request الخاص بك.</li><li>على اليسار من المشروع الأصلي, متبوعاً بتفرع Master. على اليمين هي نسختك (fork) والتفرع (branch) الذي قمت بإنشائه</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Open a Pull Request](readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                                                      |
+| ![Open a Pull Request](../readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                                                      |
 
-| <ul><li>Create a pull request:</li><li>Write a title</li><li>Add optional information in the description</li><li>Click `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
+| <ul><li>أنشئ طلب pull request:</li><li>أكتب عنواناً</li><li>قم بإضافة معلومات (اختيارية) في الوصف</li><li>اضغط على `Create pull request`</li></ul> | ![Submit a Pull Request](../readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
-- Don't be fazed by all the options. You only need to do these three steps for now.
-- Leave the option `Allow edits from maintainers` ticked.
-- Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
+- لا ترتبك من كمية الخيارات. ستحتاج فقط لهذه الخطوات الثلاث في الوقت الحالي.
+- أترك خيار `Allow edits from maintainers` مصححاً.
+- والآن، سيتم إرسال _Pull Request_ إلى المشرف على المشروع. بمجرد ما أن يتم مراجعته والموافقة عليه ستظهر تغييراتك على [صفحة الويب للمشروع](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
 ---
 
