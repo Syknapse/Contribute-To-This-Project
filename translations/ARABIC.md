@@ -203,16 +203,17 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 8: Push your changes to GitHub
+### الخطوة الثامنة: ادفع بتغييراتك إلى GitHub
 
-- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
-- Synchronizing local changes with your repository on Github is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on Github.
+- تعديلاتك الآن محفوظة أو مؤكدة (committed). لكنها محفوظة فقط محليا على جهازك الشخصي.
+- عملية مزامنة تغييراتك المحلية مغ المستودع على Github تسمى _Push_. فأنت تدفع التغييرات من جهازك الشخصي إلى المستودع البعيد على Github.
 
-| <ul><li>Click the _Push_ button</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| <ul><li>اضغط على زر _Push_</li></ul> | ![Push to GitHub](../readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
 
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+- بعد عدة ثواني ستكتمل العملية. والآن لديك نسخة طبق الأصل من هذا التفرع على جهازك وكذلك على GitHub.
 
 ---
 
