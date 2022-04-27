@@ -180,10 +180,6 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ### الخطوة السابعة: قم بعمل commit لتغييراتك
 
-- Go back to the GitHub desktop app.
-- Your changes will have been added automatically to the staging area.
-- This means that Git has recorded all the **saved** changes.
-- You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 - عد إلى تطبيق GihHub لسطح المكتب.
 - ستكون تعديلاتك قد ظهرت تلقائياً في منطفة staging.
 - هذا يعني أن GitHub قد قام بتسجيل التغييرات **المحفوظة**.
