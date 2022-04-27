@@ -270,7 +270,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 هو كذلك مستوحى من المجتمع العظيم حول [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) منحة تحدي قوقل: مطور واجهات الويب، فصل عام 2017 بأوروبا.
 
-## الترخيض
+## الترخيص
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
