@@ -178,22 +178,26 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 ---
 
-### Step 7: Commit your changes
+### الخطوة السابعة: قم بعمل commit لتغييراتك
 
 - Go back to the GitHub desktop app.
 - Your changes will have been added automatically to the staging area.
 - This means that Git has recorded all the **saved** changes.
 - You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
+- عد إلى تطبيق GihHub لسطح المكتب.
+- ستكون تعديلاتك قد ظهرت تلقائياً في منطفة staging.
+- هذا يعني أن GitHub قد قام بتسجيل التغييرات **المحفوظة**.
+- يمكنك مشاهدة ذلك في التطبيق. أي شئ قمت بإضافته للملف سيبدو باللون الأخضر، وعمليات الحذف ستظهر باللون الأحمر.
 
-| <ul><li>The next step is called _Commit_</li><li>This roughly means "confirm the changes"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
+| <ul><li>الخطوة التالية تسمى_Commit_</li><li>والتي تعني بشكل عاك "تأكيد التغييرات"</li></ul> | ![Commit changes](../readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>This is what your GitHub desktop header should look like</li><li>Notice the fork symbol next to the project name in `Current repository`</li><li>Your `Current branch` will have the name you gave it in step 3</li></ul> |
+| <ul><li>هكذا يفترض أن يبدو الجزء العلوي من تطبيق GitHub الخاص بك</li><li>لاحظ شعار النسخة (fork) جوار الإسم عند `Current repository`</li><li`Current branch` أو التفرع الحالي سيحمل نفس الإسم الذي أعطيته إياه في الخطوة رقم 3</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                               |
+| ![Commit changes](../readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                               |
 
-| <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Add my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
+| <ul><li>لعمل _Commit_ عليك ملء حقل الملخص _Summary_</li><li>هذه هي الرسالة التي تشرح ما قمت به من تغييرات</li><li>في هذه الحالة "Add my card information" ستكون رسالة منطقية</li><li>كذلك يمكنك إختيارياً إضافة وصف أكثر تفصيلاً _Description_</li><li>اضغط على زر _Commit_. سيحتوي الزر على نص يقول على سبيل المثال `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](../readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
