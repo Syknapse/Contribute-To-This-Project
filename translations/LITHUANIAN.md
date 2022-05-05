@@ -27,7 +27,7 @@ Jei esi naujas programuotojas ir tau įdomu, ar tau reikia išmokti Git ir GitHu
 
 ## Kuo aš prisidėsiu?
 
-![Pagalbininko kortelė](readme-only/card.PNG 'Pagalbininko kortelė')
+![Pagalbininko kortelė](/readme-only/card.PNG 'Pagalbininko kortelė')
 
 Tu pridėsi tokią kortelę kaip ši prie šio [projekto tinklalapio](https://syknapse.GitHub.io/Contribute-To-This-Project/ 'https://syknapse.GitHub.io/Contribute-To-This-Project'). Joje bus tavo vardas, Twitter rankenėlė, trumpas aprašymas ir 3 nuorodos į naudingus išteklius žiniatinklio programuotojams, kuriuos rekomenduoji pats.
 
@@ -66,7 +66,7 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Saugykla (repository/repo) yra tai, kaip projektas vadinamas GitHub, o fork yra jo kopija.
 - Įsitikink, kad esi šios saugyklos [pagrindiniame puslapyje](https://GitHub.com/Syknapse/Contribute-To-This-Project 'https://GitHub.com/Syknapse/Contribute-To-This-Project').
 
-| <ul><li>Paspausk _Fork_ mygtuka</li></ul> | ![Fork](readme-only/fork.PNG "paspausk ant 'Fork'") |
+| <ul><li>Paspausk _Fork_ mygtuka</li></ul> | ![Fork](/readme-only/fork.PNG "paspausk ant 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
 
@@ -79,13 +79,13 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Dabar norime padaryti vietinę projekto kopiją. Tai kopija, išsaugota tavo kompiuteryje.
 - Atidaryk GitHub Desktop programėlę. Programelėje:
 
-| <ul><li>Paspausk _File_ tada _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'paspausk clone repository') |
+| <ul><li>Paspausk _File_ tada _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'paspausk clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Pamatysi savo GitHub projektų ir kopijų sarašą</li><li>Pasirink `<tavo-GitHub-vartotojo-vardas>/Contribute-To-This-Project`.</li><li>Spausk _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'paspausk ant <your-GitHub-username>/Contribute-To-This-Project') |
+| <ul><li>Pamatysi savo GitHub projektų ir kopijų sarašą</li><li>Pasirink `<tavo-github-vartotojo-vardas>/Contribute-To-This-Project`.</li><li>Spausk _Clone_</li></ul> | ![Clone project](/readme-only/clone-project.PNG 'paspausk ant <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Projektas turės fork simbolį kairėje pusėje.</li><li>Tavo kopija turės tavo GitHub vartotojo vardą.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'tavo kopija atrodys štai taip, su tavo vartotojo vardu')    |
+| <ul><li>Projektas turės fork simbolį kairėje pusėje.</li><li>Tavo kopija turės tavo GitHub vartotojo vardą.</li></ul>                                      |    ![your fork](/readme-only/clone-your-fork.PNG 'tavo kopija atrodys štai taip, su tavo vartotojo vardu')    |
 
 - Tai užtruks, kol projektas bus nukopijuotas į standųjį diską. Rekomenduoju palikti numatytąjį kelią, kuris paprastai yra "..\Documents\GitHub".
 - Dabar tu turi vietinę projekto kopiją.
@@ -97,17 +97,17 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Kai saugykla klonuota ir atidaryta GitHub Desktop programoje, laikas sukurti naują šaką.
 - Šaka yra būdas atskirti pakeitimus nuo pagrindinės projekto dalies, vadinamos "Master". Pavyzdžiui, jei viskas klostosi ne taip ir nesi patenkintas savo pakeitimais, gali tiesiog ištrinti šaką ir tai neturės įtakos pagrindiniam projektui.
 
-| <ul><li>Paspausk _Current branch_</li><li>Tada spausk _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Paspausk 'Branch', tada 'New'") |
+| <ul><li>Paspausk _Current branch_</li><li>Tada spausk _New_</li></ul> | ![Create branch](/readme-only/branch-new.PNG "Paspausk 'Branch', tada 'New'") |
 | :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
-| <ul><li>Sugalvok savo šakai pavadinimą</li><li>Spausk `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG 'Pavadink savo šaką') |
+| <ul><li>Sugalvok savo šakai pavadinimą</li><li>Spausk `Create branch`</li></ul> | ![Name branch](/readme-only/branch-name.PNG 'Pavadink savo šaką') |
 | :---------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
 - Gali pavadinti ją kaip tik nori, bet kadangi tai yra šaka, skirta pridėti prie projekto kortelę su tavo vardu, vadinti ją "tavo-vardas-kortelė" yra gera praktika, nes taip išlaikoma aiški šios šakos paskirtis.
 
-| <ul><li>Publikuok savo naują šaką GitHub</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'spausk publish norėdamas išsiųsti naują šaką į nuotolinę GitHub saugyklą') |
+| <ul><li>Publikuok savo naują šaką GitHub</li></ul> | ![Name branch](/readme-only/branch-publish.PNG 'spausk publish norėdamas išsiųsti naują šaką į nuotolinę GitHub saugyklą') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -124,7 +124,7 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Kompiuteryje susirask projekto aplanką. Jeigu palikai numatytuosius nustatymus, tai turetų būti kažkas panašaus į `tavo-kompiuteris > Documents > GitHub > Contribute-To-This-Project`
 - `index.html` failas bus `Contribute-To-This-Project` aplanke.
 
-| <ul><li>Atidaryk savo kodo redagavimo programą (Sublime, VS Code, Atom, ir t.t.) ir naudok komandą `Open file` ir surask index.html failą pagrindiniame projekto kataloge</li><li>Arba gali rasti failą standžiajame diske, spustelėti dešiniuoju pelės mygtuku ir atidaryti naudodamas redaktorių</li></ul> | ![Open index file](readme-only/index-open.PNG 'Atidaryk index.html savo kodo redagavimo programoje') |
+| <ul><li>Atidaryk savo kodo redagavimo programą (Sublime, VS Code, Atom, ir t.t.) ir naudok komandą `Open file` ir surask index.html failą pagrindiniame projekto kataloge</li><li>Arba gali rasti failą standžiajame diske, spustelėti dešiniuoju pelės mygtuku ir atidaryti naudodamas redaktorių</li></ul> | ![Open index file](/readme-only/index-open.PNG 'Atidaryk index.html savo kodo redagavimo programoje') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
@@ -138,12 +138,12 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 
 | <ul><li>HTML failo viršuje, po skiltimis `<head>` ir `<header>` rasi skyrių, pažymėtą `== TEMPLATE ==`</li><li>Nukopijuok viską, kas yra raudoname kvadrate nuotraukoje, nuo komentaro „Contributor card START“ iki komentaro „Contributor card END“</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copy card template](readme-only/card-copy.PNG 'Nukopijuok kortelės šabloną')                                                                                                                                                                                                                 |
+| ![Copy card template](/readme-only/card-copy.PNG 'Nukopijuok kortelės šabloną')                                                                                                                                                                                                                 |
 
 | <ul><li>Įklijuok viską tiesiai po komentaru, nurodnčiu tai</li><li>
 Įsitikink, kad tarp kortelės pradžios ir pabaigos yra viena tuščia eilutė. Gera praktika, kad mūsų kodas būtų kuo aiškesnis</li><li>Niekada nenaudok linterių ar stiliaus formuotojų. Projektas turi Prettier sąranką</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Paste card template](readme-only/card-paste.PNG 'Įklijuok po nurodyta eilute')                                                                                                                                                                                                                                        |
+| ![Paste card template](/readme-only/card-paste.PNG 'Įklijuok po nurodyta eilute')                                                                                                                                                                                                                                        |
 
 - Dabar tai **tavo** kortelė, kurią gali tinkinti ir redaguoti.
 
@@ -153,23 +153,23 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 
 - Dabar pradėsime redaguoti html, pakeisdami tinkinamus laukus savo kortelėje.
 
-| <ul><li>Pakeisk 'Name' savo vardu</li><li>Pastaba: Nekeisk `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Įvesk savo vardą') |
+| <ul><li>Pakeisk 'Name' savo vardu</li><li>Pastaba: Nekeisk `class="name"`</li></ul> | ![Change name](/readme-only/change-name.PNG 'Įvesk savo vardą') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
 
 
 | <ul><li>Įvesk savo Twitter paskyros URL `href="Įterpkite URL čia"`</li><li>Teksto lauke įvesk savo rankenėlę</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------- |
-| ![Change contact](readme-only/change-contact.PNG 'Įdėk nuorodą į savo Twitter paskyrą ir įvesk savo rankenėlę')               |
+| ![Change contact](/readme-only/change-contact.PNG 'Įdėk nuorodą į savo Twitter paskyrą ir įvesk savo rankenėlę')               |
 
 - Jei nori naudoti kitą kontaktą, o ne Twitter, turėsi pakeisti Twitter piktogramą "<i class="fa fa-twitter"></i>", apsilankęs [Font Awesome Icons](http://fontawesome.io/icons/) ieškodamas tinkamos piktogramos ir pakeisdamas tik "fa-twitter" dalį nauja piktograma, pavyzdžiui, "fa-facebook". Tada atlik tuos pačius veiksmus aukščiau.
 
-| <ul><li>Papasakok mums ką nors apie save</li><li>Laikyk įrašą trumpą ir mielą. Galvok apie tai labiau kaip apie twitter žinutę, o ne apie tinklaraščio įrašą</li></ul> | ![Change about](readme-only/change-about.PNG 'Parašyk sakinį apie save') |
+| <ul><li>Papasakok mums ką nors apie save</li><li>Laikyk įrašą trumpą ir mielą. Galvok apie tai labiau kaip apie twitter žinutę, o ne apie tinklaraščio įrašą</li></ul> | ![Change about](/readme-only/change-about.PNG 'Parašyk sakinį apie save') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
 | <ul><li>Pasidalink su bendruomene 3 nuorodomis į išteklius, kurie yra naudingi kuriant žiniatinklį</li><li>Tai gali būti bet kas: vaizdo įrašas, pokalbis, tinklalaidė, straipsnis, nuoroda arba įrankis</li><li >Jei esi pradedantysis, nesijaudink, pasidalyk tuo, ką žinai, net jei manai, kad tai paprasta. Nustebsi, kiek žmonių gaus naudos</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Change resources](readme-only/change-resources.PNG 'Įterpkite nuorodą, parašykite trumpą aprašymą ir įveskite šaltinio pavadinimą')                                                                                                                                                                                                                                   |
+| ![Change resources](/readme-only/change-resources.PNG 'Įterpkite nuorodą, parašykite trumpą aprašymą ir įveskite šaltinio pavadinimą')                                                                                                                                                                                                                                   |
 | <ul><li>Nuoroda: įterpk nuorodą `href="čia"`, pakeisdamas `#`</li><li>Aprašymą: parašyk trumpą aprašymą `title="čia"`</li><li>Pavadinimą: parašyk šaltinio pavadinimą teksto lauke `>čia</a>`</li></ul>                                                                                                                                                               |
 
 - Įsitikink, kad **išsaugojai visus pakeitimus**.
@@ -185,15 +185,15 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Tai reiškia, kad Git įrašė visus **išsaugotus** pakeitimus.
 - Tai gali pamatyti programėlėje. Viskas, ką pridėjai prie failo, bus žalia spalva, o viskas ką ištrynei - raudonai.
 
-| <ul><li>Kitas žingsnis vadinamas _Commit_</li><li>Tai maždaug reiškia „patvirtinti pakeitimus“</li></ul> | ![Commit changes](readme-only/commit.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje GitHub Desktop programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe") |
+| <ul><li>Kitas žingsnis vadinamas _Commit_</li><li>Tai maždaug reiškia „patvirtinti pakeitimus“</li></ul> | ![Commit changes](/readme-only/commit.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje GitHub Desktop programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe") |
 | :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Štai kaip turėtų atrodyti tavo „GitHub Desktop“ antraštė</li><li>Atkreipk dėmesį į fork simbolį šalia projekto pavadinimo esančio "Current repository"</li><li>Tavo "Current branch" turės tokį pavadinimą, kokį jai suteikei 3 žingsnyje</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](readme-only/commit-header.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje "GitHub Desktop" programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe")                                               |
+| ![Commit changes](/readme-only/commit-header.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje "GitHub Desktop" programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe")                                               |
 
-| <ul><li>Norėdamas _Patvirtinti_, turi užpildyti lauką _Summary_</li><li>Tai yra patvirtinimo pranešimas, paaiškinantis, ką pakeitei</li><li>Šiuo atveju „Pridėjau kortelės informaciją“ būtų tinkamas pranešimas.</li ><li>Pasirinktinai gali pridėti išsamesnį _Aprašymą_</li><li>Spustelėk mygtuką _Commit_. Tavo mygtukas rodys kažką panašaus į "Commit to 'tavo-šakos-pavadinimas'"</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Įvesdamas santrauką parašyk trumpą patvirtinimo pranešimą ir spustelėk 'patvirtinti'") |
+| <ul><li>Norėdamas _Patvirtinti_, turi užpildyti lauką _Summary_</li><li>Tai yra patvirtinimo pranešimas, paaiškinantis, ką pakeitei</li><li>Šiuo atveju „Pridėjau kortelės informaciją“ būtų tinkamas pranešimas.</li ><li>Pasirinktinai gali pridėti išsamesnį _Aprašymą_</li><li>Spustelėk mygtuką _Commit_. Tavo mygtukas rodys kažką panašaus į "Commit to 'tavo-šakos-pavadinimas'"</li></ul> | ![Write commit message and commit](/readme-only/commit-message.PNG "Įvesdamas santrauką parašyk trumpą patvirtinimo pranešimą ir spustelėk 'patvirtinti'") |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -204,7 +204,7 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 – Tavo pakeitimai dabar išsaugoti arba patvirtinti. Bet jie išsaugomi tik lokaliai, tai yra tavo kompiuteryje.
 – Vietinių pakeitimų sinchronizavimas su GitHub saugykla vadinamas _Push_. Tu „stumi“ pakeitimus iš vietinės saugyklos į nuotolinę GitHub saugyklą.
 
-| <ul><li>Paspausk _Push_ mygtuką</li></ul> | ![Push to GitHub](readme-only/push.PNG "Perkelk pakeitimus į GitHub, spustelėk mygtuką „Push“") |
+| <ul><li>Paspausk _Push_ mygtuką</li></ul> | ![Push to GitHub](/readme-only/push.PNG "Perkelk pakeitimus į GitHub, spustelėk mygtuką „Push“") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
 
 
@@ -221,15 +221,15 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 - Eik į pagrindinį **savo kopijos** puslapį GitHub (jo viršuje bus fork piktograma ir tavo vartotojo vardas).
 - Saugyklos viršuje pamatysi paryškintą įtraukimo užklausos pranešimą su žaliu mygtuku.
 
-| <ul><li>Spausk ant `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG 'Paprastai tai yra puslapio viršuje, po aprašymu ir virš projekto failų ir aplankų') |
+| <ul><li>Spausk ant `Compare and pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'Paprastai tai yra puslapio viršuje, po aprašymu ir virš projekto failų ir aplankų') |
 | :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Taip atrodo „Open a pull request“ puslapis.</li><li>ATSIMINK _tu bandai sujungti savo šaką su pradiniu projektu, o ne su savo kopijos „Master“ šaka_.</li><li >Toliau pateiktame paveikslėlyje gali matyti, kaip turėtų atrodyti tavo įtraukimo užklausos antraštė.</li><li>Kairėje yra originalus projektas, o po jo – pagrindinė šaka. Dešinėje yra tavo kopija ir tavo sukurta šaka.</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Open a Pull Request](readme-only/pull-request-branches.PNG 'Tu prašai sujungti savo šaką iš kopijos su pagrindine pradinio projekto šaka')                                                                                                                                                                                                                                                                      |
+| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Tu prašai sujungti savo šaką iš kopijos su pagrindine pradinio projekto šaka')                                                                                                                                                                                                                                                                      |
 
-| <ul><li>Sukurk įtraukimo užklausą:</li><li>Parašyk pavadinimą</li><li>Apraše pridėk papildomos informacijos</li><li>Spustelk `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Spausk žalią mygtuką. Nebijok!") |
+| <ul><li>Sukurk įtraukimo užklausą:</li><li>Parašyk pavadinimą</li><li>Apraše pridėk papildomos informacijos</li><li>Spustelk `Create pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Spausk žalią mygtuką. Nebijok!") |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
