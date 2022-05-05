@@ -140,9 +140,8 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Copy card template](/readme-only/card-copy.PNG 'Nukopijuok kortelės šabloną')                                                                                                                                                                                                                 |
 
-| <ul><li>Įklijuok viską tiesiai po komentaru, nurodnčiu tai</li><li>
-Įsitikink, kad tarp kortelės pradžios ir pabaigos yra viena tuščia eilutė. Gera praktika, kad mūsų kodas būtų kuo aiškesnis</li><li>Niekada nenaudok linterių ar stiliaus formuotojų. Projektas turi Prettier sąranką</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <ul><li>Įklijuok viską tiesiai po komentaru, nurodnčiu tai</li><li>Įsitikink, kad tarp kortelės pradžios ir pabaigos yra viena tuščia eilutė. Gera praktika, kad mūsų kodas būtų kuo aiškesnis</li><li>Niekada nenaudok linterių ar stiliaus formuotojų. Projektas turi Prettier sąranką</li></ul> |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Paste card template](/readme-only/card-paste.PNG 'Įklijuok po nurodyta eilute')                                                                                                                                                                                                                                        |
 
 - Dabar tai **tavo** kortelė, kurią gali tinkinti ir redaguoti.
