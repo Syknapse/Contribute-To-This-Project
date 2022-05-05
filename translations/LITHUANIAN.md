@@ -35,7 +35,7 @@ HTML faile sukursi kortelės šablono kopiją ir pritaikysi ją pagal savo infor
 
 ## Greitos prieigos rodyklė
 
-| <ul><li>[Įžanga](#įžanga)</li><li>[Kuo aš prisidėsiu?](#kuo-aš-prisidėsiu)</li><li>[Pasiruošimas](#pasiruošimas)</li><li>[Prisidėk &rightarrow;](#prisidėk)</li><li>[Kiti žingsniai](#kiti-žingsniai)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Žingsnis 1: Fork šią saugyklą](#žingsnis-1-fork-šią-saugyklą)</li><li>[Žingsnis 2: Klonuok saugyklą](#žingsnis-2-klonuok-saugyklą)</li><li>[Žingsnis 3: Sukurk naują šaką](#žingsnis-3-sukurk-naują-šaką)</li><li>[Žingsnis 4: atidaryk index.html failą](#žingsnis-4-atidaryk-indexhtml-failą)</li><li>[Žingsnis 5: Nukopijuok kortelės šabloną](#žingsnis-5-nukopijuok-kortelės-šabloną)</li><li>[Žingsnis 6: Išsaugok pakeitimus](#žingsnis-6-išsaugok-pakeitimus)</li><li>[Žingsnis 7: Patvirtink pakeitimus](#žingsnis-7-patvirtink-pakeitimus)</li><li>[Žingsnis 8: Perkelk pakeitimus į GitHub](#žingsnis-8-perkelk-pakeitimus-į-github)</li><li>[Žingsnis 9: Pateik įtraukimo užklausą (PR)](#žingsnis-9-pateik-įtraukimo-užklausą-pr)</li><li>[Žingsnis 10: Švęskite!!](#žingsnis-10-švęskite)</li></ul> |
+| <ul><li>[Įžanga](#įžanga)</li><li>[Kuo aš prisidėsiu?](#kuo-aš-prisidėsiu)</li><li>[Pasiruošimas](#pasiruošimas)</li><li>[Prisidėk &rightarrow;](#prisidėk)</li><li>[Kiti žingsniai](#kiti-žingsniai)</li><li>[Padėkos](#padėkos)</li></ul> | Prisidėk: <ul><li>[Žingsnis 1: Fork šią saugyklą](#žingsnis-1-fork-šią-saugyklą)</li><li>[Žingsnis 2: Klonuok saugyklą](#žingsnis-2-klonuok-saugyklą)</li><li>[Žingsnis 3: Sukurk naują šaką](#žingsnis-3-sukurk-naują-šaką)</li><li>[Žingsnis 4: Atidaryk index.html failą](#žingsnis-4-atidaryk-indexhtml-failą)</li><li>[Žingsnis 5: Nukopijuok kortelės šabloną](#žingsnis-5-nukopijuok-kortelės-šabloną)</li><li>[Žingsnis 6: Išsaugok pakeitimus](#žingsnis-6-išsaugok-pakeitimus)</li><li>[Žingsnis 7: Patvirtink pakeitimus](#žingsnis-7-patvirtink-pakeitimus)</li><li>[Žingsnis 8: Perkelk pakeitimus į GitHub](#žingsnis-8-perkelk-pakeitimus-į-github)</li><li>[Žingsnis 9: Pateik įtraukimo užklausą (PR)](#žingsnis-9-pateik-įtraukimo-užklausą-pr)</li><li>[Žingsnis 10: Švęskite!!](#žingsnis-10-švęskite)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
@@ -136,7 +136,7 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 
 - Mes padarysime kortelės šablono kopiją, kad pradėtum su ja dirbti
 
-| <ul><li>HTML failo viršuje, po skiltimis `<head>` ir `<header>` rasi skyrių, pažymėtą `== TEMPLATE ==`</li><li>Nukopijuok viską, kas yra raudoname kvadrate nuotraukoje, nuo komentaro „Contributor card START“ iki komentaro „Contributor card END“</li></ul> |
+| <ul><li>HTML failo viršuje, po skiltimis `<head>` ir `<header>` rasi skyrių, pažymėtą `== TEMPLATE ==`</li><li>Nukopijuok viską, kas yra raudoname kvadrate nuotraukoje, nuo komentaro "Contributor card START" iki komentaro "Contributor card END"</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Copy card template](/readme-only/card-copy.PNG 'Nukopijuok kortelės šabloną')                                                                                                                                                                                                                 |
 
@@ -191,7 +191,7 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 
 | <ul><li>Štai kaip turėtų atrodyti tavo „GitHub Desktop“ antraštė</li><li>Atkreipk dėmesį į fork simbolį šalia projekto pavadinimo esančio "Current repository"</li><li>Tavo "Current branch" turės tokį pavadinimą, kokį jai suteikei 3 žingsnyje</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](/readme-only/commit-header.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje "GitHub Desktop" programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe")                                               |
+| ![Commit changes](/readme-only/commit-header.PNG "Pridėti pakeitimai turėtų būti rodomi žaliai dešinėje GitHub Desktop programos pusėje. Patvirtinimo mygtukas yra apatiniame kairiajame kampe")                                               |
 
 | <ul><li>Norėdamas _Patvirtinti_, turi užpildyti lauką _Summary_</li><li>Tai yra patvirtinimo pranešimas, paaiškinantis, ką pakeitei</li><li>Šiuo atveju „Pridėjau kortelės informaciją“ būtų tinkamas pranešimas.</li ><li>Pasirinktinai gali pridėti išsamesnį _Aprašymą_</li><li>Spustelėk mygtuką _Commit_. Tavo mygtukas rodys kažką panašaus į "Commit to 'tavo-šakos-pavadinimas'"</li></ul> | ![Write commit message and commit](/readme-only/commit-message.PNG "Įvesdamas santrauką parašyk trumpą patvirtinimo pranešimą ir spustelėk 'patvirtinti'") |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -201,8 +201,8 @@ _Numatomas laikas: Mažiau nei 30 minučių_.
 
 ### Žingsnis 8: Perkelk pakeitimus į GitHub.
 
-– Tavo pakeitimai dabar išsaugoti arba patvirtinti. Bet jie išsaugomi tik lokaliai, tai yra tavo kompiuteryje.
-– Vietinių pakeitimų sinchronizavimas su GitHub saugykla vadinamas _Push_. Tu „stumi“ pakeitimus iš vietinės saugyklos į nuotolinę GitHub saugyklą.
+- Tavo pakeitimai dabar išsaugoti arba patvirtinti. Bet jie išsaugomi tik lokaliai, tai yra tavo kompiuteryje.
+- Vietinių pakeitimų sinchronizavimas su GitHub saugykla vadinamas _Push_. Tu „stumi“ pakeitimus iš vietinės saugyklos į nuotolinę GitHub saugyklą.
 
 | <ul><li>Paspausk _Push_ mygtuką</li></ul> | ![Push to GitHub](/readme-only/push.PNG "Perkelk pakeitimus į GitHub, spustelėk mygtuką „Push“") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
