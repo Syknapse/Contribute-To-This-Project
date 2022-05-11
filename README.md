@@ -39,7 +39,7 @@ You will make a copy of the card template inside the HTML file and customise it 
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Setup
+## Setup! :)
 
 First let's get setup to do the work
 
@@ -71,7 +71,7 @@ _Estimated time: Less than 30 minutes_.
 | :------------------------------------------- | ----------------------------------------------: |
 
 
-- You now have a complete copy of the project in your own account
+- You now have a complete copy of the project in your own account.
 
 ---
 
@@ -151,7 +151,7 @@ _Estimated time: Less than 30 minutes_.
 
 ### Step 6: Apply your changes
 
-- We will now start editing the html, changing the customizable fields in our card.
+- We'll  now start editing html, changing the customizable fields in our card.
 
 | <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
@@ -212,7 +212,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-### Step 9: Submit a PR
+### Step 9: Submit a PR(Pull Request)
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -239,7 +239,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-### Step 10: Celebrate!
+### Step 10: Celebrate!!
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
