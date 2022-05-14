@@ -39,7 +39,7 @@ You will make a copy of the card template inside the HTML file and customise it 
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-## Setup
+## Setup! :)
 
 First let's get setup to do the work
 
@@ -71,7 +71,7 @@ _Estimated time: Less than 30 minutes_.
 | :------------------------------------------- | ----------------------------------------------: |
 
 
-- You now have a complete copy of the project in your own account
+- You now have a complete copy of the project in your own account.
 
 ---
 
@@ -151,7 +151,7 @@ _Estimated time: Less than 30 minutes_.
 
 ### Step 6: Apply your changes
 
-- We will now start editing the html, changing the customizable fields in our card.
+- We'll  now start editing html, changing the customizable fields in our card.
 
 | <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
@@ -212,7 +212,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-### Step 9: Submit a PR
+### Step 9: Submit a PR(Pull Request)
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -239,7 +239,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-### Step 10: Celebrate!
+### Step 10: Celebrate!!
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
@@ -262,6 +262,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 - You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- To help improve our community take a look at the Github [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
 
