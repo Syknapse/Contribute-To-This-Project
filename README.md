@@ -8,7 +8,7 @@
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) currently. Translations very welcome).
+This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md) [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) currently. Translations very welcome).
 
 ### Objectives
 
@@ -108,7 +108,7 @@ _Estimated time: Less than 30 minutes_.
 
 - You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
 
-| <ul><li>Publish your new branch to Github</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| <ul><li>Publish your new branch to GitHub</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 | :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -202,7 +202,7 @@ _Estimated time: Less than 30 minutes_.
 ### Step 8: Push your changes to GitHub
 
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
-- Synchronizing local changes with your repository on Github is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on Github.
+- Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
 | <ul><li>Click the _Push_ button</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :---------------------------------------- | ------------------------------------------------------------------------------------------------: |
@@ -262,7 +262,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 - You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
-- To help improve our community take a look at the Github [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
+- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
 
