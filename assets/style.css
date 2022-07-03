@@ -131,7 +131,6 @@ footer {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
   box-shadow: 2px 2px 5px 2px rgba(82, 81, 85, 0.5);
-  cursor: pointer;
   border:2px 2px 5px 2px rgba(82, 81, 85, 0.5) ;
 }
 
