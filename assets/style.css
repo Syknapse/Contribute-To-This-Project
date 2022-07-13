@@ -1,5 +1,3 @@
-/* Global
------- */
 body {
   color: #100633;
   background-size: 100% 400%;
@@ -46,7 +44,7 @@ p {
 }
 
 .button {
-  color: #ffffff !important;
+  color: #fff !important;
   width: 230px;
   background: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
   border: none;
@@ -67,6 +65,7 @@ p {
   max-width: 1614px;
   margin: auto;
 }
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -87,19 +86,17 @@ p {
   flex-direction: column;
   flex-basis: 100%;
 }
-
-.left-column {
+.column-left {
   text-align: left;
   margin-left: 16px;
   margin-right: 16px;
 }
-.right-column {
+.column-right {
   text-align: right;
   margin-left: 16px;
   margin-right: 16px;
 }
-
-.double-column {
+.column-double {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -115,6 +112,22 @@ footer {
 
 /* Card
 ------ */
+.contact i {
+  color: #fa3d66;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.resources p {
+  font-weight: bold;
+}
+
+.card p {
+  padding: 8px 24px 8px 24px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -127,29 +140,17 @@ footer {
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
 }
 
-.card p {
-  padding: 8px 24px 8px 24px;
-}
-
 .name {
-  background-color: #f2f2f2;
+  background-color: #fff;
   font-weight: bold;
   border-radius: 5px 5px 0 0;
   font-size: 20px;
 }
 
 .contact {
-  background-color: #f2f2f2;
+  background-color: #fff;
   border-bottom: 1px solid #100633;
   margin-bottom: 8px;
-}
-
-.contact i {
-  color: #fa3d66;
-}
-
-.about {
-  background-color: #fff;
 }
 
 .resources {
@@ -159,26 +160,32 @@ footer {
   border-radius: 0 0 5px 5px;
 }
 
-.resources p {
-  font-weight: bold;
+/* Night Mode Code */
+.night .contact i {
+  color: #fa3d66;
 }
 
-/* Night Mode Codes */
+.night .container {
+  color: #d2d6dc;
+}
+
+.night h1 {
+  color: #ffbc22;
+}
+
+.night .card {
+  border: 1px solid #ffbc22;
+}
+
+.toggle-box-label-left:empty {
+  margin-left: -10px;
+}
 
 body.night {
   background-position: 100% 100%;
   background-color: #100633;
 }
 
-.night .container {
-  color: #d2d6dc;
-}
-.night h1 {
-  color: #ffbc22;
-}
-.night .card {
-  border: 1px solid #ffbc22;
-}
 .night .name {
   color: #d2d6dc;
   background-color: #1f0b6b;
@@ -187,10 +194,6 @@ body.night {
 .night .contact {
   background-color: #1f0b6b;
   border-bottom: 1px solid #ffbc22;
-}
-
-.night .contact i {
-  color: #fa3d66;
 }
 
 .night .about {
@@ -203,9 +206,6 @@ body.night {
   background-color: #100633;
 }
 
-.toggle-box-label-left:empty {
-  margin-left: -10px;
-}
 .toggle-box-label-left:before,
 .toggle-box-label-left:after {
   box-sizing: border-box;
@@ -218,16 +218,17 @@ body.night {
   transition: 0.25s ease-in-out;
   outline: none;
 }
-.toggle-box input[type='checkbox'],
-.toggle-box input[type='checkbox']:active {
+
+.toggle-box input[type=checkbox],
+.toggle-box input[type=checkbox]:active {
   height: 0;
   width: 0;
   opacity: 0;
   border: none;
   outline: none;
 }
+
 .toggle-box label {
-  float: left;
   display: inline-block;
   position: relative;
   padding: 0px;
@@ -240,8 +241,9 @@ body.night {
   left: 9px;
   top: 5px;
 }
+
 .toggle-box-label-left:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   z-index: 1;
@@ -256,12 +258,13 @@ body.night {
   border-radius: 100%;
   right: 26px;
   bottom: 0px;
-  background: #ffb200;
+  background: #ffbc22;
   transform: rotate(-45deg);
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px #fff;
 }
+
 .toggle-box-label-left:after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 40px;
   height: 24px;
@@ -272,35 +275,42 @@ body.night {
   background: rgba(255, 255, 255, 0.15);
   vertical-align: middle;
   margin: 0 10px;
-  border: 2px solid #ffb200;
+  border: 2px solid #ffbc22;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left:before {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left:before {
   right: 17px;
-  box-shadow: 5px 5px 0 0 #eee;
+  box-shadow: 5px 5px 0 0 #fff;
   background: transparent;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left:after {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left:after {
   background: rgba(0, 0, 0, 0.15);
-  border: 2px solid white;
+  border: 2px solid #fff;
 }
-.toggle-box input[type='checkbox'] + .toggle-box-label-left {
+
+.toggle-box input[type=checkbox] + .toggle-box-label-left {
   color: rgba(250, 250, 250, 0.51);
   font-weight: bold;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left {
   color: rgba(149, 149, 149, 0.51);
   font-weight: normal;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left + .toggle-box-label {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left + .toggle-box-label {
   color: rgba(250, 250, 250, 0.51);
   font-weight: bold;
 }
+
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;
   }
-
   .double-column {
     flex: 2;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
