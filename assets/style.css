@@ -1,11 +1,23 @@
+:root {
+  --dark-purple: #100633;
+  --purple: #1f0b6b;
+  --white: #fff;
+  --light-grey: #f2f2f2;
+  --light-grey1: #d2d6dc;
+  --pink: #fa3d66;
+  --orange: #ffbc22;
+  --box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  --ease-out: 0.25s ease-in-out;
+}
+
 body {
-  color: #100633;
+  color: var(--dark-purple);
   background-size: 100% 400%;
   background-position: 100% 0%;
   transition: all 1s;
   box-sizing: border-box;
   font-family: roboto, arial, sans-serif;
-}
+} 
 
 header {
   margin: 10px auto 20px auto;
@@ -14,7 +26,7 @@ header {
 }
 
 a:link {
-  color: #fa3d66;
+  color: var(--pink);
   text-decoration: none;
 }
 
@@ -37,16 +49,16 @@ p {
 }
 
 #contributions-number {
-  color: #fa3d66;
+  color: var(--pink);
   transition: 2.8s;
   font-weight: bold;
   font-size: 36px;
 }
 
 .button {
-  color: #fff !important;
+  color: var(--white) !important;
   width: 230px;
-  background: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
+  background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
   border: none;
   padding: 16px 20px;
   border-radius: 5px;
@@ -113,11 +125,11 @@ footer {
 /* Card
 ------ */
 .contact i {
-  color: #fa3d66;
+  color: var(--pink);
 }
 
 .about {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .resources p {
@@ -131,7 +143,7 @@ footer {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #100633;
+  border: 1px solid var(--dark-purple);
   margin: 18px;
   border-radius: 5px;
   width: 500px;
@@ -141,20 +153,20 @@ footer {
 }
 
 .name {
-  background-color: #fff;
+  background-color: var(--white);
   font-weight: bold;
   border-radius: 5px 5px 0 0;
   font-size: 20px;
 }
 
 .contact {
-  background-color: #fff;
-  border-bottom: 1px solid #100633;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--dark-purple);
   margin-bottom: 8px;
 }
 
 .resources {
-  background-color: #fff;
+  background-color: var(--white);
   height: 100%;
   padding-right: 25px;
   border-radius: 0 0 5px 5px;
@@ -162,19 +174,19 @@ footer {
 
 /* Night Mode Code */
 .night .contact i {
-  color: #fa3d66;
+  color: var(--orange);
 }
 
 .night .container {
-  color: #d2d6dc;
+  color: var(--light-grey1);
 }
 
 .night h1 {
-  color: #ffbc22;
+  color: var(--orange);
 }
 
 .night .card {
-  border: 1px solid #ffbc22;
+  border: 1px solid var(--orange);
 }
 
 .toggle-box-label-left:empty {
@@ -183,27 +195,27 @@ footer {
 
 body.night {
   background-position: 100% 100%;
-  background-color: #100633;
+  background-color: var(--dark-purple);
 }
 
 .night .name {
-  color: #d2d6dc;
-  background-color: #1f0b6b;
+  color: var(--light-grey1);
+  background-color: var(--purple);
 }
 
 .night .contact {
-  background-color: #1f0b6b;
-  border-bottom: 1px solid #ffbc22;
+  background-color: var(--purple);
+  border-bottom: 1px solid var(--orange);
 }
 
 .night .about {
-  color: #d2d6dc;
-  background-color: #100633;
+  color: var(--light-grey1);
+  background-color: var(--dark-purple);
 }
 
 .night .resources {
-  color: #d2d6dc;
-  background-color: #100633;
+  color: var(--light-grey1);
+  background-color: var(--dark-purple);
 }
 
 .toggle-box-label-left:before,
@@ -258,9 +270,9 @@ body.night {
   border-radius: 100%;
   right: 26px;
   bottom: 0px;
-  background: #ffbc22;
+  background: var(--orange);
   transform: rotate(-45deg);
-  box-shadow: 0 0 10px #fff;
+  box-shadow: 0 0 10px var(--white);
 }
 
 .toggle-box-label-left:after {
@@ -275,18 +287,18 @@ body.night {
   background: rgba(255, 255, 255, 0.15);
   vertical-align: middle;
   margin: 0 10px;
-  border: 2px solid #ffbc22;
+  border: 2px solid var(--orange);
 }
 
 .toggle-box input[type=checkbox]:checked + .toggle-box-label-left:before {
   right: 17px;
-  box-shadow: 5px 5px 0 0 #fff;
+  box-shadow: 5px 5px 0 0 var(--white);
   background: transparent;
 }
 
 .toggle-box input[type=checkbox]:checked + .toggle-box-label-left:after {
   background: rgba(0, 0, 0, 0.15);
-  border: 2px solid #fff;
+  border: 2px solid var(--white);
 }
 
 .toggle-box input[type=checkbox] + .toggle-box-label-left {
