@@ -6,7 +6,7 @@ const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
   console.info('Cards in index.html', cardsInIndex)
-  if (cardsInIndex > 30) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
+  if (cardsInIndex > 100) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
 }
 showInfoInConsole()
 
