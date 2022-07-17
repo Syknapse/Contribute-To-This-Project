@@ -1,13 +1,23 @@
-/* Global
------- */
+:root {
+  --dark-purple: #100633;
+  --purple: #1f0b6b;
+  --white: #fff;
+  --light-grey: #f2f2f2;
+  --light-grey1: #d2d6dc;
+  --pink: #fa3d66;
+  --orange: #ffbc22;
+  --box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  --ease-out: 0.25s ease-in-out;
+}
+
 body {
-  color: #100633;
+  color: var(--dark-purple);
   background-size: 100% 400%;
   background-position: 100% 0%;
   transition: all 1s;
   box-sizing: border-box;
   font-family: roboto, arial, sans-serif;
-}
+} 
 
 header {
   margin: 10px auto 20px auto;
@@ -16,7 +26,7 @@ header {
 }
 
 a:link {
-  color: #fa3d66;
+  color: var(--pink);
   text-decoration: none;
 }
 
@@ -39,16 +49,16 @@ p {
 }
 
 #contributions-number {
-  color: #fa3d66;
+  color: var(--pink);
   transition: 2.8s;
   font-weight: bold;
   font-size: 36px;
 }
 
 .button {
-  color: #ffffff !important;
+  color: var(--white) !important;
   width: 230px;
-  background: linear-gradient(90deg, #fa3d66 0%, #ffbc22 100%);
+  background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
   border: none;
   padding: 16px 20px;
   border-radius: 5px;
@@ -67,6 +77,7 @@ p {
   max-width: 1614px;
   margin: auto;
 }
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -87,19 +98,17 @@ p {
   flex-direction: column;
   flex-basis: 100%;
 }
-
-.left-column {
+.column-left {
   text-align: left;
   margin-left: 16px;
   margin-right: 16px;
 }
-.right-column {
+.column-right {
   text-align: right;
   margin-left: 16px;
   margin-right: 16px;
 }
-
-.double-column {
+.column-double {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
@@ -115,10 +124,26 @@ footer {
 
 /* Card
 ------ */
+.contact i {
+  color: var(--pink);
+}
+
+.about {
+  background-color: var(--white);
+}
+
+.resources p {
+  font-weight: bold;
+}
+
+.card p {
+  padding: 8px 24px 8px 24px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #100633;
+  border: 1px solid var(--dark-purple);
   margin: 18px;
   border-radius: 5px;
   width: 500px;
@@ -127,85 +152,72 @@ footer {
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
 }
 
-.card p {
-  padding: 8px 24px 8px 24px;
-}
-
 .name {
-  background-color: #f2f2f2;
+  background-color: var(--white);
   font-weight: bold;
   border-radius: 5px 5px 0 0;
   font-size: 20px;
 }
 
 .contact {
-  background-color: #f2f2f2;
-  border-bottom: 1px solid #100633;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--dark-purple);
   margin-bottom: 8px;
 }
 
-.contact i {
-  color: #fa3d66;
-}
-
-.about {
-  background-color: #fff;
-}
-
 .resources {
-  background-color: #fff;
+  background-color: var(--white);
   height: 100%;
   padding-right: 25px;
   border-radius: 0 0 5px 5px;
 }
 
-.resources p {
-  font-weight: bold;
-}
-
-/* Night Mode Codes */
-
-body.night {
-  background-position: 100% 100%;
-  background-color: #100633;
+/* Night Mode Code */
+.night .contact i {
+  color: var(--orange);
 }
 
 .night .container {
-  color: #d2d6dc;
+  color: var(--light-grey1);
 }
+
 .night h1 {
-  color: #ffbc22;
+  color: var(--orange);
 }
+
 .night .card {
-  border: 1px solid #ffbc22;
-}
-.night .name {
-  color: #d2d6dc;
-  background-color: #1f0b6b;
-}
-
-.night .contact {
-  background-color: #1f0b6b;
-  border-bottom: 1px solid #ffbc22;
-}
-
-.night .contact i {
-  color: #fa3d66;
-}
-
-.night .about {
-  color: #d2d6dc;
-  background-color: #100633;
-}
-
-.night .resources {
-  color: #d2d6dc;
-  background-color: #100633;
+  border: 1px solid var(--orange);
 }
 
 .toggle-box-label-left:empty {
   margin-left: -10px;
 }
+
+body.night {
+  background-position: 100% 100%;
+  background-color: var(--dark-purple);
+}
+
+.night .name {
+  color: var(--light-grey1);
+  background-color: var(--purple);
+}
+
+.night .contact {
+  background-color: var(--purple);
+  border-bottom: 1px solid var(--orange);
+}
+
+.night .about {
+  color: var(--light-grey1);
+  background-color: var(--dark-purple);
+}
+
+.night .resources {
+  color: var(--light-grey1);
+  background-color: var(--dark-purple);
+}
+
 .toggle-box-label-left:before,
 .toggle-box-label-left:after {
   box-sizing: border-box;
@@ -218,16 +230,17 @@ body.night {
   transition: 0.25s ease-in-out;
   outline: none;
 }
-.toggle-box input[type='checkbox'],
-.toggle-box input[type='checkbox']:active {
+
+.toggle-box input[type=checkbox],
+.toggle-box input[type=checkbox]:active {
   height: 0;
   width: 0;
   opacity: 0;
   border: none;
   outline: none;
 }
+
 .toggle-box label {
-  float: left;
   display: inline-block;
   position: relative;
   padding: 0px;
@@ -240,8 +253,9 @@ body.night {
   left: 9px;
   top: 5px;
 }
+
 .toggle-box-label-left:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   z-index: 1;
@@ -256,12 +270,13 @@ body.night {
   border-radius: 100%;
   right: 26px;
   bottom: 0px;
-  background: #ffb200;
+  background: var(--orange);
   transform: rotate(-45deg);
-  box-shadow: 0 0 10px white;
+  box-shadow: 0 0 10px var(--white);
 }
+
 .toggle-box-label-left:after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 40px;
   height: 24px;
@@ -272,35 +287,42 @@ body.night {
   background: rgba(255, 255, 255, 0.15);
   vertical-align: middle;
   margin: 0 10px;
-  border: 2px solid #ffb200;
+  border: 2px solid var(--orange);
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left:before {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left:before {
   right: 17px;
-  box-shadow: 5px 5px 0 0 #eee;
+  box-shadow: 5px 5px 0 0 var(--white);
   background: transparent;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left:after {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left:after {
   background: rgba(0, 0, 0, 0.15);
-  border: 2px solid white;
+  border: 2px solid var(--white);
 }
-.toggle-box input[type='checkbox'] + .toggle-box-label-left {
+
+.toggle-box input[type=checkbox] + .toggle-box-label-left {
   color: rgba(250, 250, 250, 0.51);
   font-weight: bold;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left {
   color: rgba(149, 149, 149, 0.51);
   font-weight: normal;
 }
-.toggle-box input[type='checkbox']:checked + .toggle-box-label-left + .toggle-box-label {
+
+.toggle-box input[type=checkbox]:checked + .toggle-box-label-left + .toggle-box-label {
   color: rgba(250, 250, 250, 0.51);
   font-weight: bold;
 }
+
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;
   }
-
   .double-column {
     flex: 2;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
