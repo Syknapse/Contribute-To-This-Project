@@ -491,7 +491,7 @@
   dependencies:
     "semver-compare" "^1.0.0"
 
-"prettier@1.18.2":
+"prettier@>=1.8.0", "prettier@1.18.2":
   "integrity" "sha512-OeHeMc0JhFE9idD4ZdtNibzY0+TPHSpSSb9h8FqtP+YnoZZ1sl8Vc9b1sasjfymH3SonAF4QcA2+mzHPhMvIiw=="
   "resolved" "https://registry.yarnpkg.com/prettier/-/prettier-1.18.2.tgz"
   "version" "1.18.2"
