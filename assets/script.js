@@ -37,7 +37,7 @@ const createArchiveObject = i => {
   container.append(archiveObject)
 }
 
-const NUMBER_OF_FILES = 7
+const NUMBER_OF_FILES = 8
 let current = 1
 
 const getArchiveCards = i => {
