@@ -1,7 +1,7 @@
 # Archive cards
 
 We use this folder to store older cards submitted by our contributors.  
-These cards still appear on the page. We use the `getArchiveCards()` method in `script.js` to import them back into the main document.  
+**These cards still appear on the website.** We use the `getArchiveCards()` method in `script.js` to import them back into the main document.  
 This is all to make sure our main `index.html` is not overwhelming with thousands of lines of codes.
 
 ## Add cards to an existing archive file
@@ -34,7 +34,7 @@ Copy the following template into it.
 
 Then add the cards into it.
 
-**IMPORTANT** You must update the variable `NUMBER_OF_FILES` in `script.js`. This is needed to import the html files.
+**IMPORTANT** You must update the variable `NUMBER_OF_FILES` in [script.js](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/assets/script.js#L40). This is needed to import the html files.
 
 ## How does it work
 
