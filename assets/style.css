@@ -25,6 +25,11 @@ header {
   max-width: 1575px;
 }
 
+a {
+  color: #fa3d66;
+  text-decoration: none;
+}
+
 a:link {
   color: var(--pink);
   text-decoration: none;
