@@ -33,7 +33,7 @@ Sie wird deinen Namen, deinen Twitter-Link, eine kurze Beschreibung und drei von
 Du wirst eine Kopie der Card-Vorlage, die sich innerhalb der HTML Datei befindet, erstellen und es mit deinen eigenen Angaben anpassen.
 
 ## Schnellzugriff
-| <ul><li>[Einleitung](#einleitung)</li><li>[Was werde ich beisteuern?](#was-werde-ich-beisteuern?)</li><li>[Setup](#setup)</li><li>[Mitwirken &rightarrow;](#mitwirken)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Mitwirken: <ul><li>[Schritt 1: Fork dieses Repository](#schritt-1-fork-dieses-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
+| <ul><li>[Einleitung](#einleitung)</li><li>[Was werde ich beisteuern?](#was-werde-ich-beisteuern?)</li><li>[Setup](#setup)</li><li>[Mitwirken &rightarrow;](#mitwirken)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Mitwirken: <ul><li>[Schritt 1: Fork dieses Repository](#schritt-1-fork-dieses-repository)</li><li>[Schritt 2: Klonen Sie das Repository](#schritt-2-klonen-sie-das-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
@@ -60,3 +60,32 @@ Werde ein Open Source Mitwirkender in 10 leichten Schritten.
 _Geschätzte Zeit: weniger als 30 Minuten_.
 
 ### Schritt 1: Fork dieses Repository
+
+- Das Ziel hier ist, eine Kopie dieses Projekts zu erstellen und in Ihrem Konto zu platzieren.
+- Als Repository (Repo) bezeichnet man ein Projekt auf GitHub und ein Fork ist eine Kopie davon.
+- Stellen Sie sicher, dass Sie sich auf der [Hauptseite](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') dieses Repos befinden.
+
+| <ul><li>Klicken Sie auf die Schaltfläche _Fork_</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| :------------------------------------------- | ----------------------------------------------: |
+
+- Sie haben jetzt eine vollständige Kopie des Projekts in Ihrem eigenen Konto.
+
+---
+
+### Schritt 2: Klonen Sie das Repository
+
+- Jetzt wollen wir eine lokale Kopie des Projekts erstellen. Das ist eine Kopie, die auf Ihrem eigenen Computer gespeichert ist.
+- Öffnen Sie die GitHub-Desktop-App. In der App:
+
+| <ul><li>Klicken Sie auf _Datei_ und dann auf _Repository klonen_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
+| :-------------------------------------------------------- | -------------------------------------------------------: |
+
+
+| <ul><li>Sie sehen eine Liste Ihrer Projekte und Forks auf GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Klicken Sie auf _Klonen_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
+| <ul><li>Ein Fork-Projekt hat das Fork-Symbol auf der linken Seite.</li><li>Ihr Fork wird Ihren eigenen GitHub-Benutzernamen haben.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+
+- Dies dauert einen Moment, da das Projekt auf Ihre Festplatte kopiert wird. Ich empfehle, dass Sie den Standardpfad beibehalten, der normalerweise der Fall ist `..\Documents\GitHub`.
+- Jetzt haben Sie eine lokale Kopie des Projekts.
+
+---
