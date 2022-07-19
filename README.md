@@ -1,8 +1,11 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
-
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
+
+![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
+![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
 > ### **Announcement:**
 > Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
@@ -10,10 +13,6 @@
 ## Introduction
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
-
-![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
-![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
-![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
 ### Objectives
 
@@ -290,6 +289,7 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 ![GitHub issues](https://img.shields.io/github/issues/Syknapse/Contribute-To-This-Project.svg)
 
 PR info:
+
 ![Repo PR's](https://badgen.net/github/prs/Syknapse/Contribute-To-This-Project)
 ![Open PR's](https://badgen.net/github/open-prs/Syknapse/Contribute-To-This-Project)
 ![Close PR's](https://badgen.net/github/closed-prs/Syknapse/Contribute-To-This-Project)
