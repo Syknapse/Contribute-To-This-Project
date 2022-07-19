@@ -2,8 +2,7 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-
-<a href="https://discord.gg/tWkvS4ueVF">Join our Discord server!</a>
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
 
 > ### **Announcement:**
 > Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
@@ -12,7 +11,9 @@
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [French](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Korean](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turkish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) currently. Translations very welcome).
+![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
+![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
 ### Objectives
 
@@ -36,6 +37,10 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
+
+## Translations
+
+This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [French](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Korean](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turkish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) currently. Translations are very welcome).
 
 ## Quick Access Index
 
@@ -276,8 +281,26 @@ This project is heavily influenced by [Roshan Jossey's](https://github.com/Rosha
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-## License
+## Project Info
 
-[MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
+[![Licence Badge](https://badgen.net/github/license/Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
+
+![Hibi-Ciento Project](https://img.shields.io/website-up-down-aqua-red/https/syknapse.github.io/Contribute-To-This-Project/)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![GitHub issues](https://img.shields.io/github/issues/Syknapse/Contribute-To-This-Project.svg)
+
+PR info:
+![Repo PR's](https://badgen.net/github/prs/Syknapse/Contribute-To-This-Project)
+![Open PR's](https://badgen.net/github/open-prs/Syknapse/Contribute-To-This-Project)
+![Close PR's](https://badgen.net/github/closed-prs/Syknapse/Contribute-To-This-Project)
+![Merged PR's](https://badgen.net/github/merged-prs/Syknapse/Contribute-To-This-Project)
+
+![Repo Stat](https://github-readme-stats.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=ayu-mirage&show_owner=true)
+
+## Contributors
+
+![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project)
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
 
 [Back to the top &uparrow;](#introduction)
