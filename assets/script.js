@@ -10,7 +10,6 @@ const showInfoInConsole = () => {
 }
 showInfoInConsole()
 
-
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
@@ -61,7 +60,6 @@ const getArchiveCards = i => {
 
 getArchiveCards(current)
 
-
 // night mode feature
 $('#toggle-box-checkbox').on('change', function() {
   if (this.checked) {
@@ -79,3 +77,11 @@ function demo() {
 if (document.location.pathname.indexOf('fullcpgrid') > -1) {
   demo()
 }
+
+// Current Year of footer
+const currentYearSpan = document.getElementById('currentYear')
+
+const currentYear = new Date().getFullYear()
+console.log(currentYear)
+
+currentYearSpan.innerText = currentYear
