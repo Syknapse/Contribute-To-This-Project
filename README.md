@@ -1,6 +1,11 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300">
+
+# <p align="center">[Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)</p>
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+
+</p>
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
 
@@ -40,7 +45,7 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 ## Translations
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [French](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Korean](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turkish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) currently. Translations are very welcome).
+This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [French](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Korean](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turkish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) currently. Translations for either this README or the maintainer README file are very welcome!).
 
 ## Quick Access Index
 
