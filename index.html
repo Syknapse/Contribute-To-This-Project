@@ -1,82 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Contribute To This Project</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-  <title>Contribute To This Project</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        <!-- Night Mode Creation -->
-        <div class="nightmode">
-          <div class="toggle-box">
-            <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
-            <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
-            <label for="toggle-box-checkbox" class="toggle-box-label"></label>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <!-- Night Mode Creation -->
+          <div class="nightmode">
+            <div class="toggle-box">
+              <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
+              <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
+              <label for="toggle-box-checkbox" class="toggle-box-label"></label>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
           </div>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+          <!-- / Night Mode Creation -->
         </div>
-        <!-- / Night Mode Creation -->
       </div>
-    </div>
-  <div class="row">
+      <div class="row">
         <div class="column-double">
           <div class="column-left">
             <h1>CONTRIBUTE TO THIS PROJECT</h1>
             <h2>A project for first-time contributions</h2>
-            <p>
-              This is a tutorial to help first-time contributors participate in a simple and easy project. Get more
+            <p>This is a tutorial to help first-time contributors participate in a simple and easy project. Get more
               comfortable using GitHub and make your first open source contribution. It's quick and easy.
             </p>
 
-            <a
-              class="button"
-              href="https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md"
-              title="Go to project README - A step by step tutorial"
-            >
+            <a class="button" href="https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md"
+              title="Go to project README - A step by step tutorial">
               Learn how to contribute
               <i class="fas fa-long-arrow-alt-right"></i>
             </a>
           </div>
         </div>
-  
-      <div class="column">
-        <div class="column-right">
-          <div class="twitter-button">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
-              data-text="Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial."
-              data-url="https://github.com/Syknapse/Contribute-To-This-Project" data-via="Syknapse"
-              data-hashtags="100DaysOfCode" data-show-count="false" title="Tweet this project">
-              Tweet
-            </a>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <div class="column">
+          <div class="column-right">
+            <div class="twitter-button">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+                data-text="Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial."
+                data-url="https://github.com/Syknapse/Contribute-To-This-Project" data-via="Syknapse" data-hashtags="100DaysOfCode"
+                data-show-count="false" title="Tweet this project">Tweet</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            <p>Contributions so far...</p>
+            <div class="animated" id="contributions-number">0</div>
           </div>
-          <p>Contributions so far...</p>
-          <div class="animated" id="contributions-number">0</div>
         </div>
       </div>
-    </div>
 
       <div class="grid">
         <!-- ============================================================== -->
         <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
         <!-- NOTE: You do not need to fill out every "contact" link and you can delete the ones you don't use -->
         <!-- make sure there is one line of space above and below your card like so: -->
-        
         <!-- ________ Another Contributor card START ________  -->
         <!-- SOMEONE ELSES CARD -->
         <!-- ________ Another Contributor card END ________  -->
         
         <!-- ________ Contributor card START ________  -->
+        <!-- YOUR CARD -->
+        <!-- ________ Contributor card END ________  -->
+
+    
+        <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
+        <div class="card">
+          <p class="name">Your name</p>
+          <p class="contact">
+            <i class="fab fa-twitter"></i>
+            <a href="www.twitter.com" target="_blank">Your handle</a>
+          </p>
+          <p class="about">about you</p>
+          <div class="resources">
+            <p>3 Useful Dev Resources</p>
+            <ul>
+              <li>
+                <a href="#" target="_blank" title="First Resource">
+                  Resource 1
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" title="Second Resource">
+                  Resource 2
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" title="Third resource">
+                  Resource 3
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+        <!-- COPY everything ABOVE this, from contributor card start to end along with the "START" and "END" comment lines -->
+
+        <!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
+        <!-- ============================================================== -->
+        <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+        
+        <!-- make sure there is one line of space above and below your card -->
+        <!-- ========== ⬇⬇ Paste YOUR CARD directly BELOW this line ⬇⬇ ========== -->
+        
+        <!-- ________ Lucas card START ________  -->
         <div class="card">
           <p class="name">Lucas Legrand</p>
           <p class="contact">
@@ -112,42 +150,7 @@
             </ul>
           </div>
         </div>
-        <!-- ________ Contributor card END ________  -->
-
-        <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Your name</p>
-          <p class="contact">
-            <i class="fab fa-discord"></i>
-            <a href="#" target="_blank">Your username#0000</a>
-            <i class="fab fa-github"></i>
-            <a href="#" target="_blank">Your username</a>
-            <i class="fab fa-twitter"></i>
-            <a href="#" target="_blank">Your handle</a>
-          </p>
-          <p class="about">About you</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="#" target="_blank" title="First Resource">
-                  Resource 1
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" title="Second Resource">
-                  Resource 2
-                </a>
-              </li>
-              <li>
-                <a href="#" target="_blank" title="Third resource">
-                  Resource 3
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
+        <!-- ________ Lucas card END ________  -->
 
         <!-- ________ *Alagu's Contribution card START ________  -->
         <div class="card">
