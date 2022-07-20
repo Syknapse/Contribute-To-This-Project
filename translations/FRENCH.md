@@ -1,19 +1,19 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Apporter votre contribution à ce projet](https://syknapse.github.io/Contribute-To-This-Project/)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-> **Annonce:** Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez-moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
+> **Annonce:** Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
 
 ## Introduction
 
 Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.
 
-Ce tutoriel est également disponible dans [autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) currently. Translations very welcome).
+Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
 
 ### Objectifs
 
-- Apportez une contribution à un projet open source.
-- Soyez plus à l'aise dans l'utilisation GitHub.
+- Apporter une contribution à un projet open source.
+- Devenir plus à l'aise dans l'utilisation GitHub.
 
 ### À qui est-ce destiné?
 
@@ -22,20 +22,20 @@ Ce tutoriel est également disponible dans [autres langues](https://github.com/S
 
 ### Pourquoi dois-je faire ça?
 
-Tout développeur Web, en herbe ou expérimenté, doit utiliser le contrôle de version de Git, et GitHub est le service d'hébergement Git le plus populaire utilisé par tout le monde. C'est aussi le cœur de la communauté Open Source. Se familiariser avec GitHub est une compétence essentielle. Contribuer à un projet renforce votre confiance et vous donne quelque chose à afficher sur votre profil GitHub.<br>
+Tout développeur Web, en herbe ou expérimenté, doit utiliser le contrôle de version Git, et GitHub est le service d'hébergement Git le plus populaire utilisé dans le monde. C'est aussi le cœur de la communauté Open Source. Se familiariser avec GitHub est une compétence essentielle. Contribuer à un projet renforce votre confiance et vous donne quelque chose à afficher sur votre profil GitHub.<br>
 Si vous êtes un nouveau développeur et que vous vous demandez si vous avez besoin d'apprendre Git et GitHub, voici la réponse: [Vous auriez dû apprendre Git hier](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'Nouveau développeur? Vous devriez avoir appris Git hier. par Brandon Morelli, créateur de CodeBurst.io ').
 
 ## Que vais-je apporter?
 
 ![Carte de contributeur](/readme-only/card.PNG 'Contributor Card')
 
-Vous allez contribuer une carte comme celle-ci à ceci [page web du projet](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Il comprendra votre nom, votre pseudo Twitter, une brève description et 3 liens vers des ressources utiles pour les développeurs Web que vous recommandez.
+Vous allez contribuer une carte comme celle-ci à la [page web du projet](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Il comprendra votre nom, votre pseudo Twitter, une brève description et 3 liens vers des ressources utiles pour les développeurs Web que vous recommandez.
 
 Vous allez faire une copie du modèle de carte dans le fichier HTML et le personnaliser avec vos propres informations.
 
 ## Index d'accès rapide
 
-| <ul><li>[Introduction](#introduction)</li><li>[Que vais-je apporter?](#what-am-i-going-to-contribute)</li><li>[Installer](#setup)</li><li>[Contribuez & rightarrow;](#contribute)</li><li>[Prochaines étapes](#next-steps)</li><li>[Remerciements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Étape 1: Forkez ce référentiel](#step-1-fork-this-repository)</li><li>[Étape 2: Cloner le référentiel](#step-2-clone-the-repository)</li><li>[Étape 3: créer une nouvelle branche](#step-3-create-a-new-branch)</li><li>[Étape 4: ouvrez le fichier index.html](#step-4-open-the-indexhtml-file)</li><li>[Étape 5: Copiez le modèle de carte](#step-5-copy-the-card-template)</li><li>[Étape 6: appliquez vos modifications](#step-6-apply-your-changes)</li><li>[Étape 7: Validez vos modifications](#step-7-commit-your-changes)</li><li>[Étape 8: transférez vos modifications sur GitHub](#step-8-push-your-changes-to-github)</li><li>[Étape 9: Soumettez un PR](#step-9-submit-a-pr)</li><li>[Étape 10: Célébrez!](#step-10-celebrate)</li></ul> |
+| <ul><li>[Introduction](#introduction)</li><li>[Que vais-je apporter?](#what-am-i-going-to-contribute)</li><li>[Installer](#setup)</li><li>[Contribuer &rightarrow;](#contribute)</li><li>[Prochaines étapes](#next-steps)</li><li>[Remerciements](#acknowledgements)</li></ul> | Pour contribuer: <ul><li>[Étape 1: Forker ce référentiel](#step-1-fork-this-repository)</li><li>[Étape 2: Cloner le référentiel](#step-2-clone-the-repository)</li><li>[Étape 3: Créer une nouvelle branche](#step-3-create-a-new-branch)</li><li>[Étape 4: Ouvrer le fichier index.html](#step-4-open-the-indexhtml-file)</li><li>[Étape 5: Copier le modèle de carte](#step-5-copy-the-card-template)</li><li>[Étape 6: Appliquer vos modifications](#step-6-apply-your-changes)</li><li>[Étape 7: Valider vos modifications](#step-7-commit-your-changes)</li><li>[Étape 8: Transférer vos modifications sur GitHub](#step-8-push-your-changes-to-github)</li><li>[Étape 9: Soumetter un PR](#step-9-submit-a-pr)</li><li>[Étape 10: Célébrer!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 

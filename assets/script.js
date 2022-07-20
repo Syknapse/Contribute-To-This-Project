@@ -2,6 +2,7 @@ const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
 
+// show up there are too many cards
 const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
@@ -10,7 +11,7 @@ const showInfoInConsole = () => {
 }
 showInfoInConsole()
 
-
+// display for the number of contributions
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
@@ -26,6 +27,7 @@ const countUp = () => {
   }, 15)
 }
 
+// adding the archive cards to the grid
 const createArchiveObject = i => {
   const container = document.querySelector('.container')
   const archiveObject = document.createElement('object')
@@ -36,10 +38,8 @@ const createArchiveObject = i => {
   archiveObject.setAttribute('height', '5000')
   container.append(archiveObject)
 }
-
 const NUMBER_OF_FILES = 9
 let current = 1
-
 const getArchiveCards = i => {
   createArchiveObject(i)
 
@@ -61,7 +61,6 @@ const getArchiveCards = i => {
 
 getArchiveCards(current)
 
-
 // night mode feature
 $('#toggle-box-checkbox').on('change', function() {
   if (this.checked) {
@@ -79,3 +78,11 @@ function demo() {
 if (document.location.pathname.indexOf('fullcpgrid') > -1) {
   demo()
 }
+
+// Current year of footer
+const currentYearSpan = document.getElementById('currentYear')
+
+const currentYear = new Date().getFullYear()
+console.log(currentYear)
+
+currentYearSpan.innerText = currentYear
