@@ -2,6 +2,9 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
+
+<a href="https://discord.gg/tWkvS4ueVF">Join our Discord server!</a>
+
 > ### **Announcement:**
 > Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
@@ -9,7 +12,7 @@
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md) [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md) currently. Translations very welcome).
+This tutorial is also available in [other languages](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([ِArabic](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [French](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Korean](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turkish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) currently. Translations very welcome).
 
 ### Objectives
 

@@ -25,6 +25,11 @@ header {
   max-width: 1575px;
 }
 
+a {
+  color: #fa3d66;
+  text-decoration: none;
+}
+
 a:link {
   color: var(--pink);
   text-decoration: none;
@@ -150,6 +155,13 @@ footer {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  
+}
+.card:hover{
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
+  -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
+  box-shadow: 2px 2px 5px 2px rgba(82, 81, 85, 0.5);
+  border:2px 2px 5px 2px rgba(82, 81, 85, 0.5) ;
 }
 
 .name {
