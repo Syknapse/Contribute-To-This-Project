@@ -305,7 +305,7 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 <h4 align="center">Maintainers</h4>
 
-![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project)
+![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project/?label=Maintainers)
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
 
