@@ -81,8 +81,5 @@ if (document.location.pathname.indexOf('fullcpgrid') > -1) {
 
 // Current year of footer
 const currentYearSpan = document.getElementById('currentYear')
-
 const currentYear = new Date().getFullYear()
-console.log(currentYear)
-
 currentYearSpan.innerText = currentYear
