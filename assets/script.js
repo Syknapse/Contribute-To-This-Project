@@ -83,3 +83,19 @@ if (document.location.pathname.indexOf('fullcpgrid') > -1) {
 const currentYearSpan = document.getElementById('currentYear')
 const currentYear = new Date().getFullYear()
 currentYearSpan.innerText = currentYear
+
+// Search bar 
+function search_card() {
+  let input = document.getElementById('searchbar').value
+  input=input.toLowerCase();
+  let x = document.getElementsByClassName('card');
+    
+  for (i = 0; i < x.length; i++) { 
+      if (!x[i].innerHTML.toLowerCase().includes(input)) {
+          x[i].style.display="none";
+      }
+      else {
+          x[i].style.display="card";                 
+      }
+  }
+}
