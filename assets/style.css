@@ -53,6 +53,7 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: all 1s;
 }
 
 #searchbar {
@@ -60,7 +61,7 @@ p {
   height: 50px;
   text-align: center;
   border: none;
-  color: black;
+  transition: all 1s;
 }
 
 .twitter-button {
@@ -200,6 +201,7 @@ footer {
 }
 
 /* Night Mode Code */
+
 .night .contact i {
   color: var(--orange);
 }
