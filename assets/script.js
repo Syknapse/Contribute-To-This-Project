@@ -79,23 +79,25 @@ if (document.location.pathname.indexOf('fullcpgrid') > -1) {
   demo()
 }
 
-// Current year of footer
+// Current year for footer
 const currentYearSpan = document.getElementById('currentYear')
 const currentYear = new Date().getFullYear()
 currentYearSpan.innerText = currentYear
 
 // Search bar 
-function search_card() {
-  let input = document.getElementById('searchbar').value
-  input=input.toLowerCase();
-  let x = document.getElementsByClassName('card');
+const searchBar = document.getElementById('searchbar');
+searchBar.addEventListener('keyup', searchCard);
+
+function searchCard() {
+  let input = searchBar.value.toLowerCase();
+  let card = document.getElementsByClassName('card');
     
-  for (i = 0; i < x.length; i++) { 
-      if (!x[i].innerHTML.toLowerCase().includes(input)) {
-          x[i].style.display="none";
+  for (i = 0; i < card.length; i++) { 
+      if (!card[i].textContent.toLowerCase().includes(input)) {
+          card[i].style.display="none";
       }
       else {
-          x[i].style.display="card";                 
+          card[i].style.display="flex";                 
       }
   }
 }
