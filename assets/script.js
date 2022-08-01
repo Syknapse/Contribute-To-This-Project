@@ -86,18 +86,18 @@ currentYearSpan.innerText = currentYear
 
 // Search bar 
 const searchBar = document.getElementById('searchbar');
-searchBar.addEventListener('keyup', searchCard);
+searchBar.addEventListener('input', searchCard);
 
 function searchCard() {
   let input = searchBar.value.toLowerCase();
-  let card = document.getElementsByClassName('card');
+  const cards = document.getElementsByClassName('card');
     
-  for (i = 0; i < card.length; i++) { 
-      if (!card[i].textContent.toLowerCase().includes(input)) {
-          card[i].style.display="none";
+  for (i = 0; i < cards.length; i++) { 
+      if (!cards[i].textContent.toLowerCase().includes(input)) {
+          cards[i].style.display="none";
       }
       else {
-          card[i].style.display="flex";                 
+          cards[i].style.display="flex";                 
       }
   }
 }
