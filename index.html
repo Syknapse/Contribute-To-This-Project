@@ -1,397 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="assets/style.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <title>Contribute To This Project</title>
-  </head>
 
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="column">
-          <!-- Night Mode Creation -->
-          <div class="nightmode">
-            <div class="toggle-box">
-              <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
-              <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
-              <label for="toggle-box-checkbox" class="toggle-box-label"></label>
-            </div>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <title>Contribute To This Project</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <!-- Night Mode Creation -->
+        <div class="nightmode">
+          <div class="toggle-box">
+            <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
+            <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
+            <label for="toggle-box-checkbox" class="toggle-box-label"></label>
           </div>
-          <!-- / Night Mode Creation -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        </div>
+        <!-- / Night Mode Creation -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="column-double">
+        <div class="column-left">
+          <h1>CONTRIBUTE TO THIS PROJECT</h1>
+          <h2>A project for first-time contributions</h2>
+          <p>
+            This is a tutorial to help first-time contributors participate in a simple and easy project. Get more
+            comfortable using GitHub and make your first open source contribution. It's quick and easy.
+          </p>
+
+          <a class="button" href="https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md"
+            title="Go to project README - A step by step tutorial">
+            Learn how to contribute
+            <i class="fas fa-long-arrow-alt-right"></i>
+          </a>
         </div>
       </div>
-      <div class="row">
-        <div class="column-double">
-          <div class="column-left">
-            <h1>CONTRIBUTE TO THIS PROJECT</h1>
-            <h2>A project for first-time contributions</h2>
-            <p>
-              This is a tutorial to help first-time contributors participate in a simple and easy project. Get more
-              comfortable using GitHub and make your first open source contribution. It's quick and easy.
-            </p>
 
-            <a
-              class="button"
-              href="https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md"
-              title="Go to project README - A step by step tutorial"
-            >
-              Learn how to contribute
-              <i class="fas fa-long-arrow-alt-right"></i>
+      <div class="column">
+        <div class="column-right">
+          <div class="twitter-button">
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large"
+              data-text="Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial."
+              data-url="https://github.com/Syknapse/Contribute-To-This-Project" data-via="Syknapse"
+              data-hashtags="100DaysOfCode" data-show-count="false" title="Tweet this project">
+              Tweet
             </a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>
+          <p>Contributions so far...</p>
+          <div class="animated" id="contributions-number">0</div>
         </div>
+      </div>
+    </div>
 
-        <div class="column">
-          <div class="column-right">
-            <div class="twitter-button">
-              <a
-                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                class="twitter-share-button"
-                data-size="large"
-                data-text="Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial."
-                data-url="https://github.com/Syknapse/Contribute-To-This-Project"
-                data-via="Syknapse"
-                data-hashtags="100DaysOfCode"
-                data-show-count="false"
-                title="Tweet this project"
-              >
-                Tweet
+    <div class="searchContainer">
+      <input id="searchbar" type="search" name="search" placeholder="Search for your card here!" />
+    </div>
+
+    <div class="grid">
+      <!-- ================================================ -->
+      <!-- ==================  TEMPLATE  ================== -->
+      <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+
+      <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Your name</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="www.twitter.com" target="_blank">Your handle</a>
+        </p>
+        <p class="about">about you</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="#" target="_blank" title="First Resource">Resource 1</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" title="Second Resource">Resource 2</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" title="Third resource">Resource 3</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- COPY everything ABOVE this, from contributor card start to end along with the "START" and "END" comment lines -->
+
+      <!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
+      <!-- ================================================ -->
+      <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
+
+      <!-- Mayank Singh's Card start -->
+      <div class="card">
+        <p class="name">Mayank Singh</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/fms12/" target="_blank">@fms12</a>
+        </p>
+        <p class="about">I am a Fullstack developer | JS, NodeJS, React, Python,Django,Java,BigQuery,Springboot, SQL |
+          Code is Fun | ❤ to Build new things </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://github.com/fms12/practice-problems" target="_blank"
+                title="First Resource">Dsa-practice-problems</a>
+            </li>
+            <li>
+              <a href="https://nados.io/" target="_blank" title="Second Resource">Learn Dsa Free</a>
+            </li>
+            <li>
+              <a href="https://scrimba.com/learn/learnreact" target="_blank" title="Third resource">Learn Web
+                developement Free</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Mayank Singh Card End -->
+      
+      <!-- Pankaj Sharma Card -->
+      <div class="card">
+        <p class="name">Pankaj Sharma</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/Pankaj_sharma43" target="_blank">@Pankaj_sharma43</a>
+        </p>
+        <p class="about">I am a Fullstack developer | JS, NodeJS, React, MongoDB, SQL | Code is Fun | Experience in
+          building real-time web apps.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://javascript.info/" target="_blank" title="Javascript info">Javascript Info</a>
+            </li>
+            <li>
+              <a href="https://dev.to/" target="_blank" title="Second Resource">Dev.to</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank" title="Third resource">StackOverflow</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Pankaj Sharma Card End -->
+
+      <!-- ________ Vraj's CARD START ________  -->
+      <div class="card">
+        <p class="name">VRAJ PATEL</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/VrajPat16244254" target="_blank">@VrajPat16244254</a>
+        </p>
+        <p class="about">I'm currently pursuing B.tech in computer and I am in 3rd year of my college learning some cool
+          stuff like web development,machine learning etc. I am here to contribute 1st open source project and in search
+          of internships</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="First Resource">w3schools</a>
+            </li>
+            <li>
+              <a href="https://www.programiz.com/" target="_blank" title="Second Resource">programiz</a>
+            </li>
+            <li>
+              <a href="https://jschallenger.com/" target="_blank" title="Third resource">jschallenger</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Vraj's CARD END ________  -->
+
+      <!-- ________ Cesar's Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Cesar Cuadro</p>
+        <p class="contact">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/cesar-cuadro-5699291ba/" target="_blank">Cesar Cuadro</a>
+        </p>
+        <p class="about">Hello World! I am bootcamp student from Learn Acadmey that uses a full stack development
+          course. I plan to contribute more to open source along my learning journey.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="FreeCodeCamp">
+                Free Code Camp
               </a>
-              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
-            <p>Contributions so far...</p>
-            <div class="animated" id="contributions-number">0</div>
-          </div>
+            </li>
+            <li>
+              <a href="https://www.codeplatoon.org/intro-2-coding/" target="_blank" title="Code Platoon">
+                Code Platoon
+              </a>
+            </li>
+            <li>
+              <a href="https://www.learnacademy.org/" target="_blank" title="Learn Academy">
+                Learn Academy
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
+      <!-- ________Cesar's Contributor card END ________  -->
 
-      <div class="searchContainer">
-        <input id="searchbar" type="search" name="search" placeholder="Search for your card here!" />
+
+      <!-- Keep one line of space above and below your card -->
+      <!-- ========= Paste YOUR CARD directly BELOW this line ========= -->
+
+
+      <!--  Shreyash's CARD START  -->
+      <div class="card">
+        <p class="name">Shreyash</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/ShreyashPingle" target="_blank">@ShreyashPIngle</a>
+        </p>
+        <p class="about">
+          I'm 19 y/o majoring in Computer Science from India. I'm learning MEVN Stack and JAVA + DSA.
+          My fav artist is Travis Scott.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://goodfirstissue.dev/" target="_blank">
+                goodfirstissue
+              </a>
+            </li>
+            <li>
+              <a href="https://deepsource.io/discover" target="_blank">
+                DeepSource
+              </a>
+            </li>
+            <li>
+              <a href="https://www.gitpod.io/" target="_blank">
+                Gitpod
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
+      <!--  Shreyash's CARD END    -->
 
-      <div class="grid">
-        <!-- ================================================ -->
-        <!-- ==================  TEMPLATE  ================== -->
-        <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
 
-        <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Your name</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="www.twitter.com" target="_blank">Your handle</a>
-          </p>
-          <p class="about">about you</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-	           <ul>
-              <li>
-                <a href="#" target="_blank" title="First Resource">Resource 1</a>
-              </li>
-              <li>
-                <a href="#" target="_blank" title="Second Resource">Resource 2</a>
-              </li>
-              <li>
-                <a href="#" target="_blank" title="Third resource">Resource 3</a>
-              </li>
-            </ul>
-          </div>
+      <!--________________Indu's Card START_____________-->
+      <div class="card">
+        <p class="name">Indu Kushwaha</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/goforindu" target="_blank">@goforindu</a>
+        </p>
+        <p class="about">I am a frontend developer. I have experience in html5 css3 bootstrap4 javascript reactjs . I
+          just want to restart my career . so I just learning to contribute to open-source projects. Hope this will help
+          me and others also. so that I can share my learnings and skill with them. </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources in my web development Journey</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com" target="_blank" title="First Resource">w3schools</a>
+            </li>
+            <li>
+              <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank"
+                title="Second Resource">React course by maximilian Schwarzmuller </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank" title="Third resource">stackoverflow</a>
+            </li>
+          </ul>
         </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
+      </div>
+      <!--__________Indu's Card END_______________-->
 
-        <!-- COPY everything ABOVE this, from contributor card start to end along with the "START" and "END" comment lines -->
-
-        <!-- ============== ^^^^ TEMPLATE ^^^^ ============== -->
-        <!-- ================================================ -->
-        <!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->
-<!-- Mayank Singh's Card start -->
-        <div class="card">
-          <p class="name">Mayank Singh</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/fms12/" target="_blank">@fms12</a>
-          </p>
-          <p class="about">I am a Fullstack developer | JS, NodeJS, React, Python,Django,Java,BigQuery,Springboot, SQL | Code is Fun | ❤ to Build new things </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-	           <ul>
-              <li>
-                <a href="https://github.com/fms12/practice-problems" target="_blank" title="First Resource">Dsa-practice-problems</a>
-              </li>
-              <li>
-                <a href="https://nados.io/" target="_blank" title="Second Resource">Learn Dsa Free</a>
-              </li>
-              <li>
-                <a href="https://scrimba.com/learn/learnreact" target="_blank" title="Third resource">Learn Web developement Free</a>
-              </li>
-            </ul>
-          </div>
+      <!-- ________ Ze Xin's card START ________  -->
+      <div class="card">
+        <p class="name">Ze Xin</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/Zex31084119" target="_blank">@Zex31084119</a>
+        </p>
+        <p class="about"> Just a software engineering undergraduate and Gunpla enthusiast. Best wishes to all developers
+          and have an awesome day. </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="w3schools/">W3 Schools</a>
+            </li>
+            <li>
+              <a href="https://www.geeksforgeeks.org/" target="_blank" title="GeeksforGeeks">GeeksforGeeks</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank" title="Stack Overflow">Stack Overflow</a>
+            </li>
+          </ul>
         </div>
-<!-- Mayank Singh Card End -->
-        <!-- Pankaj Sharma Card -->
-        <div class="card">
-          <p class="name">Pankaj Sharma</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/Pankaj_sharma43" target="_blank">@Pankaj_sharma43</a>
-          </p>
-          <p class="about">I am a Fullstack developer | JS, NodeJS, React, MongoDB, SQL | Code is Fun | Experience in building real-time web apps.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-	           <ul>
-              <li>
-                <a href="https://javascript.info/" target="_blank" title="Javascript info">Javascript Info</a>
-              </li>
-              <li>
-                <a href="https://dev.to/" target="_blank" title="Second Resource">Dev.to</a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank" title="Third resource">StackOverflow</a>
-              </li>
-            </ul>
-          </div>
+      </div>
+      <!-- ________Ze Xin's card END ________  -->
+
+      <!-- ________ Oluwaseyi Akinbile's card START ________  -->
+      <div class="card">
+        <p class="name">Oluwaseyi Akinbile</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://www.twitter.com/Akinbiletony" target="_blank">@Akinbiletony</a>
+        </p>
+        <p class="about">I'm an aspiring Fullstack Web Developer, <br>
+          When I'm not writing code I'm either reading a book, writing heart break or love songs, <br>
+          watching a movie, or thinking about what to eat, then thinking about making it,<br>
+          then feeling tired and then resorting to eat whatever is available </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="First Resource">W3schools</a>
+            </li>
+            <li>
+              <a href="https://scrimba.com/learn/learnjavascript" target="_blank" title="Second Resource">Scrimba's 7
+                hour interactive course on Javascript. This ones lit</a>
+            </li>
+            <li>
+              <a href="https://Google.com/" target="_blank" title="Third resource">Google</a>
+            </li>
+          </ul>
         </div>
-        <!-- Pankaj Sharma Card End -->
-        
-        <!-- ________ Vraj's CARD START ________  -->
-        <div class="card">
-            <p class="name">VRAJ PATEL</p>
-            <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/VrajPat16244254" target="_blank">@VrajPat16244254</a>
-            </p>
-            <p class="about">I'm currently pursuing B.tech in computer and I am in 3rd year of my college learning some cool stuff like web development,machine learning etc. I am here to contribute 1st open source project and in search of internships</p>
-            <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-                <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="First Resource">w3schools</a>
-                </li>
-                <li>
-                <a href="https://www.programiz.com/" target="_blank" title="Second Resource">programiz</a>
-                </li>
-                <li>
-                <a href="https://jschallenger.com/" target="_blank" title="Third resource">jschallenger</a>
-                </li>
-            </ul>
-            </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- ________ Kuon Yaw's card START ________  -->
+      <div class="card">
+        <p class="name">Kuon Yaw</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/YawsSky" target="_blank">@YawsSky</a>
+        </p>
+        <p class="about">Best wishes to y'all. Wish open-source projects never die. Hope more pc games can be run on
+          apple silicon Mac computers without all the hassles :P</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="w3schools/">W3 Schools</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/" target="_blank" title="MDN Web Docs">Mozilla Developer
+                Network</a>
+            </li>
+            <li>
+              <a href="https://www.makeuseof.com/category/programming/" target="_blank"
+                title="makeuseof.com">MakeUseOf</a>
+            </li>
+          </ul>
         </div>
-        <!-- ________Vraj's CARD END ________  -->
+      </div>
+      <!-- ________ Kuon Yaw's card END ________  -->
 
-        <!-- ________ Cesar's Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Cesar Cuadro</p>
-          <p class="contact">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/cesar-cuadro-5699291ba/" target="_blank">Cesar Cuadro</a>
-          </p>
-          <p class="about">Hello World! I am bootcamp student from Learn Acadmey that uses a full stack development course. I plan to contribute more to open source along my learning journey.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="FreeCodeCamp">
-                  Free Code Camp
-                </a>
-              </li>
-              <li>
-                <a href="https://www.codeplatoon.org/intro-2-coding/" target="_blank" title="Code Platoon">
-                  Code Platoon
-                </a>
-              </li>
-              <li>
-                <a href="https://www.learnacademy.org/" target="_blank" title="Learn Academy">
-                  Learn Academy
-                </a>
-              </li>
-            </ul>
-          </div>
+      <!-- Cian Gallagher's card START -->
+      <div class="card">
+        <p class="name">Cian Gallagher</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/CianGallagher_" target="_blank">@CianGallagher_</a>
+        </p>
+        <p class="about">Hello there, I'm a Finance professional who is career pivoting into the Tech field. I've always
+          been interested in software and technology, also I'm a learning addict!</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/python/default.asp" target="_blank" title="First Resource">W3School</a>
+            </li>
+            <li>
+              <a href="https://www.theodinproject.com/dashboard" target="_blank" title="Second Resource">The Odin
+                Project</a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/" target="_blank" title="Third resource">freeCodeCamp</a>
+            </li>
+          </ul>
         </div>
-        <!-- ________Cesar's Contributor card END ________  -->
+      </div>
+      <!-- Cian Gallagher's card END -->
 
-
-        <!-- Keep one line of space above and below your card -->
-        <!-- ========= Paste YOUR CARD directly BELOW this line ========= -->
-
-
-        <!--  Shreyash's CARD START  -->
-        <div class="card">
-          <p class="name">Shreyash</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/ShreyashPingle" target="_blank">@ShreyashPIngle</a>
-          </p>
-          <p class="about">
-            I'm 19 y/o majoring in Computer Science from India. I'm learning MEVN Stack and JAVA + DSA.
-            My fav artist is Travis Scott.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://goodfirstissue.dev/" target="_blank">
-                  goodfirstissue
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://deepsource.io/discover"
-                  target="_blank"
-                >
-                  DeepSource
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.gitpod.io/"
-                  target="_blank"
-                >
-                  Gitpod
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--  Shreyash's CARD END    -->
-
-        
-        <!--________________Indu's Card START_____________-->
-        <div class="card">
-          <p class="name">Indu Kushwaha</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/goforindu" target="_blank">@goforindu</a>
-          </p>
-          <p class="about">I am a frontend developer. I have experience in html5 css3 bootstrap4 javascript reactjs . I just want to restart my career . so I just learning to contribute to open-source projects. Hope this will help me and others also. so that I can share my learnings and skill with them. </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources in my web development Journey</p>
-	           <ul>
-              <li>
-                <a href="https://www.w3schools.com" target="_blank" title="First Resource">w3schools</a>
-              </li>
-              <li>
-                <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank" title="Second Resource">React course by maximilian Schwarzmuller </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank" title="Third resource">stackoverflow</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!--__________Indu's Card END_______________-->
-
-        <!-- ________ Ze Xin's card START ________  -->
-        <div class="card">
-          <p class="name">Ze Xin</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/Zex31084119" target="_blank">@Zex31084119</a>
-          </p>
-          <p class="about"> Just a software engineering undergraduate and Gunpla enthusiast. Best wishes to all developers and have an awesome day.  </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-	           <ul>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="w3schools/">W3 Schools</a>
-              </li>
-              <li>
-                <a href="https://www.geeksforgeeks.org/" target="_blank" title="GeeksforGeeks">GeeksforGeeks</a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank" title="Stack Overflow">Stack Overflow</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Ze Xin's card END ________  -->
-
-                <!-- ________ Oluwaseyi Akinbile's card START ________  -->
-                <div class="card">
-                  <p class="name">Oluwaseyi Akinbile</p>
-                  <p class="contact">
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://www.twitter.com/Akinbiletony" target="_blank">@Akinbiletony</a>
-                  </p>
-                  <p class="about">I'm an aspiring Fullstack Web Developer, <br>
-                     When I'm not writing code I'm either reading a book, writing heart break or love songs, <br>
-                      watching a movie, or thinking about what to eat, then thinking about making it,<br>
-                       then feeling tired and then resorting to eat whatever is available </p>
-                  <div class="resources"> 
-                    <p>3 Useful Dev Resources</p>
-                     <ul>
-                      <li>
-                        <a href="https://www.w3schools.com/" target="_blank" title="First Resource">W3schools</a>
-                      </li>
-                      <li>
-                        <a href="https://scrimba.com/learn/learnjavascript" target="_blank" title="Second Resource">Scrimba's 7 hour interactive course on Javascript. This ones lit</a>
-                      </li>
-                      <li>
-                        <a href="https://Google.com/" target="_blank" title="Third resource">Google</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- ________*END TEMPLATE* Contributor card END ________  -->
-        
-	<!-- ________ Kuon Yaw's card START ________  -->
-        <div class="card">
-          <p class="name">Kuon Yaw</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/YawsSky" target="_blank">@YawsSky</a>
-          </p>
-          <p class="about">Best wishes to y'all. Wish open-source projects never die. Hope more pc games can be run on apple silicon Mac computers without all the hassles :P</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="w3schools/">W3 Schools</a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org/en-US/" target="_blank" title="MDN Web Docs">Mozilla Developer Network</a>
-              </li>
-              <li>
-                <a href="https://www.makeuseof.com/category/programming/" target="_blank" title="makeuseof.com">MakeUseOf</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-       <!-- ________ Kuon Yaw's card END ________  -->
-
-        <!-- Cian Gallagher's card START -->
-        <div class="card">
-          <p class="name">Cian Gallagher</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/CianGallagher_" target="_blank">@CianGallagher_</a>
-          </p>
-          <p class="about">Hello there, I'm a Finance professional who is career pivoting into the Tech field. I've always been interested in software and technology, also I'm a learning addict!</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com/python/default.asp" target="_blank" title="First Resource">W3School</a>
-              </li>
-              <li>
-                <a href="https://www.theodinproject.com/dashboard" target="_blank" title="Second Resource">The Odin Project</a>
-              </li>
-              <li>
-                <a href="https://www.freecodecamp.org/learn/" target="_blank" title="Third resource">freeCodeCamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Cian Gallagher's card END -->
-
-         <!-- mohammedarbaz119's card START  -->
+      <!-- mohammedarbaz119's card START  -->
       <div class="card">
         <p class="name">Mohammed Arbazuddin Qureshi</p>
         <p class="contact">
@@ -415,1343 +419,1284 @@
         </div>
       </div>
       <!-- mohammedarbaz119's card Ends -->
-        
+
       <!-- Baraa Mansor's Card START -->
-        <div class="card">
-          <p class="name">Baraa Mansor</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/BoOoMeD2" target="_blank">@BoOoMeD2</a>
-          </p>
-          <p class="about">Hi, I am an aspiring Web developer who is working to learn everything, and I am hoping to have a full stack ready to work before this year ends</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="http://www.uigoodies.com/" target="_blank" title="First Resource">UI goodies</a>
-              </li>
-              <li>
-                <a href="https://dev.to/rahxuls/free-ultimate-resources-for-front-end-development-in-2021-giveaway-3838" target="_blank" title="Second Resource">General useful resources</a>
-              </li>
-              <li>
-                <a href="https://undraw.co/illustrations" target="_blank" title="Third resource">Undraw illustrations</a>
-              </li>
-            </ul>
-          </div>
+      <div class="card">
+        <p class="name">Baraa Mansor</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/BoOoMeD2" target="_blank">@BoOoMeD2</a>
+        </p>
+        <p class="about">Hi, I am an aspiring Web developer who is working to learn everything, and I am hoping to have
+          a full stack ready to work before this year ends</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="http://www.uigoodies.com/" target="_blank" title="First Resource">UI goodies</a>
+            </li>
+            <li>
+              <a href="https://dev.to/rahxuls/free-ultimate-resources-for-front-end-development-in-2021-giveaway-3838"
+                target="_blank" title="Second Resource">General useful resources</a>
+            </li>
+            <li>
+              <a href="https://undraw.co/illustrations" target="_blank" title="Third resource">Undraw illustrations</a>
+            </li>
+          </ul>
         </div>
-         <!-- Baraa Mansor's Card END -->
-
-
-         <!-- ________ Shubhdeep's Card START ________  -->
-         <div class="card">
-          <p class="name">Shubhdeep Singh</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/rajput_shubhum" target="_blank">@rajput_shubhum</a>
-          </p>
-          <p class="about">I am a  proud computer engineer I know java, java script, solidity,html,css. i am going to use my skills to contribute to open source. 😄</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="Best place for begineers.">FreeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="You will learn everything step by step.">W3Schools</a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank" title="This is the best friend of developers.">StackOverflow</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Shubhdeep's Card END ________  -->
-        
-
-
-        <!-- ________ Vansitha's card START ________  -->
-        <div class="card">
-          <p class="name">Vansitha</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/vansitha12" target="_blank">@vansitha12</a>
-          </p>
-          <p class="about">
-            I am a student programmer and currently focused on putting what I've learned into good use by contributing
-            to open source projects. 😄
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.freecodecamp.org/"
-                  target="_blank"
-                  title="Best place to start your coding journey."
-                >
-                  FreeCodeCamp
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.w3schools.com/"
-                  target="_blank"
-                  title="Has good guides and examples on how to get things done for the technology your're using."
-                >
-                  W3Schools
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://stackoverflow.com/"
-                  target="_blank"
-                  title="Place where all programers goto when they encouter nasty bugs."
-                >
-                  StackOverflow
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Vansitha's card END ________  -->
-
-
-        <!-- ________ Anurag's card START ________  -->
-        <div class="card">
-          <p class="name">Anurag Tiwari</p>
-          <p class="contact">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://linkedin.com/in/https://www.linkedin.com/in/anurag-tiwari-4192b8206/" target="_blank">
-              Your handle
-            </a>
-          </p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/Danuragtiwari" target="_blank">Your handle</a>
-          </p>
-          <p class="about">about you</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">Freecodecamp</a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org/en-US/" target="_blank" title="Second Resource">MDN Web docs</a>
-              </li>
-              <li>
-                <a href="https://github.com/" target="_blank" title="Third resource">Github</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
-
-        <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Matheus Trilha Koch</p>
-          <p class="contact">
-            <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/matheus-koch-712806162/" target="_blank">Matheus T. Koch</a>
-          </p>
-          <p class="about">
-            Hi, my name is Matheus! I started studying web development in 2022 and i plan on being a Front-End
-            developer. Best of luck to all of us on this journey!
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.freecodecamp.org/learn/"
-                  target="_blank"
-                  title="This a link to a free website that taught me almost everything i know today."
-                >
-                  FreeCodeCamp Site
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/c/DorianDevelops"
-                  target="_blank"
-                  title="This is a awesome content creator for beginners in programming."
-                >
-                  Dorian Develops channel
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://stackoverflow.com/"
-                  target="_blank"
-                  title="This a website that contains almost all of the questions that other people had when programming, if you dont know yet it's worth checking out!"
-                >
-                  StackOverflow site
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
-
-        <!-- ________ Asad's card START ________  -->
-        <div class="card">
-          <p class="name">Mohammed Asadullah Sayeed</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://www.twitter.com/asdsydd" target="_blank">asdsydd</a>
-          </p>
-          <p class="about">CS Student learning open source and development. Minimalist :)</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.commclassroom.org/" target="_blank" title="First Resource">Community Classroom</a>
-              </li>
-              <li>
-                <a href="https://roadmap.sh/" target="_blank" title="Second Resource">Roadmap.sh</a>
-              </li>
-              <li>
-                <a href="https://www.theodinproject.com/" target="_blank" title="Third resource">Odin Project</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-         <!-- ________Asad's card END ________  -->
-
-
-  <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
-  <div class="card">
-    <p class="name">Matheus Trilha Koch</p>
-    <p class="contact">
-      <i class="fa-brands fa-linkedin"></i>
-      <a href="https://www.linkedin.com/in/matheus-koch-712806162/" target="_blank">Matheus T. Koch</a>
-    </p>
-    <p class="about">Hi, my name is Matheus! I started studying web development in 2022 and i plan on being a Front-End developer. Best of luck to all of us on this journey!</p>
-    <div class="resources">
-      <p>3 Useful Dev Resources</p>
-      <ul>
-        <li>
-          <a href="https://www.freecodecamp.org/learn/" target="_blank" title="This a link to a free website that taught me almost everything i know today.">FreeCodeCamp Site</a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com/c/DorianDevelops" target="_blank" title="This is a awesome content creator for beginners in programming.">Dorian Develops channel</a>
-        </li>
-        <li>
-          <a href="https://stackoverflow.com/" target="_blank" title="This a website that contains almost all of the questions that other people had when programming, if you dont know yet it's worth checking out!">StackOverflow site</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <!-- ________*END TEMPLATE* Contributor card END ________  -->
-        
-        <!-- ________ spark07's card START ________  -->
-        <div class="card">
-          <p class="name">spark07</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/sparkO7" target="_blank">sparkO7</a>
-          </p>
-          <p class="about">Aspiring Developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">freeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org/en-US/" target="_blank" title="Second Resource">MDN</a>
-              </li>
-              <li>
-                <a href="https://medium.com/" target="_blank" title="Third resource">Medium</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- ________ spark07's card END ________  -->
-
-        <!-- ________ Tebogo's card START ________  -->
-        <div class="card">
-          <p class="name">Tebogo Ndaba</p>
-          <p class="contact">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/tebogo-ndaba-315188118/" target="_blank">Tebogo Ndaba</a>
-          </p>
-          <p class="about">Fullstack Developer, fanatically obsessed with code.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="W3Schools">
-                  W3Schools Online Web Tutorials
-                </a>
-              </li>
-              <li>
-                <a href="https://www.codegrepper.com/" target="_blank" title="Code Grepper">
-                  Grepper | The Q&A System for the Coder Community
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Tebogo's card END ________  -->
-
-        <!-- Abdullah's card START -->
-        <div class="card">
-          <p class="name">Abdullah Bin Rashid</p>
-          <p class="contact">
-            <i class="fab fa-linkedin"></i>
-            <a href="www.linkedin.com/in/abdullah-rashid-42411822b" target="_blank">Abdullah Bin Rashid</a>
-          </p>
-          <p class="about">Junior Flutter Developer Thriving to become React&BlockChain Developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com" target="_blank" title="First Resource">Resource 1</a>
-              </li>
-              <li>
-                <a href="https://github.com/abdullah19191/AI-Covid-19-GetX" target="_blank" title="Second Resource">
-                  Resource 2
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/abdullah19191/Desktop-Personal-Assistant"
-                  target="_blank"
-                  title="Third resource"
-                >
-                  Resource 3
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- Abdullah Card Ends -->
-
-        <!-- ________ Nehemiah's card START ________  -->
-        <div class="card">
-          <p class="name">Nehemiah Dias</p>
-          <p class="contact">
-            <i class="fab fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/nehemiah-dias-2504a61a1/" target="_blank">Nehemiah Dias</a>
-          </p>
-          <p class="about">Someone obsessed with Software and Web Applications since I was young :)</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="#" target="https://www.freecodecamp.org/learn" title="First Resource">freeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://www.codecademy.com/" target="_blank" title="Second Resource">CodeCademy</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank" title="Third resource">YouTube</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Nehemiah's card END ________  -->
-
-        <!-- ________ Shivam's card START ________  -->
-        <div class="card">
-          <p class="name">Shivam Verma</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://www.twitter.com/Stoppieboyy" target="_blank">@Stoppieboyy</a>
-          </p>
-          <p class="about">Learning version control system</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://theodinproject.com" target="_blank" title="First Resource">The Odin Project</a>
-              </li>
-              <li>
-                <a href="https://w3schools.com" target="_blank" title="Second Resource">W3Schools</a>
-              </li>
-              <li>
-                <a href="https://freecodecamp.org" target="_blank" title="Third resource">freeCodeCamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Shivam's card END ________  -->
-
-        <!-- ________ fiqgant's card START ________  -->
-        <div class="card">
-          <p class="name">Taufiqurrahman</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/fiqgant" target="_blank">@fiqgant</a>
-          </p>
-          <p class="about">I am a geek who is passionate about Machine Learning and Artificial Intelligence</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://machinelearningmastery.com/" target="_blank" title="First Resource">
-                  Machine Learning Mastery
-                </a>
-              </li>
-              <li>
-                <a href="https://www.analyticsvidhya.com/" target="_blank" title="Second Resource">Analytics Vidhya</a>
-              </li>
-              <li>
-                <a href="https://dev.to/" target="_blank" title="Third resource">Dev.to</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________fiqgant's card END ________  -->
-
-        <!-- ________AlCo2 card START ________  -->
-        <div class="card">
-          <p class="name">Abdou Lahboub</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/AlCo2" target="_blank">AlCo2</a>
-          </p>
-          <p class="about">just a 19years old boy enjoy coding and want to learn more.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank" title="First Resource">Youtube</a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/" target="_blank" title="Second Resource">stack overflow</a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="Third resource">w3schools</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________AlCo2 card END ________  -->
-
-        <!-- ________ gibaMute's card START ________  -->
-        <div class="card">
-          <p class="name">gibaMute</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/gibaMute" target="_blank">@gibaMute</a>
-          </p>
-          <p class="about">I'm floating across everything</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com" target="_blank" title="First Resource">
-                  W3Schools Online Web Tutorials
-                </a>
-              </li>
-              <li>
-                <a href="https://www.geeksforgeeks.org" target="_blank" title="Second Resource">
-                  GeeksforGeeks | A computer science portal for geeks
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com" target="_blank" title="Third resource">
-                  Stack Overflow - Where Developers Learn, Share, & Build Careers
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________gibaMute's card END ________  -->
-
-        <!-- ________ Sachin's card START ________  -->
-        <div class="card">
-          <p class="name">Sachin Sharma</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/sachin_sh18" target="_blank">@sachin_sh18</a>
-          </p>
-          <p class="about">Trying to learn and enjoy</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50 by Harvard</a>
-              </li>
-              <li>
-                <a href="https://medium.com/@sachin.sh926" target="_blank" title="Second Resource">Medium Blog</a>
-              </li>
-              <li>
-                <a href="https://www.wqu.edu/" target="_blank" title="Third resource">WQU Data Science</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Sachin's card END ________  -->
-
-        <!-- ________ Sai Kumar's card START ________  -->
-        <div class="card">
-          <p class="name">Sai Kumar</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/hellosai-github" target="_blank">@hellosai-github</a>
-          </p>
-          <p class="about">Trying to make a change</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50 by Harvard</a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com" target="_blank" title="Third resource">w3schools</a>
-              </li>
-              <li>
-                <a href="https://www.freecodecamp.com" target="_blank" title="First Resource">Freecodecamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Sachin's card END ________  -->
-
-        <!-- ________ somesh's card START ________  -->
-        <div class="card">
-          <p class="name">Somesh Bhandare</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://www.twitter.com/someshb06" target="_blank">@someshb06</a>
-          </p>
-          <p class="about">Aspiring Developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://dev.to/" target="_blank" title="Second Resource">Dev.to</a>
-              </li>
-              <li>
-                <a href="https://freecodecamp.org/" target="_blank" title="Third resource">Freecodecamp</a>
-              </li>
-              <li>
-                <a href="https://medium.com" target="_blank" title="First Resource">Medium</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ somesh's card END ________  -->
-
-        <!-- ________ Neil Gebhard's START ________  -->
-        <div class="card">
-          <p class="name">Neil Gebhard</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/neil_gebhard" target="_blank">@neil_gebhard</a>
-          </p>
-          <p class="about">I'm a web developer from the tiny island of Saipan.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://egghead.io/" target="_blank" title="egghead">egghead</a>
-              </li>
-              <li>
-                <a href="https://www.udemy.com/" target="_blank" title="Udemy">Udemy</a>
-              </li>
-              <li>
-                <a href="https://javascript.info/" target="_blank" title="javascript.info">javascript.info</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Neil Gebhard's END ________  -->
-
-        <!-- ________ Robcior's card START ________  -->
-        <div class="card">
-          <p class="name">Robcior</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/rrobciorr" target="_blank">rrobciorr</a>
-          </p>
-          <p class="about">
-            Now I am an electrician but I want to be a programmer so i need to learn fast . I think that programming is
-            very interesting. I love the idea that you can travel anywhere and you have your job in laptop. You dont
-            have to back to your city after holiday, you can stay anywhere and work at any hour, bulding interesting
-            things. It,s make me feel some kind of freedom ...
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.codingame.com/" target="_blank" title="Learn by playing">Codingame</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" target="_blank" title="Find tutorials ">Youtube</a>
-              </li>
-              <li>
-                <a href="https://www.google.com/" target="_blank" title="Troubleshooting">Google</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Robcior's  card END ________  -->
-
-        <!-- ________ Rodrick's card START ________  -->
-        <div class="card">
-          <p class="name">Rodrick C.</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/Rodrick-alt" target="_blank">@Rodrick-alt</a>
-          </p>
-          <p class="about">
-            Aspiring Web Developer | Hobby Digital Artist | Chronic Overthinker. Moving forward one heavy step at a
-            time.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/learn/" target="_blank" title="First Resource">FreeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://www.frontendmentor.io/" target="_blank" title="Second Resource">Frontend Mentor</a>
-              </li>
-              <li>
-                <a
-                  href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
-                  target="_blank"
-                  title="Third resource"
-                >
-                  CSS-TRICKS Guide to FlexBox
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Rodrick's card END ________  -->
-
-        <!-- ________ AlphaRomeoMike's card START ________  -->
-        <div class="card">
-          <p class="name">Nicolas</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/runTimeTerror69" target="_blank">@runTimeTerror69</a>
-          </p>
-          <p class="about">I code 👩‍💻, gym ⛹️‍♀️, game 🎮 and play table tennis 🏓, I am also a student 👩‍🎓</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.linkedin.com/in/rafaymodi18/" target="_blank" title="LinkedIn">LinkedIn</a>
-              </li>
-              <li>
-                <a href="https://www.tutorialspoint.com/index.htm" target="_blank" title="Tutorialspoint">
-                  Tutorialspoint
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ AlphaRomeoMike card END ________  -->
-
-        <!-- ________ *Aneke Michael Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Aneke Michael</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/d1_codes/" target="_blank">@d1_codes</a>
-          </p>
-          <p class="about">
-            I'm Michael, a Software developer with vast knowledge in Front-End Web Development and am also very
-            proficient in Digital Marketing. Highly trained in programming and Software Development and known for having
-            talents in object-oriented programming and debugging.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://dev.to/" target="_blank" title="First Resource">Dev.to</a>
-              </li>
-              <li>
-                <a href="https://hashnode.com/" target="_blank" title="Second Resource">HashNode</a>
-              </li>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="Third resource">FreeCodeCamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*Aneke Michael Contributor card END ________  -->
-        <!-- ________ Ed's card START ________  -->
-        <div class="card">
-          <p class="name">Ed Olivares</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/eudoroolivares2016" target="_blank">@Ed Olivares</a>
-          </p>
-          <p class="about">One step at a time, learning to be a better web developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.freecodecamp.org/"
-                  target="_blank"
-                  title="Free code camp learn fullstack developement"
-                >
-                  Freecodecamp
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/watch?v=ZA-tUyM_y7s"
-                  target="_blank"
-                  title="MIT intro to algorithms classd"
-                >
-                  MIT 6.006 Introduction to Algorithms, Spring 2020
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.codewars.com/"
-                  target="_blank"
-                  title="Coding challanges and puzzles at progressively harder levels"
-                >
-                  codewars
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Ed's card END ________  -->
-
-        <!-- ________ Mohand Alloun Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Mohand Alloun</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/Mohand3d" target="_blank">Mohand3d</a>
-          </p>
-          <p class="about">
-            25 | Aspiring web developer | #100DaysOfCode | Learning in public | Tweets about my journey of learning web
-            development
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">Freecodecamp</a>
-              </li>
-              <li>
-                <a href="https://web.dev/" target="_blank" title="Second Resource">Web.dev</a>
-              </li>
-              <li>
-                <a href="https://learn-anything.xyz/" target="_blank" title="Third resource">Learn Anything</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Mohand Alloun Contributor card END ________  -->
-
-        <!-- ________ *Sm20* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Sm20</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="www.github.com/youknowme2" target="_blank">@YouKnowMe2</a>
-          </p>
-          <p class="about">I am Web Programmer!</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.heroku.com/" target="_blank" title="First Resource">Heroku</a>
-              </li>
-              <li>
-                <a href="https://hackernoon.com/" target="_blank" title="Second Resource">Hackernoon</a>
-              </li>
-              <li>
-                <a href="https://ray.so/" target="_blank" title="Third resource">Creating Code To Image</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*Sm20* Contributor card END ________  -->
-
-        <!-- ________ GeneralMine Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Marvin Raiser</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/GeneralMine" target="_blank">@GeneralMine</a>
-          </p>
-          <p class="about">
-            Developer of an Integrative ecosystem for remote diagnosis, observation and control in combination with
-            cloud computing for autonomous dronesystems in the air or on ground. Starting with ROS2 nodes on the drones
-            to microservice architecture for backend servers to frontend web development.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://youtu.be/JnEH9tYLxLk"
-                  target="_blank"
-                  title="Build a Full Stack Twitter Clone with Coding Garde"
-                >
-                  Build a Full Stack Twitter Clone with Coding Garden
-                </a>
-              </li>
-              <li>
-                <a href="https://developer.mozilla.org" target="_blank" title="Resources for Developers, by Developers">
-                  Resources for Developers, by Developers
-                </a>
-              </li>
-              <li>
-                <a href="https://kit.svelte.dev/" target="_blank" title="SvelteKit">SvelteKit</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ GeneralMine Contributor card END ________  -->
-
-        <!-- ________ Aircorridor card START ________  -->
-        <div class="card">
-          <p class="name">Aircorridor</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/aircorridor" target="_blank">Aircorridor</a>
-          </p>
-          <p class="about">
-            Relax like no one's watching. Encrypt like everyone is. A tech enthusiast who learns how to live a modern
-            lifestyle with privacy in mind. Privacy is Freedom!
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://draculatheme.com/" target="_blank" title="Dracula theme">Dracula Theme</a>
-              </li>
-              <li>
-                <a href="https://github.com" target="_blank" title="Github">GitHub - A Heart of Open Source</a>
-              </li>
-              <li>
-                <a href="https://codepen.io" target="_blank" title="Codepen">Codepen</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Aircorridor card END ________  -->
-
-        <!-- ________ *Isaac Hernandez* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Isaac D. Hernandez</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/axiom-of-choice" target="_blank">@axiom_of-choice</a>
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/Zorns_Lemma" target="_blank">@Zorns_Lemma</a>
-          </p>
-          <p class="about">Graduated Mathematician and Data Scientist :)</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="Free Code Camp">freeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://leetcode.com/" target="_blank" title="LeetCode">LeetCode</a>
-              </li>
-              <li>
-                <a href="https://roadmap.sh/" target="_blank" title="roadmap.sh">roadmap.sh</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
-
-        <!-- ________ *Kwame Lamar* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Kwame Lamar</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="www.twitter.com" target="_blank">@quametawiah_</a>
-          </p>
-          <p class="about">I am a newbie in tech!</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.com" target="_blank" title="First Resource">Freecodecamp</a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com" target="_blank" title="Second Resource">Youtube</a>
-              </li>
-              <li>
-                <a href="https://www.w3schools.com" target="_blank" title="Third resource">w3schools</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*Kwame Lamar* Contributor card END ________  -->
-
-        <!-- ________ codesxas card START ________  -->
-        <div class="card">
-          <p class="name">Codesxas</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/codesxas" target="_blank">codesxas</a>
-          </p>
-          <p class="about">Your friendly neighbourhood developer.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://github.com/cfenollosa/os-tutorial" target="_blank" title="First Resource">
-                  OS Tutorial
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://codekoalas.com/blog/build-your-own-minimal-terminal"
-                  target="_blank"
-                  title="Second Resource"
-                >
-                  Build your own minimal terminal
-                </a>
-              </li>
-              <li>
-                <a href="https://wesbos.com/javascript/01-the-basics/welcome" target="_blank" title="Third resource">
-                  Javascript Notes (Tutorial)
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________codesxas card END ________  -->
-
-        <!-- ________ Justin Brown card START ________  -->
-        <div class="card">
-          <p class="name">Justin Brown</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/JustinBrown17" target="_blank">JustinBrown17</a>
-          </p>
-          <p class="about">I'm learning how to code and use developer tools to get a job as a self-taught developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50x</a>
-              </li>
-              <li>
-                <a href="https://github.com/ForrestKnight/open-source-cs" target="_blank" title="Second Resource">
-                  Open Source CS - ForrestKnight
-                </a>
-              </li>
-              <li>
-                <a href="https://www.freecodecamp.org/learn" target="_blank" title="Third resource">freeCodeCamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Justin Brown card END ________  -->
-
-        <!-- ________ Akintunde Owojori ________  -->
-        <div class="card">
-          <p class="name">Akintunde Owojori</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="www.twitter.com/oneboyfromife" target="_blank">@oneboyfromife</a>
-          </p>
-          <p class="about">about you</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">FreeCodeCamp</a>
-              </li>
-              <li>
-                <a href="https://devcareer.io/" target="_blank" title="Second Resource">Dev Career</a>
-              </li>
-              <li>
-                <a href="buildfire.com/become-mobile-app-developer/" target="_blank" title="Third resource">
-                  Build Fire
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*END TEMPLATE* Contributor card END ________  -->
-
-        <!--__________Harshil Savaj__________-->
-        <div class="card">
-          <p class="name">Harshil Savaj</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/22044" target="_blank">Harshil Savaj</a>
-          </p>
-          <p class="about">University Student can Devlop ASP.NET webapps and Knows Data Analysis</p>
-          <div class="resources">
-            <p>3 Useful repository</p>
-            <ul>
-              <li>
-                <a
-                  href="https://github.com/22044/Car_Price_Pridiction_Model"
-                  target="_blank"
-                  title="Car Price Prediction Model"
-                >
-                  Car Price Prediction Model
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/22044/Data_Analytics" target="_blank" title="Data Analysis">
-                  Data Analysis
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/22044/Medical_Appointment_System" target="_blank" title="ASP.NET">
-                  ASP.NET
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Harshil Savaj card END ________  -->
-
-        <!--__________Conor's Card __________-->
-        <div class="card">
-          <p class="name">Conor</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/conorkenn" target="_blank">conorkenn</a>
-          </p>
-          <p class="about">I like anime, code, and motorsports</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.rust-lang.org/" target="_blank" title="rust-lang">Rust-lang</a>
-              </li>
-              <li>
-                <a href="https://leetcode.com/" target="_blank" title="leetcode">LeetCode</a>
-              </li>
-              <li>
-                <a href="https://www.reddit.com/r/cscareerquestions/" target="_blank" title="r/cscareerquestions">
-                  r/cscareerquestions
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Conor's Card END ________  -->
-
-        <!--__________Teresa's Card __________-->
-        <div class="card">
-          <p class="name">Teresa</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="www.twitter.com/ateresinha" target="_blank">@ateresinha</a>
-          </p>
-          <p class="about">Hi I am Teresa, I am learning how to use GitHub.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.w3schools.com/" target="_blank" title="W3schools">W3schools</a>
-              </li>
-              <li>
-                <a href="https://www.codecademy.com/" target="_blank" title="Code Academy">Code Academy</a>
-              </li>
-              <li>
-                <a href="https://css-tricks.com/" target="_blank" title="CSS tips & tricks">CSS Tips & Tricks</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Teresa's Card END ________  -->
-
-        <!-- ________ *JK Lagrosa* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">JK Lagrosa</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/jklagrosa" target="_blank">@jklagrosa</a>
-          </p>
-          <p class="about">
-            I designed and developed websites and web applications with a focus on usability, accessibility, and
-            performance.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://codingphase.com/" target="_blank" title="First Resource">CodingPhase.com</a>
-              </li>
-              <li>
-                <a href="https://www.coderfoundry.com/" target="_blank" title="Second Resource">CoderFoundry</a>
-              </li>
-              <li>
-                <a href="https://www.udemy.com/" target="_blank" title="Third resource">Udemy</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*JK Lagrosa* Contributor card END ________  -->
-
-        <!-- ________ Zijian1799 ________  -->
-        <div class="card">
-          <p class="name">Zijian1799</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/jianzl" target="_blank">Jianzl</a>
-          </p>
-          <p class="about">I am currently a software engineering student in University Tunku Abdul Rahman, Malaysia.</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux?language=en"
-                  target="_blank"
-                  title="This is a TED talk about The mind behind Linux"
-                >
-                  The mind behind Linux
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://youtu.be/0TwoubGSXpc"
-                  target="_blank"
-                  title="A talk about fundamentals of Software Development"
-                >
-                  The Fundamentals Of Software Development
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.w3schools.com/html/default.asp"
-                  target="_blank"
-                  title="A website of Basic HTML knowledge"
-                >
-                  W3School HTML
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________Zijian1799's Contributor card END ________  -->
-
-        <!-- ________ Saksham Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Saksham Attri</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/sakshamattri6" target="_blank">@SakshamAttri6</a>
-          </p>
-          <p class="about">Self-taught Developer</p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://www.theodinproject.com/" target="_blank" title="The Odin Project">
-                  The Odin Project(great for noobs like me)
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/P1xt/p1xt-guides" target="_blank" title="P1xt Guide">
-                  A guide for all you need.
-                </a>
-              </li>
-              <li>
-                <a href="appacademy.io" target="_blank" title="App Academy open">A free full stack Bootcamp</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Saksham Contributor card END ________  -->
-
-        <!-- ________ *Hira Saha* Contributor card START ________  -->
-        <div class="card">
-          <p class="name">Shawon Krishna Saha</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/hira-saha" target="_blank">@Shawon Krishna Saha</a>
-            <i class="fab fa-twitter"></i>
-            <a href="https://www.twitter.com/hs_arch3type" target="_blank">@hs_arch3type</a>
-          </p>
-          <p class="about">
-            I'm a self-taught Web Developer (trying to be), I love to learn different coding languages to design
-            beautiful and functional websites. I am a Student of Institute of Cost and Management Accountants of
-            Bangladesh (ICMAB). Then moved to coding platform to fullfill my long lasting dream.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.roadmap.sh"
-                  target="_blank"
-                  title="This web works as a map for both the newcomers and old ones to get a direction"
-                >
-                  roadmap.sh
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/" target="_blank" title="a community of devs">GitHub</a>
-              </li>
-              <li>
-                <a
-                  href="https://learnhowtocode.info/"
-                  target="_blank"
-                  title="A website to let all aware of coding platforms"
-                >
-                  Learnhowtocode.Info
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________*Hira Saha* Contributor card END ________  -->
-
-        <!-- ________ *TenTraicion* Contributor card START ________  -->
-
-        <div class="card">
-          <p class="name">TenTraicion</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/TenTraicion" target="_blank">@TenTraicion</a>
-            <i class="fab fa-twitter"></i>
-            <a href="www.twitter.com/TenTraicion" target="_blank">@TenTraicion</a>
-            <i class="fab fa-discord"></i>
-            <a href="https://discord.com/invite/2WMJjcpzPA" target="_blank">TenTraicion#6565</a>
-          </p>
-          <p class="about">
-            I'm a student and new to this programming world. Recently set my goal to become a Full Stack Web Developer.
-            I am eager to join any community which is friendly enough to accept me as one of them.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.theodinproject.com/"
-                  target="_blank"
-                  title="This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education."
-                >
-                  The Odin Project
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.freecodecamp.org/"
-                  target="_blank"
-                  title="a nonprofit community that helps you learn to code by building projects."
-                >
-                  Free Code Camp
-                </a>
-              </li>
-              <li>
-                <a href="https://codepen.io/" target="_blank" title="CodePen is a social development environment">
-                  CodePen
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- ________*TenTraicion* Contributor card END ________  -->
-
-        <!-- ________324Hz's START________  -->
-        <div class="card">
-          <p class="name">324Hz</p>
-          <p class="contact">
-            <i class="fab fa-github"></i>
-            <a href="https://github.com/win21H2" target="_blank">324Hz</a>
-            <a href="https://project-silent-willow.netlify.app" target="_blank">win21H2</a>
-          </p>
-          <p class="about">
-            Hello all! I am 324Hz and I am a (quite advanced) front/backend developer for
-            <a href="https://324hz.dev">my website</a>
-            and I am currently working on
-            <a href="https://github.com/win21H2/Image-Recognition-win21H2">this repository</a>
-            which uses image recognition to control an Arduino which controls Project Silent Willow (a preoject I am
-            making).
-          </p>
-          <div class="resources">
-            <p>My most used code/editors</p>
-            <ul>
-              <li>
-                <a href="https://code.visualstudio.com/download" target="_blank" title="First Resource">VSCode</a>
-              </li>
-              <li>
-                <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" title="Second Resource">
-                  MicrosoftVS
-                </a>
-              </li>
-              <li>
-                <a href="https://www.arduino.cc/en/software" target="_blank" title="Third resource">Arduino IDE/CLI</a>
-              </li>
-            </ul>
-            <p>Also the tag format in the contrib. file... i-... no words :)</p>
-          </div>
-        </div>
-        <!--________324Hz's card END________-->
-
-        <!-- ________ Syk's card START ________  -->
-        <div class="card">
-          <p class="name">Syk Houdeib</p>
-          <p class="contact">
-            <i class="fab fa-twitter"></i>
-            <a href="https://twitter.com/Syknapse" target="_blank">@Syknapse</a>
-          </p>
-          <p class="about">
-            I love staring at maps, dosing off to David Attenborough's documentaries, listening to 4'33'', and learning
-            more web development everyday. I hate cows and straight lines.
-          </p>
-          <div class="resources">
-            <p>3 Useful Dev Resources</p>
-            <ul>
-              <li>
-                <a href="https://medium.freecodecamp.org/" target="_blank" title="Excellent articles every day">
-                  FreeCodeCamp Medium Publication
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid"
-                  target="_blank"
-                  title="Smashing Magazine's awesome collection of CSS grid resources to get you started"
-                >
-                  Getting Started With CSS Grid
-                </a>
-              </li>
-              <li>
-                <a
-                  href="http://100daysofcode.com/"
-                  target="_blank"
-                  title="A great challenge and community to keep you coding and motivated every day"
-                >
-                  #100DaysOfCode
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- ________ Syk's card END ________  -->
-
-
-        <!-- <<<<< Do not change anything below this line >>>>> -->
-        <!-- -------------------------------------------------- -->
       </div>
-      <hr />
+      <!-- Baraa Mansor's Card END -->
 
-      <footer>
-        Project by
-        <a href="https://twitter.com/Syknapse" target="_blank">Syk Houdeib</a>
-        2017-
-        <span id="currentYear"></span>
-      </footer>
+
+      <!-- ________ Shubhdeep's Card START ________  -->
+      <div class="card">
+        <p class="name">Shubhdeep Singh</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/rajput_shubhum" target="_blank">@rajput_shubhum</a>
+        </p>
+        <p class="about">I am a proud computer engineer I know java, java script, solidity,html,css. i am going to use
+          my skills to contribute to open source. 😄</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="Best place for begineers.">FreeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank"
+                title="You will learn everything step by step.">W3Schools</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank"
+                title="This is the best friend of developers.">StackOverflow</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Shubhdeep's Card END ________  -->
+
+
+
+      <!-- ________ Vansitha's card START ________  -->
+      <div class="card">
+        <p class="name">Vansitha</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/vansitha12" target="_blank">@vansitha12</a>
+        </p>
+        <p class="about">
+          I am a student programmer and currently focused on putting what I've learned into good use by contributing
+          to open source projects. 😄
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="Best place to start your coding journey.">
+                FreeCodeCamp
+              </a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank"
+                title="Has good guides and examples on how to get things done for the technology your're using.">
+                W3Schools
+              </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank"
+                title="Place where all programers goto when they encouter nasty bugs.">
+                StackOverflow
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Vansitha's card END ________  -->
+
+
+      <!-- ________ Anurag's card START ________  -->
+      <div class="card">
+        <p class="name">Anurag Tiwari</p>
+        <p class="contact">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/in/https://www.linkedin.com/in/anurag-tiwari-4192b8206/" target="_blank">
+            Your handle
+          </a>
+        </p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/Danuragtiwari" target="_blank">Your handle</a>
+        </p>
+        <p class="about">about you</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">Freecodecamp</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/" target="_blank" title="Second Resource">MDN Web docs</a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank" title="Third resource">Github</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Matheus Trilha Koch</p>
+        <p class="contact">
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/matheus-koch-712806162/" target="_blank">Matheus T. Koch</a>
+        </p>
+        <p class="about">
+          Hi, my name is Matheus! I started studying web development in 2022 and i plan on being a Front-End
+          developer. Best of luck to all of us on this journey!
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/" target="_blank"
+                title="This a link to a free website that taught me almost everything i know today.">
+                FreeCodeCamp Site
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/c/DorianDevelops" target="_blank"
+                title="This is a awesome content creator for beginners in programming.">
+                Dorian Develops channel
+              </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank"
+                title="This a website that contains almost all of the questions that other people had when programming, if you dont know yet it's worth checking out!">
+                StackOverflow site
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- ________ Asad's card START ________  -->
+      <div class="card">
+        <p class="name">Mohammed Asadullah Sayeed</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://www.twitter.com/asdsydd" target="_blank">asdsydd</a>
+        </p>
+        <p class="about">CS Student learning open source and development. Minimalist :)</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.commclassroom.org/" target="_blank" title="First Resource">Community Classroom</a>
+            </li>
+            <li>
+              <a href="https://roadmap.sh/" target="_blank" title="Second Resource">Roadmap.sh</a>
+            </li>
+            <li>
+              <a href="https://www.theodinproject.com/" target="_blank" title="Third resource">Odin Project</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Asad's card END ________  -->
+
+
+      <!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Matheus Trilha Koch</p>
+        <p class="contact">
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/matheus-koch-712806162/" target="_blank">Matheus T. Koch</a>
+        </p>
+        <p class="about">Hi, my name is Matheus! I started studying web development in 2022 and i plan on being a
+          Front-End developer. Best of luck to all of us on this journey!</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/" target="_blank"
+                title="This a link to a free website that taught me almost everything i know today.">FreeCodeCamp
+                Site</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/c/DorianDevelops" target="_blank"
+                title="This is a awesome content creator for beginners in programming.">Dorian Develops channel</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank"
+                title="This a website that contains almost all of the questions that other people had when programming, if you dont know yet it's worth checking out!">StackOverflow
+                site</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- ________ spark07's card START ________  -->
+      <div class="card">
+        <p class="name">spark07</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/sparkO7" target="_blank">sparkO7</a>
+        </p>
+        <p class="about">Aspiring Developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">freeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/en-US/" target="_blank" title="Second Resource">MDN</a>
+            </li>
+            <li>
+              <a href="https://medium.com/" target="_blank" title="Third resource">Medium</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ________ spark07's card END ________  -->
+
+      <!-- ________ Tebogo's card START ________  -->
+      <div class="card">
+        <p class="name">Tebogo Ndaba</p>
+        <p class="contact">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/tebogo-ndaba-315188118/" target="_blank">Tebogo Ndaba</a>
+        </p>
+        <p class="about">Fullstack Developer, fanatically obsessed with code.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="W3Schools">
+                W3Schools Online Web Tutorials
+              </a>
+            </li>
+            <li>
+              <a href="https://www.codegrepper.com/" target="_blank" title="Code Grepper">
+                Grepper | The Q&A System for the Coder Community
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank" title="GitHub">GitHub</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Tebogo's card END ________  -->
+
+      <!-- Abdullah's card START -->
+      <div class="card">
+        <p class="name">Abdullah Bin Rashid</p>
+        <p class="contact">
+          <i class="fab fa-linkedin"></i>
+          <a href="www.linkedin.com/in/abdullah-rashid-42411822b" target="_blank">Abdullah Bin Rashid</a>
+        </p>
+        <p class="about">Junior Flutter Developer Thriving to become React&BlockChain Developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com" target="_blank" title="First Resource">Resource 1</a>
+            </li>
+            <li>
+              <a href="https://github.com/abdullah19191/AI-Covid-19-GetX" target="_blank" title="Second Resource">
+                Resource 2
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/abdullah19191/Desktop-Personal-Assistant" target="_blank"
+                title="Third resource">
+                Resource 3
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Abdullah Card Ends -->
+
+      <!-- ________ Nehemiah's card START ________  -->
+      <div class="card">
+        <p class="name">Nehemiah Dias</p>
+        <p class="contact">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/nehemiah-dias-2504a61a1/" target="_blank">Nehemiah Dias</a>
+        </p>
+        <p class="about">Someone obsessed with Software and Web Applications since I was young :)</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="#" target="https://www.freecodecamp.org/learn" title="First Resource">freeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/" target="_blank" title="Second Resource">CodeCademy</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" title="Third resource">YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Nehemiah's card END ________  -->
+
+      <!-- ________ Shivam's card START ________  -->
+      <div class="card">
+        <p class="name">Shivam Verma</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://www.twitter.com/Stoppieboyy" target="_blank">@Stoppieboyy</a>
+        </p>
+        <p class="about">Learning version control system</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://theodinproject.com" target="_blank" title="First Resource">The Odin Project</a>
+            </li>
+            <li>
+              <a href="https://w3schools.com" target="_blank" title="Second Resource">W3Schools</a>
+            </li>
+            <li>
+              <a href="https://freecodecamp.org" target="_blank" title="Third resource">freeCodeCamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Shivam's card END ________  -->
+
+      <!-- ________ fiqgant's card START ________  -->
+      <div class="card">
+        <p class="name">Taufiqurrahman</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/fiqgant" target="_blank">@fiqgant</a>
+        </p>
+        <p class="about">I am a geek who is passionate about Machine Learning and Artificial Intelligence</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://machinelearningmastery.com/" target="_blank" title="First Resource">
+                Machine Learning Mastery
+              </a>
+            </li>
+            <li>
+              <a href="https://www.analyticsvidhya.com/" target="_blank" title="Second Resource">Analytics Vidhya</a>
+            </li>
+            <li>
+              <a href="https://dev.to/" target="_blank" title="Third resource">Dev.to</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________fiqgant's card END ________  -->
+
+      <!-- ________AlCo2 card START ________  -->
+      <div class="card">
+        <p class="name">Abdou Lahboub</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/AlCo2" target="_blank">AlCo2</a>
+        </p>
+        <p class="about">just a 19years old boy enjoy coding and want to learn more.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" title="First Resource">Youtube</a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com/" target="_blank" title="Second Resource">stack overflow</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="Third resource">w3schools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________AlCo2 card END ________  -->
+
+      <!-- ________ gibaMute's card START ________  -->
+      <div class="card">
+        <p class="name">gibaMute</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/gibaMute" target="_blank">@gibaMute</a>
+        </p>
+        <p class="about">I'm floating across everything</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com" target="_blank" title="First Resource">
+                W3Schools Online Web Tutorials
+              </a>
+            </li>
+            <li>
+              <a href="https://www.geeksforgeeks.org" target="_blank" title="Second Resource">
+                GeeksforGeeks | A computer science portal for geeks
+              </a>
+            </li>
+            <li>
+              <a href="https://stackoverflow.com" target="_blank" title="Third resource">
+                Stack Overflow - Where Developers Learn, Share, & Build Careers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________gibaMute's card END ________  -->
+
+      <!-- ________ Sachin's card START ________  -->
+      <div class="card">
+        <p class="name">Sachin Sharma</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/sachin_sh18" target="_blank">@sachin_sh18</a>
+        </p>
+        <p class="about">Trying to learn and enjoy</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50 by Harvard</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@sachin.sh926" target="_blank" title="Second Resource">Medium Blog</a>
+            </li>
+            <li>
+              <a href="https://www.wqu.edu/" target="_blank" title="Third resource">WQU Data Science</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Sachin's card END ________  -->
+
+      <!-- ________ Sai Kumar's card START ________  -->
+      <div class="card">
+        <p class="name">Sai Kumar</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/hellosai-github" target="_blank">@hellosai-github</a>
+        </p>
+        <p class="about">Trying to make a change</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50 by Harvard</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" target="_blank" title="Third resource">w3schools</a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.com" target="_blank" title="First Resource">Freecodecamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Sachin's card END ________  -->
+
+      <!-- ________ somesh's card START ________  -->
+      <div class="card">
+        <p class="name">Somesh Bhandare</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://www.twitter.com/someshb06" target="_blank">@someshb06</a>
+        </p>
+        <p class="about">Aspiring Developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://dev.to/" target="_blank" title="Second Resource">Dev.to</a>
+            </li>
+            <li>
+              <a href="https://freecodecamp.org/" target="_blank" title="Third resource">Freecodecamp</a>
+            </li>
+            <li>
+              <a href="https://medium.com" target="_blank" title="First Resource">Medium</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ somesh's card END ________  -->
+
+      <!-- ________ Neil Gebhard's START ________  -->
+      <div class="card">
+        <p class="name">Neil Gebhard</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/neil_gebhard" target="_blank">@neil_gebhard</a>
+        </p>
+        <p class="about">I'm a web developer from the tiny island of Saipan.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://egghead.io/" target="_blank" title="egghead">egghead</a>
+            </li>
+            <li>
+              <a href="https://www.udemy.com/" target="_blank" title="Udemy">Udemy</a>
+            </li>
+            <li>
+              <a href="https://javascript.info/" target="_blank" title="javascript.info">javascript.info</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Neil Gebhard's END ________  -->
+
+      <!-- ________ Robcior's card START ________  -->
+      <div class="card">
+        <p class="name">Robcior</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/rrobciorr" target="_blank">rrobciorr</a>
+        </p>
+        <p class="about">
+          Now I am an electrician but I want to be a programmer so i need to learn fast . I think that programming is
+          very interesting. I love the idea that you can travel anywhere and you have your job in laptop. You dont
+          have to back to your city after holiday, you can stay anywhere and work at any hour, bulding interesting
+          things. It,s make me feel some kind of freedom ...
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.codingame.com/" target="_blank" title="Learn by playing">Codingame</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank" title="Find tutorials ">Youtube</a>
+            </li>
+            <li>
+              <a href="https://www.google.com/" target="_blank" title="Troubleshooting">Google</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Robcior's  card END ________  -->
+
+      <!-- ________ Rodrick's card START ________  -->
+      <div class="card">
+        <p class="name">Rodrick C.</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/Rodrick-alt" target="_blank">@Rodrick-alt</a>
+        </p>
+        <p class="about">
+          Aspiring Web Developer | Hobby Digital Artist | Chronic Overthinker. Moving forward one heavy step at a
+          time.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/learn/" target="_blank" title="First Resource">FreeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://www.frontendmentor.io/" target="_blank" title="Second Resource">Frontend Mentor</a>
+            </li>
+            <li>
+              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" title="Third resource">
+                CSS-TRICKS Guide to FlexBox
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Rodrick's card END ________  -->
+
+      <!-- ________ AlphaRomeoMike's card START ________  -->
+      <div class="card">
+        <p class="name">Nicolas</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/runTimeTerror69" target="_blank">@runTimeTerror69</a>
+        </p>
+        <p class="about">I code 👩‍💻, gym ⛹️‍♀️, game 🎮 and play table tennis 🏓, I am also a student 👩‍🎓</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/rafaymodi18/" target="_blank" title="LinkedIn">LinkedIn</a>
+            </li>
+            <li>
+              <a href="https://www.tutorialspoint.com/index.htm" target="_blank" title="Tutorialspoint">
+                Tutorialspoint
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ AlphaRomeoMike card END ________  -->
+
+      <!-- ________ *Aneke Michael Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Aneke Michael</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/d1_codes/" target="_blank">@d1_codes</a>
+        </p>
+        <p class="about">
+          I'm Michael, a Software developer with vast knowledge in Front-End Web Development and am also very
+          proficient in Digital Marketing. Highly trained in programming and Software Development and known for having
+          talents in object-oriented programming and debugging.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://dev.to/" target="_blank" title="First Resource">Dev.to</a>
+            </li>
+            <li>
+              <a href="https://hashnode.com/" target="_blank" title="Second Resource">HashNode</a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="Third resource">FreeCodeCamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*Aneke Michael Contributor card END ________  -->
+      <!-- ________ Ed's card START ________  -->
+      <div class="card">
+        <p class="name">Ed Olivares</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/eudoroolivares2016" target="_blank">@Ed Olivares</a>
+        </p>
+        <p class="about">One step at a time, learning to be a better web developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank"
+                title="Free code camp learn fullstack developement">
+                Freecodecamp
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/watch?v=ZA-tUyM_y7s" target="_blank"
+                title="MIT intro to algorithms classd">
+                MIT 6.006 Introduction to Algorithms, Spring 2020
+              </a>
+            </li>
+            <li>
+              <a href="https://www.codewars.com/" target="_blank"
+                title="Coding challanges and puzzles at progressively harder levels">
+                codewars
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Ed's card END ________  -->
+
+      <!-- ________ Mohand Alloun Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Mohand Alloun</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/Mohand3d" target="_blank">Mohand3d</a>
+        </p>
+        <p class="about">
+          25 | Aspiring web developer | #100DaysOfCode | Learning in public | Tweets about my journey of learning web
+          development
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">Freecodecamp</a>
+            </li>
+            <li>
+              <a href="https://web.dev/" target="_blank" title="Second Resource">Web.dev</a>
+            </li>
+            <li>
+              <a href="https://learn-anything.xyz/" target="_blank" title="Third resource">Learn Anything</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Mohand Alloun Contributor card END ________  -->
+
+      <!-- ________ *Sm20* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Sm20</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="www.github.com/youknowme2" target="_blank">@YouKnowMe2</a>
+        </p>
+        <p class="about">I am Web Programmer!</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.heroku.com/" target="_blank" title="First Resource">Heroku</a>
+            </li>
+            <li>
+              <a href="https://hackernoon.com/" target="_blank" title="Second Resource">Hackernoon</a>
+            </li>
+            <li>
+              <a href="https://ray.so/" target="_blank" title="Third resource">Creating Code To Image</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*Sm20* Contributor card END ________  -->
+
+      <!-- ________ GeneralMine Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Marvin Raiser</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/GeneralMine" target="_blank">@GeneralMine</a>
+        </p>
+        <p class="about">
+          Developer of an Integrative ecosystem for remote diagnosis, observation and control in combination with
+          cloud computing for autonomous dronesystems in the air or on ground. Starting with ROS2 nodes on the drones
+          to microservice architecture for backend servers to frontend web development.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://youtu.be/JnEH9tYLxLk" target="_blank"
+                title="Build a Full Stack Twitter Clone with Coding Garde">
+                Build a Full Stack Twitter Clone with Coding Garden
+              </a>
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org" target="_blank" title="Resources for Developers, by Developers">
+                Resources for Developers, by Developers
+              </a>
+            </li>
+            <li>
+              <a href="https://kit.svelte.dev/" target="_blank" title="SvelteKit">SvelteKit</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ GeneralMine Contributor card END ________  -->
+
+      <!-- ________ Aircorridor card START ________  -->
+      <div class="card">
+        <p class="name">Aircorridor</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/aircorridor" target="_blank">Aircorridor</a>
+        </p>
+        <p class="about">
+          Relax like no one's watching. Encrypt like everyone is. A tech enthusiast who learns how to live a modern
+          lifestyle with privacy in mind. Privacy is Freedom!
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://draculatheme.com/" target="_blank" title="Dracula theme">Dracula Theme</a>
+            </li>
+            <li>
+              <a href="https://github.com" target="_blank" title="Github">GitHub - A Heart of Open Source</a>
+            </li>
+            <li>
+              <a href="https://codepen.io" target="_blank" title="Codepen">Codepen</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Aircorridor card END ________  -->
+
+      <!-- ________ *Isaac Hernandez* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Isaac D. Hernandez</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/axiom-of-choice" target="_blank">@axiom_of-choice</a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/Zorns_Lemma" target="_blank">@Zorns_Lemma</a>
+        </p>
+        <p class="about">Graduated Mathematician and Data Scientist :)</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="Free Code Camp">freeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/" target="_blank" title="LeetCode">LeetCode</a>
+            </li>
+            <li>
+              <a href="https://roadmap.sh/" target="_blank" title="roadmap.sh">roadmap.sh</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!-- ________ *Kwame Lamar* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Kwame Lamar</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="www.twitter.com" target="_blank">@quametawiah_</a>
+        </p>
+        <p class="about">I am a newbie in tech!</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.com" target="_blank" title="First Resource">Freecodecamp</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com" target="_blank" title="Second Resource">Youtube</a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com" target="_blank" title="Third resource">w3schools</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*Kwame Lamar* Contributor card END ________  -->
+
+      <!-- ________ codesxas card START ________  -->
+      <div class="card">
+        <p class="name">Codesxas</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/codesxas" target="_blank">codesxas</a>
+        </p>
+        <p class="about">Your friendly neighbourhood developer.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://github.com/cfenollosa/os-tutorial" target="_blank" title="First Resource">
+                OS Tutorial
+              </a>
+            </li>
+            <li>
+              <a href="https://codekoalas.com/blog/build-your-own-minimal-terminal" target="_blank"
+                title="Second Resource">
+                Build your own minimal terminal
+              </a>
+            </li>
+            <li>
+              <a href="https://wesbos.com/javascript/01-the-basics/welcome" target="_blank" title="Third resource">
+                Javascript Notes (Tutorial)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________codesxas card END ________  -->
+
+      <!-- ________ Justin Brown card START ________  -->
+      <div class="card">
+        <p class="name">Justin Brown</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/JustinBrown17" target="_blank">JustinBrown17</a>
+        </p>
+        <p class="about">I'm learning how to code and use developer tools to get a job as a self-taught developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://cs50.harvard.edu/x/2022/" target="_blank" title="First Resource">CS50x</a>
+            </li>
+            <li>
+              <a href="https://github.com/ForrestKnight/open-source-cs" target="_blank" title="Second Resource">
+                Open Source CS - ForrestKnight
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/learn" target="_blank" title="Third resource">freeCodeCamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Justin Brown card END ________  -->
+
+      <!-- ________ Akintunde Owojori ________  -->
+      <div class="card">
+        <p class="name">Akintunde Owojori</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="www.twitter.com/oneboyfromife" target="_blank">@oneboyfromife</a>
+        </p>
+        <p class="about">about you</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank" title="First Resource">FreeCodeCamp</a>
+            </li>
+            <li>
+              <a href="https://devcareer.io/" target="_blank" title="Second Resource">Dev Career</a>
+            </li>
+            <li>
+              <a href="buildfire.com/become-mobile-app-developer/" target="_blank" title="Third resource">
+                Build Fire
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*END TEMPLATE* Contributor card END ________  -->
+
+      <!--__________Harshil Savaj__________-->
+      <div class="card">
+        <p class="name">Harshil Savaj</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/22044" target="_blank">Harshil Savaj</a>
+        </p>
+        <p class="about">University Student can Devlop ASP.NET webapps and Knows Data Analysis</p>
+        <div class="resources">
+          <p>3 Useful repository</p>
+          <ul>
+            <li>
+              <a href="https://github.com/22044/Car_Price_Pridiction_Model" target="_blank"
+                title="Car Price Prediction Model">
+                Car Price Prediction Model
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/22044/Data_Analytics" target="_blank" title="Data Analysis">
+                Data Analysis
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/22044/Medical_Appointment_System" target="_blank" title="ASP.NET">
+                ASP.NET
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Harshil Savaj card END ________  -->
+
+      <!--__________Conor's Card __________-->
+      <div class="card">
+        <p class="name">Conor</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/conorkenn" target="_blank">conorkenn</a>
+        </p>
+        <p class="about">I like anime, code, and motorsports</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.rust-lang.org/" target="_blank" title="rust-lang">Rust-lang</a>
+            </li>
+            <li>
+              <a href="https://leetcode.com/" target="_blank" title="leetcode">LeetCode</a>
+            </li>
+            <li>
+              <a href="https://www.reddit.com/r/cscareerquestions/" target="_blank" title="r/cscareerquestions">
+                r/cscareerquestions
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Conor's Card END ________  -->
+
+      <!--__________Teresa's Card __________-->
+      <div class="card">
+        <p class="name">Teresa</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="www.twitter.com/ateresinha" target="_blank">@ateresinha</a>
+        </p>
+        <p class="about">Hi I am Teresa, I am learning how to use GitHub.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/" target="_blank" title="W3schools">W3schools</a>
+            </li>
+            <li>
+              <a href="https://www.codecademy.com/" target="_blank" title="Code Academy">Code Academy</a>
+            </li>
+            <li>
+              <a href="https://css-tricks.com/" target="_blank" title="CSS tips & tricks">CSS Tips & Tricks</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Teresa's Card END ________  -->
+
+      <!-- ________ *JK Lagrosa* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">JK Lagrosa</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/jklagrosa" target="_blank">@jklagrosa</a>
+        </p>
+        <p class="about">
+          I designed and developed websites and web applications with a focus on usability, accessibility, and
+          performance.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://codingphase.com/" target="_blank" title="First Resource">CodingPhase.com</a>
+            </li>
+            <li>
+              <a href="https://www.coderfoundry.com/" target="_blank" title="Second Resource">CoderFoundry</a>
+            </li>
+            <li>
+              <a href="https://www.udemy.com/" target="_blank" title="Third resource">Udemy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*JK Lagrosa* Contributor card END ________  -->
+
+      <!-- ________ Zijian1799 ________  -->
+      <div class="card">
+        <p class="name">Zijian1799</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/jianzl" target="_blank">Jianzl</a>
+        </p>
+        <p class="about">I am currently a software engineering student in University Tunku Abdul Rahman, Malaysia.</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.ted.com/talks/linus_torvalds_the_mind_behind_linux?language=en" target="_blank"
+                title="This is a TED talk about The mind behind Linux">
+                The mind behind Linux
+              </a>
+            </li>
+            <li>
+              <a href="https://youtu.be/0TwoubGSXpc" target="_blank"
+                title="A talk about fundamentals of Software Development">
+                The Fundamentals Of Software Development
+              </a>
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/html/default.asp" target="_blank"
+                title="A website of Basic HTML knowledge">
+                W3School HTML
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________Zijian1799's Contributor card END ________  -->
+
+      <!-- ________ Saksham Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Saksham Attri</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/sakshamattri6" target="_blank">@SakshamAttri6</a>
+        </p>
+        <p class="about">Self-taught Developer</p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.theodinproject.com/" target="_blank" title="The Odin Project">
+                The Odin Project(great for noobs like me)
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/P1xt/p1xt-guides" target="_blank" title="P1xt Guide">
+                A guide for all you need.
+              </a>
+            </li>
+            <li>
+              <a href="appacademy.io" target="_blank" title="App Academy open">A free full stack Bootcamp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Saksham Contributor card END ________  -->
+
+      <!-- ________ *Hira Saha* Contributor card START ________  -->
+      <div class="card">
+        <p class="name">Shawon Krishna Saha</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/hira-saha" target="_blank">@Shawon Krishna Saha</a>
+          <i class="fab fa-twitter"></i>
+          <a href="https://www.twitter.com/hs_arch3type" target="_blank">@hs_arch3type</a>
+        </p>
+        <p class="about">
+          I'm a self-taught Web Developer (trying to be), I love to learn different coding languages to design
+          beautiful and functional websites. I am a Student of Institute of Cost and Management Accountants of
+          Bangladesh (ICMAB). Then moved to coding platform to fullfill my long lasting dream.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.roadmap.sh" target="_blank"
+                title="This web works as a map for both the newcomers and old ones to get a direction">
+                roadmap.sh
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank" title="a community of devs">GitHub</a>
+            </li>
+            <li>
+              <a href="https://learnhowtocode.info/" target="_blank"
+                title="A website to let all aware of coding platforms">
+                Learnhowtocode.Info
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________*Hira Saha* Contributor card END ________  -->
+
+      <!-- ________ *TenTraicion* Contributor card START ________  -->
+
+      <div class="card">
+        <p class="name">TenTraicion</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/TenTraicion" target="_blank">@TenTraicion</a>
+          <i class="fab fa-twitter"></i>
+          <a href="www.twitter.com/TenTraicion" target="_blank">@TenTraicion</a>
+          <i class="fab fa-discord"></i>
+          <a href="https://discord.com/invite/2WMJjcpzPA" target="_blank">TenTraicion#6565</a>
+        </p>
+        <p class="about">
+          I'm a student and new to this programming world. Recently set my goal to become a Full Stack Web Developer.
+          I am eager to join any community which is friendly enough to accept me as one of them.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://www.theodinproject.com/" target="_blank"
+                title="This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.">
+                The Odin Project
+              </a>
+            </li>
+            <li>
+              <a href="https://www.freecodecamp.org/" target="_blank"
+                title="a nonprofit community that helps you learn to code by building projects.">
+                Free Code Camp
+              </a>
+            </li>
+            <li>
+              <a href="https://codepen.io/" target="_blank" title="CodePen is a social development environment">
+                CodePen
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ________*TenTraicion* Contributor card END ________  -->
+
+      <!-- ________324Hz's START________  -->
+      <div class="card">
+        <p class="name">324Hz</p>
+        <p class="contact">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/win21H2" target="_blank">324Hz</a>
+          <a href="https://project-silent-willow.netlify.app" target="_blank">win21H2</a>
+        </p>
+        <p class="about">
+          Hello all! I am 324Hz and I am a (quite advanced) front/backend developer for
+          <a href="https://324hz.dev">my website</a>
+          and I am currently working on
+          <a href="https://github.com/win21H2/Image-Recognition-win21H2">this repository</a>
+          which uses image recognition to control an Arduino which controls Project Silent Willow (a preoject I am
+          making).
+        </p>
+        <div class="resources">
+          <p>My most used code/editors</p>
+          <ul>
+            <li>
+              <a href="https://code.visualstudio.com/download" target="_blank" title="First Resource">VSCode</a>
+            </li>
+            <li>
+              <a href="https://visualstudio.microsoft.com/downloads/" target="_blank" title="Second Resource">
+                MicrosoftVS
+              </a>
+            </li>
+            <li>
+              <a href="https://www.arduino.cc/en/software" target="_blank" title="Third resource">Arduino IDE/CLI</a>
+            </li>
+          </ul>
+          <p>Also the tag format in the contrib. file... i-... no words :)</p>
+        </div>
+      </div>
+      <!--________324Hz's card END________-->
+
+      <!-- ________ Syk's card START ________  -->
+      <div class="card">
+        <p class="name">Syk Houdeib</p>
+        <p class="contact">
+          <i class="fab fa-twitter"></i>
+          <a href="https://twitter.com/Syknapse" target="_blank">@Syknapse</a>
+        </p>
+        <p class="about">
+          I love staring at maps, dosing off to David Attenborough's documentaries, listening to 4'33'', and learning
+          more web development everyday. I hate cows and straight lines.
+        </p>
+        <div class="resources">
+          <p>3 Useful Dev Resources</p>
+          <ul>
+            <li>
+              <a href="https://medium.freecodecamp.org/" target="_blank" title="Excellent articles every day">
+                FreeCodeCamp Medium Publication
+              </a>
+            </li>
+            <li>
+              <a href="https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid"
+                target="_blank" title="Smashing Magazine's awesome collection of CSS grid resources to get you started">
+                Getting Started With CSS Grid
+              </a>
+            </li>
+            <li>
+              <a href="http://100daysofcode.com/" target="_blank"
+                title="A great challenge and community to keep you coding and motivated every day">
+                #100DaysOfCode
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- ________ Syk's card END ________  -->
+
+
+      <!-- <<<<< Do not change anything below this line >>>>> -->
+      <!-- -------------------------------------------------- -->
     </div>
-    <script type="text/javascript" src="assets/script.js"></script>
-  </body>
+    <hr />
+
+    <footer>
+      Project by
+      <a href="https://twitter.com/Syknapse" target="_blank">Syk Houdeib</a>
+      2017-
+      <span id="currentYear"></span>
+    </footer>
+  </div>
+  <script type="text/javascript" src="assets/script.js"></script>
+</body>
+
 </html>
