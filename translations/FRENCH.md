@@ -1,31 +1,44 @@
-# [Apporter votre contribution à ce projet](https://syknapse.github.io/Contribute-To-This-Project/)
+<p align="center" width="100%">
+<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300">
+
+# <p align="center">[Apporter votre contribution à ce projet](https://syknapse.github.io/Contribute-To-This-Project/)</p>
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-> **Annonce:** Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
+</p>
 
-## Introduction
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
 
-Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.
+![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
+![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
-Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
+> ### **Annonce:** 
+> Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
 
-### Objectifs
+
+<h4 align="center">Introduction</h4>
+<p align="center">Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.</p>
+
+<h5 align="center">Objectives</h5>
 
 - Apporter une contribution à un projet open source.
 - Devenir plus à l'aise dans l'utilisation GitHub.
 
-### À qui est-ce destiné?
+
+Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
+
+<h5 align="center">À qui est-ce destiné?</h5>
 
 - Ceci est pour les débutants absolus. Si vous savez comment écrire et modifier une balise d'ancrage`<a href="" target=""></a>` alors vous devriez pouvoir le faire.
 - C'est pour ceux qui ont un peu plus d'expérience mais qui veulent faire leur première contribution open source, ou obtenir plus de contributions pour plus d'expérience et de confiance.
 
-### Pourquoi dois-je faire ça?
+<h5 align="center">Pourquoi dois-je faire ça?</h5>
 
 Tout développeur Web, en herbe ou expérimenté, doit utiliser le contrôle de version Git, et GitHub est le service d'hébergement Git le plus populaire utilisé dans le monde. C'est aussi le cœur de la communauté Open Source. Se familiariser avec GitHub est une compétence essentielle. Contribuer à un projet renforce votre confiance et vous donne quelque chose à afficher sur votre profil GitHub.<br>
 Si vous êtes un nouveau développeur et que vous vous demandez si vous avez besoin d'apprendre Git et GitHub, voici la réponse: [Vous auriez dû apprendre Git hier](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'Nouveau développeur? Vous devriez avoir appris Git hier. par Brandon Morelli, créateur de CodeBurst.io ').
 
-## Que vais-je apporter?
+<h4 align="center">Que vais-je apporter?</h4>
 
 ![Carte de contributeur](/readme-only/card.PNG 'Contributor Card')
 
@@ -33,15 +46,18 @@ Vous allez contribuer une carte comme celle-ci à la [page web du projet](https:
 
 Vous allez faire une copie du modèle de carte dans le fichier HTML et le personnaliser avec vos propres informations.
 
-## Index d'accès rapide
+<h4 align="center">Les traductions</h4>
+
+Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Arabe](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [Français](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Allemagne](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Coréen](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polonais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turc](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) actuellement. 
+Des traductions pour ce README ou le fichier README des responsables sont les bienvenues!).
+
+<h4 align="center">Index d'accès rapide</h4>
 
 | <ul><li>[Introduction](#introduction)</li><li>[Que vais-je apporter?](#what-am-i-going-to-contribute)</li><li>[Installer](#setup)</li><li>[Contribuer &rightarrow;](#contribute)</li><li>[Prochaines étapes](#next-steps)</li><li>[Remerciements](#acknowledgements)</li></ul> | Pour contribuer: <ul><li>[Étape 1: Forker ce référentiel](#step-1-fork-this-repository)</li><li>[Étape 2: Cloner le référentiel](#step-2-clone-the-repository)</li><li>[Étape 3: Créer une nouvelle branche](#step-3-create-a-new-branch)</li><li>[Étape 4: Ouvrer le fichier index.html](#step-4-open-the-indexhtml-file)</li><li>[Étape 5: Copier le modèle de carte](#step-5-copy-the-card-template)</li><li>[Étape 6: Appliquer vos modifications](#step-6-apply-your-changes)</li><li>[Étape 7: Valider vos modifications](#step-7-commit-your-changes)</li><li>[Étape 8: Transférer vos modifications sur GitHub](#step-8-push-your-changes-to-github)</li><li>[Étape 9: Soumetter un PR](#step-9-submit-a-pr)</li><li>[Étape 10: Célébrer!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-
-## Installer
-
-First let's get setup to do the work
+<h4 align="center">Mise en place!</h4>
+D'abord mettons nous en place pour effectuer le travail
 
 1. Connectez-vous à votre compte GitHub. Si vous n'avez pas encore de compte, [rejoindre GitHub](https://github.com/join). Je vous recommande de faire le [Tutoriel GitHub Hello World](https://guides.github.com/activities/hello-world/) avant de continuer.
 1. Télécharger [GitHub Desktop app](https://desktop.github.com/).
