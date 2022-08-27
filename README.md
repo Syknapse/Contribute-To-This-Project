@@ -19,7 +19,7 @@
 <h4 align="center">Introduction</h4>
 <h6 align="center">This is a tutorial to help first-time contributors to participate in a simple and easy project.</h6>
 
-<h5 align="center">Objectives</h5>
+#### Objectives
 
 - Make a contribution to an open source project.
 - Get more comfortable in using GitHub.
