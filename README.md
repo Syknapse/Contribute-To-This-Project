@@ -62,10 +62,9 @@ First let's get setup to do the work
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
-Now that you are all setup let's get on with the business of contributing to the project.
-
+Now that you are all setup let's get on with the business of contributing to the project.<br><br>
 ---
-
+[↑ Go to top ↑](#quick-access-index)
 ---
 
 <h4 align="center">Contribute</h4>
@@ -85,7 +84,7 @@ _Estimated time: Less than 30 minutes_.
 
 
 - You now have a complete copy of the project in your own account.
-
+[↑ Go to top ↑](#quick-access-index)
 ---
 
 <h5 align="center">Step 2: Clone the repository</h5>
