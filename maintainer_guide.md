@@ -2,6 +2,8 @@
 
 This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
+This guide is also available in [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_german.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_italian.md), and [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_portuguese.md) (more translations are very welcome)
+
 ## Objectives
 
 Our main objective is to give our contributors the quickest feedback possible from the point they make their pull request. This primarily means giving code reviews, and merging accepted PRs.  
