@@ -9,7 +9,7 @@
 Die ist ein Tutorial für first-time Contributors, um an einem einfachen und leichtem Projekt teil zu nehmen. 
 
 Dieses Tutorial gibt es zur Zeit außerdem in 
-[folgenden Sprachen](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanish](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Übersetzungen sind herzlich willkommen).
+[folgenden Sprachen](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Portugiesisch](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Spanisch](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md) und [Italienisch](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Übersetzungen sind herzlich willkommen).
 
 ### Ziele
 - Beteiligung an einem Open-Source Projekt.
@@ -19,15 +19,15 @@ Dieses Tutorial gibt es zur Zeit außerdem in
 - Es ist für absolute Beginner geeigent. Wenn du weißt wie man einen anchor tag schreibt und editiert `<a href="" target=""></a>`, solltest du in der Lage sein, die Aufgabe zu meistern.
 - Auch geeigent für diejenigen mit mehr Erfahrungen, die jedoch ihre erste open-source Contribution angehen oder noch mehr Contributionen für mehr Erfahrung und Routine machen wollen. 
 
-### Warum mache ich das?
-Jeder Webentwickler, egal ob Beginner oder erfahren sollte die Git Versionsverwaltung nutzen. GitHub ist einer der populärsten und meistgenutzten Hosting Services. Außerdem ist es das Herz der Open Source Community. Sicher im Umgang mit GitHub zu sein ist ein notwendiger Skill. Eine Beteiligung an einem Projekt beschleunigt deine Erfahrung und die Sicherheit im Umgang mit GitHub und ist auf deinem Profil als Referenz sichtbar.<br>
+### Warum sollte ich mitmachen?
+Jeder Webentwickler, egal ob Anfänger oder erfahrener Entwickler sollte die Git Versionsverwaltung nutzen. GitHub ist einer der populärsten und meistgenutzten Hosting Services. Außerdem ist es das Herz der Open Source Community. Sicher im Umgang mit GitHub zu sein ist ein notwendiger Skill. Eine Beteiligung an einem Projekt stärkt dein Vertrauen in deine Fähigkeiten, gibt dir Sicherheit im Umgang mit GitHub und ist auf deinem Profil als Referenz sichtbar.<br>
 Wenn du mit der Entwicklung grade beginnst und dich fragst ob du Git und GitHub brauchst, dann ist hier die Antwort: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ## Was werde ich beisteuern?
 
 ![Contributor Card](readme-only/card.PNG 'Contributor Card')
 
-Du wirst eine Card, so wie diese, beisteuern: [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project')
+Du wirst eine Card, so wie diese, beisteuern zur [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project').
 Sie wird deinen Namen, deinen Twitter-Link, eine kurze Beschreibung und drei von dir empfohlene Links zu nützlichen Seiten für Entwickler beinhalten.
 
 Du wirst eine Kopie der Card-Vorlage, die sich innerhalb der HTML Datei befindet, erstellen und es mit deinen eigenen Angaben anpassen.
@@ -61,31 +61,31 @@ _Geschätzte Zeit: weniger als 30 Minuten_.
 
 ### Schritt 1: Fork dieses Repository
 
-- Das Ziel hier ist, eine Kopie dieses Projekts zu erstellen und in Ihrem Konto zu platzieren.
+- Das Ziel hier ist, eine Kopie dieses Projekts zu erstellen und in deinem Konto zu platzieren.
 - Als Repository (Repo) bezeichnet man ein Projekt auf GitHub und ein Fork ist eine Kopie davon.
-- Stellen Sie sicher, dass Sie sich auf der [Hauptseite](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') dieses Repos befinden.
+- Stellen sicher, dass du dich auf der [Hauptseite](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') dieses Repos befinden.
 
-| <ul><li>Klicken Sie auf die Schaltfläche _Fork_</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Klicke auf die Schaltfläche _Fork_</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
 | :------------------------------------------- | ----------------------------------------------: |
 
-- Sie haben jetzt eine vollständige Kopie des Projekts in Ihrem eigenen Konto.
+- Du hast jetzt eine vollständige Kopie des Projekts in deinem eigenen Konto.
 
 ---
 
-### Schritt 2: Klonen Sie das Repository
+### Schritt 2: Klone das Repository
 
-- Jetzt wollen wir eine lokale Kopie des Projekts erstellen. Das ist eine Kopie, die auf Ihrem eigenen Computer gespeichert ist.
-- Öffnen Sie die GitHub-Desktop-App. In der App:
+- Jetzt wollen wir eine lokale Kopie des Projekts erstellen. Das ist eine Kopie, die auf deinem eigenen Computer gespeichert ist.
+- Öffne die GitHub-Desktop-App. In der App:
 
-| <ul><li>Klicken Sie auf _Datei_ und dann auf _Repository klonen_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
+| <ul><li>Klicke auf _Datei_ und dann auf _Repository klonen_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Sie sehen eine Liste Ihrer Projekte und Forks auf GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Klicken Sie auf _Klonen_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>Du siehst eine Liste deiner Projekte und Forks auf GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Klicke auf _Klonen_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Ein Fork-Projekt hat das Fork-Symbol auf der linken Seite.</li><li>Ihr Fork wird Ihren eigenen GitHub-Benutzernamen haben.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>Ein Fork-Projekt hat das Fork-Symbol auf der linken Seite.</li><li>Dein Fork wird deinen eigenen GitHub-Benutzernamen haben.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
 
-- Dies dauert einen Moment, da das Projekt auf Ihre Festplatte kopiert wird. Ich empfehle, dass Sie den Standardpfad beibehalten, der normalerweise der Fall ist `..\Documents\GitHub`.
-- Jetzt haben Sie eine lokale Kopie des Projekts.
+- Dies dauert einen Moment, da das Projekt auf deine Festplatte kopiert wird. Ich empfehle, dass du den Standardpfad beibehälst, der normalerweise der Fall ist `..\Documents\GitHub`.
+- Jetzt hast du eine lokale Kopie des Projekts.
 
 ---
