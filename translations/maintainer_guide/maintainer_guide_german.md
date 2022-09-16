@@ -1,4 +1,3 @@
-
 # Leitfaden für Maintainer
 
 Dieser Leitfaden richtet sich an diejenigen, die dem Projekt als Betreuer beitreten möchten, um bei der Verwaltung und Pflege des Projekts für die Gemeinschaft zu helfen. (Dies ist kein Leitfaden für erstmalige Mitwirkende)

@@ -15,7 +15,7 @@ Você pode decidir dedicar muito ou pouco tempo a com isso. Entre nós podemos e
 
 ## Metodologia
 
-- Vá para a seção de pull request do projeto, e começe com o pull request mais antigo que não está em estado de 'mudanças requisitadas'. 
+- Vá para a seção de pull request do projeto, e começe com o pull request mais antigo que não está em estado de 'mudanças requisitadas'.
 - Abra uma PR e vá para a aba de arquivos alterados e faça uma revisão do código.
 - Verifique a PR, e se certifique de que ela segue as especificações do tutorial.
 - Garanta que o HTML, os links, e os dados estão corretos. Também garanta que o cartão está posicionado no inicio do arquivo, onde ele deve estar.

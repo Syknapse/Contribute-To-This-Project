@@ -7,15 +7,15 @@
 
 </p>
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 
 ![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
 ![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
 ![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
-> ### **Annonce:** 
+> ### **Annonce:**
+>
 > Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
-
 
 <h4 align="center">Introduction</h4>
 <p align="center">Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.</p>
@@ -24,7 +24,6 @@
 
 - Apporter une contribution à un projet open source.
 - Devenir plus à l'aise dans l'utilisation GitHub.
-
 
 Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
 
@@ -48,13 +47,14 @@ Vous allez faire une copie du modèle de carte dans le fichier HTML et le person
 
 <h4 align="center">Les traductions</h4>
 
-Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Arabe](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [Français](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Allemagne](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Coréen](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polonais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turc](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) actuellement. 
+Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Arabe](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [Français](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Allemagne](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Coréen](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polonais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turc](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) actuellement.
 Des traductions pour ce README ou le fichier README des responsables sont les bienvenues!).
 
 <h4 align="center">Index d'accès rapide</h4>
 
 | <ul><li>[Introduction](#introduction)</li><li>[Que vais-je apporter?](#what-am-i-going-to-contribute)</li><li>[Installer](#setup)</li><li>[Contribuer &rightarrow;](#contribute)</li><li>[Prochaines étapes](#next-steps)</li><li>[Remerciements](#acknowledgements)</li></ul> | Pour contribuer: <ul><li>[Étape 1: Forker ce référentiel](#step-1-fork-this-repository)</li><li>[Étape 2: Cloner le référentiel](#step-2-clone-the-repository)</li><li>[Étape 3: Créer une nouvelle branche](#step-3-create-a-new-branch)</li><li>[Étape 4: Ouvrer le fichier index.html](#step-4-open-the-indexhtml-file)</li><li>[Étape 5: Copier le modèle de carte](#step-5-copy-the-card-template)</li><li>[Étape 6: Appliquer vos modifications](#step-6-apply-your-changes)</li><li>[Étape 7: Valider vos modifications](#step-7-commit-your-changes)</li><li>[Étape 8: Transférer vos modifications sur GitHub](#step-8-push-your-changes-to-github)</li><li>[Étape 9: Soumetter un PR](#step-9-submit-a-pr)</li><li>[Étape 10: Célébrer!](#step-10-celebrate)</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
 
 <h4 align="center">Mise en place!</h4>
 D'abord mettons nous en place pour effectuer le travail
