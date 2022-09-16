@@ -47,27 +47,9 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-<table>
-  <tr>
-    <th colspan="6">Translations</th>
-  </tr>
-  <tr>
-    <td><a href="translations/README/ARABIC.md">Arabic</a></td>
-    <td><a href="translations/README/BANGLA.md">Bangla</a></td>
-    <td><a href="#contribute-to-this-project">English</a></td>
-    <td><a href="translations/README/FRENCH.md">French</a></td>
-    <td><a href="translations/README/German.md">German</a></td>
-    <td><a href="translations/README/ITALIAN.md">Italian</a></td>
-  </tr>
-  <tr>
-    <td><a href="translations/README/KOREAN.md">Korean</a></td>
-    <td><a href="translations/README/POLISH.md">Polish</a></td>
-    <td><a href="translations/README/PORTUGUESE.md">Portuguese</a></td>
-    <td><a href="translations/README/SERBIAN.md">Serbian</a></td>
-    <td><a href="translations/README/SPANISH.md">Spanish</a></td>
-    <td><a href="translations/README/TURKISH.md">Turkish</a></td>
-  </tr>
-</table>
+|-------|-------|-------|-------|-------|-------|
+| [Arabic](translations/README/ARABIC.md) | [French](translations/README/FRENCH.md) | [German](translations/README/German.md) | [Italian](translations/README/ITALIAN.md) | [Korean](translations/README/KOREAN.md) | [Polish](translations/README/POLISH.md) |
+| [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bengali](translations/README/BANGLA.md) |
 
 > Translations for either this README or the maintainer README file are very welcome!.
 

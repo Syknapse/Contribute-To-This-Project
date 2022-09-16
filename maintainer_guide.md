@@ -4,18 +4,8 @@ This guide is for those who would like to join the project as maintainers, to he
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-<table align="center">
-  <tr>
-    <th colspan="5">Translations</th>
-  </tr>
-  <tr>
-    <td><a href="translations/maintainer_guide/maintainer_guide_bangla.md">Bangla</a></td>
-    <td><a href="#maintainers-guide">English</a></td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_german.md">German</a></td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_italian.md">Italian</a></td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_portuguese.md">Portuguese</a></td>
-  </tr>
-</table>
+|-------|-------|-------|-------|
+| [Bangla](translations/maintainer_guide/maintainer_guide_bangla.md) | [German](translations/maintainer_guide/maintainer_guide_german.md) | [Italian](translations/maintainer_guide/maintainer_guide_italian.md) | [Portuguese](translations/maintainer_guide/maintainer_guide_portuguese.md)
 
 > Translations for either this README or the Maintainer README file are very welcome!.
 
