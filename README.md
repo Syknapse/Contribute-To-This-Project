@@ -46,8 +46,28 @@ You will make a copy of the card template inside the HTML file and customise it 
 <h4 align="center">Translations</h4>
 
 This tutorial is also available in [other languages](translations/translation.md)
-| [Arabic](translations/README/ARABIC.md) | [French](translations/README/FRENCH.md) | [German](translations/README/German.md) | [Italian](translations/README/ITALIAN.md) | [Korean](translations/README/KOREAN.md) | [Polish](translations/README/POLISH.md) |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bengali](translations/README/BANGLA.md) |
+
+<table>
+  <tr>
+    <th colspan="6">Translations</th>
+  </tr>
+  <tr>
+    <td>[Arabic](translations/README/ARABIC.md)</td>
+    <td>[Bengali](translations/README/BANGLA.md)</td>
+    <td>English</td>
+    <td>[French](translations/README/FRENCH.md)</td>
+    <td>[German](translations/README/German.md)</td>
+    <td>[Italian](translations/README/ITALIAN.md)</td>
+  </tr>
+  <tr>
+    <td>[Korean](translations/README/KOREAN.md)</td>
+    <td>[Polish](translations/README/POLISH.md)</td>
+    <td>[Portuguese](translations/README/PORTUGUESE.md)</td>
+    <td>[Serbian](translations/README/SERBIAN.md)</td>
+    <td>[Spanish](translations/README/SPANISH.md)</td>
+    <td>[Turkish](translations/README/TURKISH.md)</td>
+  </tr>
+</table>
 
 > Translations for either this README or the maintainer README file are very welcome!.
 
