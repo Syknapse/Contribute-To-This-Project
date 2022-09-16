@@ -52,20 +52,20 @@ This tutorial is also available in [other languages](translations/translation.md
     <th colspan="6">Translations</th>
   </tr>
   <tr>
-    <td>[Arabic](translations/README/ARABIC.md)</td>
-    <td>[Bengali](translations/README/BANGLA.md)</td>
-    <td>English</td>
-    <td>[French](translations/README/FRENCH.md)</td>
-    <td>[German](translations/README/German.md)</td>
-    <td>[Italian](translations/README/ITALIAN.md)</td>
+    <td><a href="translations/README/ARABIC.md">Arabic</a></td>
+    <td><a href="translations/README/BANGLA.md">Bangla</a></td>
+    <td><a href="#">English</a></td>
+    <td><a href="translations/README/FRENCH.md">French</a></td>
+    <td><a href="translations/README/German.md">German</a></td>
+    <td><a href="translations/README/ITALIAN.md">Italian</a></td>
   </tr>
   <tr>
-    <td>[Korean](translations/README/KOREAN.md)</td>
-    <td>[Polish](translations/README/POLISH.md)</td>
-    <td>[Portuguese](translations/README/PORTUGUESE.md)</td>
-    <td>[Serbian](translations/README/SERBIAN.md)</td>
-    <td>[Spanish](translations/README/SPANISH.md)</td>
-    <td>[Turkish](translations/README/TURKISH.md)</td>
+    <td><a href="translations/README/KOREAN.md">Korean</a></td>
+    <td><a href="translations/README/POLISH.md">Polish</a></td>
+    <td><a href="translations/README/PORTUGUESE.md">Portuguese</a></td>
+    <td><a href="translations/README/SERBIAN.md">Serbian</a></td>
+    <td><a href="translations/README/SPANISH.md">Spanish</a></td>
+    <td><a href="translations/README/TURKISH.md">Turkish</a></td>
   </tr>
 </table>
 
