@@ -9,11 +9,11 @@ This tutorial is also available in [other languages](translations/translation.md
     <th colspan="5">Translations</th>
   </tr>
   <tr>
-    <td><a href="translations/maintainer_guide/maintainer_guide_bangla.md"></a>Bangla</td>
-    <td><a href="#maintainers-guide"></a>English</td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_german.md"></a>German</td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_italian.md"></a>Italian</td>
-    <td><a href="translations/maintainer_guide/maintainer_guide_portuguese.md"></a>Portuguese</td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_bangla.md">Bangla</a></td>
+    <td><a href="#maintainers-guide">English</a></td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_german.md">German</a></td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_italian.md">Italian</a></td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_portuguese.md">Portuguese</a></td>
   </tr>
 </table>
 

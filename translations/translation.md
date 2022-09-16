@@ -2,7 +2,7 @@
 
 Here are the translations of README and Maintainers_Guide of Our Project.
 
-<table>
+<table align="center">
   <tr>
     <th colspan="6">README Tutorial</th>
   </tr>
@@ -29,11 +29,11 @@ Here are the translations of README and Maintainers_Guide of Our Project.
     <th colspan="5">Maintainers Guide</th>
   </tr>
   <tr>
-    <td><a href="maintainer_guide/maintainer_guide_bangla.md"></a>Bangla</td>
-    <td><a href="../maintainer_guide.md"></a>English</td>
-    <td><a href="maintainer_guide/maintainer_guide_german.md"></a>German</td>
-    <td><a href="maintainer_guide/maintainer_guide_italian.md"></a>Italian</td>
-    <td><a href="maintainer_guide/maintainer_guide_portuguese.md"></a>Portuguese</td>
+    <td><a href="maintainer_guide/maintainer_guide_bangla.md">Bangla</a></td>
+    <td><a href="../maintainer_guide.md">English</a></td>
+    <td><a href="maintainer_guide/maintainer_guide_german.md">German</a></td>
+    <td><a href="maintainer_guide/maintainer_guide_italian.md">Italian</a></td>
+    <td><a href="maintainer_guide/maintainer_guide_portuguese.md">Portuguese</a></td>
   </tr>
 </table>
 
