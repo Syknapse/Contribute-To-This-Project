@@ -1,7 +1,6 @@
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300">
-
-# REVISED MAIN README TODO
+<kbd><img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300"></kbd>
+<h6 align="center">Logo created by <a href="https://github.com/CandidDeer">@CandidDeer</a></h6>
 
 # <p align="center">[Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)</p>
 
