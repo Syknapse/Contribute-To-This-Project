@@ -2,7 +2,22 @@
 
 This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
-This guide is also available in [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_german.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_italian.md), and [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_portuguese.md) (more translations are very welcome)
+This tutorial is also available in [other languages](translations/translation.md)
+
+<table align="center">
+  <tr>
+    <th colspan="5">Translations</th>
+  </tr>
+  <tr>
+    <td><a href="translations/maintainer_guide/maintainer_guide_bangla.md"></a>Bangla</td>
+    <td><a href="#maintainers-guide"></a>English</td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_german.md"></a>German</td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_italian.md"></a>Italian</td>
+    <td><a href="translations/maintainer_guide/maintainer_guide_portuguese.md"></a>Portuguese</td>
+  </tr>
+</table>
+
+> Translations for either this README or the Maintainer README file are very welcome!.
 
 ## Objectives
 

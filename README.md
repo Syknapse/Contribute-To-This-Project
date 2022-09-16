@@ -54,7 +54,7 @@ This tutorial is also available in [other languages](translations/translation.md
   <tr>
     <td><a href="translations/README/ARABIC.md">Arabic</a></td>
     <td><a href="translations/README/BANGLA.md">Bangla</a></td>
-    <td><a href="#">English</a></td>
+    <td><a href="#contribute-to-this-project">English</a></td>
     <td><a href="translations/README/FRENCH.md">French</a></td>
     <td><a href="translations/README/German.md">German</a></td>
     <td><a href="translations/README/ITALIAN.md">Italian</a></td>
