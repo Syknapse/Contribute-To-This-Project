@@ -7,13 +7,14 @@
 
 </p>
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF "Join our Discord server!")
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 
 ![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
 ![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
 ![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
 > ### **Announcement:**
+>
 > Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
 <h4 align="center">Introduction</h4>
@@ -58,14 +59,13 @@ First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 1. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so (here's [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
+   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/maintainer_guide.md). OR
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop. You can use the CLI or VS Code if you prefer, but you will need to know how to use them. Here is the
 
-Now that you are all setup let's get on with the business of contributing to the project.<br><br>
----
-[↑ Go to top ↑](#quick-access-index)
----
+## Now that you are all setup let's get on with the business of contributing to the project.<br><br>
+
+## [↑ Go to top ↑](#quick-access-index)
 
 <h4 align="center">Contribute</h4>
 
@@ -84,7 +84,8 @@ _Estimated time: Less than 30 minutes_.
 
 
 - You now have a complete copy of the project in your own account.
-[↑ Go to top ↑](#quick-access-index)
+  [↑ Go to top ↑](#quick-access-index)
+
 ---
 
 <h5 align="center">Step 2: Clone the repository</h5>
@@ -163,7 +164,7 @@ _Estimated time: Less than 30 minutes_.
 
 <h5 align="center">Step 6: Apply your changes</h5>
 
-- We'll  now start editing html, changing the customizable fields in our card.
+- We'll now start editing html, changing the customizable fields in our card.
 
 | <ul><li>Replace 'Name' with your name</li><li>Note: Don't change `class="name"`</li></ul> | ![Change name](readme-only/change-name.PNG 'Type your name') |
 | :---------------------------------------------------------------------------------------- | -----------------------------------------------------------: |
@@ -206,7 +207,7 @@ _Estimated time: Less than 30 minutes_.
 | ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                               |
 
 | <ul><li>To _Commit_ you must fill in the _Summary_ field</li><li>This is the commit message explaining what you have changed</li><li>In this case "Add my card information" would be a reasonable message</li><li>Optionally you can add a more detailed _Description_</li><li>Click the _Commit_ button. Your button will say something like `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 ---
@@ -300,7 +301,6 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 ![Merged PR's](https://badgen.net/github/merged-prs/Syknapse/Contribute-To-This-Project)
 
 ![Repo Stat](https://github-readme-stats.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
-
 
 <h4 align="center">Maintainers</h4>
 
