@@ -174,7 +174,7 @@ _Estimated time: Less than 30 minutes_.
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
 
-- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then Follow the same steps above.
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
 | <ul><li>Tell us something about you</li><li>Keep it short and sweet. Think about it more like a tweet than a blog post</li></ul> | ![Change about](readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
