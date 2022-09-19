@@ -65,9 +65,9 @@ First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 1. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](terminal-tutorial.md). OR
+   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](terminal-tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop. You can use the CLI or VS Code if you prefer, but you will need to know how to use them. Here is the
+   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
 ## Now that you are all setup let's get on with the business of contributing to the project.<br><br>
 
