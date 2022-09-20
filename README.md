@@ -1,13 +1,20 @@
-<p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300">
+![image info](/favicon.png)
 
-# <p align="center">[Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)</p>
+# First Contribution
+
+## Introduction
+
+#### [](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)This is a tutorial to help first-time contributors to participate in a simple and easy project.
+
+<br>
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
-</p>
+<br>
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+
+<br>
 
 ![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
 ![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
@@ -17,23 +24,32 @@
 >
 > Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
-<h4 align="center">Introduction</h4>
-<h6 align="center">This is a tutorial to help first-time contributors to participate in a simple and easy project.</h6>
+## Introduction
 
-<h5 align="center">Objectives</h5>
+#### [](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)This is a tutorial to help first-time contributors to participate in a simple and easy project.
+
+# Objectives
 
 - Make a contribution to an open source project.
 - Get more comfortable in using GitHub.
 
-<h5 align="center">Who is this for?</h5>
+# Who is this for?
 
 - This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
 - It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
 
-<h5 align="center">Why do I need to do this?</h5>
+# Why do I need to do this
 
 Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
 If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+
+# What am I going to contribute?
+
+![Contributor Card](readme-only/card.PNG 'Contributor Card')
+
+You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+
+You will make a copy of the card template inside the HTML file and customise it with your own information.
 
 <h4 align="center">What am I going to contribute?</h4>
 
