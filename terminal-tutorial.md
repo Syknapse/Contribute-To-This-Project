@@ -4,7 +4,7 @@
 
 ## Introduction
 
-#### [](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)This is a tutorial to help first-time contributors to participate in a simple and easy project.
+#### [This is a tutorial to help first-time contributors to participate in a simple and easy project.](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)
 
 # Objectives
 
@@ -44,16 +44,34 @@ We are looking for translations of this tutorial in other languages. If you woul
 
 # Contribution Steps
 
-- [**Step 1: Fork this repository**](#step-1-fork-this-repository)
-- [**Step 2: Clone the repository**](#step-2-clone-the-repository)
-- [**Step 3: Create a new branch**](#step-3-create-a-new-branch)
-- [**Step 4: Open the index.html file**](#step-4-open-the-indexhtml-file)
-- [**Step 5: Copy the card template**](#step-5-copy-the-card-template)
-- [**Step 6: Apply your changes**](#step-6-apply-your-changes)
-- [**Step 7: Commit your changes**](#step-7-commit-your-changes)
-- [**Step 8: Push your changes to github**](#step-8-push-your-changes-to-github)
-- [**Step 9: Submit a PR**](#step-9-submit-a-prpull-request)
-- [**Step 10: Celebrate**](#step-10-celebrate)
+- [First Contribution](#first-contribution)
+  - [Introduction](#introduction)
+    - [This is a tutorial to help first-time contributors to participate in a simple and easy project.](#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)
+- [Objectives](#objectives)
+- [Who is this for?](#who-is-this-for)
+- [Why do I need to do this](#why-do-i-need-to-do-this)
+- [What am I going to contribute?](#what-am-i-going-to-contribute)
+- [Translations](#translations)
+- [Quick Access Index](#quick-access-index)
+- [Contribution Steps](#contribution-steps)
+- [Setup!](#setup)
+- [Step 1 Fork This Repository](#step-1-fork-this-repository)
+- [Step 2 Clone the repository](#step-2-clone-the-repository)
+- [Step 3 Create a new branch](#step-3-create-a-new-branch)
+- [Step 4 Open the index.html file](#step-4-open-the-indexhtml-file)
+- [Step 5 Copy the card template](#step-5-copy-the-card-template)
+- [Step 6 Apply your changes](#step-6-apply-your-changes)
+  - [We'll now start editing html, changing the customizable fields in our card.](#well-now-start-editing-html-changing-the-customizable-fields-in-our-card)
+  - [Tell us something about you](#tell-us-something-about-you)
+- [Step 7 Commit your changes](#step-7-commit-your-changes)
+- [Step 8 Push your changes to github](#step-8-push-your-changes-to-github)
+- [Step 9 Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
+- [Step 10 Celebrate](#step-10-celebrate)
+- [Next Steps](#next-steps)
+- [Aknowledgements](#aknowledgements)
+- [Project Info](#project-info)
+- [PR Info](#pr-info)
+- [Maintainers](#maintainers)
 
 # Setup!
 

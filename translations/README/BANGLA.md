@@ -1,71 +1,74 @@
-<p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300"></p>
-
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'আমাদের প্রকল্পটি টুইট করুন')
+![image info](../../favicon.png)
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF 'আমাদের সাথে ডিসকর্ডে সংযুক্ত হন!')
+[![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'আমাদের প্রকল্পটি টুইট করুন।')
 
-![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=ফোর্ক&maxAge=2592000)
-![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=স্টার&maxAge=2592000)
-![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=দেখছে&maxAge=2592000)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF)](https://discord.gg/tWkvS4ueVF 'আমাদের ডিসকর্ড সার্ভারে যুক্ত হন।')
 
-> ### **ঘোষণা:**
+![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
+![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
+
+> ## **ঘোষণা:**
 >
-> আপনি কি আমাদের প্রকল্পটি বহাল রাখতে এবং পরিচালনা করতে সহায়তা করতে ইচ্ছুক? তবে পড়ে ফেলুন আমাদের [পরিচালনা নির্দেশাবলি](../maintainer_guide/maintainer_guide_bangla.md) এবং আমাকে [টুইটারে](https://twitter.com/Syknapse) একটি বার্তা প্রেরণ করুন।
+> আপনি কি আমাদের প্রকল্পে যুক্ত হয়ে আমাদের প্রকল্পটি পরিচালনা করতে এবং এটি বহাল রাখতে ইচ্ছুক?, তবে আমাদের [পরিচালনা নির্দেশাবলি](../maintainer_guide/maintainer_guide_bangla.md) পরুন এবং আমাকে [টুইটারে](https://twitter.com/Syknapse) একটি বার্তা প্রেরণ করুন।
 
-<h4 align="center">Introduction</h4>
-<h6 align="center">This is a tutorial to help first-time contributors to participate in a simple and easy project.</h6>
+### সূচনা
 
-<h5 align="center">Objectives</h5>
+এটি গিটহাবে নতুনদের সহজ প্রকল্পে অংশগ্রহণ করতে সহায়তা করার জন্য একটি পথ প্রদর্শক।
 
-- Make a contribution to an open source project.
-- Get more comfortable in using GitHub.
+#### উদ্দেশ্য
 
-<h5 align="center">Who is this for?</h5>
+- একটি ওপেন সোর্স প্রজেক্টে অবদান রাখা।
+- গিটহাব ব্যাবহারকে আরও সহজ করে তোলা।
 
-- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
-- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+##### এটি কার জন্য?
 
-<h5 align="center">Why do I need to do this?</h5>
+- এটি একদম নতুনদের জন্য। আপনি যদি একটি অ্যাঙ্কর ট্যাগ `<a href="" target=""></a>` লিখতে এবং সম্পাদনা করতে জানেন, তবে আপনি এখানে অবদান রাখতে সক্ষম।
+- অভিজ্ঞরাও এখানে অবদান রাখতে পারেন কিন্তু যারা তাদের প্রথম ওপেন সোর্স এ অবদান রাখতে চান এবং নিজের অভিজ্ঞতা ও আত্মবিশ্বাস বারাতে চান এই প্রকল্পটি তাদের জন্যও।
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
-If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+##### আমাকে এটি কেন করতে হবে?
 
-<h4 align="center">What am I going to contribute?</h4>
+যেকোনো ওয়েব ডেভেলপার কে গিট সম্পর্কে দক্ষতা অর্জন করতে হবে, এবং গিটহাব হল সবার দ্বারা ব্যবহৃত সবচেয়ে জনপ্রিয় গিট হোস্টিং পরিষেবা। এটি ওপেন সোর্স প্লাটফর্মের শিকড়। গিটহাব ব্যবেহার করতে জানা একটি অপরিহার্য দক্ষতা। তাছাড়াও গিটহাবে একটি প্রকল্পে অবদান রাখলে তা আত্মবিশ্বাস বাড়াতে সহায়তা করে থাকে।
 
-![Contributor Card](readme-only/card.PNG 'Contributor Card')
+আপনি যদি একজন নতুন ডেভেলপার হন এবং আপনি যদি ভেবে থাকেন যে আপনার গিট এবং গিটহাব শিখতে হবে তবে এখানে উত্তরটি রয়েছেঃ [আপনার গতকাল গিট শেখা উচিত ছিল](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'নতুন ডেভেলপার? আপনার গতকাল গিট শেখা উচিত ছিল। Brandon Morelli, CodeBurst.io-এর প্রতিষ্ঠাতা').
 
-You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+##### আমি এখানে কি করতে যাচ্ছি?
 
-You will make a copy of the card template inside the HTML file and customise it with your own information.
+![অবদানকারী কার্ড](readme-only/card.PNG 'Cঅবদানকারী কার্ড')
 
-## অনুবাদ
+আপনি এই ছবির মত করে [আমাদের প্রকল্পের ওয়েবসাইটে](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project')আপনার সম্পর্কিত একটি কার্ড যোগ করতে চলেছেন। এতে আপনার নাম, আপনার টুইটার প্রোফাইল, একটি সংক্ষিপ্ত বিবরণ এবং আপনি সুপারিশ করা ওয়েব ডেভেলপারদের জন্য দরকারী সংস্থানগুলির ৩টি লিঙ্ক অন্তর্ভুক্ত করবেন।
 
-এই পৃষ্ঠাটি [অন্যোন্য ভাষায়ও](../translation.md) অনুবাদ করা হয়েছে।
+আপনি HTML ফাইলের ভিতরে কার্ড টেমপ্লেটের একটি অনুলিপি তৈরি করবেন এবং আপনার নিজস্ব তথ্য দিয়ে এটি সাজাবেন।
 
-| [আরবি](translations/README/ARABIC.md)         | [ফ্রেঞ্চ](translations/README/FRENCH.md)    | [জার্মান](translations/README/German.md)    | [ইটালিয়ান](translations/README/ITALIAN.md) | [কোরিয়ান](translations/README/KOREAN.md) | [পোলিশ](translations/README/POLISH.md) |
-| --------------------------------------------- | ------------------------------------------- | ------------------------------------------- | ------------------------------------------ | ---------------------------------------- | -------------------------------------- |
-| [পর্তুগিজ](translations/README/PORTUGUESE.md) | [সার্বিয়ান](translations/README/SERBIAN.md) | [স্প্যানিশ](translations/README/SPANISH.md) | [তুর্কি](translations/README/TURKISH.md)   | [ইংরেজি](../../README.md)                | বাংলা                                  |
+##### [আপনি যদি টার্মিনালের সাথে স্বাচ্ছন্দ্যবোধ করেন তবে এই টিউটোরিয়ালটিতে যান](/terminal-tutorial.md)
+
+#### অনুবাদ
+
+এই টিউটোরিয়ালটি [অন্যান্য ভাষায়ও](translations/translation.md) পাওয়া যাবে।
+
+| [আরবি](ARABIC.md)         | [ফরাসি](FRENCH.md)       | [জার্মান](German.md)   | [ইতালিয়ান](ITALIAN.md) | [কোরিয়ান](KOREAN.md)     | [পোলিশ](POLISH.md) |
+| ------------------------- | ------------------------ | ---------------------- | ----------------------- | ------------------------- | ------------------ |
+| [পর্তুগীজ](PORTUGUESE.md) | [সার্বিয়ান](SERBIAN.md) | [স্পেনীয়](SPANISH.md) | [তুর্কি](TURKISH.md)    | [ইংরেজি](../../README.md) | বাংলা              |
 
 > Translations for either this README or the maintainer README file are very welcome!.
 
-<h4 align="center">Quick Access Index</h4>
+#### সুচিপত্র
 
-| <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute)</li><li>[Setup](#setup)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-pr)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ul><li>[সূচনা](#সূচনা)</li><li>[আমি এখানে কি করতে যাচ্ছি?](#আমি-এখানে-কি-করতে-যাচ্ছি)</li><li>[প্রস্তুতি](#প্রস্তুতি)</li><li>[অবদান রাখুন &rightarrow;](#অবদান-রাখুন)</li><li>[পরবর্তি ধাপসমুহ](#পরবর্তি-ধাপসমুহ)</li><li>[স্বীকৃতি](#স্বীকৃতি)</li></ul> | অবদান রাখুন: <ul><li>[ধাপ ১ঃ এই রিপোসিটরিটি আপনার প্রোফাইলে কপি করুন।](#ধাপ-১-এই-রিপোসিটরিটি-আপনার-প্রোফাইলে-কপি-করুন)</li><li>[ধাপ ২ঃ রিপোসিটরিটি ক্লোন করুন।](#ধাপ-২-রিপোসিটরিটি-ক্লোন-করুন)</li><li>[ধাপ ৩ঃ একটি নতুন শাখা তৈরি করুন।](#ধাপ-৩-একটি-নতুন-শাখা-তৈরি-করুন)</li><li>[ধাপ ৪ঃ index.html ফাইলটি খুলুন।](#ধাপ-৪-indexhtml-ফাইলটি-খুলুন)</li><li>[ধাপ ৫ঃ কার্ড এর টেম্পলেটটি কপি করুন।](#ধাপ-৫-কার্ড-এর-টেম্পলেটটি-কপি-করুন)</li><li>[ধাপ ৬ঃ প্রয়োজনীয় পরিবর্তন করুন।](#ধাপ-৬-প্রয়োজনীয়-পরিবর্তন-করুন)</li><li>[ধাপ ৭ঃ আপনার পরিবর্তনগুলি কমিট করুন।](#ধাপ-৭-আপনার-পরিবর্তনগুলি-কমিট-করুন)</li><li>[ধাপ ৮ঃ পরিবর্তনগুলো গিটহাবে পুশ করুন।](#ধাপ-৮-পরিবর্তনগুলো-গিটহাবে-পুশ-করুন)</li><li>[ধাপ ৯ঃ পুল রিকোয়েস্ট সাবমিট করুন।](#ধাপ-৯-পুল-রিকোয়েস্ট-সাবমিট-করুন)</li><li>[ধাপ ১০ঃ আনন্দ উদযাপন করুন।](#ধাপ-১০-আনন্দ-উদযাপন-করুন)</li></ul> |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 
-<h4 align="center">Setup! :)</h4>
+#### প্রস্তুতি! :)
 
-First let's get setup to do the work
+প্রথমে কাজটি করার জন্য প্রস্তুতি নেয়া যাক।
 
-1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so (here's [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
-   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+- আপনার GitHub অ্যাকাউন্টে লগইন করুন। যদি আপনার অ্যাকাউন্ট না থাকে তবে [অ্যাকাউন্ট খুলুন](https://github.com/join). পরবর্তি ধাপে যাওয়ার পুর্বে [GitHub হ্যালো ওয়ার্ল্ড টিউটোরিয়াল](https://guides.github.com/activities/hello-world/) সম্পন্ন করে নিন।
+- [GitHub কম্পিউটার সফটওয়্যারটি](https://desktop.github.com/)নামিয়ে নিন।
+  - বিকল্পভাবে আপনি যদি কমান্ড লাইনে গিট ব্যবহার করতে স্বাচ্ছন্দ্য বোধ করেন তবে আপনি তা করতে পারেন [এখানে CLI টিউটোরিয়ালের লিঙ্ক রয়েছে](../../terminal-tutorial.md)।
+  - আপনি যদি [VS Code](https://code.visualstudio.com/ 'ভিজ্যুয়াল স্টুডিও কোড ওয়েবসাইট') ব্যাবহার করে থাকেন, এটি ইন্টিগ্রেটেড গিটের সাথে আসে এবং আপনাকে সরাসরি সম্পাদক থেকে যা প্রয়োজন তা করতে দেয়।
+  - তবে এই টিউটোরিয়ালটি অনুসরণ করার সবচেয়ে সহজ উপায় হল GitHub ডেস্কটপ ব্যবহার করা।
 
 ## Now that you are all setup let's get on with the business of contributing to the project.<br><br>
 
@@ -178,7 +181,7 @@ _Estimated time: Less than 30 minutes_.
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
 
-- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then Follow the same steps above.
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
 | <ul><li>Tell us something about you</li><li>Keep it short and sweet. Think about it more like a tweet than a blog post</li></ul> | ![Change about](readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |

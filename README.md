@@ -45,10 +45,6 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 # [If you're comfortable with the terminal go to this tutorial](/terminal-tutorial.md)
 
-<br>
-<br>
-<br>
-
 <h4 align="center">Translations</h4>
 
 This tutorial is also available in [other languages](translations/translation.md)
@@ -70,7 +66,7 @@ This tutorial is also available in [other languages](translations/translation.md
 First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-1. Download [GitHub Desktop app](https://desktop.github.com/).
+2. Download [GitHub Desktop app](https://desktop.github.com/).
    - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](terminal-tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
