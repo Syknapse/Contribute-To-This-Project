@@ -42,7 +42,7 @@ Raccomandiamo l'uso di uno strumento come [GitKraken](https://www.gitkraken.com/
 Scaricare GitKraken, quindi clonare il progetto. Usando una combinazione di editor di codice a voi familiare e lo strumento integrato di gestione conflitti di GitKraken fornirà il controllo totale per muoversi con rapidità tra le varie PR, risolvendo conflitti ed unendo il codice.
 
 Il progetto ha installato "Prettier" per assicurarsi che, a prescindere da come un contributore sottoponga la sua PR, la guida di stile verrà forzata. In questo modo il progetto è sempre mantenuto con la stessa indentazione e stile.
-Nel caso notiate che il file HTML risulti disordinato, eseguite `npm run prettier-html` nella cartella "root" (base) del progetto. Questo dovrebbe cercare di formattare il file e, nel caso fallisse, mostrerà quali errori ha incontrato. In certi casi un tag di chiusura mancante o HTML incorretto potrebbe essere unito per errore, e questo è un metodo valido per accorgersene e risolvere il problema.
+Nel caso notiate che il file HTML risulti disordinato, eseguite `npx prettier --write index.html` nella cartella "root" (base) del progetto. Questo dovrebbe cercare di formattare il file e, nel caso fallisse, mostrerà quali errori ha incontrato. In certi casi un tag di chiusura mancante o HTML incorretto potrebbe essere unito per errore, e questo è un metodo valido per accorgersene e risolvere il problema.
 
 In caso di dubbi, è sempre possibile menzionare me o altri manutentori nella PR stessa, oppure inviarmi direttamente un messaggio diretto su [Twitter](https://twitter.com/Syknapse).
 

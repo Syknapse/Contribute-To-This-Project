@@ -54,7 +54,7 @@ We are looking for translations of this tutorial in other languages. If you woul
 - [Translations](#translations)
 - [Quick Access Index](#quick-access-index)
 - [Contribution Steps](#contribution-steps)
-- [Setup!](#setup)
+- [Setup](#setup)
 - [Step 1 Fork This Repository](#step-1-fork-this-repository)
 - [Step 2 Clone the repository](#step-2-clone-the-repository)
 - [Step 3 Create a new branch](#step-3-create-a-new-branch)
@@ -73,7 +73,7 @@ We are looking for translations of this tutorial in other languages. If you woul
 - [PR Info](#pr-info)
 - [Maintainers](#maintainers)
 
-# Setup!
+# Setup
 
 First let's get setup to do the work.
 If you're not not good with the command line interface [here is the GUI tutorial using github desktop](./README.md)
@@ -100,13 +100,13 @@ Now we want to make a local copy of the project.<br> That is a copy saved on you
 
 Open a terminal and run the following git command:
 
-```
+```bash
 git clone "url you just copied"
 ```
 
 For example:
 
-```
+```bash
 git clone https://github.com/this-is-you/Contribute-To-This-Project.git
 ```
 
@@ -116,19 +116,19 @@ where `this-is-you` is your GitHub username. Here you're copying the contents of
 
 Change to the repository directory on your computer (if you are not already there):
 
-```
+```bash
 cd Contribute-To-This-Project
 ```
 
 Now create a branch using the `git checkout` command
 
-```
+```bash
 git checkout -b your-new-branch-name
 ```
 
 For example:
 
-```
+```bash
 git checkout -b add-kilonzo-card
 ```
 
@@ -173,8 +173,6 @@ We will now make a copy of our card templates and make changes to it
 - **Insert the URL of your Twitter account `href="Insert URL here"`**
 - **Type your handle in the text field**
 
-#
-
 <img src="./readme-only/change-contact.PNG" alt="change-contact" />
 
 - **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example.<br> Then follow the same steps above.**
@@ -204,13 +202,13 @@ We will now make a copy of our card templates and make changes to it
 - Now open the terminal in your project directory and run `git status` and you'll notice that there are no changes made in git.
 - You can add those chamges you made using the `git-add` command
 
-```
+```bash
 git add index.html
 ```
 
 - Now commit those changes using the `git commit` command
 
-```
+```bash
 git commit -m "Add <your-name> card info"
 ```
 
@@ -222,7 +220,7 @@ git commit -m "Add <your-name> card info"
 - Synchronizing local changes with your repository on GitHub is called a `Push`. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 - We use the `git push` command to push changes to github.
 
-```
+```bash
 git push origin -u <add-your-branch-name>
 ```
 
@@ -239,42 +237,28 @@ git push origin -u <add-your-branch-name>
 
 - Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
-  <br>
-  <br>
-  <br>
+
+  ***
+
   <img align="right" width="600" title="This is usually towards the top of the page, under the description and above the project files and folders" src="./readme-only/pull-request.PNG" alt="change-name" />
-  <br>
 
 - **Click on the `Compare and pull request`**
-  <br>
-  <br>
 
 * **This is what the `Open a pull request` page looks like.**
 * **REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.**
 * **The image below gives you an idea of how the header of your pull request should look like.**
 * **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
-  ![Submit a Pull Request](readme-only/pull-request-branches.PNG 'Click on the green button! dont be scared')
-
-#
+  ![Submit a Pull Request](readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
 
 <img align="right" width="600" title="This is usually towards the top of the page, under the description and above the project files and folders" src="./readme-only/pull-request-open.PNG" alt="change-name" />
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+---
 
 - Don't be fazed by all the options. You only need to do these three steps for now.
 - Leave the option `Allow edits from maintainers` ticked.
 - Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
-<br>
-<br>
-<br>
-
-#
+---
 
 # Step 10 Celebrate
 
@@ -288,7 +272,7 @@ It is very normal for a reviewer to ask for changes on a PR. Think of it as good
 
 We promise we will try to review and merge as soon as possible but we do this in our spare time, so a few days delay is inevitable.
 
-#
+---
 
 # Next Steps
 

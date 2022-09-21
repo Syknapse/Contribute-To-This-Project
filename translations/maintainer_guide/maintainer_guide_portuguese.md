@@ -42,7 +42,7 @@ Eu recomendo o uso de uma ferramenta como [GitKraken](https://www.gitkraken.com/
 Baixe o GitKraken, e clone esse projeto. Usando uma combinação do seu editor de código e a ferramenta de solução de conflitos de inclusão integrado do GitKraken te da controle total para rapidamente passar por PR's, fixando conflitos e incorporando.
 
 O projeto tem o Prettier instalado para garantir que independetemente de como o contribuidor envie sua PR, o guia de estilo será reforçado. Dessa maneira o projeto é sempre mantido com a mesma indentação e estilo.  
-Se você notar que o arquivo HTML está com visual bagunçado rode `npm run prettier-html` na raiz do projeto. Esse comando irá tentar formatar o arquivo e se não conseguir irá mostrar os erros. Ás vezes alguma tag HTML que está ausente ou corrompida é agregada por engano e essa é uma boa maneira de avistar e corrigir isso.
+Se você notar que o arquivo HTML está com visual bagunçado rode `npx prettier --write index.html` na raiz do projeto. Esse comando irá tentar formatar o arquivo e se não conseguir irá mostrar os erros. Ás vezes alguma tag HTML que está ausente ou corrompida é agregada por engano e essa é uma boa maneira de avistar e corrigir isso.
 
 Se você estiver em dúvida, você pode sempre me mencionar ou aos outros mantenedores na própria PR ou me mandar uma DM no [Twitter](https://twitter.com/Syknapse)
 
