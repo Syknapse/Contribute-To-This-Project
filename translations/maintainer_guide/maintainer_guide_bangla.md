@@ -1,6 +1,6 @@
 # পরিচালনা নির্দেশাবলি
 
-This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
+যারা আমাদের প্রকল্প পরিচালনা ও বজায় রাখতে সহায়তা করতে প্রকল্পে রক্ষণাবেক্ষণকারী হিসাবে যোগদান করতে চান তাদের জন্য আমাদের এই পথ নির্দেশিকা। (দ্রষ্টব্যঃ এটি **নবীনদের** জন্য নয়।)
 
 এই পৃষ্ঠাটি [অন্যোন্য ভাষায়ও](../translation.md) অনুবাদ করা হয়েছে।
 
@@ -8,52 +8,49 @@ This guide is for those who would like to join the project as maintainers, to he
 | ----------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 
 
-> Translations for either this README or the Maintainer README file are very welcome!.
+> আমাদের প্রকল্পের README.md ফাইলটি বা পরিচালনা নির্দেশাবলি পেজটি যেকোনো ভাষায় অনুবাদকে আমরা স্বাগত জানাই।
 
-## Objectives
+## উদ্দেশ্য
 
-Our main objective is to give our contributors the quickest feedback possible from the point they make their pull request. This primarily means giving code reviews, and merging accepted PRs.  
-Apart from that we can maintain the project making sure everything is working correctly and as helpful and useful as it can be for our contributors.
+আমাদের প্রকল্পের অবদানকারিদের পুল রিকোয়েস্ট এর দ্রুততম প্রতিক্রিয়া দেওয়াই আমাদের মূল উদ্দেশ্য। এর প্রাথমিক অর্থ হল কোড রিভিউ দেওয়া এবং গৃহীত পিআর আমাদের মুল কোডের সাথে একত্রিত করা। এছাড়া আমাদের প্রকল্পের সবকিছু ঠিকভাবে কাজ করছে কিনা বা আমাদের প্রকল্পে অবদানকারীদের জন্য এটি যথেষ্ট সহায়ক এবং দরকারী হছে কিনা আমরা তা নিশ্চিত করতে পারি।
 
-## Who is this for?
+## এটা কার জন্য?
 
-Anyone with a bit of Git and GitHub skills. You don't have to be an expert, this guide should help even beginners. This is an active project that receives regular contributions and it helps many people make their first open source contribution. Being a maintainer on this project helps make sure it continues to give our contributors a good first experience and encouraging them to contribute more.
+গিট বা গিটহাব এ হালকা দক্ষতা আছে এমন যে কেউ আমাদের সাথে অংশগ্রহণ করতে পারেন। আপনার অভিজ্ঞ হওয়ার প্রয়োজন নেই, কারণ এই পথ নির্দেশিকাটি একেবারে নবীনদের উদ্দেশ্য করে বানানো। এটি একটি সক্রিয় প্রকল্প যা নিয়মিত অবদান গ্রহণ করে এবং এটি অনেক লোককে তাদের প্রথম ওপেন সোর্স অবদান রাখতে সাহায্য করে৷ এই প্রকল্পের একজন রক্ষণাবেক্ষণকারী যুক্ত হওয়া বলতে আমাদের প্রকল্পের অবদানকারীদের একটি ভাল প্রথম অভিজ্ঞতা প্রদান করা এবং তাদের আরও অবদান রাখতে উৎসাহ প্রদান করা নিশ্চিত করতে সহায়তা করে।
 
-You can commit as much or as little time as you want to this. Between us we hopefully can keep it running smoothly.
+আপনি এই প্রকল্পে যতটা বেশি অথবা কম অবদান রাখতে পারেন। আশা করি আমরা একসাথে এই প্রকল্পকে সুচারুভাবে চালাতে পারব।
 
-## Methodology
+## পদ্ধতি
 
-- Go to the project's pull request section, start with the oldest pull request that is not in 'changes requested' state.
-- Open a PR and go to the files changes tab and start a code review.
-- Check the PR, make sure it follows the spec in the tutorial.
-- Make sure the HTML, the links, and the data are all correct. Make sure the card is positioned at the start of the file where it should be.
-- Next check for any conflicts. Merge `master` into the PR branch to fix the conflicts. Conflicts usually happen when it's been a while since the previous merges and several PRs are using the same outdated version.
-- If this is the case fix the conflict. Usually you will have to add the new card on top of cards that had been added since the fork was made.
-- If everything else is ok, approve the PR, write a message to the contributor thanking them for the contribution (remembering they are first timers and would benefit from encouragement).
-- Merge the PR into `master`.
+- প্রকল্পের পুল রিকোয়েস্ট বিভাগে যান, সবচেয়ে পুরানো পুল রিকোয়েস্ট দিয়ে শুরু করুন যা `changes requested` লেবেলটি নেই।
+- একটি পিআর খুলুন এবং ফাইল পরিবর্তন ট্যাবে যান এবং একটি কোড পর্যালোচনা শুরু করুন।
+- পিআর পরীক্ষা করুন এবং নিশ্চিত করুন যে এটি টিউটোরিয়ালের ধাপসমুহ অনুসরণ করছে।
+- নিশ্চিত করুন যে HTML, লিঙ্ক এবং ডেটা সব সঠিক রয়েছে। আরও নিশ্চিত করুন যে কার্ডটি ফাইলের শুরুতে যেখানে থাকা উচিত (১১৭ নং লাইনের পর) সেখানে অবস্থিত আছে৷
+- পরবর্তীতে কোনো দ্বন্দ্বের জন্য চেক করুন. দ্বন্দ্ব ঠিক করতে PR শাখায় `master` মার্জ করুন। যখন PR -টি বেশি পুরনো হয়ে যায় এবং কয়েকটি PR প্রকল্পের পুরনো সংস্করণ ব্যবহার করে তখন এটিতে বিরোধ দেখা দেয়।
+- বিরোধের সমাধান করুন। সাধারণত আপনাকে ফর্ক তৈরির পর থেকে যোগ করা কার্ডের উপরে নতুন কার্ডটি যোগ করতে হবে।
+- অন্য সব কিছু ঠিক থাকলে, PR অনুমোদন করুন, অবদানকারীর অবদানের জন্য তাদের ধন্যবাদ জানিয়ে একটি বার্তা লিখুন (মনে রাখুন যে তারা নবীন এবং আপনার উৎসাহ থেকে তারা উপকৃত হবে)।
+- পুল রিকোয়েস্টকে `master`-এ মার্জ করুন।
 
-### Request changes
+### পরিবর্তনের জন্য অনুরোধ করুন
 
-- Sometimes there are problems with the PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
-- Start a code review on GitHub and request changes. Try to be as descriptive as possible, comment the exact line, tell them exactly what the problem is and how to fix it, and encourage them that this is a normal part of the PR review process.
-- When you are ready submit the review.
-- Keep an eye on the conversation in case the contributor has follow up questions you can help with. Our objective is to get everyone past the finish line, so we try to guide them all the way there.
-- Once they fix the requested changes, the PR can be merged to `master`.
+- কখনও কখনও পিআর-এর সাথে যেকোন কিছু যেখানে টিউটোরিয়ালটি সঠিকভাবে অনুসরণ করা হয়নি (এবং সাধারণ মার্জ দ্বন্দ্ব নয়) যেমন ভুল ব্রাঞ্চিং, ভাঙা HTML, অনুপস্থিত তথ্য, ভুল জায়গায় কার্ড রাখা ইত্যাদি সমস্যা থাকে যা অবদানকারীর দ্বারা ঠিক করা উচিত।
+- GitHub-এ একটি কোড পর্যালোচনা শুরু করুন এবং পরিবর্তনের অনুরোধ করুন। যতটা সম্ভব বর্ণনামূলক হওয়ার চেষ্টা করুন, সঠিক লাইনটি মন্তব্য করুন, সমস্যাটি ঠিক কী এবং কীভাবে এটি ঠিক করা যায় তা তাদের বলুন এবং তাদের উত্সাহিত করুন যে এটি PR পর্যালোচনা প্রক্রিয়ার একটি স্বাভাবিক অংশ।
+- আপনি প্রস্তুত হলে পর্যালোচনা জমা দিন।
+- যদি অবদানকারীর ফলো-আপ প্রশ্ন থাকে যা আপনি সাহায্য করতে পারেন সেজন্য, PR কথোপকথনের উপর নজর রাখুন। আমাদের উদ্দেশ্য হল প্রত্যেকে যাতে তাদের অবদান সফলভাবে সম্পন্ন করতে পারে, তাই আমরা তাদের সেখানে সমস্ত পথ দেখানোর চেষ্টা করি।
+- একবার তারা অনুরোধ করা পরিবর্তনগুলি ঠিক করে দিলে, পিআরকে `master`-এ মার্জ করে দিন।
 
-Please, always test that the changes have not broken the project and that the live page still works as expected. It's always best to test the changes locally before merging and never merge anything that looks suspicious.
+অনুগ্রহ করে, সর্বদা পরীক্ষা করুন যে পরিবর্তনগুলি প্রকল্পটি ভঙ্গ করেনি এবং লাইভ পৃষ্ঠাটি এখনও প্রত্যাশিত হিসাবে কাজ করে। একত্রিত হওয়ার আগে স্থানীয়ভাবে পরিবর্তনগুলি পরীক্ষা করা সর্বদা সর্বোত্তম এবং সন্দেহজনক মনে হয় এমন কিছু একত্রিত করবেন না।
 
-## Tools
+## উপকরণ
 
-If there aren't a lot of accumulated PRs all of this process can be done directly in the project's GitHub page.  
-However, it is not uncommon to have a few PRs waiting and that's when there will inevitably be some merge conflicts. You can use any tools you are familiar with to see diffs, and fix conflicts.  
-I recommend the use of a tool like [GitKraken](https://www.gitkraken.com/download). It is visual and it allows for an easier management of the project when there is a few PRs to go through.  
-Download GitKraken, clone the project. Using a combination of your code editor and GitKraken's integrated merge conflict tool gives you full control to quickly go through PRs, fixing conflicts and merging.
+যদি প্রচুর পরিমাণে PR না থাকে তবে এই সমস্ত প্রক্রিয়া সরাসরি প্রকল্পের GitHub পৃষ্ঠায় করা যেতে পারে।  
+যাইহোক, কিছু PR ঝুলে থাকা অস্বাভাবিক নয় এবং তখনই অনিবার্যভাবে কিছু মার্জ দ্বন্দ্ব হবে। আপনি পার্থক্য দেখতে এবং বিরোধগুলি সমাধান করতে আপনার পরিচিত যে কোনও সরঞ্জাম ব্যবহার করতে পারেন।
+আমি [GitKraken](https://www.gitkraken.com/download)এর মতো একটি টুল ব্যবহার করার পরামর্শ দিব। যখন গিটহাবে PR নিয়ে কাজ করতে হয়, তখন এই সফটওয়্যারটি প্রকল্প ব্যবস্থাপনা সহজ করে তোলে। GitKraken ডাউনলোড করুন, প্রকল্পটি ক্লোন করুন। আপনার কোড এডিটর এবং GitKraken-এর ইন্টিগ্রেটেড মার্জ কনফ্লিক্ট টুলের সংমিশ্রণ আপনাকে দ্রুত PRs, দ্বন্দ্বের সমাধান এবং মার্জ করার সম্পূর্ণ নিয়ন্ত্রণ দেয়।
 
-The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with the same indentation and style.  
-If you notice the HTML file looking messy run `npm run prettier-html` in the project root. It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
+প্রজেক্টে Prettier স্টাইলার দ্বারা নিয়ন্ত্রিত যার ফলে অবদানকারী যেভাবেই তার PR জমা দেক না কেন, প্রকল্পটি সবসময় একই ইন্ডেন্টেশন এবং শৈলীর সাথে বজায় থাকে। আপনি যদি লক্ষ্য করেন যে HTML ফাইলটি অগোছালো দেখাচ্ছে তবে প্রজেক্ট রুটে `npx prettier --write index.html` কমান্ডটি প্রয়োগ করুন। এটি আম্মাদের প্রকল্পের মুল ফাইলটি স্টাইল করার চেষ্টা করবে এবং যদি তা না করতে পারে তবে এটি আপনাকে ত্রুটিগুলি দেখাবে। কখনও কখনও একটি অনুপস্থিত ক্লোজিং ট্যাগ বা ভাঙা HTML ভুলবশত আমাদের কোডে চলে আসে এবং তা চিহ্নিত এবং ঠিক করার জন্য এটি একটি ভাল উপায়।
 
-If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
+আপনি যদি কখনও কোন কিছু নিয়ে সন্দেহ হয়ে থাকে তবে আপনি সর্বদা আমাকে বা প্রকল্পের অন্যান্য রক্ষণাবেক্ষণকারীদেরকে ডাক দিতে পারেন বা আমাকে [টুইটারে](https://twitter.com/Syknapse) বার্তা প্রেরণ করতে পারেন।
 
-## Join us
+## আমাদের সাথে যোগদান করুন
 
-Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you.
+এই প্রকল্পটিকে বড় করার জন্য আমাদের সাথে যোগ দিন। [টুইটারে](https://twitter.com/Syknapse) আমার সাথে যোগাযোগ করুন এবং আমাকে আপনার GitHub ব্যবহারকারীর নাম পাঠান যাতে আমি আপনাকে একজন রক্ষণাবেক্ষণকারী হিসেবে আম্মাদের প্রকল্পে যোগ করতে পারি।
