@@ -1,5 +1,6 @@
 # Translations
 
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%2Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 Here are the translations of README and Maintainers_Guide of Our Project.
 
 ## README Translations

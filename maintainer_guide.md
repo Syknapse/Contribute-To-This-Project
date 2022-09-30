@@ -63,3 +63,4 @@ If you are ever in doubt, you can always mention me or the other maintainers in 
 ## Join us
 
 Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you.
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%2Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')

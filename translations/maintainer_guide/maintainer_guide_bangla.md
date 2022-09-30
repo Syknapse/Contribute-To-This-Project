@@ -60,3 +60,5 @@ npx prettier --write index.html
 ## আমাদের সাথে যোগদান করুন
 
 এই প্রকল্পটিকে বড় করার জন্য আমাদের সাথে যোগ দিন। [টুইটারে](https://twitter.com/Syknapse) আমার সাথে যোগাযোগ করুন এবং আমাকে আপনার GitHub ব্যবহারকারীর নাম পাঠান যাতে আমি আপনাকে একজন রক্ষণাবেক্ষণকারী হিসেবে আম্মাদের প্রকল্পে যোগ করতে পারি।
+
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%2Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'আমাদের ডিসকর্ড সার্ভারে যুক্ত হন।')

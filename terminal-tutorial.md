@@ -1,10 +1,22 @@
+# First Contribution
+
 ![image info](/favicon.png)
 
-# First Contribution
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%2Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+
+![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
+![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
+![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
 
 ## Introduction
 
-#### [This is a tutorial to help first-time contributors to participate in a simple and easy project.](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)
+### [This is a tutorial to help first-time contributors to participate in a simple and easy project.](https://github.com/Syknapse/Contribute-To-This-Project#this-is-a-tutorial-to-help-first-time-contributors-to-participate-in-a-simple-and-easy-project)
+
+> ### **Announcement:**
+>
+> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
 # Objectives
 
