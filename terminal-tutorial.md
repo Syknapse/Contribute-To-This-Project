@@ -184,7 +184,7 @@ We will now make a copy of our card templates and make changes to it
 # Step 7 Commit your changes
 
 - Now open the terminal in your project directory and run `git status` and you'll notice that there are no changes made in git.
-- You can add those chamges you made using the `git-add` command
+- You can add those changes you made using the `git-add` command
 
 ```
 git add index.html
