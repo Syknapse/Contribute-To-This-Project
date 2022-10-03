@@ -2,6 +2,8 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+
 ## Wprowadzenie
 
 To tutorial, który pomoże początkującym kontrybutorom uczestniczyć w prostym i łatwym projekcie.
@@ -34,7 +36,8 @@ Stworzysz kopię szablonu karty w pliku HTML i uzupełnisz ją informacjami o so
 ## Indeks Szybkiego Dostpępu
 
 | <ul><li>[Wprowadzenie](#wprowadzenie)</li><li>[Jaką zmianę wgram?](#jaką-zmianę-wgram)</li><li>[Ustawienia](#ustawienia)</li><li>[Wgraj swoją zmianę &rightarrow;](#wgraj-swoją-zmianę)</li><li>[Następne kroki](#następne-kroki)</li><li>[Podziękowania](#podziękowania)</li></ul> | Wgraj swoją zmianę: <ul><li>[Krok 1: Utwórz fork repozytorium](#krok-1-utwórz-fork-repozytorium)</li><li>[Krok 2: Sklonuj repozytorium](#krok-2-sklonuj-repozytorium)</li><li>[Krok 3: Stwórz nową gałąź](#krok-3-stwórz-nową-gałąź)</li><li>[Krok 4: Otwórz plik index.html](#krok-4-otwórz-plik-indexhtml)</li><li>[Krok 5: Skopiuj szablon karty](#krok-5-skopiuj-szablon-karty)</li><li>[Krok 6: Wprowadź zmiany](#krok-6-wprowadź-zmiany)</li><li>[Krok 7: Wgraj zmiany](#krok-7-wgraj-zmiany)</li><li>[Krok 8: Wyślij zmiany na GitHub](#krok-8-wyślij-zmiany-na-github)</li><li>[Krok 9: Wyślij swoje zmiany do zatwierdzenia](#krok-9-wyślij-swoje-zmiany-do-zatwierdzenia)</li><li>[Krok 10: Świętuj!](#krok-10-świętuj)</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
 
 ## Ustawienia
 
@@ -58,14 +61,14 @@ Zostań kontrybutorem open source w 10 prostych krokach.
 
 _Przewidywany czas: Mniej niż 30 minut_.
 
-### Krok 1: Utwórz fork repozytorium 
+### Krok 1: Utwórz fork repozytorium
 
 - Celem jest wykonanie kopii tego projektu i umieszczenie jej na swoim koncie.
 - Projekt na GitHub jest nazywany repozytorium (repo), a fork jest jego kopią.
 - Upewnij się, że jesteś na [głównej stronie](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') tego repozytorium.
 
 | <ul><li>Kliknij przycisk _Fork_</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
-| :------------------------------------------- | ----------------------------------------------: |
+| :---------------------------------------- | ----------------------------------------------: |
 
 
 - Masz teraz pełną kopię projektu na swoim koncie.
@@ -78,12 +81,12 @@ _Przewidywany czas: Mniej niż 30 minut_.
 - Otwórz aplikację GitHub Desktop. W aplikacji:
 
 | <ul><li>Kliknij _File_, a następnie _Clone repository_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
-| :-------------------------------------------------------- | -------------------------------------------------------: |
+| :--------------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Zobaczysz listę swoich projektów i  forków na GitHubie.</li><li>Wybierz `<twoja-nazwa-użytkownika>/Contribute-To-This-Project`.</li><li>Kliknij _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Sforkowany projekt będzie miał symbol fork po lewej stronie.</li><li>Twój fork będzie miał nazwę Twojej nazwy użytkownika na GitHub.</li></ul>                                      |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>Zobaczysz listę swoich projektów i forków na GitHubie.</li><li>Wybierz `<twoja-nazwa-użytkownika>/Contribute-To-This-Project`.</li><li>Kliknij _Clone_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
+| <ul><li>Sforkowany projekt będzie miał symbol fork po lewej stronie.</li><li>Twój fork będzie miał nazwę Twojej nazwy użytkownika na GitHub.</li></ul>                   |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
 
 - Może to chwilę potrwać, ponieważ porjekt zostanie skopiowany na na Twój dysk twardy. Zalecam zachowanie domyślnej ścieżki, jaką jest zwykle `..\Dokumenty\GitHub`.
 - Teraz masz lokalną kopię projektu.
@@ -92,21 +95,21 @@ _Przewidywany czas: Mniej niż 30 minut_.
 
 ### Krok 3: Stwórz nową gałąź
 
-- Po sklonowaniu repozytorium i otwarciu go w  GitHub Desktop nadszedł czas, aby utworzyć nową gałąź.
+- Po sklonowaniu repozytorium i otwarciu go w GitHub Desktop nadszedł czas, aby utworzyć nową gałąź.
 - Gałąź to sposób na oddzielenie zmian od głównej części projektu nazwanej `Master`. Na przykład, jeśli coś pójdzie nie tak i nie jesteś zadowolony ze zmian, możesz po prostu usunąć gałąź, a główny projekt nie zostanie zmieniony.
 
 | <ul><li>Kliknij _Current branch_</li><li>Następnie kliknij _New_</li></ul> | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
-| :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
 
 
 | <ul><li>Nazwij swoją gałąź</li><li>Kliknij `Create branch`</li></ul> | ![Name branch](readme-only/branch-name.PNG 'Name your branch') |
-| :---------------------------------------------------------------------- | -------------------------------------------------------------: |
+| :------------------------------------------------------------------- | -------------------------------------------------------------: |
 
 
 - Możesz nazwać ją jak chcesz, ale dlatego, że jest to gałąź, aby dodać kartę z Twoim imieniem do projektu, nazwanie tego `twoje-imię-card` jest dobrą praktyką, ponieważ jasno określa cel tej gałęzi.
 
 | <ul><li>Opublikuj swoją nową gałąź na GitHubie</li></ul> | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
-| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
 
 
 - Właśnie utworzyłeś nową gałąź niezależną od mastera.
@@ -123,7 +126,7 @@ _Przewidywany czas: Mniej niż 30 minut_.
 - Plik `index.html` znajduje się bezpośrednio w folderze `Contribute-To-This-Project`.
 
 | <ul><li>Otwórz edytor kodu (Sublime, VS Code, Atom..etc) i użyj polecenia `Open file` i znajdź plik index.html w głównym folderze projektu</li><li>Ewentualnie możesz znaleźć plik na dysku twardym, kliknąć go prawym przyciskiem myszy i otworzyć go w edytorze</li></ul> | ![Open index file](readme-only/index-open.PNG 'Open index.html in your text editor') |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
 
 
 - Teraz masz plik, który będziesz edytować, w swoim edytorze i możesz rozpocząć wprowadzanie w nim zmian.
@@ -135,12 +138,12 @@ _Przewidywany czas: Mniej niż 30 minut_.
 - Stwórzmy kopię szablonu karty, aby rozpocząć nad nim pracę.
 
 | <ul><li>W górnej części pliku html, pod sekcjami `<head>` i `<header>` znajduje się sekcja oznaczona `== TEMPLATE ==`</li><li>Skopiuj wszystko, co znajduje się w czerwonym kwadracie na obrazie, od komentarza `Contributor card START` do komentarza `Contributor card END`</li></ul> |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copy card template](readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                                                                                 |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Copy card template](readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                                                                               |
 
 | <ul><li>Wklej całość bezpośrednio pod wskazanym komentarzem</li><li>Upewnij się, że przed komentarzem, gdzie zaczyna się Twoja karta i po komentarzu, gdzie się kończy, jest jedna linia odstępu. Dobrą praktyką jest, aby nasz kod był jak najbardziej przejrzysty</li><li>Nigdy nie używaj linterów ani formatorów stylu. Projekt ma konfigurację Prettier</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                                                        |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                                                                                                    |
 
 - To jest teraz **Twoja** karta, którą możesz dostosowywać i edytować.
 
@@ -155,19 +158,19 @@ _Przewidywany czas: Mniej niż 30 minut_.
 
 
 | <ul><li>Wprowadź adres URL swojego konta na Twitterze `href="Insert URL here"`</li><li>Wpisz swój nick w polu tekstowym</li></ul> |
-| :--------------------------------------------------------------------------------------------------------------------------- |
-| ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
+| :-------------------------------------------------------------------------------------------------------------------------------- |
+| ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')                    |
 
 - Jeśli wolisz użyć kontaktu innego niż Twitter, musisz zmienić ikonę Twittera, `<i class="fa fa-twitter"></i>`, przechodząc do [Font Awesome Icons](http://fontawesome.io/icons/), wyszukując odpowiedniej ikony i zastępując tylko część `fa-twitter` nową ikoną, jak na przykład `fa-facebook`. Następnie wykonaj te same kroki co powyżej.
 
 | <ul><li>Powiedz nam coś o sobie</li><li>Pisz krótko i miło. Pomyśl o tym bardziej jak o tweecie niż poście na bloga</li></ul> | ![Change about](readme-only/change-about.PNG 'Write a sentence about you') |
-| :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |
 
 
 | <ul><li>Udostępnij społeczności 3 linki do zasobów przydatnych przy tworzeniu stron internetowych</li><li>Może to być wszystko, wideo, wykład, podcast, artykuł, odniesienie lub narzędzie</li><li>Jeśli jesteś początkującym, nie krępuj się, podziel się tym, co wiesz, nawet jeśli uważasz, że jest to proste. Zdziwisz się, ile osób na tym skorzysta</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                   |
-| <ul><li>Link: Wstaw link `href="tutaj"` zastępując `#`</li><li>Tytuł: Napisz krótki opis `title="tutaj"`</li><li>Nazwa: Wpisz nazwę zasobu w polu tekstowym `>here</a>`</li></ul>                                                                                                                                                               |
+| <ul><li>Link: Wstaw link `href="tutaj"` zastępując `#`</li><li>Tytuł: Napisz krótki opis `title="tutaj"`</li><li>Nazwa: Wpisz nazwę zasobu w polu tekstowym `>here</a>`</li></ul>                                                                                                                                                                                   |
 
 - Upewnij się, że **zapisałeś wszystkie zmiany**.
 - **Przetestuj swoje zmiany**. TO JEST WAŻNE! Otwórz plik html w swojej przeglądarce (na przykład kilkając na niego dwukrotnie) i zobacz, jak Twoja karta będzie wyglądała na stronie. Sprawdź, czy cała strona nadal wygląda tak samo i nic nie jest zepsute. Kliknij swoje linki i upewnij się, że działają. Otwórz konsolę (Ctrl + Shift + J (Windows / Linux) lub Cmd + Opt + J (Mac)) i sprawdź, czy nie ma komunikatów o błędach.
@@ -183,15 +186,15 @@ _Przewidywany czas: Mniej niż 30 minut_.
 - Widać to w aplikacji. Wszystko, co dodałeś do pliku, będzie zaznaczone na zielono, a usunięte elementy na czerwono.
 
 | <ul><li>Następny krok nosi nazwę _Commit_</li><li>To z grubsza oznacza "potwiedź zmiany"</li></ul> | ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
-| :-------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Tak powinien wyglądać nagłowek Github Desktop</li><li>Zwróć uwagę na symbol fork obok nazwy projektu w `Current repository`</li><li>Twoje `Current branch` będzie miało nazwę, jaką nadałeś mu w kroku 3</li></ul> |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                               |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                        |
 
 | <ul><li>Aby kliknąć _Commit_ musisz wypełnić pole _Summary_</li><li>To wiadomość, wyjaśniająca, co zmieniłeś</li><li>W tym przypadku rozsądną wiadomością byłoby "Dodanie informacji o mojej karcie"</li><li>Opcjonalnie możesz dodać bardziej szczegółowy opis _Description_</li><li>Kliknij przycisk _Commit_. Na przycisku pojawi się coś w rodzaju `Commit to "nazwa-twojej-gałęzi"`</li></ul> | ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 ---
@@ -216,18 +219,18 @@ _Przewidywany czas: Mniej niż 30 minut_.
 - Teraz nadszedł czas, aby wysłać zmiany do głównego projektu, aby zostały z nim połączone.
 - To się nazywa [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help'), ponieważ prosisz oryginalnego opiekuna projektu, aby "wciągnął" Twoje zmiany do swojego projektu.
 - Przejdź do strony głównej **swojego forka** na GitHubie (będzie miał ikonę fork i Twoją nazwę użytkownika na górze).
-- W górnej części repozytorium zobaczysz podświetloną wiadomość z zielonym przyciskiem. 
+- W górnej części repozytorium zobaczysz podświetloną wiadomość z zielonym przyciskiem.
 
 | <ul><li>Kliknij na `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
-| :-------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>Tak wygląda strona `Open a pull request`.</li><li>PAMIĘTAJ, że _próbujesz połączyć swoją gałąź z oryginalnym projektem, a nie gałęzią `Master`_.</li><li>Poniższy obraz pokazuje, jak powinien wyglądać nagłówek Twojej prośby o scalenie.</li><li>Po lewej stronie znajduje się oryginalny projekt, a po nim gałąź główna. Po prawej jest Twój fork i utworzona przez Ciebie gałąź.</li></ul> |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Open a Pull Request](readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                                                      |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Open a Pull Request](readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                                                  |
 
 | <ul><li>Stwórz prośbę o scalenie:</li><li>Napisz tytuł</li><li>Dodaj opcjonalne informacje w opisie</li><li>Kliknij `Create pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------: |
 
 
 - Nie przejmuj się wszystkimi opcjami. Na razie musisz wykonać tylko te trzy kroki.
