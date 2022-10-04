@@ -1,0 +1,15 @@
+File and Folders operation        
+
+cp -r /etc/sysconfig/ /backup -  copy folder to backup folde(recursion, with all included folders) 
+mv /etc/config /home/backup/newconfig - move or rename file.
+cat file - output file contents to console.
+mv 
+ls -i 
+ls -ltr - filter by last file 
+ls -a -show all files(also hidden files)
+ls -laSh 'beep.wav' - size of file in Kilobytes
+
+which - show path of executable files(ls, systemctl…..)
+which ls - >   /bin/ls
+
+locate name of file - show file fast, but need indexing to database of file before. 
