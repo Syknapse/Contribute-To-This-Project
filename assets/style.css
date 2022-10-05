@@ -62,9 +62,10 @@ p {
   width: 500px;
   height: 50px;
   text-align: center;
-  border: none;
+  border-radius: 15px;
+  border-color: #dc224a;
   transition: all 1s;
-  box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
+  box-shadow: 0px 1px 11px 2px rgba(93, 91, 97, 0.1);
 }
 
 .twitter-button {
@@ -206,6 +207,10 @@ footer {
   border-radius: 0 0 5px 5px;
 }
 
+.resources:hover {
+  color: #dc224a;
+}
+
 /* Night Mode Code */
 
 .night .contact i {
@@ -222,6 +227,11 @@ footer {
 
 .night .card {
   border: 1px solid var(--orange);
+}
+
+.night .card:hover {
+  background-color: var(--orange);
+  color: var(--pink);
 }
 
 .toggle-box-label-left:empty {
@@ -252,7 +262,9 @@ body.night {
   color: var(--light-grey1);
   background-color: var(--dark-purple);
 }
-
+.night .resources:hover {
+  color: #ff0037;
+}
 .night #searchbar {
   background-color: var(--dark-purple);
   color: var(--light-grey1);
@@ -290,7 +302,7 @@ body.night {
   cursor: pointer;
   color: rgba(149, 149, 149, 0.51);
   font-weight: normal;
-  left: 9px;
+  left: 19px;
   top: 5px;
 }
 
