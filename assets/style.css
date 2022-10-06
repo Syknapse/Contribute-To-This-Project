@@ -204,6 +204,7 @@ footer {
   height: 100%;
   padding-right: 25px;
   border-radius: 0 0 5px 5px;
+  word-break: break-word;
 }
 
 /* Night Mode Code */

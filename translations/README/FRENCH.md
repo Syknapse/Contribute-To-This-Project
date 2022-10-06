@@ -111,6 +111,60 @@ _Temps estimé: moins de 30 minutes_.
 
 ### Étape 3: créer une nouvelle branche
 
+- Une fois que le repo a été clonée et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
+- Une branche est un moyen de séparer vos modifications de la partie principale du projet appelée `Master`. Par exemple, si les choses tournent mal et que vous n’êtes pas satisfait de vos modifications, vous pouvez simplement supprimer la branche et le projet principal ne sera pas affecté.
+
+| <ul><li>Clique sur _Current branch_</li><li>ensuite clique sur _New_</li></ul> | ![Créer une branche](/readme-only/branch-new.PNG "Clique sur 'Branch', et 'New'") |
+| :---------------------------------------------------------------------- | ---------------------------------------------------------------------------: |
+
+
+| <ul><li>Donnez un nom à votre branche</li><li>Clique sur `Create branch`</li></ul> | ![Nom de la branche](/readme-only/branch-name.PNG 'Nom de la branche') |
+| :---------------------------------------------------------------------- | -------------------------------------------------------------: |
+
+
+- Vous pouvez le nommer comme vous voulez, mais comme il s’agit d’une branche pour ajouter une carte avec votre nom au projet, appelez-le `your-name-card` est une bonne pratique parce qu’elle maintient l’intention de cette branche claire.
+
+| <ul><li>Publiez votre nouvelle branche sur GitHub</li></ul> | ![Nom de la branche](/readme-only/branch-publish.PNG 'Cliquez sur Publier pour envoyer la nouvelle branche à votre référentiel distant sur GitHub') |
+| :-------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------: |
+
+
+- Vous avez maintenant créé une nouvelle branche distincte du maître.
+- Pour les étapes suivantes, assurez-vous que vous travaillez dans cette branche. Vous verrez le nom de la branche sur laquelle vous vous trouvez en haut au centre de l’application de bureau GitHub où il est dit _Current branch_.
+
+**Na PAS travailler sur la branche `master`**
+
+---
+
+### Étape 4: Ouvrez le fichier index.html
+
+- Maintenant, nous devons ouvrir le fichier que nous allons éditer avec votre éditeur de code préféré.
+- Recherchez le dossier du projet sur votre ordinateur. Si vous avez conservé la valeur par défaut, cela devrait être quelque chose comme `your-computer > Documents > GitHub > Contribute-To-This-Project`
+- Le fichier `index.html` est directement dans le dossier `Contribute-To-This-Project`.
+
+| <ul><li>Ouvrez votre éditeur de code (Sublime, VS Code, Atom..etc) et utilisez la commande `Open file` et trouvez le fichier the index.html dans le répertoire principal du projet</li><li>Vous pouvez également localiser le fichier sur votre disque dur, cliquer avec le bouton droit de la souris et l’ouvrir avec votre éditeur.</li></ul> | ![Ouvrir le fichier d’index](/readme-only/index-open.PNG 'Ouvrir l’index.html dans votre éditeur de texte') |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------: |
+
+
+- Maintenant, vous avez le fichier que vous allez modifier ouvert dans votre éditeur et vous êtes prêt à commencer à y apporter des modifications.
+
+---
+
+### Étape 5: Copier le modèle de carte
+
+- Nous allons faire une copie du modèle de carte pour commencer à travailler dessus
+
+| <ul><li>Au début du fichier HTML, sous les sections `<head>` et `<header>` vous trouverez la section intitulée `== TEMPLATE ==`</li><li>Copiez tout ce qui se trouve dans le carré rouge de l’image, à partir du commentaire `Contributor card START` jusqu'au commentaire `Contributor card END`</li></ul> |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Copier le modèle de carte](/readme-only/card-copy.PNG 'Copier le modèle de carte')                                                                                                                                                                                                                  |
+
+| <ul><li>Collez le tout directement sous le commentaire qui l’indique</li><li>Assurez-vous qu’il y a une seule ligne d’espace entre le début de votre carte et la dernière fin de la carte. C’est une bonne pratique de garder notre code aussi clair que possible</li><li>N’utilisez jamais de linters ou de formateurs de style. Le projet à une configuration plus jolie</li></ul> |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Coller le modèle de carte](/readme-only/card-paste.PNG 'Coller sous la ligne indiquée')                                                                                                                                                                                                                                        |
+
+- C’est maintenant **votre** carte à personnaliser et à modifier.
+
+---
+
 ### Étape 6: appliquez vos modifications
 
 - Nous allons maintenant commencer à éditer le html, en changeant les champs personnalisables de notre carte.
