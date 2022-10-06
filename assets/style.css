@@ -62,7 +62,8 @@ p {
   width: 500px;
   height: 50px;
   text-align: center;
-  border: none;
+  border-radius: 15px;
+  border-color: #ff426b;
   transition: all 1s;
   box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
 }
@@ -206,6 +207,10 @@ footer {
   border-radius: 0 0 5px 5px;
 }
 
+.resources:hover {
+  color: #ff0037;
+}
+
 /* Night Mode Code */
 
 .night .contact i {
@@ -222,6 +227,10 @@ footer {
 
 .night .card {
   border: 1px solid var(--orange);
+}
+
+.night .card:hover {
+  background-color: var(--orange);
 }
 
 .toggle-box-label-left:empty {
@@ -251,6 +260,11 @@ body.night {
 .night .resources {
   color: var(--light-grey1);
   background-color: var(--dark-purple);
+}
+
+.night .resources:hover {
+  color: #ff0037;
+  background-color: var(--purple);
 }
 
 .night #searchbar {
