@@ -16,7 +16,7 @@ body {
   background-position: 100% 0%;
   transition: all 1s;
   box-sizing: border-box;
-  font-family: roboto, arial, sans-serif;
+  font-family: 'Poppins', arial, sans-serif;
 }
 
 header {
@@ -204,6 +204,7 @@ footer {
   height: 100%;
   padding-right: 25px;
   border-radius: 0 0 5px 5px;
+  word-break: break-word;
 }
 
 /* Night Mode Code */
