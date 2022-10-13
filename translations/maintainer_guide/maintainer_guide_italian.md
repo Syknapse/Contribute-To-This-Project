@@ -3,6 +3,7 @@
 Questa guida si rivolge a coloro che vogliono unirsi al progetto come manutentori, per aiutare a gestire e mantenere il progetto per la comunità. (Questa non è una guida per **contributori alla prima contribuzione**)
 
 ## Obiettivi
+
 Il nostro obiettivo principale è di fornire ai nostri contributori nel modo più rapido possibile dei riscontri e risposte dal momento in cui aprono la loro richiesta di unione codice (pull request). Questo si traduce principalmente in fornire revisioni di codice, ed unire "PRs" approvate.
 Inoltre, possiamo mantenere il progetto accertandoci che tutto funzioni correttamente nella maniera più utile per i nostri contributori.ontributors.
 
@@ -38,10 +39,10 @@ Per favore, verificare sempre che le modifiche non abbiano impattato le funziona
 Se non sono presenti troppe PR accumulate, questo intero processo può essere svolto direttamente nella pagina GitHub del progetto.
 Nonostante ciò, non è insolito avere alcune PR in attesa, e questo porterà inevitabilmente a dei conflitti. È consentito usare qualsiasi strumento con cui si abbia familiarità per vedere differenze e risolvere conflitti.
 Raccomandiamo l'uso di uno strumento come [GitKraken](https://www.gitkraken.com/download). È grafico e permette una gestione più facile del progetto quando ci sono diverse PR da revisionare.
-Scaricare GitKraken, quindi clonare il progetto. Usando una combinazione di editor di codice a voi familiare e lo strumento integrato di gestione conflitti di GitKraken fornirà il controllo totale per muoversi con rapidità tra le varie PR, risolvendo conflitti ed unendo il codice. 
+Scaricare GitKraken, quindi clonare il progetto. Usando una combinazione di editor di codice a voi familiare e lo strumento integrato di gestione conflitti di GitKraken fornirà il controllo totale per muoversi con rapidità tra le varie PR, risolvendo conflitti ed unendo il codice.
 
 Il progetto ha installato "Prettier" per assicurarsi che, a prescindere da come un contributore sottoponga la sua PR, la guida di stile verrà forzata. In questo modo il progetto è sempre mantenuto con la stessa indentazione e stile.
-Nel caso notiate che il file HTML risulti disordinato, eseguite `npm run prettier-html` nella cartella "root" (base) del progetto. Questo dovrebbe cercare di formattare il file e, nel caso fallisse, mostrerà quali errori ha incontrato. In certi casi un tag di chiusura mancante o HTML incorretto potrebbe essere unito per errore, e questo è un metodo valido per accorgersene e risolvere il problema.
+Nel caso notiate che il file HTML risulti disordinato, eseguite `npx prettier --write index.html` nella cartella "root" (base) del progetto. Questo dovrebbe cercare di formattare il file e, nel caso fallisse, mostrerà quali errori ha incontrato. In certi casi un tag di chiusura mancante o HTML incorretto potrebbe essere unito per errore, e questo è un metodo valido per accorgersene e risolvere il problema.
 
 In caso di dubbi, è sempre possibile menzionare me o altri manutentori nella PR stessa, oppure inviarmi direttamente un messaggio diretto su [Twitter](https://twitter.com/Syknapse).
 
@@ -50,3 +51,4 @@ In caso di dubbi, è sempre possibile menzionare me o altri manutentori nella PR
 Unisciti a noi per aiutare la crescita di questo progetto insieme. Contattami pure su Twitter e mandami il tuo account GitHub per essere aggiunto.
 
 _Questo documento non è stato tradotto dall'inglese direttamente da [Syknapse](https://github.com/Syknapse), in caso di contatto si suggerisce di usare l'inglese_
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')

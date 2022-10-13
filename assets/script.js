@@ -38,7 +38,7 @@ const createArchiveObject = i => {
   archiveObject.setAttribute('height', '5000')
   container.append(archiveObject)
 }
-const NUMBER_OF_FILES = 12
+const NUMBER_OF_FILES = 14
 let current = 1
 const getArchiveCards = i => {
   createArchiveObject(i)
