@@ -7,7 +7,8 @@ const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
   console.info('Cards in index.html', cardsInIndex)
-  if (cardsInIndex > 100) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
+  if (cardsInIndex > 100) 
+    console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
 }
 showInfoInConsole()
 
@@ -62,17 +63,20 @@ const getArchiveCards = i => {
 getArchiveCards(current)
 
 // night mode feature
-$('#toggle-box-checkbox').on('change', function() {
+document.getElementById("toggle-box-checkbox").addEventListener('change', (e) => {
   if (this.checked) {
-    $('body').addClass('night')
+    $('body').classList.add("night")
   } else {
-    $('body').removeClass('night')
+    $('body').classList.remove("night")
   }
-})
+});
 
 function demo() {
   setInterval(function() {
-    $('#toggle-box-checkbox').trigger('click')
+    var event = document.createEvent('HTMLEvents');
+	event.initEvent('click', true, false);
+	document.getElementById("toggle-box-checkbox").dispatchEvent(event);
+
   }, 1000)
 }
 if (document.location.pathname.indexOf('fullcpgrid') > -1) {
