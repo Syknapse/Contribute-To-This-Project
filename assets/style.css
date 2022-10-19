@@ -16,7 +16,7 @@ body {
   background-position: 100% 0%;
   transition: all 1s;
   box-sizing: border-box;
-  font-family: roboto, arial, sans-serif;
+  font-family: 'Poppins', arial, sans-serif;
 }
 
 header {
@@ -63,6 +63,7 @@ p {
   height: 50px;
   text-align: center;
   border: none;
+  border-radius: 15px;
   transition: all 1s;
   box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
 }
@@ -177,6 +178,7 @@ footer {
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.2);
   transition: 0.5s;
 }
+
 .card:hover {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
@@ -204,6 +206,11 @@ footer {
   height: 100%;
   padding-right: 25px;
   border-radius: 0 0 5px 5px;
+  word-break: break-word;
+}
+
+.resources:hover {
+  color: var(--pink);
 }
 
 /* Night Mode Code */
@@ -222,6 +229,10 @@ footer {
 
 .night .card {
   border: 1px solid var(--orange);
+}
+
+.night .card:hover {
+  background-color: var(--orange);
 }
 
 .toggle-box-label-left:empty {
@@ -251,6 +262,11 @@ body.night {
 .night .resources {
   color: var(--light-grey1);
   background-color: var(--dark-purple);
+}
+
+.night .resources:hover {
+  color: var(--pink);
+  background-color: var(--purple);
 }
 
 .night #searchbar {
