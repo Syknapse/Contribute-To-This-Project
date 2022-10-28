@@ -1,6 +1,6 @@
-## W.I.P
 
-# Security Policy
+
+### Security Policy
 
 ## Supported Versions
 
