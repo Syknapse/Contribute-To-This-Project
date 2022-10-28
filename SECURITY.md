@@ -4,8 +4,7 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+These are the supported versions of the security policy. Note that some may already be updated.
 
 | Version | Supported          |
 | ------- | ------------------ |
@@ -16,8 +15,6 @@ currently being supported with security updates.
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+Always report to the owner(s) about a possible vulnerability. Send an issue regarding this situation.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+
