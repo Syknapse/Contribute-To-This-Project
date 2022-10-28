@@ -1,8 +1,8 @@
 
 
-### Security Policy
+## Security Policy
 
-## Supported Versions
+# Supported Versions
 
 These are the supported versions of the security policy. Note that some may already be updated.
 
@@ -13,7 +13,7 @@ These are the supported versions of the security policy. Note that some may alre
 | 4.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
 
-## Reporting a Vulnerability
+# Reporting a Vulnerability
 
 Always report to the owner(s) about a possible vulnerability. Send an issue regarding this situation.
 
