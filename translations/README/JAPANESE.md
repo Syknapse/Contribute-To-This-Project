@@ -31,7 +31,7 @@
 <h5 align="center">なぜコントリビュートするのか</h5>
 
 Web開発者であれば、意欲的だろうと経験豊富だろうと、Gitを使う必要があり、GitHubは誰もが使う最も人気のあるGitホスティングサービスです。また、オープンソースコミュニティの中心地でもあります。GitHubを使いこなすことは必須スキルです。プロジェクトに貢献することで自身がつき、GitHubのプロフィールに記載できるようになります。<br>
-もしあなたがデベロッパーなりたてで、GitとGitHubを学ぶ必要性があるのかどうかを迷っているのであれば、これを見てください: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+もしあなたがデベロッパーなりたてで、GitとGitHubを学ぶ必要性があるのかどうかを迷っているのであれば、これを見てください: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io')
 
 <h4 align="center">なにをコントリビュートするのか？</h4>
 
@@ -50,8 +50,8 @@ HTMLファイルの中に、カードのテンプレートのコピーを作り�
 
 まず作業をするためのセットアップをしましょう。
 
-1. あなたのGitHubアカウントでログインしてください。もし持っていない場合は[アカウントを作りましょう](https://github.com/join). [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/)をやってからこのセットアップを続けることをおすすめします。
-2. [GitHub Desktop](https://desktop.github.com/)をダウンロード.
+1. あなたのGitHubアカウントでログインしてください。もし持っていない場合は[アカウントを作りましょう](https://github.com/join)。 [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/)をやってからこのセットアップを続けることをおすすめします。
+2. [GitHub Desktop](https://desktop.github.com/)をダウンロード。
    - もし[VS Code](https://code.visualstudio.com/ 'Visual Studio Code website')を使っているのであれば、VS Code内で統合されているエディタからGitの操作を行うことができます。
    - しかしながら、このチュートリアルに従う最もシンプルで簡単な方法はGitHub Desktopを使うことです。
 
@@ -59,7 +59,7 @@ HTMLファイルの中に、カードのテンプレートのコピーを作り�
 
 10個の簡単な手順でオープンソースコントリビューターになりましょう。
 
-_所要時間: 30分以内_.
+_所要時間: 30分以内_
 
 <h5 align="center">1. このリポジトリをフォーク</h5>
 
@@ -207,7 +207,7 @@ _所要時間: 30分以内_.
 - 現時点ではあなたが行ったすべての作業は、あなたのGitHubにあるフォークで行われています。
 - さて、いよいよメインプロジェクトに変更を送り、マージしてもらいましょう。
 - この操作のことを [_プルリクエスト_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') といいます。なぜなら、あなたはメインプロジェクトのメンテナに、あなたの変更を彼らのプロジェクトへ「取り込む」ように依頼するからです。
-- **あなた**がフォークしたプロジェクトのページに行ってください。(フォークのアイコンとあなたの名前が上部に表示されているでしょう).
+- **あなた**がフォークしたプロジェクトのページに行ってください。(フォークのアイコンとあなたの名前が上部に表示されているでしょう)
 - リポジトリの上部にハイライトされたプルリクエストのメッセージと緑色のボタンが表示されています。
 
 | <ul><li>`Compare and pull request`をクリックしてください</li></ul> | ![Submit a Pull Request](../../readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
