@@ -69,7 +69,7 @@ _Tahmini süre: 30 dakikadan az_.
 - GitHub'da bir proje depo(repo) olarak adlandırılmakta, çatal(fork) ise bunun kopyalanmasıdır.
 - Bu reponun [ana sayfa](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')'sında (main) olduğunuzdan emin olun.
 
-| <ul><li>Fork butonuna basın</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
+| <ul><li>Fork butonuna basın</li></ul> | ![Fork](/readme-only/fork.png "klikni na 'Fork'") |
 | :------------------------------------ | ------------------------------------------------: |
 
 
