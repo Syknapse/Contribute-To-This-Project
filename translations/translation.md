@@ -11,8 +11,7 @@ Here are the translations of README and Maintainers_Guide of Our Project.
 
 ## Maintainers Guide Translations
 
-| [English](../maintainer_guide.md) | [Bangla](maintainer_guide/maintainer_guide_bangla.md) | [German](maintainer_guide/maintainer_guide_german.md) | [Italian](maintainer_guide/maintainer_guide_italian.md) | [Portuguese](maintainer_guide/maintainer_guide_portuguese.md) |
-| --------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------- |
-
+| [English](../maintainer_guide.md) | [Bangla](maintainer_guide/maintainer_guide_bangla.md) | [German](maintainer_guide/maintainer_guide_german.md) | [Italian](maintainer_guide/maintainer_guide_italian.md) | [Portuguese](maintainer_guide/maintainer_guide_portuguese.md) | [Japanese](maintainer_guide/maintainer_guide_japanese.md)
+| --------------------------------- | ----------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------- | --------------------------------- |
 
 > Translations for either this README or the maintainer README file are very welcome!.
