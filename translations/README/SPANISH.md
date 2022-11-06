@@ -68,7 +68,7 @@ _Tiempo estimado: Menos de 30 minutos._
 - Un repositorio (repo) el nombre que se le da a un proyecto en GitHub y una bifurcación (fork) es una copia del mismo.
 - Asegúrate de estar en la [página principal](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de éste repositorio.
 
-| <ul><li>Haz click en el botón _Fork_ </li></ul> | ![Fork](/readme-only/fork.PNG "Haz click en 'Fork'") |
+| <ul><li>Haz click en el botón _Fork_ </li></ul> | ![Fork](/readme-only/fork.png "Haz click en 'Fork'") |
 | :---------------------------------------------- | ---------------------------------------------------: |
 
 
