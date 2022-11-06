@@ -69,7 +69,7 @@ _Procenjeno vreme: Manje od 30 minuta_.
 - Repozitorijum (repo) je način na koji se projekat naziva na GitHub-u, a fork je njegova kopija.
 - Uverite se da ste na [glavnoj stranici](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
-| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.PNG "klikni na 'Fork'") |
+| <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.png "klikni na 'Fork'") |
 | :----------------------------------------- | ------------------------------------------------: |
 
 
