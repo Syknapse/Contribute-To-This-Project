@@ -168,13 +168,11 @@ footer {
 .card {
   display: flex;
   flex-direction: column;
-  /* border: 1px solid var(--dark-purple); */
   margin: 18px;
   border-radius: 5px;
   width: 500px;
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
-  /* box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25); */
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.2);
   transition: 0.5s;
 }
@@ -182,10 +180,8 @@ footer {
 .card:hover {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.5);
-  /* box-shadow: 2px 2px 5px 2px rgba(82, 81, 85, 0.5); */
   box-shadow: 2px 2px 5px 2px rgba(82, 81, 85, 0.35);
   transform: translateY(-5px);
-  /* border: 2px 2px 5px 2px rgba(82, 81, 85, 0.5); */
 }
 
 .name {
