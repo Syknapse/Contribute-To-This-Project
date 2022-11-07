@@ -70,7 +70,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - المستودع (repo) هو الإسم الذي يطلق على أي مشروع في GitHub وال fork هي نسخة منه.
 - تأكد من أنك في [الصفحة الرئيسية](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') لهذا المشروع.
 
-| <ul><li>اضغط على زر _Fork_</li></ul> | ![Fork](../../readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>اضغط على زر _Fork_</li></ul> | ![Fork](../../readme-only/fork.png "click on 'Fork'") |
 | :----------------------------------- | -------------------------------------------------: |
 
 
