@@ -83,7 +83,7 @@ _Temps estimé: moins de 30 minutes_.
 - Un référentiel (repo) est la façon dont un projet est appelé sur GitHub et un fork en est une copie.
 - Assurez-vous que vous êtes sur la [page principale](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de ce repo.
 
-| <ul><li>Cliquez sur le bouton _Fork_</li></ul> | ![Fork](/readme-only/fork.PNG "cliquez sur 'Fork'") |
+| <ul><li>Cliquez sur le bouton _Fork_</li></ul> | ![Fork](/readme-only/fork.png "cliquez sur 'Fork'") |
 | :--------------------------------------------- | --------------------------------------------------: |
 
 
