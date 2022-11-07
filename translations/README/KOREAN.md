@@ -69,7 +69,7 @@ _예상 소요 시간: 30분 미만_.
 - 저장소는 GitHub에서 프로젝트가 호출되는 방식이며 포크는 프로젝트의 복사본입니다.
 - 이 저장소의 [메인 페이지](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')에서 아래 그림과 같은 버튼을 찾으세요.
 
-| <ul><li> _Fork_ 버튼을 클릭하세요.</li></ul> | ![Fork](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/fork.PNG) |
+| <ul><li> _Fork_ 버튼을 클릭하세요.</li></ul> | ![Fork](../../readme-only/fork.png) |
 | :------------------------------------------- | ----------------------------------------------------------------------------------------------: |
 
 
