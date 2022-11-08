@@ -30,7 +30,7 @@ Wenn du mit der Entwicklung grade beginnst und dich fragst ob du Git und GitHub 
 
 ## Was werde ich beisteuern?
 
-![Contributor Card](readme-only/card.PNG 'Contributor Card')
+![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
 Du wirst eine Card, so wie diese, beisteuern zur [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project').
 Sie wird deinen Namen, deinen Twitter-Link, eine kurze Beschreibung und drei von dir empfohlene Links zu nützlichen Seiten für Entwickler beinhalten.
@@ -71,7 +71,7 @@ _Geschätzte Zeit: weniger als 30 Minuten_.
 - Als Repository (Repo) bezeichnet man ein Projekt auf GitHub und ein Fork ist eine Kopie davon.
 - Stellen sicher, dass du dich auf der [Hauptseite](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') dieses Repos befinden.
 
-| <ul><li>Klicke auf die Schaltfläche _Fork_</li></ul> | ![Fork](readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>Klicke auf die Schaltfläche _Fork_</li></ul> | ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :--------------------------------------------------- | ----------------------------------------------: |
 
 
@@ -84,13 +84,13 @@ _Geschätzte Zeit: weniger als 30 Minuten_.
 - Jetzt wollen wir eine lokale Kopie des Projekts erstellen. Das ist eine Kopie, die auf deinem eigenen Computer gespeichert ist.
 - Öffne die GitHub-Desktop-App. In der App:
 
-| <ul><li>Klicke auf _Datei_ und dann auf _Repository klonen_</li></ul> | ![Clone](readme-only/clone.PNG 'click clone repository') |
+| <ul><li>Klicke auf _Datei_ und dann auf _Repository klonen_</li></ul> | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :-------------------------------------------------------------------- | -------------------------------------------------------: |
 
 
-| <ul><li>Du siehst eine Liste deiner Projekte und Forks auf GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Klicke auf _Klonen_</li></ul> | ![Clone project](readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>Du siehst eine Liste deiner Projekte und Forks auf GitHub.</li><li>Select `<your-github-username>/Contribute-To-This-Project`.</li><li>Klicke auf _Klonen_</li></ul> | ![Clone project](/readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
-| <ul><li>Ein Fork-Projekt hat das Fork-Symbol auf der linken Seite.</li><li>Dein Fork wird deinen eigenen GitHub-Benutzernamen haben.</li></ul>                               |    ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>Ein Fork-Projekt hat das Fork-Symbol auf der linken Seite.</li><li>Dein Fork wird deinen eigenen GitHub-Benutzernamen haben.</li></ul>                               |    ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
 
 - Dies dauert einen Moment, da das Projekt auf deine Festplatte kopiert wird. Ich empfehle, dass du den Standardpfad beibehälst, der normalerweise der Fall ist `..\Documents\GitHub`.
 - Jetzt hast du eine lokale Kopie des Projekts.

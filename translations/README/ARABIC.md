@@ -30,7 +30,7 @@
 
 ## بم سأساهم؟
 
-![كرت المساهمين](../readme-only/card.PNG 'Contributor Card')
+![كرت المساهمين](../../readme-only/card.PNG 'Contributor Card')
 
 سوف تساهم بكرت كهذا تماماً على [صفحة الويب لهذا المشروع](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). سيحتوي الكرت على اسمك، معرف تويتر الخاص بك، وصف مختصر، و 3 روابط لمصادر من ترشيحك لمطوري الويب.
 
@@ -70,7 +70,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - المستودع (repo) هو الإسم الذي يطلق على أي مشروع في GitHub وال fork هي نسخة منه.
 - تأكد من أنك في [الصفحة الرئيسية](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') لهذا المشروع.
 
-| <ul><li>اضغط على زر _Fork_</li></ul> | ![Fork](../readme-only/fork.PNG "click on 'Fork'") |
+| <ul><li>اضغط على زر _Fork_</li></ul> | ![Fork](../../readme-only/fork.png "click on 'Fork'") |
 | :----------------------------------- | -------------------------------------------------: |
 
 
@@ -83,13 +83,13 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - الآن نريد عمل نسخة محلية من المشروع. هذا يعني نسخة من المشروع محفوظة على جهازك الشخصي.
 - افتح تطبيق GitHub لسطح المكتب. في التطبيق:
 
-| <ul><li>اضغط على _File_ ثم _Clone repository_</li></ul> | ![Clone](../readme-only/clone.PNG 'click clone repository') |
+| <ul><li>اضغط على _File_ ثم _Clone repository_</li></ul> | ![Clone](../../readme-only/clone.PNG 'click clone repository') |
 | :------------------------------------------------------ | ----------------------------------------------------------: |
 
 
-| <ul><li>سترى قائمة من مشاريعك ونسخاتك على GitHub.</li><li>اختر `<your-github-username>/Contribute-To-This-Project`.</li><li>اضغط على _Clone_</li></ul> | ![Clone project](../readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
+| <ul><li>سترى قائمة من مشاريعك ونسخاتك على GitHub.</li><li>اختر `<your-github-username>/Contribute-To-This-Project`.</li><li>اضغط على _Clone_</li></ul> | ![Clone project](../../readme-only/clone-project.PNG 'click on <your-github-username>/Contribute-To-This-Project') |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
-| <ul><li>المشاريع المستنسخة ستملك أيقونة النسخ (fork) على يسارها</li><li>نسختك ستكون تحت اسم حسابك الشخصي</li></ul>                                     |    ![your fork](../readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
+| <ul><li>المشاريع المستنسخة ستملك أيقونة النسخ (fork) على يسارها</li><li>نسختك ستكون تحت اسم حسابك الشخصي</li></ul>                                     |    ![your fork](../../readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name')    |
 
 - سيستغرق الأمر بعض الوقت ريثما يتم نسخ المشروع إلى القرص الخاص بك. أنصحك بترك المسار الافتراضي كما هو والذي هو عادة `..\Documents\GitHub`.
 - الآن لديك نسخة محلية من المشروع.
@@ -101,17 +101,17 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - بمجرد أن أنشأت نسخة من المستودع وفمت بفتحها على تطبيق GitHub لسطح المكتب فقد حان وقت إنشاء تفرع جديد (branch).
 - التفرع (branch) هي وسيلة لفصل تغييراتك عن المشروع الأساسي المسمى `Master`. على سبيل المثال إن لم تسر الأمور على ما يرام ولست سعيداً بالتغييرات التي قمت بها فيمكنك ببساطة حذف التفرع من دون أن تؤثر على المشروع الأساسي.
 
-| <ul><li>اضغط على _Current branch_</li><li>ثم اضغط على _New_</li></ul> | ![Create branch](../readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| <ul><li>اضغط على _Current branch_</li><li>ثم اضغط على _New_</li></ul> | ![Create branch](../../readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :-------------------------------------------------------------------- | ------------------------------------------------------------------------------: |
 
 
-| <ul><li>أعط التفرع الجديد اسماً</li><li>اضفط على `Create branch`</li></ul> | ![Name branch](../readme-only/branch-name.PNG 'Name your branch') |
+| <ul><li>أعط التفرع الجديد اسماً</li><li>اضفط على `Create branch`</li></ul> | ![Name branch](../../readme-only/branch-name.PNG 'Name your branch') |
 | :------------------------------------------------------------------------- | ----------------------------------------------------------------: |
 
 
 - يمكنك تسمية التفرع ما تشاء، لكن بما أن الغرض من هذا التفرع هو إضافة كرت بإسمك إلى المشروع، فتسمية التفرع بـ `your-name-card` على سبيل المثال خيار جيد، فهو يجعل الغرض من التفرع واضحاً من خلال الإسم.
 
-| <ul><li>أنشر تفرعك الجديد على GitHub</li></ul> | ![Name branch](../readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| <ul><li>أنشر تفرعك الجديد على GitHub</li></ul> | ![Name branch](../../readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 | :--------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -128,7 +128,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - جد مجلد المشروع على جهازك. إن كنت حافظت على المسار الافتراضي فسيكون نحو التالي `your-computer > Documents > GitHub > Contribute-To-This-Project`
 - ملف `index.html` يوجد مباشرة داخل مجلد `Contribute-To-This-Project`.
 
-| <ul><li>افتح محرر الأكواد خاصتك (Sublime, VS Code, Atom..etc) واستعمل أمر `Open file` وجد ملف index.html في المجلد الرئيسي للمشروع</li><li>أو بدلاً من ذلك يمكنك إيجاد الملف على القرص الخاص بك, الضغط بزر الماوس الأيمن, ثم فتح عبر محرر الأكواد الذي تفضله</li></ul> | ![Open index file](../readme-only/index-open.PNG 'Open index.html in your text editor') |
+| <ul><li>افتح محرر الأكواد خاصتك (Sublime, VS Code, Atom..etc) واستعمل أمر `Open file` وجد ملف index.html في المجلد الرئيسي للمشروع</li><li>أو بدلاً من ذلك يمكنك إيجاد الملف على القرص الخاص بك, الضغط بزر الماوس الأيمن, ثم فتح عبر محرر الأكواد الذي تفضله</li></ul> | ![Open index file](../../readme-only/index-open.PNG 'Open index.html in your text editor') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------: |
 
 
@@ -142,11 +142,11 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 | <ul><li>في أعلى ملف ال html, تحت فسمي `<head>` و `<header>` ستجد القسم المسمى `== TEMPLATE ==`</li><li>قم بنسخ كل شئ داخل المربع الأحمر في الصورة, بدءًا من التعليق `Contributor card START` إلى التعليق `Contributor card END`</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copy card template](../readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                              |
+| ![Copy card template](../../readme-only/card-copy.PNG 'Copy the card template')                                                                                                                                                              |
 
 | <ul><li>قم بلصق ما نسخته مباشرة تحت التعليق الذي يشير لذلك</li><li>تأكد من وجود مسافة (space) واحدة بين بداية كرتك ونهاية آخر كرت. إن من جودة العمل أن نحافظ على الكود الخاص بنا واضحاً ما أمكن</li><li>لا تقم باستخدام معالجات تنسيق الكود. المشروع به Prettier مثبت مسبقاً</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Paste card template](../readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                 |
+| ![Paste card template](../../readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                 |
 
 - الآن هذا هو **كرتك الخاص** لتقوم بتخصيصه وتعديله.
 
@@ -156,23 +156,23 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 
 - سنقوم الآن ببدء تعديل كود ال html، بتغيير الخانات المخصصة على الكرت الخاص بنا.
 
-| <ul><li>استبدل 'Name' بإسمك</li><li>ملاحظة: لا تقم بتغيير `class="name"`</li></ul> | ![Change name](../readme-only/change-name.PNG 'Type your name') |
+| <ul><li>استبدل 'Name' بإسمك</li><li>ملاحظة: لا تقم بتغيير `class="name"`</li></ul> | ![Change name](../../readme-only/change-name.PNG 'Type your name') |
 | :--------------------------------------------------------------------------------- | --------------------------------------------------------------: |
 
 
 | <ul><li>أدخل رابط حساب تويتر الخاص بك `href="Insert URL here"`</li><li>اكتب المعرف الخاص بك في حقل النص</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------- |
-| ![Change contact](../readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| ![Change contact](../../readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 
 - إذا كنت ترغب باستخدام وسيلة تواصل غير تويتر فعليك استبدال الأيقونة `<i class="fa fa-twitter"></i>` بالذهاب إلى [Font Awesome Icons](http://fontawesome.io/icons/) والبحث عن الأيقونة المناسبة ثم فقط استبدال جزئية `fa-twitter` بالأيقونة الجديدة مثل `fa-facebook` على سبيل المثال. ثم اتبع نفس الخطوات بالأعلى.
 
-| <ul><li>أخبرنا شيئاً عنك</li><li>حافظ عليها قصيرة ومختصرة. فكر بها كتغيرة بدلاً عن مقالة</li></ul> | ![Change about](../readme-only/change-about.PNG 'Write a sentence about you') |
+| <ul><li>أخبرنا شيئاً عنك</li><li>حافظ عليها قصيرة ومختصرة. فكر بها كتغيرة بدلاً عن مقالة</li></ul> | ![Change about](../../readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------: |
 
 
 | <ul><li>شارك مع المجتمع 3 روابط لمصادر مفيدة في مجال تطوير الويب</li><li>المصدر يمكن أن يكون أي شئ, فيديو, مخاطبة, بودكاست, مقال, مرجع, أو أداة</li><li>إن كنت مبتدئاً فلا تجعل هذا يخيفك، شارك ما تعرفه حتى إن كنت تعرف أنه بسيط. ستفاجئ كم من الناس سيجده ذو فائدة</li></ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Change resources](../readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                           |
+| ![Change resources](../../readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                           |
 | <ul><li>رابط: أدرج الرابط هنا`href="here"` مستبدلاً `#`</li><li>العنوان: اكتب وصفاً مختصراً `title="here"`</li><li>الاسم: اكتب اسم المصدر في حقل النص `>here</a>`</li></ul>                                                                                                    |
 
 - تأكد من قيامك **بحفظ جميع تعديلاتك**.
@@ -188,15 +188,15 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - هذا يعني أن GitHub قد قام بتسجيل التغييرات **المحفوظة**.
 - يمكنك مشاهدة ذلك في التطبيق. أي شئ قمت بإضافته للملف سيبدو باللون الأخضر، وعمليات الحذف ستظهر باللون الأحمر.
 
-| <ul><li>الخطوة التالية تسمى*Commit*</li><li>والتي تعني بشكل عاك "تأكيد التغييرات"</li></ul> | ![Commit changes](../readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
+| <ul><li>الخطوة التالية تسمى*Commit*</li><li>والتي تعني بشكل عاك "تأكيد التغييرات"</li></ul> | ![Commit changes](../../readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left") |
 | :------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>هكذا يفترض أن يبدو الجزء العلوي من تطبيق GitHub الخاص بك</li><li>لاحظ شعار النسخة (fork) جوار الإسم عند `Current repository`</li><li`Current branch` أو التفرع الحالي سيحمل نفس الإسم الذي أعطيته إياه في الخطوة رقم 3</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](../readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                   |
+| ![Commit changes](../../readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                   |
 
-| <ul><li>لعمل _Commit_ عليك ملء حقل الملخص _Summary_</li><li>هذه هي الرسالة التي تشرح ما قمت به من تغييرات</li><li>في هذه الحالة "Add my card information" ستكون رسالة منطقية</li><li>كذلك يمكنك إختيارياً إضافة وصف أكثر تفصيلاً _Description_</li><li>اضغط على زر _Commit_. سيحتوي الزر على نص يقول على سبيل المثال `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](../readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
+| <ul><li>لعمل _Commit_ عليك ملء حقل الملخص _Summary_</li><li>هذه هي الرسالة التي تشرح ما قمت به من تغييرات</li><li>في هذه الحالة "Add my card information" ستكون رسالة منطقية</li><li>كذلك يمكنك إختيارياً إضافة وصف أكثر تفصيلاً _Description_</li><li>اضغط على زر _Commit_. سيحتوي الزر على نص يقول على سبيل المثال `Commit to "your-branch-name"`</li></ul> | ![Write commit message and commit](../../readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'") |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -207,7 +207,7 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - تعديلاتك الآن محفوظة أو مؤكدة (committed). لكنها محفوظة فقط محليا على جهازك الشخصي.
 - عملية مزامنة تغييراتك المحلية مغ المستودع على Github تسمى _Push_. فأنت تدفع التغييرات من جهازك الشخصي إلى المستودع البعيد على Github.
 
-| <ul><li>اضغط على زر _Push_</li></ul> | ![Push to GitHub](../readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| <ul><li>اضغط على زر _Push_</li></ul> | ![Push to GitHub](../../readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :----------------------------------- | ---------------------------------------------------------------------------------------------------: |
 
 
@@ -225,15 +225,15 @@ _الوقت المقدر: أقل من 30 دقيقة_.
 - إذهب إلى الصفحة الرئيسية **لنسختك (fork)** على GitHub (ستحتوي على أيقونة النسخ واسم المستخدم الخاص بك في الأعلى).
 - في اتجاه الجزء العلوي من المستودع ستجد رسالة مظللة لعملية pull request مع زر أخضر اللون.
 
-| <ul><li>اضغط على `Compare and pull request`</li></ul> | ![Submit a Pull Request](../readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
+| <ul><li>اضغط على `Compare and pull request`</li></ul> | ![Submit a Pull Request](../../readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
 | :---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
 | <ul><li>هذا هو ما تبدو عليه صفحة تقديم طلب pull request جديد</li><li>تذكر _أنت تحاول دمج تفرعك مع المشروع الأساسي، وليس مع تفرع Master في نسختك_.</li><li>الصورة أدنه تعطيك فكرة عن كيف سيبدو الجزء الأعلى من طلب pull request الخاص بك.</li><li>على اليسار من المشروع الأصلي, متبوعاً بتفرع Master. على اليمين هي نسختك (fork) والتفرع (branch) الذي قمت بإنشائه</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Open a Pull Request](../readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                    |
+| ![Open a Pull Request](../../readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project')                                                                                                                                                                                                    |
 
-| <ul><li>أنشئ طلب pull request:</li><li>أكتب عنواناً</li><li>قم بإضافة معلومات (اختيارية) في الوصف</li><li>اضغط على `Create pull request`</li></ul> | ![Submit a Pull Request](../readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
+| <ul><li>أنشئ طلب pull request:</li><li>أكتب عنواناً</li><li>قم بإضافة معلومات (اختيارية) في الوصف</li><li>اضغط على `Create pull request`</li></ul> | ![Submit a Pull Request](../../readme-only/pull-request-open.PNG "Click the green button. Don't be scared!") |
 | :------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------: |
 
 
