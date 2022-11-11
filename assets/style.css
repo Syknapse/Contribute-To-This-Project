@@ -1,7 +1,7 @@
 :root {
   --dark-purple: #100633;
   --purple: #1f0b6b;
-  --white: #fff;
+  --white: #00ffff;
   --light-grey: #f2f2f2;
   --light-grey1: #d2d6dc;
   --pink: #fa3d66;
@@ -118,6 +118,7 @@ p {
   padding-bottom: 16px;
 }
 
+
 .column {
   display: flex;
   flex-direction: column;
@@ -128,6 +129,8 @@ p {
   margin-left: 16px;
   margin-right: 16px;
 }
+
+
 .column-right {
   text-align: right;
   margin-left: 16px;
