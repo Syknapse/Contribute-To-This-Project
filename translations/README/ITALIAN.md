@@ -66,7 +66,7 @@ _ Tempo stimato: meno di 30 minuti_.
 - Un repository (repo) è il modo in cui un progetto viene chiamato su GitHub e un fork corrisponde a una copia.
 - Assicurati di essere nella [pagina principale](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') di questo repo.
 
-| <ul><li>Fai click sul bottone _Fork_ </li></ul> | ![Fork](/readme-only/fork.PNG "fai click su 'Fork'") |
+| <ul><li>Fai click sul bottone _Fork_ </li></ul> | ![Fork](/readme-only/fork.png "fai click su 'Fork'") |
 | :---------------------------------------------- | ---------------------------------------------------: |
 
 
