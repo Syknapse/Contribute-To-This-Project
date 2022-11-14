@@ -133,6 +133,7 @@ p {
   padding-bottom: 16px;
 }
 
+
 .column {
   display: flex;
   flex-direction: column;
@@ -145,10 +146,6 @@ p {
   text-align: center;
   margin-left: 16px;
   margin-right: 16px;
-}
-.column-left p {
-  max-width: 675px;
-  line-height: 22px;
 }
 .column-right {
   text-align: right;
