@@ -147,6 +147,10 @@ p {
   margin-left: 16px;
   margin-right: 16px;
 }
+.column-left p {
+  max-width: 675px;
+  line-height: 22px;
+}
 .column-right {
   text-align: right;
   margin-left: 16px;
