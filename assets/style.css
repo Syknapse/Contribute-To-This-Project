@@ -63,7 +63,8 @@ p {
   height: 50px;
   text-align: center;
   border: none;
-  color: #525252;
+  color: #fff;
+  background-color: #ffbc22;
   border-radius: 15px;
   transition: all 1s;
   box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
@@ -119,7 +120,6 @@ p {
   padding-bottom: 16px;
 }
 
-
 .column {
   display: flex;
   flex-direction: column;
@@ -130,7 +130,6 @@ p {
   margin-left: 16px;
   margin-right: 16px;
 }
-
 
 .column-right {
   text-align: right;
@@ -380,4 +379,3 @@ body.night {
     flex: 2;
   }
 }
-
