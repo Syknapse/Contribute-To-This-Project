@@ -119,6 +119,7 @@ p {
   padding-bottom: 16px;
 }
 
+
 .column {
   display: flex;
   flex-direction: column;
@@ -129,6 +130,8 @@ p {
   margin-left: 16px;
   margin-right: 16px;
 }
+
+
 .column-right {
   text-align: right;
   margin-left: 16px;
