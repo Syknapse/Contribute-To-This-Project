@@ -48,7 +48,34 @@ p {
   line-height: 1.7;
 }
 
+/* .searchContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  transition: all 1s;
+} */
+
+/* #searchbar {
+  font-size: 1.2em;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border: none;
+  color: gray;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: all 1s;
+  box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
+} */
+
 .searchContainer {
+  background: none;
+  text-decoration: inherit;
+  font-family: system-ui;
+  font-size: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,17 +85,19 @@ p {
 }
 
 #searchbar {
-  font-size: 1.2em;
+  font-size: 1.1em;
   width: 500px;
   height: 50px;
   text-align: center;
   border: none;
-  color: #fff;
-  background-color: #ffbc22;
-  font-weight: 600;
-  border-radius: 15px;
+  color: gray;
+  font-weight: 400;
   transition: all 1s;
-  box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  border-image-source: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
 }
 
 .twitter-button {
