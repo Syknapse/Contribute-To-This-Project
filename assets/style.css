@@ -19,6 +19,11 @@ body {
   font-family: 'Poppins', arial, sans-serif;
 }
 
+/* FONTS */
+h1{
+  font-family: 'Domine', serif;
+}
+
 header {
   margin: 10px auto 20px auto;
   text-align: left;
@@ -82,12 +87,13 @@ p {
 }
 
 .button {
+  padding: 16px 22px;
+  gap: 8px;
   color: var(--white) !important;
-  width: 230px;
+  width: 222px;
+  border-radius: 5px;
   background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
   border: none;
-  padding: 16px 20px;
-  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -97,6 +103,14 @@ p {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+}
+
+.button:hover{
+   box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
 }
 
 .container {
@@ -126,12 +140,17 @@ p {
   flex-basis: 100%;
 }
 .column-left {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-left: 16px;
   margin-right: 16px;
 }
-
-
+.column-left p {
+  max-width: 675px;
+  line-height: 22px;
+}
 .column-right {
   text-align: right;
   margin-left: 16px;
@@ -381,3 +400,22 @@ body.night {
   }
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
