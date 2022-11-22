@@ -20,7 +20,7 @@ body {
 }
 
 /* FONTS */
-h1{
+h1 {
   font-family: 'Domine', serif;
 }
 
@@ -114,12 +114,12 @@ p {
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
 }
 
-.button:hover{
-   box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
-   -moz-transition: all 0.4s ease-in-out;
-   -o-transition: all 0.4s ease-in-out;
-   -webkit-transition: all 0.4s ease-in-out;
-   transition: all 0.4s ease-in-out;
+.button:hover {
+  box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .container {
@@ -411,7 +411,7 @@ body.night {
 }
 
 #myBtn {
-  display: flex;
+  display: none;
   align-items: center;
   position: fixed; /* Fixed/sticky position */
   bottom: 20px; /* Place the button at the bottom of the page */
@@ -438,4 +438,3 @@ body.night {
     height: 2.5rem;
   }
 }
-
