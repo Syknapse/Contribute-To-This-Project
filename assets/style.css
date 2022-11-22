@@ -10,6 +10,7 @@
   --ease-out: 0.25s ease-in-out;
 }
 
+
 body {
   color: var(--dark-purple);
   background-size: 100% 400%;
@@ -339,7 +340,6 @@ body.night {
   height: 16px;
   width: 16px;
   margin: 4px;
-  /*border-radius*/
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
   border-radius: 100%;
@@ -401,21 +401,20 @@ body.night {
 }
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 36px;
+  border-radius: 50%;
+  box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
+  background: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
 }
 
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+#myBtn img{
+  width: 40px; 
+  height: 40px; 
 }
