@@ -83,6 +83,10 @@ p {
   border-image-source: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
 }
 
+#searchbar:focus {
+  outline: none;
+}
+
 .twitter-button {
   text-align: right;
   margin-bottom: 24px;

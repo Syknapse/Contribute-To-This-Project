@@ -62,11 +62,11 @@ const getArchiveCards = i => {
 getArchiveCards(current)
 
 // night mode feature
-document.getElementById('toggle-box-checkbox').addEventListener('change', () => {
-  if (this.checked) {
-    document.getElementsByTagName('body').classList.add('night')
+document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
+  if (e.target.checked) {
+    document.body.classList.add('night')
   } else {
-    document.getElementsByTagName('body').classList.remove('night')
+    document.body.classList.remove('night')
   }
 })
 
