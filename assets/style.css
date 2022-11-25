@@ -19,6 +19,10 @@ body {
   font-family: 'Poppins', arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* FONTS */
 h1{
   font-family: 'Domine', serif;
