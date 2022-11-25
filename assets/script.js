@@ -62,13 +62,13 @@ const getArchiveCards = i => {
 getArchiveCards(current)
 
 // night mode feature
-document.getElementById("toggle-box-checkbox").addEventListener('change', () => { 
-   if (this.checked) {  
-      document.getElementsByTagName('body').classList.add("night") 
-     } else {  
-      document.getElementsByTagName('body').classList.remove("night")  }});
-
-
+document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
+  if (e.target.checked) {
+    document.body.classList.add('night')
+  } else {
+    document.body.classList.remove('night')
+  }
+})
 
 // Current year for footer
 const currentYearSpan = document.getElementById('currentYear')
@@ -116,23 +116,24 @@ function searchCard() {
   }
 }
 
-
 // Get the button:
-let mybutton = document.getElementById("myBtn");
+let mybutton = document.getElementById('myBtn')
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+// When the user scrolls down 500px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction()
+}
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "flex";
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = 'flex'
   } else {
-    mybutton.style.display = "none";
+    mybutton.style.display = 'none'
   }
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  document.body.scrollTop = 0 // For Safari
+  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
 }
