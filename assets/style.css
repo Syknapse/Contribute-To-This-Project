@@ -23,11 +23,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* FONTS */
-h1{
-  font-family: 'Domine', serif;
-}
-
 header {
   margin: 10px auto 20px auto;
   text-align: left;
