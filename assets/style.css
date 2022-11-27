@@ -19,6 +19,10 @@ body {
   font-family: 'Poppins', arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   margin: 10px auto 20px auto;
   text-align: left;
