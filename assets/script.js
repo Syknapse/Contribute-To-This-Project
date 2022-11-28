@@ -38,7 +38,7 @@ const createArchiveObject = i => {
   archiveObject.setAttribute('height', '5000')
   container.append(archiveObject)
 }
-const NUMBER_OF_FILES = 14
+const NUMBER_OF_FILES = 15
 let current = 1
 const getArchiveCards = i => {
   createArchiveObject(i)
@@ -62,22 +62,13 @@ const getArchiveCards = i => {
 getArchiveCards(current)
 
 // night mode feature
-$('#toggle-box-checkbox').on('change', function() {
-  if (this.checked) {
-    $('body').addClass('night')
+document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
+  if (e.target.checked) {
+    document.body.classList.add('night')
   } else {
-    $('body').removeClass('night')
+    document.body.classList.remove('night')
   }
 })
-
-function demo() {
-  setInterval(function() {
-    $('#toggle-box-checkbox').trigger('click')
-  }, 1000)
-}
-if (document.location.pathname.indexOf('fullcpgrid') > -1) {
-  demo()
-}
 
 // Current year for footer
 const currentYearSpan = document.getElementById('currentYear')
@@ -123,4 +114,26 @@ function searchCard() {
       applyHighlightToSearchResults(input, cards[i])
     }
   }
+}
+
+// Get the button:
+let mybutton = document.getElementById('myBtn')
+
+// When the user scrolls down 500px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction()
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = 'flex'
+  } else {
+    mybutton.style.display = 'none'
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0 // For Safari
+  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
 }

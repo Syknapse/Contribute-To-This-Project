@@ -19,6 +19,10 @@ body {
   font-family: 'Poppins', arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
   margin: 10px auto 20px auto;
   text-align: left;
@@ -49,6 +53,11 @@ p {
 }
 
 .searchContainer {
+  background: none;
+  text-decoration: inherit;
+  font-family: system-ui;
+  font-size: 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,15 +67,23 @@ p {
 }
 
 #searchbar {
-  font-size: 1.2em;
+  font-size: 1.1em;
   width: 500px;
   height: 50px;
   text-align: center;
   border: none;
-  color: #525252;
-  border-radius: 15px;
+  color: gray;
+  font-weight: 400;
   transition: all 1s;
-  box-shadow: 0px 1px 11px 2px rgb(82 81 85 / 10%);
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  border-image-source: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
+}
+
+#searchbar:focus {
+  outline: none;
 }
 
 .twitter-button {
@@ -82,12 +99,13 @@ p {
 }
 
 .button {
+  padding: 16px 22px;
+  gap: 8px;
   color: var(--white) !important;
-  width: 230px;
+  width: 222px;
+  border-radius: 5px;
   background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
   border: none;
-  padding: 16px 20px;
-  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -97,6 +115,14 @@ p {
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+}
+
+.button:hover {
+  box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 .container {
@@ -119,18 +145,24 @@ p {
   padding-bottom: 16px;
 }
 
-
 .column {
   display: flex;
   flex-direction: column;
   flex-basis: 100%;
 }
 .column-left {
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   margin-left: 16px;
   margin-right: 16px;
 }
 
+.column-left p {
+  max-width: 675px;
+  line-height: 22px;
+}
 
 .column-right {
   text-align: right;
@@ -381,3 +413,31 @@ body.night {
   }
 }
 
+#myBtn {
+  display: none;
+  align-items: center;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 12px; /* Some padding */
+  border-radius: 8.471rem !important;
+  width: 3.088rem;
+  height: 3.088rem;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+@media screen and (max-width: 550px) {
+  #myBtn {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
