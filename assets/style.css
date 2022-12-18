@@ -11,7 +11,7 @@
 }
 
 body {
-  color: var(--dark-purple);
+  color: var(--purple);
   background-size: 100% 400%;
   background-position: 100% 0%;
   transition: all 1s;
@@ -26,7 +26,7 @@ html {
 header {
   margin: 10px auto 20px auto;
   text-align: left;
-  max-width: 1575px;
+  max-width: 1675px;
 }
 
 a {
@@ -72,7 +72,7 @@ p {
   height: 50px;
   text-align: center;
   border: none;
-  color: gray;
+  color: rgb(240, 217, 217);
   font-weight: 400;
   transition: all 1s;
   border: 10px solid;
@@ -126,7 +126,7 @@ p {
 }
 
 .container {
-  max-width: 1614px;
+  max-width: 1619px;
   margin: auto;
 }
 
