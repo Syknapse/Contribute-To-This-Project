@@ -88,12 +88,12 @@ p {
 
 .twitter-button {
   text-align: right;
-  margin-bottom: 24px;
+  margin-bottom: 29px;
 }
 
 #contributions-number {
   color: var(--pink);
-  transition: 2.8s;
+  transition: 2.9s;
   font-weight: bold;
   font-size: 36px;
 }
@@ -112,13 +112,13 @@ p {
   font-size: 16px;
   margin: 24px 2px;
   cursor: pointer;
-  -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
+  -webkit-box-shadow: 1px 1px 5px 1px rgba(143, 142, 149, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
 }
 
 .button:hover {
-  box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
+  box-shadow: 4px 5px 27px 4px rgb(217, 198, 131);
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   -webkit-transition: all 0.4s ease-in-out;
