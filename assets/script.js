@@ -95,8 +95,8 @@ function applyHighlightToSearchResults(value, card) {
     element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
   )
 
-  if (value && value.length > 1) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>${value}</mark>`)))
+  if (value && value.length > 0) {
+    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
   }
 }
 
