@@ -306,7 +306,7 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 ![Close PR's](https://badgen.net/github/closed-prs/Syknapse/Contribute-To-This-Project)
 ![Merged PR's](https://badgen.net/github/merged-prs/Syknapse/Contribute-To-This-Project)
 
-![Repo Stat](https://github-readme-stats.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
+![Repo Stat](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
 
 <h4 align="center">Maintainers</h4>
 
