@@ -96,7 +96,7 @@ function applyHighlightToSearchResults(value, card) {
   )
 
   if (value && value.length > 1) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>${value}</mark>`)))
+    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
   }
 }
 
