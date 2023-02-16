@@ -49,7 +49,7 @@ This tutorial is also available in [other languages](translations/translation.md
 
 | [Arabic](translations/README/ARABIC.md)         | [French](translations/README/FRENCH.md)   | [German](translations/README/German.md)   | [Italian](translations/README/ITALIAN.md) | [Korean](translations/README/KOREAN.md) | [Polish](translations/README/POLISH.md) | [Japan](translations/README/JAPANESE.md) |
 | ----------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bangla](translations/README/BANGLA.md) | English                                 |
+| [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bangla](translations/README/BANGLA.md) | [Hindi](translations/README/HINDI.md) | English |
 
 > Translations for either this README or the maintainer README file are very welcome!.
 
