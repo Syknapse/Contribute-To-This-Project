@@ -233,7 +233,7 @@ git commit -m "Add <your-name> card info"
 - We use the `git push` command to push changes to github.
 
 ```bash
-git push origin -u <add-your-branch-name>
+git push origin -u origin <add-your-branch-name>
 ```
 
 - Replacing `<add-your-branch-name>` with your branch name.
