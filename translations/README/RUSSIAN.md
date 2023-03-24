@@ -1,4 +1,7 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+
+![image info](/favicon.png)
+
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
@@ -203,8 +206,8 @@ _Примерное время: Менее 30 минут_.
 - Теперь ваши изменения сохранены или зафиксированы. Но они сохранены только локально, то есть на вашем компьютере.
 - Синхронизация локальных изменений с вашим репозиторием на GitHub называется _Push_. Вы "проталкиваете" изменения из вашего локального репозитория в удаленный репозиторий на GitHub.
 
-| <ul><li>Нажмите на кнопку _Push_</li></ul> | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
-|:-------------------------------------------| ------------------------------------------------------------------------------------------------: |
+| <ul><li>Нажмите на кнопку _Push_</li></ul> | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+|:-------------------------------------------|---------------------------------------------------------------------------------------------------:|
 
 
 - Через несколько секунд операция будет завершена, и теперь у вас есть точно такая же копия этой ветки как на вашей машине, так и на GitHub.
@@ -220,8 +223,8 @@ _Примерное время: Менее 30 минут_.
 - Перейдите на главную страницу **вашего форка** на GitHub (вверху будет значок форка и ваше имя пользователя).
 - В верхней части репозитория вы увидите выделенное сообщение Pull Request с зеленой кнопкой.
 
-| <ul><li>Нажмите на `Compare and pull request`</li></ul> | ![Submit a Pull Request](readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
-|:--------------------------------------------------------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <ul><li>Нажмите на `Compare and pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders') |
+|:--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 
 | <ul><li>Так выглядит страница `Open a pull request`.</li><li>ПОМНИТЕ _вы пытаетесь объединить свою ветку с оригинальным проектом, а не с веткой `Master` на вашем форке_..</li><li>Приведенное ниже изображение дает вам представление о том, как должен выглядеть заголовок вашего пулл реквеста.</li><li>Слева - исходный проект, за которым следует мастер-ветвь. Справа - ваш форк и созданная вами ветка.</li></ul> |
