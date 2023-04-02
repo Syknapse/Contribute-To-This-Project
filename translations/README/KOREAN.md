@@ -88,7 +88,7 @@ _예상 소요 시간: 30분 미만_.
 
 | <ul><li>GitHub에서 프로젝트 및 Fork 목록을 볼 수 있습니다.</li><li>`<your-github-username>/Contribute-To-This-Project`를 클릭하세요.</li><li>*Clone*을 클릭하세요</li></ul>        | ![Clone project](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone-project.PNG) |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------: |
-| <ul><li>A forked project will have the fork symbol on the left. fork된 프로젝트는 왼쪽에 fork 아이콘이 있습니다.</li><li>fork에는 고유한 GitHub 사용자 이름이 있습니다..</li></ul> |  ![your fork](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone-your-fork.PNG)  |
+| <ul><li>fork된 프로젝트는 왼쪽에 fork 아이콘이 있습니다.</li><li>fork에는 고유한 GitHub 사용자 이름이 있습니다.</li></ul> |  ![your fork](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone-your-fork.PNG)  |
 
 - 프로젝트가 하드디스크로 복사되는데 시간이 소요됩니다. 일반적으로 `..\Documents\GitHub`를 기본 경로로 설정하는 것을 추천드립니다.
 - 이제 프로젝트의 로컬 복사본이 생성되었습니다.
@@ -117,7 +117,7 @@ _예상 소요 시간: 30분 미만_.
 - 이제 마스터와 분리된 새로운 브랜치를 생성했습니다.
 - 다음 단계를 위해 이 브랜치에서 작업중인지 확인하세요. GitHub 데스크탑 앱의 상단 중앙에 *Current branch*에서 현재 브랜치의 이름이 표시됩니다.
 
-**절때 `master` 브랜치에서 작업하지 마세요.**
+**절대 `master` 브랜치에서 작업하지 마세요.**
 
 ---
 
@@ -137,13 +137,13 @@ _예상 소요 시간: 30분 미만_.
 
 ### 5단계: 카드 템플릿 복사
 
-- 작업을 시작하기에 앞서, 카드 템플릿의 복사본을 만들어야합니다.
+- 작업을 시작하기에 앞서, 카드 템플릿의 복사본을 만들어야 합니다.
 
 | <ul><li>html 파일 상단, `<head>` 및 `<header>` 섹션 아래에 `== TEMPLATE ==`레이블이 지정된 섹션이 있습니다.</li><li>아래 이미지에 빨간색으로 표시된 사각형 내부의 `Contributor card START`부터 `Contributor card END` 주석 사이의 모든 코드를 복사하세요. </li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Copy card template](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/card-copy.PNG)                                                                                                                                                   |
 
-| <ul><li>복사한 코드를 주석 바로 아래에 붙여넣으세요.</li><li>카드의 시작 부분과 마지막 끝 부분 사이에 공백 한줄이 있는지 확인하세요. 코드를 가능한 명확하게 유지하는 것이 좋습니다.</li><li>린터나 스타일 포매터를 사용하지마세요. 프로젝트에 Prettier 설정이 있습니다.</li></ul> |
+| <ul><li>복사한 코드를 주석 바로 아래에 붙여넣으세요.</li><li>카드의 시작 부분과 마지막 끝 부분 사이에 공백 한 줄이 있는지 확인하세요. 코드를 가능한 명확하게 유지하는 것이 좋습니다.</li><li>린터나 스타일 포매터를 사용하지마세요. 프로젝트에 Prettier 설정이 있습니다.</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Paste card template](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/card-paste.PNG)                                                                                                                                                              |
 
