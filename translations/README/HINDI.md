@@ -98,7 +98,7 @@ _अनुमानित समय: 30 मिनट से कम_.
 - अब हम परियोजना की एक स्थानीय प्रति बनाना चाहते हैं। यह आपकी अपनी मशीन पर सहेजी गई एक प्रति है।
 - GitHub डेस्कटॉप ऐप खोलें। ऐप में:
 
-| <ul><li>_File_ पर क्लिक करें, फिर _Clone रिपॉजिटरी_</li></ul> | पर क्लिक करें ![क्लोन](/readme-only/clone.पीएनजी 'क्लिक क्लोन रिपॉजिटरी') |
+| <ul><li>_File_ पर क्लिक करें, फिर _Clone रिपॉजिटरी_</li></ul> | पर क्लिक करें ![क्लोन](/readme-only/clone.PNG 'क्लिक क्लोन रिपॉजिटरी') |
 | :------------------------------------------------- ------- | --------------------------------------------------- -----: |
 
 
@@ -284,7 +284,7 @@ _अनुमानित समय: 30 मिनट से कम_.
 - आपको GitHub wh से एक ईमेल प्राप्त होना चाहिए
 
 hi आपके परिवर्तन स्वीकृत हो गए हैं, या यदि अतिरिक्त परिवर्तनों का अनुरोध किया गया है। और जब PR को अंततः मास्टर के साथ विलय कर दिया जाता है और आपका कार्ड जोड़ दिया जाता है।
-- यदि आपको यह परियोजना **उपयोगी** लगी हो तो कृपया इसे पृष्ठ के शीर्ष पर एक :star: star :star: दें और इसके बारे में **ट्वीट करें ताकि [![ट्वीट](https:/ /img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An% 20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'इसे ट्वीट करें परियोजना')
+- यदि आपको यह परियोजना **उपयोगी** लगी हो तो कृपया इसे पृष्ठ के शीर्ष पर एक :star: star :star: दें और इसके बारे में **ट्वीट करें ताकि [![ट्वीट](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An% 20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'इसे ट्वीट करें परियोजना')
 - आप **मुझे फ़ॉलो कर सकते हैं** और [ट्विटर](https://twitter.com/Syknapse '@Syknapse') या [इनमें से किसी अन्य विकल्प का उपयोग करके](https://syknapse.github) पर संपर्क कर सकते हैं। io/Syk-Houdeib/#contact 'मेरा संपर्क अनुभाग | पोर्टफोलियो')
 - यह एक ओपन सोर्स प्रोजेक्ट है, इसलिए आपके कार्ड का योगदान करने के अलावा बग, सुधार, या नई सुविधाओं को ठीक करने में आपका स्वागत है। एक [issue] (https://help.github.com/articles/creating-an-issue/ 'मास्टरिंग इश्यू | गिटहब गाइड्स') खोलें या एक नया [पुल अनुरोध] (https://help.github.com) भेजें / लेख/निर्माण-ए-पुल-अनुरोध-से-ए-फोर्क/ 'फोर्क से एक पुल अनुरोध बनाना | गिटहब सहायता')
 - हमारे समुदाय को बेहतर बनाने में सहायता के लिए पुल अनुरोधों के बगल में स्थित गिटहब [चर्चा](https://github.com/Syknapse/Contribute-To-This-Project/discussions) टैब पर एक नज़र डालें। यह क्षेत्र अपना परिचय देने, ओपन सोर्स पर गहन चर्चा करने और प्रोजेक्ट मेंटेनर्स के साथ संवाद करने का एक स्थान है। क्या आप इस सुविधा को बनाने और हमारे समुदाय को बढ़ाने में हमारी मदद करेंगे?
