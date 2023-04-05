@@ -58,8 +58,7 @@ This tutorial is also available in [other languages](translations/translation.md
 | <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute)</li><li>[Setup](#setup-)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-prpull-request)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-
-<h4 align="center">Setup! :)</h4>
+## Setup! :)
 
 First let's get setup to do the work
 
@@ -73,13 +72,13 @@ First let's get setup to do the work
 
 ## [↑ Go to top ↑](#quick-access-index)
 
-<h4 align="center">Contribute</h4>
+## Contribute
 
 Become an open source contributor in 10 easy steps.
 
 _Estimated time: Less than 30 minutes_.
 
-<h5 align="center">Step 1: Fork this repository</h5>
+### Step 1: Fork this repository 
 
 - The objective here is to make a copy of this project and place it in your account.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
@@ -94,7 +93,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 2: Clone the repository</h5>
+### Step 2: Clone the repository
 
 - Now we want to make a local copy of the project. That is a copy saved on your own machine.
 - Open the GitHub desktop app. In the app:
@@ -112,7 +111,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 3: Create a new branch</h5>
+### Step 3: Create a new branch 
 
 - Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
@@ -138,7 +137,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 4: Open the index.html file</h5>
+### Step 4: Open the index.html file
 
 - Now we need to open the file we are going to edit with your favourite code editor.
 - Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
@@ -152,7 +151,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 5: Copy the card template</h5>
+### Step 5: Copy the card template
 
 - We will make a copy of the card template to start working on it
 
@@ -168,7 +167,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 6: Apply your changes</h5>
+### Step 6: Apply your changes
 
 - We'll now start editing html, changing the customizable fields in our card.
 
@@ -197,7 +196,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 7: Commit your changes</h5>
+### Step 7: Commit your changes
 
 - Go back to the GitHub desktop app.
 - Your changes will have been added automatically to the staging area.
@@ -218,7 +217,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 8: Push your changes to GitHub</h5>
+### Step 8: Push your changes to GitHub
 
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
@@ -231,7 +230,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 9: Submit a PR(Pull Request)</h5>
+### Step 9: Submit a PR(Pull Request)
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -258,7 +257,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 10: Celebrate!!</h5>
+### Step 10: Celebrate!!
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
@@ -274,7 +273,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 
 ---
 
-<h4 align="center">Next Steps</h4>
+### Next Steps
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
