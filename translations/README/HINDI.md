@@ -281,12 +281,10 @@ _अनुमानित समय: 30 मिनट से कम_.
 <h4 align="center">अगले चरण</h4>
 
 - अपने मर्ज किए गए पुल अनुरोध की जांच करने के लिए थोड़ी देर में वापस आएं।
-- आपको GitHub wh से एक ईमेल प्राप्त होना चाहिए
-
-hi आपके परिवर्तन स्वीकृत हो गए हैं, या यदि अतिरिक्त परिवर्तनों का अनुरोध किया गया है। और जब PR को अंततः मास्टर के साथ विलय कर दिया जाता है और आपका कार्ड जोड़ दिया जाता है।
-- यदि आपको यह परियोजना **उपयोगी** लगी हो तो कृपया इसे पृष्ठ के शीर्ष पर एक :star: star :star: दें और इसके बारे में **ट्वीट करें ताकि [![ट्वीट](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An% 20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'इसे ट्वीट करें परियोजना')
-- आप **मुझे फ़ॉलो कर सकते हैं** और [ट्विटर](https://twitter.com/Syknapse '@Syknapse') या [इनमें से किसी अन्य विकल्प का उपयोग करके](https://syknapse.github) पर संपर्क कर सकते हैं। io/Syk-Houdeib/#contact 'मेरा संपर्क अनुभाग | पोर्टफोलियो')
-- यह एक ओपन सोर्स प्रोजेक्ट है, इसलिए आपके कार्ड का योगदान करने के अलावा बग, सुधार, या नई सुविधाओं को ठीक करने में आपका स्वागत है। एक [issue] (https://help.github.com/articles/creating-an-issue/ 'मास्टरिंग इश्यू | गिटहब गाइड्स') खोलें या एक नया [पुल अनुरोध] (https://help.github.com) भेजें / लेख/निर्माण-ए-पुल-अनुरोध-से-ए-फोर्क/ 'फोर्क से एक पुल अनुरोध बनाना | गिटहब सहायता')
+- आपको GitHub से एक ईमेल प्राप्त होना चाहिए की आपके परिवर्तन स्वीकृत हो गए हैं, या यदि अतिरिक्त परिवर्तनों का अनुरोध किया गया है। और जब PR को अंततः मास्टर के साथ विलय कर दिया जाता है और आपका कार्ड जोड़ दिया जाता है।
+- यदि आपको यह परियोजना **उपयोगी** लगी हो तो कृपया इसे पृष्ठ के शीर्ष पर एक :star: star :star: दें और इसके बारे में [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project') (**ट्वीट**) करें ताकि हमारी मदद हो सके ।  
+- आप [ट्विटर](https://twitter.com/Syknapse '@Syknapse') या [इनमें से किसी अन्य विकल्प का उपयोग करके](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio') मुझसे पर संपर्क कर सकते हैं ।
+- यह एक ओपन सोर्स प्रोजेक्ट है, इसलिए आपके कार्ड का योगदान करने के अलावा बग, सुधार, या नई सुविधाओं को ठीक करने में आपका स्वागत है। एक [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') खोलें या एक नया [पुल अनुरोध](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help') भेजें ।  
 - हमारे समुदाय को बेहतर बनाने में सहायता के लिए पुल अनुरोधों के बगल में स्थित गिटहब [चर्चा](https://github.com/Syknapse/Contribute-To-This-Project/discussions) टैब पर एक नज़र डालें। यह क्षेत्र अपना परिचय देने, ओपन सोर्स पर गहन चर्चा करने और प्रोजेक्ट मेंटेनर्स के साथ संवाद करने का एक स्थान है। क्या आप इस सुविधा को बनाने और हमारे समुदाय को बढ़ाने में हमारी मदद करेंगे?
 - **इस परियोजना में योगदान देने के लिए धन्यवाद**। अब आप आगे बढ़ सकते हैं और अन्य परियोजनाओं में योगदान करने का प्रयास कर सकते हैं; शुरुआत करने वालों के अनुकूल योगदान विकल्पों के लिए ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) लेबल देखें।
 - मैं PR की समीक्षा और विलय में सहयोग देने के लिए सहयोगियों की भी तलाश कर रहा हूं। यदि आप अधिक उन्नत गिट अभ्यास प्राप्त करना चाहते हैं तो कृपया मुझे ट्विटर पर एक डीएम भेजें और [मेंटेनर गाइड](maintainer_guide.md) पढ़ें।
@@ -320,4 +318,4 @@ hi आपके परिवर्तन स्वीकृत हो गए ह
 
 ![GitHub योगदानकर्ताओं की छवि](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
 
-[शीर्ष पर वापस जाएं &uparrow;](#introduction)
+[शीर्ष पर वापस जाएँ &uparrow;](#introduction)
