@@ -299,7 +299,7 @@ hi आपके परिवर्तन स्वीकृत हो गए ह
 
 <h4 align="center">प्रोजेक्ट की जानकारी</h4>
 
-[![लाइसेंस बैज](https://badgen.net/github/license/Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/blob /master/LICENSE)
+[![लाइसेंस बैज](https://badgen.net/github/license/Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
 ![हिबी-सिएंटो प्रोजेक्ट](https://img.shields.io/website-up-down-aqua-red/https/syknapse.github.io/Contribute-To-This-Project/)
 ![रखरखाव](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
@@ -307,12 +307,12 @@ hi आपके परिवर्तन स्वीकृत हो गए ह
 
 <h4 align="center">PR जानकारी:</h4>
 
-[रेपो PR](https://badgen.net/github/prs/Syknapse/Contribute-To-This-Project)
-![ओपन PR](https://badgen.net/github/open-prs/Syknapse/Contribute-To-This-Project)
-[PR बंद करें]
+![रेपो PR's](https://badgen.net/github/prs/Syknapse/Contribute-To-This-Project)
+![ओपन PR's](https://badgen.net/github/open-prs/Syknapse/Contribute-To-This-Project)
+![बंद PR's](https://badgen.net/github/closed-prs/Syknapse/Contribute-To-This-Project)
 ![मर्ज किए गए PR](https://badgen.net/github/merged-prs/Syknapse/Contribute-To-This-Project)
 
-[रेपो स्टेट](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
+![रेपो स्टेट](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
 
 <h4 align="center">मेंटेनर्स</h4>
 
