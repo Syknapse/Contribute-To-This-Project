@@ -241,8 +241,8 @@ footer {
   word-break: break-word;
 }
 
-.resources:hover {
-  color: var(--pink);
+.resources a:hover {
+  color: var(--purple);
 }
 
 /* Night Mode Code */
