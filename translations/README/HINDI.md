@@ -47,9 +47,9 @@
 
 यह ट्यूटोरियल [अन्य भाषाओं](अनुवाद/translation.md) में भी उपलब्ध है
 
-| [अरबी](अनुवाद/README/ARABIC.md) | [फ्रेंच](अनुवाद/README/FRENCH.md) | [जर्मन](अनुवाद/रीडमे/जर्मन.एमडी) | [इतालवी](अनुवाद/रीडमे/इटालियन.एमडी) | [कोरियाई](अनुवाद/README/KOREAN.md) | [पोलिश](अनुवाद/README/POLISH.md) | [जापान](अनुवाद/README/JAPANESE.md) |
+| [अरबी](translations/README/ARABIC.md) | [फ्रेंच](translations/README/FRENCH.md) | [जर्मन](translations/README/German.md) | [इतालवी](translations/README/ITALIAN.md) | [कोरियाई](translations/README/KOREAN.md) | [पोलिश](translations/README/POLISH.md) | [जापान](translations/README/JAPANESE.md) |
 | -------------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------ | ------------------------------------------------------ |
-| [पुर्तगाली](अनुवाद/रीडमी/पुर्तगाली.एमडी) | [सर्बियाई](अनुवाद/README/SERBIAN.md) | [स्पेनिश](अनुवाद/README/SPANISH.md) | [तुर्की](अनुवाद/README/TURKISH.md) | [बांग्ला](अनुवाद/README/BANGLA.md) | [अंग्रेजी](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md) |
+| [पुर्तगाली](translations/README/PORTUGUESE.md) | [सर्बियाई](translations/README/SERBIAN.md) | [स्पेनिश](translations/README/SPANISH.md) | [तुर्की](translations/README/TURKISH.md) | [बांग्ला](translations/README/BANGLA.md) | [अंग्रेजी](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.md) |
 
 > इस रीडमे या रखरखावकर्ता रीडमे फ़ाइल के लिए अनुवाद बहुत स्वागत है!।
 
