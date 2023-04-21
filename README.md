@@ -18,22 +18,22 @@
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-### Objectives
+## Objectives
 
 - Make a contribution to an open source project.
 - Get more comfortable in using GitHub.
 
-#### Who is this for?
+### Who is this for?
 
 - This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
 - It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
 
-<h5 align="center">Why do I need to do this?</h5>
+### Why do I need to do this?
 
 Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.<br>
 If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-<h4 align="center">What am I going to contribute?</h4>
+### What am I going to contribute?
 
 ![Contributor Card](readme-only/card.PNG 'Contributor Card')
 
@@ -43,7 +43,7 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 # [If you're comfortable with the terminal go to this tutorial](/terminal-tutorial.md)
 
-<h4 align="center">Translations</h4>
+<h3 align="center">Translations</h3>
 
 This tutorial is also available in [other languages](translations/translation.md)
 
@@ -53,13 +53,13 @@ This tutorial is also available in [other languages](translations/translation.md
 
 > Translations for either this README or the maintainer README file are very welcome!.
 
-<h4 align="center">Quick Access Index</h4>
+<h3 align="center">Quick Access Index</h3>
 
 | <ul><li>[Introduction](#introduction)</li><li>[What am I going to contribute?](#what-am-i-going-to-contribute)</li><li>[Setup](#setup-)</li><li>[Contribute &rightarrow;](#contribute)</li><li>[Next Steps](#next-steps)</li><li>[Acknowledgements](#acknowledgements)</li></ul> | Contribute: <ul><li>[Step 1: Fork this repository](#step-1-fork-this-repository)</li><li>[Step 2: Clone the repository](#step-2-clone-the-repository)</li><li>[Step 3: Create a new branch](#step-3-create-a-new-branch)</li><li>[Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)</li><li>[Step 5: Copy the card template](#step-5-copy-the-card-template)</li><li>[Step 6: Apply your changes](#step-6-apply-your-changes)</li><li>[Step 7: Commit your changes](#step-7-commit-your-changes)</li><li>[Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)</li><li>[Step 9: Submit a PR](#step-9-submit-a-prpull-request)</li><li>[Step 10: Celebrate!](#step-10-celebrate)</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 
-<h4 align="center">Setup! :)</h4>
+<h3 align="center">Setup! :)</h3>
 
 First let's get setup to do the work
 
@@ -73,13 +73,13 @@ First let's get setup to do the work
 
 ## [↑ Go to top ↑](#quick-access-index)
 
-<h4 align="center">Contribute</h4>
+<h3 align="center">Contribute</h3>
 
 Become an open source contributor in 10 easy steps.
 
 _Estimated time: Less than 30 minutes_.
 
-<h5 align="center">Step 1: Fork this repository</h5>
+<h4 align="center">Step 1: Fork this repository</h4>
 
 - The objective here is to make a copy of this project and place it in your account.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
@@ -94,7 +94,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 2: Clone the repository</h5>
+<h4 align="center">Step 2: Clone the repository</h4>
 
 - Now we want to make a local copy of the project. That is a copy saved on your own machine.
 - Open the GitHub desktop app. In the app:
@@ -112,7 +112,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 3: Create a new branch</h5>
+<h4 align="center">Step 3: Create a new branch</h4>
 
 - Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
@@ -138,7 +138,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 4: Open the index.html file</h5>
+<h4 align="center">Step 4: Open the index.html file</h4>
 
 - Now we need to open the file we are going to edit with your favourite code editor.
 - Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
@@ -152,7 +152,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 5: Copy the card template</h5>
+<h4 align="center">Step 5: Copy the card template</h4>
 
 - We will make a copy of the card template to start working on it
 
@@ -168,7 +168,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 6: Apply your changes</h5>
+<h4 align="center">Step 6: Apply your changes</h4>
 
 - We'll now start editing html, changing the customizable fields in our card.
 
@@ -197,7 +197,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 7: Commit your changes</h5>
+<h4 align="center">Step 7: Commit your changes</h4>
 
 - Go back to the GitHub desktop app.
 - Your changes will have been added automatically to the staging area.
@@ -218,7 +218,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 8: Push your changes to GitHub</h5>
+<h4 align="center">Step 8: Push your changes to GitHub</h4>
 
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
@@ -231,7 +231,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 9: Submit a PR(Pull Request)</h5>
+<h4 align="center">Step 9: Submit a PR(Pull Request)</h4>
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -258,7 +258,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-<h5 align="center">Step 10: Celebrate!!</h5>
+<h4 align="center">Step 10: Celebrate!!</h4>
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
@@ -274,7 +274,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 
 ---
 
-<h4 align="center">Next Steps</h4>
+### Next Steps
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
@@ -285,13 +285,13 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
 
-<h4 align="center">Acknowledgements</h4>
+### Acknowledgements
 
 This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-<h4 align="center">Project Info</h4>
+### Project Info
 
 [![Licence Badge](https://badgen.net/github/license/Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
@@ -299,7 +299,7 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![GitHub issues](https://img.shields.io/github/issues/Syknapse/Contribute-To-This-Project.svg)
 
-<h4 align="center">PR info:</h4>
+### PR info
 
 ![Repo PR's](https://badgen.net/github/prs/Syknapse/Contribute-To-This-Project)
 ![Open PR's](https://badgen.net/github/open-prs/Syknapse/Contribute-To-This-Project)
@@ -308,7 +308,7 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 ![Repo Stat](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Syknapse&repo=Contribute-To-This-Project&theme=dark&show_owner=true)
 
-<h4 align="center">Maintainers</h4>
+### Maintainers
 
 ![Repo Contributors](https://badgen.net/github/contributors/Syknapse/Contribute-To-This-Project/?label=Maintainers)
 
