@@ -251,6 +251,10 @@ footer {
   color: var(--orange);
 }
 
+.night .resources a:hover {
+  color: var(--orange);
+}
+
 .night .container {
   color: var(--light-grey1);
 }
