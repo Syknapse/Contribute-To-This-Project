@@ -346,4 +346,4 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
 
-> ## [Back to the top &uparrow;](#introduction)
+> ### [Back to the top &uparrow;](#introduction)
