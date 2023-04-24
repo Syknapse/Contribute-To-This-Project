@@ -27,6 +27,20 @@ Here we will learn how to contribute in this project or in GitHub/Git with _Term
 
 > ### Contribution Steps
 
+- [Setup](#setup)
+- [Step 1 Fork This Repository](#step-1-fork-this-repository)
+- [Step 2 Clone the repository](#step-2-clone-the-repository)
+- [Step 3 Create a new branch](#step-3-create-a-new-branch)
+- [Step 4 Open the index.html file](#step-4-open-the-indexhtml-file)
+- [Step 5 Copy the card template](#step-5-copy-the-card-template)
+- [Step 6 Apply your changes](#step-6-apply-your-changes)
+- [Step 7 Commit your changes](#step-7-commit-your-changes)
+- [Step 8 Push your changes to github](#step-8-push-your-changes-to-github)
+- [Step 9 Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
+- [Step 10 Celebrate](#step-10-celebrate)
+- [Next Steps](#next-steps)
+- [Aknowledgements](#Acknowledgements)
+
 ---
 
 > #### Setup
