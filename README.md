@@ -344,6 +344,6 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 > ### Top 100 Contributors
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 > ### [Back to the top &uparrow;](#introduction)
