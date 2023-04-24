@@ -87,7 +87,7 @@ This tutorial is also available in [other languages](translations/translation.md
 | ----------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- |
 | [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bangla](translations/README/BANGLA.md) | [Hindi](translations/README/HINDI.md)   | [Russian](translations/README/RUSSIAN.md)   |
 
-> Translations for either this README or the [maintainer README](maintainer_guide.md) file are very welcome!.
+> Translations for `.md` files like README, [Tutorial](terminal-tutorial.md) or the [maintainer README](maintainer_guide.md) are very welcome!.
 
 ---
 
