@@ -1,6 +1,6 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![image info](favicon.png)
+<kbd>![image info](favicon.png)</kbd>
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
@@ -120,7 +120,8 @@ _Estimated time: Less than 30 minutes_.
 
 
 - You now have a complete copy of the project in your own account.
-  [↑ Go to top ↑](#quick-access-index)
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -139,6 +140,8 @@ _Estimated time: Less than 30 minutes_.
 
 - This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
 - Now you have a local copy of the project.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -166,6 +169,8 @@ _Estimated time: Less than 30 minutes_.
 
 **Do NOT work on the `master` branch**
 
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
 > #### Step 4: Open the index.html file
@@ -179,6 +184,8 @@ _Estimated time: Less than 30 minutes_.
 
 
 - Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -195,6 +202,8 @@ _Estimated time: Less than 30 minutes_.
 | ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')                                                                                                                                                                                                                                        |
 
 - This now is **your** card for you to customise and edit.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -225,6 +234,8 @@ _Estimated time: Less than 30 minutes_.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
 > #### Step 7: Commit your changes
@@ -246,6 +257,8 @@ _Estimated time: Less than 30 minutes_.
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
 > #### Step 8: Push your changes to GitHub
@@ -258,6 +271,8 @@ _Estimated time: Less than 30 minutes_.
 
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -286,6 +301,8 @@ _Estimated time: Less than 30 minutes_.
 - Leave the option `Allow edits from maintainers` ticked.
 - Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
 > #### Step 10: Celebrate!
@@ -300,6 +317,8 @@ It is very normal for a reviewer to ask for changes on a PR. Think of it as good
 
 I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
 
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
 > ### Next Steps
@@ -312,6 +331,8 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
