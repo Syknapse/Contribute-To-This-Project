@@ -75,10 +75,6 @@ You are going to contribute a card just like this one to this [project's web pag
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
-> ### [If you're comfortable with the terminal go to this tutorial (Click)](/terminal-tutorial.md)
-
-> You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-
 > ### Translations
 
 This tutorial is also available in [other languages](translations/translation.md)
@@ -94,6 +90,10 @@ This tutorial is also available in [other languages](translations/translation.md
 ---
 
 > ### Setup! :)
+
+Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal-tutorial.md)
+
+> You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
 First let's get setup to do the work
 
