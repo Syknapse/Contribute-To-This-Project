@@ -6,8 +6,8 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
@@ -73,7 +73,9 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
-You will make a copy of the card template inside the HTML file and customise it with your own information.
+You will make a copy of the card template inside the HTML file and customize it with your own information.
+
+---
 
 > ### Translations
 
@@ -91,7 +93,7 @@ This tutorial is also available in [other languages](translations/translation.md
 
 > ### Setup! :)
 
-Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal-tutorial.md)
+Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
 
 > You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 

@@ -6,8 +6,8 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
@@ -17,7 +17,15 @@
 
 ---
 
-> Translations for `.md` files like [README](README.md), Tutorial or the [maintainer README](maintainer_guide.md) are very welcome!.
+> ### Translations
+
+This tutorial is also available in [other languages](translations/translation.md)
+
+| 0   | 1                                     | 2                                  |
+| --- | ------------------------------------- | ---------------------------------- |
+| 1   | [English](../../terminal_tutorial.md) | [Bangla](terminal_tutorial.ben.md) |
+
+> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
 
 ---
 
