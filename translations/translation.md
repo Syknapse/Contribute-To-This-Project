@@ -15,10 +15,11 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## README Translations
 
-| [Arabic](README/ARABIC.md)         | [Bangla](README/BANGLA.md)   | [English](../README.md)        | [French](README/FRENCH.md)   | [German](README/German.md)   |
-| ---------------------------------- | ---------------------------- | ------------------------------ | ---------------------------- | ---------------------------- |
-| [Hindi](README/HINDI.md)           | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
-| [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) | [Serbian](README/SERBIAN.md)   | [Spanish](README/SPANISH.md) | [Turkish](README/TURKISH.md) |
+| 0   | 1                                  | 2                            | 3                              | 4                            | 5                            |
+| --- | ---------------------------------- | ---------------------------- | ------------------------------ | ---------------------------- | ---------------------------- |
+| 1   | [Arabic](README/ARABIC.md)         | [Bangla](README/BANGLA.md)   | [English](../README.md)        | [French](README/FRENCH.md)   | [German](README/German.md)   |
+| 2   | [Hindi](README/HINDI.md)           | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
+| 3   | [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) | [Serbian](README/SERBIAN.md)   | [Spanish](README/SPANISH.md) | [Turkish](README/TURKISH.md) |
 
 ---
 

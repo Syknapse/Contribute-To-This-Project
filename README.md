@@ -83,10 +83,11 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-| [Arabic](translations/README/ARABIC.md)         | [Bangla](translations/README/BANGLA.md)   | [English](README.md)                        | [French](translations/README/FRENCH.md)   | [German](translations/README/German.md)   |
-| ----------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| [Hindi](translations/README/HINDI.md)           | [Italian](translations/README/ITALIAN.md) | [Japanese](translations/README/JAPANESE.md) | [Korean](translations/README/KOREAN.md)   | [Polish](translations/README/POLISH.md)   |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Russian](translations/README/RUSSIAN.md) | [Serbian](translations/README/SERBIAN.md)   | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) |
+| 0   | 1                                               | 2                                         | 3                                           | 4                                         | 5                                         |
+| --- | ----------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| 1   | [Arabic](translations/README/ARABIC.md)         | [Bangla](translations/README/BANGLA.md)   | [English](README.md)                        | [French](translations/README/FRENCH.md)   | [German](translations/README/German.md)   |
+| 2   | [Hindi](translations/README/HINDI.md)           | [Italian](translations/README/ITALIAN.md) | [Japanese](translations/README/JAPANESE.md) | [Korean](translations/README/KOREAN.md)   | [Polish](translations/README/POLISH.md)   |
+| 3   | [Portuguese](translations/README/PORTUGUESE.md) | [Russian](translations/README/RUSSIAN.md) | [Serbian](translations/README/SERBIAN.md)   | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
 
