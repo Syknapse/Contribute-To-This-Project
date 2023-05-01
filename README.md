@@ -83,11 +83,12 @@ You will make a copy of the card template inside the HTML file and customise it 
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-| [Arabic](translations/README/ARABIC.md)         | [French](translations/README/FRENCH.md)   | [German](translations/README/German.md)   | [Italian](translations/README/ITALIAN.md) | [Korean](translations/README/KOREAN.md) | [Polish](translations/README/POLISH.md) | [Japanese](translations/README/JAPANESE.md) |
-| ----------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | --------------------------------------- | --------------------------------------- | ------------------------------------------- |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Serbian](translations/README/SERBIAN.md) | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) | [Bangla](translations/README/BANGLA.md) | [Hindi](translations/README/HINDI.md)   | [Russian](translations/README/RUSSIAN.md)   |
+| [Arabic](translations/README/ARABIC.md)         | [Bangla](translations/README/BANGLA.md)   | [English](README.md)                        | [French](translations/README/FRENCH.md)   | [German](translations/README/German.md)   |
+| ----------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------- | ----------------------------------------- |
+| [Hindi](translations/README/HINDI.md)           | [Italian](translations/README/ITALIAN.md) | [Japanese](translations/README/JAPANESE.md) | [Korean](translations/README/KOREAN.md)   | [Polish](translations/README/POLISH.md)   |
+| [Portuguese](translations/README/PORTUGUESE.md) | [Russian](translations/README/RUSSIAN.md) | [Serbian](translations/README/SERBIAN.md)   | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) |
 
-> Translations for `.md` files like README, [Tutorial](terminal-tutorial.md) or the [maintainer README](maintainer_guide.md) are very welcome!.
+> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
 
 ---
 
