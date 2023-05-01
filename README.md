@@ -61,7 +61,7 @@ This is a tutorial to help first-time contributors to participate in a simple an
 - This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
 - It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
 
-> #### Why do I need to do this?
+> ### Why do I need to do this?
 
 Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
 
@@ -75,7 +75,7 @@ You are going to contribute a card just like this one to this [project's web pag
 
 You will make a copy of the card template inside the HTML file and customise it with your own information.
 
-> ## [If you're comfortable with the terminal go to this tutorial (Click)](/terminal-tutorial.md)
+> ### [If you're comfortable with the terminal go to this tutorial (Click)](/terminal-tutorial.md)
 
 > You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
@@ -91,7 +91,7 @@ This tutorial is also available in [other languages](translations/translation.md
 
 ---
 
-> #### Setup! :)
+> ### Setup! :)
 
 First let's get setup to do the work
 
