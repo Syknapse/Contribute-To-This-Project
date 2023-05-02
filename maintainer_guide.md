@@ -2,13 +2,18 @@
 
 This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
+## Translations
+
 This tutorial is also available in [other languages](translations/translation.md)
 
-| [Bangla](translations/maintainer_guide/maintainer_guide_bangla.md) | [German](translations/maintainer_guide/maintainer_guide_german.md) | [Italian](translations/maintainer_guide/maintainer_guide_italian.md) | [Portuguese](translations/maintainer_guide/maintainer_guide_portuguese.md) |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| 0   | 1                                                                   | 2                                                               | 3                                                               | 4                                                                | 5                                                                 |
+| --- | ------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
+| 1   | [English](maintainer_guide.md)                                      | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) |
+| 2   | [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) |
 
+---
 
-> Translations for either this README or the Maintainer README file are very welcome!.
+> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
 
 ## Objectives
 
@@ -32,7 +37,7 @@ You can commit as much or as little time as you want to this. Between us we hope
 - If everything else is ok, approve the PR, write a message to the contributor thanking them for the contribution (remembering they are first timers and would benefit from encouragement).
 - Merge the PR into `master`.
 
-### Request changes
+## Request changes
 
 - Sometimes there are problems with the PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
 - Start a code review on GitHub and request changes. Try to be as descriptive as possible, comment the exact line, tell them exactly what the problem is and how to fix it, and encourage them that this is a normal part of the PR review process.
@@ -58,9 +63,10 @@ npx prettier --write index.html
 
 It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
 
-If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
+If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse).
 
 ## Join us
 
-Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you.
+Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you. You can also join our Discord Community by clicking the button below:
+
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
