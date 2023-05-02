@@ -60,4 +60,5 @@ npx prettier --write index.html
 ## 参加してください
 
 私たちと一緒にこのプロジェクトを成長させましょう。[Twitter](https://twitter.com/Syknapse)であなたの GitHub ユーザ名を送るとあなたをプロジェクトに追加できます。
+
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
