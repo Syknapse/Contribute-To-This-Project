@@ -313,7 +313,7 @@ _Estimated time: Less than 30 minutes_.
 
 ---
 
-> #### Step 10: Celebrate!
+> #### Step 10: Celebrate
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
