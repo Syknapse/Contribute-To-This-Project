@@ -1,326 +1,340 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+# [এই প্রকল্পে অবদান রাখুন](https://syknapse.github.io/Contribute-To-This-Project/)
 
-<kbd>![image info](favicon.png)</kbd>
+<kbd>![image info](../../favicon.png)</kbd>
 
-> Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+> উপরের লোগোটি তৈরি করেছেঃ [CandidDeer](https://github.com/CandidDeer) :sparkling_heart: এর সহিত।
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'আমাদের প্রকল্পটি টুইট করুন।')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'আমাদের ডিসকর্ড সার্ভারে যুক্ত হন।')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
-> ## **Announcement:**
+> ## **ঘোষণা:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+> আপনি কি আমাদের প্রকল্পে যুক্ত হয়ে আমাদের প্রকল্পটি পরিচালনা করতে এবং এটি বহাল রাখতে ইচ্ছুক?, তবে আমাদের [পরিচালনা নির্দেশাবলি](../maintainer_guide/maintainer_guide.ben.md) পরুন এবং আমাকে [টুইটারে](https://twitter.com/Syknapse) একটি বার্তা প্রেরণ করুন।
 
 ---
 
-> ### Translations
+> ### অনুবাদ
 
-This tutorial is also available in [other languages](translations/translation.md)
+এই টিউটোরিয়ালটি [অন্যান্য ভাষায়ও](../translation.md) পাওয়া যাবে।
 
-| 0   | 1                                     | 2                                  |
-| --- | ------------------------------------- | ---------------------------------- |
-| 1   | [English](../../terminal_tutorial.md) | [Bangla](terminal_tutorial.ben.md) |
+| ০   | ১                                    | ২                                 |
+| --- | ------------------------------------ | --------------------------------- |
+| ১   | [ইংরেজি](../../terminal_tutorial.md) | [বাংলা](terminal_tutorial.ben.md) |
 
-> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
-
----
-
-> ## Introduction
-
-Here we will learn how to contribute in this project or in GitHub/Git with _Terminal_. This is a tutorial to help first-time contributors to participate in a simple and easy project.
-
-> ### Contribution Steps
-
-- [Setup](#setup)
-- [Step 1 Fork This Repository](#step-1-fork-this-repository)
-- [Step 2 Clone the repository](#step-2-clone-the-repository)
-- [Step 3 Create a new branch](#step-3-create-a-new-branch)
-- [Step 4 Open the index.html file](#step-4-open-the-indexhtml-file)
-- [Step 5 Copy the card template](#step-5-copy-the-card-template)
-- [Step 6 Apply your changes](#step-6-apply-your-changes)
-- [Step 7 Commit your changes](#step-7-commit-your-changes)
-- [Step 8 Push your changes to github](#step-8-push-your-changes-to-github)
-- [Step 9 Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
-- [Step 10 Celebrate](#step-10-celebrate)
-- [Next Steps](#next-steps)
-- [Aknowledgements](#Acknowledgements)
+> আমাদের প্রকল্পের নথিগুলোর বিভিন্ন ভাষায় রুপান্তরকে আমরা আন্তরিকভাবে স্বাগত জানাই। অনুবাদ সম্বন্ধীয় অবদানের জন্যঃ [`অনুবাদ সহায়ক`](../translation.md) -টি পরুন।
 
 ---
 
-> #### Setup
+> ## সূচনা
 
-First let's get setup to do the work.
-If you're not good with the command line interface [here is the GUI tutorial using github desktop](./README.md)
+এখানে আমরা শিখব কিভাবে এই প্রজেক্টে অথবা GitHub/Git-এ _টার্মিনাল_ এর মাধ্যমে অবদান রাখতে হয়। এটি গিটহাবে নতুনদের সহজ প্রকল্পে অংশগ্রহণ করতে সহায়তা করার জন্য একটি পথ প্রদর্শক।
 
-- If you don't have git, [install it from here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+> ### সুচিপত্র
 
----
-
-> #### Step 1 Fork this repository
-
-- The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
-- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
-
-| Click on the _Fork_ button | ![Fork](readme-only/fork.png "click on 'Fork'") |
-| :------------------------- | ----------------------------------------------: |
-
-
-- You now have a complete copy of the project in your own account.
-
-[↑ Go to top ↑](#contribution-steps)
+- [প্রস্তুতি!](#প্রস্তুতি)
+- [ধাপ ১ঃ এই রিপোজিটরি ফর্ক করুন](#ধাপ-১ঃ-এই-রিপোজিটরি-ফর্ক-করুন)
+- [ধাপ ২ঃ রিপোসিটরিটি ক্লোন করুন](#ধাপ-২ঃ-রিপোসিটরিটি-ক্লোন-করুন)
+- [ধাপ ৩ঃ একটি নতুন শাখা তৈরি করুন](#ধাপ-৩ঃ-একটি-নতুন-শাখা-তৈরি-করুন)
+- [ধাপ ৪ঃ index.html ফাইলটি খুলুন](#ধাপ-৪ঃ-indexhtml-ফাইলটি-খুলুন)
+- [ধাপ ৫ঃ কার্ড এর টেম্পলেটটি কপি করুন](#ধাপ-৫ঃ-কার্ড-এর-টেম্পলেটটি-কপি-করুন)
+- [ধাপ ৬ঃ প্রয়োজনীয় পরিবর্তন করুন](#ধাপ-৬ঃ-প্রয়োজনীয়-পরিবর্তন-করুন)
+- [ধাপ ৭ঃ আপনার পরিবর্তনগুলি কমিট করুন](#ধাপ-৭ঃ-আপনার-পরিবর্তনগুলি-কমিট-করুন)
+- [ধাপ ৮ঃ পরিবর্তনগুলো গিটহাবে পুশ করুন](#ধাপ-৮ঃ-পরিবর্তনগুলো-গিটহাবে-পুশ-করুন)
+- [ধাপ ৯ঃ পুল রিকোয়েস্ট সাবমিট করুন](#ধাপ-৯ঃ-পুল-রিকোয়েস্ট-সাবমিট-করুন)
+- [ধাপ ১০ঃ আনন্দ উদযাপন করুন](#ধাপ-১০ঃ-আনন্দ-উদযাপন-করুন)
+- [পরবর্তি ধাপসমুহ](#পরবর্তি-ধাপসমুহ)
+- [স্বীকৃতি](#স্বীকৃতি)
 
 ---
 
-> #### Step 2 Clone the repository
+> #### প্রস্তুতি
 
-![Clone](readme-only/clone-terminal.png)
+দ্রষ্টব্যঃ এই সহায়কটি টার্মিনাল এর জন্য নির্মান করা। [আপনি যদি টার্মিনাল ব্যবহার করতে সাচ্ছন্দ্য বোধ না করেন এবং গ্রাফিকাল ইন্টারফেস এ কাজ করতে চান, তবে এখানে ক্লিক করুন।](../README/BANGLA.md)
 
-Now we want to make a local copy of the project. That is a copy saved on your own machine.
+> এই সহজ _ফ্রি সিরিজ_ এর মাধ্যমেও আপনি গিটহাব এর বিষয় জানতে পারবেনঃ [কীভাবে গিটহাবের ওপেন সোর্স এ অবদান রাখতে হয়।](https://kcd.im/pull-request)
 
-- Now clone this repo to your machine. Click on the clone button and then click the copy to clipboard icon.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
+প্রথমে কাজটি করার জন্য প্রস্তুতি নেয়া যাক।
 
-Open a terminal and run the following git command:
+- আপনার যদি GIT না থাকে, [তবে এখান থেকে ইন্সটল করে নিন।](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
+
+---
+
+> #### ধাপ ১ঃ এই রিপোজিটরি ফর্ক করুন
+
+- এখানে উদ্দেশ্য হল এই প্রকল্পের একটি অনুলিপি তৈরি করা এবং এটি আপনার অ্যাকাউন্টে রাখা।
+- একটি রিপোজিটরি (রিপো) হল গিটহাবের একটি প্রকল্পক এবং একটি ফর্ক হল প্রকল্পের একটি অনুলিপি।
+- নিশ্চিত করুন যে আপনি এই রিপোর [মূল পৃষ্ঠায়](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') আছেন।
+
+| এই পৃষ্ঠার উপরের অংশে _ফর্ক (fork)_ বাটনে ক্লিক করুন। | ![Fork](../../readme-only/fork.png "'Fork' -এ ক্লিক করুন") |
+| :---------------------------------------------------- | ---------------------------------------------------------: |
+
+
+- এখন আপনার নিজের অ্যাকাউন্টে এই প্রকল্পের একটি সম্পূর্ণ অনুলিপি আছে।
+
+  [↑ উপরে চলে যাই ↑](#সুচিপত্র)
+
+---
+
+> #### ধাপ ২ঃ রিপোসিটরিটি ক্লোন করুন
+
+![Clone](../../readme-only/clone-terminal.png)
+
+এখন আমরা এই প্রকল্পের একটি স্থানীয় অনুলিপি করতে চাই। এটি আপনার নিজের কম্পিউটারে সংরক্ষিত একটি অনুলিপি।
+
+- এখন আপনার মেশিনে এই রিপোটি ক্লোন করুন। ক্লোন বোতামে ক্লিক করুন এবং তারপর কপি টু ক্লিপবোর্ড আইকনে ক্লিক করুন।
+- গিটহাবে হোস্ট করা প্রকল্পসমুহকে এক একটি রিপোজিটরি (রিপো) বলা হয় এবং একটি ফর্ক হল উক্ত রিপোর একটি অনুলিপি।
+
+টার্মিনাল চালু করুন এবং নিচের কমান্ড/কোড টি লেখুন এবং কীবোর্ড এর `Enter` বোতাম চাপার মাধ্যমে কোডটি চালু করুন:
 
 ```bash
 git clone "url you just copied"
 ```
 
-For example:
+উদাহরনস্বরূপঃ
 
 ```bash
 git clone https://github.com/$Username/Contribute-To-This-Project.git
 ```
 
-where `$Username` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+যেখানে `$Username` হল আপনার গিটহাব একাউন্ট এর ইউজারনেম। এখানে আপনি গিটহাবে থাকা `first-contributions` রিপোটি আপনার কম্পিউটার এ ডাউনলোড করছেন।
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 3 Create a new branch
+> #### ধাপ ৩ঃ একটি নতুন শাখা তৈরি করুন
 
-Change to the repository directory on your computer (if you are not already there):
+- নিচের কোডটির মাধ্যমে টার্মিনালে আপনার রিপো এর ফোল্ডারটির ভেতরে যাওয়া যাবেঃ
 
 ```bash
 cd Contribute-To-This-Project
 ```
 
-Now create a new branch using the `git checkout` command
+- এখন `git checkout` কোডটির সাহায্যে রিপোতে একটি শাখা খুলতে হবে। যার মধ্যে আমরা পরবর্তি পরিবর্তন সমুহ করব। সম্পুর্ন কোডটি হলঃ
 
 ```bash
 git checkout -b your-new-branch-name
 ```
 
-For example:
+উদাহরনস্বরূপ:
 
 ```bash
 git checkout -b add-$Username-card
 ```
 
-Note: Change `$Username` with your GitHub account Username.
+দ্রষ্টব্যঃ `$Username` -টি আপনার গিটহাব ইউজারনেম দ্বারা পরিবর্তন করে নিন।
 
-**Do NOT work on the `master` branch**
+**`মাস্টার(master)` শাখায় কাজ করবেন না।**
 
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the bottom left of the text editor youre using where it says `$Username-card` as your branch name.
+- `মাস্টার(master)`নামক প্রকল্পের মূল অংশ থেকে আপনার পরিবর্তনগুলিকে আলাদা রাখার একটি উপায় হল শাখা বা ব্রাঞ্চ (branch)। উদাহরণস্বরূপ, যদি কিছু ভুল হয়ে যায় এবং আপনি আপনার পরিবর্তনের সাথে খুশি না হন তবে আপনি কেবল শাখাটি বা ব্রাঞ্চটি মুছে ফেলতে পারেন এবং সেখানে মূল প্রকল্প প্রভাবিত হবে না।
 
-[↑ Go to top ↑](#contribution-steps)
+- এখন আপনি `মাস্টার(master)` থেকে আলাদা একটি নতুন শাখা তৈরি করেছেন।
+- পরবর্তী পদক্ষেপের জন্য নিশ্চিত করুন যে আপনি এই শাখায় কাজ করছেন। আপনার কোড এডিটর এর নিচে বামদিকে আপনি যে শাখায় কাজ করছেন সে শাখার নাম লেখা থাকবে। যেমনঃ `$Username-card`।
+
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 4 Open the index.html file
+> #### ধাপ ৪ঃ index.html ফাইলটি খুলুন
 
-Now we need to open the file we are going to edit with your favourite code editor. We are using [VSCode](https://code.visualstudio.com/) as our preferred code editor.
+এখন আপনি যেই কোড এডিটর দিয়ে ফাইল সম্পাদনা করতে স্বাচ্ছন্দ্যবোধ করেন সেটি খুলতে হবে। আমাদের পছন্দের এডিটর হিসেবে আমরা [VSCode](https://code.visualstudio.com/) ব্যাবহার করছি।
 
-- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
-- You can open the file with the following command:
+- `index.html` ফাইলটি সরাসরি `Contribute-To-This-Project` ফোল্ডারে আছে।
+- ফোল্ডার এর ভেতর থাকাকালিন টার্মিনালে নিম্মের কোডটি চালনার মাধ্যমে এডিটরে `index.html` ফাইলটি খোলা যাবেঃ
 
 ```bash
 code index.html
 ```
 
-Note: This is a terminal code to open the file: `index.html` in `VSCode`.
+দ্রষ্টব্যঃ এই টার্মিনাল কোডটি `index.html` ফাইলটি `VSCode` এর ভেতর চালু করবে।
 
-[↑ Go to top ↑](#contribution-steps)
+- এখন আপনি যে ফাইলটি সম্পাদনা করতে যাচ্ছেন সেটি আপনার কোড এডিটরে খোলা আছে এবং আপনি এটিতে পরিবর্তন আনার জন্য প্রস্তুত।
 
----
-
-> #### Step 5 Copy the card template
-
-We will now make a copy of our card templates and make changes to it
-
-- **At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`**
-- **Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment**
-
-![Copy card template](readme-only/card-copy.PNG 'Copy the card template')
-
-- **Paste the whole thing directly below the comment indicating it**
-- **Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible**
-- **Never use a linters or style formatters. The project has Prettier setup**
-
-![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')
-
-- This now is **your** card for you to customize and edit.
-
-[↑ Go to top ↑](#contribution-steps)
+  [↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 6 Apply your changes
+> #### ধাপ ৫ঃ কার্ড এর টেম্পলেটটি কপি করুন
 
-We'll now start editing html, changing the customizable fields in our card.
+আমরা এটিতে কাজ শুরু করার জন্য কার্ড টেমপ্লেটের একটি অনুলিপি তৈরি করব:
 
-![Change-Name](readme-only/change-name.PNG)
+- **`html` ফাইলের উপরে, `<head>` এবং `<header>` বিভাগের অধীনে ৮৪ theke ১০৯ নং লাইনে আপনি `== TEMPLATE ==` লেবেলযুক্ত বিভাগটি পাবেন।**
+- **`Contributor card START` কমেন্ট থেকে `Contributor card END` কমেন্ট পর্যন্ত ছবিতে উল্লেখিত লাল বর্গক্ষেত্রের মধ্যে থাকা সবকিছু কপি করুন।**
 
-- **Replace 'Name' with your name**
-- **Note: Don't change `class="name"`**
-- **Insert the URL of your Twitter account `href="Insert URL here"`**
-- **Type your handle in the text field**
+![Copy card template](../../readme-only/card-copy.PNG 'কার্ড এর টেম্পলেটটি কপি করুন')
 
-![Change-Contact](readme-only/change-contact.PNG)
+- **১১৬ নং লাইনের পরে যেখানে `Paste YOUR CARD directly BELOW this line` লেখা আছে তার সরাসরই নিচে কার্ড এর টেম্পলেটটি পেস্ট করুন।**
+- **আপনার কার্ডের শুরু এবং শেষে একটি কড়ে ফাঁকা লাইন নিশ্চিত করুন। আপনার কোডটি যতটা সম্ভব সুন্দর এবং পরিষ্কার রাখুন।**
+- **কখনোই লিন্টার বা স্টাইল ফরম্যাটার ব্যবহার করবেন না। এই প্রকল্পের নিজস্ব ফরম্যাটার আছে।**
 
-- **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example.<br> Then follow the same steps above.**
+![Paste card template](../../readme-only/card-paste.PNG 'নির্দেশিত লাইনের নীচে পেস্ট করুন')
 
-**Tell us something about you**
+- এটি এখন **আপনার** সম্পাদনা করার জন্য তৈরি বিশেষ কার্ড।
 
-![Change-About](readme-only/change-about.PNG)
-
-- **Keep it short and sweet. Think about it more like a tweet than a blog post**
-
-- **Share with the community 3 links to resources that are useful for web development**
-- **This can be anything, a video, a talk, a podcast, an article, a reference, or a tool**
-- **If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit**
-
-![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')
-
-- **Link: Insert the link `href="here"` replacing the `#`**
-- **Title: Write a brief description `title="here"`**
-- **Name: Write the resource's name in the text field `>here</a>`**
-
-- Make sure you have **saved all your changes**.
-- **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
-- Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
-
-[↑ Go to top ↑](#contribution-steps)
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 7 Commit your changes
+> #### ধাপ ৬ঃ প্রয়োজনীয় পরিবর্তন করুন
 
-- Now open the terminal in your project directory and run `git status` and you'll notice that there are no changes made in git.
-- You can add those changes you made using the `git-add` command
+আমরা এখন `html` ফাইল এডিট করা শুরু করব, আমাদের কার্ডের পরিবর্তনযোগ্য স্থানগুলোকে পরিবর্তন করব।
+
+![Change name](../../readme-only/change-name.PNG 'আপনার নাম লিখুন')
+
+- **`Your Name` এর স্থলে আপনার নামটি বসান।**
+- **দ্রষ্টব্যঃ `class="name"` পরিবর্তন করবেন না।**
+- **`href="Insert URL here"` এর স্থলে আপনার টুইটার অ্যাকাউন্টের URL লিখুন।**
+- **`Your handle`এর স্থলে @ দিয়ে আপনার টুইটার অ্যাকাউন্টের নাম লিখুন।**
+
+![Change contact](../../readme-only/change-contact.PNG 'আপনার টুইটার অ্যাকাউন্টে একটি লিঙ্ক ঢোকান এবং আপনার হ্যান্ডেল টাইপ করুন')
+
+- **আপনি যদি টুইটার ছাড়া অন্য কোনো পরিচিতি ব্যবহার করতে চান তাহলে আপনাকে টুইটার আইকনটি `<i class="fa fa-twitter"></i>` প্রতিস্থাপন করতে হবে। [Font Awesome Icons](http://fontawesome.io/icons/) -এ গিয়ে সঠিক আইকন অনুসন্ধান করে এবং শুধুমাত্র `fa-twitter` অংশটিকে নতুন আইকন যেমন `fa-github` দিয়ে প্রতিস্থাপন করে, তারপর উপরের একই পদক্ষেপগুলি অনুসরণ করুন।**
+
+আপনার সম্পর্কে আমাদের কিছু বলুন
+
+![Change about](../../readme-only/change-about.PNG 'আপনার সম্পর্কে একটি বাক্য লিখুন')
+
+- **এটিকে ছোট এবং সহজ রাখুন। একটি ব্লগ পোস্টের চেয়ে একটি টুইটের মত কড়ে এটিকে সাজান।**
+
+- **ওয়েব ডেভেলপারদের জন্য দরকারী এমন ৩টি সংস্থানগুলির লিঙ্ক আমাদের সাথে শেয়ার করুন।**
+- **এটি যেকোনো কিছু হতে পারে, একটি ভিডিও, একটি আলোচনা, একটি পডকাস্ট, একটি নিবন্ধ, একটি রেফারেন্স বা একটি টুল৷**
+- **আপনি যদি একজন নবীন হয়ে থাকেন তবে এতে ভয় পাবেন না, আপনি যা জানেন তাই আমাদের সাথে শেয়ার করুন যদিও আপনি মনে করেন এটি প্রাথমিক পর্যায়ের। আপনার দ্বারা কতজন উপকৃত হবেন তা ভেবে আপনি অবাক হবেন।**
+
+![Change resources](../../readme-only/change-resources.PNG 'লিঙ্ক যোগ করুন, একটি সংক্ষিপ্ত বিবরণ লিখুন এবং এটির নাম টাইপ করুন')
+
+- **লিঙ্ক: `#` প্রতিস্থাপন করে `href="এখানে"` লিঙ্কটি প্রবেশ করান।**
+- **শিরোনাম: একটি সংক্ষিপ্ত বিবরণ লিখুন `title="এখানে"`**
+- **নাম: টেক্সট ফিল্ডে রিসোর্স্টির নাম লিখুন `>এখানে</a>`।**
+
+- নিশ্চিত করুন যে আপনি **আপনার সমস্ত পরিবর্তনগুলি সংরক্ষণ করেছেন**।
+- **আপনার পরিবর্তনগুলো যাচাই করুন**। এটি খুবই গুরুত্বপূর্ণ! আপনার ব্রাউজারে html ফাইলটি খুলুন (উদাহরণস্বরূপ এটিতে ডাবল ক্লিক করে) এবং দেখুন আপনার কার্ডটি সাইটে দেখতে কেমন হবে। দেখুন যে পুরো পৃষ্ঠাটি এখনও একই রকম দেখাচ্ছে এবং কিছুই ভাঙা হয়নি। আপনার লিঙ্কগুলিতে ক্লিক করুন এবং নিশ্চিত করুন যে তা কাজ করছে। কনসোল খুলুন (Ctrl + Shift + J (Windows / Linux) বা Cmd + Opt + J (Mac)) এবং পরীক্ষা করুন যে সেখানে কোনও ত্রুটি বার্তা দেখাচ্ছে না।
+- দুর্দান্ত, আপনি আপনার কোড সম্পাদনা শেষ করেছেন! পরবর্তী পদক্ষেপগুলি আপনার পরিবর্তনগুলিকে GitHub-এ পাঠাবে এবং তারপরে সেগুলিকে মূল প্রকল্পের সাথে একত্রিত করার জন্য জমা দেবে।
+
+  [↑ উপরে চলে যাই ↑](#সুচিপত্র)
+
+---
+
+> #### ধাপ ৭ঃ আপনার পরিবর্তনগুলি কমিট করুন
+
+- এখন প্রকল্পের ফোল্ডারে টার্মিনাল চালু করে `git status` কোডটি লিখলে আপনি দেখতে পাবেন যে সেখানে কিছু পরিবর্তন এসেছে।
+- `git-add` কমান্ড/কোড এর মাধ্যমে সেই পরিবর্তনগুলো গিট এ যোগ করা যাবে।
 
 ```bash
 git add index.html
 ```
 
-- Now commit those changes using the `git commit` command
+অথবাঃ
+
+```bash
+git add .
+```
+
+- এখন `git commit` কমান্ড/কোড এর সাহায্যে পরিবর্তনগুলো গিট এ কমিট করতে হবে।
 
 ```bash
 git commit -m "Add $Username card info"
 ```
 
-- Replacing `$Username` with your Github Username.
+- `$Username` টি আপনার গিটহাব ইউজারনেম এর দ্বারা পরিবর্তন করে নিতে হবে।
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 8 Push your changes to github
+> #### ধাপ ৮ঃ পরিবর্তনগুলো গিটহাবে পুশ করুন
 
-- Now that youve commited your changes, they are only saved locally in your local computer.
-- Synchronizing local changes with your repository on GitHub is called a `Push`. You are "pushing" the changes from your local repository to the remote repository on GitHub.
-- We use the `git push` command to push changes to github.
+- আপনার পরিবর্তনগুলি এখন সংরক্ষিত বা প্রতিশ্রুতিবদ্ধ। কিন্তু তারা শুধুমাত্র স্থানীয়ভাবে আপনার কম্পিউটারে সংরক্ষিত হয়েছে।
+- GitHub-এ আপনার সংগ্রহস্থলের সাথে স্থানীয় পরিবর্তনগুলিকে সিঙ্ক্রোনাইজ করাকে _Push_ বলা হয়। আপনি GitHub-এ আপনার স্থানীয় সংগ্রহস্থল থেকে রিমোট রিপোজিটরিতে পরিবর্তনগুলিকে "push" দিচ্ছেন।
+- আমরা `git push` কমান্ড/কোড এর সাহায্যে গিটহাবে পুশ করে থাকি।
 
 ```bash
 git push -u origin $Username-card
 ```
 
-- Replacing `$Username-card` with your branch name.
+- `$Username` টি আপনার গিটহাব ইউজারনেম এর দ্বারা পরিবর্তন করে নিতে হবে।
 
-- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+- কয়েক সেকেন্ডের পরে অপারেশনটি সম্পূর্ণ হয় এবং এখন আপনার মেশিনে এবং গিটহাবে এই শাখাটির ঠিক একই অনুলিপি রয়েছে।
 
-[↑ Go to top ↑](#contribution-steps)
-
----
-
-> #### Step 9 Submit a PR(Pull Request)
-
-- This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
-- So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
-- Now it's time to send your changes to the main project to be merged with it.
-- This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
-
-- Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
-- Towards the top of the repo you will see a highlighted pull request message with a green button.
-
-![Pull-Request](readme-only/pull-request.PNG)
-
-- **Click on the `Compare and pull request`**
-
-* **This is what the `Open a pull request` page looks like.**
-* **REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.**
-* **The image below gives you an idea of how the header of your pull request should look like.**
-* **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
-
-![Submit a Pull Request](readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
-
-![PR-Open](readme-only/pull-request-open.PNG)
-
-- Don't be fazed by all the options. You only need to do these three steps for now.
-- Leave the option `Allow edits from maintainers` ticked.
-- Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
-
-[↑ Go to top ↑](#contribution-steps)
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> #### Step 10 Celebrate
+> #### ধাপ ৯ঃ পুল রিকোয়েস্ট সাবমিট করুন
 
-That's it. You have done it! You have now contributed to open source on GitHub.
+- এই মুহূর্তটির জন্য আপনি অপেক্ষা করছেন; একটি _Pull Request_ (PR) জমা দেওয়া।
+- এখন পর্যন্ত আপনার করা সমস্ত কাজ গিটহাবের আপনার নিজের অ্যাকাউন্টে থাকা প্রকল্পের ফর্কে ছিল।
+- এখন আমাদের মূল প্রকল্পের সাথে আপনার পরিবর্তনগুলি একত্রিত করার সময়।
+- এটিকে [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'পুল অনুরোধ সম্পর্কে - GitHub Help') বলা হয় কারণ, আপনি মূল প্রকল্প রক্ষণাবেক্ষণকারীকে তাদের প্রকল্পে আপনার পরিবর্তনগুলিকে "পুল" করতে বলছেন৷
 
-You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+- GitHub-এ **আপনার ফর্ক**-এর মূল পৃষ্ঠায় যান (এটির উপরে ফর্ক আইকন এবং আপনার নিজের নাম থাকবে)।
+- রিপোর উপরের দিকে আপনি একটি সবুজ বোতাম সহ একটি হাইলাইট করা পুল রিকোয়েস্ট বার্তা দেখতে পাবেন।
 
-Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+![Submit a Pull Request](../../readme-only/pull-request.PNG 'এটি সাধারণত পৃষ্ঠার উপরের দিকে, বর্ণনার অধীনে এবং প্রকল্প ফাইল এবং ফোল্ডারের উপরে থাকে')
 
-It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+- **`Compare and pull request` -এ ক্লিক করুন।**
 
-We promise we will try to review and merge as soon as possible but we do this in our spare time, so a few days delay is inevitable.
+- **`Open a pull request` পৃষ্ঠাটি দেখতে এইরকম।**
+- **মনে রাখবেন _আপনি আপনার শাখাটিকে মূল প্রকল্পের সাথে যুক্ত করার চেষ্টা করছেন, আপনার ফর্কে থাকা `মাস্টার` শাখার সাথে নয়_।**
+- **আপনার পুল অনুরোধের শিরোনামটি কেমন হওয়া উচিত, সে বিষয়ে নীচের ছবিটি আমাদের একটি ধারণা দিচ্ছে।**
+- **বাম দিকে মূল প্রকল্প, মাস্টার শাখা নির্বাচন করা থাকে, এবং ডানদিকে আপনার ফর্ক এবং আপনার তৈরি করা শাখা।**
 
-[↑ Go to top ↑](#contribution-steps)
+![Open a Pull Request](../../readme-only/pull-request-branches.PNG 'আপনি আপনার ফর্ক থেকে আপনার শাখাটিকে মূল প্রকল্পের মাস্টার শাখায় একত্রিত করার জন্য অনুরোধ করছেন।')
+
+![Submit a Pull Request](../../readme-only/pull-request-open.PNG 'সবুজ বোতামে ক্লিক করুন। ভয় পাবেন না!')
+
+- সমস্ত বিকল্প দ্বারা বিভ্রান্ত হবেন না. আপনাকে আপাতত এই তিনটি ধাপ অনুসরণ করতে হবে।
+- `Allow edits from maintainers` বিকল্পটি টিক দিন।
+- এখন, একটি _Pull Request_ প্রজেক্ট রক্ষণাবেক্ষণকারীকে পাঠানো হবে। এটি পর্যালোচনা এবং গৃহীত হওয়ার সাথে সাথে আপনার পরিবর্তনগুলি [প্রকল্পের ওয়েব পৃষ্ঠা](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page') এ প্রদর্শিত হবে।
+
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> ### Next Steps
+> #### ধাপ ১০ঃ আনন্দ উদযাপন করুন
 
-- Come back in a while to check for your merged Pull Request.
-- You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
-- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
-- You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
-- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
-- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
-- **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
+এটাই. আপনি এটা করেছেন! আপনি এখন GitHub-এ ওপেন সোর্সে অবদান রেখেছেন।
 
-[↑ Go to top ↑](#contribution-steps)
+আপনি একটি লাইভ ওয়েব পৃষ্ঠাতে কোড যোগ করেছেন: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+
+আপনার পরিবর্তনগুলি **তাৎক্ষণিকভাবে দৃশ্যমান হবে না**; প্রথমে সেগুলিকে পর্যালোচনা করতে হবে, গ্রহণ করতে হবে এবং প্রকল্প রক্ষণাবেক্ষণকারীকে তা একত্রিত করতে হবে। একবার আপনার পরিবর্তনসমুহ গৃহীত হয়ে গেলে আপনার কার্ডটি আমাদের ওয়েব পেজ এ দৃশ্যমান হবে।
+
+একজন পর্যালোচকের পক্ষে পিআর-এ পরিবর্তনের জন্য জিজ্ঞাসা করা খুবই স্বাভাবিক। এটি আপনার সাথে ঘটলে এটিকে ভাল অনুশীলন হিসাবে ভাবুন। মন্তব্য এবং অনুরোধ পরিবর্তনের জন্য চোখ রাখুন. একবার আপনি অনুরোধ করা পরিবর্তনগুলি (আপনার শাখায় ফিরে) করে ফেললে আপনাকে যা করতে হবে তা হল আপনার পরিবর্তনগুলিকে `commit` করা এবং `push` দেওয়া। নতুন পরিবর্তনের সাথে পিআর স্বয়ংক্রিয়ভাবে আপডেট হবে।
+
+আমি প্রতিশ্রুতি দিচ্ছি যে, আমি যত তাড়াতাড়ি সম্ভব পর্যালোচনা এবং একত্রিত করার চেষ্টা করব। তবে আমি আমার অতিরিক্ত সময়ে এটি করি, তাই কয়েক দিনের বিলম্ব অনিবার্য।
+
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
 ---
 
-> ### Acknowledgements
+> ### পরবর্তি ধাপসমুহ
 
-This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
+- আপনার মার্জ করা পুল অনুরোধের জন্য কিছুদিন পর পর দেখুন।
+- আপনার পরিবর্তনগুলি অনুমোদিত হলে বা অতিরিক্ত পরিবর্তনের অনুরোধ করা হলে অথবা পিআর অবশেষে মাস্টারের সাথে একত্রিত করা এবং আপনার কার্ড যোগ করা হলে আপনি GitHub থেকে একটি ইমেল পাবেন।
+- আপনি যদি এই প্রকল্পটিকে **উপযোগী** খুঁজে পান তাহলে অনুগ্রহ করে এটিকে একটি :star: স্টার :star: দিন যা প্রকল্পটির উপরে রয়েছে এবং আমাদের কথা ছড়িয়ে দিতে **টুইট** করুন > [![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'টুইট') -এখানে ক্লিক করে।
+- আপনি **আমাকে অনুসরণ করতে পারেন** এবং [টুইটার](https://twitter.com/Syknapse '@Syknapse') অথবা [এই অন্য কোন বিকল্প ব্যবহার করে](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio') যোগাযোগ করতে পারেন।
+- এটি একটি ওপেন সোর্স প্রজেক্ট তাই আপনার কার্ডে অবদান রাখার পাশাপাশি বাগ, উন্নতি বা নতুন বৈশিষ্ট্যগুলি ঠিক করতে সাহায্য করার জন্য আপনাকে স্বাগত জানাই৷ এটি করতে একটি [ইস্যু](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') খুলুন অথবা একটি নতুন [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help') পাঠান।
+- আমাদের উন্নতিতে সাহায্য করার জন্য পুল রিকোয়েস্ট -এর পাশে অবস্থিত ট্যাব [GitHub Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) দেখুন। এই এলাকাটি নিজেকে পরিচয় করিয়ে দেওয়ার, ওপেন সোর্স নিয়ে গভীর আলোচনায় যাওয়ার এবং প্রকল্প রক্ষণাবেক্ষণকারীদের সাথে যোগাযোগ করার জায়গা। আপনি কি আমাদের এই বৈশিষ্ট্যটি তৈরি করতে এবং আমাদের উন্নত করতে সাহায্য করবেন?
+- **এই প্রকল্পে অবদান রাখার জন্য ধন্যবাদ**। এখন আপনি এগিয়ে যেতে পারেন এবং অন্যান্য প্রকল্পে অবদান রাখার চেষ্টা করতে পারেন; শিক্ষানবিস-বান্ধব অবদানের বিকল্পগুলির জন্য ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) লেবেলটি সন্ধান করুন৷
+- আমি PR পর্যালোচনা এবং মার্জ করার জন্য আমাকে সাহায্য করার জন্য সহযোগীদেরও খুঁজছি। আপনি যদি আরও উন্নত গিট অনুশীলন পেতে চান তাহলে অনুগ্রহ করে আমাকে টুইটারে একটি ডিএম পাঠান এবং [পরিচালনা নির্দেশাবলি](../maintainer_guide/maintainer_guide_bangla.md) পড়ুন।
 
-It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+[↑ উপরে চলে যাই ↑](#সুচিপত্র)
 
-> ### Top 100 Contributors
+---
 
-[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+> ### স্বীকৃতি
 
-> ### [Back to the top &uparrow;](#introduction)
+এই প্রজেক্টটি [Roshan Jossey's](https://github.com/Roshanjossey) এর দুর্দান্ত টিউটোরিয়াল সহ দুর্দান্ত [first-contributions](https://github.com/Roshanjossey/first-contributions) প্রকল্প দ্বারা ব্যাপকভাবে প্রভাবিত।
+
+এটি বিশেষভাবে [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) দ্য গুগল চ্যালেঞ্জ স্কলারশিপ: ফ্রন্ট-এন্ড ওয়েব ডেভ, 2017 ইউরোপের ক্লাসের দ্বারা অনুপ্রাণিত।
+
+> ### রক্ষণাবেক্ষণকারী তথ্যঃ
+
+![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
+
+> ### [↑ উপরে চলে যাই ↑](#সূচনা)
