@@ -1,7 +1,6 @@
 # [এই প্রকল্পে অবদান রাখুন](https://syknapse.github.io/Contribute-To-This-Project/)
 
-<kbd>![image info](../../favicon.png)</kbd>
-
+![image info](../../favicon.png)
 > উপরের লোগোটি তৈরি করেছেঃ [CandidDeer](https://github.com/CandidDeer) :sparkling_heart: এর সহিত।
 
 [![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
@@ -83,8 +82,8 @@
 
 এই টিউটোরিয়ালটি [অন্যান্য ভাষায়ও](../translation.md) পাওয়া যাবে।
 
-| ০   | ১                                | ২                             | ৩                              | ৪                              | ৫                            |
-| --- | -------------------------------- | ----------------------------- | ------------------------------ | ------------------------------ | ---------------------------- |
+| ০   | ১  | ২  | ৩   | ৪   | ৫  |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | ১   | [আরবি](README/ARABIC.md)         | [বাংলা](README/BANGLA.md)     | [ইংরেজি](../README.md)         | [ফ্রেঞ্চ](README/FRENCH.md)    | [জার্মানি](README/German.md) |
 | ২   | [হিন্দি](README/HINDI.md)        | [ইটালিয়ান](README/ITALIAN.md) | [জাপানিজ](README/JAPANESE.md)  | [কোরিয়ান](README/KOREAN.md)    | [পোলিশ](README/POLISH.md)    |
 | ৩   | [পর্তুগিজ](README/PORTUGUESE.md) | [রাশিয়ান](README/RUSSIAN.md)  | [সার্বিয়ান](README/SERBIAN.md) | [স্প্যানিশ](README/SPANISH.md) | [তুর্কি](README/TURKISH.md)  |

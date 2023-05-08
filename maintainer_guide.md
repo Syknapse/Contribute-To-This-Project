@@ -6,9 +6,9 @@ This guide is for those who would like to join the project as maintainers, to he
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-| 0   | 1                                                                   | 2                                                               | 3                                                               | 4                                                                | 5                                                                 |
-| --- | ------------------------------------------------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------- |
-| 1   | [English](maintainer_guide.md)                                      | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) |
+| 0   | 1    | 2       | 3        | 4      | 5     |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1   | [English](maintainer_guide.md)   | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) |
 | 2   | [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.

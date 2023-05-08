@@ -1,6 +1,6 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-<kbd>![image info](favicon.png)</kbd>
+![image info](favicon.png)
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
@@ -21,8 +21,8 @@
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-| 0   | 1                               | 2                                                                 |
-| --- | ------------------------------- | ----------------------------------------------------------------- |
+| 0   | 1  | 2  |
+| :---: | :----: | :----------: |
 | 1   | [English](terminal-tutorial.md) | [Bangla](translations/terminal_tutorial/terminal_tutorial.ben.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.

@@ -1,6 +1,6 @@
 # [এই প্রকল্পে অবদান রাখুন](https://syknapse.github.io/Contribute-To-This-Project/)
 
-<kbd>![image info](../../favicon.png)</kbd>
+![image info](../../favicon.png)
 
 > উপরের লোগোটি তৈরি করেছেঃ [CandidDeer](https://github.com/CandidDeer) :sparkling_heart: এর সহিত।
 
@@ -21,8 +21,8 @@
 
 এই টিউটোরিয়ালটি [অন্যান্য ভাষায়ও](../translation.md) পাওয়া যাবে।
 
-| ০   | ১                                    | ২                                 |
-| --- | ------------------------------------ | --------------------------------- |
+| ০   | ১   | ২  |
+| :---: | :---: | :---: |
 | ১   | [ইংরেজি](../../terminal_tutorial.md) | [বাংলা](terminal_tutorial.ben.md) |
 
 > আমাদের প্রকল্পের নথিগুলোর বিভিন্ন ভাষায় রুপান্তরকে আমরা আন্তরিকভাবে স্বাগত জানাই। অনুবাদ সম্বন্ধীয় অবদানের জন্যঃ [`অনুবাদ সহায়ক`](../translation.md) -টি পরুন।
