@@ -23,6 +23,17 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar{
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--orange);
+  height: 50px;
+  border-radius: 100vw;
+}
+
 header {
   margin: 10px auto 20px auto;
   text-align: left;
