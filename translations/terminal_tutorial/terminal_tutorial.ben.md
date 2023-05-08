@@ -4,7 +4,7 @@
 
 > উপরের লোগোটি তৈরি করেছেঃ [CandidDeer](https://github.com/CandidDeer) :sparkling_heart: এর সহিত।
 
-[![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'আমাদের প্রকল্পটি টুইট করুন।')
+[![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'আমাদের ডিসকর্ড সার্ভারে যুক্ত হন।')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -316,7 +316,7 @@ git push -u origin $Username-card
 
 - আপনার মার্জ করা পুল অনুরোধের জন্য কিছুদিন পর পর দেখুন।
 - আপনার পরিবর্তনগুলি অনুমোদিত হলে বা অতিরিক্ত পরিবর্তনের অনুরোধ করা হলে অথবা পিআর অবশেষে মাস্টারের সাথে একত্রিত করা এবং আপনার কার্ড যোগ করা হলে আপনি GitHub থেকে একটি ইমেল পাবেন।
-- আপনি যদি এই প্রকল্পটিকে **উপযোগী** খুঁজে পান তাহলে অনুগ্রহ করে এটিকে একটি :star: স্টার :star: দিন যা প্রকল্পটির উপরে রয়েছে এবং আমাদের কথা ছড়িয়ে দিতে **টুইট** করুন > [![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'টুইট') -এখানে ক্লিক করে।
+- আপনি যদি এই প্রকল্পটিকে **উপযোগী** খুঁজে পান তাহলে অনুগ্রহ করে এটিকে একটি :star: স্টার :star: দিন যা প্রকল্পটির উপরে রয়েছে এবং আমাদের কথা ছড়িয়ে দিতে **টুইট** করুন > [![টুইট](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit] -এখানে ক্লিক করে।
 - আপনি **আমাকে অনুসরণ করতে পারেন** এবং [টুইটার](https://twitter.com/Syknapse '@Syknapse') অথবা [এই অন্য কোন বিকল্প ব্যবহার করে](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio') যোগাযোগ করতে পারেন।
 - এটি একটি ওপেন সোর্স প্রজেক্ট তাই আপনার কার্ডে অবদান রাখার পাশাপাশি বাগ, উন্নতি বা নতুন বৈশিষ্ট্যগুলি ঠিক করতে সাহায্য করার জন্য আপনাকে স্বাগত জানাই৷ এটি করতে একটি [ইস্যু](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') খুলুন অথবা একটি নতুন [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help') পাঠান।
 - আমাদের উন্নতিতে সাহায্য করার জন্য পুল রিকোয়েস্ট -এর পাশে অবস্থিত ট্যাব [GitHub Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) দেখুন। এই এলাকাটি নিজেকে পরিচয় করিয়ে দেওয়ার, ওপেন সোর্স নিয়ে গভীর আলোচনায় যাওয়ার এবং প্রকল্প রক্ষণাবেক্ষণকারীদের সাথে যোগাযোগ করার জায়গা। আপনি কি আমাদের এই বৈশিষ্ট্যটি তৈরি করতে এবং আমাদের উন্নত করতে সাহায্য করবেন?
@@ -338,3 +338,5 @@ git push -u origin $Username-card
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)
 
 > ### [↑ উপরে চলে যাই ↑](#সূচনা)
+
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'আমাদের প্রকল্পটি টুইট করুন।'

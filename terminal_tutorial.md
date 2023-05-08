@@ -4,7 +4,7 @@
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -47,7 +47,7 @@ Here we will learn how to contribute in this project or in GitHub/Git with _Term
 - [Step 9 Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
 - [Step 10 Celebrate](#step-10-celebrate)
 - [Next Steps](#next-steps)
-- [Aknowledgements](#Acknowledgements)
+- [Aknowledgements](#acknowledgements)
 
 ---
 
@@ -186,9 +186,9 @@ We'll now start editing html, changing the customizable fields in our card.
 
 ![Change-Contact](readme-only/change-contact.PNG)
 
-- **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example.<br> Then follow the same steps above.**
+- **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.**
 
-**Tell us something about you**
+> Tell us something about you
 
 ![Change-About](readme-only/change-about.PNG)
 
@@ -264,11 +264,10 @@ git push -u origin $Username-card
 ![Pull-Request](readme-only/pull-request.PNG)
 
 - **Click on the `Compare and pull request`**
-
-* **This is what the `Open a pull request` page looks like.**
-* **REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.**
-* **The image below gives you an idea of how the header of your pull request should look like.**
-* **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
+- **This is what the `Open a pull request` page looks like.**
+- **REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.**
+- **The image below gives you an idea of how the header of your pull request should look like.**
+- **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
 
 ![Submit a Pull Request](readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
 
@@ -302,7 +301,7 @@ We promise we will try to review and merge as soon as possible but we do this in
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
-- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 - You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
@@ -324,3 +323,5 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 > ### [Back to the top &uparrow;](#introduction)
+
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
