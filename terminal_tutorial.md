@@ -69,7 +69,6 @@ If you're not good with the command line interface [here is the GUI tutorial usi
 | Click on the _Fork_ button | ![Fork](readme-only/fork.png "click on 'Fork'") |
 | :------------------------- | ----------------------------------------------: |
 
-
 - You now have a complete copy of the project in your own account.
 
 [↑ Go to top ↑](#contribution-steps)
