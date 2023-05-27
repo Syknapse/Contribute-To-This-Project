@@ -5,6 +5,7 @@
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -17,23 +18,22 @@
 
 ---
 
-> ### Translations
+### Translations
 
 This tutorial is also available in [other languages](translations/translation.md)
 
-| 0   | 1  | 2  |
+| [English](terminal-tutorial.md) | [Bangla](translations/terminal_tutorial/terminal_tutorial.ben.md) |
 | :---: | :----: | :----------: |
-| 1   | [English](terminal-tutorial.md) | [Bangla](translations/terminal_tutorial/terminal_tutorial.ben.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
 
 ---
 
-> ## Introduction
+## Introduction
 
 Here we will learn how to contribute in this project or in GitHub/Git with _Terminal_. This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-> ### Contribution Steps
+### Contribution Steps
 
 - [Setup](#setup)
 - [Step 1 Fork This Repository](#step-1-fork-this-repository)
@@ -51,7 +51,7 @@ Here we will learn how to contribute in this project or in GitHub/Git with _Term
 
 ---
 
-> #### Setup
+#### Setup
 
 First let's get setup to do the work.
 If you're not good with the command line interface [here is the GUI tutorial using github desktop](./README.md)
@@ -60,7 +60,7 @@ If you're not good with the command line interface [here is the GUI tutorial usi
 
 ---
 
-> #### Step 1 Fork this repository
+#### Step 1 Fork this repository
 
 - The objective here is to make a copy of this project and place it in your account.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
@@ -75,7 +75,7 @@ If you're not good with the command line interface [here is the GUI tutorial usi
 
 ---
 
-> #### Step 2 Clone the repository
+#### Step 2 Clone the repository
 
 ![Clone](readme-only/clone-terminal.png)
 
@@ -102,7 +102,7 @@ where `$Username` is your GitHub username. Here you're copying the contents of t
 
 ---
 
-> #### Step 3 Create a new branch
+#### Step 3 Create a new branch
 
 Change to the repository directory on your computer (if you are not already there):
 
@@ -133,7 +133,7 @@ Note: Change `$Username` with your GitHub account Username.
 
 ---
 
-> #### Step 4 Open the index.html file
+#### Step 4 Open the index.html file
 
 Now we need to open the file we are going to edit with your favourite code editor. We are using [VSCode](https://code.visualstudio.com/) as our preferred code editor.
 
@@ -151,7 +151,7 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 
 ---
 
-> #### Step 5 Copy the card template
+#### Step 5 Copy the card template
 
 We will now make a copy of our card templates and make changes to it
 
@@ -172,7 +172,7 @@ We will now make a copy of our card templates and make changes to it
 
 ---
 
-> #### Step 6 Apply your changes
+#### Step 6 Apply your changes
 
 We'll now start editing html, changing the customizable fields in our card.
 
@@ -211,7 +211,7 @@ We'll now start editing html, changing the customizable fields in our card.
 
 ---
 
-> #### Step 7 Commit your changes
+#### Step 7 Commit your changes
 
 - Now open the terminal in your project directory and run `git status` and you'll notice that there are no changes made in git.
 - You can add those changes you made using the `git-add` command
@@ -232,7 +232,7 @@ git commit -m "Add $Username card info"
 
 ---
 
-> #### Step 8 Push your changes to github
+#### Step 8 Push your changes to github
 
 - Now that youve commited your changes, they are only saved locally in your local computer.
 - Synchronizing local changes with your repository on GitHub is called a `Push`. You are "pushing" the changes from your local repository to the remote repository on GitHub.
@@ -250,7 +250,7 @@ git push -u origin $Username-card
 
 ---
 
-> #### Step 9 Submit a PR(Pull Request)
+#### Step 9 Submit a PR(Pull Request)
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -280,7 +280,7 @@ git push -u origin $Username-card
 
 ---
 
-> #### Step 10 Celebrate
+#### Step 10 Celebrate
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
@@ -296,7 +296,7 @@ We promise we will try to review and merge as soon as possible but we do this in
 
 ---
 
-> ### Next Steps
+### Next Steps
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
@@ -311,16 +311,16 @@ We promise we will try to review and merge as soon as possible but we do this in
 
 ---
 
-> ### Acknowledgements
+### Acknowledgements
 
 This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-> ### Top 100 Contributors
+### Top 100 Contributors
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-> ### [Back to the top &uparrow;](#introduction)
+[Back to the top &uparrow;](#introduction)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
