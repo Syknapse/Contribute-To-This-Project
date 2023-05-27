@@ -147,10 +147,8 @@ _Estimated time: Less than 30 minutes_.
 | ![Clone project](readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
 | :----------------------------------------------------------------------------------------------------------: |
 
-
 | :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
 | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
-
 
 - This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
 - Now you have a local copy of the project.
@@ -164,7 +162,7 @@ _Estimated time: Less than 30 minutes_.
 - Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| :arrow*right_hook: click on *`Current branch`_, Then click on _`New`\_        |                    ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'")                     |
+| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](readme-only/branch-name.PNG 'Name your branch')                            |
 | :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
@@ -205,14 +203,12 @@ _Estimated time: Less than 30 minutes_.
 | ![Copy card template](readme-only/card-copy.PNG 'Copy the card template') |
 | :-----------------------------------------------------------------------: |
 
-
 - Paste the whole thing directly below the comment indicating it
 - Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
 | ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line') |
 | :---------------------------------------------------------------------------------: |
-
 
 - This now is **your** card for you to customize and edit.
 
@@ -227,12 +223,10 @@ _Estimated time: Less than 30 minutes_.
 | :arrow_right_hook: Replace 'Name' with your name | ![Change name](readme-only/change-name.PNG 'Type your name') |
 | :----------------------------------------------- | :----------------------------------------------------------: |
 
-
 - **Note: Don't change `class="name"`**
 
 | :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
-
 
 - If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
@@ -262,11 +256,11 @@ _Estimated time: Less than 30 minutes_.
 
 |                                                                                                  ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        :arrow*right_hook: The next step is called *`Commit`\_. This roughly means `confirm the changes`                                                                                                                                        |
+| :arrow_right_hook: The next step is called _`Commit`_. This roughly means `confirm the changes` |
 |                                                                                              ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
 |                                                                            :arrow_right_hook: **This is what your GitHub desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, Your `Current branch` will have the name you gave it in step 3**                                                                            |
 |                                                                                                                  ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow*right_hook: \*\*To *`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`\_ button. Your button will say something like `Commit to "your-branch-name"`\*\* |
+| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -277,9 +271,8 @@ _Estimated time: Less than 30 minutes_.
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
-| :arrowright*hook: Click the *`Push`\_ button | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
-
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
