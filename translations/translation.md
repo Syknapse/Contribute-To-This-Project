@@ -18,27 +18,24 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## README Translations
 
-| 0   | 1                                  | 2                            | 3                              | 4                            | 5                            |
+| [Arabic](README/ARABIC.md)         | [Bangla](README/BANGLA.md)   | [English](../README.md)        | [French](README/FRENCH.md)   | [German](README/German.md)   |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1   | [Arabic](README/ARABIC.md)         | [Bangla](README/BANGLA.md)   | [English](../README.md)        | [French](README/FRENCH.md)   | [German](README/German.md)   |
-| 2   | [Hindi](README/HINDI.md)           | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
-| 3   | [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) | [Serbian](README/SERBIAN.md)   | [Spanish](README/SPANISH.md) | [Turkish](README/TURKISH.md) |
+| [Hindi](README/HINDI.md)           | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
+| [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) | [Serbian](README/SERBIAN.md)   | [Spanish](README/SPANISH.md) | [Turkish](README/TURKISH.md) |
 
 ---
 
 ## Maintainers Guide Translations
 
-| 0   | 1 | 2   | 3  | 4   | 5   |
+| [English](../maintainer_guide.md)  | [Bangla](maintainer_guide/maintainer_guide.ben.md) | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1   | [English](../maintainer_guide.md)  | [Bangla](maintainer_guide/maintainer_guide.ben.md) | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) |
-| 2   | [Portuguese](maintainer_guide/maintainer_guide.por.md) |
+| [Portuguese](maintainer_guide/maintainer_guide.por.md) |
 
 ---
 
 ## Terminal Tutorial
 
-| 0   | 1   | 2    |
-| :---: | :---: | :---: |
 | 1   | [English](../terminal_tutorial.md) | [Bangla](terminal_tutorial/terminal_tutorial.ben.md) |
+| :---: | :---: | :---: |
 
 ---
