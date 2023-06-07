@@ -51,4 +51,5 @@ In caso di dubbi, è sempre possibile menzionare me o altri manutentori nella PR
 Unisciti a noi per aiutare la crescita di questo progetto insieme. Contattami pure su Twitter e mandami il tuo account GitHub per essere aggiunto.
 
 _Questo documento non è stato tradotto dall'inglese direttamente da [Syknapse](https://github.com/Syknapse), in caso di contatto si suggerisce di usare l'inglese_
+
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
