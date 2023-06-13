@@ -58,12 +58,7 @@ function saveCardsAsJSON(cards, filePath) {
 // Function to delete selected cards from the index.html file
 function deleteCardsFromHTML(selectedCards) {
   selectedCards.each((index, element) => {
-    const cardElement = $(element)
-
-    // Remove HTML comments before deleting the card
-    cardElement.prevUntil(':not(comment)').remove()
-    cardElement.nextUntil(':not(comment)').remove()
-    cardElement.remove()
+    $(element).remove()
   })
 
   const updatedHTML = $.html()
