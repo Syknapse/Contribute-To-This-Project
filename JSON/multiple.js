@@ -4,7 +4,7 @@ const cheerio = require('cheerio')
 // Array to store the card objects
 for (let i = 1; i <= 18; i++) {
   const htmlFile = `../archive/archive_${i}.html`
-  const json = `converted/archive_${i}.json`
+  const json = `../archive_test/archive_${i}.json`
 
   // Function to extract contact details
   function extractContactDetails(contactElement) {

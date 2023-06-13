@@ -1,10 +1,9 @@
 const fs = require('fs')
+const path = require('path')
 const cheerio = require('cheerio')
 
-const file = 19
-
-const htmlFile = `../index.html`
-const jsonFile = `converted/archive_${file}.json`
+const htmlFile = `../index_test.html`
+const archiveDir = '../archive_test'
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
@@ -50,8 +49,26 @@ function extractResourceDetails(resourcesElement) {
   return resources
 }
 
-// Array to store the card objects
-const cards = []
+// Function to save cards in a JSON file
+function saveCardsAsJSON(cards, filePath) {
+  const jsonData = JSON.stringify(cards, null, 2)
+  fs.writeFileSync(filePath, jsonData)
+}
+
+// Function to delete selected cards from the index.html file
+function deleteCardsFromHTML(selectedCards) {
+  selectedCards.each((index, element) => {
+    const cardElement = $(element)
+
+    // Remove HTML comments before deleting the card
+    cardElement.prevUntil(':not(comment)').remove()
+    cardElement.nextUntil(':not(comment)').remove()
+    cardElement.remove()
+  })
+
+  const updatedHTML = $.html()
+  fs.writeFileSync(htmlFile, updatedHTML)
+}
 
 // Read the HTML file
 const html = fs.readFileSync(htmlFile, 'utf-8')
@@ -62,38 +79,56 @@ const $ = cheerio.load(html)
 // Fetch all the cards
 const cardElements = $('.card')
 
-// Iterate over each card
-cardElements.each((index, element) => {
-  const card = {}
+// Exclude the first 10 cards
+const selectedCards = cardElements.slice(10)
 
-  // Extract name
-  card.name = $(element)
-    .find('.name')
-    .text()
-    .trim()
+// Convert selected cards to JSON
+const jsonCards = convertToJSON(selectedCards)
 
-  // Extract contact details
-  const contactElement = $(element).find('.contact')
-  card.contact = extractContactDetails(contactElement)
+// Function to convert cards to JSON format
+function convertToJSON(cards) {
+  // Array to store the card objects
+  const jsonCards = []
 
-  // Extract about section
-  card.about = $(element)
-    .find('.about')
-    .text()
-    .trim()
+  // Iterate over each card
+  cards.each((index, element) => {
+    const card = {}
 
-  // Extract resources
-  const resourcesElement = $(element).find('.resources')
-  card.resources = extractResourceDetails(resourcesElement)
+    // Extract name
+    card.name = $(element)
+      .find('.name')
+      .text()
+      .trim()
 
-  // Add the card object to the array
-  cards.push(card)
-})
+    // Extract contact details
+    const contactElement = $(element).find('.contact')
+    card.contact = extractContactDetails(contactElement)
 
-// Convert the cards array to JSON
-const jsonData = JSON.stringify(cards, null, 2)
+    // Extract about section
+    card.about = $(element)
+      .find('.about')
+      .text()
+      .trim()
 
-// Write the JSON data to a file
-fs.writeFileSync(jsonFile, jsonData, 'utf-8')
+    // Extract resources
+    const resourcesElement = $(element).find('.resources')
+    card.resources = extractResourceDetails(resourcesElement)
+
+    // Add the card object to the array
+    jsonCards.push(card)
+  })
+  return jsonCards
+}
+
+// Determine the next sequential number for the archive file
+const archiveFiles = fs.readdirSync(archiveDir)
+const nextNumber = archiveFiles.length + 1
+const archiveFilePath = path.join(archiveDir, `archive_${nextNumber}.json`)
+
+// Save selected cards in a JSON file
+saveCardsAsJSON(jsonCards, archiveFilePath)
+
+// Delete selected cards from index.html
+deleteCardsFromHTML(selectedCards)
 
 console.log('Conversion complete!')
