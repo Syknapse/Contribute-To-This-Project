@@ -61,15 +61,29 @@ function deleteCardsFromHTML(selectedCards) {
     $(element).remove()
   })
 
-  const updatedHTML = $.html()
-  fs.writeFileSync(htmlFile, updatedHTML)
+  const spanElement = $('#cmnt')
+
+  // Remove HTML comments using regex
+  const updatedHTML = spanElement.html().replace(/<!--[\s\S]*?-->/g, '')
+
+  // Remove empty lines
+  const updatedHTMLWithoutEmptyLines = updatedHTML.replace(/^\s*\n/gm, '')
+
+  // Update the HTML inside the span element
+  spanElement.html(updatedHTMLWithoutEmptyLines)
+
+  // Get the updated HTML string
+  const updatedHTMLString = $.html()
+
+  // const updatedHTML = $.html()
+  fs.writeFileSync(htmlFile, updatedHTMLString)
 }
 
 // Read the HTML file
 const html = fs.readFileSync(htmlFile, 'utf-8')
 
 // Load the HTML into Cheerio
-const $ = cheerio.load(html)
+const $ = cheerio.load(html, { xmlMode: true })
 
 // Fetch all the cards
 const cardElements = $('.card')
