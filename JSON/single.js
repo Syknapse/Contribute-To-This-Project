@@ -77,6 +77,37 @@ function deleteCardsFromHTML(selectedCards) {
 
   // const updatedHTML = $.html()
   fs.writeFileSync(htmlFile, updatedHTMLString)
+
+  // Get the remaining cards
+  const remainingCards = spanElement.children('.card')
+
+  // Clear the content inside the span element
+  spanElement.empty()
+
+  spanElement.append('\n<!-- Start -->\n')
+
+  // Insert the remaining cards with comments and line breaks
+  remainingCards.each((index, element) => {
+    const cardHTML = $.html(element)
+    if (cardHTML.trim() !== '') {
+      // Add a comment before the card
+      spanElement.append(`<!-- Card ${index + 1} START -->\n`)
+
+      // Add the card content
+      spanElement.append(`${cardHTML}\n`)
+
+      // Add a comment after the card
+      spanElement.append(`<!-- Card ${index + 1} END -->\n`)
+    }
+  })
+
+  spanElement.append('<!-- End -->\n')
+
+  // Get the final updated HTML string with remaining cards
+  const finalHTMLString = $.html()
+
+  // Write the final updated HTML back to the index.html file
+  fs.writeFileSync(htmlFile, finalHTMLString)
 }
 
 // Read the HTML file
