@@ -64,50 +64,49 @@ function deleteCardsFromHTML(selectedCards) {
   const spanElement = $('#cmnt')
 
   // Remove HTML comments using regex
-  const updatedHTML = spanElement.html().replace(/<!--[\s\S]*?-->/g, '')
+  const spanHTML = spanElement.html().replace(/<!--[\s\S]*?-->/g, '');
 
   // Remove empty lines
-  const updatedHTMLWithoutEmptyLines = updatedHTML.replace(/^\s*\n/gm, '')
+  const updatedHTMLWithoutEmptyLines = spanHTML.replace(/^\s*\n/gm, '');
 
   // Update the HTML inside the span element
-  spanElement.html(updatedHTMLWithoutEmptyLines)
-
-  // Get the updated HTML string
-  const updatedHTMLString = $.html()
-
-  // const updatedHTML = $.html()
-  fs.writeFileSync(htmlFile, updatedHTMLString)
+  spanElement.html(updatedHTMLWithoutEmptyLines);
 
   // Get the remaining cards
-  const remainingCards = spanElement.children('.card')
+  const remainingCards = spanElement.children('.card');
 
   // Clear the content inside the span element
-  spanElement.empty()
+  spanElement.empty();
 
+  spanElement.append('\n<!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->\n')
+  spanElement.append('<!-- Keep one line of space above and below your card -->\n')
+  spanElement.append('<!-- ========= Paste YOUR CARD directly BELOW this line ========= -->\n')
   spanElement.append('\n<!-- Start -->\n')
 
-  // Insert the remaining cards with comments and line breaks
+  /// Insert the remaining cards with comments and line breaks
   remainingCards.each((index, element) => {
-    const cardHTML = $.html(element)
+    const cardHTML = $.html(element);
     if (cardHTML.trim() !== '') {
       // Add a comment before the card
-      spanElement.append(`<!-- Card ${index + 1} START -->\n`)
+      spanElement.append(`\n<!-- Card ${index + 1} START -->\n`);
 
       // Add the card content
-      spanElement.append(`${cardHTML}\n`)
+      spanElement.append(`${cardHTML}\n`);
 
       // Add a comment after the card
-      spanElement.append(`<!-- Card ${index + 1} END -->\n`)
+      spanElement.append(`<!-- Card ${index + 1} END -->\n`);
     }
-  })
+  });
 
   spanElement.append('<!-- End -->\n')
+  spanElement.append('\n<!-- <<<<< Do not change anything below this line >>>>> -->\n')
+  spanElement.append('<!-- -------------------------------------------------- -->\n')
 
-  // Get the final updated HTML string with remaining cards
-  const finalHTMLString = $.html()
+  /// Get the updated HTML string
+  const updatedHTMLString = $.html();
 
-  // Write the final updated HTML back to the index.html file
-  fs.writeFileSync(htmlFile, finalHTMLString)
+  // Write the updated HTML back to the index.html file
+  fs.writeFileSync(htmlFile, updatedHTMLString);
 }
 
 // Read the HTML file
