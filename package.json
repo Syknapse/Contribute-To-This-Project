@@ -11,7 +11,7 @@
   },
   "scripts": {
     "html": "yarn prettier --write index.html",
-    "htoj": "node ./archive/htoj.js"
+    "htoj": "node assets/htoj.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"

@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const htmlFile = `../index.html`
-const archiveDir = '../archive'
+const htmlFile = `index.html`
+const archiveDir = 'archive'
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
