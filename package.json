@@ -10,7 +10,8 @@
     }
   },
   "scripts": {
-    "prettier-html": "yarn prettier --write index.html"
+    "html": "yarn prettier --write index.html",
+    "htoj": "node ./archive/htoj.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"

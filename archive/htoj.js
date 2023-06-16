@@ -2,8 +2,8 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const htmlFile = `../index_test.html`
-const archiveDir = '../archive_test'
+const htmlFile = `../index.html`
+const archiveDir = '../archive'
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
@@ -61,59 +61,15 @@ function deleteCardsFromHTML(selectedCards) {
     $(element).remove()
   })
 
-  const spanElement = $('#cmnt')
-
-  // Remove HTML comments using regex
-  const spanHTML = spanElement.html().replace(/<!--[\s\S]*?-->/g, '')
-
-  // Remove empty lines
-  const updatedHTMLWithoutEmptyLines = spanHTML.replace(/^\s*\n/gm, '')
-
-  // Update the HTML inside the span element
-  spanElement.html(updatedHTMLWithoutEmptyLines)
-
-  // Get the remaining cards
-  const remainingCards = spanElement.children('.card')
-
-  // Clear the content inside the span element
-  spanElement.empty()
-
-  spanElement.append('\n<!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->\n')
-  spanElement.append('<!-- Keep one line of space above and below your card -->\n')
-  spanElement.append('<!-- ========= Paste YOUR CARD directly BELOW this line ========= -->\n')
-  spanElement.append('\n<!-- Start -->\n')
-
-  /// Insert the remaining cards with comments and line breaks
-  remainingCards.each((index, element) => {
-    const cardHTML = $.html(element)
-    if (cardHTML.trim() !== '') {
-      // Add a comment before the card
-      spanElement.append(`\n<!-- Card ${index + 1} START -->\n`)
-
-      // Add the card content
-      spanElement.append(`${cardHTML}\n`)
-
-      // Add a comment after the card
-      spanElement.append(`<!-- Card ${index + 1} END -->\n`)
-    }
-  })
-
-  spanElement.append('<!-- End -->\n')
-  spanElement.append('\n<!-- <<<<< Do not change anything below this line >>>>> -->\n')
-  spanElement.append('<!-- -------------------------------------------------- -->\n')
-
-  /// Get the updated HTML string
-  const updatedHTMLString = $.html()
-
-  // Write the updated HTML back to the index.html file
-  fs.writeFileSync(htmlFile, updatedHTMLString)
+  const updatedHTML = $.html()
+  fs.writeFileSync(htmlFile, updatedHTML)
 }
 
 // Read the HTML file
 const html = fs.readFileSync(htmlFile, 'utf-8')
 
 // Load the HTML into Cheerio
-const $ = cheerio.load(html, { xmlMode: true })
+const $ = cheerio.load(html)
 
 // Fetch all the cards
 const cardElements = $('.card')
