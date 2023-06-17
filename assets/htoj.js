@@ -7,24 +7,21 @@ const archiveDir = 'archive'
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
-  const contact = {}
+  const contactDetails = []
+  const contactLinks = contactElement.find('a')
 
-  // Fetch all the social media links
-  const socialMediaLinks = contactElement.find('a')
+  contactLinks.each((index, link) => {
+    const titleElement = $(link).prev()
+    const title = titleElement.attr('class') ? titleElement.attr('class').replace('fab fa-', '') : ''
+    const url = $(link).attr('href')
 
-  // Iterate over each social media link
-  socialMediaLinks.each((index, element) => {
-    const linkElement = $(element)
-    const network = linkElement.prev('i').attr('class')
-    const link = linkElement.attr('href')
-
-    if (network && link) {
-      const networkName = network.split('fa-')[1]
-      contact[networkName] = link
-    }
+    contactDetails.push({
+      title: title,
+      link: url,
+    })
   })
 
-  return contact
+  return contactDetails
 }
 
 // Function to extract resource details
@@ -97,7 +94,7 @@ function convertToJSON(cards) {
 
     // Extract contact details
     const contactElement = $(element).find('.contact')
-    card.contact = extractContactDetails(contactElement)
+    card.contacts = extractContactDetails(contactElement)
 
     // Extract about section
     card.about = $(element)
