@@ -72,7 +72,7 @@ function fetchArchiveCards() {
   for (let i = 1; i <= +archiveFiles; i++) {
     // Construct the file path
     // const filePath = `../archive/archive_${i}.json`;
-    const filePath = `../archive/archive_${i}.json`;
+    const filePath = `archive/archive_${i}.json`;
 
     // Fetch the JSON file
     fetch(filePath)
