@@ -72,7 +72,7 @@ function fetchArchiveCards() {
   for (let i = 1; i <= +archiveFiles; i++) {
     // Construct the file path
     // const filePath = `../archive/archive_${i}.json`;
-    const filePath = `https://raw.githubusercontent.com/Syknapse/Contribute-To-This-Project/playground/archive/archive_${i}.json`;
+    const filePath = `../archive/archive_${i}.json`;
 
     // Fetch the JSON file
     fetch(filePath)
@@ -144,7 +144,8 @@ function renderArchiveCards() {
           resources.appendChild(resourcesList);
           card.appendChild(resources);
 
-          // Append the contributor's card to the document
+          // Append the contributor's card to the container
+          const container = document.getElementById("archiveContainer");
           container.appendChild(card);
         });
       })
