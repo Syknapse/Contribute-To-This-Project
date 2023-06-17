@@ -112,7 +112,7 @@ function renderArchiveCards() {
             link.href = socialMedia.link;
             link.target = "_blank";
             const icon = document.createElement("i");
-            icon.classList.add("fab", `fa-${socialMedia.title}`);
+            icon.classList.add(`fab fa-${socialMedia.title}`);
             link.appendChild(icon);
             contact.appendChild(link);
           });
