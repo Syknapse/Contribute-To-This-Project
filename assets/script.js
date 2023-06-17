@@ -112,7 +112,11 @@ function renderArchiveCards() {
             link.href = socialMedia.link;
             link.target = "_blank";
             const icon = document.createElement("i");
-            icon.classList.add(`fab fa-${socialMedia.title}`);
+            if (socialMedia.title === "" || !socialMedia.title) {
+              icon.classList.add("fas fa-globe");
+            } else {
+              icon.classList.add(`fab fa-${socialMedia.title}`);
+            }
             link.appendChild(icon);
             contact.appendChild(link);
           });
