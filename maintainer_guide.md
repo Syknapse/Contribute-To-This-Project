@@ -2,7 +2,17 @@
 
 This guide is for those who would like to join the project as maintainers, to help manage and maintain the project for the community. (This is not a guide for **first-time contributors**)
 
-This guide is also available in [German](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_german.md), [Italian](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_italian.md), and [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/maintainer_guide_portuguese.md) (more translations are very welcome)
+## Translations
+
+This tutorial is also available in [other languages](translations/translation.md)
+
+| [English](maintainer_guide.md)   | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) |
+
+> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
+
+---
 
 ## Objectives
 
@@ -26,7 +36,7 @@ You can commit as much or as little time as you want to this. Between us we hope
 - If everything else is ok, approve the PR, write a message to the contributor thanking them for the contribution (remembering they are first timers and would benefit from encouragement).
 - Merge the PR into `master`.
 
-### Request changes
+## Request changes
 
 - Sometimes there are problems with the PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
 - Start a code review on GitHub and request changes. Try to be as descriptive as possible, comment the exact line, tell them exactly what the problem is and how to fix it, and encourage them that this is a normal part of the PR review process.
@@ -44,10 +54,18 @@ I recommend the use of a tool like [GitKraken](https://www.gitkraken.com/downloa
 Download GitKraken, clone the project. Using a combination of your code editor and GitKraken's integrated merge conflict tool gives you full control to quickly go through PRs, fixing conflicts and merging.
 
 The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with the same indentation and style.  
-If you notice the HTML file looking messy run `npm run prettier-html` in the project root. It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
+If you notice the HTML file looking messy run below code in the project root.
 
-If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse)
+```js
+npx prettier --write index.html
+```
+
+It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
+
+If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse).
 
 ## Join us
 
-Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you.
+Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you. You can also join our Discord Community by clicking the button below:
+
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')

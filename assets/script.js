@@ -38,7 +38,7 @@ const createArchiveObject = i => {
   archiveObject.setAttribute('height', '5000')
   container.append(archiveObject)
 }
-const NUMBER_OF_FILES = 13
+const NUMBER_OF_FILES = 18
 let current = 1
 const getArchiveCards = i => {
   createArchiveObject(i)
@@ -61,23 +61,110 @@ const getArchiveCards = i => {
 
 getArchiveCards(current)
 
+// JSON format archive fetching
+const archiveFiles = 18
+// Function to fetch the archive cards from JSON files and render them on the website
+function fetchArchiveCards() {
+  // Get the container element on your website where you want to render the cards
+  const container = document.getElementById('archiveContainer');
+
+  // Loop through each archive file
+  for (let i = 1; i <= +archiveFiles; i++) {
+    // Construct the file path
+    // const filePath = `../archive/archive_${i}.json`;
+    const filePath = `https://raw.githubusercontent.com/Syknapse/Contribute-To-This-Project/playground/archive/archive_${i}.json`;
+
+    // Fetch the JSON file
+    fetch(filePath)
+      .then(response => response.json())
+      .then(data => {
+        // Render the archive cards on the website
+        renderArchiveCards(data, container);
+      })
+      .catch(error => {
+        console.log(`Error fetching ${filePath}:`, error);
+      });
+  }
+}
+
+// Function to render the archive cards on the website
+function renderArchiveCards() {
+  // Fetch the JSON data from the archive files
+  for (let i = 1; i <= archiveFiles; i++) {
+    fetch(`archive/archive_${i}.json`)
+      .then((response) => response.json())
+      .then((data) => {
+        // Iterate over each contributor in the JSON data
+        data.forEach((contributor) => {
+          // Create HTML elements for the contributor's card
+          const card = document.createElement("div");
+          card.classList.add("card");
+
+          const name = document.createElement("p");
+          name.classList.add("name");
+          name.textContent = contributor.name;
+          card.appendChild(name);
+
+          const contact = document.createElement("p");
+          contact.classList.add("contact");
+          contributor.contacts.forEach((socialMedia) => {
+            const link = document.createElement("a");
+            link.href = socialMedia.link;
+            link.target = "_blank";
+            const icon = document.createElement("i");
+            icon.classList.add(`fab`, `fa-${socialMedia.title}`);
+            link.appendChild(icon);
+            contact.appendChild(link);
+          });
+          card.appendChild(contact);
+
+          const about = document.createElement("p");
+          about.classList.add("about");
+          about.textContent = contributor.about;
+          card.appendChild(about);
+
+          const resources = document.createElement("div");
+          resources.classList.add("resources");
+          const resourcesTitle = document.createElement("p");
+          resourcesTitle.textContent = `${contributor.resources.length} Useful Dev Resources`;
+          resources.appendChild(resourcesTitle);
+
+          const resourcesList = document.createElement("ul");
+          contributor.resources.forEach((resource) => {
+            const resourceItem = document.createElement("li");
+            const resourceLink = document.createElement("a");
+            resourceLink.href = resource.link;
+            resourceLink.target = "_blank";
+            resourceLink.title = resource.title;
+            resourceLink.textContent = resource.title;
+            resourceItem.appendChild(resourceLink);
+            resourcesList.appendChild(resourceItem);
+          });
+
+          resources.appendChild(resourcesList);
+          card.appendChild(resources);
+
+          // Append the contributor's card to the document
+          container.appendChild(card);
+        });
+      })
+      .catch((error) => {
+        console.error(`Error fetching archive_${i}.json:`, error);
+      });
+  }
+}
+
+// Call the function to fetch and render the archive cards
+fetchArchiveCards();
+
 // night mode feature
-$('#toggle-box-checkbox').on('change', function() {
-  if (this.checked) {
-    $('body').addClass('night')
+document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
+  if (e.target.checked) {
+    document.body.classList.add('night')
   } else {
-    $('body').removeClass('night')
+    document.body.classList.remove('night')
   }
 })
-
-function demo() {
-  setInterval(function() {
-    $('#toggle-box-checkbox').trigger('click')
-  }, 1000)
-}
-if (document.location.pathname.indexOf('fullcpgrid') > -1) {
-  demo()
-}
 
 // Current year for footer
 const currentYearSpan = document.getElementById('currentYear')
@@ -104,8 +191,8 @@ function applyHighlightToSearchResults(value, card) {
     element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
   )
 
-  if (value && value.length > 1) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>${value}</mark>`)))
+  if (value && value.length > 0) {
+    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
   }
 }
 
@@ -123,4 +210,26 @@ function searchCard() {
       applyHighlightToSearchResults(input, cards[i])
     }
   }
+}
+
+// Get the button:
+let mybutton = document.getElementById('myBtn')
+
+// When the user scrolls down 500px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction()
+}
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = 'flex'
+  } else {
+    mybutton.style.display = 'none'
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0 // For Safari
+  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
 }

@@ -1,4 +1,6 @@
-
 .DS_Store
 .vscode
 /node_modules
+/.idea
+/archive_test
+index_test.html
