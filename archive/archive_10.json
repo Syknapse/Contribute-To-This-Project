@@ -1,11 +1,20 @@
 [
   {
     "name": "Colby Killian",
-    "contact": {
-      "linkedin-in": "https://www.linkedin.com/in/colby-killian-900462192/",
-      "github": "https://github.com/Killianbeast",
-      "twitter": "https://twitter.com/KillianBeast"
-    },
+    "contacts": [
+      {
+        "title": "linkedin-in",
+        "link": "https://www.linkedin.com/in/colby-killian-900462192/"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/Killianbeast"
+      },
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/KillianBeast"
+      }
+    ],
     "about": "I am a Computer Science undergrad at Texas Tech University. I am learning to become a back-end developer. I\n          love sports and playing games with my friends. Wreck 'Em!",
     "resources": [
       {
@@ -24,10 +33,16 @@
   },
   {
     "name": "Mahima Khatri",
-    "contact": {
-      "github": "https://github.com/MahimaKhatri",
-      "linkedin": "https://www.linkedin.com/in/mahima-khatri-434a3b193//"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/MahimaKhatri"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/mahima-khatri-434a3b193//"
+      }
+    ],
     "about": "I am new to web development and opensource as well but I really love the idea of beginning with all that I\n          have learnt as of now. I will be happy to learn more and contribute in community in whatever way possible.",
     "resources": [
       {
@@ -46,9 +61,12 @@
   },
   {
     "name": "Pran Gopal Shrestha",
-    "contact": {
-      "facebook": "https://www.facebook.com/"
-    },
+    "contacts": [
+      {
+        "title": "facebook",
+        "link": "https://www.facebook.com/"
+      }
+    ],
     "about": "I am Pran Gopal Shrestha. I am from Nepal, currently staying in Sydney and studying IT.",
     "resources": [
       {
@@ -67,9 +85,12 @@
   },
   {
     "name": "Sharan Kumar",
-    "contact": {
-      "twitter": "www.twitter.com/Zer104"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/Zer104"
+      }
+    ],
     "about": "Hi I am Sharan Kumar, I am learning Front-End.",
     "resources": [
       {
@@ -88,9 +109,12 @@
   },
   {
     "name": "David Lemming",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Hi, my name's David and I'm a university student from Germany. I am currently in my first year of learning\n          Computer Science.",
     "resources": [
       {
@@ -109,9 +133,12 @@
   },
   {
     "name": "Devesh Joshi",
-    "contact": {
-      "twitter": "https://twitter.com/FrostyFeet3031"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/FrostyFeet3031"
+      }
+    ],
     "about": "Hi, I am here to explore the software side of the tech world. I am interested in Control Systems and Embedded\n          Systems",
     "resources": [
       {
@@ -130,9 +157,12 @@
   },
   {
     "name": "Sumit Gupta/p>",
-    "contact": {
-      "twitter": "https://twitter.com/last_crusaderr"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/last_crusaderr"
+      }
+    ],
     "about": "I am a full stack developer.Looking for contribution to the diverse world of open source.",
     "resources": [
       {
@@ -151,9 +181,12 @@
   },
   {
     "name": "Bogdan Kostyuk",
-    "contact": {
-      "github": "https://github.com/logotip4ik"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/logotip4ik"
+      }
+    ],
     "about": "Hello everyone. At the age of 14 I discovered thing called programming. Now I am a web developer, who knows\n          some of the very best technologies, like Vue.js, React.js, Next.js and Nuxt.js",
     "resources": [
       {
@@ -172,9 +205,12 @@
   },
   {
     "name": "Kunal Sheengada",
-    "contact": {
-      "github": "https://github.com/NinjaKunal"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/NinjaKunal"
+      }
+    ],
     "about": "I am a Web developer, competitive programmer and a newbie in open-source contribution",
     "resources": [
       {
@@ -193,9 +229,12 @@
   },
   {
     "name": "Pyaeh Phyoe",
-    "contact": {
-      "twitter": "https://twitter.com/PyaePhy84494900"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/PyaePhy84494900"
+      }
+    ],
     "about": "A web developer",
     "resources": [
       {
@@ -214,9 +253,12 @@
   },
   {
     "name": "Chantae P.",
-    "contact": {
-      "github": "https://github.com/taepal467"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/taepal467"
+      }
+    ],
     "about": "Currently figuring out my niche in the Tech world. So far I've been teaching myself HTML, CSS and JavaScript.",
     "resources": [
       {
@@ -235,9 +277,12 @@
   },
   {
     "name": "Viveena Rathi",
-    "contact": {
-      "github": "www.github.com/viveena30"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "www.github.com/viveena30"
+      }
+    ],
     "about": "I'm a Web Developer and a tech geek. Aiming to contribute more towards Open Source and grow mt network.",
     "resources": [
       {
@@ -256,9 +301,12 @@
   },
   {
     "name": "Nivendha",
-    "contact": {
-      "twitter": "https://twitter.com/nivendha"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/nivendha"
+      }
+    ],
     "about": "Developer",
     "resources": [
       {
@@ -277,9 +325,12 @@
   },
   {
     "name": "Nawed Ali",
-    "contact": {
-      "github": "https://github.com/nawed2611"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/nawed2611"
+      }
+    ],
     "about": "I'm a Front-End Developer from New Delhi, India exploring the world of Open Source.",
     "resources": [
       {
@@ -298,9 +349,12 @@
   },
   {
     "name": "Ayush",
-    "contact": {
-      "github": "https://github.com/CinematicGenius007"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/CinematicGenius007"
+      }
+    ],
     "about": "Just trying out my first genuine PR. Thanks for the support.",
     "resources": [
       {
@@ -319,9 +373,12 @@
   },
   {
     "name": "Aman Kumar",
-    "contact": {
-      "twitter": "https://twitter.com/Aman__74"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/Aman__74"
+      }
+    ],
     "about": "A passionate developer looking to learn new things while making projects that will help solving real world\n          problems and play a role in betterment of the society",
     "resources": [
       {
@@ -340,9 +397,12 @@
   },
   {
     "name": "Njoguu",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "I'm a software developer fascinated by programming & IT and everything in its orbit.",
     "resources": [
       {
@@ -361,9 +421,12 @@
   },
   {
     "name": "Devansh",
-    "contact": {
-      "instagram": "https://www.instagram.com/devansh1197/"
-    },
+    "contacts": [
+      {
+        "title": "instagram",
+        "link": "https://www.instagram.com/devansh1197/"
+      }
+    ],
     "about": "Web Developer. Interested in React and Nextjs.",
     "resources": [
       {
@@ -382,11 +445,20 @@
   },
   {
     "name": "Jatin Verma",
-    "contact": {
-      "twitter": "https://twitter.com/justjatinverma",
-      "linkedin-in": "https://www.linkedin.com/in/justjatinverma/",
-      "github": "https://github.com/justjatinverma"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/justjatinverma"
+      },
+      {
+        "title": "linkedin-in",
+        "link": "https://www.linkedin.com/in/justjatinverma/"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/justjatinverma"
+      }
+    ],
     "about": "Interested in WebDev and Cybersecurity",
     "resources": [
       {
@@ -405,9 +477,12 @@
   },
   {
     "name": "Joshua O. Adenusi",
-    "contact": {
-      "twitter": "https://twitter.com/_md_dev__"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/_md_dev__"
+      }
+    ],
     "about": "React Native Coding Ninja. I enjoy coding under brilliant baroque music followed by booming rap verses. Says\n          the phrase \"You can look at this in at least two ways\" a tad much. A quiet talkative.",
     "resources": [
       {
@@ -426,9 +501,12 @@
   },
   {
     "name": "Rohit Roshan",
-    "contact": {
-      "github": "www.github.com"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "www.github.com"
+      }
+    ],
     "about": "about you",
     "resources": [
       {
@@ -447,9 +525,12 @@
   },
   {
     "name": "Ritvik",
-    "contact": {
-      "twitter": "https://twitter.com/RitvikGupta01"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/RitvikGupta01"
+      }
+    ],
     "about": "Interested in WebDev, Java and 3D modeling",
     "resources": [
       {
@@ -468,9 +549,12 @@
   },
   {
     "name": "Akhik",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Hey,There I am Akhik,currently a High school Student.Currently i am learning java and DSA.",
     "resources": [
       {
@@ -489,9 +573,12 @@
   },
   {
     "name": "Han",
-    "contact": {
-      "github": "https://github.com/SewookHan"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/SewookHan"
+      }
+    ],
     "about": "Web Developer. Interested in React and TypeScript.",
     "resources": [
       {
@@ -510,9 +597,12 @@
   },
   {
     "name": "Davidrf88",
-    "contact": {
-      "instagram": "http://instagram.com/david.hobbies"
-    },
+    "contacts": [
+      {
+        "title": "instagram",
+        "link": "http://instagram.com/david.hobbies"
+      }
+    ],
     "about": "Hi my name is David and Im passionate about web development. Happy coding to everyone!",
     "resources": [
       {
@@ -531,9 +621,12 @@
   },
   {
     "name": "servinjbass",
-    "contact": {
-      "twitter": "https://www.twitter.com/servinjbass"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://www.twitter.com/servinjbass"
+      }
+    ],
     "about": "I'm a former cruise ship musician turned full-stack JS developer.",
     "resources": [
       {
@@ -552,9 +645,12 @@
   },
   {
     "name": "Avril Key",
-    "contact": {
-      "twitter": "https://twitter.com/ave_irl"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/ave_irl"
+      }
+    ],
     "about": "NYC-based Computer Information Systems major currently focused on learning Data Structures & Algorithms. I\n          look forward to learning more about open source and contributing to more projects.",
     "resources": [
       {
@@ -573,10 +669,16 @@
   },
   {
     "name": "s-Hale",
-    "contact": {
-      "github": "https://github.com/Lavisharora30",
-      "twitter": "https://twitter.com/Lavish_arora_30"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Lavisharora30"
+      },
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/Lavish_arora_30"
+      }
+    ],
     "about": "UK-based FE dev",
     "resources": [
       {
@@ -595,9 +697,12 @@
   },
   {
     "name": "Abhishek Gupta",
-    "contact": {
-      "github": "https://github.com/Im-Abhi"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Im-Abhi"
+      }
+    ],
     "about": "I'm a FrontEnd Web-Dev ( ReactJS )",
     "resources": [
       {
@@ -616,9 +721,12 @@
   },
   {
     "name": "Unero",
-    "contact": {
-      "twitter": "www.twitter.com/UxDox"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/UxDox"
+      }
+    ],
     "about": "CS Student, focusing on mobile development especially Android platform",
     "resources": [
       {
@@ -637,9 +745,12 @@
   },
   {
     "name": "roicoroy",
-    "contact": {
-      "twitter": "www.twitter.com/roicoroy"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/roicoroy"
+      }
+    ],
     "about": "Mobile App Developer",
     "resources": [
       {
@@ -654,9 +765,12 @@
   },
   {
     "name": "Pratik Gahane",
-    "contact": {
-      "github": "https://github.com/godofwarOP"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/godofwarOP"
+      }
+    ],
     "about": "Hello everyone 👋\n          \n          My name is Pratik. I am currently pursuing MCA and I love backend development.",
     "resources": [
       {
@@ -675,9 +789,12 @@
   },
   {
     "name": "Micah Weston",
-    "contact": {
-      "twitter": "www.twitter.com/mmwest55"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/mmwest55"
+      }
+    ],
     "about": "Hello, I am a Front End Engineer based in San Antonio, Tx.",
     "resources": [
       {
@@ -696,9 +813,12 @@
   },
   {
     "name": "Kerim Mandzo",
-    "contact": {
-      "github": "https://github.com/Kerman07"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Kerman07"
+      }
+    ],
     "about": "Msc. Mech. Eng with a passion for programming, with special focus on Python and Django.",
     "resources": [
       {
@@ -717,9 +837,12 @@
   },
   {
     "name": "Sakthi saba",
-    "contact": {
-      "twitter": "https://twitter.com/Sakthisaba1"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/Sakthisaba1"
+      }
+    ],
     "about": "Hi there! I am from india and I am learning to code.",
     "resources": [
       {
@@ -738,9 +861,12 @@
   },
   {
     "name": "Rodney Seaforth",
-    "contact": {
-      "twitter": "https://twitter.com/rmc4th"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/rmc4th"
+      }
+    ],
     "about": "Full Stack Developer in Training",
     "resources": [
       {
@@ -759,9 +885,12 @@
   },
   {
     "name": "Harsh Chandwani",
-    "contact": {
-      "twitter": "https://twitter.com/heyy_harshh"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/heyy_harshh"
+      }
+    ],
     "about": "I am a front-end web developer",
     "resources": [
       {
@@ -780,7 +909,7 @@
   },
   {
     "name": "FreudCat",
-    "contact": {},
+    "contacts": [],
     "about": "Just someone who enjoys coding when there is free time.",
     "resources": [
       {
@@ -799,9 +928,12 @@
   },
   {
     "name": "Gregory Shaw",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/gregory-shaw-73315519/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/gregory-shaw-73315519/"
+      }
+    ],
     "about": "Hi there! I run a Telecommunications company in South Africa and I am learning to code.",
     "resources": [
       {
@@ -820,9 +952,12 @@
   },
   {
     "name": "Chethana",
-    "contact": {
-      "github": "https://github.com/Chethanasv-22"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Chethanasv-22"
+      }
+    ],
     "about": "Hey.. I'm Chethana, pursuing Bachelor of engineering in computer science. This is my very first open source\n          contibution. My field of interest are Data science and Machine learning.",
     "resources": [
       {
@@ -841,9 +976,12 @@
   },
   {
     "name": "Kamran",
-    "contact": {
-      "github": "https://github.com/kamran890/"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/kamran890/"
+      }
+    ],
     "about": "I am a freelancer, working remotly with different start-ups. I am persuing my goal to become a Digital Nomad.",
     "resources": [
       {
@@ -862,9 +1000,12 @@
   },
   {
     "name": "Shrimad Bhagwat",
-    "contact": {
-      "github": "https://github.com/Shrimad-Bhagwat"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Shrimad-Bhagwat"
+      }
+    ],
     "about": "I'm a self taught Programmer, a Web Developer and I am studying Computer Science Engineering.",
     "resources": [
       {
@@ -883,9 +1024,12 @@
   },
   {
     "name": "Cassandra Shennum",
-    "contact": {
-      "github": "https://github.com/Dassa-Alora"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/Dassa-Alora"
+      }
+    ],
     "about": "I'm a stay at home mom who loves to play video games and D&D. I'm currently learning about Markdown and HTML.",
     "resources": [
       {
@@ -904,9 +1048,12 @@
   },
   {
     "name": "Kira Overton",
-    "contact": {
-      "github": "https://github.com/kovaltine"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/kovaltine"
+      }
+    ],
     "about": "Aspiring software developer looking for open-source opportunities",
     "resources": [
       {
@@ -925,9 +1072,12 @@
   },
   {
     "name": "Aaron Kennedy",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Love to learn coding. Currently seeking career change",
     "resources": [
       {
@@ -946,9 +1096,12 @@
   },
   {
     "name": "Ahmed Fathy",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/ahmedfathydev/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/ahmedfathydev/"
+      }
+    ],
     "about": "Senior Computer Science Student, good in Algorithms, Data Structures, Object-Oriented Programming, and Problem\n          Solving skills. Detailed-oriented, responsible, and committed engineer, with a get-it-done, on-time, and\n          high-quality product spirit. Quick learner, self-motivated, and social.",
     "resources": [
       {
@@ -967,9 +1120,12 @@
   },
   {
     "name": "Rameen Khan",
-    "contact": {
-      "twitter": "https://twitter.com/ram333n"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/ram333n"
+      }
+    ],
     "about": "Hey, I am Rameen Khan and this is my first contribution to an open source project 😃",
     "resources": [
       {
@@ -988,9 +1144,12 @@
   },
   {
     "name": "Ritu Singh",
-    "contact": {
-      "github": "https://github.com/RituSingh2002"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/RituSingh2002"
+      }
+    ],
     "about": "Hey, I am Ritu Singh. I am a Pre-final Computer Science Engineering Student from Dr. A.P.J Abdul Kalam\n          Technical University Lucknow I m very excited for my first open source projects 😍😃",
     "resources": [
       {
@@ -1009,9 +1168,12 @@
   },
   {
     "name": "Vibhor Singh",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/vibhor-s-b92176190/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/vibhor-s-b92176190/"
+      }
+    ],
     "about": "I am just another web developer with big dreams and big issues with learning.",
     "resources": [
       {
@@ -1030,9 +1192,12 @@
   },
   {
     "name": "Kevin",
-    "contact": {
-      "twitter": "www.twitter.com/rukundokevin_"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/rukundokevin_"
+      }
+    ],
     "about": "I am an avid programmer From Rwanda with a lot of love for open source",
     "resources": [
       {
@@ -1051,9 +1216,12 @@
   },
   {
     "name": "Satchit Hari",
-    "contact": {
-      "twitter": "www.twitter.com/satchit_hari"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/satchit_hari"
+      }
+    ],
     "about": "I'm an engineering student tring to learn about contributing to open source projects.",
     "resources": [
       {
@@ -1072,9 +1240,12 @@
   },
   {
     "name": "Harshita Kohli",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/harshita-kohli-4499b91b6/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/harshita-kohli-4499b91b6/"
+      }
+    ],
     "about": "I am a Nature Lover, a Web Development Enthusiast, a Passionate Singer, an Ardent Photographer and a Problem\n          Solving Maniac!!",
     "resources": [
       {
@@ -1093,9 +1264,12 @@
   },
   {
     "name": "Sayo Bamigbade",
-    "contact": {
-      "twitter": "www.twitter.com/sayobams"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/sayobams"
+      }
+    ],
     "about": "I like to code and play guitar in my spare time.",
     "resources": [
       {
@@ -1114,9 +1288,12 @@
   },
   {
     "name": "AJITHKUMAR S",
-    "contact": {
-      "twitter": "https://twitter.com/ajithnow"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/ajithnow"
+      }
+    ],
     "about": "A Curious Developer",
     "resources": [
       {
@@ -1135,9 +1312,12 @@
   },
   {
     "name": "Iftekhar Ahmed",
-    "contact": {
-      "twitter": "https://twitter.com/_ifte"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/_ifte"
+      }
+    ],
     "about": "Currently studying BSc. in CSE. Liking the open-source environment. Looking forward to contribute more on this\n          community.",
     "resources": [
       {
@@ -1156,9 +1336,12 @@
   },
   {
     "name": "Izzminhal Akmal",
-    "contact": {
-      "discord": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "discord",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Beep boop... I'm waiting to finish school to finally dedicate my time for programming (I *almost* use Arch\n          Linux, btw).",
     "resources": [
       {
@@ -1177,9 +1360,12 @@
   },
   {
     "name": "Kunal",
-    "contact": {
-      "twitter": "https://twitter.com/kunljha"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/kunljha"
+      }
+    ],
     "about": "Hello, I'm Kunal and I enjoy learning and exploring various tools and technologies of the Web Dev world.",
     "resources": [
       {
@@ -1198,9 +1384,12 @@
   },
   {
     "name": "Trisha",
-    "contact": {
-      "github": "https://github.com/TrishaS1401"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/TrishaS1401"
+      }
+    ],
     "about": "Hii! I am Trisha, I'm currently pursuing my graduation in the field of I.T",
     "resources": [
       {
@@ -1219,9 +1408,12 @@
   },
   {
     "name": "Sean Su",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/seansu98/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/seansu98/"
+      }
+    ],
     "about": "Hi my name is Sean and I'm a recent Electrical Engineering graduate from York University looking to find an\n          entry level software developer job ;)",
     "resources": [
       {
@@ -1240,9 +1432,12 @@
   },
   {
     "name": "Abhinav Agrawal",
-    "contact": {
-      "github": "https://github.com/skully-coder"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/skully-coder"
+      }
+    ],
     "about": "Hey, I am Abhinav and this is my first time contributing to an open source repository. I am currently in\n          Manipal Institute of Technology, Manipal",
     "resources": [
       {
@@ -1261,11 +1456,20 @@
   },
   {
     "name": "Pavan Padubidri",
-    "contact": {
-      "twitter": "https://www.twitter.com/PadubidriPavan",
-      "linkedin": "https://www.linkedin.com/in/pavanpadubidri/",
-      "github": "https://padubidri-pavan.github.io"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://www.twitter.com/PadubidriPavan"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/pavanpadubidri/"
+      },
+      {
+        "title": "github",
+        "link": "https://padubidri-pavan.github.io"
+      }
+    ],
     "about": "Hi, I am Pavan Padubidri! 😃 I am a graduate student at New York University. My areas of interest are NLP,\n          ML/DL and AI.",
     "resources": [
       {
@@ -1284,11 +1488,20 @@
   },
   {
     "name": "Rathijit Paul",
-    "contact": {
-      "twitter": "https://www.twitter.com/rathijitpaul",
-      "linkedin": "https://www.linkedin.com/in/rathijitpapon009/",
-      "github": "https://github.com/rathijitpapon"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://www.twitter.com/rathijitpaul"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/rathijitpapon009/"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/rathijitpapon"
+      }
+    ],
     "about": "Hi, I'm Rathijit Paul from Bangladesh, currently a final year undergraduate student in\n          BUET\n          . I'm a passionate full stack developer.",
     "resources": [
       {
@@ -1307,9 +1520,12 @@
   },
   {
     "name": "Massoud FATAOU",
-    "contact": {
-      "twitter": "https://twitter.com/_Spider114"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/_Spider114"
+      }
+    ],
     "about": "I'm not human. I am a spider born from the collision between gaming and programming",
     "resources": [
       {
@@ -1328,9 +1544,12 @@
   },
   {
     "name": "Prince Agrahari",
-    "contact": {
-      "twitter": "www.twitter.com/PrinceMargaret_"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/PrinceMargaret_"
+      }
+    ],
     "about": "Hi! I'm a 20 year old from India, currently pursuing my Undergraduate in Engineering from Hi-tech AKTU\n          University. I'm a coder, web developer, and also a technical content writer on Medium. I look forward to\n          learning new things everyday!",
     "resources": [
       {
@@ -1349,9 +1568,12 @@
   },
   {
     "name": "Amisha Singh",
-    "contact": {
-      "twitter": "www.twitter.com/amishasinghhh"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/amishasinghhh"
+      }
+    ],
     "about": "Hi! I'm a 20 year old from India, currently pursuing my Undergraduate in Engineering from Panjab University.\n          I'm a coder, web developer, and also a technical content writer on Medium. I look forward to learning new\n          things everyday!",
     "resources": [
       {
@@ -1370,9 +1592,12 @@
   },
   {
     "name": "Vishnu Prasad",
-    "contact": {
-      "twitter": "https://twitter.com/Vishnu52781786"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/Vishnu52781786"
+      }
+    ],
     "about": "I just completed my college and i live in India .",
     "resources": [
       {
@@ -1391,9 +1616,12 @@
   },
   {
     "name": "Insoo Kim",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "I am an electronic engineer interested in Digital Twin, AI, and recombinant innovation using C/C++, C#,\n          JavaScript, AVR chips and mindmap.Backpack travelling for 20 more countries for 25 years.",
     "resources": [
       {
@@ -1412,9 +1640,12 @@
   },
   {
     "name": "Matt Elliott",
-    "contact": {
-      "twitter": "https://twitter.com/MattElliottRVA"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/MattElliottRVA"
+      }
+    ],
     "about": "I'm a chief product officer and full-stack web development student",
     "resources": [
       {
@@ -1433,11 +1664,20 @@
   },
   {
     "name": "Juan Mejia",
-    "contact": {
-      "twitter": "www.twitter.com/@JuanMej90071181",
-      "github": "https://github.com/JuanMejiaC",
-      "linkedin": "https://www.linkedin.com/in/juan-mejia-623738209/"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/@JuanMej90071181"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/JuanMejiaC"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/juan-mejia-623738209/"
+      }
+    ],
     "about": "I am a coder and physics aficionado looking to build the next big thing",
     "resources": [
       {
@@ -1456,11 +1696,20 @@
   },
   {
     "name": "Daniel Westfall",
-    "contact": {
-      "twitter": "https://twitter.com/danwestfall6",
-      "github": "https://github.com/danielwestfall",
-      "linkedin": "https://www.linkedin.com/in/daniel-westfall-57579ba1/"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/danwestfall6"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/danielwestfall"
+      },
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/daniel-westfall-57579ba1/"
+      }
+    ],
     "about": "Web Developer. Interested in Web accessibility and React.",
     "resources": [
       {
@@ -1479,9 +1728,12 @@
   },
   {
     "name": "Vaishnavi Bhustali",
-    "contact": {
-      "twitter": "https://twitter.com/v_bhustali"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/v_bhustali"
+      }
+    ],
     "about": "I'm a Computer Science student exploring tech.",
     "resources": [
       {
@@ -1500,9 +1752,12 @@
   },
   {
     "name": "Adrian Castro",
-    "contact": {
-      "twitter": "www.twitter.com/dricastcode"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/dricastcode"
+      }
+    ],
     "about": "Hello 👋 I am a husband and father who decided to make a career choice toward tech. I enjoy Front-End and have\n          aspirations to become Full-stack one day!",
     "resources": [
       {
@@ -1521,9 +1776,12 @@
   },
   {
     "name": "Prajwal Prakash",
-    "contact": {
-      "twitter": "https://twitter.com/prakash_prajwal"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/prakash_prajwal"
+      }
+    ],
     "about": "I am a freshman Computer Science Student Learning to develop preety sustianable solutions.",
     "resources": [
       {
@@ -1550,10 +1808,16 @@
   },
   {
     "name": "Iván V.R",
-    "contact": {
-      "twitter": "www.twitter.com/IvanInVR",
-      "github": "https://github.com/IvanitiX"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com/IvanInVR"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/IvanitiX"
+      }
+    ],
     "about": "Spanish Developer without a preferred language, doing random projects if I'm on the mood.",
     "resources": [
       {
@@ -1572,9 +1836,12 @@
   },
   {
     "name": "Dave Toth",
-    "contact": {
-      "twitter": "https://twitter.com/DaveToth16"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/DaveToth16"
+      }
+    ],
     "about": "Hello! I'm a Full Stack Developer from Connecticut. I love working on back-end projects and javascript.",
     "resources": [
       {
@@ -1593,9 +1860,12 @@
   },
   {
     "name": "Kaushal Barhate",
-    "contact": {
-      "twitter": "https://twitter.com/BarhateKaushal"
-    },
+    "contacts": [
+      {
+        "title": "fa fa-twitter",
+        "link": "https://twitter.com/BarhateKaushal"
+      }
+    ],
     "about": "Hello, Myself Kaushal Barhate\n          \n          Just trying out my first PR.",
     "resources": [
       {
@@ -1614,9 +1884,12 @@
   },
   {
     "name": "A S Md Ferdousul Haque",
-    "contact": {
-      "twitter": "https://twitter.com/ferdousulhaque3"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/ferdousulhaque3"
+      }
+    ],
     "about": "about you",
     "resources": [
       {
@@ -1635,10 +1908,16 @@
   },
   {
     "name": "Maykon Borges",
-    "contact": {
-      "twitter": "https://twitter.com/maydougB",
-      "instagram": "instagram.com/maykonborgs"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com/maydougB"
+      },
+      {
+        "title": "instagram",
+        "link": "instagram.com/maykonborgs"
+      }
+    ],
     "about": "I'm a computer science student, lately I've been studying JavaScript",
     "resources": [
       {
@@ -1653,9 +1932,12 @@
   },
   {
     "name": "Asmahan Mohamed",
-    "contact": {
-      "tiktok": "https://www.tiktok.com/@coder2b?lang=en"
-    },
+    "contacts": [
+      {
+        "title": "tiktok",
+        "link": "https://www.tiktok.com/@coder2b?lang=en"
+      }
+    ],
     "about": "I discovered coding during (one of) the lockdown(s) and I'm seeing where it takes me! I hope to eventually\n          make a career change but, for now, I'm working on learning as much as I can.",
     "resources": [
       {
@@ -1674,9 +1956,12 @@
   },
   {
     "name": "Chrystian Pereira",
-    "contact": {
-      "instagram": "https://www.instagram.com/astro_chrycho/"
-    },
+    "contacts": [
+      {
+        "title": "instagram",
+        "link": "https://www.instagram.com/astro_chrycho/"
+      }
+    ],
     "about": "A brazilian professional astronomer working with solar system small bodies",
     "resources": [
       {
@@ -1695,9 +1980,12 @@
   },
   {
     "name": "Evan",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Software Developer",
     "resources": [
       {
@@ -1716,9 +2004,12 @@
   },
   {
     "name": "Satyam Kumar",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/satyam-kumar-0626b3200"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/satyam-kumar-0626b3200"
+      }
+    ],
     "about": "I am Student who care about their family😊.",
     "resources": [
       {
@@ -1737,9 +2028,12 @@
   },
   {
     "name": "Your name",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "about you",
     "resources": [
       {
@@ -1758,9 +2052,12 @@
   },
   {
     "name": "Yasith Nirmana",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/yasith-nirmana/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/yasith-nirmana/"
+      }
+    ],
     "about": "Hello! My name is Yasith Nirmana. I am an undergraduate student. This is my first open source contributions.",
     "resources": [
       {
@@ -1779,10 +2076,16 @@
   },
   {
     "name": "Abdullah Sajjad",
-    "contact": {
-      "linkedin-in": "https://www.linkedin.com/in/abdullahwebdev",
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "linkedin-in",
+        "link": "https://www.linkedin.com/in/abdullahwebdev"
+      },
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Hi! I am Abdullah Sajjad, a web designer/developer focused on crafting great web experiences. Coding has been\n          my passion since the days I started working with computers but I found myself into web design/development\n          since 2020. I enjoy learning Web Development and new technologies. Learning Everyday, Uplevelling Everyday.🙂",
     "resources": [
       {
@@ -1801,9 +2104,12 @@
   },
   {
     "name": "Kunal Giri",
-    "contact": {
-      "github": "https://github.com/coder1706"
-    },
+    "contacts": [
+      {
+        "title": "github",
+        "link": "https://github.com/coder1706"
+      }
+    ],
     "about": "My journey with programming started 2 months ago after I graduated. Yeah I wasted my college years, and now\n          I'm trying hard day/night to make up that time. I believe in myself and I'm going to be a professional\n          developer soon.",
     "resources": [
       {
@@ -1822,10 +2128,16 @@
   },
   {
     "name": "Armand",
-    "contact": {
-      "linkedin-in": "https://www.linkedin.com/in/armandrave",
-      "github": "https://github.com/Armandrave"
-    },
+    "contacts": [
+      {
+        "title": "linkedin-in",
+        "link": "https://www.linkedin.com/in/armandrave"
+      },
+      {
+        "title": "github",
+        "link": "https://github.com/Armandrave"
+      }
+    ],
     "about": "developper\n          \n          @Conservatoire National des Arts et Métiers à Paris",
     "resources": [
       {
@@ -1844,9 +2156,12 @@
   },
   {
     "name": "Thicham",
-    "contact": {
-      "twitter": "https://twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "https://twitter.com"
+      }
+    ],
     "about": "software developer. I mainly use Python and JS/TS",
     "resources": [
       {
@@ -1865,9 +2180,12 @@
   },
   {
     "name": "Lauriane Marin",
-    "contact": {
-      "linkedin": "https://www.linkedin.com/in/lauriane-marin-9bb396206/"
-    },
+    "contacts": [
+      {
+        "title": "linkedin",
+        "link": "https://www.linkedin.com/in/lauriane-marin-9bb396206/"
+      }
+    ],
     "about": "I'm a web development student who loves to create beautiful and functional interfaces 🎓💻",
     "resources": [
       {
@@ -1886,9 +2204,12 @@
   },
   {
     "name": "Cheri Haggard",
-    "contact": {
-      "twitter": "www.twitter.com"
-    },
+    "contacts": [
+      {
+        "title": "twitter",
+        "link": "www.twitter.com"
+      }
+    ],
     "about": "Coding and robotics teacher for elementary and middle school aged kids",
     "resources": [
       {
