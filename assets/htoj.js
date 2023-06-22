@@ -5,7 +5,7 @@ const cheerio = require('cheerio')
 const htmlFile = `index.html`
 const archiveDir = 'archive'
 const script = 'assets/script.js'
-const requiredcardCount = 11
+const requiredcardCount = 111
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
@@ -63,7 +63,7 @@ function deleteCardsFromHTML(selectedCards) {
 
   const updatedHTML = $.html()
   fs.writeFileSync(htmlFile, updatedHTML)
-  console.log('\u{2714} Deleted cards from' + htmlFile + 'file!')
+  console.log('\u{2714} Deleted cards from ' + htmlFile)
 }
 
 // Function to update the script.js file
@@ -72,7 +72,7 @@ function updateScriptFile(script, nextNumber) {
 
   const updatedScript = scriptFile.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${nextNumber}`)
   fs.writeFileSync(script, updatedScript)
-  console.log('\u{2714} Updated' + script + 'file!')
+  console.log('\u{2714} Updated ' + script)
 }
 
 // Read the HTML file
