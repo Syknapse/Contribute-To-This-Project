@@ -21,7 +21,6 @@ function extractContactDetails(contactElement) {
       link: url,
     })
   })
-  console.log('Extracted contact details')
 
   return contactDetails
 }
@@ -44,7 +43,6 @@ function extractResourceDetails(resourcesElement) {
 
     resources.push(resource)
   })
-  console.log('Extracted resource details')
 
   return resources
 }
