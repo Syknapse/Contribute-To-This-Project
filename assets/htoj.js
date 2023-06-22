@@ -4,6 +4,7 @@ const cheerio = require('cheerio')
 
 const htmlFile = `index.html`
 const archiveDir = 'archive'
+const script = 'assets/script.js'
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
@@ -20,6 +21,7 @@ function extractContactDetails(contactElement) {
       link: url,
     })
   })
+  console.log('Extracted contact details')
 
   return contactDetails
 }
@@ -42,6 +44,7 @@ function extractResourceDetails(resourcesElement) {
 
     resources.push(resource)
   })
+  console.log('Extracted resource details')
 
   return resources
 }
@@ -50,6 +53,7 @@ function extractResourceDetails(resourcesElement) {
 function saveCardsAsJSON(cards, filePath) {
   const jsonData = JSON.stringify(cards, null, 2)
   fs.writeFileSync(filePath, jsonData)
+  console.log('Saved cards as JSON')
 }
 
 // Function to delete selected cards from the index.html file
@@ -60,6 +64,16 @@ function deleteCardsFromHTML(selectedCards) {
 
   const updatedHTML = $.html()
   fs.writeFileSync(htmlFile, updatedHTML)
+  console.log('Deleted cards from HTML')
+}
+
+// Function to update the script.js file
+function updateScriptFile(script, nextNumber) {
+  const scriptFile = fs.readFileSync(script, 'utf-8')
+
+  const updatedScript = scriptFile.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${nextNumber}`)
+  fs.writeFileSync(script, updatedScript)
+  console.log('Updated script.js file')
 }
 
 // Read the HTML file
@@ -109,6 +123,7 @@ function convertToJSON(cards) {
     // Add the card object to the array
     jsonCards.push(card)
   })
+  console.log('Converted cards to JSON')
   return jsonCards
 }
 
@@ -122,5 +137,8 @@ saveCardsAsJSON(jsonCards, archiveFilePath)
 
 // Delete selected cards from index.html
 deleteCardsFromHTML(selectedCards)
+
+// Update the script.js file
+updateScriptFile(script, nextNumber)
 
 console.log('Conversion complete!')

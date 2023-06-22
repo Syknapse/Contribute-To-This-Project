@@ -28,38 +28,41 @@ const countUp = () => {
 }
 
 // adding the archive cards to the grid
-const createArchiveObject = i => {
-  const container = document.querySelector('.container')
-  const archiveObject = document.createElement('object')
-  archiveObject.setAttribute('id', `archiveObject_${i}`)
-  archiveObject.setAttribute('data', `archive/archive_${i}.html`)
-  archiveObject.setAttribute('type', 'text/html')
-  archiveObject.setAttribute('width', '300')
-  archiveObject.setAttribute('height', '5000')
-  container.append(archiveObject)
-}
-const NUMBER_OF_FILES = 18
-let current = 1
-const getArchiveCards = i => {
-  createArchiveObject(i)
+// const createArchiveObject = i => {
+//   const container = document.querySelector('.container')
+//   const archiveObject = document.createElement('object')
+//   archiveObject.setAttribute('id', `archiveObject_${i}`)
+//   archiveObject.setAttribute('data', `archive/archive_${i}.html`)
+//   archiveObject.setAttribute('type', 'text/html')
+//   archiveObject.setAttribute('width', '300')
+//   archiveObject.setAttribute('height', '5000')
+//   container.append(archiveObject)
+// }
+// const NUMBER_OF_FILES = 18
+// let current = 1
+// const getArchiveCards = i => {
+//   createArchiveObject(i)
 
-  document.getElementById(`archiveObject_${i}`).onload = function() {
-    const archiveObject = document.getElementById(`archiveObject_${i}`)
-    const cards = archiveObject.contentDocument.querySelectorAll('.card')
-    const grid = document.querySelector('.grid')
+//   document.getElementById(`archiveObject_${i}`).onload = function() {
+//     const archiveObject = document.getElementById(`archiveObject_${i}`)
+//     const cards = archiveObject.contentDocument.querySelectorAll('.card')
+//     const grid = document.querySelector('.grid')
 
-    cards.forEach(card => grid.append(card))
-    archiveObject.remove()
+//     cards.forEach(card => grid.append(card))
+//     archiveObject.remove()
 
-    if (current < NUMBER_OF_FILES) {
-      current++
-      getArchiveCards(current)
-    }
-    countUp()
-  }
-}
+//     if (current < NUMBER_OF_FILES) {
+//       current++
+//       getArchiveCards(current)
+//     }
+//     countUp()
+//   }
+// }
 
-getArchiveCards(current)
+// getArchiveCards(current)
+
+// Get Archive from JSON
+const numberOfFiles = 18
 
 // night mode feature
 document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
