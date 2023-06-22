@@ -5,7 +5,7 @@ const cheerio = require('cheerio')
 const htmlFile = `index.html`
 const archiveDir = 'archive'
 const script = 'assets/script.js'
-const requiredcardCount = 111
+const requiredcardCount = 11
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
