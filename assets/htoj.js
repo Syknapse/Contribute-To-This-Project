@@ -4,8 +4,8 @@ const cheerio = require('cheerio')
 
 const htmlFile = `index.html`
 const archiveDir = 'archive'
-const script = 'assets/script.js'
-const requiredcardCount = 111
+const script = 'assets/archive.js'
+const requiredcardCount = 11
 
 // Function to extract contact details
 function extractContactDetails(contactElement) {
@@ -52,7 +52,7 @@ function extractResourceDetails(resourcesElement) {
 function saveCardsAsJSON(cards, filePath, num) {
   const jsonData = JSON.stringify(cards, null, 2)
   fs.writeFileSync(filePath, jsonData)
-  console.log('\u{2714} Created archive_' + num + '.json file!')
+  console.log('\u{1F4C2} Created archive_' + num + '.json')
 }
 
 // Function to delete selected cards from the index.html file
@@ -63,7 +63,7 @@ function deleteCardsFromHTML(selectedCards) {
 
   const updatedHTML = $.html()
   fs.writeFileSync(htmlFile, updatedHTML)
-  console.log('\u{2714} Deleted cards from ' + htmlFile)
+  console.log('\u{1F6AE} Deleted cards from ' + htmlFile)
 }
 
 // Function to update the script.js file
@@ -72,7 +72,7 @@ function updateScriptFile(script, nextNumber) {
 
   const updatedScript = scriptFile.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${nextNumber}`)
   fs.writeFileSync(script, updatedScript)
-  console.log('\u{2714} Updated ' + script)
+  console.log('\u{1F4C3} Updated ' + script)
 }
 
 // Read the HTML file
@@ -86,7 +86,7 @@ const cardElements = $('.card')
 const cardCount = cardElements.length
 
 if (cardCount < requiredcardCount) {
-  return console.log("\u{1F6AB} It's not the right time to archive the cards. Please try again later.")
+  return console.log("\u{1F6D1} It's not the right time to archive the cards. Please try again later.")
 } else {
   // Exclude the first 10 cards
   const selectedCards = cardElements.slice(10)
@@ -126,7 +126,7 @@ if (cardCount < requiredcardCount) {
       // Add the card object to the array
       jsonCards.push(card)
     })
-    console.log('\u{1F535} Converted cards to JSON')
+    console.log('\u{23F3} Converting cards to JSON...')
     return jsonCards
   }
 
@@ -144,5 +144,5 @@ if (cardCount < requiredcardCount) {
   // Update the script.js file
   updateScriptFile(script, nextNumber)
 
-  console.log('\u{1F3AF} Conversion complete!')
+  console.log('\u{1F4AF} Conversion complete!')
 }

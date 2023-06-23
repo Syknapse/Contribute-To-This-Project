@@ -61,9 +61,6 @@ const countUp = () => {
 
 // getArchiveCards(current)
 
-// Get Archive from JSON
-const numberOfFiles = 18
-
 // night mode feature
 document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
   if (e.target.checked) {
