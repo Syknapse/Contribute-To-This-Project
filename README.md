@@ -236,9 +236,9 @@ _Estimated time: Less than 30 minutes_.
 |                                                                                                              ![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
 | :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
-- **Link:** Insert the link `href="here"` replacing the `#`
-- **Title:** Write a brief description `title="here"`
-- **Name:** Write the resource's name in the text field `>here</a>`
+- **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
+- **Title:** Write a brief description `title="here"`.
+- **Name:** Write the resource's name in the text field `>here</a>`.
 - Make sure you have **saved all your changes**.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
