@@ -16,10 +16,12 @@ function extractContactDetails(contactElement) {
     const titleElement = $(link).prev()
     const title = titleElement.attr('class') ? titleElement.attr('class').replace('fab fa-', '') : ''
     const url = $(link).attr('href')
+    const handle = $(link).text()
 
     contactDetails.push({
       title: title,
       link: url,
+      handle: handle,
     })
   })
 
@@ -36,11 +38,13 @@ function extractResourceDetails(resourcesElement) {
     const resource = {
       title: '',
       link: '',
+      text: '',
     }
 
     const linkElement = $(element).find('a')
     resource.title = linkElement.attr('title') || ''
     resource.link = linkElement.attr('href') || ''
+    resource.text = linkElement.text() || ''
 
     resources.push(resource)
   })

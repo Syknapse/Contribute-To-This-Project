@@ -4,22 +4,26 @@
     "contacts": [
       {
         "title": "instagram",
-        "link": "https://www.instagram.com/nanda_rafaele/"
+        "link": "https://www.instagram.com/nanda_rafaele/",
+        "handle": "@nanda_rafaele"
       }
     ],
     "about": "I'm a software developer undergraduate in Information Technology. I like to draw, play guitar, read, learn new\n          languages, code... I'm a self learner too. I created an app, called Nossas Compras, and it is already on the\n          play store. Check it out!!",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://github.com/AnandaRafaele/Traducao_TryGit"
+        "link": "https://github.com/AnandaRafaele/Traducao_TryGit",
+        "text": "\n                TryGit instructions in Portuguese (pt-BR).\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://lab.github.com/"
+        "link": "https://lab.github.com/",
+        "text": "\n                Learning Git in english\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://color.adobe.com/create/image"
+        "link": "https://color.adobe.com/create/image",
+        "text": "\n                Color picker tool: Adobe\n              "
       }
     ]
   },
@@ -28,22 +32,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/wkktoria"
+        "link": "https://github.com/wkktoria",
+        "handle": "@wkktoria"
       }
     ],
     "about": "Self-taught JavaScript enthusiast.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://javascript.info/"
+        "link": "https://javascript.info/",
+        "text": "\n                javascript.info\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://fullstackopen.com/en"
+        "link": "https://fullstackopen.com/en",
+        "text": "\n                Full stack open 2020\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://eloquentjavascript.net/"
+        "link": "https://eloquentjavascript.net/",
+        "text": "\n                Eloquent JavaScript\n              "
       }
     ]
   },
@@ -52,22 +60,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/EduMendesBRA"
+        "link": "https://twitter.com/EduMendesBRA",
+        "handle": "@EduMendesBRA"
       }
     ],
     "about": "I`m a cool brasilian guy.",
     "resources": [
       {
         "title": "Gamefication SEBRAE",
-        "link": "https://comunidadesebrae.com.br/gamification/t"
+        "link": "https://comunidadesebrae.com.br/gamification/t",
+        "text": "\n                Gamefication SEBRAE\n              "
       },
       {
         "title": "GAMIFICAÇÃO COMO FERRAMENTA MOTIVACIONAL NAS EMPRESAS",
-        "link": "https://sebraeinteligenciasetorial.com.br/produtos/relatorios-de-inteligencia/gamificacao-como-ferramenta-motivacional-nas-empresas/5f2821a3300d5b1800c4fc60"
+        "link": "https://sebraeinteligenciasetorial.com.br/produtos/relatorios-de-inteligencia/gamificacao-como-ferramenta-motivacional-nas-empresas/5f2821a3300d5b1800c4fc60",
+        "text": "\n                GAMIFICAÇÃO COMO FERRAMENTA MOTIVACIONAL NAS EMPRESAS\n              "
       },
       {
         "title": "Gamification & Behavioral Design",
-        "link": "https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/"
+        "link": "https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/",
+        "text": "\n                Gamification & Behavioral Design\n              "
       }
     ]
   },
@@ -76,22 +88,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "@santistabr1"
+        "link": "@santistabr1",
+        "handle": "@santistabr1"
       }
     ],
     "about": "I have been a bank employee for over 20 years in the technology area of ​​Banco do Brasil and I have a degree\n          in Computer Science..",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://github.com/gothinkster/realworld"
+        "link": "https://github.com/gothinkster/realworld",
+        "text": "\n                Resource 1 - RealWorld example apps\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://github.com/kamranahmedse/developer-roadmap"
+        "link": "https://github.com/kamranahmedse/developer-roadmap",
+        "text": "\n                Resource 2 - Web Developer Roadmap 2020\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/florinpop17/app-ideas"
+        "link": "https://github.com/florinpop17/app-ideas",
+        "text": "\n                Resource 3 - App Ideas\n              "
       }
     ]
   },
@@ -100,22 +116,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@00nkul"
       }
     ],
     "about": "Learning to programing . Want to contri more .",
     "resources": [
       {
         "title": "freeCodeCamp.org",
-        "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+        "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+        "text": "\n                freeCodeCamp.org YouTube channel. Great and informative videos.\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://auth.geeksforgeeks.org"
+        "link": "https://auth.geeksforgeeks.org",
+        "text": "\n                Geek for geek .\n              "
       },
       {
         "title": "Third resource",
-        "link": ""
+        "link": "",
+        "text": "\n                Stack over flow .\n              "
       }
     ]
   },
@@ -124,22 +144,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ParagGu92243497"
+        "link": "https://twitter.com/ParagGu92243497",
+        "handle": "@ParagGu92243497"
       }
     ],
     "about": "Aspiring to create next breakthrough in the world we live in. A simple dude trying to live on the Philosophy\n          of Stoicism.",
     "resources": [
       {
         "title": "Reference for Web Development",
-        "link": "https://developer.mozilla.org/en-US/docs/Learn"
+        "link": "https://developer.mozilla.org/en-US/docs/Learn",
+        "text": "\n                Mozilla Developer Network\n              "
       },
       {
         "title": "Learn to code for free",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                Free Code Camp\n              "
       },
       {
         "title": "CSS in 30 Days",
-        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU"
+        "link": "https://www.youtube.com/playlist?list=PLWKjhJtqVAbl1AfjiGyYxwpdAPi5v-1OU",
+        "text": "\n                CSS in 30 Days\n              "
       }
     ]
   },
@@ -148,22 +172,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Vova79605562"
+        "link": "https://twitter.com/Vova79605562",
+        "handle": "@Vova79605562"
       }
     ],
     "about": "Hey! I'm a biomedical reasearcher and big fan of cutting-edge CS technologies.",
     "resources": [
       {
         "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                Free Code Camp\n              "
       },
       {
         "title": "javascriptInfo",
-        "link": "https://javascript.info/"
+        "link": "https://javascript.info/",
+        "text": "\n                Javascript Info\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "text": "\n                MDN\n              "
       }
     ]
   },
@@ -172,22 +200,26 @@
     "contacts": [
       {
         "title": "soundcloud",
-        "link": "https://soundcloud.com/kieran_mcauliffe"
+        "link": "https://soundcloud.com/kieran_mcauliffe",
+        "handle": "/kieran_mcauliffe"
       }
     ],
     "about": "Multimedia artist and aspiring programmer.",
     "resources": [
       {
         "title": "Python-Course.eu",
-        "link": "https://www.python-course.eu/"
+        "link": "https://www.python-course.eu/",
+        "text": "\n                Python-Course.eu\n              "
       },
       {
         "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                freeCodeCamp\n              "
       },
       {
         "title": "Python for Everbody",
-        "link": "https://www.youtube.com/watch?v=8DvywoWv6fI&vl=fa&ab_channel=freeCodeCamp.org"
+        "link": "https://www.youtube.com/watch?v=8DvywoWv6fI&vl=fa&ab_channel=freeCodeCamp.org",
+        "text": "\n                Python for Everbody\n              "
       }
     ]
   },
@@ -196,22 +228,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/biomedengsam"
+        "link": "https://twitter.com/biomedengsam",
+        "handle": "@biomedengsam"
       }
     ],
     "about": "Hi I'm a biomedical engineer turned software engineer. I found myself more inclined towards programming so I\n          started teaching myself how to code and I've really enjoyed the process. It taught me how to solve problems,\n          how to be resourceful and to be tough and resilient.",
     "resources": [
       {
         "title": "CS50",
-        "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science"
+        "link": "https://www.edx.org/course/cs50s-introduction-to-computer-science",
+        "text": "\n                CS50's Introduction to Computer Science\n              "
       },
       {
         "title": " CSS Tricks",
-        "link": "https://css-tricks.com/"
+        "link": "https://css-tricks.com/",
+        "text": "\n                CSS Tricks\n              "
       },
       {
         "title": "Traversy Media",
-        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+        "text": "\n                Traversy Media youtube channel\n              "
       }
     ]
   },
@@ -220,22 +256,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Mayank23325957"
+        "link": "https://twitter.com/Mayank23325957",
+        "handle": "@Your_twitter_handle"
       }
     ],
     "about": "i love Pav bhaji.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.flaticon.com/"
+        "link": "https://www.flaticon.com/",
+        "text": "\n                Resource 1: free vectors for front-end\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.stickpng.com/cat/icons-logos-emojis/tech-companies?page=3"
+        "link": "https://www.stickpng.com/cat/icons-logos-emojis/tech-companies?page=3",
+        "text": "\n                Resource 2: transparrent logos of companies for UI\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ"
+        "link": "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ",
+        "text": "\n                Resource 3: youtube channel 'Clever Programmer' (best one so far i,ve came across)\n              "
       }
     ]
   },
@@ -244,22 +284,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/kevin-Ash"
+        "link": "https://github.com/kevin-Ash",
+        "handle": "kevin-Ash"
       }
     ],
     "about": "Jack of all trades. Master of learning.",
     "resources": [
       {
         "title": "FreeCodeCamp learning curriculum",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Q&A for many subjects",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                StackOverflow\n              "
       },
       {
         "title": "YoutTube channel with coding tutorials",
-        "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+        "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+        "text": "\n                YouTube: The Net Ninja\n              "
       }
     ]
   },
@@ -268,22 +312,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@ttahm3d"
       }
     ],
     "about": "I am a Software Engineer. Learning React and Python Currently. Wannabe Open Source Contributor",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.freecodecamp.org/learn/"
+        "link": "https://www.freecodecamp.org/learn/",
+        "text": "\n                Free Code camp\n              "
       },
       {
         "title": "Secobd Resource",
-        "link": "https://www.youtube.com/playlist?list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH"
+        "link": "https://www.youtube.com/playlist?list=PLgBH1CvjOA62oNEVgz-dECiCZCE_Q3ZFH",
+        "text": "\n                Florinpop's Conquering FreeCodeCamp curriculum\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/"
+        "link": "https://courses.edx.org/courses/course-v1:HarvardX+CS50W+Web/course/",
+        "text": "\n                CS50's Web Programming with Python and JavaScript\n              "
       }
     ]
   },
@@ -292,22 +340,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/jzandag"
+        "link": "https://github.com/jzandag",
+        "handle": "@jzandag"
       }
     ],
     "about": "Full stack engineer wwho mainly prefers back-end development",
     "resources": [
       {
         "title": "Git interactive tutorial",
-        "link": "https://learngitbranching.js.org/"
+        "link": "https://learngitbranching.js.org/",
+        "text": "\n                Learn Git branching\n              "
       },
       {
         "title": "2021 Webdev developer Roadmap",
-        "link": "https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327"
+        "link": "https://levelup.gitconnected.com/the-2020-web-developer-roadmap-76503ddfb327",
+        "text": "\n                2021 Web Developer Roadmap\n              "
       },
       {
         "title": "Programmer Motivation",
-        "link": "https://coder-coder.com/stay-motivated-learning-code/"
+        "link": "https://coder-coder.com/stay-motivated-learning-code/",
+        "text": "\n                Programmer Motivation\n              "
       }
     ]
   },
@@ -316,22 +368,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "twitter.com/wevs_weverton"
+        "link": "twitter.com/wevs_weverton",
+        "handle": "@wevs_weverton"
       }
     ],
     "about": "A curious Brazilian analyst",
     "resources": [
       {
         "title": "Video 1",
-        "link": "https://www.youtube.com/watch?v=Vo_SjC0EZ58"
+        "link": "https://www.youtube.com/watch?v=Vo_SjC0EZ58",
+        "text": "\n                Como Open Source pode ajudar sua carreira\n              "
       },
       {
         "title": "Video 2",
-        "link": "https://www.youtube.com/watch?v=BM2FlXz3-ok"
+        "link": "https://www.youtube.com/watch?v=BM2FlXz3-ok",
+        "text": "\n                Sabia que você pode usar OPEN SOURCE no Windows\n              "
       },
       {
         "title": "Video 3",
-        "link": "https://www.youtube.com/watch?v=amdnXhAaA1M"
+        "link": "https://www.youtube.com/watch?v=amdnXhAaA1M",
+        "text": "\n                Porque Eu Virei Um Problema Para os Meus Projetos Open Source\n              "
       }
     ]
   },
@@ -340,22 +396,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/MohapatraAmisha"
+        "link": "https://twitter.com/MohapatraAmisha",
+        "handle": "@MohapatraAmisha"
       }
     ],
     "about": "I am a tech ennthusiasm pursuing BTech. Love to learn and explore each day.",
     "resources": [
       {
         "title": "My Article - Web development Ideas",
-        "link": "https://www.geeksforgeeks.org/web-development-project-ideas/"
+        "link": "https://www.geeksforgeeks.org/web-development-project-ideas/",
+        "text": "\n                Article\n              "
       },
       {
         "title": "Web Development - Roadmap",
-        "link": "https://www.w3schools.com/whatis/"
+        "link": "https://www.w3schools.com/whatis/",
+        "text": "\n                Roadmap\n              "
       },
       {
         "title": "30 Days to Form a New Habit of Coding",
-        "link": "https://www.geeksforgeeks.org/30-days-to-form-a-new-habit-of-coding-are-you-in/"
+        "link": "https://www.geeksforgeeks.org/30-days-to-form-a-new-habit-of-coding-are-you-in/",
+        "text": "\n                Resource\n              "
       }
     ]
   },
@@ -364,26 +424,31 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/TobiasFacello"
+        "link": "https://twitter.com/TobiasFacello",
+        "handle": "@TobiasFacello"
       },
       {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/tobiasfacello/"
+        "link": "https://www.linkedin.com/in/tobiasfacello/",
+        "handle": "Tobías Facello"
       }
     ],
     "about": "Aspiring Full-Stack Developer and Programmer Analyst.",
     "resources": [
       {
         "title": "freeCodeCamp.org",
-        "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ"
+        "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+        "text": "\n                freeCodeCamp.org YouTube channel. Great and informative videos.\n              "
       },
       {
         "title": "r/dailyprogrammer",
-        "link": "https://www.reddit.com/r/dailyprogrammer/"
+        "link": "https://www.reddit.com/r/dailyprogrammer/",
+        "text": "\n                Reddit (r/dailyprogrammer).\n              "
       },
       {
         "title": "r/learnprogramming",
-        "link": "https://www.reddit.com/r/learnprogramming"
+        "link": "https://www.reddit.com/r/learnprogramming",
+        "text": "\n                Reddit (r/learnprogramming).\n              "
       }
     ]
   },
@@ -392,22 +457,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@PhilSeReal"
       }
     ],
     "about": "I am new in GitHub and i like Java, JavaScript and NodeJS",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://github.com/pvhil/FaceItDiscord"
+        "link": "https://github.com/pvhil/FaceItDiscord",
+        "text": "\n                My Cool FaceIT Discord Bot!\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://github.com/pvhil/minecraft-stats-discord"
+        "link": "https://github.com/pvhil/minecraft-stats-discord",
+        "text": "\n                Minecraft Stats in Discord!\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/pvhil/DiscordWhitelister"
+        "link": "https://github.com/pvhil/DiscordWhitelister",
+        "text": "\n                Whitelist people in Minecraft from your Discord!\n              "
       }
     ]
   },
@@ -416,22 +485,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Audrey"
+        "link": "https://twitter.com/Audrey",
+        "handle": "@Audrey"
       }
     ],
     "about": "Am Audrey,an aspiring front-end web developer;self-learning HTML,CSS,JAVASCRIPT and PYTHON.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                freecodecamp\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.codecademy.com/"
+        "link": "https://www.codecademy.com/",
+        "text": "\n                codeacademy\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.notion.so/Frontend-Developer-Learning-Guide-39e189f4a49b4fcb9a6304ebf1f327a9"
+        "link": "https://www.notion.so/Frontend-Developer-Learning-Guide-39e189f4a49b4fcb9a6304ebf1f327a9",
+        "text": "\n                Notion\n              "
       }
     ]
   },
@@ -440,22 +513,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://www.twitter.com/@rolanjose7"
+        "link": "https://www.twitter.com/@rolanjose7",
+        "handle": "@rolanjose7"
       }
     ],
     "about": "I love football.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://developer.mozilla.org/"
+        "link": "https://developer.mozilla.org/",
+        "text": "\n                MDN\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://medium.com/free-code-camp/"
+        "link": "https://medium.com/free-code-camp/",
+        "text": "\n                Freecodecamp's Medium Blog\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                W3Schools\n              "
       }
     ]
   },
@@ -464,22 +541,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/NicholasVormack"
+        "link": "https://twitter.com/NicholasVormack",
+        "handle": "@NicholasVormack"
       }
     ],
     "about": "I love learning about github and git. I wished I learned it sooner.",
     "resources": [
       {
         "title": "Free Code Camp",
-        "link": "FreeCodeCamp.org"
+        "link": "FreeCodeCamp.org",
+        "text": "\n                Free Code Camp\n              "
       },
       {
         "title": "StackOverflow",
-        "link": "Stackoverflow.com"
+        "link": "Stackoverflow.com",
+        "text": "\n                Stack Overflow\n              "
       },
       {
         "title": "w3schools",
-        "link": "w3schools.com"
+        "link": "w3schools.com",
+        "text": "\n                w3 Schools\n              "
       }
     ]
   },
@@ -488,22 +569,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/GiftChukwunwei1"
+        "link": "https://twitter.com/GiftChukwunwei1",
+        "handle": "@GiftChukwunwei1"
       }
     ],
     "about": "I am a farmer turned frontend developer.Transitioning into the tech ecosystem has been a roller coaster, but I\n          enjoy every bit of the journey. Applying technology based solutions to nearly all human challenges has always\n          been intriguing to me and this leaves me learning more so as to get better using most recent , up to date\n          technological tools",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+        "text": "\n                Traversy Media Channel\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.udemy.com/courses/search/?q=front%20end%20web%20developer&src=sac&kw=front%20e"
+        "link": "https://www.udemy.com/courses/search/?q=front%20end%20web%20developer&src=sac&kw=front%20e",
+        "text": "\n                Udemy Frontend Development Courses\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://medium.com/"
+        "link": "https://medium.com/",
+        "text": "\n                Medium\n              "
       }
     ]
   },
@@ -512,22 +597,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ankurg132"
+        "link": "https://twitter.com/ankurg132",
+        "handle": "@ankurg132"
       }
     ],
     "about": "I am a IT 1st year undergrad student in India, I love to explore things and learn new things everyday.",
     "resources": [
       {
         "title": "Excellent articles every day",
-        "link": "https://medium.freecodecamp.org/"
+        "link": "https://medium.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp Medium Publication\n              "
       },
       {
         "title": "Some free open source courses to get you started in programming",
-        "link": "https://www.github.com/ossu"
+        "link": "https://www.github.com/ossu",
+        "text": "\n                Open source University\n              "
       },
       {
         "title": "A great community to keep you coding and motivated every day",
-        "link": "http://dev.to/"
+        "link": "http://dev.to/",
+        "text": "\n                Dev.to\n              "
       }
     ]
   },
@@ -538,15 +627,18 @@
     "resources": [
       {
         "title": "Stackoverflow",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                Stackoverflow\n              "
       },
       {
         "title": "Github MunGell project",
-        "link": "https://github.com/MunGell/awesome-for-beginners"
+        "link": "https://github.com/MunGell/awesome-for-beginners",
+        "text": "\n                The MunGell project on Github\n              "
       },
       {
         "title": "Java docs",
-        "link": "https://docs.oracle.com/javase/7/docs/api/"
+        "link": "https://docs.oracle.com/javase/7/docs/api/",
+        "text": "\n                Java API docs\n              "
       }
     ]
   },
@@ -555,22 +647,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ch_pradeep"
+        "link": "https://twitter.com/ch_pradeep",
+        "handle": "@ch_pradeep"
       }
     ],
     "about": "I am a retired Engineer from a public Electricity Utility Company.I know at my age learn to code is not going\n          to be easy. I have started with C, HTML, CSS and javascript.",
     "resources": [
       {
         "title": "w3schools",
-        "link": "https://www.w3schools.com"
+        "link": "https://www.w3schools.com",
+        "text": "\n                w3schools very useful site specially for html and CSS.\n              "
       },
       {
         "title": "traversymedia",
-        "link": "https://www.traversymedia.com"
+        "link": "https://www.traversymedia.com",
+        "text": "\n                A useful site with lot of learning videos.\n              "
       },
       {
         "title": "academind.com",
-        "link": "https://academind.com"
+        "link": "https://academind.com",
+        "text": "\n                It is a great site to dive deep in teh subject with lot of practical projects.\n              "
       }
     ]
   },
@@ -579,22 +675,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Feprovasi1"
+        "link": "https://twitter.com/Feprovasi1",
+        "handle": "@Feprovasi1"
       }
     ],
     "about": "Eletrical Engenier and cyclist, searching for opportunities to learn more about software development.",
     "resources": [
       {
         "title": "This is a link to fontend tips",
-        "link": "https://desenvolvimentoparaweb.com/"
+        "link": "https://desenvolvimentoparaweb.com/",
+        "text": "\n                https://desenvolvimentoparaweb.com/\n              "
       },
       {
         "title": "This is a link to help mainly at the beginning",
-        "link": "https://www.freecodecamp.org/news/"
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "\n                https://www.freecodecamp.org/news/\n              "
       },
       {
         "title": "And if you have any doubts",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                https://stackoverflow.com/\n              "
       }
     ]
   },
@@ -603,22 +703,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/zahrakhadijha"
+        "link": "https://twitter.com/zahrakhadijha",
+        "handle": "@zahrakhadijha"
       }
     ],
     "about": "I'm a frontend developer looking for my first dev role. I love cheese & wine plates, surrounding myself in\n          modern art, and pretending I'm in a Wes Anderson film.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.udemy.com/course/the-complete-javascript-course/"
+        "link": "https://www.udemy.com/course/the-complete-javascript-course/",
+        "text": "\n                Jonas Schmedtmann's JavaScript course\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.100daysofcode.com/"
+        "link": "https://www.100daysofcode.com/",
+        "text": "\n                #100DaysOfCode\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.youtube.com/user/TechGuyWeb"
+        "link": "https://www.youtube.com/user/TechGuyWeb",
+        "text": "\n                Traversy Media\n              "
       }
     ]
   },
@@ -627,26 +731,31 @@
     "contacts": [
       {
         "title": "linkedin-in",
-        "link": "https://www.linkedin.com/in/lethal-swag/"
+        "link": "https://www.linkedin.com/in/lethal-swag/",
+        "handle": "@lethal-swag"
       },
       {
         "title": "github",
-        "link": "https://github.com/Lethal-Swag"
+        "link": "https://github.com/Lethal-Swag",
+        "handle": "@lethal-swag"
       }
     ],
     "about": "I do code in layman language and I'm new to Open source and I'm not good in learning",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.youtube.com/"
+        "link": "https://www.youtube.com/",
+        "text": "\n                Youtube\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                Free code camp\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                Stackoverflow\n              "
       }
     ]
   },
@@ -655,22 +764,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/malachsalama"
+        "link": "https://twitter.com/malachsalama",
+        "handle": "@malachsalama"
       }
     ],
     "about": "I love writing frontend code and listening to music. If you're reading this lazima tutaomoka.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.frontendmentor.io/"
+        "link": "https://www.frontendmentor.io/",
+        "text": "\n                FrontEnd Mentor\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN\n              "
       }
     ]
   },
@@ -679,22 +792,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/CesarAAJunior"
+        "link": "https://twitter.com/CesarAAJunior",
+        "handle": "@CesarAAJunior1"
       }
     ],
     "about": "Mais de 30 anos trabalhando com TI - More than 30 years working with.",
     "resources": [
       {
         "title": "Site de Cursos Gratuitos - Free Courses Website",
-        "link": "https://www.datascienceacademy.com.br/start"
+        "link": "https://www.datascienceacademy.com.br/start",
+        "text": "\n                Data Science Academy, otimos cursos totalmente gratuitos\n              "
       },
       {
         "title": "Curso gratuito de OKR",
-        "link": "https://thomazribas.com/treinamento-de-okr-introdutorio"
+        "link": "https://thomazribas.com/treinamento-de-okr-introdutorio",
+        "text": "\n                Curso introdutorio de OKR totalmente gratis\n              "
       },
       {
         "title": "Certificação Scrum",
-        "link": "https://www.scrumstudy.com"
+        "link": "https://www.scrumstudy.com",
+        "text": "\n                Torne-se um especialista Scrum\n              "
       }
     ]
   },
@@ -703,22 +820,26 @@
     "contacts": [
       {
         "title": "fa-facebook",
-        "link": "https://www.facebook.com/nemanja.cvejic023/"
+        "link": "https://www.facebook.com/nemanja.cvejic023/",
+        "handle": "nemanja.cvejic023"
       }
     ],
     "about": "TFMP undergraduate. Front-end dev in the making. I like riding bicycle, watching old movies and listening to\n          old music.",
     "resources": [
       {
         "title": "HTML and CSS basics",
-        "link": "https://www.codecademy.com/catalog/language/html-css"
+        "link": "https://www.codecademy.com/catalog/language/html-css",
+        "text": "\n                Codecademy HTML & CSS\n              "
       },
       {
         "title": "Web developement learning map.",
-        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020"
+        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020",
+        "text": "\n                Web development learning map\n              "
       },
       {
         "title": "Stackoverflow is your best friend if you are into coding.",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                StackOverFlow\n              "
       }
     ]
   },
@@ -727,22 +848,26 @@
     "contacts": [
       {
         "title": "instagram",
-        "link": "https://www.instagram.com/juliannfermani/"
+        "link": "https://www.instagram.com/juliannfermani/",
+        "handle": "@juliannfermani"
       }
     ],
     "about": "Html, css and javascript apprentice from Cordoba, Argentina.",
     "resources": [
       {
         "title": "Pexels",
-        "link": "https://www.pexels.com/es-es/"
+        "link": "https://www.pexels.com/es-es/",
+        "text": "\n                Photos for free.\n              "
       },
       {
         "title": "Figma",
-        "link": "https://www.figma.com/"
+        "link": "https://www.figma.com/",
+        "text": "\n                Design web pages. UI / UX\n              "
       },
       {
         "title": "Web Gradients",
-        "link": "https://webgradients.com/"
+        "link": "https://webgradients.com/",
+        "text": "\n                Best gradients for design.\n              "
       }
     ]
   },
@@ -751,22 +876,26 @@
     "contacts": [
       {
         "title": "fa-facebook",
-        "link": "https://www.facebook.com/nemanja.cvejic023/"
+        "link": "https://www.facebook.com/nemanja.cvejic023/",
+        "handle": "nemanja.cvejic023"
       }
     ],
     "about": "TFMP undergraduate. Front-end dev in the making. I like riding bicycle, watching old movies and listening to\n          old music.",
     "resources": [
       {
         "title": "HTML and CSS basics",
-        "link": "https://www.codecademy.com/catalog/language/html-css"
+        "link": "https://www.codecademy.com/catalog/language/html-css",
+        "text": "\n                Codecademy HTML & CSS\n              "
       },
       {
         "title": "Web developement learning map.",
-        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020"
+        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020",
+        "text": "\n                Web development learning map\n              "
       },
       {
         "title": "Stackoverflow is your best friend if you are into coding.",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                StackOverFlow\n              "
       }
     ]
   },
@@ -775,22 +904,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/BarmaVishwanth"
+        "link": "https://twitter.com/BarmaVishwanth",
+        "handle": "@BarmaVishwanth"
       }
     ],
     "about": "I am a beginner for open source contribution , so i am learning the basics of Github. Thanks for providing the\n          information.",
     "resources": [
       {
         "title": "Basic of HTML5",
-        "link": "https://www.w3schools.com/html/default.asp"
+        "link": "https://www.w3schools.com/html/default.asp",
+        "text": "\n                W3School\n              "
       },
       {
         "title": "Free html course for beginners",
-        "link": "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q"
+        "link": "https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q",
+        "text": "\n                Youtube/ Dev Ed\n              "
       },
       {
         "title": "the best course i found in udemy regarding html5",
-        "link": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/2619816#overview"
+        "link": "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/2619816#overview",
+        "text": "\n                Udemy/ Master HTML course\n              "
       }
     ]
   },
@@ -799,22 +932,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/take2coder"
+        "link": "https://twitter.com/take2coder",
+        "handle": "@take2coder"
       }
     ],
     "about": "Aspiring frontend web developer. Self-learning HTML, CSS & JavaScript.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.codecademy.com/"
+        "link": "https://www.codecademy.com/",
+        "text": "\n                Codeacademy\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.khanacademy.org/computing/computer-programming"
+        "link": "https://www.khanacademy.org/computing/computer-programming",
+        "text": "\n                Khan Academy\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.html5rocks.com/en/"
+        "link": "https://www.html5rocks.com/en/",
+        "text": "\n                HTML5ROCKS\n              "
       }
     ]
   },
@@ -823,22 +960,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ChennamsettyJa2"
+        "link": "https://twitter.com/ChennamsettyJa2",
+        "handle": "@ChennamsettyJa2"
       }
     ],
     "about": "Undergraduate student at gprec",
     "resources": [
       {
         "title": "Roadmap to Learning Web Development in 2020.",
-        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020"
+        "link": "https://coggle.it/diagram/XfeRbWj7xy3dsEX8/t/web-development-in-2020",
+        "text": "\n                Roadmap to Learning Web Development in 2020.\n              "
       },
       {
         "title": "How to Become a Full Stack Web Developer in 2020",
-        "link": "https://www.freecodecamp.org/news/how-to-become-a-full-stack-web-developer-in-2020/"
+        "link": "https://www.freecodecamp.org/news/how-to-become-a-full-stack-web-developer-in-2020/",
+        "text": "\n                freeCodeCamp article, \"How to Become a Full Stack Web Developer in 2020\".\n              "
       },
       {
         "title": "codewars",
-        "link": "https://www.codewars.com/"
+        "link": "https://www.codewars.com/",
+        "text": "\n                Codewars\n              "
       }
     ]
   },
@@ -847,22 +988,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/pkjattana"
+        "link": "https://twitter.com/pkjattana",
+        "handle": "@pkjattana"
       }
     ],
     "about": "I am an aspiring Full Stack Developer.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.udemy.com/"
+        "link": "https://www.udemy.com/",
+        "text": "\n                Udemy\n              "
       },
       {
         "title": "Second Resource",
-        "link": "http://freecodecamp.org/"
+        "link": "http://freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.interviewbit.com/courses/programming/#"
+        "link": "https://www.interviewbit.com/courses/programming/#",
+        "text": "\n                InterviewBit\n              "
       }
     ]
   },
@@ -871,22 +1016,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Masoud_Habibzad"
+        "link": "https://twitter.com/Masoud_Habibzad",
+        "handle": "@Masoud_Habibzad"
       }
     ],
     "about": "Aspriring Front-End Developer",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.sololearn.com/"
+        "link": "https://www.sololearn.com/",
+        "text": "\n                SoloLearn\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                W3Schools\n              "
       }
     ]
   },
@@ -895,26 +1044,31 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@TAFulano"
       },
       {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/tijanifulani/"
+        "link": "https://www.linkedin.com/in/tijanifulani/",
+        "handle": "Tijani Fulani"
       }
     ],
     "about": "Frontend developer who loves learning and sharing ideas.",
     "resources": [
       {
         "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Web dev bible",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       },
       {
         "title": "Improve your front-end coding skills by building real projects",
-        "link": "https://www.frontendmentor.io"
+        "link": "https://www.frontendmentor.io",
+        "text": "\n                Frontendmentors.io\n              "
       }
     ]
   },
@@ -923,26 +1077,31 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/EnnoSchall"
+        "link": "https://twitter.com/EnnoSchall",
+        "handle": "@EnnoSchall"
       },
       {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/ennoschall"
+        "link": "https://www.linkedin.com/in/ennoschall",
+        "handle": "Enno Schall"
       }
     ],
     "about": "Computers, Technology, Metalhead, Martial Arts, Cycling, Dad ❤",
     "resources": [
       {
         "title": "OWASP Cheat Sheet Series",
-        "link": "https://cheatsheetseries.owasp.org/"
+        "link": "https://cheatsheetseries.owasp.org/",
+        "text": "\n                OWASP Cheat Sheet Series (very helpful application security topics)\n              "
       },
       {
         "title": "Clean Code Developer",
-        "link": "https://clean-code-developer.com/"
+        "link": "https://clean-code-developer.com/",
+        "text": "\n                Clean Code Development (learn how to write readable, maintainable and changeable code)\n              "
       },
       {
         "title": "Stackoverflow",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                Stackoverflow (as a representative for the whole community)\n              "
       }
     ]
   },
@@ -951,22 +1110,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@name"
       }
     ],
     "about": "I love meat",
     "resources": [
       {
         "title": "Web dev bible",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       },
       {
         "title": "A noob's best friend",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                Stack Overflow\n              "
       },
       {
         "title": "Great for testing api endpoints",
-        "link": "https://www.postman.com"
+        "link": "https://www.postman.com",
+        "text": "\n                Postman\n              "
       }
     ]
   },
@@ -975,22 +1138,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/lauren_r_watson"
+        "link": "https://twitter.com/lauren_r_watson",
+        "handle": "@Lauren_R_Watson"
       }
     ],
     "about": "PhD Student learning how to participate in open source projects. Thanks for this tutorial!",
     "resources": [
       {
         "title": "First Resource link",
-        "link": "https://www.codewars.com/"
+        "link": "https://www.codewars.com/",
+        "text": "\n                Codewars\n              "
       },
       {
         "title": "Second Resource link",
-        "link": "https://css-tricks.com/the-art-of-comments/"
+        "link": "https://css-tricks.com/the-art-of-comments/",
+        "text": "\n                Css-tricks: The Art of Comments\n              "
       },
       {
         "title": "Third resource link",
-        "link": "https://ocw.mit.edu/index.htm"
+        "link": "https://ocw.mit.edu/index.htm",
+        "text": "\n                MIT Open Courseware\n              "
       }
     ]
   },
@@ -999,22 +1166,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/vinayak55443259"
+        "link": "https://twitter.com/vinayak55443259",
+        "handle": "@vinayak55443259"
       }
     ],
     "about": "My name is Vinayak. I am studying Computer Science.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.theodinproject.com/home"
+        "link": "https://www.theodinproject.com/home",
+        "text": "\n                Theodinproject\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                freeCodeCamp\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                w3schools\n              "
       }
     ]
   },
@@ -1023,22 +1194,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Hallowed8"
+        "link": "https://twitter.com/Hallowed8",
+        "handle": "@Hallowed8"
       }
     ],
     "about": "I've been learning programming for a while. Now practicing GIT.",
     "resources": [
       {
         "title": "StackOverflow",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                StackOverflow\n              "
       },
       {
         "title": "geeksforgeeks",
-        "link": "https://geeksforgeeks.com"
+        "link": "https://geeksforgeeks.com",
+        "text": "\n                GeeksForGeeks\n              "
       },
       {
         "title": "cppreference.com",
-        "link": "https://en.cppreference.com/w/"
+        "link": "https://en.cppreference.com/w/",
+        "text": "\n                C++ references\n              "
       }
     ]
   },
@@ -1047,22 +1222,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/nowsogoldenboy"
+        "link": "https://twitter.com/nowsogoldenboy",
+        "handle": "@nowsogoldenboy"
       }
     ],
     "about": "I've been learning to program for six months with a focus in web development. I'm very excited to explore the\n          creative uses for programming.",
     "resources": [
       {
         "title": "A link to The Odin Project's homepage",
-        "link": "https://www.theodinproject.com/dashboard"
+        "link": "https://www.theodinproject.com/dashboard",
+        "text": "\n                The Odin Project\n              "
       },
       {
         "title": "A link to freeCodeCamp's YouTube page",
-        "link": "https://www.youtube.com/c/Freecodecamp"
+        "link": "https://www.youtube.com/c/Freecodecamp",
+        "text": "\n                freeCodeCamp's YouTube\n              "
       },
       {
         "title": "A link to MDN Web Docs Homepage",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs Homepage\n              "
       }
     ]
   },
@@ -1071,22 +1250,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/frankiefab100"
+        "link": "https://twitter.com/frankiefab100",
+        "handle": "@frankiefab100"
       }
     ],
     "about": "I'm passionate about bridging the gap between design and development. I love playing around with CSS creating\n          art and talk about inclusive design, user experience, design systems, web accessibility and animation.",
     "resources": [
       {
         "title": "How to Contribute to an Open Source Project on GitHub by Kent C Dodds",
-        "link": "https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github"
+        "link": "https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github",
+        "text": "\n                Egghead.io - How to contribute to an Open source project\n              "
       },
       {
         "title": "Everyone's Recent Snippets Tagged Css",
-        "link": "https://www.snipplr.com"
+        "link": "https://www.snipplr.com",
+        "text": "\n                Code Snippets\n              "
       },
       {
         "title": "Improve your front-end coding skills by building real projects",
-        "link": "https://www.frontendmentor.io"
+        "link": "https://www.frontendmentor.io",
+        "text": "\n                Frontendmentors.io\n              "
       }
     ]
   },
@@ -1095,22 +1278,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Dvlhorac_David"
+        "link": "https://twitter.com/Dvlhorac_David",
+        "handle": "@Dvlhorac_David"
       }
     ],
     "about": "Coding is fascinating, it never ends no matter how much i code.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.pirple.com/"
+        "link": "https://www.pirple.com/",
+        "text": "Pirple"
       },
       {
         "title": "Second Resource",
-        "link": "https://www.sololearn.com/"
+        "link": "https://www.sololearn.com/",
+        "text": "Sololearn"
       },
       {
         "title": "Third resource",
-        "link": "https://css-tricks.com/"
+        "link": "https://css-tricks.com/",
+        "text": "CSS tricks"
       }
     ]
   },
@@ -1119,22 +1306,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/RiyaM16"
+        "link": "https://github.com/RiyaM16",
+        "handle": "@RiyaM16"
       }
     ],
     "about": "I am an aspiring computer engineer, new to open source and would love to explore more.",
     "resources": [
       {
         "title": "This is my go-to resource.",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                W3Schools\n              "
       },
       {
         "title": "All your programming concepts will be cleared here.",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                GeeksForGeeks\n              "
       },
       {
         "title": "Contains free tutorials and resources for exam preparation.",
-        "link": "https://www.javatpoint.com/"
+        "link": "https://www.javatpoint.com/",
+        "text": "\n                javaTpoint\n              "
       }
     ]
   },
@@ -1143,22 +1334,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/0-harshit-0"
+        "link": "https://github.com/0-harshit-0",
+        "handle": "0-harshit-0"
       }
     ],
     "about": "learning Web development and excited to explore open source technology.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                w3school\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                stackoverflow\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/"
+        "link": "https://github.com/",
+        "text": "\n                github\n              "
       }
     ]
   },
@@ -1167,22 +1362,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/KeyulJain"
+        "link": "https://github.com/KeyulJain",
+        "handle": "@KeyulJain"
       }
     ],
     "about": "Learning web dev, new to open source and a student.",
     "resources": [
       {
         "title": "This is my go-to resource.",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                W3Schools\n              "
       },
       {
         "title": "Best Resources for Web development.",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Best Resources/ documentation for Web development.",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Documentation\n              "
       }
     ]
   },
@@ -1191,22 +1390,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/efrenshou"
+        "link": "https://twitter.com/efrenshou",
+        "handle": "@efrenshou"
       }
     ],
     "about": "I like burgers and coding. Always open to learn something new. Eyes up, guardian!",
     "resources": [
       {
         "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                freeCodeCamp\n              "
       },
       {
         "title": "Codigo Facilito",
-        "link": "https://codigofacilito.com/"
+        "link": "https://codigofacilito.com/",
+        "text": "\n                Código Facilito\n              "
       },
       {
         "title": "Visual Studio Code",
-        "link": "https://code.visualstudio.com"
+        "link": "https://code.visualstudio.com",
+        "text": "\n                Visual Studio Code\n              "
       }
     ]
   },
@@ -1215,22 +1418,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/jthnyc"
+        "link": "https://github.com/jthnyc",
+        "handle": "@jthnyc"
       }
     ],
     "about": "One-woman orchestra turned software engineer looking forward to contribute to open source!",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://opensauced.pizza/"
+        "link": "https://opensauced.pizza/",
+        "text": "\n                OpenSauced.Pizza\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.codetriage.com/"
+        "link": "https://www.codetriage.com/",
+        "text": "\n                CodeTriage.com\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.theodinproject.com/tracks"
+        "link": "https://www.theodinproject.com/tracks",
+        "text": "\n                The Odin Project\n              "
       }
     ]
   },
@@ -1239,22 +1446,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/sneeed"
+        "link": "https://github.com/sneeed",
+        "handle": "@sneeed"
       }
     ],
     "about": "Excited where this will lead me :-)",
     "resources": [
       {
         "title": "SELFHTML - the start",
-        "link": "https://wiki.selfhtml.org/"
+        "link": "https://wiki.selfhtml.org/",
+        "text": "\n                SELFHTML - the start\n              "
       },
       {
         "title": "What are WebExtensions",
-        "link": "https://developer.mozilla.org/de/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions"
+        "link": "https://developer.mozilla.org/de/docs/Mozilla/Add-ons/WebExtensions/What_are_WebExtensions",
+        "text": "\n                What are WebExtensions\n              "
       },
       {
         "title": "Your first WebExtension",
-        "link": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension"
+        "link": "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension",
+        "text": "\n                Your first WebExtension\n              "
       }
     ]
   },
@@ -1263,22 +1474,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/sergiomarcone"
+        "link": "https://twitter.com/sergiomarcone",
+        "handle": "@sergiomarcone"
       }
     ],
     "about": "New to open source ❤",
     "resources": [
       {
         "title": "OWASP Cheat Sheet Series",
-        "link": "https://cheatsheetseries.owasp.org/"
+        "link": "https://cheatsheetseries.owasp.org/",
+        "text": "\n                OWASP Cheat Sheet Series (very helpful application security topics)\n              "
       },
       {
         "title": "Clean Code Developer",
-        "link": "https://clean-code-developer.com/"
+        "link": "https://clean-code-developer.com/",
+        "text": "\n                Clean Code Development (learn how to write readable, maintainable and changeable code)\n              "
       },
       {
         "title": "Stackoverflow",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                Stackoverflow (as a representative for the whole community)\n              "
       }
     ]
   },
@@ -1287,22 +1502,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/iammusavveer"
+        "link": "https://twitter.com/iammusavveer",
+        "handle": "@iammusavveer"
       }
     ],
     "about": "I am a tech savvy. I would love to connect with new people to learn new stuff. :)",
     "resources": [
       {
         "title": "A Computer Science portal for geeks. It contains well written, well thought and well explained computer science and programming articles.",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                Geeks For Geeks\n              "
       },
       {
         "title": "Stack Overflow is a question and answer site for professional and enthusiast programmers.",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                Stack Overflow\n              "
       },
       {
         "title": "Udemy is open online course provider.",
-        "link": "https://www.udemy.com/"
+        "link": "https://www.udemy.com/",
+        "text": "\n                Udemy\n              "
       }
     ]
   },
@@ -1311,22 +1530,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/100rabh_sgh"
+        "link": "https://twitter.com/100rabh_sgh",
+        "handle": "@100rabh_sgh"
       }
     ],
     "about": "I am a begginer taking first in step in open source contribution.Wanted to be a web-developer.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                stackoverflow\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://youtube.com/"
+        "link": "https://youtube.com/",
+        "text": "\n                you-tube\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://medium.com/"
+        "link": "https://medium.com/",
+        "text": "\n                medium\n              "
       }
     ]
   },
@@ -1335,22 +1558,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@virendra_singht"
       }
     ],
     "about": "4 year old Full stack developer | PHP programmer | Passionate learner and coder | Always excited to learn new\n          languages | Glad to contribute in open source.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                Stackoverflow\n              "
       },
       {
         "title": "Second Resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                w3school\n              "
       },
       {
         "title": "Third resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                freecodecamp\n              "
       }
     ]
   },
@@ -1359,22 +1586,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com"
+        "link": "https://twitter.com",
+        "handle": "@reshma"
       }
     ],
     "about": "Baby steps in open source",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                W3Schools-to learn html,js etc\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.coursera.org/"
+        "link": "https://www.coursera.org/",
+        "text": "\n                Coursera-to learn online courses\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://medium.com/"
+        "link": "https://medium.com/",
+        "text": "\n                Medium\n              "
       }
     ]
   },
@@ -1383,22 +1614,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/@Vikrant12842375"
+        "link": "https://twitter.com/@Vikrant12842375",
+        "handle": "@Vikrant12842375"
       }
     ],
     "about": "I am a keen learner and a questioner. I like to study about space and cosmos.",
     "resources": [
       {
         "title": "Best Web Dev Site",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                w3Schools\n              "
       },
       {
         "title": "Amazing Courses",
-        "link": "https://www.udacity.com/"
+        "link": "https://www.udacity.com/",
+        "text": "\n                Udacity\n              "
       },
       {
         "title": "Good For Beginners",
-        "link": "https://online-learning.harvard.edu/"
+        "link": "https://online-learning.harvard.edu/",
+        "text": "\n                Harvard Online Courses\n              "
       }
     ]
   },
@@ -1407,22 +1642,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/HarshitKumarOjha"
+        "link": "https://github.com/HarshitKumarOjha",
+        "handle": "@HarshitKumarOjha"
       }
     ],
     "about": "Self Learning Computer science beginner from India :D",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://code.visualstudio.com"
+        "link": "https://code.visualstudio.com",
+        "text": "\n                Visual Studio Code Text Editor\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.udemy.com"
+        "link": "https://www.udemy.com",
+        "text": "\n                Udemy Learning Platform\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://developer.mozilla.org"
+        "link": "https://developer.mozilla.org",
+        "text": "\n                MDN\n              "
       }
     ]
   },
@@ -1431,22 +1670,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ToniFerrerLopez"
+        "link": "https://twitter.com/ToniFerrerLopez",
+        "handle": "@ToniFerrerLopez"
       }
     ],
     "about": "I enjoy coding and solving problems.",
     "resources": [
       {
         "title": "Android Developers web",
-        "link": "https://developer.android.com/"
+        "link": "https://developer.android.com/",
+        "text": "\n                Android Developers web\n              "
       },
       {
         "title": "DevScola",
-        "link": "https://devscola.org/"
+        "link": "https://devscola.org/",
+        "text": "\n                DEVSCOLA The best place to learn and meet people (developers) in Valencia - Spain\n              "
       },
       {
         "title": "GitMoji",
-        "link": "https://gitmoji.carloscuesta.me/"
+        "link": "https://gitmoji.carloscuesta.me/",
+        "text": "\n                GITMOJI Create your commits with class\n              "
       }
     ]
   },
@@ -1455,22 +1698,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Inf0Guy"
+        "link": "https://twitter.com/Inf0Guy",
+        "handle": "@Inf0Guy"
       }
     ],
     "about": "I love eating Mc and KFC. One of my favourite dream is to become a chef.",
     "resources": [
       {
         "title": "MyFirstResource",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                A resoursce where you can learn programming.\n              "
       },
       {
         "title": "Javascript30",
-        "link": "https://javascript30.com/"
+        "link": "https://javascript30.com/",
+        "text": "\n                Wanna learn Java? Just access it.\n              "
       },
       {
         "title": "YouTube",
-        "link": "https://www.youtube.com/"
+        "link": "https://www.youtube.com/",
+        "text": "\n                Let s not forget one of the most useful dev resources\n              "
       }
     ]
   },
@@ -1479,22 +1726,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/TR4nd0m"
+        "link": "https://twitter.com/TR4nd0m",
+        "handle": "@TR4nd0m"
       }
     ],
     "about": "Hello. My name is edmund and I've been playing with computers ever since I was a kid.",
     "resources": [
       {
         "title": "One of the best",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                Geeks for geeks. An awesome resource for all kinds of developers.\n              "
       },
       {
         "title": "The most used",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                StackOverflow....the website everyone uses.\n              "
       },
       {
         "title": "A lot of useful videos",
-        "link": "https://www.udemy.com/"
+        "link": "https://www.udemy.com/",
+        "text": "\n                Udemy is also pretty good.\n              "
       }
     ]
   },
@@ -1503,22 +1754,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/boydensjonathan?lang=en"
+        "link": "https://twitter.com/boydensjonathan?lang=en",
+        "handle": "@BoydensJonathan"
       }
     ],
     "about": "I'm a 23 year old developer from Belgium with a great passion for programming, gaming and music. The latter\n          also involves playing multiple instruments.",
     "resources": [
       {
         "title": "Project Euler",
-        "link": "https://projecteuler.net/about"
+        "link": "https://projecteuler.net/about",
+        "text": "\n                Project Euler\n              "
       },
       {
         "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                freeCodeCamp courses\n              "
       },
       {
         "title": "Codewars",
-        "link": "https://www.codewars.com/dashboard"
+        "link": "https://www.codewars.com/dashboard",
+        "text": "\n                Codewars\n              "
       }
     ]
   },
@@ -1527,22 +1782,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@Keelisetti"
       }
     ],
     "about": "I am an undergraduate in B.Tech trying to explore the open-source",
     "resources": [
       {
         "title": "First Resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                FreeCodeCamp.org\n              "
       },
       {
         "title": "Second Resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                Geeks for Geeks\n              "
       },
       {
         "title": "Third resource",
-        "link": "#"
+        "link": "#",
+        "text": "\n                Google(may be compulsory for everyone)\n              "
       }
     ]
   },
@@ -1551,22 +1810,26 @@
     "contacts": [
       {
         "title": "linkedin",
-        "link": "https://www.linkedin.com/in/aishanipachauri/dle"
+        "link": "https://www.linkedin.com/in/aishanipachauri/dle",
+        "handle": "@AishaniPach"
       }
     ],
     "about": "I am not rebellious enough to be on twitter but maybe someday.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+        "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+        "text": "\n                Microsoft C# for Starters\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://pusher.com/tutorials/instagram-clone-part-1"
+        "link": "https://pusher.com/tutorials/instagram-clone-part-1",
+        "text": "\n                React newbies\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://pusher.com/docs/channels/getting_started/javascript"
+        "link": "https://pusher.com/docs/channels/getting_started/javascript",
+        "text": "\n                Javascript newbies\n              "
       }
     ]
   },
@@ -1575,22 +1838,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://mobile.twitter.com/Aritri1101"
+        "link": "https://mobile.twitter.com/Aritri1101",
+        "handle": "@Aritri1101"
       }
     ],
     "about": "I am a CS undergrad from India. I find learning new things challenging and satisfying. Just started my journey\n          to explore the exciting world of open source with web development. Always happy to help!",
     "resources": [
       {
         "title": "A link to the official MDN docs",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       },
       {
         "title": "Link to an awesome YouTube resource for developers",
-        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+        "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
+        "text": "\n                Traversy Media - YouTube\n              "
       },
       {
         "title": "Useful articles to get started with web development for beginners",
-        "link": "https://medium.com/better-programming/search?q=web%20development"
+        "link": "https://medium.com/better-programming/search?q=web%20development",
+        "text": "\n                Medium Articles\n              "
       }
     ]
   },
@@ -1599,22 +1866,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/leewseea"
+        "link": "https://twitter.com/leewseea",
+        "handle": "@leewseea"
       }
     ],
     "about": "I code and draw stuffs.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "FreeCodeCamp"
       },
       {
         "title": "Second Resource",
-        "link": "https://scrimba.com/"
+        "link": "https://scrimba.com/",
+        "text": "Scrimba"
       },
       {
         "title": "Third resource",
-        "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg"
+        "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
+        "text": "\n                The Net Ninja\n              "
       }
     ]
   },
@@ -1623,22 +1894,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/hurstcapital"
+        "link": "https://twitter.com/hurstcapital",
+        "handle": "@hurstcapital"
       }
     ],
     "about": "On the path of personal growth and getting creative with design, development and side hustles.",
     "resources": [
       {
         "title": "Level Up Tutorials",
-        "link": "https://www.leveluptutorials.com/tutorials"
+        "link": "https://www.leveluptutorials.com/tutorials",
+        "text": "\n                Level Up Tutorials\n              "
       },
       {
         "title": "Codrops",
-        "link": "http://tympanus.net/codrops/"
+        "link": "http://tympanus.net/codrops/",
+        "text": "\n                Codrops\n              "
       },
       {
         "title": "Frontend Mentor",
-        "link": "https://www.frontendmentor.io/challenges"
+        "link": "https://www.frontendmentor.io/challenges",
+        "text": "\n                Frontend Mentor\n              "
       }
     ]
   },
@@ -1647,22 +1922,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/MaheshShrinidhi"
+        "link": "https://twitter.com/MaheshShrinidhi",
+        "handle": "@MaheshShrinidhi"
       }
     ],
     "about": "I am a 3rd Year Engineering Student of Computer Science Major, from India. This is my first contribution to an\n          open source project and I hope to contribute more and help this community!!",
     "resources": [
       {
         "title": "Geeks for Geeks",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                Geeks for Geeks\n              "
       },
       {
         "title": "freecodecamp",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Stackoverflow",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                StackOverflow\n              "
       }
     ]
   },
@@ -1671,22 +1950,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ryan_findley82"
+        "link": "https://twitter.com/ryan_findley82",
+        "handle": "@ryan_findley82"
       }
     ],
     "about": "A new web developer looking to better my skills to help me break into a new career. Excited about all this new\n          career path has to offer!",
     "resources": [
       {
         "title": "freecodecamp.org",
-        "link": "https://www.freecodecamp.org/learn"
+        "link": "https://www.freecodecamp.org/learn",
+        "text": "\n                freecodecamp.org\n              "
       },
       {
         "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       },
       {
         "title": "Frontend Mentor",
-        "link": "https://www.frontendmentor.io/"
+        "link": "https://www.frontendmentor.io/",
+        "text": "\n                Frontend Mentor\n              "
       }
     ]
   },
@@ -1695,22 +1978,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/William53273857"
+        "link": "https://twitter.com/William53273857",
+        "handle": "@William53273857"
       }
     ],
     "about": "On a journey to become the number one pokemon master. I mean front-end webdev.",
     "resources": [
       {
         "title": "Codecademy",
-        "link": "https://www.codecademy.com/learn"
+        "link": "https://www.codecademy.com/learn",
+        "text": "\n                Codecademy\n              "
       },
       {
         "title": "Stackoverflow",
-        "link": "https://stackoverflow.com"
+        "link": "https://stackoverflow.com",
+        "text": "\n                Stackoverflow\n              "
       },
       {
         "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       }
     ]
   },
@@ -1719,22 +2006,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/KunalBedi15"
+        "link": "https://twitter.com/KunalBedi15",
+        "handle": "@KunalBedi15"
       }
     ],
     "about": "I am passionate learner and coder.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.freecodecamp.org"
+        "link": "https://www.freecodecamp.org",
+        "text": "\n                Freecodecamp\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.cssportal.com/"
+        "link": "https://www.cssportal.com/",
+        "text": "\n                Css portal\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.w3schools.com/"
+        "link": "https://www.w3schools.com/",
+        "text": "\n                w3Schools\n              "
       }
     ]
   },
@@ -1743,22 +2034,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/umarmasud07"
+        "link": "https://twitter.com/umarmasud07",
+        "handle": "@umarmasud07"
       }
     ],
     "about": "Sophomore, trying my hands on first open source contributions. Wanna be entrepreneuer.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.tabnine.com/"
+        "link": "https://www.tabnine.com/",
+        "text": "\n                TabNine\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.sublimetext.com/"
+        "link": "https://www.sublimetext.com/",
+        "text": "\n                Sublime Text Editor\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://www.coursera.org/"
+        "link": "https://www.coursera.org/",
+        "text": "\n                Coursera\n              "
       }
     ]
   },
@@ -1767,22 +2062,26 @@
     "contacts": [
       {
         "title": "github",
-        "link": "https://github.com/pbisen"
+        "link": "https://github.com/pbisen",
+        "handle": "@pbisen"
       }
     ],
     "about": "I am a sophomore studying Computer Science in BITS Pilani, India.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.wncc-iitb.org/wiki/index.php/The_Web_and_Coding_Club"
+        "link": "https://www.wncc-iitb.org/wiki/index.php/The_Web_and_Coding_Club",
+        "text": "\n                IITB's WnCC Wiki\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                GeeksForGeeks\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/ossu/computer-science"
+        "link": "https://github.com/ossu/computer-science",
+        "text": "\n                The Open Source Computer Science Degree\n              "
       }
     ]
   },
@@ -1791,22 +2090,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/shubham_salwan"
+        "link": "https://twitter.com/shubham_salwan",
+        "handle": "@shubham_salwan"
       }
     ],
     "about": "hi! i am shubham salwan. i am 18. i am full stack webdeveloper and AI enthusiast.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://freecodecamp.com"
+        "link": "https://freecodecamp.com",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://W3School.com"
+        "link": "https://W3School.com",
+        "text": "\n                W3School\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://traversymedia.com"
+        "link": "https://traversymedia.com",
+        "text": "\n                traversymedia\n              "
       }
     ]
   },
@@ -1815,22 +2118,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "link to your twitter handle"
+        "link": "link to your twitter handle",
+        "handle": "@camilabodack"
       }
     ],
     "about": "I'm a software development student from Brazil who loves to learn about technology and also loves to create\n          solutions that help to improve people's daily lives",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp\n              "
       },
       {
         "title": "Second Resource",
-        "link": "https://www.pythonprogressivo.net/"
+        "link": "https://www.pythonprogressivo.net/",
+        "text": "\n                Python Progressivo - Python's basic course in portuguese\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript"
+        "link": "https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript",
+        "text": "\n                Developer Mozilla - (MDN Web docs) - Learning web development in portuguese and english\n              "
       }
     ]
   },
@@ -1839,22 +2146,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ballmatthew"
+        "link": "https://twitter.com/ballmatthew",
+        "handle": "@ballmatthew"
       }
     ],
     "about": "Junior software developer trying to step into the open source world. Excited about the possibilites it can\n          bring to myself and others.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://github.com/zudochkin/awesome-newsletters"
+        "link": "https://github.com/zudochkin/awesome-newsletters",
+        "text": "\n                Dev Newsletters\n              "
       },
       {
         "title": "Devpost.com",
-        "link": "http://www.devpost.com"
+        "link": "http://www.devpost.com",
+        "text": "\n                Devpost\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/explore"
+        "link": "https://github.com/explore",
+        "text": "\n                Github Explore Page\n              "
       }
     ]
   },
@@ -1863,22 +2174,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Devendr86626391"
+        "link": "https://twitter.com/Devendr86626391",
+        "handle": "@devendra"
       }
     ],
     "about": "I am pre-final year student at DTU pursuing my B.Tech in ECE domain.",
     "resources": [
       {
         "title": "First Resource",
-        "link": "https://github.com/zudochkin/awesome-newsletters"
+        "link": "https://github.com/zudochkin/awesome-newsletters",
+        "text": "\n                Dev Newsletters\n              "
       },
       {
         "title": "Devpost.com",
-        "link": "http://www.devpost.com"
+        "link": "http://www.devpost.com",
+        "text": "\n                Devpost\n              "
       },
       {
         "title": "Third resource",
-        "link": "https://github.com/explore"
+        "link": "https://github.com/explore",
+        "text": "\n                Github Explore Page\n              "
       }
     ]
   },
@@ -1887,22 +2202,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/faithvblue"
+        "link": "https://twitter.com/faithvblue",
+        "handle": "@faithvblue"
       }
     ],
     "about": "I am a cybersecurity enthusiast and also building my web-developer profile.",
     "resources": [
       {
         "title": "Dev community",
-        "link": "https://dev.to/"
+        "link": "https://dev.to/",
+        "text": "\n                Dev community\n              "
       },
       {
         "title": "Freecodecamp",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                Freecodecamp\n              "
       },
       {
         "title": "Sololearn",
-        "link": "https://www.sololearn.com/"
+        "link": "https://www.sololearn.com/",
+        "text": "\n                Sololearn\n              "
       }
     ]
   },
@@ -1911,22 +2230,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/karinaabadx"
+        "link": "https://twitter.com/karinaabadx",
+        "handle": "@karinaabadx"
       }
     ],
     "about": "Beautiful butterfly",
     "resources": [
       {
         "title": "FreeCodeCamp",
-        "link": "https://www.freecodecamp.org"
+        "link": "https://www.freecodecamp.org",
+        "text": "\n                Free Code Camp\n              "
       },
       {
         "title": "fullstackopen",
-        "link": "https://fullstackopen.com/en/about/"
+        "link": "https://fullstackopen.com/en/about/",
+        "text": "\n                Full Stack Open\n              "
       },
       {
         "title": "Udemy",
-        "link": "https://www.udemy.com"
+        "link": "https://www.udemy.com",
+        "text": "\n                Udemy\n              "
       }
     ]
   },
@@ -1935,22 +2258,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/dayvista_dev"
+        "link": "https://twitter.com/dayvista_dev",
+        "handle": "@dayvista_dev"
       }
     ],
     "about": "Inspired by my recent discovery and subsequent exploration of cryptocurrency, I decided to make a foray into\n          the career of full-stack web development. Before this, I studied sustainable agriculture in university and out\n          in the wide-world. Besides technology, I love music, nutrition, and reading fascinating literature.",
     "resources": [
       {
         "title": "This is a link to an awesome resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                freeCodeCamp.org\n              "
       },
       {
         "title": "This is another link to a web development tool I use a lot",
-        "link": "https://www.youtube.com/user/TechGuyWeb"
+        "link": "https://www.youtube.com/user/TechGuyWeb",
+        "text": "\n                Traversy Media (YouTube Tutorials & Crash Courses)\n              "
       },
       {
         "title": "The third link to something useful for developers",
-        "link": "https://www.youtube.com/watch?v=hQVTIJBZook"
+        "link": "https://www.youtube.com/watch?v=hQVTIJBZook",
+        "text": "\n                JavaScript: The Good Parts (A Fantastic YouTube Talk)\n              "
       }
     ]
   },
@@ -1959,22 +2286,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/SahilJaidka3"
+        "link": "https://twitter.com/SahilJaidka3",
+        "handle": "@SahilJaidka3"
       }
     ],
     "about": "I am final year student doing Masters in I.T in Melbourne, Australia. I like to solve technical problems. I am\n          very hardworking and honest.",
     "resources": [
       {
         "title": "This is a link to an awesome resource",
-        "link": "https://www.linkedin.com/pulse/how-i-went-from-newbie-software-engineer-9-months-while-tackaberry/"
+        "link": "https://www.linkedin.com/pulse/how-i-went-from-newbie-software-engineer-9-months-while-tackaberry/",
+        "text": "\n                Inspirational Read for Career change\n              "
       },
       {
         "title": "This is another link to web development tool I use a lot",
-        "link": "https://learn.freecodecamp.org"
+        "link": "https://learn.freecodecamp.org",
+        "text": "\n                FreeCodeCamp Practice\n              "
       },
       {
         "title": "The third link to something useful for developers",
-        "link": "https://medium.com/javascript-in-plain-english/learn-how-to-use-map-filter-and-reduce-in-5-minutes-fbf5c5540b2f"
+        "link": "https://medium.com/javascript-in-plain-english/learn-how-to-use-map-filter-and-reduce-in-5-minutes-fbf5c5540b2f",
+        "text": "\n                Map, Reuse, Reduce\n              "
       }
     ]
   },
@@ -1983,22 +2314,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Syknapse"
+        "link": "https://twitter.com/Syknapse",
+        "handle": "@Npk74091070"
       }
     ],
     "about": "I am a third year student pursuing B.Tech degree in Information Technology. I like coding, eating, and\n          repeating the same. I like to read, travel, and enjoy.",
     "resources": [
       {
         "title": "Excellent articles every day",
-        "link": "https://medium.freecodecamp.org/"
+        "link": "https://medium.freecodecamp.org/",
+        "text": "\n                Medium Publication\n              "
       },
       {
         "title": "Smashing Magazine's awesome collection of CSS grid resources to get you started",
-        "link": "https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid"
+        "link": "https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid",
+        "text": "\n                Online Tutorials\n              "
       },
       {
         "title": "A great challenge and community to keep you coding and motivated every day",
-        "link": "http://100daysofcode.com/"
+        "link": "http://100daysofcode.com/",
+        "text": "\n                #365DaysOfCode\n              "
       }
     ]
   },
@@ -2007,30 +2342,36 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/chankruze"
+        "link": "https://twitter.com/chankruze",
+        "handle": "@chankruze"
       },
       {
         "title": "github",
-        "link": "https://github.com/chankruze"
+        "link": "https://github.com/chankruze",
+        "handle": "chankruze"
       },
       {
         "title": "youtube",
-        "link": "https://www.youtube.com/channel/UCfTgx2c7guGo2PG1bj9d3Xg"
+        "link": "https://www.youtube.com/channel/UCfTgx2c7guGo2PG1bj9d3Xg",
+        "handle": "GEEKOFIA"
       }
     ],
     "about": "I do programming to solve real world problems, like to code, reverse engineer, fix errors & teaching.\n          Motivated from scorpion, listens to Lo-Fi and old songs. Enjoys loneliness, stays away from crowd, parties and\n          non-sence stuffs which waste time.",
     "resources": [
       {
         "title": "Improve your reverse engineering skills",
-        "link": "https://crackmes.one/"
+        "link": "https://crackmes.one/",
+        "text": "\n                Crackmes\n              "
       },
       {
         "title": "Practice coding, prepare for interviews, and get hired.",
-        "link": "https://www.hackerrank.com/"
+        "link": "https://www.hackerrank.com/",
+        "text": "\n                HackerRank\n              "
       },
       {
         "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "\n                MDN Web Docs\n              "
       }
     ]
   },
@@ -2039,22 +2380,26 @@
     "contacts": [
       {
         "title": "envelope-o",
-        "link": "YOUR twitter account link"
+        "link": "YOUR twitter account link",
+        "handle": "rajatbhardwaj360@gmail.com"
       }
     ],
     "about": "\"I'm a not a great programmer but I am indeed a good programmer with great habits!\"...",
     "resources": [
       {
         "title": "This is a link to an awesome resource",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                Free Code Camp\n              "
       },
       {
         "title": "This is another link to web development tool I use a lot",
-        "link": "https://www.codecademy.com/"
+        "link": "https://www.codecademy.com/",
+        "text": "\n                Code Academy\n              "
       },
       {
         "title": "The third link to something useful for developers",
-        "link": "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview"
+        "link": "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview",
+        "text": "\n                The web developer bootcamp by Udemy\n              "
       }
     ]
   },
@@ -2063,22 +2408,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Nirvana_Nvrmind"
+        "link": "https://twitter.com/Nirvana_Nvrmind",
+        "handle": "@Nirvana_Nvrmind"
       }
     ],
     "about": "Learning and growing goes hand in hand.Do what you love! Don't forget to smile :)",
     "resources": [
       {
         "title": "Helps in solving doubts.",
-        "link": "https://stackoverflow.com/"
+        "link": "https://stackoverflow.com/",
+        "text": "\n                StackOverflow\n              "
       },
       {
         "title": "A portal for computer science geeks",
-        "link": "https://www.geeksforgeeks.org/"
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "\n                GeeksForGeeks\n              "
       },
       {
         "title": "An amazing place to start and learn",
-        "link": "https://www.codecademy.com/"
+        "link": "https://www.codecademy.com/",
+        "text": "\n                CodeAcademy\n              "
       }
     ]
   },
@@ -2087,22 +2436,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/nerawz"
+        "link": "https://twitter.com/nerawz",
+        "handle": "@nerawz"
       }
     ],
     "about": "I'm open like to learn new things discuss new ideas",
     "resources": [
       {
         "title": "Excellent articles every day",
-        "link": "https://medium.freecodecamp.org/"
+        "link": "https://medium.freecodecamp.org/",
+        "text": "\n                FreeCodeCamp Medium Publication\n              "
       },
       {
         "title": "Smashing Magazine's awesome collection of CSS grid resources to get you started",
-        "link": "https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid"
+        "link": "https://www.smashingmagazine.com/2017/09/the-css-grid-challenge-join-in/#getting-started-with-css-grid",
+        "text": "\n                Getting Started With CSS Grid\n              "
       },
       {
         "title": "A great challenge and community to keep you coding and motivated every day",
-        "link": "http://100daysofcode.com/"
+        "link": "http://100daysofcode.com/",
+        "text": "\n                #100DaysOfCode\n              "
       }
     ]
   },
@@ -2111,22 +2464,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/ibelieveinforce"
+        "link": "https://twitter.com/ibelieveinforce",
+        "handle": "@ibelieveinforce"
       }
     ],
     "about": "Programming makes things easier, teaches you persistence and helps you develop structured and creative\n          thinking",
     "resources": [
       {
         "title": "This is a link to an awesome resource",
-        "link": "https://www.codecademy.com/tracks/web"
+        "link": "https://www.codecademy.com/tracks/web",
+        "text": "\n                CODEACADEMY HTML & CSS\n              "
       },
       {
         "title": "This is another link to web development tool I use a lot",
-        "link": "https://www.w3schools.com/js/"
+        "link": "https://www.w3schools.com/js/",
+        "text": "\n                W 3 SCHOOLS JS\n              "
       },
       {
         "title": "The third link to something useful for developers",
-        "link": "https://www.w3schools.com/sql/default.asp"
+        "link": "https://www.w3schools.com/sql/default.asp",
+        "text": "\n                W 3 SCHOOLS SQL\n              "
       }
     ]
   },
@@ -2135,22 +2492,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/lucia_ojeda"
+        "link": "https://twitter.com/lucia_ojeda",
+        "handle": "@lucia_ojeda"
       }
     ],
     "about": "Lucia lives now in Valencia, finishing her Product Design studies. She is trying hard to learn new things\n          everyday! Yaaay.",
     "resources": [
       {
         "title": "JavaScript for cats is an easy way to learn JS",
-        "link": "http://jsforcats.com/"
+        "link": "http://jsforcats.com/",
+        "text": "\n                JavaScript for cats\n              "
       },
       {
         "title": "Useful book by Product Hunt",
-        "link": "https://books.producthunt.com/careers"
+        "link": "https://books.producthunt.com/careers",
+        "text": "\n                Book: How to build a career in tech\n              "
       },
       {
         "title": "Random picture generator where you can choose the them",
-        "link": "https://placeimg.com/"
+        "link": "https://placeimg.com/",
+        "text": "\n                Placeimg\n              "
       }
     ]
   },
@@ -2159,22 +2520,26 @@
     "contacts": [
       {
         "title": "free-code-camp",
-        "link": "https://www.freecodecamp.org/userrrfriendly"
+        "link": "https://www.freecodecamp.org/userrrfriendly",
+        "handle": "@UserrrFriendly"
       }
     ],
     "about": "I love making maps and I love coding, hopefully one day I will become a real developer and combine both of my\n          passions by publishing interactive maps on the web.",
     "resources": [
       {
         "title": "Tons of cool stuff about CSS and front end development",
-        "link": "https://css-tricks.com/"
+        "link": "https://css-tricks.com/",
+        "text": "\n                css-tricks\n              "
       },
       {
         "title": "One of the best places where you can learn pretty mutch everything web related...if you can afford 25$ per month, if not there is a 7day free trial, you'll be surprized how many things you can learn in a weak",
-        "link": "https://teamtreehouse.com/"
+        "link": "https://teamtreehouse.com/",
+        "text": "\n                treehouse\n              "
       },
       {
         "title": "If you like responsive design then bootrap is your friend",
-        "link": "http://getbootstrap.com/"
+        "link": "http://getbootstrap.com/",
+        "text": "\n                Bootstrap\n              "
       }
     ]
   },
@@ -2183,22 +2548,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Thisisfish1"
+        "link": "https://twitter.com/Thisisfish1",
+        "handle": "@Thisisfish1"
       }
     ],
     "about": "I am a self-motivated programmer. Currently learning all the front-end web developing skills. Also I am\n          enthusiast in ethical hacking.",
     "resources": [
       {
         "title": "This is a link to an coderschool for learning online coding with some challenges",
-        "link": "https://www.codeschool.com/"
+        "link": "https://www.codeschool.com/",
+        "text": "\n                CODERSCHOOL is best way to learn new language\n              "
       },
       {
         "title": "This is another link to web development tool I use a lot",
-        "link": "https://www.freecodecamp.org/"
+        "link": "https://www.freecodecamp.org/",
+        "text": "\n                a website that is perfect for learning and practicing web development.\n              "
       },
       {
         "title": "The third link to a tool that is best for practicing front-end and back-end skills",
-        "link": "https://codepen.io/#"
+        "link": "https://codepen.io/#",
+        "text": "\n                I spend most of my time here for practicing what i learned. > codepen.io\n              "
       }
     ]
   },
@@ -2207,22 +2576,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/andrew_soback"
+        "link": "https://twitter.com/andrew_soback",
+        "handle": "@andrew_soback"
       }
     ],
     "about": "I'm just getting started in the open source community, and so thankful that there are so many helpful people\n          out there.",
     "resources": [
       {
         "title": "Automate the Boring stuff wesite",
-        "link": "https://automatetheboringstuff.com/"
+        "link": "https://automatetheboringstuff.com/",
+        "text": "\n                Automate the Boring stuff made me feel like I could create something, rather than just practice theory.\n              "
       },
       {
         "title": "Discovered in the learnprogramming subreddit FAQs",
-        "link": "http://matt.might.net/articles/what-cs-majors-should-know/"
+        "link": "http://matt.might.net/articles/what-cs-majors-should-know/",
+        "text": "\n                Here's an post I'm using to help fill in the gaps of knowledge in my CS degree.\n              "
       },
       {
         "title": "Math Tutor",
-        "link": "https://trevtutor.com/discretemath/discretemath1/"
+        "link": "https://trevtutor.com/discretemath/discretemath1/",
+        "text": "\n                Tutor Trev on Youtube helped me understand math concepts I was struggling with.\n              "
       }
     ]
   },
@@ -2231,22 +2604,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/Elena_in_code"
+        "link": "https://twitter.com/Elena_in_code",
+        "handle": "@Elena_in_code"
       }
     ],
     "about": "I am a cheese fan, pasionate about clouds, colors, shapes and movement. Currently studying front-end web\n          development.",
     "resources": [
       {
         "title": "Learn javascript building 30 things by Wes Bos",
-        "link": "https://javascript30.com/"
+        "link": "https://javascript30.com/",
+        "text": "\n                javascript30 by Wes Bos\n              "
       },
       {
         "title": "Useful resources and inspiration for creative minds",
-        "link": "https://tympanus.net/codrops/"
+        "link": "https://tympanus.net/codrops/",
+        "text": "\n                Codrops is a web design and development blog\n              "
       },
       {
         "title": "Resources for developers, by developers",
-        "link": "https://developer.mozilla.org"
+        "link": "https://developer.mozilla.org",
+        "text": "\n                MDN moz://a\n              "
       }
     ]
   },
@@ -2255,22 +2632,26 @@
     "contacts": [
       {
         "title": "twitter",
-        "link": "https://twitter.com/cjvandijk"
+        "link": "https://twitter.com/cjvandijk",
+        "handle": "@cjvandijk"
       }
     ],
     "about": "I love coding and I also love teaching. Coding is predictable, especially compared to children! I also love\n          art and science. And Math is Beautiful.",
     "resources": [
       {
         "title": "Exellent instruction, no videos, all practice",
-        "link": "https://www.dataquest.io/"
+        "link": "https://www.dataquest.io/",
+        "text": "\n                dataquest.io\n              "
       },
       {
         "title": "Great practice in Java or Python",
-        "link": "https://codingbat.com"
+        "link": "https://codingbat.com",
+        "text": "\n                Coding practice in Python or Java\n              "
       },
       {
         "title": "Coding Practice and Competition",
-        "link": "https://www.hackerrank.com/dashboard"
+        "link": "https://www.hackerrank.com/dashboard",
+        "text": "\n                Practice coding or compete. Challenges can be seemingly simple when they are not!\n              "
       }
     ]
   }
