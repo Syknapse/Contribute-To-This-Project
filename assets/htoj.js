@@ -13,13 +13,15 @@ function extractContactDetails(contactElement) {
   const contactLinks = contactElement.find('a')
 
   contactLinks.each((index, link) => {
-    const titleElement = $(link).prev()
-    const title = titleElement.attr('class') ? titleElement.attr('class').replace('fab fa-', '') : ''
+    const iconElement = $(link).prev() || $(link).find('i')
+    const icon = iconElement.attr('class')
     const url = $(link).attr('href')
-    const handle = $(link).text()
+    const handle = $(link)
+      .text()
+      .trim()
 
     contactDetails.push({
-      title: title,
+      icon: icon,
       link: url,
       handle: handle,
     })
@@ -44,7 +46,7 @@ function extractResourceDetails(resourcesElement) {
     const linkElement = $(element).find('a')
     resource.title = linkElement.attr('title') || ''
     resource.link = linkElement.attr('href') || ''
-    resource.text = linkElement.text() || ''
+    resource.text = linkElement.text().trim() || ''
 
     resources.push(resource)
   })
