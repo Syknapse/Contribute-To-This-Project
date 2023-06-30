@@ -3,7 +3,7 @@
     "name": "Sumit Saha",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/SumitSaha10",
         "handle": "Sumit"
       }
@@ -31,12 +31,12 @@
     "name": "Jagger Harness",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/jaggerharness",
         "handle": "jaggerharness"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/jagger_dev",
         "handle": "jagger_dev"
       }
@@ -64,7 +64,7 @@
     "name": "Ali Cagatay",
     "contacts": [
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/_alicagatay",
         "handle": "_alicagatay"
       }
@@ -92,17 +92,17 @@
     "name": "Piethon",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/sudo_uwu",
         "handle": "sudo_uwu"
       },
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/sudo_uwu",
         "handle": "sudo_uwu"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Pyth0nHere",
         "handle": "Pyth0nHere"
       }
@@ -130,7 +130,7 @@
     "name": "Biscuit",
     "contacts": [
       {
-        "title": "strava",
+        "icon": "fab fa-strava",
         "link": "https://www.strava.com/athletes/61039819",
         "handle": "Strava link"
       }
@@ -158,7 +158,7 @@
     "name": "Grxypth",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Grxypth",
         "handle": "Grxypth"
       }
@@ -186,7 +186,7 @@
     "name": "SuJung Song",
     "contacts": [
       {
-        "title": "github social",
+        "icon": "fab fa-github social",
         "link": "https://github.com/SONG-crystal",
         "handle": "SuJung's GitHub"
       }
@@ -214,17 +214,17 @@
     "name": "y17godara (Yash Godara)",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/y17godara",
         "handle": "@y17godara"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/y17godara",
         "handle": "@y17godara"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/yash-godara-a91442246/",
         "handle": "@Yash Godara"
       }
@@ -252,7 +252,7 @@
     "name": "Robin Rong",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/RobinRongY",
         "handle": "@RobinRongY"
       }
@@ -280,22 +280,18 @@
     "name": "Alan Secundo",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/AlanSecundo",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/alansecundo/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.instagram.com/alan.secundo/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.alansecundo.com/en/",
         "handle": ""
       }
@@ -323,22 +319,18 @@
     "name": "Tshenolo Mos",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/tshenolo",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.twitter.com/tshenolo",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/tshenolo/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.youtube.com/@tshenolo",
         "handle": ""
       }
@@ -366,17 +358,17 @@
     "name": "Ayeza Bashir",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/ayezabashir",
         "handle": "@ayezabashir"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/ayezabashir",
         "handle": "@ayezabashir"
       },
       {
-        "title": "codepen",
+        "icon": "fab fa-codepen",
         "link": "https://codepen.io/ayezabashir442",
         "handle": "@ayezabashir442"
       }
@@ -404,7 +396,7 @@
     "name": "Robinson J",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/CodeWithRobi",
         "handle": "@CodeWithRobi"
       }
@@ -432,7 +424,7 @@
     "name": "Godfrey360",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/Godfrey360",
         "handle": "Godfrey360"
       }
@@ -460,7 +452,7 @@
     "name": "Fabian",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/",
         "handle": "Don't use social media"
       }
@@ -488,7 +480,7 @@
     "name": "Roshaan",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://www.github.com/roshaandev",
         "handle": "roshaandev"
       }
@@ -516,7 +508,7 @@
     "name": "BenFrogg",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://www.github.com/benFrogg",
         "handle": "BenFrogg"
       }
@@ -544,7 +536,7 @@
     "name": "Petr Ambrož",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/petrambroz/",
         "handle": "@petrambroz"
       }
@@ -572,7 +564,7 @@
     "name": "Amira Ezzeldin",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/amira_ezz_eldin",
         "handle": "@amira_ezz_eldin"
       }
@@ -600,7 +592,7 @@
     "name": "Dan Choike",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/danielchoike2",
         "handle": "danielchoike2"
       }
@@ -628,17 +620,17 @@
     "name": "William Boswall",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/wboswall",
         "handle": "wboswall"
       },
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/william.boswall",
         "handle": "William Boswall"
       },
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/wboswall/",
         "handle": "wboswall"
       }
@@ -666,7 +658,7 @@
     "name": "yij",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/yij13",
         "handle": "@yij13"
       }
@@ -694,12 +686,12 @@
     "name": "Hrag Harabetian",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Cola-pop/",
         "handle": "Cola-pop"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://linkedin.com/in/hrag-harabetian",
         "handle": "Hrag Harabetian"
       }
@@ -727,12 +719,12 @@
     "name": "Juan",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/juanpablob65278",
         "handle": "@juanpablob65278"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/JuanPaBV",
         "handle": "@JuanPaBV"
       }
@@ -760,12 +752,12 @@
     "name": "Tri Dinh",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/tri-dinh/",
         "handle": "Tri Dinh"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/tribaodinh",
         "handle": "tribaodinh"
       }
@@ -793,7 +785,7 @@
     "name": "Oribia",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/OribiaDev/",
         "handle": "OribiaDev"
       }
@@ -821,12 +813,12 @@
     "name": "Josh",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/josh76543210",
         "handle": "@josh76543210"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/josh76543210",
         "handle": "@josh76543210"
       }
@@ -854,12 +846,12 @@
     "name": "Prajwal M Pawar",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/prajpawar23",
         "handle": "@prajpawar23"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/praj-pawar",
         "handle": "@praj-pawar"
       }
@@ -887,12 +879,12 @@
     "name": "Aman Mittal",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/aman-mittal-522a7733/",
         "handle": "aman-mittal-522a7733"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Aman-Mittal",
         "handle": "Aman-Mittal"
       }
@@ -920,12 +912,10 @@
     "name": "Akshat Kumar",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/akshat-kumar-75816b20b/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/KyloRen04",
         "handle": ""
       }
@@ -953,7 +943,7 @@
     "name": "Hardvan",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Hardvan",
         "handle": "@Hardvan"
       }
@@ -981,7 +971,7 @@
     "name": "Yeswanth A",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/yeswanth-annadata-a7601ab2/",
         "handle": "Yeswanth A"
       }
@@ -1009,7 +999,7 @@
     "name": "Ayush Tiwari",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/a60231023",
         "handle": "@a60231023"
       }
@@ -1019,7 +1009,7 @@
       {
         "title": "First Resource",
         "link": "youtube.com/@HiteshChoudharydotcom",
-        "text": "Hitesh Choudhary "
+        "text": "Hitesh Choudhary"
       },
       {
         "title": "Second Resource",
@@ -1037,17 +1027,17 @@
     "name": "Promise Dash",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/promise-dash",
         "handle": "Promise Dash"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/promise-dash-29a9b5249/",
         "handle": "Promise Dash"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/PromiseDash_",
         "handle": "@PromiseDash_"
       }
@@ -1075,7 +1065,7 @@
     "name": "Aditya Naresh",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Aditya-Naresh",
         "handle": "Aditya Naresh"
       }
@@ -1103,22 +1093,22 @@
     "name": "Vento",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Petit_ButterV2",
         "handle": "Petit_ButterV2"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/anthony-m%C3%A9ny-7ba4b6151/",
         "handle": "Anthony M."
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/VentoAureo230",
         "handle": "VentoAureo"
       },
       {
-        "title": "network-wired",
+        "icon": "fab fa-network-wired",
         "link": "https://anthony-meny.com",
         "handle": ""
       }
@@ -1146,22 +1136,18 @@
     "name": "Dhruv Kotwani",
     "contacts": [
       {
-        "title": "",
         "link": "https://fueler.io/druv_kotwani",
-        "handle": "💪Proof Of Work "
+        "handle": "💪Proof Of Work"
       },
       {
-        "title": "",
         "link": "https://github.com/druvkotwani",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://twitter.com/druv_kotwani",
-        "handle": "  "
+        "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/dhruv-kotwani-5b9063202/",
         "handle": ""
       }
@@ -1189,17 +1175,17 @@
     "name": "Shubham Verma",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Stroller15",
         "handle": "Stroller15"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Verma_shubham9",
         "handle": "@Verma_shubham9"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/shubham6351/",
         "handle": "shubham6351"
       }
@@ -1227,7 +1213,7 @@
     "name": "Anita Sahoo",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/anitasahoo2002",
         "handle": "@anitasahoo2002"
       }
@@ -1255,7 +1241,7 @@
     "name": "Khushbu Sinha",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/khushbuSinha29",
         "handle": "khushbuSinha29"
       }
@@ -1283,7 +1269,7 @@
     "name": "Hateryx",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/hateryx",
         "handle": "Hateryx"
       }
@@ -1311,7 +1297,7 @@
     "name": "Ezequiel Bugnon",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/ezequielbugnon",
         "handle": "ezequielbugnon"
       }
@@ -1339,7 +1325,7 @@
     "name": "Sakib I.",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/sSseeth",
         "handle": "sSseeth"
       }
@@ -1367,7 +1353,7 @@
     "name": "Captain Jack",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/CaptainJack2491",
         "handle": "@CaptainJack2491"
       }
@@ -1395,12 +1381,12 @@
     "name": "Sam Walsh",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/smwalsh7502",
         "handle": "smwalsh7502"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/sam-mwalsh/",
         "handle": "Follow me on LinkedIn!"
       }
@@ -1428,14 +1414,12 @@
     "name": "Siew Ling",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/sltan-tansiewling/",
-        "handle": "\n                      \n                  "
+        "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/tansiewling/",
-        "handle": "\n                      \n                  "
+        "handle": ""
       }
     ],
     "about": "Having 11 years of experience in software testing, I am looking forward to career change as a software developer.",
@@ -1461,7 +1445,7 @@
     "name": "Naufal Ghifari",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.instagram.com/nopaallo",
         "handle": "@nopaallo"
       }
@@ -1489,7 +1473,7 @@
     "name": "Daniel F.",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/danielfriskey23",
         "handle": "Daniel"
       }
@@ -1517,7 +1501,7 @@
     "name": "Liv",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/aravezskinteeth",
         "handle": "aravezskinteeth"
       }
@@ -1545,7 +1529,7 @@
     "name": "Miyuki K.",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Miyuki0010",
         "handle": "Miyuki"
       }
@@ -1573,7 +1557,7 @@
     "name": "Luis D Jiménez",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/LuisDJimenez",
         "handle": "@LuisDJimenez"
       }
@@ -1601,22 +1585,18 @@
     "name": "Jonathan G Araya",
     "contacts": [
       {
-        "title": "",
         "link": "https://twitter.com/jonathana1106",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://linkedin.com/in/jonathanguzmanaraya/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/jonathana1106",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://instagram.com/jonathana1106",
         "handle": ""
       }
@@ -1644,7 +1624,7 @@
     "name": "Brylle",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/BrylleMiguel",
         "handle": "@Brylle"
       }
@@ -1672,7 +1652,7 @@
     "name": "Deepak Dadlani",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/deepak-dadlani-015a13211",
         "handle": "Lets connect here."
       }
@@ -1700,7 +1680,7 @@
     "name": "Jasmeen Maradeeya",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/jasmeen-maradeeya",
         "handle": "Jasmeen Maradeeya"
       }
@@ -1728,7 +1708,7 @@
     "name": "Hernan Chavez de \"Argentina\"",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/hernan-chavez/",
         "handle": "Hernan"
       }
@@ -1756,7 +1736,7 @@
     "name": "Avilasa Maji",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/avilasa-maji-98512a253/",
         "handle": "@avilasa-maji"
       }
@@ -1784,7 +1764,7 @@
     "name": "Nico",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/angelofdeity",
         "handle": "Nico💙"
       }
@@ -1804,7 +1784,7 @@
       {
         "title": "Taught by my fav. Teacher Prof. David malan of Harvard😁",
         "link": "https://www.youtube.com/playlist?list=PLhQjrBD2T383f9scHRNYJkior2VvYjpSL",
-        "text": "\n                              CS50's Introduction to Computer Science\n                              2021\n                          "
+        "text": "CS50's Introduction to Computer Science\n                              2021"
       }
     ]
   },
@@ -1812,7 +1792,7 @@
     "name": "Victor Ike",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/victor-ikee/",
         "handle": "@victor-ikee"
       }
@@ -1840,7 +1820,7 @@
     "name": "Tim Nikitin",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/verxckterq",
         "handle": "@verxckterq"
       }
@@ -1868,7 +1848,7 @@
     "name": "Durojaye Olusegun",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/DurojayeOluseg5",
         "handle": "rising_segun"
       }
@@ -1896,7 +1876,7 @@
     "name": "Benhur Stephen",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/ImBenhurStephen",
         "handle": "@ImBenhurStephen"
       }
@@ -1924,7 +1904,7 @@
     "name": "Muhammad Haris Yousaf",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/sleepyhead1998",
         "handle": "@sleepyhead1998"
       }
@@ -1952,7 +1932,7 @@
     "name": "Denise Lewis",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://www.github.com/DeniseLewis1",
         "handle": "DeniseLewis1"
       }
@@ -1980,12 +1960,12 @@
     "name": "Shubhashish Verma",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/svashish305",
         "handle": "svashish305"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://www.github.com/svashish305",
         "handle": "svashish305"
       }
@@ -2013,7 +1993,7 @@
     "name": "Kunal Singh",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/kunal021",
         "handle": "kunal021"
       }
@@ -2041,7 +2021,7 @@
     "name": "Leonard KB",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/leonardkb",
         "handle": "LeonardKB"
       }
@@ -2069,7 +2049,7 @@
     "name": "Luccas Elias",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/chEfInHO0",
         "handle": "chEfInHO0"
       }
@@ -2097,7 +2077,7 @@
     "name": "Anas Niazi",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/anasak-dev",
         "handle": "anasak-dev"
       }
@@ -2125,7 +2105,7 @@
     "name": "Sam X",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/samxanderdev",
         "handle": "@samxanderdev"
       }
@@ -2153,7 +2133,7 @@
     "name": "Ja4V8s28Ck",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Ja4V8s28Ck/",
         "handle": "Ja4V8s28Ck"
       }
@@ -2181,7 +2161,7 @@
     "name": "Kaspitonas",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Kaspitonas",
         "handle": "Kaspitonas"
       }
@@ -2209,12 +2189,10 @@
     "name": "Ashwin M",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.github.com/Ashwin-developer12",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/ashwin-m-393aa7b5/",
         "handle": ""
       }
@@ -2242,7 +2220,7 @@
     "name": "B.Amitesh",
     "contacts": [
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/amitesh.xe",
         "handle": "@amitesh.xe"
       }
@@ -2270,7 +2248,7 @@
     "name": "Nirutt Anstee",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/niruttanstee",
         "handle": "@niruttanstee"
       }
@@ -2298,7 +2276,7 @@
     "name": "Leonid Kuzmenko",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/MyMusicBOX4",
         "handle": "@MyMusicBOX4"
       }
@@ -2326,12 +2304,12 @@
     "name": "Karan Chauhan",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/karan-chauhan-9b3a651b7/",
         "handle": "@Karanchauhan"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Karansingh1153",
         "handle": "@Karansingh1153"
       }
@@ -2359,12 +2337,10 @@
     "name": "HackNetAyush H",
     "contacts": [
       {
-        "title": "",
         "link": "https://instagram.com/hacknetayush",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/hacknetayush",
         "handle": ""
       }
@@ -2384,7 +2360,7 @@
       {
         "title": "Third resource",
         "link": "https://idev7.hacknetayush.repl.co/",
-        "text": "\n                              PyIDE (Developed by\n                              me 😅)\n                          "
+        "text": "PyIDE (Developed by\n                              me 😅)"
       }
     ]
   },
@@ -2392,17 +2368,14 @@
     "name": "Kaustubh Deokar",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/kaustubhdeokar/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/kaustubhdeokar",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://kaustubhdeokar.github.io/myblog/",
         "handle": "Blog"
       }
@@ -2430,17 +2403,14 @@
     "name": "Marcin Suski",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/marcin-suski/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/marcinsuski",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://twitter.com/0x_MarcinSuski",
         "handle": ""
       }
@@ -2468,7 +2438,7 @@
     "name": "Av0idD4rk",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Av0idD4rk",
         "handle": "Av0idD4rk"
       }
@@ -2496,7 +2466,7 @@
     "name": "Na",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/zhna123",
         "handle": "Na"
       }
@@ -2524,7 +2494,7 @@
     "name": "ACosmicWolf",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/ACosmicWolf",
         "handle": "ACosmicWolf"
       }
@@ -2552,7 +2522,7 @@
     "name": "Rohit Sinha",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Azathoth-11",
         "handle": "Azathoth-11"
       }
@@ -2580,7 +2550,7 @@
     "name": "Ajay Deshmukh",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/stlajay",
         "handle": "stlajay"
       }
@@ -2608,7 +2578,7 @@
     "name": "$ony",
     "contacts": [
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.twitter.com/sonyerg",
         "handle": "sonyerg"
       }
@@ -2618,7 +2588,7 @@
       {
         "title": "First Resource",
         "link": "https://www.youtube.com/@JohanJurrius",
-        "text": "\n                              JohanJurrius's\n                              YouTube\n                          "
+        "text": "JohanJurrius's\n                              YouTube"
       },
       {
         "title": "Second Resource",
@@ -2636,7 +2606,7 @@
     "name": "Aryan",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/aryandhasmana3",
         "handle": "@aryandhasmana3"
       }
@@ -2664,7 +2634,7 @@
     "name": "Arsalan Malik",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/arsalan-malik-746913237/",
         "handle": "Arsalan Malik"
       }
@@ -2679,7 +2649,7 @@
       {
         "title": "Second Resource",
         "link": "https://www.youtube.com/@KunalKushwaha",
-        "text": "\n                              Kunal\n                              Kushwaha\n                          "
+        "text": "Kunal\n                              Kushwaha"
       },
       {
         "title": "Third Resource",
@@ -2692,7 +2662,7 @@
     "name": "Mohammad Haaris Javed",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/haaris272k",
         "handle": "haaris272k"
       }
@@ -2720,7 +2690,7 @@
     "name": "lamprey",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/lampreey",
         "handle": "lampreey"
       }
@@ -2748,7 +2718,7 @@
     "name": "DARSHAN",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Darshan88412179",
         "handle": "Darshan Hegde"
       }
@@ -2776,7 +2746,7 @@
     "name": "Liew Chooi Chin",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/liewchooichin",
         "handle": "liewchooichin"
       }
@@ -2804,7 +2774,7 @@
     "name": "Arslaan Shakeel",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/arslaan_shakeel",
         "handle": "arslaan_shakeel"
       }
@@ -2832,7 +2802,7 @@
     "name": "Riccardo Boe",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/riccardoboe1",
         "handle": "riccardoboe1"
       }
@@ -2860,14 +2830,12 @@
     "name": "Sanu Kumar",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/signaturecoder",
-        "handle": " Signaturecoder"
+        "handle": "Signaturecoder"
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/sanu-kumar-signaturecoder/",
-        "handle": " Sanu Kumar"
+        "handle": "Sanu Kumar"
       }
     ],
     "about": "Hey! I am a Software Engineer working as a Frontend Developer. I am looking forward to more contributions in open source projects.",
@@ -2893,12 +2861,10 @@
     "name": "Joel Jaison",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/JoelJaison394",
-        "handle": " "
+        "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/joeljaison391",
         "handle": ""
       }
@@ -2926,7 +2892,7 @@
     "name": "snesCloud",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/cloudocity0815",
         "handle": "cloudocity0815"
       }
@@ -2954,7 +2920,7 @@
     "name": "Tomato Wilbur Yap",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://www.github.com/minegrass",
         "handle": "Github"
       }
@@ -2982,7 +2948,7 @@
     "name": "Andy",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/AndreySky12?t=e4f57nPS6tcJSWZfiKASkA&s=35",
         "handle": "@AndreySky12"
       }
@@ -3010,7 +2976,7 @@
     "name": "Bruno Banoczi-Csernak",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/l4r4TW",
         "handle": "l4r4TW"
       }
@@ -3038,7 +3004,7 @@
     "name": "Venkatesh k",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Kandi-Venkatesh99",
         "handle": "Venkatesh"
       }
@@ -3066,7 +3032,7 @@
     "name": "Sid",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/sid_002",
         "handle": "sid_002"
       }
@@ -3094,19 +3060,16 @@
     "name": "Mukul Padwal",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/mukulpadwal",
-        "handle": " mukulpadwal"
+        "handle": "mukulpadwal"
       },
       {
-        "title": "",
         "link": "https://www.twitter.com/padwalmukul",
-        "handle": " Mukul Padwal"
+        "handle": "Mukul Padwal"
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/mukulpadwal",
-        "handle": " Mukul Padwal"
+        "handle": "Mukul Padwal"
       }
     ],
     "about": "Hi, I am Mukul Padwal. Full Developer with a passion for open source. Seeking new opportunities to learn and grow.",
@@ -3132,7 +3095,6 @@
     "name": "Puneeth Kumar",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/PuneethK9",
         "handle": "PuneethK9"
       }
@@ -3160,7 +3122,6 @@
     "name": "Jeffrey Fazal",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/Jeffrey-Fazal",
         "handle": ""
       }
@@ -3188,7 +3149,6 @@
     "name": "Azeem N",
     "contacts": [
       {
-        "title": "",
         "link": "https://github.com/CoderZ865",
         "handle": ""
       }
@@ -3216,12 +3176,10 @@
     "name": "Rudrabikram Roy",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.github.com/r9o1y24",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.instagram.com/awanderinghuman?hl=en",
         "handle": ""
       }
@@ -3249,7 +3207,7 @@
     "name": "Idil Dirie",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Iadee",
         "handle": "Iadee"
       }
@@ -3277,7 +3235,7 @@
     "name": "Gabriela",
     "contacts": [
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/gabriela.proszowska/",
         "handle": "@gabriela.proszowska"
       }
@@ -3305,7 +3263,7 @@
     "name": "Khaled Ys",
     "contacts": [
       {
-        "title": "instagram",
+        "icon": "fab fa-instagram",
         "link": "https://www.instagram.com/lazybazt7.10",
         "handle": "@lazybazt7.10"
       }
@@ -3333,17 +3291,14 @@
     "name": "Talha Mehar | @talhamehar007",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.twitter.com/talhamehar007",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.github.com/talhamehar007",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/talhamehar007/",
         "handle": ""
       }
@@ -3358,7 +3313,7 @@
       {
         "title": "Second Resource",
         "link": "https://talhamehar.hashnode.dev/",
-        "text": "\n                              My Linux Blog on HashNode\n                          "
+        "text": "My Linux Blog on HashNode"
       },
       {
         "title": "Third resource",
@@ -3371,17 +3326,14 @@
     "name": "César Lezama",
     "contacts": [
       {
-        "title": "",
         "link": "https://twitter.com/Cesarlopez335",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://www.instagram.com/cesarele23/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/EmilCes",
         "handle": ""
       }
@@ -3391,12 +3343,12 @@
       {
         "title": "JavaScript knowledge map",
         "link": "https://t.co/QKrPNdLx9g",
-        "text": "\n                              JavaScript knowledge map\n                          "
+        "text": "JavaScript knowledge map"
       },
       {
         "title": "Latin Coder",
         "link": "https://www.youtube.com/@latincoder",
-        "text": "\n                              YouTube(@latincoder)\n                          "
+        "text": "YouTube(@latincoder)"
       },
       {
         "title": "midudev",
@@ -3409,17 +3361,14 @@
     "name": "Peter Mbogo Mbui",
     "contacts": [
       {
-        "title": "",
         "link": "https://twitter.com/mbogotech?s=20",
         "handle": ""
       },
       {
-        "title": "",
         "link": "www.linkedin.com/in/mbuipeter",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/mbuimbogo",
         "handle": ""
       }
@@ -3447,12 +3396,10 @@
     "name": "Purva Gharat",
     "contacts": [
       {
-        "title": "",
         "link": "https://www.linkedin.com/in/purvagharat/",
         "handle": ""
       },
       {
-        "title": "",
         "link": "https://github.com/purva-g",
         "handle": ""
       }
@@ -3462,17 +3409,17 @@
       {
         "title": "First Resource",
         "link": "https://www.geeksforgeeks.org/html/?ref=ghm",
-        "text": "\n                              GeeksForGeeks\n                          "
+        "text": "GeeksForGeeks"
       },
       {
         "title": "Second Resource",
         "link": "https://www.javatpoint.com/html-tutorial",
-        "text": "\n                              javaTpoint\n                          "
+        "text": "javaTpoint"
       },
       {
         "title": "Third resource",
         "link": "https://www.tutorialspoint.com/html/index.htm",
-        "text": "\n                              TutorialsPoint\n                          "
+        "text": "TutorialsPoint"
       }
     ]
   },
@@ -3480,7 +3427,7 @@
     "name": "Rohit Sinha",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Azathoth-11",
         "handle": "Azathoth-11"
       }
@@ -3508,7 +3455,7 @@
     "name": "Kapil",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/KAPIL9027",
         "handle": "GitHub"
       }
@@ -3536,7 +3483,7 @@
     "name": "Ramy Mohamed",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://github.com/",
         "handle": "@theKidCelo"
       }
@@ -3564,7 +3511,7 @@
     "name": "Komal",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Komal73",
         "handle": "@Komal73"
       }
@@ -3592,7 +3539,7 @@
     "name": "jDaowy",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/jDaowy",
         "handle": "jDaowy"
       }

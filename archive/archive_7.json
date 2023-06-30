@@ -3,9 +3,9 @@
     "name": "Scruffy Scruffington",
     "contacts": [
       {
-        "title": "youtube",
+        "icon": "fab fa-youtube",
         "link": "https://www.youtube.com/channel/UCvqshXeG5ptCxXZ9pQdH2IA?view_as=public",
-        "handle": "\n            Scruffy\n          "
+        "handle": "Scruffy"
       }
     ],
     "about": "Hoping to start contributing to open source and make a career in web and software development.",
@@ -13,17 +13,17 @@
       {
         "title": "Very useful tool for complicated code that lets you visualize how your variables change",
         "link": "http://pythontutor.com/",
-        "text": "\n                pythontutor.com - code visualization\n              "
+        "text": "pythontutor.com - code visualization"
       },
       {
         "title": "Platform with lots of high quality computer science courses",
         "link": "https://www.edx.org/",
-        "text": "\n                edx.org - free online courses\n              "
+        "text": "edx.org - free online courses"
       },
       {
         "title": "Site where you can solve lots of programming problems and compare your solutions with others",
         "link": "https://www.codewars.com",
-        "text": "\n                codewars.com - lots of coding problems\n              "
+        "text": "codewars.com - lots of coding problems"
       }
     ]
   },
@@ -31,7 +31,7 @@
     "name": "gipsi",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/gipsitana",
         "handle": "@gipsitana"
       }
@@ -41,17 +41,17 @@
       {
         "title": "This is a link to my favourite browser - Firefox Nightly",
         "link": "https://www.mozilla.org/en-US/firefox/channel/desktop/",
-        "text": "\n                Firefox Nightly\n              "
+        "text": "Firefox Nightly"
       },
       {
         "title": "This is another link to web development tool I use a lot - Notepad++",
         "link": "https://notepad-plus-plus.org/",
-        "text": "\n                Notepad++\n              "
+        "text": "Notepad++"
       },
       {
         "title": "The third link to something useful for developers - paint.net",
         "link": "https://www.getpaint.net/features.html",
-        "text": "\n                paint.net\n              "
+        "text": "paint.net"
       }
     ]
   },
@@ -59,7 +59,7 @@
     "name": "José Torreblanca",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/josewhitetower",
         "handle": "@josewhitetower"
       }
@@ -69,17 +69,17 @@
       {
         "title": "Learn everything you need to become a Front End Developer for FREE",
         "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg",
-        "text": "\n                The Net Ninja Youtube Channel\n              "
+        "text": "The Net Ninja Youtube Channel"
       },
       {
         "title": "Get tricks and code snippets of JavaScript and CSS",
         "link": "https://css-tricks.com/",
-        "text": "\n                CSS-Tricks\n              "
+        "text": "CSS-Tricks"
       },
       {
         "title": "Get trending topics and discussions about development",
         "link": "https://dev.to/",
-        "text": "\n                The DEV Community\n              "
+        "text": "The DEV Community"
       }
     ]
   },
@@ -87,7 +87,7 @@
     "name": "Cheryl Velez",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/onegrumpybunny",
         "handle": "@onegrumpybunny"
       }
@@ -97,17 +97,17 @@
       {
         "title": "CSS Animations for Beginners",
         "link": "https://robots.thoughtbot.com/css-animation-for-beginners",
-        "text": "\n                CSS Animations for Beginners\n              "
+        "text": "CSS Animations for Beginners"
       },
       {
         "title": "High-quality royalty-free images",
         "link": "https://unsplash.com/",
-        "text": "\n                Unsplash - High-Quality Royalty Free Photos\n              "
+        "text": "Unsplash - High-Quality Royalty Free Photos"
       },
       {
         "title": "50 Amazing jQuery plugins that you should start using right now",
         "link": "https://tutorialzine.com/2013/04/50-amazing-jquery-plugins",
-        "text": "\n                50 Amazing jQuery Plugins That You Should Start Using Right Now\n              "
+        "text": "50 Amazing jQuery Plugins That You Should Start Using Right Now"
       }
     ]
   },
@@ -115,7 +115,7 @@
     "name": "NoHaxz2Win",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/NoHaxz2Win",
         "handle": "@NoHaxz2Win"
       }
@@ -130,7 +130,7 @@
       {
         "title": "Firefox Quantum: Developer Edition",
         "link": "https://www.mozilla.org/en-US/firefox/developer/",
-        "text": "\n                Firefox Quantum: Developer Edition\n              "
+        "text": "Firefox Quantum: Developer Edition"
       },
       {
         "title": "v3rmillion",
@@ -143,7 +143,7 @@
     "name": "Paula Cardoso",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/PaulaCardoso",
         "handle": "@PaulaCardoso"
       }
@@ -153,17 +153,17 @@
       {
         "title": "Build next generation web experiences. ",
         "link": "https://developers.google.com/web/",
-        "text": "\n                Google Developers\n              "
+        "text": "Google Developers"
       },
       {
         "title": "100+ Awesome Web Development Tools and Resources",
         "link": "https://www.keycdn.com/blog/web-development-tools/",
-        "text": "\n                Web dev Tools\n              "
+        "text": "Web dev Tools"
       },
       {
         "title": "Learn javascript trought everyday challenges",
         "link": "https://www.codewars.com/",
-        "text": "\n                Codewars\n              "
+        "text": "Codewars"
       }
     ]
   },
@@ -171,7 +171,7 @@
     "name": "Zien Alhaoushe",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/alhaoushe_zien?lang=en",
         "handle": "@alhaoushe_zien"
       }
@@ -181,12 +181,12 @@
       {
         "title": "Free Code Camp",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                Free Code Camp\n              "
+        "text": "Free Code Camp"
       },
       {
         "title": "Al-Zero web school",
         "link": "https://www.youtube.com/user/OsamaElzero/playlists?pbjreload=10",
-        "text": "\n                Al-Zero web school\n              "
+        "text": "Al-Zero web school"
       },
       {
         "title": "w3Schools",
@@ -199,7 +199,7 @@
     "name": "Enas Samir",
     "contacts": [
       {
-        "title": "envelope-o",
+        "icon": "fab fa-envelope-o",
         "link": "YOUR twitter account link",
         "handle": "inass.helmy@gmail.com"
       }
@@ -209,17 +209,17 @@
       {
         "title": "This is a link to an awesome resource",
         "link": "https://www.freecodecamp.org/",
-        "text": "\n                Free Code Camp\n              "
+        "text": "Free Code Camp"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://www.codecademy.com/",
-        "text": "\n                Code Academy\n              "
+        "text": "Code Academy"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview",
-        "text": "\n                The web developer bootcamp by Udemy\n              "
+        "text": "The web developer bootcamp by Udemy"
       }
     ]
   },
@@ -227,7 +227,7 @@
     "name": "Panagiotis Skarlas",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/qktweets",
         "handle": "@qktweets"
       }
@@ -237,17 +237,17 @@
       {
         "title": "100 Days Of Code",
         "link": "http://100daysofcode.com/",
-        "text": "\n                #100DaysOfCode\n              "
+        "text": "#100DaysOfCode"
       },
       {
         "title": "You don't know JavaScript on github",
         "link": "https://github.com/getify/You-Dont-Know-JS",
-        "text": "\n                You Don't Know JavaScript on Github.\n              "
+        "text": "You Don't Know JavaScript on Github."
       },
       {
         "title": "javascript30",
         "link": "https://javascript30.com",
-        "text": "\n                Build 30 things in 30 days with JavaScript30\n              "
+        "text": "Build 30 things in 30 days with JavaScript30"
       }
     ]
   },
@@ -255,7 +255,7 @@
     "name": "Josep",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/JosepLpez92",
         "handle": "@JosepLpez92"
       }
@@ -265,12 +265,12 @@
       {
         "title": "Traversy Media",
         "link": "https://www.youtube.com/user/TechGuyWeb",
-        "text": "\n                Brad Traversy\n                \n                Channel\n              "
+        "text": "Brad Traversy\n                \n                Channel"
       },
       {
         "title": "Freecodecamp",
         "link": "https://www.freecodecamp.org/",
-        "text": "\n                \n                FreeCodeCamp\n              "
+        "text": "FreeCodeCamp"
       },
       {
         "title": "Wes Bos",
@@ -283,7 +283,7 @@
     "name": "Valeria Nicoleta",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/valnicky?lang=es",
         "handle": "@valnicky"
       }
@@ -293,17 +293,17 @@
       {
         "title": "This is a link to an awesome resource",
         "link": "https://codepen.io/valnicky/",
-        "text": "\n                Code Pen\n              "
+        "text": "Code Pen"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://www.valeriacreativedesign.com/",
-        "text": "\n                My website\n              "
+        "text": "My website"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "http://webphotography.weebly.com/",
-        "text": "\n                Another website\n              "
+        "text": "Another website"
       }
     ]
   },
@@ -311,7 +311,7 @@
     "name": "Iris Riddell",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Rissadelli",
         "handle": "@rissadelli"
       }
@@ -326,12 +326,12 @@
       {
         "title": "Fun Hogwarts exercise",
         "link": "https://medium.com/frontendshortcut/make-hogwarts-admission-form-in-html-and-css-1cdc21165997",
-        "text": "\n                Make an online Hogwarts signup form!\n              "
+        "text": "Make an online Hogwarts signup form!"
       },
       {
         "title": "Codecademy",
         "link": "https://www.youtube.com/channel/UC5CMtpogD_P3mOoeiDHD5eQ",
-        "text": "\n                Codecademy on YouTube\n              "
+        "text": "Codecademy on YouTube"
       }
     ]
   },
@@ -339,7 +339,7 @@
     "name": "Eugenio Pilastro Luca",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Eu_P_L",
         "handle": "@Eu_P_L"
       }
@@ -349,12 +349,12 @@
       {
         "title": "The place to learn coding",
         "link": "https://www.udacity.com/",
-        "text": "\n                Udacity ❤\n              "
+        "text": "Udacity ❤"
       },
       {
         "title": "Optimize your website",
         "link": "https://developers.google.com/speed/pagespeed/insights/",
-        "text": "\n                PageSpeed Insights\n              "
+        "text": "PageSpeed Insights"
       },
       {
         "title": "Automate your workflow",
@@ -367,7 +367,7 @@
     "name": "Judit Csizmadiáné Pacsai",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/jpacsai",
         "handle": "@jpacsai"
       }
@@ -377,17 +377,17 @@
       {
         "title": "JavaScript course",
         "link": "https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md#tier-0---prep",
-        "text": "\n                Get Job Ready - JavaScript Edition v2.0\n              "
+        "text": "Get Job Ready - JavaScript Edition v2.0"
       },
       {
         "title": "CSS Animation video course",
         "link": "https://www.youtube.com/watch?v=jgw82b5Y2MU&list=PL4cUxeGkcC9iGYgmEd2dm3zAKzyCGDtM5",
-        "text": "\n                The Net Ninja - CSS Animations\n              "
+        "text": "The Net Ninja - CSS Animations"
       },
       {
         "title": "IT book collection",
         "link": "http://www.allitebooks.com/",
-        "text": "\n                All IT book collection\n              "
+        "text": "All IT book collection"
       }
     ]
   },
@@ -395,7 +395,7 @@
     "name": "Aleksandra",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/aleksandrachmurka",
         "handle": "@aleksandrachmurka"
       }
@@ -405,17 +405,17 @@
       {
         "title": "This is a link to an awesome resource",
         "link": "https://www.codecademy.com/",
-        "text": "\n                Best place to start and fell in love with coding\n              "
+        "text": "Best place to start and fell in love with coding"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                Consistent path to learn web development\n              "
+        "text": "Consistent path to learn web development"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "https://www.gitbook.com/book/djangogirls/djangogirls-tutorial/details",
-        "text": "\n                Create and deploy your blog!\n              "
+        "text": "Create and deploy your blog!"
       }
     ]
   },
@@ -423,7 +423,7 @@
     "name": "Aashis",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/jeevan_nep",
         "handle": "@jeevan_nep"
       }
@@ -433,17 +433,17 @@
       {
         "title": "javascript frameworks",
         "link": "https://medium.com/@samerbuna/which-javascript-frameworks-should-you-learn-in-2018-ecea9a27617d",
-        "text": "\n                Which JavaScript frameworks should you learn in 2018?\n              "
+        "text": "Which JavaScript frameworks should you learn in 2018?"
       },
       {
         "title": "react",
         "link": "https://medium.freecodecamp.org/beginners-guide-to-react-router-4-8959ceb3ad58",
-        "text": "\n                Beginner’s Guide to React Router 4\n              "
+        "text": "Beginner’s Guide to React Router 4"
       },
       {
         "title": "coursera",
         "link": "https://www.coursera.org/",
-        "text": "\n                Learn from Coursera\n              "
+        "text": "Learn from Coursera"
       }
     ]
   },
@@ -451,7 +451,7 @@
     "name": "Anwana Ntofon",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/antofonjr",
         "handle": "@antofonjr"
       }
@@ -461,17 +461,17 @@
       {
         "title": "This is a link to a resource about the Material Design system",
         "link": "https://material.io/",
-        "text": "\n                Material Design\n              "
+        "text": "Material Design"
       },
       {
         "title": "This is another link to a YouTube channel about comprehensive web development videos",
         "link": "https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/featured",
-        "text": "\n                The Net Ninja YouTube Channel\n              "
+        "text": "The Net Ninja YouTube Channel"
       },
       {
         "title": "The third link to a success story for any developer who could use some inspiration",
         "link": "https://forum.freecodecamp.org/t/thanks-fcc-i-got-my-first-job-as-a-front-end-developer/151032",
-        "text": "\n                Success story on freeCodeCamp Forum page\n              "
+        "text": "Success story on freeCodeCamp Forum page"
       }
     ]
   },
@@ -479,7 +479,7 @@
     "name": "Jarrod",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/jarrodyellets",
         "handle": "@jarrodyellets"
       }
@@ -489,17 +489,17 @@
       {
         "title": "This is a link to an awesome resource",
         "link": "https://freecodecamp.org",
-        "text": "\n                freeCodeCamp...amazing resource for all of your coding needs.\n              "
+        "text": "freeCodeCamp...amazing resource for all of your coding needs."
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://geddski.teachable.com/p/flexbox-zombies",
-        "text": "\n                Master CSS Flexbox with Flexbox Zombies\n              "
+        "text": "Master CSS Flexbox with Flexbox Zombies"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "https://blog.kentcdodds.com/learn-react-fundamentals-and-advanced-patterns-eac90341c9db",
-        "text": "\n                Learn React for free!\n              "
+        "text": "Learn React for free!"
       }
     ]
   },
@@ -507,7 +507,7 @@
     "name": "Chris Zintzovas",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/ChristosZin",
         "handle": "@ChristosZin"
       }
@@ -517,17 +517,17 @@
       {
         "title": "Usefull tutorial for HTML",
         "link": "https://www.w3schools.com/html/",
-        "text": "\n                w3schools\n              "
+        "text": "w3schools"
       },
       {
         "title": "Documentation for jQuery",
         "link": "https://api.jquery.com/",
-        "text": "\n                jquery Documentation\n              "
+        "text": "jquery Documentation"
       },
       {
         "title": "Nice article",
         "link": "https://hackernoon.com/learn-to-code-in-2018-get-hired-and-have-fun-along-the-way-b338247eed6a",
-        "text": "\n                learn-to-code-in-2018\n              "
+        "text": "learn-to-code-in-2018"
       }
     ]
   },
@@ -535,7 +535,7 @@
     "name": "Melinda",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/MelsMel2",
         "handle": "@MelsMel2"
       }
@@ -545,17 +545,17 @@
       {
         "title": "Mega HTML 5 cheat sheet",
         "link": "https://medium.com/level-up-web/the-mega-html5-cheatsheet-e8c479b1c521",
-        "text": "\n                Mega HTML 5 cheat sheet\n              "
+        "text": "Mega HTML 5 cheat sheet"
       },
       {
         "title": "All what you need to become a full stack web developer",
         "link": "https://github.com/bmorelli25/Become-A-Full-Stack-Web-Developer/",
-        "text": "\n                All what you need to become a full stack web developer\n              "
+        "text": "All what you need to become a full stack web developer"
       },
       {
         "title": "Inspiring story,how to become a developer without a fancy degree",
         "link": "https://medium.freecodecamp.org/my-journey-to-becoming-a-web-developer-from-scratch-without-a-cs-degree-2-years-later-and-what-i-4a7fd2ff5503",
-        "text": "\n                Inspiring story,how to become a developer without a fancy degree\n              "
+        "text": "Inspiring story,how to become a developer without a fancy degree"
       }
     ]
   },
@@ -563,7 +563,7 @@
     "name": "Dimitra Karamperi",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/dimitra_k",
         "handle": "@dimitra_k"
       }
@@ -573,17 +573,17 @@
       {
         "title": "This is an awesome resource",
         "link": "https://freecodecamp.org",
-        "text": "\n                freeCodeCamp\n              "
+        "text": "freeCodeCamp"
       },
       {
         "title": "CodeSkulptor runs Python 3 programs step-by-step in your browser. Very useful!",
         "link": "http://py3.codeskulptor.org/",
-        "text": "\n                CodeSkulptor\n              "
+        "text": "CodeSkulptor"
       },
       {
         "title": "Learn to code awesome websites in HTML, CSS, and JavaScript",
         "link": "https://dash.generalassemb.ly/",
-        "text": "\n                Dash\n              "
+        "text": "Dash"
       }
     ]
   },
@@ -591,7 +591,7 @@
     "name": "Maria Mich",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/MariaMich98?lang=en",
         "handle": "@MariaMich98"
       }
@@ -601,17 +601,17 @@
       {
         "title": "For Game Development with C++",
         "link": "https://unity3d.com/learn",
-        "text": "\n                For Game Development with C++\n              "
+        "text": "For Game Development with C++"
       },
       {
         "title": "A good app/website to learn for begginers",
         "link": "https://www.sololearn.com/",
-        "text": "\n                A good app/website to learn for begginers\n              "
+        "text": "A good app/website to learn for begginers"
       },
       {
         "title": "For learning code the hard way!",
         "link": "https://learncodethehardway.org/",
-        "text": "\n                For learning code the hard way!\n              "
+        "text": "For learning code the hard way!"
       }
     ]
   },
@@ -619,7 +619,7 @@
     "name": "Andreas Vasilatos",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/an_drew84?lang=en",
         "handle": "@an_drew84"
       }
@@ -629,17 +629,17 @@
       {
         "title": "This is a link to an awesome resource",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                MDN web docs\n              "
+        "text": "MDN web docs"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://codepen.io/",
-        "text": "\n                Codepen\n              "
+        "text": "Codepen"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "https://stackoverflow.com/",
-        "text": "\n                Stack Overflow\n              "
+        "text": "Stack Overflow"
       }
     ]
   },
@@ -647,7 +647,7 @@
     "name": "Daniella Mato",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/daniella_mato",
         "handle": "@daniella_mato"
       }
@@ -657,17 +657,17 @@
       {
         "title": "Nothing beats Documentation",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                MDN Web Docs\n              "
+        "text": "MDN Web Docs"
       },
       {
         "title": "Thorough tutorials on almost every dev topic",
         "link": "https://www.tutorialspoint.com/index.htm",
-        "text": "\n                Resource for thorough tutorials on any dev topic out there\n              "
+        "text": "Resource for thorough tutorials on any dev topic out there"
       },
       {
         "title": "A tutorial haven",
         "link": "https://scotch.io/tutorials",
-        "text": "\n                A tutorial haven, and who knows? Someday you might write for them.\n              "
+        "text": "A tutorial haven, and who knows? Someday you might write for them."
       }
     ]
   },
@@ -675,7 +675,7 @@
     "name": "McDaniels Okoro",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "http://www.twitter.com/acodeaholic",
         "handle": "@acodeaholic"
       }
@@ -685,17 +685,17 @@
       {
         "title": "Become a Fullstack developer",
         "link": "https://learn.fullstackacademy.com",
-        "text": "\n                Become a Millionaire with Fullstack Academy\n              "
+        "text": "Become a Millionaire with Fullstack Academy"
       },
       {
         "title": "Learn to become a better developer",
         "link": "https://classroom.udacity.com",
-        "text": "\n                Be Yourself in Udacity Classroom\n              "
+        "text": "Be Yourself in Udacity Classroom"
       },
       {
         "title": "Contribute to any open source project",
         "link": "https://github.com",
-        "text": "\n                Open Source with GitHub\n              "
+        "text": "Open Source with GitHub"
       }
     ]
   },
@@ -703,7 +703,7 @@
     "name": "Nate Jonah",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/natejonah",
         "handle": "@natejonah"
       }
@@ -713,17 +713,17 @@
       {
         "title": "Become a JavaScript ninja with this excellent book!",
         "link": "http://eloquentjavascript.net/",
-        "text": "\n                Eloquent JavaScript\n              "
+        "text": "Eloquent JavaScript"
       },
       {
         "title": "Everything you need to know about HTML5!",
         "link": "http://html5doctor.com/",
-        "text": "\n                HTML5 Doctor\n              "
+        "text": "HTML5 Doctor"
       },
       {
         "title": "A podcast for code newbies!",
         "link": "https://www.codenewbie.org/",
-        "text": "\n                CodeNewbie\n              "
+        "text": "CodeNewbie"
       }
     ]
   },
@@ -731,7 +731,7 @@
     "name": "Dave Brener",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "http://www.twitter.com/davebrener",
         "handle": "@davebrener"
       }
@@ -741,17 +741,17 @@
       {
         "title": "Learn CSS Grid",
         "link": "https://gridbyexample.com/examples/",
-        "text": "\n                Awesome resource for CSS Grid Layout\n              "
+        "text": "Awesome resource for CSS Grid Layout"
       },
       {
         "title": "Introduction to Pinegrow Web Editor",
         "link": "https://pinegrow.com/",
-        "text": "\n                Pinegrow Web Editor\n              "
+        "text": "Pinegrow Web Editor"
       },
       {
         "title": "Wes Bos in the house",
         "link": "http://wesbos.com/",
-        "text": "\n                Wes Bos shows you how to do Web things!\n              "
+        "text": "Wes Bos shows you how to do Web things!"
       }
     ]
   },
@@ -759,7 +759,7 @@
     "name": "Ania Mierzwinska",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/vilanelle/",
         "handle": "@vilanelle"
       }
@@ -769,17 +769,17 @@
       {
         "title": "FreeCodeCamp",
         "link": "https://www.freecodecamp.org/",
-        "text": "\n                The one and only bootcamp FreeCodeCamp\n              "
+        "text": "The one and only bootcamp FreeCodeCamp"
       },
       {
         "title": "CS50",
         "link": "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
-        "text": "\n                The amazing David Malan's CS50\n              "
+        "text": "The amazing David Malan's CS50"
       },
       {
         "title": "CodeWars",
         "link": "https://www.codewars.com/",
-        "text": "\n                The fantastic CodeWars\n              "
+        "text": "The fantastic CodeWars"
       }
     ]
   },
@@ -787,7 +787,7 @@
     "name": "Asha",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/ashaaweb",
         "handle": "@ashaaweb"
       }
@@ -797,12 +797,12 @@
       {
         "title": "100DaysOfCode",
         "link": "https://medium.freecodecamp.org/join-the-100daysofcode-556ddb4579e4",
-        "text": "\n                Join #100daysofcode\n              "
+        "text": "Join #100daysofcode"
       },
       {
         "title": "Thinklikeprogrammer",
         "link": "https://medium.freecodecamp.org/how-to-think-like-a-programmer-3ae955d414cd",
-        "text": "\n                How to think like a Programmer\n              "
+        "text": "How to think like a Programmer"
       },
       {
         "title": "JS30",
@@ -815,7 +815,7 @@
     "name": "Veronika T",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/ver_kat",
         "handle": "@ver_kat"
       }
@@ -825,17 +825,17 @@
       {
         "title": "Courses by Asim Hussain",
         "link": "https://codecraft.tv/courses/",
-        "text": "\n                Angular and JavaScript Courses\n              "
+        "text": "Angular and JavaScript Courses"
       },
       {
         "title": "Non-Dithering Colors by Hue at Lynda.com",
         "link": "http://www.lynda.com/resources/hexpalette/hue.html",
-        "text": "\n                Non-Dithering Colors by Hue\n              "
+        "text": "Non-Dithering Colors by Hue"
       },
       {
         "title": "Video of Jeremy Foster talking about VSCode",
         "link": "https://channel9.msdn.com/Events/DEVintersection/DEVintersection-2017-Las-Vegas/GB008",
-        "text": "\n                Using VS Code Like a Boss!\n              "
+        "text": "Using VS Code Like a Boss!"
       }
     ]
   },
@@ -843,19 +843,19 @@
     "name": "Bhavik Joshi",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/theBhavikJoshi",
         "handle": "@theBhavikJoshi"
       },
       {
-        "title": "codepen",
+        "icon": "fab fa-codepen",
         "link": "https://codepen.io/theBhavikJoshi/",
-        "handle": "\n            Bhavik Joshi on Codepen\n          "
+        "handle": "Bhavik Joshi on Codepen"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/theBhavikJoshi/",
-        "handle": "\n            Bhavik Joshi on Github\n          "
+        "handle": "Bhavik Joshi on Github"
       }
     ],
     "about": "I'm Bhavik Joshi, A Full Stack Web Developer from India. I love everything that has to do with Web\n          Development, be it developing responsive front end websites or writing efficient code for the back end logic\n          of a website/web app.",
@@ -863,17 +863,17 @@
       {
         "title": "Wes Bos, the guy who makes awesome Web Dev Tutorials.",
         "link": "http://wesbos.com/",
-        "text": "\n                Wes Bos\n              "
+        "text": "Wes Bos"
       },
       {
         "title": "Good Website to select a Gradient",
         "link": "https://uigradients.com/",
-        "text": "\n                UI Gradients\n              "
+        "text": "UI Gradients"
       },
       {
         "title": "Heroku! A great way to deploy your apps!",
         "link": "http://heroku.com",
-        "text": "\n                Heroku\n              "
+        "text": "Heroku"
       }
     ]
   },
@@ -881,14 +881,14 @@
     "name": "Eduardo Ramirez",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/edramir18",
         "handle": "@edramir18"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/edramir18",
-        "handle": "\n            edramir18 on Github\n          "
+        "handle": "edramir18 on Github"
       }
     ],
     "about": "Self-teaching person, i enjoy to code and learning something new every day. I love watch movies and anime,\n          sometimes i watch korean dramas with my wife. Right now on the journey of the challenge #100DaysofCode for\n          first time.",
@@ -896,17 +896,17 @@
       {
         "title": "Learn Enough Git to Be Dangerous",
         "link": "https://www.learnenough.com/git-tutorial",
-        "text": "\n                Git Tutorial\n              "
+        "text": "Git Tutorial"
       },
       {
         "title": "Awesome resource to learn linux command line",
         "link": "https://explainshell.com/",
-        "text": "\n                Explain Shell\n              "
+        "text": "Explain Shell"
       },
       {
         "title": "Excellent source to learn CSS",
         "link": "https://css-tricks.com",
-        "text": "\n                CSS-Tricks\n              "
+        "text": "CSS-Tricks"
       }
     ]
   },
@@ -914,7 +914,7 @@
     "name": "Ada Nduka Oyom",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "www.twitter.com/kolokodess",
         "handle": "@kolokodess"
       }
@@ -942,7 +942,7 @@
     "name": "Mauro Bono",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/UpTheIrons1978",
         "handle": "@UpTheIrons1978"
       }
@@ -952,17 +952,17 @@
       {
         "title": "FreeCodeCamp",
         "link": "https://www.freecodecamp.org/",
-        "text": "\n                FreeCodeCamp\n              "
+        "text": "FreeCodeCamp"
       },
       {
         "title": "Wes Bos, the guy who makes awesome Web Dev Tutorials.",
         "link": "http://wesbos.com/",
-        "text": "\n                Wes Bos\n              "
+        "text": "Wes Bos"
       },
       {
         "title": "Resources for developers, by developers",
         "link": "https://developer.mozilla.org",
-        "text": "\n                Mozilla Developers Network\n              "
+        "text": "Mozilla Developers Network"
       }
     ]
   },
@@ -970,7 +970,7 @@
     "name": "Haitham AbdElRady",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "YOUR twitter account link",
         "handle": "@haitham_best"
       }
@@ -980,17 +980,17 @@
       {
         "title": "Free Code camp",
         "link": "https://www.freecodecamp.org/",
-        "text": "\n                Free Code Camp\n              "
+        "text": "Free Code Camp"
       },
       {
         "title": "This book is important for all front end developers on the planet",
         "link": "https://github.com/FrontendMasters/front-end-handbook-2017",
-        "text": "\n                Front-end developer handbook\n              "
+        "text": "Front-end developer handbook"
       },
       {
         "title": "MDN",
         "link": "https://developer.mozilla.org",
-        "text": "\n                Mozilla Developer network\n              "
+        "text": "Mozilla Developer network"
       }
     ]
   },
@@ -998,7 +998,7 @@
     "name": "James Gower",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "http://www.twitter.com/__gower",
         "handle": "@__gower"
       }
@@ -1008,17 +1008,17 @@
       {
         "title": "Udemy has indepth courses for all programming languages!",
         "link": "https://www.udemy.com/",
-        "text": "\n                Udemy\n              "
+        "text": "Udemy"
       },
       {
         "title": "Where would any developer be without Stack Overflow?",
         "link": "https://stackoverflow.com/",
-        "text": "\n                Stack Overflow\n              "
+        "text": "Stack Overflow"
       },
       {
         "title": "Coding challenges for all abilities",
         "link": "https://www.hackerrank.com/dashboard",
-        "text": "\n                HackerRank\n              "
+        "text": "HackerRank"
       }
     ]
   },
@@ -1026,7 +1026,7 @@
     "name": "Kiur",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/77ccreed",
         "handle": "77ccreed on Github"
       }
@@ -1036,17 +1036,17 @@
       {
         "title": " Discovering JavaScript by Dr. Venkat Subramaniam",
         "link": "https://www.youtube.com/watch?v=ZUHyZHwZtUY&index=7&list=PLFjq8z-aGyQ49hmlhMZgYAoXb3NBiee4R",
-        "text": "\n                Discovering JavaScript\n              "
+        "text": "Discovering JavaScript"
       },
       {
         "title": "Jafar Husain is Netflix's Cross-Team Technical Lead",
         "link": "https://www.youtube.com/watch?v=ilRnq7BBWGY&index=2&list=PLFjq8z-aGyQ49hmlhMZgYAoXb3NBiee4R",
-        "text": "\n                The Future Of ES6\n              "
+        "text": "The Future Of ES6"
       },
       {
         "title": "Wes Bos: How To Write Syncronous Looking Code, Without The Wait",
         "link": "https://www.youtube.com/watch?v=BDqZLfBFeGk&index=11&list=PLFjq8z-aGyQ49hmlhMZgYAoXb3NBiee4R",
-        "text": "\n                ASYNC + AWAIT\n              "
+        "text": "ASYNC + AWAIT"
       }
     ]
   },
@@ -1054,7 +1054,7 @@
     "name": "Cam Utz",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Dragon8029",
         "handle": "@Dragon8029"
       }
@@ -1064,17 +1064,17 @@
       {
         "title": "Free Code Camp website",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                Free Code Camp\n              "
+        "text": "Free Code Camp"
       },
       {
         "title": "Code College website",
         "link": "https://codecollege.ca",
-        "text": "\n                Code College\n              "
+        "text": "Code College"
       },
       {
         "title": "#100DaysOfCode website",
         "link": "http://www.100daysofcode.com/",
-        "text": "\n                #100DaysOfCode\n              "
+        "text": "#100DaysOfCode"
       }
     ]
   },
@@ -1082,7 +1082,7 @@
     "name": "Benjamin Koppe",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/tonkllr",
         "handle": "@tonkllr"
       }
@@ -1092,17 +1092,17 @@
       {
         "title": "Contributing to Open Source Software for the first time",
         "link": "http://www.firsttimersonly.com/",
-        "text": "\n                First Timers Only\n              "
+        "text": "First Timers Only"
       },
       {
         "title": "Eclipse IDE for Java and more",
         "link": "https://www.eclipse.org/home/index.php",
-        "text": "\n                Eclipse\n              "
+        "text": "Eclipse"
       },
       {
         "title": "Docker to deploy your projects in containers",
         "link": "https://www.docker.com/",
-        "text": "\n                Docker\n              "
+        "text": "Docker"
       }
     ]
   },
@@ -1110,7 +1110,7 @@
     "name": "Brent Leavitt",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/SunSwingMedia",
         "handle": "@SunSwingMedia"
       }
@@ -1120,17 +1120,17 @@
       {
         "title": "Free Coding Classes Online",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                Free Code Camp\n              "
+        "text": "Free Code Camp"
       },
       {
         "title": "WordPress - Open Source CMS/Blogging Software",
         "link": "https://wordpress.org/",
-        "text": "\n                WordPress.org\n              "
+        "text": "WordPress.org"
       },
       {
         "title": "WordPress StackExchange",
         "link": "https://wordpress.stackexchange.com/",
-        "text": "\n                WordPress Support on StackExchange\n              "
+        "text": "WordPress Support on StackExchange"
       }
     ]
   },
@@ -1138,7 +1138,7 @@
     "name": "Jay",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/mrjaypeasmith",
         "handle": "@mrjaypeasmith"
       }
@@ -1148,17 +1148,17 @@
       {
         "title": "freeCodeCamp",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                freeCodeCamp\n              "
+        "text": "freeCodeCamp"
       },
       {
         "title": "Traversy Media",
         "link": "https://www.youtube.com/user/TechGuyWeb",
-        "text": "\n                Traversy Media\n              "
+        "text": "Traversy Media"
       },
       {
         "title": "Front End Happy Hour",
         "link": "http://frontendhappyhour.com",
-        "text": "\n                Front End Happy Hour\n              "
+        "text": "Front End Happy Hour"
       }
     ]
   },
@@ -1166,12 +1166,12 @@
     "name": "Thomas Zegos",
     "contacts": [
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/thomas.zegos",
         "handle": "Facebook"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/thomaSzegoS",
         "handle": "GitHub"
       }
@@ -1181,7 +1181,7 @@
       {
         "title": "Youtube_Unboxolics",
         "link": "https://www.youtube.com/user/Unboxholics",
-        "text": "\n                Unboxolics\n              "
+        "text": "Unboxolics"
       },
       {
         "title": "Atom_Text_Editor",
@@ -1191,7 +1191,7 @@
       {
         "title": "Rules_You_Should_Never_Break",
         "link": "https://www.canva.com/learn/design-rules/",
-        "text": "\n                Design Rules\n              "
+        "text": "Design Rules"
       }
     ]
   },
@@ -1199,12 +1199,12 @@
     "name": "Maíra Martins K",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/mairamartinsk",
         "handle": "@mairamartinsk"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/mairamartinsk",
         "handle": "GitHub"
       }
@@ -1214,7 +1214,7 @@
       {
         "title": "Learn Programming on Reddit",
         "link": "https://www.reddit.com/r/learnprogramming/",
-        "text": "\n                /r/learnprogramming\n              "
+        "text": "/r/learnprogramming"
       },
       {
         "title": "Atom Text Editor",
@@ -1232,7 +1232,7 @@
     "name": "Austin Jess",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/ajessscript",
         "handle": "@ajessscript"
       }
@@ -1242,17 +1242,17 @@
       {
         "title": "Quick javascript tutorials",
         "link": "https://medium.freecodecamp.org/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27",
-        "text": "\n                Javascript Basics Course\n              "
+        "text": "Javascript Basics Course"
       },
       {
         "title": "CSS Grid by Wes Bos",
         "link": "https://cssgrid.io/",
-        "text": "\n                CSS Grid by Wes Bos\n              "
+        "text": "CSS Grid by Wes Bos"
       },
       {
         "title": "The Web Developer Bootcamp by Colt Steele",
         "link": "https://www.udemy.com/the-web-developer-bootcamp/learn/v4/overview",
-        "text": "\n                The Web Developer Bootcamp by Colt Steele\n              "
+        "text": "The Web Developer Bootcamp by Colt Steele"
       }
     ]
   },
@@ -1260,9 +1260,9 @@
     "name": "SaiKumar Immadi",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/s-xync",
-        "handle": "\n            SaiKumar on GitHub\n          "
+        "handle": "SaiKumar on GitHub"
       }
     ],
     "about": "I want to be a Machine-Learning Engineer one day. Right now, I am just another Undergraduate Computer Science\n          student from India who will hopefully be graduated by 2019 from Indian Institute of Information Technology\n          Guwahati.",
@@ -1270,17 +1270,17 @@
       {
         "title": "Machine Learning Subreddit",
         "link": "https://www.reddit.com/r/MachineLearning/",
-        "text": "\n                /r/MachineLearning/\n              "
+        "text": "/r/MachineLearning/"
       },
       {
         "title": "The Text Editor of 21st Century",
         "link": "https://atom.io/",
-        "text": "\n                Atom Text Editor\n              "
+        "text": "Atom Text Editor"
       },
       {
         "title": "Learn how to use Git and GitHub",
         "link": "https://in.udacity.com/course/how-to-use-git-and-github--ud775",
-        "text": "\n                How to Use Git and GitHub | Udacity\n              "
+        "text": "How to Use Git and GitHub | Udacity"
       }
     ]
   },
@@ -1288,7 +1288,7 @@
     "name": "Elsa Hsu",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/elsahsu",
         "handle": "@elsaHsu"
       }
@@ -1298,17 +1298,17 @@
       {
         "title": "Google scholarships",
         "link": "https://www.udacity.com/google-scholarships",
-        "text": "\n                GooglexUdacity Scholarships\n              "
+        "text": "GooglexUdacity Scholarships"
       },
       {
         "title": "CS Dojo",
         "link": "https://www.youtube.com/channel/UCxX9wt5FWQUAAz4UrysqK9A",
-        "text": "\n                CS Dojo\n              "
+        "text": "CS Dojo"
       },
       {
         "title": "A collective decision-making tool",
         "link": "http://tyrannyofmajority.net/",
-        "text": "\n                Tyranny of Majority\n              "
+        "text": "Tyranny of Majority"
       }
     ]
   },
@@ -1316,7 +1316,7 @@
     "name": "Stein Arild",
     "contacts": [
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/samyhr",
         "handle": "samyhr"
       }
@@ -1326,17 +1326,17 @@
       {
         "title": "This is a link Codecademy",
         "link": "https://www.codecademy.com",
-        "text": "\n                Link to Codecademy\n              "
+        "text": "Link to Codecademy"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://www.lynda.com",
-        "text": "\n                Link to Lynda.com\n              "
+        "text": "Link to Lynda.com"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "http://freecodecamp.org",
-        "text": "\n                Link to Freecodecamp\n              "
+        "text": "Link to Freecodecamp"
       }
     ]
   },
@@ -1344,7 +1344,7 @@
     "name": "Alexander Calhoun",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/AlexCalhoun23",
         "handle": "@AlexCalhoun23"
       }
@@ -1354,17 +1354,17 @@
       {
         "title": "This is a link to Freecodecamp",
         "link": "https://www.freecodecamp.org",
-        "text": "\n                Link to Freecodecamp\n              "
+        "text": "Link to Freecodecamp"
       },
       {
         "title": "This is another link to web development tool I use a lot",
         "link": "https://www.codenewbie.org/learn",
-        "text": "\n                Link to CodeNewbie\n              "
+        "text": "Link to CodeNewbie"
       },
       {
         "title": "The third link to something useful for developers",
         "link": "http://www.traversymedia.com/",
-        "text": "\n                Link to Traversy Media\n              "
+        "text": "Link to Traversy Media"
       }
     ]
   },
@@ -1372,19 +1372,19 @@
     "name": "Joe B",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/joe_beck_",
         "handle": "@joe_beck_"
       },
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/joe.beck.370",
         "handle": "Facebook"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/jbeck695",
-        "handle": "\n            Joe B on Github\n          "
+        "handle": "Joe B on Github"
       }
     ],
     "about": "I'm Joe, a long-time sysadmin who's forte was in operations--availability & performance. I'm currently working\n          as a Solution Architect. I do lots of scripting & automation, data processing & various types of db work as\n          well as other solutioning & various coding projects. I'm focusing on cloud & devops presently. It's important\n          to me to be passionate about what you do. I understand this may rise & drop periodically but when it drops too\n          low for too long I know change is a comin'. When not doing IT, I enjoy meditation & studying the dharma,\n          kicking with the family, reading, writing, hiking, biking, and playing a little basketball & chess....oh & how\n          could I forget philly sports! Go Eagles, 2018!",
@@ -1392,22 +1392,22 @@
       {
         "title": "Python Dev Tutorials.",
         "link": "http://automatetheboringstuff.com/",
-        "text": "\n                Python stuff\n              "
+        "text": "Python stuff"
       },
       {
         "title": "Good Website to select a Gradient",
         "link": "https://uigradients.com/",
-        "text": "\n                UI Gradients\n              "
+        "text": "UI Gradients"
       },
       {
         "title": "Heroku! A great way to deploy your apps!",
         "link": "http://heroku.com",
-        "text": "\n                Heroku\n              "
+        "text": "Heroku"
       },
       {
         "title": "Google developer site",
         "link": "https://developers.google.com/web/",
-        "text": "\n                Google Developer Site\n              "
+        "text": "Google Developer Site"
       }
     ]
   },
@@ -1415,7 +1415,7 @@
     "name": "Doha Helmy",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/DohaHelmy",
         "handle": "@dohahelmy"
       }
@@ -1435,7 +1435,7 @@
       {
         "title": "Typing Practice for Programmers",
         "link": "https://typing.io/",
-        "text": "\n                Typing Practice for Programmers\n              "
+        "text": "Typing Practice for Programmers"
       }
     ]
   },
@@ -1443,7 +1443,7 @@
     "name": "Glenn McGrew II",
     "contacts": [
       {
-        "title": "github-alt",
+        "icon": "fab fa-github-alt",
         "link": "https://github.com/ReveurGAM",
         "handle": "@ReveurGAM"
       }
@@ -1453,17 +1453,17 @@
       {
         "title": "Hackernoon article",
         "link": "https://hackernoon.com/how-css-grid-beats-bootstrap-85d5881cf163",
-        "text": "\n                Article: Why CSS Grid Is Better Than BootStrap\n              "
+        "text": "Article: Why CSS Grid Is Better Than BootStrap"
       },
       {
         "title": "User Friendly, the online comic, for stress relief!",
         "link": "http://www.userfriendly.org/",
-        "text": "\n                User Friendly, the comic (stress relief, for techies)\n              "
+        "text": "User Friendly, the comic (stress relief, for techies)"
       },
       {
         "title": "W3School's HTML checker (they also have checkers for other languages)",
         "link": "HTML: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_default",
-        "text": "\n                W3School's HTML checker\n              "
+        "text": "W3School's HTML checker"
       }
     ]
   },
@@ -1471,7 +1471,7 @@
     "name": "Evan",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/EvanStice1",
         "handle": "@EvanStice1"
       }
@@ -1481,17 +1481,17 @@
       {
         "title": "First Resource",
         "link": "www.freecodecamp.org",
-        "text": "\n                freeCodeCamp\n              "
+        "text": "freeCodeCamp"
       },
       {
         "title": "Second Resource",
         "link": "www.codewars.com",
-        "text": "\n                codewars\n              "
+        "text": "codewars"
       },
       {
         "title": "Third resource",
         "link": "www.hackerrank.net",
-        "text": "\n                HackerRank\n              "
+        "text": "HackerRank"
       }
     ]
   },
@@ -1499,7 +1499,7 @@
     "name": "Robert's Card",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "www.twitter.com",
         "handle": "@newbie"
       }
@@ -1509,17 +1509,17 @@
       {
         "title": "First Resource",
         "link": "https://www.w3schools.com/",
-        "text": "\n                W3 Schools\n              "
+        "text": "W3 Schools"
       },
       {
         "title": "Second Resource",
         "link": "https://www.udemy.com/",
-        "text": "\n                Udemy\n              "
+        "text": "Udemy"
       },
       {
         "title": "Third resource",
         "link": "https://stackoverflow.com/",
-        "text": "\n                Stack Overflow\n              "
+        "text": "Stack Overflow"
       }
     ]
   },
@@ -1527,7 +1527,7 @@
     "name": "geekincode",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "",
         "handle": "Your handle"
       }
@@ -1537,17 +1537,17 @@
       {
         "title": "First Resource",
         "link": "https://github.com/geekincode",
-        "text": "\n                Github\n              "
+        "text": "Github"
       },
       {
         "title": "Second Resource",
         "link": "https://geekincode.github.io/",
-        "text": "\n                Github-page\n              "
+        "text": "Github-page"
       },
       {
         "title": "Third resource",
         "link": "https://space.bilibili.com/501127404",
-        "text": "\n                Bilibili\n              "
+        "text": "Bilibili"
       }
     ]
   },
@@ -1555,7 +1555,7 @@
     "name": "Ina Krasnokutska",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/InaKrasnokutska",
         "handle": "InaKrasnokutska"
       }
@@ -1565,17 +1565,17 @@
       {
         "title": "I recomend",
         "link": "https://stackoverflow.com/",
-        "text": "\n                StackOverFlow\n              "
+        "text": "StackOverFlow"
       },
       {
         "title": "Good thing",
         "link": "https://habr.com\n                  ",
-        "text": "\n                Habr\n              "
+        "text": "Habr"
       },
       {
         "title": "Interesting to read",
         "link": "https://metanit.com/",
-        "text": "\n                Metanit\n              "
+        "text": "Metanit"
       }
     ]
   },
@@ -1583,17 +1583,17 @@
     "name": "Chinh Do",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/doinby",
         "handle": "doinby"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/doinby",
         "handle": "doinby"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/chinhkdo/",
         "handle": "chinhkdo"
       }
@@ -1603,17 +1603,17 @@
       {
         "title": "First Resource",
         "link": "https://scrimba.com",
-        "text": "\n                Scrimba\n              "
+        "text": "Scrimba"
       },
       {
         "title": "Second Resource",
         "link": "https://spotify.com",
-        "text": "\n                Spotify\n              "
+        "text": "Spotify"
       },
       {
         "title": "Third resource",
         "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
-        "text": "\n                Brad Traversy's Tutorials\n              "
+        "text": "Brad Traversy's Tutorials"
       }
     ]
   },
@@ -1621,7 +1621,7 @@
     "name": "CZ1",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "www.twitter.com",
         "handle": "Your handle"
       }
@@ -1631,17 +1631,17 @@
       {
         "title": "First Resource",
         "link": "#",
-        "text": "\n                Resource 1\n              "
+        "text": "Resource 1"
       },
       {
         "title": "Second Resource",
         "link": "#",
-        "text": "\n                Resource 2\n              "
+        "text": "Resource 2"
       },
       {
         "title": "Third resource",
         "link": "#",
-        "text": "\n                Resource 3\n              "
+        "text": "Resource 3"
       }
     ]
   },
@@ -1649,17 +1649,17 @@
     "name": "Lavish Arora",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Lavisharora30",
         "handle": "Lavisharora30"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Lavish_arora_30",
         "handle": "Lavish_arora_30"
       },
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/lavish-arora-30/",
         "handle": "lavish-arora-30"
       }
@@ -1669,17 +1669,17 @@
       {
         "title": "First Resource",
         "link": "https://code.visualstudio.com/",
-        "text": "\n                Vscode\n              "
+        "text": "Vscode"
       },
       {
         "title": "Second Resource",
         "link": "https://stackoverflow.com/",
-        "text": "\n                stackoverflow\n              "
+        "text": "stackoverflow"
       },
       {
         "title": "Third resource",
         "link": "https://www.w3schools.com/",
-        "text": "\n                w3 school (Learn the fundamentals)\n              "
+        "text": "w3 school (Learn the fundamentals)"
       }
     ]
   },
@@ -1687,7 +1687,7 @@
     "name": "Tarcísio Batista de Freitas Júnior",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/tbfreitas",
         "handle": "tbfreitas"
       }
@@ -1697,17 +1697,17 @@
       {
         "title": "w3 school",
         "link": "https://code.visualstudio.com/",
-        "text": "\n                Vscode\n              "
+        "text": "Vscode"
       },
       {
         "title": "React Testing with Enzyme",
         "link": "https://git-fork.com/",
-        "text": "\n                Fork\n              "
+        "text": "Fork"
       },
       {
         "title": "NodeJS Threads",
         "link": "https://www.docker.com/",
-        "text": "\n                Docker\n              "
+        "text": "Docker"
       }
     ]
   },
@@ -1715,7 +1715,7 @@
     "name": "Ritesh Dabral",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Ritesh-Dabral",
         "handle": "@Ritesh-Dabral"
       }
@@ -1725,17 +1725,17 @@
       {
         "title": "w3 school",
         "link": "https://www.w3schools.com/",
-        "text": "\n                w3 school (Learn the fundamentals)\n              "
+        "text": "w3 school (Learn the fundamentals)"
       },
       {
         "title": "React Testing with Enzyme",
         "link": "https://enzymejs.github.io/enzyme/",
-        "text": "\n                Enzyme for React\n              "
+        "text": "Enzyme for React"
       },
       {
         "title": "NodeJS Threads",
         "link": "https://blog.logrocket.com/a-complete-guide-to-threads-in-node-js-4fa3898fe74f/",
-        "text": "\n                Threads in NodeJS\n              "
+        "text": "Threads in NodeJS"
       }
     ]
   },
@@ -1743,7 +1743,7 @@
     "name": "Kshitij Barnwal",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/kshibarn",
         "handle": "Kshitij Barnwal"
       }
@@ -1753,17 +1753,17 @@
       {
         "title": "recommended",
         "link": "https://stackoverflow.com/",
-        "text": "\n                StackOverFlow\n              "
+        "text": "StackOverFlow"
       },
       {
         "title": "Nice Content",
         "link": "https://www.geeksforgeeks.org/",
-        "text": "\n                GeeksForGeeks\n              "
+        "text": "GeeksForGeeks"
       },
       {
         "title": "Frontend Development",
         "link": "https://getbootstrap.com/",
-        "text": "\n                Bootstrap\n              "
+        "text": "Bootstrap"
       }
     ]
   },
@@ -1771,7 +1771,7 @@
     "name": "Debasish Patnaik",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "link to your twitter handle",
         "handle": "@lazy_ryuzaki"
       }
@@ -1781,17 +1781,17 @@
       {
         "title": "A Complete Guide to Flexbox",
         "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
-        "text": "\n                Flexbox 101\n              "
+        "text": "Flexbox 101"
       },
       {
         "title": "Learn Ionic",
         "link": "https://ionicframework.com/docs",
-        "text": "\n                Getting started with Ionic\n              "
+        "text": "Getting started with Ionic"
       },
       {
         "title": "Learn Django",
         "link": "https://www.djangoproject.com/start/",
-        "text": "\n                Getting started with Django\n              "
+        "text": "Getting started with Django"
       }
     ]
   },
@@ -1799,12 +1799,12 @@
     "name": "Gladiator",
     "contacts": [
       {
-        "title": "globe",
+        "icon": "fab fa-globe",
         "link": "https://gladiator-16.netlify.app",
         "handle": "Gladiator"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Gladiator-16",
         "handle": "@Gladiator-16"
       }
@@ -1814,17 +1814,17 @@
       {
         "title": "First Resource",
         "link": "https://codepen.io",
-        "text": "\n                Codepen\n              "
+        "text": "Codepen"
       },
       {
         "title": "Second Resource",
         "link": "https://sololearn.com",
-        "text": "\n                sololearn\n              "
+        "text": "sololearn"
       },
       {
         "title": "Third resource",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                MDN\n              "
+        "text": "MDN"
       }
     ]
   },
@@ -1832,7 +1832,7 @@
     "name": "Kiran Iyer",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/_amyourdaddy",
         "handle": "@_amyourdaddy>"
       }
@@ -1842,17 +1842,17 @@
       {
         "title": "Learn with Leon",
         "link": "https://twitch.tv/learnwithleon",
-        "text": "\n                Learn with Leon\n              "
+        "text": "Learn with Leon"
       },
       {
         "title": "App Academy",
         "link": "https://appacademy.io",
-        "text": "\n                App Academy\n              "
+        "text": "App Academy"
       },
       {
         "title": "Eloquent JavaScript",
         "link": "https://eloquentjavascript.net/",
-        "text": "\n                Eloquent JavaScript\n              "
+        "text": "Eloquent JavaScript"
       }
     ]
   },
@@ -1860,7 +1860,7 @@
     "name": "Shakira R. Salazar",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/rhianeKobar",
         "handle": "@nowitworkstech"
       }
@@ -1870,17 +1870,17 @@
       {
         "title": "reddit r/learnprogramming",
         "link": "https://www.reddit.com/r/learnprogramming/",
-        "text": "\n                Reddit r/learnprogramming\n              "
+        "text": "Reddit r/learnprogramming"
       },
       {
         "title": "reddit r/ADHD_Programmers",
         "link": "https://www.reddit.com/r/ADHD_Programmers/",
-        "text": "\n                Reddit r/ADHD_Programmers\n              "
+        "text": "Reddit r/ADHD_Programmers"
       },
       {
         "title": "reddit r/cscareerquestions",
         "link": "https://www.reddit.com/r/cscareerquestions/",
-        "text": "\n                Reddit r/cscareerquestions, there's also an EU and an OCE cscareer subreddits\n              "
+        "text": "Reddit r/cscareerquestions, there's also an EU and an OCE cscareer subreddits"
       }
     ]
   },
@@ -1888,7 +1888,7 @@
     "name": "Arif Mamon",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/arifmamon",
         "handle": "@arifmamon"
       }
@@ -1898,17 +1898,17 @@
       {
         "title": "MDN Web Docs",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                MDN Web Docs\n              "
+        "text": "MDN Web Docs"
       },
       {
         "title": "W3Schools Resources",
         "link": "https://www.w3schools.com/",
-        "text": "\n                W3schools\n              "
+        "text": "W3schools"
       },
       {
         "title": "freecodecamp",
         "link": "http://freecodecamp.org/",
-        "text": "\n                Web Dev Learning\n              "
+        "text": "Web Dev Learning"
       }
     ]
   },
@@ -1916,7 +1916,7 @@
     "name": "Jorawar Singh",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/jorawarsingh122",
         "handle": "@jorawarsingh122"
       }
@@ -1926,17 +1926,17 @@
       {
         "title": "W3 School",
         "link": "https://www.w3schools.com/",
-        "text": "\n                W3 School\n              "
+        "text": "W3 School"
       },
       {
         "title": "Stack Overflow",
         "link": "https://stackoverflow.com/",
-        "text": "\n                StackOverflow\n              "
+        "text": "StackOverflow"
       },
       {
         "title": "Medium Website",
         "link": "https://medium.com/",
-        "text": "\n                Medium\n              "
+        "text": "Medium"
       }
     ]
   },
@@ -1944,12 +1944,12 @@
     "name": "Stacy Burris",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/stacyjaneb",
         "handle": "@Stacyjaneb"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/stacyburris",
         "handle": "@stacyburris"
       }
@@ -1959,17 +1959,17 @@
       {
         "title": "Color schemes generator",
         "link": "https://coolors.co/",
-        "text": "\n                Coolors\n              "
+        "text": "Coolors"
       },
       {
         "title": "React",
         "link": "https://reactcheatsheet.com/",
-        "text": "\n                React Cheat Sheet\n              "
+        "text": "React Cheat Sheet"
       },
       {
         "title": "JSON formatter",
         "link": "https://jsonformatter.org/",
-        "text": "\n                JSON Formatter\n              "
+        "text": "JSON Formatter"
       }
     ]
   },
@@ -1977,7 +1977,7 @@
     "name": "Jeferson Cardoso.",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/git-cardoso",
         "handle": "@git-cardoso"
       }
@@ -1987,17 +1987,17 @@
       {
         "title": "MDN",
         "link": "https://developer.mozilla.org/pt-BR/",
-        "text": "\n                MDN Web Docs (pt-br)\n              "
+        "text": "MDN Web Docs (pt-br)"
       },
       {
         "title": "loops",
         "link": "https://medium.com/free-code-camp/javascript-async-and-await-in-loops-30ecc5fb3939?source=collection_home---6------4-----------------------",
-        "text": "\n                Free-code-camp\n              "
+        "text": "Free-code-camp"
       },
       {
         "title": "javascripts",
         "link": "https://medium.com/javascript-in-plain-english/top-10-javascript-frameworks-for-server-side-development-in-2020-6d265016c02",
-        "text": "\n                Medium\n              "
+        "text": "Medium"
       }
     ]
   },
@@ -2005,7 +2005,7 @@
     "name": "Philthy-Phil-Philanthropist Ziegelbauer",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Philthy-Phil",
         "handle": "@Philthy-Phil"
       }
@@ -2015,17 +2015,17 @@
       {
         "title": "learning never ends",
         "link": "https://www.w3schools.com/",
-        "text": "\n                w3schools\n              "
+        "text": "w3schools"
       },
       {
         "title": "for developers, by developers",
         "link": "https://stackoverflow.com/",
-        "text": "\n                stackoverflow\n              "
+        "text": "stackoverflow"
       },
       {
         "title": "image sources for web",
         "link": "https://unsplash.com/",
-        "text": "\n                unsplash\n              "
+        "text": "unsplash"
       }
     ]
   },
@@ -2033,7 +2033,7 @@
     "name": "Mohammad Iftekher Ebne Jalal (Iftu)",
     "contacts": [
       {
-        "title": "facebook",
+        "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/Iftekhar.iftu.02",
         "handle": "Iftekher Iftu"
       }
@@ -2043,17 +2043,17 @@
       {
         "title": "An amazing platform for the beginners",
         "link": "https://www.w3schools.com/",
-        "text": "\n                W3 Schools\n              "
+        "text": "W3 Schools"
       },
       {
         "title": "HTML,CSS on Visual Studio Code",
         "link": "https://www.youtube.com/watch?v=C5QFHp1oAws",
-        "text": "\n                Video for the beginners on HTML, CSS\n              "
+        "text": "Video for the beginners on HTML, CSS"
       },
       {
         "title": "Web Dev Tools by Google",
         "link": "https://developers.google.com/web/tools",
-        "text": "\n                Google Web Dev Tools\n              "
+        "text": "Google Web Dev Tools"
       }
     ]
   },
@@ -2061,7 +2061,7 @@
     "name": "Cliver",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Miranda20",
         "handle": "Miranda20"
       }
@@ -2071,17 +2071,17 @@
       {
         "title": "Tutorial Modern JavaScript in Spanish",
         "link": "https://es.javascript.info/",
-        "text": "\n                Tutorial JavaScript\n              "
+        "text": "Tutorial JavaScript"
       },
       {
         "title": "A charts library",
         "link": "https://nivo.rocks/",
-        "text": "\n                Nivo\n              "
+        "text": "Nivo"
       },
       {
         "title": "A website to learn web programming",
         "link": "https://www.w3schools.com/",
-        "text": "\n                w3schools\n              "
+        "text": "w3schools"
       }
     ]
   },
@@ -2089,12 +2089,12 @@
     "name": "Bernardo Munz",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/moonbe77",
         "handle": "@moonbe77"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/moonbe77",
         "handle": "Bernardo Munz"
       }
@@ -2104,17 +2104,17 @@
       {
         "title": "Notion",
         "link": "https://www.notion.so/",
-        "text": "\n                Notion - Write, plan, and get organized.\n              "
+        "text": "Notion - Write, plan, and get organized."
       },
       {
         "title": "Second Resource",
         "link": "https://www.w3schools.com",
-        "text": "\n                W3 Schools\n              "
+        "text": "W3 Schools"
       },
       {
         "title": "https://wesbos.com/",
         "link": "https://wesbos.com/",
-        "text": "\n                Wes Bos\n              "
+        "text": "Wes Bos"
       }
     ]
   },
@@ -2126,12 +2126,12 @@
       {
         "title": "Stackoverflow",
         "link": "https://stackoverflow.com/",
-        "text": "\n                Stackoverflow\n              "
+        "text": "Stackoverflow"
       },
       {
         "title": "Github MunGell project",
         "link": "https://github.com/MunGell/awesome-for-beginners",
-        "text": "\n                The MunGell project on Github\n              "
+        "text": "The MunGell project on Github"
       }
     ]
   },
@@ -2139,7 +2139,7 @@
     "name": "Augusto Arraes",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "www.github.com/gutoarraes",
         "handle": "gutoarraes"
       }
@@ -2149,17 +2149,17 @@
       {
         "title": "First Resource",
         "link": "https://codepen.com/",
-        "text": "\n                Codepen\n              "
+        "text": "Codepen"
       },
       {
         "title": "Second Resource",
         "link": "https://projecteuler.net/",
-        "text": "\n                Project Euler\n              "
+        "text": "Project Euler"
       },
       {
         "title": "Third resource",
         "link": "https://scratch.mit.edu/",
-        "text": "\n                Scratch\n              "
+        "text": "Scratch"
       }
     ]
   },
@@ -2167,7 +2167,7 @@
     "name": "Alka Das",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/AlkaDas991",
         "handle": "AlkaDas991"
       }
@@ -2177,17 +2177,17 @@
       {
         "title": "An Intro to Git and Github for Beginners",
         "link": "https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners",
-        "text": "\n                An Intro to Git and Github for Beginners\n              "
+        "text": "An Intro to Git and Github for Beginners"
       },
       {
         "title": "A2OJ Ladders - Practice Coding",
         "link": "https://a2oj.com/ladders",
-        "text": "\n                A2OJ ladders to practice Coding\n              "
+        "text": "A2OJ ladders to practice Coding"
       },
       {
         "title": "Reference for Web development",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                Reference for Web-dev\n              "
+        "text": "Reference for Web-dev"
       }
     ]
   },
@@ -2195,7 +2195,7 @@
     "name": "Surbhi Mayank",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/surbhi2408",
         "handle": "surbhi2408"
       }
@@ -2205,17 +2205,17 @@
       {
         "title": "CSES-problem-set-solution",
         "link": "https://github.com/surbhi2408/CSES-problem-set-solution",
-        "text": "\n                  Solutions to CSES problem sets.\n                "
+        "text": "Solutions to CSES problem sets."
       },
       {
         "title": "Learn git and github from scratch",
         "link": "https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK",
-        "text": "\n                  Learn git-tutorial from scratch.\n                "
+        "text": "Learn git-tutorial from scratch."
       },
       {
         "title": "Learn python from scratch",
         "link": "https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU",
-        "text": "\n                  Learn python from scratch.\n                "
+        "text": "Learn python from scratch."
       }
     ]
   },
@@ -2223,7 +2223,7 @@
     "name": "Kushal Das",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/Kushal997-das",
         "handle": "Kushal997-das"
       }
@@ -2233,17 +2233,17 @@
       {
         "title": "Contribute-To-This-Project",
         "link": "https://github.com/Kushal997-das/Project-Guidance",
-        "text": "\n                Contribute to this repository\n              "
+        "text": "Contribute to this repository"
       },
       {
         "title": "Python important questions and answers",
         "link": "https://github.com/Kushal997-das/Hackerrank",
-        "text": "\n                HackerRank solved questions\n              "
+        "text": "HackerRank solved questions"
       },
       {
         "title": "Learn git and github from scratch",
         "link": "https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLozRqGzj97d02YjR5JVqDwN2K0cAiT7VK",
-        "text": "\n                Learn git-tutorial from scratch.\n              "
+        "text": "Learn git-tutorial from scratch."
       }
     ]
   },
@@ -2251,7 +2251,7 @@
     "name": "Shikha",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/home",
         "handle": "@ShikhaS55977060"
       }
@@ -2261,17 +2261,17 @@
       {
         "title": "Front-end Web Developement",
         "link": "https://www.udemy.com/share/103RbmAEAbc1pVQHkF/",
-        "text": "\n                Unedmy\n              "
+        "text": "Unedmy"
       },
       {
         "title": "INtroduction to Web Developement",
         "link": "https://youtu.be/EceJQ05KTf4",
-        "text": "\n                youtube\n              "
+        "text": "youtube"
       },
       {
         "title": "html and css",
         "link": "https://www.coursera.org/",
-        "text": "\n                coursera\n              "
+        "text": "coursera"
       }
     ]
   },
@@ -2279,12 +2279,12 @@
     "name": "Tina Myers",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/tinalmyers/",
         "handle": "Tina Myers"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/myerstina515",
         "handle": "@myerstina515"
       }
@@ -2294,17 +2294,17 @@
       {
         "title": "Edit Pad",
         "link": "https://www.editpad.org/",
-        "text": "\n                Edit pad: Fixes formatting of decorated text\n              "
+        "text": "Edit pad: Fixes formatting of decorated text"
       },
       {
         "title": "Rapid API",
         "link": "https://rapidapi.com/alanaktion/api/faker",
-        "text": "\n                Rapid API: fake API for testing\n              "
+        "text": "Rapid API: fake API for testing"
       },
       {
         "title": "bcrypt",
         "link": "#https://www.npmjs.com/package/bcrypt",
-        "text": "\n                Bcrypt npm package for encryption\n              "
+        "text": "Bcrypt npm package for encryption"
       }
     ]
   },
@@ -2312,7 +2312,7 @@
     "name": "Novice",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/noviicee",
         "handle": "noviicee"
       }
@@ -2322,17 +2322,17 @@
       {
         "title": "HTML Tutorial",
         "link": "https://www.w3schools.com/html/",
-        "text": "\n                Link for learning the basics of HTML\n              "
+        "text": "Link for learning the basics of HTML"
       },
       {
         "title": "CSS Tutorial",
         "link": "https://www.w3schools.com/css/default.asp",
-        "text": "\n                Link for learning the basics of CSS\n              "
+        "text": "Link for learning the basics of CSS"
       },
       {
         "title": "Python Tutorial",
         "link": "https://www.w3schools.com/python/default.asp",
-        "text": "\n                Python tutorial in case you want to try something new :)\n              "
+        "text": "Python tutorial in case you want to try something new :)"
       }
     ]
   },
@@ -2340,7 +2340,7 @@
     "name": "Brody",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "link to your twitter handle",
         "handle": "@Brody27W"
       }
@@ -2350,17 +2350,17 @@
       {
         "title": "Contribute-To-This-Project",
         "link": "https://github.com/Syknapse/Contribute-To-This-Project",
-        "text": "\n                Contribute-To-This-Project\n              "
+        "text": "Contribute-To-This-Project"
       },
       {
         "title": "Youtube",
         "link": "https://www.youtube.com/",
-        "text": "\n                Youtube\n              "
+        "text": "Youtube"
       },
       {
         "title": "Google Dev",
         "link": "https://google.dev/",
-        "text": "\n                Google Dev\n              "
+        "text": "Google Dev"
       }
     ]
   },
@@ -2368,7 +2368,7 @@
     "name": "Anderson",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/anderson-m-souza",
         "handle": "anderson-m-souza"
       }
@@ -2378,17 +2378,17 @@
       {
         "title": "Learn best practices for the modern web.",
         "link": "https://web.dev/learn/",
-        "text": "\n                Learn\n              "
+        "text": "Learn"
       },
       {
         "title": "Learn how to maintain the aspect ratio of an element with CSS.",
         "link": "https://www.w3schools.com/howto/howto_css_aspect_ratio.asp",
-        "text": "\n                How To - Aspect Ratio / Height Equal to Width\n              "
+        "text": "How To - Aspect Ratio / Height Equal to Width"
       },
       {
         "title": "A list of projects to build and put in your resume.",
         "link": "https://youtu.be/3wa09yTuEWU",
-        "text": "\n                5 Projects That will Guarantee You Get Hired\n              "
+        "text": "5 Projects That will Guarantee You Get Hired"
       }
     ]
   },
@@ -2396,17 +2396,17 @@
     "name": "Pranav Singh",
     "contacts": [
       {
-        "title": "linkedin",
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/pranav-singh-00904b1bb/",
         "handle": "Pranav Singh"
       },
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/theBeginner86",
         "handle": "@theBeginner86"
       },
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/theBeginner86",
         "handle": "@theBeginner86"
       }
@@ -2416,17 +2416,17 @@
       {
         "title": "First Resource",
         "link": "https://www.youtube.com/c/CodeforCause",
-        "text": "\n                Code For Cause (Youtube Channel)\n              "
+        "text": "Code For Cause (Youtube Channel)"
       },
       {
         "title": "Second Resource",
         "link": "https://github.com/Syknapse/Contribute-To-This-Project",
-        "text": "\n                Contribute-To-This-Project (Github Project)\n              "
+        "text": "Contribute-To-This-Project (Github Project)"
       },
       {
         "title": "Third resource",
         "link": "https://developer.mozilla.org/en-US/",
-        "text": "\n                MDN (Best place to learn WEB DEV)\n              "
+        "text": "MDN (Best place to learn WEB DEV)"
       }
     ]
   },
@@ -2434,7 +2434,7 @@
     "name": "Shreya Purohit",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/shreyalivee",
         "handle": "@shreyalivee"
       }
@@ -2444,17 +2444,17 @@
       {
         "title": "Learn Web Development (Microsoft)",
         "link": "https://github.com/microsoft/Web-Dev-For-Beginners",
-        "text": "\n                Get Started as a Web Developer (Microsoft)\n              "
+        "text": "Get Started as a Web Developer (Microsoft)"
       },
       {
         "title": "Learn Python for Free (Google)",
         "link": "https://developers.google.com/edu/python",
-        "text": "\n                Learn Python for Free (Google)\n              "
+        "text": "Learn Python for Free (Google)"
       },
       {
         "title": "Podcast: Talk Python to Me",
         "link": "https://talkpython.fm/episodes/all",
-        "text": "\n                Podcast: Talk Python to Me\n              "
+        "text": "Podcast: Talk Python to Me"
       }
     ]
   },
@@ -2462,7 +2462,7 @@
     "name": "Edwin",
     "contacts": [
       {
-        "title": "github",
+        "icon": "fab fa-github",
         "link": "https://github.com/ebedoya/",
         "handle": "ebedoya"
       }
@@ -2472,17 +2472,17 @@
       {
         "title": "MDN Web Docs",
         "link": "https://developer.mozilla.org/",
-        "text": "\n                MDN Web Docs\n              "
+        "text": "MDN Web Docs"
       },
       {
         "title": "W3Schools Resources",
         "link": "https://www.w3schools.com/",
-        "text": "\n                W3schools\n              "
+        "text": "W3schools"
       },
       {
         "title": "Programiz",
         "link": "https://www.programiz.com/java-programming/hello-world",
-        "text": "\n                Java Learning\n              "
+        "text": "Java Learning"
       }
     ]
   },
@@ -2490,7 +2490,7 @@
     "name": "Dali-codes",
     "contacts": [
       {
-        "title": "twitter",
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/Dali_codes",
         "handle": "@Dali_codes"
       }
@@ -2500,17 +2500,17 @@
       {
         "title": "This is a link to many useful CSS tips & tricks",
         "link": "https://css-tricks.com/",
-        "text": "\n                CSS tricks\n              "
+        "text": "CSS tricks"
       },
       {
         "title": "This is a link to Traversy Media with great content for learning developers",
         "link": "https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA",
-        "text": "\n                Traversy Media\n              "
+        "text": "Traversy Media"
       },
       {
         "title": "Follow this link to learn how to contribute to a project on Github",
         "link": "https://syknapse.github.io/Contribute-To-This-Project/",
-        "text": "\n                Contribute to a project on Github\n              "
+        "text": "Contribute to a project on Github"
       }
     ]
   }
