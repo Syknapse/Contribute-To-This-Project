@@ -1,6 +1,64 @@
+import numberOfFiles from './archive.js'
+
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
+
+// Create an array of ascending numbers corresponding with the number of archive files
+const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
+
+// Import all archived cards and insert into the DOM
+numberOfFilesArray.forEach(number => {
+  // Fetch each JSON archive file based on its number
+  fetch(`../archive/archive_${number}.json`)
+    .then(response => response.json())
+    .then(data => {
+      // For each file iterate over the data and create an array of the HTML card template
+      const cards = data
+        .map(card => {
+          const { name, contacts, about, resources } = card
+          // Insert each user data into the template
+          return `
+            <div class="card">
+              <p class="name">${name}</p>
+              <p class="contact">
+              ${contacts
+                .map(
+                  contact => `
+                    <i class="${contact.icon}"></i>
+                    <a href="${contact.link}" target="_blank">${contact.handle}</a>
+                    `
+                )
+                .join('')}
+              </p>
+              <p class="about">${about}</p>
+              <div class="resources">
+                <p>3 Useful Dev Resources</p>
+                <ul>
+                ${resources
+                  .map(
+                    resource => `
+                    <li>
+                      <a href="${resource.link}" target="_blank" title="${resource.title}">${resource.text}</a>
+                    </li>
+                  `
+                  )
+                  .join('')}
+                </ul>
+              </div>
+            </div>
+          `
+        })
+        .join('')
+      const grid = document.querySelector('.grid')
+      // Add the cards to the grid
+      grid.innerHTML += cards
+    })
+    .catch(error => {
+      console.error('Error importing archive JSON files:', error)
+    })
+    .finally(() => countUp())
+})
 
 // show up there are too many cards
 const showInfoInConsole = () => {
@@ -26,40 +84,6 @@ const countUp = () => {
     if (displayNumber === numberOfContributors) displayClass.add('rubberBand')
   }, 15)
 }
-
-// adding the archive cards to the grid
-// const createArchiveObject = i => {
-//   const container = document.querySelector('.container')
-//   const archiveObject = document.createElement('object')
-//   archiveObject.setAttribute('id', `archiveObject_${i}`)
-//   archiveObject.setAttribute('data', `archive/archive_${i}.html`)
-//   archiveObject.setAttribute('type', 'text/html')
-//   archiveObject.setAttribute('width', '300')
-//   archiveObject.setAttribute('height', '5000')
-//   container.append(archiveObject)
-// }
-// const NUMBER_OF_FILES = 18
-// let current = 1
-// const getArchiveCards = i => {
-//   createArchiveObject(i)
-
-//   document.getElementById(`archiveObject_${i}`).onload = function() {
-//     const archiveObject = document.getElementById(`archiveObject_${i}`)
-//     const cards = archiveObject.contentDocument.querySelectorAll('.card')
-//     const grid = document.querySelector('.grid')
-
-//     cards.forEach(card => grid.append(card))
-//     archiveObject.remove()
-
-//     if (current < NUMBER_OF_FILES) {
-//       current++
-//       getArchiveCards(current)
-//     }
-//     countUp()
-//   }
-// }
-
-// getArchiveCards(current)
 
 // night mode feature
 document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
