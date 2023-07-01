@@ -1,4 +1,4 @@
-import numberOfFiles from './archive.js'
+import numberOfFiles from '../archive/archiveFilesTotal.js'
 
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
@@ -10,7 +10,7 @@ const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => i
 // Import all archived cards and insert into the DOM
 numberOfFilesArray.forEach(number => {
   // Fetch each JSON archive file based on its number
-  fetch(`../archive/archive_${number}.json`)
+  fetch(`../archive/cards/archive_${number}.json`)
     .then(response => response.json())
     .then(data => {
       // For each file iterate over the data and create an array of the HTML card template
@@ -60,12 +60,15 @@ numberOfFilesArray.forEach(number => {
     .finally(() => countUp())
 })
 
-// show up there are too many cards
+// Prompt to archive when there are too many cards
 const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
   console.info('Cards in index.html', cardsInIndex)
-  if (cardsInIndex > 100) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
+  if (cardsInIndex > 100)
+    console.warn(
+      `Too many cards in index.html: ${cardsInIndex}. Run the archive_cards script. Follow instructions in archive/archiving_cards_guide`
+    )
 }
 showInfoInConsole()
 
@@ -130,7 +133,7 @@ function searchCard() {
 
   clearSearchHighlights()
 
-  for (i = 0; i < cards.length; i++) {
+  for (let i = 0; i < cards.length; i++) {
     if (!cards[i].textContent.toLowerCase().includes(input)) {
       cards[i].style.display = 'none'
     } else {

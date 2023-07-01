@@ -49,13 +49,13 @@ Once that is done, it's time to implement the new system. What we want to achiev
 We will require the script to read the contents of index.html, find all elements of class .card, skip the first ten cards, convert those cards into json, export this json to the archive giving the file an ascending numerical name, then we need to rewrite the index.html removing the archived cards.  
 Finally we will need to bring the archived json files back into the DOM when the page loads.
 
-- [ ] convert all current archive files to json
-- [ ] use fs.readdir to read the number of files in the new json archive and increment by one for the name of the new file, add to script of exporting to json file
-- [ ] combine the convert + export + delete scripts together
-- [ ] add the script to npm scripts in package.json (call it archive_cards for example)
-- [ ] create the JS function to import json files from archive
-- [ ] create card html template
-- [ ] create function that appends cards to the dom
+- [x] convert all current archive files to json
+- [x] use fs.readdir to read the number of files in the new json archive and increment by one for the name of the new file, add to script of exporting to json file
+- [x] combine the convert + export + delete scripts together
+- [x] add the script to npm scripts in package.json (call it archive_cards for example)
+- [x] create the JS function to import json files from archive
+- [x] create card html template
+- [x] create function that appends cards to the dom
 - [ ] once everything is tested and working, remove all old archive cards and deprecated code and docs.
 - [ ] document the usage of the script in a readme with step by step instructions for maintainers and an explanation of how it all works
 
