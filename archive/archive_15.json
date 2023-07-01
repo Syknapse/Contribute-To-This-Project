@@ -3837,18 +3837,22 @@
     "name": "Joseph Maharjan",
     "contacts": [
       {
+        "icon": "fab fa-github",
         "link": "https://github.com/josephmaharjan",
         "handle": "@josephmaharjan"
       },
       {
+        "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/josephmaharjan/",
         "handle": ""
       },
       {
+        "icon": "fab fa-twitter",
         "link": "https://twitter.com/maharjanjoseph",
         "handle": ""
       },
       {
+        "icon": "fab fa-instagram",
         "link": "https://instagram.com/josephmaharjan",
         "handle": ""
       }

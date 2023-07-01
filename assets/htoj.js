@@ -13,7 +13,11 @@ function extractContactDetails(contactElement) {
   const contactLinks = contactElement.find('a')
 
   contactLinks.each((index, link) => {
-    const iconElement = $(link).prev() || $(link).find('i')
+    const iconElement = $(link)
+      .prev()
+      .is('i')
+      ? $(link).prev('i')
+      : $(link).find('i')
     const icon = iconElement.attr('class')
     const url = $(link).attr('href')
     const handle = $(link)

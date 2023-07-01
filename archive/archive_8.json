@@ -1193,14 +1193,17 @@
     "name": "Elias Inácio",
     "contacts": [
       {
+        "icon": "fab fa-twitter",
         "link": "https://www.twitter.com/eliasinacio_1",
         "handle": "eliasinacio_1"
       },
       {
+        "icon": "fab fa-github",
         "link": "http://github.com/eliasinacio",
         "handle": "eliasinacio"
       },
       {
+        "icon": "fab fa-codepen",
         "link": "http://codepen.io/eliasinacio",
         "handle": "eliasinacio"
       }
