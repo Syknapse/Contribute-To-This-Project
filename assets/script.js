@@ -140,19 +140,20 @@ function searchCard() {
   }
 }
 
-// Get the button:
-let mybutton = document.getElementById('myBtn')
+// Get the button
+let topButton = document.getElementById('topButton')
 
 // When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {
+  // TODO this is very excessive, it fires all the time when a user is scrolling
+  // We need to debounce or find a more economic way to trigger button show
   scrollFunction()
 }
-
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mybutton.style.display = 'flex'
+    topButton.style.display = 'flex'
   } else {
-    mybutton.style.display = 'none'
+    topButton.style.display = 'none'
   }
 }
 
@@ -161,3 +162,5 @@ function topFunction() {
   document.body.scrollTop = 0 // For Safari
   document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
 }
+
+topButton.addEventListener('click', topFunction)
