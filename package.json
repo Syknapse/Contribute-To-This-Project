@@ -11,7 +11,8 @@
   },
   "scripts": {
     "prettier-html": "yarn prettier --write index.html",
-    "archive_cards": "node archive/archive_cards_script.js"
+    "archive_cards": "node archive/archive_cards_script.js",
+    "clean": "node archive/clean.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
