@@ -8,7 +8,7 @@ const path = require('path')
 const cheerio = require('cheerio')
 
 // Path to file with cards to be archived
-const htmlFile = `test_index.html`
+const htmlFile = `index.html`
 // Path to directory to store created json archive
 const archiveDir = 'archive/cards'
 // Path to file where number of files in archive directory is saved
@@ -71,7 +71,7 @@ function extractResourceDetails(resourcesElement) {
 function saveCardsAsJSON(cards, filePath, num) {
   const jsonData = JSON.stringify(cards, null, 2)
   fs.writeFileSync(filePath, jsonData)
-  console.log('\u{1F4C2} Created archive_' + num + '.json')
+  console.log(`\u{1F4C2} Created archive_${num}.json`)
 }
 
 // Delete selected cards from the index.html file
@@ -82,7 +82,7 @@ function deleteCardsFromHTML(selectedCards) {
 
   const updatedHTML = $.html()
   fs.writeFileSync(htmlFile, updatedHTML)
-  console.log('\u{1F6AE} Deleted cards from ' + htmlFile)
+  console.log(`\u{1F6AE} Deleted cards from ${htmlFile}`)
 }
 
 // Update the archiveFilesTotal.js file
@@ -91,7 +91,7 @@ function updateScriptFile(archiveFilesTotal, nextNumber) {
 
   const updatedScript = scriptFile.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${nextNumber}`)
   fs.writeFileSync(archiveFilesTotal, updatedScript)
-  console.log('\u{1F4C3} Updated ' + archiveFilesTotal)
+  console.log(`\u{1F4C3} Updated ${archiveFilesTotal}`)
 }
 
 // Read the HTML file
@@ -105,7 +105,7 @@ const cardElements = $('.card')
 const cardsCount = cardElements.length
 
 if (cardsCount <= minimumCardCount) {
-  return console.log('\u{1F6D1} There are fewer than 10 cards in index.html. Please try again later.')
+  return console.log(`\u{1F6D1} There are fewer than 10 cards in ${htmlFile}. Please try again later.`)
 } else {
   // Exclude the first 10 cards + template card
   const selectedCards = cardElements.slice(minimumCardCount)
