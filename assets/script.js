@@ -6,11 +6,12 @@ let displayNumber = 0
 
 // Create an array of ascending numbers corresponding with the number of archive files
 const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
+const archiveCardsDirectory = './archive/cards'
 
 // Import all archived cards and insert into the DOM
 numberOfFilesArray.forEach(number => {
   // Fetch each JSON archive file based on its number
-  fetch(`../archive/cards/archive_${number}.json`)
+  fetch(`${archiveCardsDirectory}/archive_${number}.json`)
     .then(response => response.json())
     .then(data => {
       // For each file iterate over the data and create an array of the HTML card template
