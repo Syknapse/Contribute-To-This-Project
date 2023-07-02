@@ -1,13 +1,22 @@
+// Run this script with `node archive/archive_cards_script.js` or `npm run archive_cards`
+// This script will copy all the .cards elements in index.html. It will leave the first 11 cards (template + 10 cards) and convert all the remainder into json format.
+// It will create a new json file called archive_[number].json incrementing number by 1, it will copy the json cards there.
+// It will then remove the cards from the html file.
+// Finally it will update a special file called archiveFilesTotal which is used by script js to iterate over all the archive files
 const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const htmlFile = `index.html`
-const archiveDir = 'archive'
-const script = 'assets/archive.js'
-const requiredcardCount = 11
+// Path to file with cards to be archived
+const htmlFile = `test_index.html`
+// Path to directory to store created json archive
+const archiveDir = 'archive/cards'
+// Path to file where number of files in archive directory is saved
+const archiveFilesTotal = 'archive/archiveFilesTotal.js'
+// Number of cards to keep in index.html
+const minimumCardCount = 11
 
-// Function to extract contact details
+// Extract contact details
 function extractContactDetails(contactElement) {
   const contactDetails = []
   const contactLinks = contactElement.find('a')
@@ -34,7 +43,7 @@ function extractContactDetails(contactElement) {
   return contactDetails
 }
 
-// Function to extract resource details
+// Extract resource details
 function extractResourceDetails(resourcesElement) {
   const resources = []
   const resourceElements = resourcesElement.find('li')
@@ -58,14 +67,14 @@ function extractResourceDetails(resourcesElement) {
   return resources
 }
 
-// Function to save cards in a JSON file
+// Save cards in a JSON file
 function saveCardsAsJSON(cards, filePath, num) {
   const jsonData = JSON.stringify(cards, null, 2)
   fs.writeFileSync(filePath, jsonData)
   console.log('\u{1F4C2} Created archive_' + num + '.json')
 }
 
-// Function to delete selected cards from the index.html file
+// Delete selected cards from the index.html file
 function deleteCardsFromHTML(selectedCards) {
   selectedCards.each((index, element) => {
     $(element).remove()
@@ -76,13 +85,13 @@ function deleteCardsFromHTML(selectedCards) {
   console.log('\u{1F6AE} Deleted cards from ' + htmlFile)
 }
 
-// Function to update the script.js file
-function updateScriptFile(script, nextNumber) {
-  const scriptFile = fs.readFileSync(script, 'utf-8')
+// Update the archiveFilesTotal.js file
+function updateScriptFile(archiveFilesTotal, nextNumber) {
+  const scriptFile = fs.readFileSync(archiveFilesTotal, 'utf-8')
 
   const updatedScript = scriptFile.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${nextNumber}`)
-  fs.writeFileSync(script, updatedScript)
-  console.log('\u{1F4C3} Updated ' + script)
+  fs.writeFileSync(archiveFilesTotal, updatedScript)
+  console.log('\u{1F4C3} Updated ' + archiveFilesTotal)
 }
 
 // Read the HTML file
@@ -93,18 +102,18 @@ const $ = cheerio.load(html)
 
 // Fetch all the cards
 const cardElements = $('.card')
-const cardCount = cardElements.length
+const cardsCount = cardElements.length
 
-if (cardCount < requiredcardCount) {
-  return console.log("\u{1F6D1} It's not the right time to archive the cards. Please try again later.")
+if (cardsCount <= minimumCardCount) {
+  return console.log('\u{1F6D1} There are fewer than 10 cards in index.html. Please try again later.')
 } else {
-  // Exclude the first 10 cards
-  const selectedCards = cardElements.slice(10)
+  // Exclude the first 10 cards + template card
+  const selectedCards = cardElements.slice(minimumCardCount)
 
   // Convert selected cards to JSON
   const jsonCards = convertToJSON(selectedCards)
 
-  // Function to convert cards to JSON format
+  // Convert cards to JSON format
   function convertToJSON(cards) {
     // Array to store the card objects
     const jsonCards = []
@@ -151,8 +160,8 @@ if (cardCount < requiredcardCount) {
   // Delete selected cards from index.html
   deleteCardsFromHTML(selectedCards)
 
-  // Update the script.js file
-  updateScriptFile(script, nextNumber)
+  // Update the archiveFilesTotal.js file
+  updateScriptFile(archiveFilesTotal, nextNumber)
 
   console.log('\u{1F4AF} Conversion complete!')
 }
