@@ -1,3 +1,4 @@
+<!-- DEPRECATED this is the old archiving method. No longer in use -->
 # Archive cards
 
 We use this folder to store older cards submitted by our contributors.  
