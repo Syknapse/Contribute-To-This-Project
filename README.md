@@ -12,9 +12,8 @@
 
 ---
 
-> ## **Announcement:**
->
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+### **Announcement**
+Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
 ---
 
@@ -22,7 +21,6 @@
 
 #### Overview
 
-- [Announcements](#announcement)
 - [Introduction](#introduction)
 - [Who is this for?](#who-is-this-for)
 - [Why do I need to do this?](#why-do-i-need-to-do-this)
