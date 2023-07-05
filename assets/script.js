@@ -15,13 +15,15 @@ numberOfFilesArray.forEach(number => {
     .then(response => response.json())
     .then(data => {
       // For each file iterate over the data and create an array of the HTML card template
+      const file = `archive_${number}.json`
+      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/cards/${file}`
       const cards = data
         .map(card => {
           const { name, contacts, about, resources } = card
           // Insert each user data into the template
           return `
             <div class="card">
-            <!-- Fetched from Archive: ${archiveCardsDirectory}/archive_${number}.json -->
+            <!-- Fetched from Archive: ${file} -->
               <p class="name">${name}</p>
               <p class="contact">
               ${contacts
@@ -48,6 +50,7 @@ numberOfFilesArray.forEach(number => {
                   .join('')}
                 </ul>
               </div>
+              <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
             </div>
           `
         })
