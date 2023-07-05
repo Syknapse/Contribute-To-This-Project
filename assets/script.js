@@ -21,6 +21,7 @@ numberOfFilesArray.forEach(number => {
           // Insert each user data into the template
           return `
             <div class="card">
+            <!-- Fetched from Archive: ${archiveCardsDirectory}/archive_${number}.json -->
               <p class="name">${name}</p>
               <p class="contact">
               ${contacts
