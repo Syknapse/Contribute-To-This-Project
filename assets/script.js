@@ -50,7 +50,7 @@ numberOfFilesArray.forEach(number => {
                   .join('')}
                 </ul>
               </div>
-              <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
+              <!-- <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p> -->
             </div>
           `
         })
