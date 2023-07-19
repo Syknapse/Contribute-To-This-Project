@@ -1,13 +1,79 @@
+import numberOfFiles from '../archive/archiveFilesTotal.js'
+
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
 
-// show up there are too many cards
+// Create an array of ascending numbers corresponding with the number of archive files
+const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
+const archiveCardsDirectory = './archive/cards'
+
+// Import all archived cards and insert into the DOM
+numberOfFilesArray.forEach(number => {
+  // Fetch each JSON archive file based on its number
+  fetch(`${archiveCardsDirectory}/archive_${number}.json`)
+    .then(response => response.json())
+    .then(data => {
+      const file = `archive_${number}.json`
+      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/cards/${file}`
+      // For each file iterate over the data and create an array of the HTML card template
+      const cards = data
+        .map(card => {
+          const { name, contacts, about, resources } = card
+          // Insert each user data into the template
+          return `
+            <div class="card">
+            <!-- Fetched from Archive: ${file} -->
+              <p class="name">${name}</p>
+              <p class="contact">
+              ${contacts
+                .map(
+                  contact => `
+                    <i class="${contact.icon}"></i>
+                    <a href="${contact.link}" target="_blank">${contact.handle}</a>
+                    `
+                )
+                .join('')}
+              </p>
+              <p class="about">${about}</p>
+              <div class="resources">
+                <p>3 Useful Dev Resources</p>
+                <ul>
+                ${resources
+                  .map(
+                    resource => `
+                    <li>
+                      <a href="${resource.link}" target="_blank" title="${resource.title}">${resource.text}</a>
+                    </li>
+                  `
+                  )
+                  .join('')}
+                </ul>
+              </div>
+              <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
+            </div>
+          `
+        })
+        .join('')
+      const grid = document.getElementById('contributions')
+      // Add the cards to the grid
+      grid.innerHTML += cards
+    })
+    .catch(error => {
+      console.error('Error importing archive JSON files:', error)
+    })
+    .finally(() => countUp())
+})
+
+// Prompt to archive when there are too many cards
 const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
   console.info('Cards in index.html', cardsInIndex)
-  if (cardsInIndex > 100) console.warn('Too many cards in index.html. Move older cards to archive.', cardsInIndex)
+  if (cardsInIndex > 100)
+    console.warn(
+      `Too many cards in index.html: ${cardsInIndex}. Run the archive_cards script. Follow instructions in archive/archiving_cards_guide`
+    )
 }
 showInfoInConsole()
 
@@ -27,40 +93,6 @@ const countUp = () => {
   }, 15)
 }
 
-// adding the archive cards to the grid
-const createArchiveObject = i => {
-  const container = document.querySelector('.container')
-  const archiveObject = document.createElement('object')
-  archiveObject.setAttribute('id', `archiveObject_${i}`)
-  archiveObject.setAttribute('data', `archive/archive_${i}.html`)
-  archiveObject.setAttribute('type', 'text/html')
-  archiveObject.setAttribute('width', '300')
-  archiveObject.setAttribute('height', '5000')
-  container.append(archiveObject)
-}
-const NUMBER_OF_FILES = 18
-let current = 1
-const getArchiveCards = i => {
-  createArchiveObject(i)
-
-  document.getElementById(`archiveObject_${i}`).onload = function() {
-    const archiveObject = document.getElementById(`archiveObject_${i}`)
-    const cards = archiveObject.contentDocument.querySelectorAll('.card')
-    const grid = document.querySelector('.grid')
-
-    cards.forEach(card => grid.append(card))
-    archiveObject.remove()
-
-    if (current < NUMBER_OF_FILES) {
-      current++
-      getArchiveCards(current)
-    }
-    countUp()
-  }
-}
-
-getArchiveCards(current)
-
 // night mode feature
 document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
   if (e.target.checked) {
@@ -76,59 +108,60 @@ const currentYear = new Date().getFullYear()
 currentYearSpan.innerText = currentYear
 
 // Search bar
-const searchBar = document.getElementById('searchbar')
-searchBar.addEventListener('input', searchCard)
+// const searchBar = document.getElementById('searchbar')
+// searchBar.addEventListener('input', searchCard)
 
-function clearSearchHighlights() {
-  const marks = Array.from(document.querySelectorAll('mark'))
-  if (marks.length > 0) {
-    marks.forEach(mark => {
-      mark.outerHTML = mark.innerText
-    })
-  }
-}
+// function clearSearchHighlights() {
+//   const marks = Array.from(document.querySelectorAll('mark'))
+//   if (marks.length > 0) {
+//     marks.forEach(mark => {
+//       mark.outerHTML = mark.innerText
+//     })
+//   }
+// }
 
-function applyHighlightToSearchResults(value, card) {
-  const regex = new RegExp(value, 'gi')
-  const cardElements = Array.from(card.querySelectorAll('*'))
-  const matches = cardElements.filter(
-    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
-  )
+// function applyHighlightToSearchResults(value, card) {
+//   const regex = new RegExp(value, 'gi')
+//   const cardElements = Array.from(card.querySelectorAll('*'))
+//   const matches = cardElements.filter(
+//     element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
+//   )
 
-  if (value && value.length > 0) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
-  }
-}
+//   if (value && value.length > 0) {
+//     matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
+//   }
+// }
 
-function searchCard() {
-  let input = searchBar.value.toLowerCase()
-  const cards = document.getElementsByClassName('card')
+// function searchCard() {
+//   let input = searchBar.value.toLowerCase()
+//   const cards = document.getElementsByClassName('card')
 
-  clearSearchHighlights()
+//   clearSearchHighlights()
 
-  for (i = 0; i < cards.length; i++) {
-    if (!cards[i].textContent.toLowerCase().includes(input)) {
-      cards[i].style.display = 'none'
-    } else {
-      cards[i].style.display = 'flex'
-      applyHighlightToSearchResults(input, cards[i])
-    }
-  }
-}
+//   for (let i = 0; i < cards.length; i++) {
+//     if (!cards[i].textContent.toLowerCase().includes(input)) {
+//       cards[i].style.display = 'none'
+//     } else {
+//       cards[i].style.display = 'flex'
+//       applyHighlightToSearchResults(input, cards[i])
+//     }
+//   }
+// }
 
-// Get the button:
-let mybutton = document.getElementById('myBtn')
+// Get the button
+let topButton = document.getElementById('topButton')
 
 // When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {
+  // TODO this is very excessive, it fires all the time when a user is scrolling
+  // We need to debounce or find a more economic way to trigger button show
   scrollFunction()
 }
-
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    mybutton.style.display = 'flex'
+    topButton.style.display = 'flex'
   } else {
-    mybutton.style.display = 'none'
+    topButton.style.display = 'none'
   }
 }
 
@@ -137,3 +170,5 @@ function topFunction() {
   document.body.scrollTop = 0 // For Safari
   document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
 }
+
+topButton.addEventListener('click', topFunction)
