@@ -6,10 +6,6 @@
 
 Цей посібник також доступний на [інших мовах](/translations/translation.md)
 
-| [English](/maintainer_guide.md)   | [Bangla](/translations/maintainer_guide/maintainer_guide.ben.md) | [German](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](/translations/maintainer_guide/maintainer_guide.jpn.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Portuguese](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
-
 > Вітаються переклади проєктної документації. Прочитайте ['Посібник з перекладу'](/translations/translation.md), щоб зробити свій внесок.
 
 ---
@@ -60,7 +56,7 @@
 npx prettier --write index.html
 ```
 
-Це повинно спробувати відформатувати файл, і якщо це не може бути зроблено, то покаже вам помилки. Іноді відсутній закриваючий тег або зламаний HTML об'єднується помилково, і це хороший спосіб виявити та виправити це.
+Це повинно спробувати відформатувати файл, і якщо це не може бути зроблено, то покаже вам помилки. Іноді відсутній закриваючий тег або зламаний HTML об'єднується помилково, і це хороший спосіб виявити та виправити помилки.
 
 Якщо ви коли-небудь сумніваєтеся, ви завжди можете згадати мене або інших супроводжувачів у самому PR або надіслати мені повідомлення на [Twitter](https://twitter.com/Syknapse).
 
