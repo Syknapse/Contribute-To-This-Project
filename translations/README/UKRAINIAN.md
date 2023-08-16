@@ -80,15 +80,15 @@
 
 ### Переклади
 
-Цей посібник також доступний на [інших мовах](translations/translation.md)
+Цей посібник також доступний на [інших мовах](/translations/translation.md)
 
-|     [Arabic](translations/README/ARABIC.md)     |  [Bangla](translations/README/BANGLA.md)  |            [English](README.md)             |  [French](translations/README/FRENCH.md)  |  [German](translations/README/German.md)  |
+|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|      [Hindi](translations/README/HINDI.md)      | [Italian](translations/README/ITALIAN.md) | [Japanese](translations/README/JAPANESE.md) |  [Korean](translations/README/KOREAN.md)  |  [Polish](translations/README/POLISH.md)  |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Russian](translations/README/RUSSIAN.md) |  [Serbian](translations/README/SERBIAN.md)  | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) |
-|  [Ukrainian](translations/README/UKRAINIAN.md)  |
+|      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
+| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
+|  [Ukrainian](/translations/README/UKRAINIAN.md)  |
 
-> Вітаються переклади проєктної документації. Прочитайте ['Посібник з перекладу'](translations/translation.md), щоб зробити свій внесок.
+> Вітаються переклади проєктної документації. Прочитайте ['Посібник з перекладу'](/translations/translation.md), щоб зробити свій внесок.
 
 ---
 
