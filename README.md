@@ -1,6 +1,6 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![image info](favicon.png)
+![image info](/favicon.png)
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
@@ -14,7 +14,7 @@
 
 > ## **Announcement:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
 ---
 
@@ -70,7 +70,7 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 
 ### What am I going to contribute?
 
-![Contributor Card](readme-only/card.PNG 'Contributor Card')
+![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
@@ -80,14 +80,15 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 ### Translations
 
-This tutorial is also available in [other languages](translations/translation.md)
+This tutorial is also available in [other languages](/translations/translation.md)
 
-|     [Arabic](translations/README/ARABIC.md)     |  [Bangla](translations/README/BANGLA.md)  |            [English](README.md)             |  [French](translations/README/FRENCH.md)  |  [German](translations/README/German.md)  |
+|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|      [Hindi](translations/README/HINDI.md)      | [Italian](translations/README/ITALIAN.md) | [Japanese](translations/README/JAPANESE.md) |  [Korean](translations/README/KOREAN.md)  |  [Polish](translations/README/POLISH.md)  |
-| [Portuguese](translations/README/PORTUGUESE.md) | [Russian](translations/README/RUSSIAN.md) |  [Serbian](translations/README/SERBIAN.md)  | [Spanish](translations/README/SPANISH.md) | [Turkish](translations/README/TURKISH.md) |
+|      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
+| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
+| [Ukrainian](/translations/README/UKRAINIAN.md) |
 
-> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
+> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
 
 ---
 
@@ -99,7 +100,7 @@ First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](terminal-tutorial.md).
+   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
@@ -121,7 +122,7 @@ _Estimated time: Less than 30 minutes_.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
 - Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
-| ![Fork](readme-only/fork.png "click on 'Fork'") |
+| ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :---------------------------------------------: |
 |         **Click on the _Fork_ button**          |
 
@@ -136,7 +137,7 @@ _Estimated time: Less than 30 minutes_.
 - Now we want to make a local copy of the project. That is a copy saved on your own machine.
 - Open the GitHub desktop app. In the app:
 
-| ![Clone](readme-only/clone.PNG 'click clone repository') |
+| ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :------------------------------------------------------: |
 |       **Click on _File_ then _Clone repository_**        |
 
@@ -144,10 +145,10 @@ _Estimated time: Less than 30 minutes_.
 - Select `<your-github-username>/Contribute-To-This-Project`.
 - Click _Clone_
 
-| ![Clone project](readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
+| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
 | :----------------------------------------------------------------------------------------------------------: |
 
-| :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
+| :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
 | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
 - This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
@@ -162,10 +163,10 @@ _Estimated time: Less than 30 minutes_.
 - Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
 - You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
 - Now you have created a new branch separate from the master.
@@ -184,7 +185,7 @@ _Estimated time: Less than 30 minutes_.
 - The `index.html` file is directly in the `Contribute-To-This-Project` folder.
 - Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project
 
-|                  ![Open index file](readme-only/index-open.PNG 'Open index.html in your text editor')                   |
+|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Alternatively you can locate the file on your hard drive, right click, and open with your editor** |
 
@@ -200,14 +201,14 @@ _Estimated time: Less than 30 minutes_.
 - At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
-| ![Copy card template](readme-only/card-copy.PNG 'Copy the card template') |
+| ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
 | :-----------------------------------------------------------------------: |
 
 - Paste the whole thing directly below the comment indicating it
 - Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
-| ![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line') |
+| ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
 | :---------------------------------------------------------------------------------: |
 
 - This now is **your** card for you to customize and edit.
@@ -220,20 +221,20 @@ _Estimated time: Less than 30 minutes_.
 
 - We'll now start editing html, changing the customizable fields in our card.
 
-| :arrow_right_hook: Replace 'Name' with your name | ![Change name](readme-only/change-name.PNG 'Type your name') |
+| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
 | :----------------------------------------------- | :----------------------------------------------------------: |
 
 - **Note: Don't change `class="name"`**
 
-| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
 - If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
-|                                                                                                                                         ![Change about](readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
+|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
-|                                                                                                              ![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
 | :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
 - **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
@@ -254,12 +255,12 @@ _Estimated time: Less than 30 minutes_.
 - This means that Git has recorded all the **saved** changes.
 - You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 
-|                                                                                                  ![Commit changes](readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
+|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: The next step is called _`Commit`_. This roughly means `confirm the changes` |
-|                                                                                              ![Commit changes](readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
+|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
 |                                                                            :arrow_right_hook: **This is what your GitHub desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, Your `Current branch` will have the name you gave it in step 3**                                                                            |
-|                                                                                                                  ![Write commit message and commit](readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
+|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
 | :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
 
 [↑ Go to top ↑](#quick-access-index)
@@ -271,7 +272,7 @@ _Estimated time: Less than 30 minutes_.
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
-| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
@@ -289,17 +290,17 @@ _Estimated time: Less than 30 minutes_.
 - Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
 
-|  ![Submit a Pull Request](readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
+|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                    :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
-| ![Open a Pull Request](readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
+| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
 |                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
 
 - REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
 - The image below gives you an idea of how the header of your pull request should look like.
 - On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
 
-|                   ![Submit a Pull Request](readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
+|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Create a pull request: Write a title, Add optional information in the description and Click on `Create pull request`** |
 
@@ -337,7 +338,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](/maintainer_guide.md).
 
 [↑ Go to top ↑](#quick-access-index)
 
