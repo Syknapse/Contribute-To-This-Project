@@ -1,6 +1,6 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![image info](favicon.png)
+![image info](/favicon.png)
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
@@ -14,72 +14,101 @@
 
 > ## **Announcement:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
 
 ---
 
-### Translations
+### Quick access index
 
-This tutorial is also available in [other languages](translations/translation.md)
+#### Overview
 
-| [English](terminal-tutorial.md) | [Bangla](translations/terminal_tutorial/terminal_tutorial.ben.md) |
-| :---: | :----: | :----------: |
+- [Announcements](#announcement)
+- [Introduction](#introduction)
+- [Who is this for?](#who-is-this-for)
+- [Why do I need to do this?](#why-do-i-need-to-do-this)
+- [What am I going to contribute to?](#what-am-i-going-to-contribute)
+- [Translations](#translations)
+- [Setup](#setup-)
+- [Next Steps](#next-steps)
+- [Acknowledgements](#acknowledgements)
 
-> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/translation.md) to contribute.
+#### Steps
+
+- [Setup](#setup)
+- [Contribute](#contribute)
+- [Step 1 - Forking](#step-1-fork-this-repository)
+- [Step 2 - Cloning](#step-2-clone-the-repository)
+- [Step 3 - Creating a new branch](#step-3-create-a-new-branch)
+- [Step 4 - Opening the main html file](#step-4-open-the-indexhtml-file)
+- [Step 5 - Copying the card template](#step-5-copy-the-card-template)
+- [Step 6 - Applying your changes](#step-6-apply-your-changes)
+- [Step 7 - Committing](#step-7-commit-your-changes)
+- [Step 8 - Pushing to GitHub](#step-8-push-your-changes-to-github)
+- [Step 9 - Submit a PR](#step-9-submit-a-prpull-request)
+- [Step 10 - Celebrate](#step-10-celebrate)
 
 ---
 
 ## Introduction
 
-Here we will learn how to contribute in this project or in GitHub/Git with _Terminal_. This is a tutorial to help first-time contributors to participate in a simple and easy project.
-
-### Contribution Steps
-
-- [Setup](#setup)
-- [Step 1 Fork This Repository](#step-1-fork-this-repository)
-- [Step 2 Clone the repository](#step-2-clone-the-repository)
-- [Step 3 Create a new branch](#step-3-create-a-new-branch)
-- [Step 4 Open the index.html file](#step-4-open-the-indexhtml-file)
-- [Step 5 Copy the card template](#step-5-copy-the-card-template)
-- [Step 6 Apply your changes](#step-6-apply-your-changes)
-- [Step 7 Commit your changes](#step-7-commit-your-changes)
-- [Step 8 Push your changes to github](#step-8-push-your-changes-to-github)
-- [Step 9 Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
-- [Step 10 Celebrate](#step-10-celebrate)
-- [Next Steps](#next-steps)
-- [Aknowledgements](#acknowledgements)
+Here we will learn how to contribute in this project or in GitHub/Git with _Terminal_.
+This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
 ---
 
-#### Setup
+### Translations
 
-First let's get setup to do the work.
-If you're not good with the command line interface [here is the GUI tutorial using github desktop](./README.md)
+This tutorial is also available in [other languages](/translations/translation.md)
 
-- If you don't have git, [install it from here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+| [English](/terminal-tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) |
+| :---: | :----: | :----------: |
+
+> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
 
 ---
 
-#### Step 1 Fork this repository
+### Setup! :)
+
+Note: If you're not good with the command line interface [here is the GUI tutorial using GitHub Desktop](/README.md)
+
+First let's get setup to do the work
+
+1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
+2. If you don't have git, [install it from here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+> Now that you are all setup let's get on with the business of contributing to the project.
+
+[↑ Go to top ↑](#quick-access-index)
+
+---
+
+### Contribute
+
+Become an open source contributor in 10 easy steps.
+
+_Estimated time: Less than 30 minutes_.
+
+#### Step 1: Fork this repository
 
 - The objective here is to make a copy of this project and place it in your account.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
 - Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
-| Click on the _Fork_ button | ![Fork](readme-only/fork.png "click on 'Fork'") |
-| :------------------------- | ----------------------------------------------: |
+| ![Fork](/readme-only/fork.png "click on 'Fork'") |
+| :---------------------------------------------: |
+|         **Click on the _Fork_ button**          |
 
 - You now have a complete copy of the project in your own account.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 2 Clone the repository
+#### Step 2: Clone the repository
 
-![Clone](readme-only/clone-terminal.png)
+- Now we want to make a local copy of the project. That is a copy saved on your own machine.
 
-Now we want to make a local copy of the project. That is a copy saved on your own machine.
+![Clone](/readme-only/clone-terminal.png)
 
 - Now clone this repo to your machine. Click on the clone button and then click the copy to clipboard icon.
 - A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
@@ -98,11 +127,11 @@ git clone https://github.com/$Username/Contribute-To-This-Project.git
 
 where `$Username` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 3 Create a new branch
+#### Step 3: Create a new branch
 
 Change to the repository directory on your computer (if you are not already there):
 
@@ -124,16 +153,16 @@ git checkout -b add-$Username-card
 
 Note: Change `$Username` with your GitHub account Username.
 
-**Do NOT work on the `master` branch**
-
 - Now you have created a new branch separate from the master.
 - For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the bottom left of the text editor youre using where it says `$Username-card` as your branch name.
 
-[↑ Go to top ↑](#contribution-steps)
+**Do NOT work on the `master` branch**
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 4 Open the index.html file
+#### Step 4: Open the index.html file
 
 Now we need to open the file we are going to edit with your favourite code editor. We are using [VSCode](https://code.visualstudio.com/) as our preferred code editor.
 
@@ -147,49 +176,51 @@ code index.html
 
 Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 
-[↑ Go to top ↑](#contribution-steps)
+- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 5 Copy the card template
+#### Step 5: Copy the card template
 
 We will now make a copy of our card templates and make changes to it
 
 - **At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`**
 - **Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment**
 
-![Copy card template](readme-only/card-copy.PNG 'Copy the card template')
+![Copy card template](/readme-only/card-copy.PNG 'Copy the card template')
 
 - **Paste the whole thing directly below the comment indicating it**
 - **Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible**
 - **Never use a linters or style formatters. The project has Prettier setup**
 
-![Paste card template](readme-only/card-paste.PNG 'Paste below the indicated line')
+![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line')
 
 - This now is **your** card for you to customize and edit.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 6 Apply your changes
+#### Step 6: Apply your changes
 
 We'll now start editing html, changing the customizable fields in our card.
 
-![Change-Name](readme-only/change-name.PNG)
+![Change-Name](/readme-only/change-name.PNG)
 
 - **Replace 'Name' with your name**
 - **Note: Don't change `class="name"`**
 - **Insert the URL of your Twitter account `href="Insert URL here"`**
 - **Type your handle in the text field**
 
-![Change-Contact](readme-only/change-contact.PNG)
+![Change-Contact](/readme-only/change-contact.PNG)
 
 - **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.**
 
 > Tell us something about you
 
-![Change-About](readme-only/change-about.PNG)
+![Change-About](/readme-only/change-about.PNG)
 
 - **Keep it short and sweet. Think about it more like a tweet than a blog post**
 
@@ -197,7 +228,7 @@ We'll now start editing html, changing the customizable fields in our card.
 - **This can be anything, a video, a talk, a podcast, an article, a reference, or a tool**
 - **If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit**
 
-![Change resources](readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')
+![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')
 
 - **Link: Insert the link `href="here"` replacing the `#`**
 - **Title: Write a brief description `title="here"`**
@@ -207,11 +238,11 @@ We'll now start editing html, changing the customizable fields in our card.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 7 Commit your changes
+#### Step 7: Commit your changes
 
 - Now open the terminal in your project directory and run `git status` and you'll notice that there are no changes made in git.
 - You can add those changes you made using the `git-add` command
@@ -228,11 +259,11 @@ git commit -m "Add $Username card info"
 
 - Replacing `$Username` with your Github Username.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 8 Push your changes to github
+#### Step 8: Push your changes to GitHub
 
 - Now that youve commited your changes, they are only saved locally in your local computer.
 - Synchronizing local changes with your repository on GitHub is called a `Push`. You are "pushing" the changes from your local repository to the remote repository on GitHub.
@@ -246,21 +277,20 @@ git push -u origin $Username-card
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 9 Submit a PR(Pull Request)
+#### Step 9: Submit a PR(Pull Request)
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
 - Now it's time to send your changes to the main project to be merged with it.
 - This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
-
 - Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
 
-![Pull-Request](readme-only/pull-request.PNG)
+![Pull-Request](/readme-only/pull-request.PNG)
 
 - **Click on the `Compare and pull request`**
 - **This is what the `Open a pull request` page looks like.**
@@ -268,19 +298,19 @@ git push -u origin $Username-card
 - **The image below gives you an idea of how the header of your pull request should look like.**
 - **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
 
-![Submit a Pull Request](readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
+![Submit a Pull Request](/readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
 
-![PR-Open](readme-only/pull-request-open.PNG)
+![PR-Open](/readme-only/pull-request-open.PNG)
 
 - Don't be fazed by all the options. You only need to do these three steps for now.
 - Leave the option `Allow edits from maintainers` ticked.
 - Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-#### Step 10 Celebrate
+#### Step 10: Celebrate
 
 That's it. You have done it! You have now contributed to open source on GitHub.
 
@@ -290,9 +320,9 @@ Your changes **won't be visible immediately**; first they have to be reviewed, a
 
 It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
 
-We promise we will try to review and merge as soon as possible but we do this in our spare time, so a few days delay is inevitable.
+I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -300,14 +330,15 @@ We promise we will try to review and merge as soon as possible but we do this in
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
+- You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 - You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](maintainer_guide.md).
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](/maintainer_guide.md).
 
-[↑ Go to top ↑](#contribution-steps)
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
@@ -321,6 +352,6 @@ It is also particularly inspired by the great community around [#GoogleUdacitySc
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[Back to the top &uparrow;](#introduction)
+[↑ Go to top ↑](#quick-access-index)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
