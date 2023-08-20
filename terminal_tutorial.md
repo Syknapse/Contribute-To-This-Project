@@ -34,7 +34,6 @@
 
 #### Steps
 
-- [Setup](#setup)
 - [Contribute](#contribute)
 - [Step 1 - Forking](#step-1-fork-this-repository)
 - [Step 2 - Cloning](#step-2-clone-the-repository)
@@ -84,7 +83,7 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/translation.md)
 
-| [English](/terminal-tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) |
+| [English](/terminal-tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | :----------: |
 | :---: | :----: | :----------: |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
