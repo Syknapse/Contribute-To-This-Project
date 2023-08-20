@@ -54,6 +54,30 @@
 Here we will learn how to contribute in this project or in GitHub/Git with _Terminal_.
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
+### Objectives
+
+- Make a contribution to an open source project.
+- Get more comfortable in using GitHub.
+
+### Who is this for?
+
+- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
+- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+
+### Why do I need to do this?
+
+Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
+
+If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+
+### What am I going to contribute?
+
+![Contributor Card](/readme-only/card.PNG 'Contributor Card')
+
+You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+
+You will make a copy of the card template inside the HTML file and customize it with your own information.
+
 ---
 
 ### Translations
@@ -184,18 +208,19 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 
 #### Step 5: Copy the card template
 
-We will now make a copy of our card templates and make changes to it
+- We will make a copy of the card template to start working on it
+- At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
+- Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
-- **At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`**
-- **Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment**
+| ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
+| :-----------------------------------------------------------------------: |
 
-![Copy card template](/readme-only/card-copy.PNG 'Copy the card template')
+- Paste the whole thing directly below the comment indicating it
+- Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
+- Never use a linters or style formatters. The project has Prettier setup
 
-- **Paste the whole thing directly below the comment indicating it**
-- **Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible**
-- **Never use a linters or style formatters. The project has Prettier setup**
-
-![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line')
+| ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
+| :---------------------------------------------------------------------------------: |
 
 - This now is **your** card for you to customize and edit.
 
@@ -205,35 +230,27 @@ We will now make a copy of our card templates and make changes to it
 
 #### Step 6: Apply your changes
 
-We'll now start editing html, changing the customizable fields in our card.
+- We'll now start editing html, changing the customizable fields in our card.
 
-![Change-Name](/readme-only/change-name.PNG)
+| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
+| :----------------------------------------------- | :----------------------------------------------------------: |
 
-- **Replace 'Name' with your name**
 - **Note: Don't change `class="name"`**
-- **Insert the URL of your Twitter account `href="Insert URL here"`**
-- **Type your handle in the text field**
 
-![Change-Contact](/readme-only/change-contact.PNG)
+| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
-- **If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.**
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
-> Tell us something about you
+|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
+|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+| :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
-![Change-About](/readme-only/change-about.PNG)
-
-- **Keep it short and sweet. Think about it more like a tweet than a blog post**
-
-- **Share with the community 3 links to resources that are useful for web development**
-- **This can be anything, a video, a talk, a podcast, an article, a reference, or a tool**
-- **If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit**
-
-![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')
-
-- **Link: Insert the link `href="here"` replacing the `#`**
-- **Title: Write a brief description `title="here"`**
-- **Name: Write the resource's name in the text field `>here</a>`**
-
+- **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
+- **Title:** Write a brief description `title="here"`.
+- **Name:** Write the resource's name in the text field `>here</a>`.
 - Make sure you have **saved all your changes**.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
@@ -265,8 +282,8 @@ git commit -m "Add $Username card info"
 
 #### Step 8: Push your changes to GitHub
 
-- Now that youve commited your changes, they are only saved locally in your local computer.
-- Synchronizing local changes with your repository on GitHub is called a `Push`. You are "pushing" the changes from your local repository to the remote repository on GitHub.
+- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
+- Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 - We use the `git push` command to push changes to github.
 
 ```bash
@@ -290,17 +307,19 @@ git push -u origin $Username-card
 - Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
 
-![Pull-Request](/readme-only/pull-request.PNG)
+|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                    :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
+| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
+|                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
 
-- **Click on the `Compare and pull request`**
-- **This is what the `Open a pull request` page looks like.**
-- **REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.**
-- **The image below gives you an idea of how the header of your pull request should look like.**
-- **On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.**
+- REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
+- The image below gives you an idea of how the header of your pull request should look like.
+- On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
 
-![Submit a Pull Request](/readme-only/pull-request-branches.PNG "Click on the green button! don't be scared")
-
-![PR-Open](/readme-only/pull-request-open.PNG)
+|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Create a pull request: Write a title, Add optional information in the description and Click on `Create pull request`** |
 
 - Don't be fazed by all the options. You only need to do these three steps for now.
 - Leave the option `Allow edits from maintainers` ticked.
