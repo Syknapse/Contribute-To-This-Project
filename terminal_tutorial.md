@@ -83,8 +83,8 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/translation.md)
 
-| [English](/terminal-tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) |
-| :---: | :----: |
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| :----: | :----: | :----: |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
 
@@ -97,7 +97,7 @@ Note: If you're not good with the command line interface [here is the GUI tutori
 First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-2. If you don't have git, [install it from here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. If you don't have Git, [install it from here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 
 > Now that you are all setup let's get on with the business of contributing to the project.
 
@@ -190,7 +190,6 @@ Note: Change `$Username` with your GitHub account Username.
 Now we need to open the file we are going to edit with your favourite code editor. We are using [VSCode](https://code.visualstudio.com/) as our preferred code editor.
 
 - The `index.html` file is directly in the `Contribute-To-This-Project` folder.
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
 - You can open the file with the following command:
 
 ```bash
