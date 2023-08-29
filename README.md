@@ -14,7 +14,7 @@
 
 > ## **Announcement:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md) and mention any maintainer on our [Discord](https://discord.com/channels/990835113350803498/999243142484213850) server.
 
 ---
 
@@ -338,7 +338,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](/maintainer_guide.md).
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, please mention any of us on our Discord server and read the [maintainer's guide](/maintainer_guide.md).
 
 [↑ Go to top ↑](#quick-access-index)
 
