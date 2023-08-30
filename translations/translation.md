@@ -18,11 +18,11 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## README Translations
 
-| [Arabic](README/ARABIC.md) | [Bangla](README/BANGLA.md) | [English](../README.md) | [French](README/FRENCH.md) | [German](README/German.md) |
+| [Arabic](README/ARABIC.md) | [Bangla](README/BANGLA.md) | [Chinese (Traditional)](README/CHINESE_TRADITIONAL.md) | [English](../README.md) | [French](README/FRENCH.md)
 | :------------------------: | :------------------------: | :---------------------: | :------------------------: | :------------------------: |
-| [Hindi](README/HINDI.md)   | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
+ [German](README/German.md) | [Hindi](README/HINDI.md)   | [Italian](README/ITALIAN.md) | [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   | [Polish](README/POLISH.md)   |
 | [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) | [Serbian](README/SERBIAN.md)   | [Spanish](README/SPANISH.md) | [Turkish](README/TURKISH.md) |
-| [Ukrainian](README/UKRAINIAN.md) | [Traditional Chinese](README/CHINESE_TRADITIONAL.md) |
+| [Ukrainian](README/UKRAINIAN.md) |
 
 ---
 
