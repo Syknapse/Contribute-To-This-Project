@@ -82,11 +82,11 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/translation.md)
 
-|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
+|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  | [Chinese (Traditional)](/translations/README/CHINESE_TRADITIONAL.md) |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
-| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
-| [Ukrainian](/translations/README/UKRAINIAN.md) |
+|  [German](/translations/README/German.md)  |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |
+  [Polish](/translations/README/POLISH.md)  | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) |
+   [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
 
