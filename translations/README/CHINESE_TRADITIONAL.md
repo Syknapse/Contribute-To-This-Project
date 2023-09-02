@@ -94,7 +94,7 @@
 
 ### 設置！ :)
 
-注意：這份教學使用 GitHub PC。 [如果你熟悉使用終端，查看這份教學（點這裡）](/terminal_tutorial.md)
+注意：這份教學使用 GitHub PC。 [如果你熟悉使用終端，查看這份教學（點這裡）](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)
 
 首先，我們先來設置好環境。
 
