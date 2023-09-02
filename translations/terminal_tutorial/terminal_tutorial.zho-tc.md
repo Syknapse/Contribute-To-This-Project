@@ -42,14 +42,15 @@
 - [第五步： 複製卡片範本](#第五步-複製卡片範本)
 - [第六步：套用你的變更](#第六步套用你的變更)
 - [第七步：提交你的變更](#第七步提交你的變更)
-- [第八步：推送你的變更至 Github](#第八步推送你的變更至-github)
-- [第九步：建立一個 PR（拉取請求）](#第九步建立一個-pr拉取請求)
+- [第八步：推送你的變更至 GitHub](#第八步推送你的變更至-github)
+- [第九步：建立一個 PR](#第九步建立一個-pr拉取請求)
 - [第十步：慶祝](#第十步慶祝)
 
 ---
 
 ## 簡介
 
+我們將在這裡學習如何用 _終端_ 在這個專案或是在 GitHub/Git 中貢獻。
 這是一個幫助第一次貢獻者參與簡單專案的教學。
 
 ### 目標
@@ -82,11 +83,8 @@
 
 這份教學也有[其他語言](/translations/translation.md)的翻譯
 
-|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
-| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
-| [Ukrainian](/translations/README/UKRAINIAN.md) |
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| :----: | :----: | :----: |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/translation.md)來做出貢獻。
 
@@ -94,15 +92,12 @@
 
 ### 設置！ :)
 
-注意：這份教學使用 GitHub PC。 [如果你熟悉使用終端，查看這份教學（點這裡）](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)
+注意：如果你不擅長使用命令列介面，[這裡是使用 GitHub Desktop 的圖形介面教學](/README.md)。
 
 首先，我們先來設置好環境。
 
-1. 登入你的 GitHub 帳號。如果你沒有一個帳號就[加入 GitHub](https://github.com/join)。我建議你在繼續之前先完成[GitHub Hello World 教學](https://guides.github.com/activities/hello-world/)。
-2. 下載 [GitHub Desktop](https://desktop.github.com/).
-   - 或者，如果你熟悉在命令列使用 Git，你也可以這樣做。 [命令列教學的連結在這裡](/terminal-tutorial.md).
-   - 如果你使用 [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website')，它自帶整合的 Git 並且讓你可以直接從編輯器做我們需要的事情。
-   - 不過使用這個教學最簡單的方法是使用 GitHub Desktop。
+1. 登入你的 GitHub 帳號。如果你沒有一個帳號就[加入 GitHub](https://github.com/join)。我建議你在繼續之前先完成 [GitHub Hello World 教學](https://guides.github.com/activities/hello-world/)。
+2. 如果你沒有 Git，[在這裡下載](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)。
 
 > 現在既然你都準備好了，讓我們繼續貢獻這個專案吧。
 
@@ -135,24 +130,25 @@ _估計時間：少於30分鐘_.
 #### 第二步：複製此儲存庫
 
 - 現在我們想要在本地複製一份這個專案。也就是你的電腦上儲存的一份複製品。
-- 打開 GitHub desktop。在應用程式中：
 
-| ![Clone](/readme-only/clone.PNG '點擊 clone repository') |
-| :------------------------------------------------------: |
-|       **點擊 _File_ 然後 _Clone repository_**        |
+![Clone](/readme-only/clone-terminal.png)
 
-- 你會看到你的專案清單以及在 Github 上的分叉 (fork)。
-- 選擇 `<你的 github 帳號名稱>/Contribute-To-This-Project`.
-- 點擊 _Clone_
+- 現在將這個儲存庫複製到你的電腦。點 clone 按鈕，然後點複製按鈕。
+- 一個儲存庫 (repo) 是一個專案在 GitHub 中的稱呼，而分叉則是它的複製品。
 
-| ![複製專案](/readme-only/clone-project.PNG '點擊 =你的 github 帳號名稱=/Contribute-To-This-Project') |
-| :----------------------------------------------------------------------------------------------------------: |
+打開一個終端並運行下列的 git 指令：
 
-| :arrow_right_hook: 一個分叉的專案在左邊會有一個叉子符號。你的分叉將會有你的 Github 名稱 | ![你的分叉](/readme-only/clone-your-fork.PNG '你的分叉看起來會像這樣，有你的使用者名稱。') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+```bash
+git clone "url you just copied"
+```
 
-- 把專案複製到你的硬碟會花一點時間。我建議你保持預設的路徑，通常是 `..\Documents\GitHub`。
-- 現在你有一份本專案的本地複製了。
+例如：
+
+```bash
+git clone https://github.com/$Username/Contribute-To-This-Project.git
+```
+
+在這裡，`$Username` 是你的 GitHub 使用者名稱。你正在將 GitHub 上儲存庫的內容複製到你的電腦上。
 
 [↑ 回到頂部 ↑](#索引表)
 
@@ -160,17 +156,28 @@ _估計時間：少於30分鐘_.
 
 #### 第三步：建立一個新的分支
 
-- 當儲存庫複製好了，而且在 GitHub desktop 開著時，是時候建立新的分支了。
-- 一個分支是一種讓你的變更和專案的主要部分（稱作 `Master`）分開的方法。舉例來說，如果事情出錯了，而且你對於你的變更不滿意，你可以簡單的刪掉那個分支而主專案則不會被影響。
+在你的電腦上切換到專案資料夾（如果你還沒有的話）：
 
-| :arrow_right_hook: 點擊 _`Current branch`_，然後點 _`New`_ | ![Create branch](/readme-only/branch-new.PNG "點 'Branch'，然後是 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **給你的分支取名，然後點 `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **把你的新分支發佈到 GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+```bash
+cd Contribute-To-This-Project
+```
 
-- 你可以叫它任何東西，不過既然這是一個新增你的名字卡片到專案的分支，叫它`你的名字-card` 是一個最佳實踐，因為它能讓這個分支的目的很清楚。
+現在使用 `git checkout` 指令建立一個新的分支。
+
+```bash
+git checkout -b your-new-branch-name
+```
+
+例如：
+
+```bash
+git checkout -b add-$Username-card
+```
+
+注意：將 `$Username` 改成你的 GitHub 帳號使用者名稱。
+
 - 現在你已經建立了一個新的、和 master 分開的分支。
-- 在接下來的步驟，請確保你是在這個分支工作。你會在 GitHub desktop 正上方、寫著 _Current branch_ 的地方看到你目前的分支的名稱。
+- 在接下來的步驟，請確保你是在這個分支工作。你會在你的編輯器左下角看見目前的分支名稱，那裡寫著 `$Username-card` 作為你的分支名稱。
 
 **不要在 `master` 分支中工作**
 
@@ -180,14 +187,16 @@ _估計時間：少於30分鐘_.
 
 #### 第四步：打開 index.html 檔案
 
-- 現在我們需要用你最喜歡的程式編輯器打開我們要編輯的檔案。
-- 在你的電腦上找到專案的資料夾。如果你有保持預設設定，它應該在類似`your-computer > Documents > GitHub > Contribute-To-This-Project` 的地方。
-- `index.html` 檔案就在 `Contribute-To-This-Project` 資料夾中。
-- 打開你的程式編輯器（Sublime、VS Code、Atom.. 等等）並且使用 `Open file` 命令，並且找到本專案主資料夾中的 index.html 檔案。
+現在我們需要用你最喜歡的程式編輯器打開我們要編輯的檔案。我們將使用 [VSCode](https://code.visualstudio.com/) 作為我們偏好的程式編輯器。
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
-| :---------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **或者你也可以在你的硬碟中找到你的檔案、右鍵點擊，並且用你的編輯器打開** |
+- `index.html` 檔案就在 `Contribute-To-This-Project` 資料夾中。
+- 你可以使用以下指令打開檔案：
+
+```bash
+code index.html
+```
+
+注意：這是一個在 `VSCode` 中打開 `index.html` 檔案的終端程式。
 
 - 現在你已經在你的編輯器中打開了你要編輯的檔案，而你已經準備好要修改它了。
 
@@ -250,18 +259,20 @@ _估計時間：少於30分鐘_.
 
 #### 第七步：提交你的變更
 
-- 回到 GitHub desktop。
-- 你的變更將會自動被加入到預存區。
-- 這代表 Git 已經紀錄了所有**儲存的**變更。
-- 你可以在應用程式中看見這件事。你加入檔案的所有東西都會是綠色的，而刪掉的則是紅的。
+- 現在在你的專案資料夾中打開終端，並運行 `git status`，然後你將注意到 git 中沒有做出的變更。
+- 你能使用 `git-add` 指令加入你做出的變更。
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                      :arrow_right_hook: 下一步稱作 _`提交 (Commit)`_。這大概代表`確認變更`                                                                                                                                      |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
-|                                                                            :arrow_right_hook: **這是你的 GitHub desktop 頂部應該長的樣子。注意 `Current repository` 中、專案名稱旁的叉子符號，你的 `Current branch` 的名字會和你在第三步中時取的名字一樣。**                                                                            |
-|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **為了 _`提交`_ ，你必須填寫 _`Summary`_ （概要）欄位。這是為了解釋你改了什麼的提交訊息。在這個例子中， `"Add my card information"` 會是一個合理的訊息。你可以選擇性的加上一個更詳細的 _`Description`_ （描述）。點 _`Commit`_ 按鈕。你的按鈕會顯示類似 `Commit to "your-branch-name"` 的訊息** |
+```bash
+git add index.html
+```
+
+- 現在使用 `git commit` 指令提交那些變更。
+
+```bash
+git commit -m "Add $Username card info"
+```
+
+- 用你的 Github 使用者名稱取代 `$Username`。
 
 [↑ 回到頂部 ↑](#索引表)
 
@@ -271,9 +282,13 @@ _估計時間：少於30分鐘_.
 
 - 你的變更現在是已儲存或已提交的。但是他們只在本地中儲存，也就是在你的電腦上。
 - 將你本地的變更和 GitHub 上的儲存庫同步被稱作 _推送_。你在把你本地儲存庫的變更＂推＂到遠端 GitHub 上的儲存庫。
+- 我們使用 `git push` 指令來將變更推送到 github。
 
-| :arrow_right_hook: 點 _`Push`_ 按鈕 | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+```bash
+git push -u origin $Username-card
+```
+
+- 使用你的分支名稱取代 `$Username-card`。
 
 - 過了幾秒後，操作就會完成，而且現在你在你的電腦和 GitHub 上都會有著一模一樣的分支。
 
@@ -354,6 +369,6 @@ _估計時間：少於30分鐘_.
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[回到頂部 &uparrow;](#簡介)
+[↑ 回到頂部 ↑](#索引表)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
