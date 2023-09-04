@@ -23,9 +23,9 @@
 <h5 align="center">Objectives</h5>
 
 - Apporter une contribution à un projet open source.
-- Devenir plus à l'aise dans l'utilisation GitHub.
+- Devenir plus à l'aise dans l'utilisation de GitHub.
 
-Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
+Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Les traductions sont les bienvenues).
 
 <h5 align="center">À qui est-ce destiné?</h5>
 
@@ -61,7 +61,7 @@ D'abord mettons nous en place pour effectuer le travail
 
 1. Connectez-vous à votre compte GitHub. Si vous n'avez pas encore de compte, [rejoindre GitHub](https://github.com/join). Je vous recommande de faire le [Tutoriel GitHub Hello World](https://guides.github.com/activities/hello-world/) avant de continuer.
 1. Télécharger [GitHub Desktop app](https://desktop.github.com/).
-   - Alternativement, si vous êtes à l'aise avec Git sur la ligne de commande, vous pouvez le faire (voici[first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
+   - Alternativement, si vous êtes à l'aise avec Git sur la ligne de commande, vous pouvez le faire (voici [first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
      -Si tu utilises [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') il est livré avec Git intégré et vous permet de faire ce dont nous avons besoin directement depuis l'éditeur.
    - Cependant, le moyen le plus simple et le plus simple de suivre ce didacticiel consiste à utiliser GitHub Desktop.
 
@@ -73,7 +73,7 @@ Maintenant que vous êtes tous configurés, continuons à contribuer au projet.
 
 ## Contribuer
 
-Bdevenir un contributeur open source en 10 étapes faciles.
+Devenir un contributeur open source en 10 étapes faciles.
 
 _Temps estimé: moins de 30 minutes_.
 
@@ -111,7 +111,7 @@ _Temps estimé: moins de 30 minutes_.
 
 ### Étape 3: créer une nouvelle branche
 
-- Une fois que le repo a été clonée et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
+- Une fois que le repo a été cloné et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
 - Une branche est un moyen de séparer vos modifications de la partie principale du projet appelée `Master`. Par exemple, si les choses tournent mal et que vous n’êtes pas satisfait de vos modifications, vous pouvez simplement supprimer la branche et le projet principal ne sera pas affecté.
 
 | <ul><li>Clique sur _Current branch_</li><li>ensuite clique sur _New_</li></ul> | ![Créer une branche](/readme-only/branch-new.PNG "Clique sur 'Branch', et 'New'") |
@@ -131,7 +131,7 @@ _Temps estimé: moins de 30 minutes_.
 - Vous avez maintenant créé une nouvelle branche distincte du maître.
 - Pour les étapes suivantes, assurez-vous que vous travaillez dans cette branche. Vous verrez le nom de la branche sur laquelle vous vous trouvez en haut au centre de l’application de bureau GitHub où il est dit _Current branch_.
 
-**Na PAS travailler sur la branche `master`**
+**Ne PAS travailler sur la branche `master`**
 
 ---
 
@@ -241,7 +241,7 @@ _Temps estimé: moins de 30 minutes_.
 | :-------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>Voici à quoi ressemble la page `Ouvrir une demande d'extraction`. </li> <li> RAPPELEZ-VOUS _vous essayez de fusionner votre branche avec le projet d'origine et non avec la branche`Master` sur votre fork_. </li> <li > L'image ci-dessous vous donne une idée de ce à quoi devrait ressembler l'en-tête de votre pull request. </li> <li> Sur la gauche se trouve le projet d'origine, suivi de la branche principale. Sur la droite se trouve votre fork et la branche que vous avez créée. </li> </ul> |
+| <ul><li>Voici à quoi ressemble la page `Ouvrir une demande d'extraction`. </li> <li> RAPPELEZ-VOUS _vous essayez de fusionner votre branche avec le projet d'origine et non avec la branche `Master` sur votre fork_. </li> <li > L'image ci-dessous vous donne une idée de ce à quoi devrait ressembler l'en-tête de votre pull request. </li> <li> Sur la gauche se trouve le projet d'origine, suivi de la branche principale. Sur la droite se trouve votre fork et la branche que vous avez créée. </li> </ul> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Ouvrir une demande d'extraction](/readme-only/pull-request-branches.PNG "Vous demandez de fusionner votre branche de votre fork dans la branche master du projet d'origine ")                                                                                                                                                                                                                                                                                                                                    |
 
