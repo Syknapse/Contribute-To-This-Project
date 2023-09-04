@@ -1,14 +1,14 @@
-# [Contribua Para Este Projeto](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Contribua Com Este Projeto](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![informação da imagem](/favicon.png)
 
-> Logo Criado com :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+> Logo Criado com :sparkling_heart: Por [CandidDeer](https://github.com/CandidDeer)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Entre no nosso servidor do Discord!')
+[![PRs Bem vindos](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Amor Open Source](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
