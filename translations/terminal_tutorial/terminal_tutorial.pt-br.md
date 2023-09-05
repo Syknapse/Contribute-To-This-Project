@@ -131,7 +131,7 @@ _Tempo estimado: Menos de 30 minutos_.
 
 - Agora nós temos que fazer uma cópia local desse projeto. Uma cópia salva no seu próprio computador.
 
-![Clone](#índice-de-acesso-rápido)
+![Clone](/readme-only/clone-terminal.png)
 
 - Agora clone este repositório para sua máquina. Clique no botão de clonar e então clique no ícone de copiar para a área de transferência.
 - Um repositório (repo) é como um projeto é chamado no GitHub e uma cópia é uma duplicação dele.
