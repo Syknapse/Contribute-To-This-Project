@@ -22,29 +22,29 @@
 
 #### Visão Geral
 
-- [Anúncios](#anúncios)
+- [Anúncio](#anúncio)
 - [Introdução](#introdução)
-- [Para quem é isso?](#para-quem-e-isso)
-- [Porque preciso fazer isso?](#porque-preciso-fazer-isso)
-- [Com o que eu irei contribuir?](#com-o-que-eu-irei-contribuir)
-- [Tradução](#tradução)
-- [Configuração](#configuração)
-- [Próximos Passos](#proximos-passos)
+- [Para quem é isso?](#para-quem-é-isso)
+- [Porque preciso fazer isso?](#por-que-preciso-fazer-isso)
+- [Com o que eu irei contribuir?](#com-o-que-eu-vou-contribuir)
+- [Tradução](#traduções)
+- [Configuração](#configuração-)
+- [Próximos Passos](#passos)
 - [Agradecimentos](#agradecimentos)
 
 #### Passos
 
-- [Contribue](#contribue)
-- [Passo 1 - Forking](#passo-1-fork-esse-repositorio)
+- [Contribue](#contribua)
+- [Passo 1 - Forking](#passo-1-de-um-fork-nesse-repositório)
 - [Step 2 - Clonando](#passo-2-clone-esse-repositório)
 - [Step 3 - Criando uma nova branch](#passo-3-crie-uma-nova-branch)
-- [Step 4 - Abrindo o arquivo main html](#passo-4-abrindo-o-arquivo-main-html)
-- [Step 5 - Copiando o card modelo](#passo-5-copiando-o-card-modelo)
-- [Step 6 - Aplicando suas mudanças](#passo-6-aplicando-suas-mudancas)
-- [Step 7 - Committing](#passo-7-commit-suas-mudancas)
-- [Step 8 - Enviando para o GitHub](#passo-8-enviar-suas-mudanças-para-o-github)
-- [Step 9 - Enviar um PR](#passo-9-enviar-uma-prpull-request)
-- [Step 10 - Comemore](#passo-10-celebre)
+- [Step 4 - Abrindo o arquivo main html](#passo-4-abra-o-arquivo-indexhtml)
+- [Step 5 - Copiando o card modelo](#passo-5-copie-o-modelo-de-card)
+- [Step 6 - Aplicando suas mudanças](#passo-6-aplique-suas-mudanças)
+- [Step 7 - Committing](#passo-7-commit-suas-mudanças)
+- [Step 8 - Enviando para o GitHub](#passo-8-envie-suas-alterações-para-o-github)
+- [Step 9 - Enviar um PR](#passo-9-envie-um-pr-pull-request)
+- [Step 10 - Comemore](#passo-10-comemore)
 
 ---
 
@@ -84,7 +84,7 @@ Você fará uma cópia do modelo de cartão dentro do arquivo HTML e personaliz�
 Esse tutorial está disponivel em [outros idiomas](/translations/translation.md)
 
 | [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)| [Portuguese](/translations/terminal_tutorial/terminal_tutorial.pt-br.md)|
-| :----: | :----: | :----: | :----: |
+| :----: | :----: | :----: | :----: | :----: |
 
 > Traduções para documentações de projetos são bem-vindas. Leia [`Guia de tradução`](/translations/translation.md) para contribuir.
 
@@ -101,7 +101,7 @@ Primeiro, vamos configurar para realizar o trabalho.
 
 > Agora que está tudo configurado, vamos ao trabalho de contribuir para o projeto.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -123,7 +123,7 @@ _Tempo estimado: Menos de 30 minutos_.
 
 - Agora você tem uma cópia completa do projeto na sua própria conta.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -131,9 +131,9 @@ _Tempo estimado: Menos de 30 minutos_.
 
 - Agora nós temos que fazer uma cópia local desse projeto. Uma cópia salva no seu próprio computador.
 
-![Clone](/readme-only/clone-terminal.png)
+![Clone](#índice-de-acesso-rápido)
 
-- - Agora clone este repositório para sua máquina. Clique no botão de clonar e então clique no ícone de copiar para a área de transferência.
+- Agora clone este repositório para sua máquina. Clique no botão de clonar e então clique no ícone de copiar para a área de transferência.
 - Um repositório (repo) é como um projeto é chamado no GitHub e uma cópia é uma duplicação dele.
 
 Abra um terminal e execute o seguinte comando git:
@@ -150,7 +150,7 @@ git clone https://github.com/$NomeDeUsuario/Contribute-To-This-Project.git
 
 Onde `$NomeDeUsuario` é o seu nome de usuario do GitHub.  Aqui você está copiando o conteúdo do repositório first-contributions no GitHub para o seu computador.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -182,7 +182,7 @@ Nota: Mude `$NomdeDeUsuario` pelo seu nome de usuário da sua conta do GitHub.
 
 **NÃO trabalhe na branch master**
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -201,7 +201,7 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 
 - Agora você tem o arquivo que você irá abrir para editar, e estar pronto para começar a fazer as alterações nele.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -223,11 +223,11 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 
 - Agora **esse** é seu Card para editar e personalizar.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
-#### Step 6: Aplique suas mudanças
+#### Passo 6: Aplique suas mudanças
 
 - Bem, agora nós vamos começar a editar o arquivo html, Mudando e customizando os campos no nosso card.
 
@@ -248,14 +248,14 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 | :arrow_right_hook: **Compartilhe com a comunidade 3 links para recursos úteis para desenvolvimento web. Isso pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta. Se você é iniciante, não se intimide com isso, compartilhe o que você sabe, mesmo que você pense que é básico. Você ficará surpreso com quantas pessoas se beneficiarão.** |
 
 - **Link:** Insira o link href="aqui" substituindo o `#`. Por favor, evite usar encurtadores de URL ou URLs que não sejam do site que você está postando!
-- **Title:**Escreva uma descrição breve title="aqui".
+- **Title:** Escreva uma descrição breve title="aqui".
 - **Name:** Escreva o nome do recurso no campo de texto `>aqui</a>`.
 - Tenha certeza que você **salvou todas as suas mudanças**.
 - **Teste suas mudanças**. ISSO É IMPORTANTE! Abra o arquivo html no seu navegador (clicando duas vezes nele por exemplo) e veja como o seu cartão ficará no site. Verifique se a página inteira ainda parece a mesma e que nada está quebrado. Clique nos seus links e certifique-se de que estão funcionando. Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
 - Ótimo, você terminou de editar seu código! Os próximos passos enviarão suas alterações para o GitHub e depois as submeterão para serem mescladas com o projeto principal.
 
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -277,7 +277,7 @@ git commit -m "Add $NomeDeUsuario card info"
 
 - Substituindo $NomeDeUsuario pelo seu nome de usuário do GitHub.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -296,7 +296,7 @@ git push -u origin $NomeDeUsuario-card
 
 - Após alguns segundos, a operação estará completa e agora você terá exatamente a mesma cópia desta branch no seu computador e no GitHub.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -327,11 +327,11 @@ git push -u origin $NomeDeUsuario-card
 - Deixe a opção Permitir edições dos mantenedores marcada.
 - Agora, um Pull Request será enviado ao mantenedor do projeto. Assim que for revisado e aceito, suas alterações aparecerão na [página web do projeto](https://syknapse.github.io/Contribute-To-This-Project 'Contribua com esse projeto web').
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
-#### Step 10: Comemore
+#### Passo 10: Comemore
 
 É isso. Você conseguiu! Agora você contribuiu para um projeto de código aberto no GitHub.
 
@@ -343,11 +343,11 @@ Suas alterações não serão visíveis imediatamente; primeiro elas têm que se
 
 Prometo que tentarei revisar e mesclar o mais rápido possível, mas faço isso no meu tempo livre, então um pequeno atraso é inevitável.
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
-### Next Steps
+### Próximos Passos
 
 - Volte depois de um tempo para verificar seu Pull Request mesclado.
 - Você deve receber um e-mail do GitHub quando suas alterações forem aprovadas ou se forem solicitadas alterações adicionais. E quando o PR finalmente for mesclado com o master e seu cartão tiver sido adicionado.
@@ -359,7 +359,7 @@ Prometo que tentarei revisar e mesclar o mais rápido possível, mas faço isso 
 - **Obrigado por contribuir para este projeto**. Agora você pode seguir em frete e tentar contribuir com outros projetos; Procure pelo selo ![primeira boa Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png)  para opções de contribuição amigáveis para iniciantes.
 - Também estou procurando colaboradores para me ajudar na revisão e mesclagem de PRs. Se você gostaria de praticar mais o Git, por favor, me envie uma DM no Twitter e leia o guia do mantenedor. [mantenedor guide](/maintainer_guide.md).
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
 
@@ -373,6 +373,6 @@ Ele também é particularmente inspirado pela grande comunidade em torno de [#Go
 
 [![GitHub Contribuidores Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[↑ Vá para o topo ↑](#quick-access-index)
+[↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'De Tweet um sobre esse projeto'
