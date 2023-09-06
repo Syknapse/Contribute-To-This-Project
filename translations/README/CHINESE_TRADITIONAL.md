@@ -80,7 +80,7 @@
 
 ### 翻譯
 
-這份教學也有[其他語言](/translations/translation.md)的翻譯
+這份教學也有[其他語言](/translations/README.md)的翻譯
 
 |     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
@@ -88,7 +88,7 @@
 | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
 | [Ukrainian](/translations/README/UKRAINIAN.md) |
 
-> 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/translation.md)來做出貢獻。
+> 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
 
 ---
 

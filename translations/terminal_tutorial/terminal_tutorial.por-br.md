@@ -81,12 +81,12 @@ Você fará uma cópia do modelo de cartão dentro do arquivo HTML e personaliz�
 
 ### Traduções
 
-Esse tutorial está disponivel em [outros idiomas](/translations/translation.md)
+Esse tutorial está disponivel em [outros idiomas](/translations/README.md)
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)| [Portuguese](/translations/terminal_tutorial/terminal_tutorial.pt-br.md)|
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)| [Portuguese](/translations/terminal_tutorial/terminal_tutorial.por-br.md)|
 | :----: | :----: | :----: | :----: | :----: |
 
-> Traduções para documentações de projetos são bem-vindas. Leia [`Guia de tradução`](/translations/translation.md) para contribuir.
+> Traduções para documentações de projetos são bem-vindas. Leia [`Guia de tradução`](/translations/README.md) para contribuir.
 
 ---
 

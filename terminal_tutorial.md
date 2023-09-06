@@ -81,12 +81,12 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 ### Translations
 
-This tutorial is also available in [other languages](/translations/translation.md)
+This tutorial is also available in [other languages](/translations/README.md)
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Portuguese](/translations/terminal_tutorial/terminal_tutorial.pt-br.md)
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md)
 | :----: | :----: | :----: | :----: | :----: |
 
-> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/translation.md) to contribute.
+> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
 ---
 
