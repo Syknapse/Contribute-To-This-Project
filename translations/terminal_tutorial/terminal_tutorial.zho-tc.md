@@ -81,12 +81,12 @@
 
 ### 翻譯
 
-這份教學也有[其他語言](/translations/translation.md)的翻譯
+這份教學也有[其他語言](/translations/README.md)的翻譯
 
 | [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
 | :----: | :----: | :----: |
 
-> 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/translation.md)來做出貢獻。
+> 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
 
 ---
 
