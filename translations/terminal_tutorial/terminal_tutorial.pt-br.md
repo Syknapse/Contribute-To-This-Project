@@ -35,7 +35,7 @@
 #### Passos
 
 - [Contribue](#contribua)
-- [Passo 1 - Forking](#passo-1-de-um-fork-nesse-repositório)
+- [Step 1 - Forking](#passo-1-de-um-fork-nesse-repositório)
 - [Step 2 - Clonando](#passo-2-clone-esse-repositório)
 - [Step 3 - Criando uma nova branch](#passo-3-crie-uma-nova-branch)
 - [Step 4 - Abrindo o arquivo main html](#passo-4-abra-o-arquivo-indexhtml)
