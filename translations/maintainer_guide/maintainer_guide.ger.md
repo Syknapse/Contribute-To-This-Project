@@ -4,7 +4,7 @@ Dieser Leitfaden richtet sich an diejenigen, die dem Projekt als Maintainer beit
 
 ## Übersetzungen
 
-Dieses Tutorial ist auch in [anderen Sprachen verfügbar](translations/translation.md)
+Dieses Tutorial ist auch in [anderen Sprachen verfügbar](translations/README.md)
 
 | [Englisch](maintainer_guide.md) | [Bengali](translations/maintainer_guide/maintainer_guide.ben.md) | [Deutsch](translations/maintainer_guide/maintainer_guide.ger.md) | [Italienisch](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanisch](translations/maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
