@@ -10,7 +10,7 @@ Dieses Tutorial ist auch in [anderen Sprachen verfügbar](translations/README.md
 | :---: | :---: | :---: | :---: | :---: |
 | [Portugiesisch](translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainisch](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
-> Übersetzungen für Projektdokumentationen sind willkommen. Lesen Sie den [`Übersetzungsleitfaden`](translations/translation.md), um beizutragen.
+> Übersetzungen für Projektdokumentationen sind willkommen. Lesen Sie den [`Übersetzungsleitfaden`](translations/README.md), um beizutragen.
 
 ---
 
