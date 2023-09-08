@@ -30,7 +30,7 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 | [English](../maintainer_guide.md)  | [Bangla](maintainer_guide/maintainer_guide.ben.md) | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |
+| [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |[Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) |
 
 ---
 
