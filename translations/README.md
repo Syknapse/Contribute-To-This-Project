@@ -28,15 +28,15 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## Maintainers Guide Translations
 
-| [English](../maintainer_guide.md)  | [Bangla](maintainer_guide/maintainer_guide.ben.md) | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) |
+| [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md)
 | :---: | :---: | :---: | :---: | :---: |
-| [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |[Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) |
+ [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |
 
 ---
 
 ## Terminal Tutorial
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) |
+| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md)
 | :----: | :----: | :----: | :----: | :----: |
 
 ---
