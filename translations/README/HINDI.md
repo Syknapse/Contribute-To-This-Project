@@ -351,6 +351,8 @@ _अनुमानित समय: 30 मिनट से कम_.
 
 [↑ शीर्ष पर जाएं ↑](#त्वरित-पहुँच-सूचकांक)
 
+---
+
 ### स्वीकृतियाँ
 
 यह प्रोजेक्ट काफी हद तक प्रभावित है [Roshan Jossey's](https://github.com/Roshanjossey) महान [first-contributions](https://github.com/Roshanjossey/first-contributions) अपने उत्कृष्ट ट्यूटोरियल के साथ प्रोजेक्ट करें।
