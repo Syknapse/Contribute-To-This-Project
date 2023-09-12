@@ -8,7 +8,7 @@ Dieses Tutorial ist auch in [anderen Sprachen verfügbar](/translations/README.m
 
 | [Englisch](/maintainer_guide.md) | [Bengali](/translations/maintainer_guide/maintainer_guide.ben.md) | [Deutsch](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italienisch](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanisch](/translations/maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [Portugiesisch](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainisch](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+| [Portugiesisch](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainisch](/translations/maintainer_guide/maintainer_guide.ukr.md) | [Chinesische (Traditionell)](/translations/maintainer_guide/maintainer_guide.zho-tc.md)
 
 > Übersetzungen für Projektdokumentationen sind willkommen. Lesen Sie den [`Übersetzungsleitfaden`](/translations/README.md), um beizutragen.
 
