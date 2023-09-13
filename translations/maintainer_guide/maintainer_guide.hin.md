@@ -6,8 +6,9 @@
 यह ट्यूटोरियल [अन्य भाषाओं](../README.md) में भी उपलब्ध है।
 
 | [अंग्रेज़ी](maintainer_guide.md)   | [बांग्ला](translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](translations/maintainer_guide/maintainer_guide.ger.md) | [इतालवी](translations/maintainer_guide/maintainer_guide.ita.md) | [जापानी](translations/maintainer_guide/maintainer_guide.jpn.md) |
+
 | :---: | :---: | :---: | :---: | :---: |
-| [पुर्तगाली](translations/maintainer_guide/maintainer_guide.por.md) | [यूक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) |[चीनी (पारंपरिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) |
+| [पुर्तगाली](translations/maintainer_guide/maintainer_guide.por.md) | [यूक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपरिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) |  |[हिंदी](translations/maintainer_guide/maintainer_guide.hin.md) |
 
 > प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](../README.md) पढ़ें।
 
