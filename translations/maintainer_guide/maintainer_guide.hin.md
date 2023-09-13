@@ -1,15 +1,15 @@
-# अनुरक्षक की मार्गदर्शिका
+#  मेंटेनर गाइड
 
 यह मार्गदर्शिका उन लोगों के लिए है जो समुदाय के लिए परियोजना के प्रबंधन और रखरखाव में सहायता के लिए अनुरक्षक के रूप में परियोजना में शामिल होना चाहते हैं। (यह **पहली बार योगदान करने वालों** के लिए मार्गदर्शिका नहीं है।)
 ## अनुवाद
 
-यह ट्यूटोरियल [अन्य भाषाओं](translations/README.md) में भी उपलब्ध है।
+यह ट्यूटोरियल [अन्य भाषाओं](../README.md) में भी उपलब्ध है।
 
 | [अंग्रेज़ी](maintainer_guide.md)   | [बांग्ला](translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](translations/maintainer_guide/maintainer_guide.ger.md) | [इतालवी](translations/maintainer_guide/maintainer_guide.ita.md) | [जापानी](translations/maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
 | [पुर्तगाली](translations/maintainer_guide/maintainer_guide.por.md) | [यूक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) |[चीनी (पारंपरिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) |
 
-> प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](translations/README/HINDI.md) पढ़ें।
+> प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](../README.md) पढ़ें।
 
 ---
 
