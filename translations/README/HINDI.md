@@ -82,13 +82,13 @@
 
 यह ट्यूटोरियल [अन्य भाषाओं](/translations/README.md) में भी उपलब्ध है
 
-| [अरबी](/translation/README/ARABIC.md) | [बांग्ला](/translation/README/BANGLA.md) | [चीनी (पारंपरिक)](/translation/README/CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](/translation/README/FRENCH.md)
+| [अरबी](/translations/README/ARABIC.md) | [बांग्ला](/translations/README/BANGLA.md) | [चीनी (पारंपरिक)](/translations/README/CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](/translations/README/FRENCH.md)
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [जर्मन](/translation/README/GERMAN.md) | [हिन्दी](/translation/README/HINDI.md) | [इतालवी](/translation/README/ITALIAN.md) | [जापानी](/translation/README/JAPANESE.md) | [कोरियाई](/translation/README/KOREAN.md) |
-[पोलिश](/translations/README/POLISH.md) | [पुर्तगाली](/translation/README/PORTUGUESE.md) | [रूसी](/translation/README/RUSSIAN.md) | [सर्बियाई](/translation/README/SERBIAN.md) | [स्पेनिश](/translation/README/SPANISH.md) |
-[तुर्की](/translation/README/TURKISH.md) | [यूक्रेनी](/translation/README/UKRAINIAN.md) |
+| [जर्मन](/translations/README/German.md) | [हिन्दी](HINDI.md) | [इतालवी](/translations/README/ITALIAN.md) | [जापानी](/translations/README/JAPANESE.md) | [कोरियाई](/translations/README/KOREAN.md) |
+[पोलिश](./POLISH.md) | [पुर्तगाली](./PORTUGUESE.md) | [रूसी](./RUSSIAN.md) | [सर्बियाई](./SERBIAN.md) | [स्पेनिश](./SPANISH.md) |
+[तुर्की](/translations/README/TURKISH.md) | [यूक्रेनी](/translations/README/UKRAINIAN.md) |
 
-> प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](/translation/README.md) पढ़ें।
+> प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](/translations/README.md) पढ़ें।
 
 ---
 
