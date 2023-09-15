@@ -82,7 +82,7 @@
 
 यह ट्यूटोरियल [अन्य भाषाओं](/translations/README.md) में भी उपलब्ध है
 
-| [अरबी](/अनुवाद/रीडमे/अरबी.एमडी) | [बांग्ला](/अनुवाद/रीडमी/बांग्ला.एमडी) | [चीनी (पारंपरिक)](/translation/README/CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](/translation/README/FRENCH.md)
+| [अरबी](/translation/README/ARABIC.md) | [बांग्ला](/translation/README/BANGLA.md) | [चीनी (पारंपरिक)](/translation/README/CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](/translation/README/FRENCH.md)
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 | [जर्मन](/translation/README/GERMAN.md) | [हिन्दी](/translation/README/HINDI.md) | [इतालवी](/translation/README/ITALIAN.md) | [जापानी](/translation/README/JAPANESE.md) | [कोरियाई](/translation/README/KOREAN.md) |
 [पोलिश](/translations/README/POLISH.md) | [पुर्तगाली](/translation/README/PORTUGUESE.md) | [रूसी](/translation/README/RUSSIAN.md) | [सर्बियाई](/translation/README/SERBIAN.md) | [स्पेनिश](/translation/README/SPANISH.md) |
