@@ -82,11 +82,11 @@
 
 यह ट्यूटोरियल [अन्य भाषाओं](/translations/README.md) में भी उपलब्ध है
 
-| [अरबी](./ARABIC.md) | [बांग्ला](./BANGLA.md) | [चीनी (पारंपरिक)](./CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](./FRENCH.md)
+| [अरबी](/translations/README/ARABIC.md) | [बांग्ला](/translations/README/BANGLA.md) | [चीनी (पारंपरिक)](/translations/README/CHINESE_TRADITIONAL.md) | [अंग्रेजी](/README.md) | [फ़्रेंच](/translations/README/FRENCH.md)
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [जर्मन](./German.md) | [हिन्दी](HINDI.md) | [इतालवी](./ITALIAN.md) | [जापानी](./JAPANESE.md) | [कोरियाई](./KOREAN.md) |
+| [जर्मन](/translations/README/German.md) | [हिन्दी](HINDI.md) | [इतालवी](/translations/README/ITALIAN.md) | [जापानी](/translations/README/JAPANESE.md) | [कोरियाई](/translations/README/KOREAN.md) |
 [पोलिश](./POLISH.md) | [पुर्तगाली](./PORTUGUESE.md) | [रूसी](./RUSSIAN.md) | [सर्बियाई](./SERBIAN.md) | [स्पेनिश](./SPANISH.md) |
-[तुर्की](./TURKISH.md) | [यूक्रेनी](./UKRAINIAN.md) |
+[तुर्की](/translations/README/TURKISH.md) | [यूक्रेनी](/translations/README/UKRAINIAN.md) |
 
 > प्रोजेक्ट दस्तावेज़ों के अनुवाद का स्वागत है। योगदान देने के लिए [`अनुवाद गाइड`](/translations/README.md) पढ़ें।
 
