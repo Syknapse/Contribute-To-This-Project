@@ -37,7 +37,8 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## Terminal Tutorial
 
-| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md)
+| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) |
 | :----: | :----: | :----: | :----: | :----: |
+| [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
 
 ---
