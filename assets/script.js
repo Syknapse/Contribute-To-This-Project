@@ -115,7 +115,7 @@ document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
     document.body.classList.remove('night') // change background color first
   }
 
-  const updateCount = 100 // how many cards to update in one cycle
+  const updateCount = 50 // how many cards to update in one cycle
   const updateInterval = 500
 
   const updateCardCss = () => {
@@ -135,7 +135,7 @@ document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
   }
 
   // update all cards in several cycles, update every cards' css at once will cause lag
-  updateCardCss() // update the first 100 cards
+  updateCardCss() // update the first 50 cards
   nightModeIntervalId = setInterval(updateCardCss, updateInterval)
 })
 
