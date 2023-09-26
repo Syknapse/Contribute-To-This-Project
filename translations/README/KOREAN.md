@@ -1,281 +1,359 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+![image info](/favicon.png)
+
+> 로고 :sparkling_heart: 으로, 제작자: [CandidDeer](https://github.com/CandidDeer)
+
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
-> **공지:** 메인테이너가 되어 이 프로젝트를 관리하는데 도움을 주시겠습니까? 관심 있으신 분들은 [트위터](https://twitter.com/Syknapse)로 DM을 보내주시고 [maintainer's guide](maintainer_guide.md)을 정독하세요.
+---
+
+> ## **공지:**
+>
+> 이 프로젝트의 메인테이너가 되어 도움을 주고 싶으신가요? 관심이 있으시다면 메인테이너 가이드 [maintainer's guide](/maintainer_guide.md) 를 읽고 [Twitter](https://twitter.com/Syknapse) 에서 DM을 보내주세요.
+
+---
+
+### 빠른 액세스 인덱스
+
+#### 개요
+
+- [공지](#announcement)
+- [소개](#introduction)
+- [누구를 위한 프로젝트인가요?](#who-is-this-for)
+- [이 프로젝트는 왜 필요한가요?](#why-do-i-need-to-do-this)
+- [무엇을 기여하게 되나요?](#what-am-i-going-to-contribute)
+- [번역](#translations)
+- [설정](#setup-)
+- [다음 단계](#next-steps)
+- [감사의 말](#acknowledgements)
+
+#### 진행단계
+
+- [기여하기](#contribute)
+- [1단계 - 저장소 포크(fork)하기](#step-1-fork-this-repository)
+- [2단계 - 저장소 복제(clone)하기](#step-2-clone-the-repository)
+- [3단계 - 새 브랜치 생성](#step-3-create-a-new-branch)
+- [4단계 - 메인 index.html 파일 열기](#step-4-open-the-indexhtml-file)
+- [5단계 - 카드 템플릿 복사하기](#step-5-copy-the-card-template)
+- [6단계 - 내용 변경 적용하기](#step-6-apply-your-changes)
+- [7단계 - 변경사항 커밋(commit)하기](#step-7-commit-your-changes)
+- [8단계 - Github에 푸시(push)하기](#step-8-push-your-changes-to-github)
+- [9단계 - PR 제출하기](#step-9-submit-a-prpull-request)
+- [10단계 - 축하합니다](#step-10-celebrate)
+
+---
 
 ## 소개
 
 이 튜토리얼은 기여가 처음인 분들이 쉽고 간단하게 프로젝트에 참여할 수 있도록 도움을 주기 위한 튜토리얼입니다.
 
-이 튜토리얼은 다른 언어([포르투갈어](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [스페인어](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), [이탈리아어](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md))로도 제공됩니다.
+### Objectives
 
-### 목표
+- Make a contribution to an open source project.
+- Get more comfortable in using GitHub.
 
-- 오픈소스 프로젝트에 기여하기
-- 깃허브를 더 능숙하게 사용하기
+### Who is this for?
 
-### 누구를 대상으로한 프로젝트인가요?
+- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
+- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
 
-- 이 프로젝트는 초보자들을 위한 프로젝트입니다. 앵커 태그 `<a href="" target=""></a>`를 작성하고 수정할 수 있다면 이 프로젝트에 참여할 수 있습니다.
-- 처음으로 오픈소스에 기여 해보고 싶거나 다른 프로젝트에 기여 경험이 있지만 더 많은 기여를 경험하고 싶은 분들을 위한 프로젝트입니다.
+### Why do I need to do this?
 
-### 이 프로젝트는 왜 필요한가요?
+Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
 
-웹 개발자 취업을 희망하는 사람들과 현직 개발자들에게 Git 버전 관리는 필수입니다. GitHub는 많은 사람들이 사용하는 가장 대중적인 Git 호스팅 서비스이자 오픈소스 커뮤니티입니다. GitHub를 능숙하게 사용하는 것은 개발자로써 중요한 기술 중 하나입니다. 프로젝트에 기여하면 GitHub 사용에 대한 자신감이 높아지고 GitHub 프로필에 기여 내용이 표시됩니다.<br>
+If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-만약 본인이 입문자이며 Git과 GitHub에 대해 배우고 싶다면 이 가이드를 참고하세요: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa).
+### What am I going to contribute?
 
-## 무엇을 기여하게 되나요?
+![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
-![ContributorCard](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/card.PNG)
+You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
-여러분은 이 [프로젝트의 웹 페이지](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project')에 위 그림과 같은 카드를 기여하게 될 것입니다. 카드에는 본인 이름, 트위터 아이디, 간단한 소개 및 여러분들이 추천하는 웹 개발자들을 위한 유용한 리소스 링크가 포함됩니다.
-
-HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정보로 수정하세요.
-
-## 목차
-
-| <ul><li>[소개](#소개)</li><li>[무엇을 기여하게 되나요?](#무엇을-기여하게-되나요?)</li><li>[준비](#준비)</li><li>[기여하기 &rightarrow;](#기여하기)</li><li>[다음 단계](#다음-단계)</li><li>[감사의 말](#감사의-말)</li></ul> | 기여하기: <ul><li>[1단계: 저장소 fork](#1단계:-저장소-fork)</li><li>[2단계: 저장소 Clone](#2단계:-저장소-Clone)</li><li>[3단계: 새 브랜치 생성](#3단계:-새-브랜치-생성)</li><li>[4단계: index.html 파일 열기](#4단계:-index.html-파일-열기)</li><li>[5단계: 카드 템플릿 복사](#5단계:-카드-템플릿-복사)</li><li>[6단계: 내용 변경](#6단계:-내용-변경)</li><li>[7단계: 변경 사항 Commit](#7단계:-변경-사항-Commit)</li><li>[8단계: 변경 사항 GitHub에 Push](#8단계:-변경-사항-GitHub에-Push)</li><li>[9단계: PR 제출](#9단계:-PR-제출)</li><li>[10단계: 축하합니다!](#10단계:-축하합니다!)</li></ul> |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-
-## 준비
-
-작업을 위해서 몇 가지 준비를 해보겠습니다.
-
-1. GitHub 계정에 로그인하세요. 만약 아직 계정이 없으시다면 [GitHub에 가입](https://github.com/join)하세요. 작업 진행을 위해 [GitHub Hello World 튜토리얼](https://guides.github.com/activities/hello-world/)을 정독하시는 것을 추천드립니다.
-1. [GitHub 데스크탑 앱](https://desktop.github.com/)을 설치하세요.
-   - 커맨드 라인에서 Git을 사용하는 것이 편하다면 GitHub 데스크탑 앱을 설치하지 않으셔도 됩니다.(커맨드 라인에서 Git 사용에 대한 가이드는 이 프로젝트와 유사한 프로젝트인 [first-contributions](https://github.com/Syknapse/first-contributions)을 참고하세요.) 또는
-   - [VS Code](https://code.visualstudio.com/)를 사용하는 경우 통합 Git이 제공되므로 에디터에서 직접 필요한 작업을 수행할 수 있습니다.
-
-이제 모든 준비가 완료되었으므로 본격적으로 프로젝트 기여를 위한 작업을 시작해보겠습니다.
+You will make a copy of the card template inside the HTML file and customize it with your own information.
 
 ---
 
----
+### Translations
 
-## 기여하기
+This tutorial is also available in [other languages](/translations/README.md)
 
-간단한 10단계를 통해 오픈소스 기여자가 되어보세요.
+|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  | [Chinese (Traditional)](/translations/README/CHINESE_TRADITIONAL.md) |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  
+| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+|  [German](/translations/README/GERMAN.md)  |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |
+  [Polish](/translations/README/POLISH.md)  | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) |
+   [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) |
 
-_예상 소요 시간: 30분 미만_.
-
-### 1단계: 저장소 Fork
-
-- 이 단계에서의 목표는 프로젝트의 복사본을 만들어 여러분의 GitHub 계정에 저장하는 것입니다.
-- 저장소는 GitHub에서 프로젝트가 호출되는 방식이며 포크는 프로젝트의 복사본입니다.
-- 이 저장소의 [메인 페이지](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')에서 아래 그림과 같은 버튼을 찾으세요.
-
-| <ul><li> _Fork_ 버튼을 클릭하세요.</li></ul> | ![Fork](../../readme-only/fork.png) |
-| :------------------------------------------- | ----------------------------------------------------------------------------------------------: |
-
-
-- 이제 여러분의 계정에 프로젝트 사본 복사가 완료되었습니다.
+> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
 ---
 
-### 2단계: 저장소 Clone
+### Setup! :)
 
-- 이제 프로젝트의 로컬 복사본이 필요합니다. 로컬 복사본이란 여러분의 컴퓨터에 저장된 프로젝트의 복사본을 의미합니다.
-- GitHub 데스크탑 앱을 엽니다. 앱에서 다음 작업을 수행하세요:
+Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
 
-| <ul><li> *File*을 클릭한 다음 *Clone repository*를 클릭하세요.</li></ul> | ![Clone](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone.PNG) |
-| :----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------: |
+First let's get setup to do the work
 
+1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
+2. Download [GitHub Desktop app](https://desktop.github.com/).
+   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
+   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
+   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
-| <ul><li>GitHub에서 프로젝트 및 Fork 목록을 볼 수 있습니다.</li><li>`<your-github-username>/Contribute-To-This-Project`를 클릭하세요.</li><li>*Clone*을 클릭하세요</li></ul>        | ![Clone project](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone-project.PNG) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------: |
-| <ul><li>fork된 프로젝트는 왼쪽에 fork 아이콘이 있습니다.</li><li>fork에는 고유한 GitHub 사용자 이름이 있습니다.</li></ul> |  ![your fork](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/clone-your-fork.PNG)  |
+> Now that you are all setup let's get on with the business of contributing to the project.
 
-- 프로젝트가 하드디스크로 복사되는데 시간이 소요됩니다. 일반적으로 `..\Documents\GitHub`를 기본 경로로 설정하는 것을 추천드립니다.
-- 이제 프로젝트의 로컬 복사본이 생성되었습니다.
-
----
-
-### 3단계: 새 브랜치 생성
-
-- 저장소가 복제되고 GitHub 데스크탑에서 열리면 새로운 브랜치를 생성할 차례입니다.
-- 브랜치는 수정 사항을 `Master`라는 프로젝트의 주요 부분과 분리하는 수단입니다. 예를 들어 잘못된 수정을 통해 원하지 않은 결과를 얻게되더라도 간단히 브랜치 삭제를 통해 메인 프로젝트에 영향을 끼치지않게 할 수 있습니다.
-
-| <ul><li>*Current branch*를 클릭하세요.</li><li>*New*를 클릭하세요.</li></ul> | ![Create branch](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/branch-new.PNG) |
-| :--------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------: |
-
-
-| <ul><li>브랜치 이름을 지정하세요.</li><li>`Create branch`를 클릭하세요.</li></ul> | ![Name branch](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/branch-name.PNG) |
-| :-------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------: |
-
-
-- 브랜치 이름을 마음대로 지정할 수 있지만, 이 브랜치는 본인의 이름이 입력된 카드를 프로젝트에 추가하기 위한 브랜치이므로 브랜치의 의도를 잘 나타낼 수 있는 `your-name-card`로 지정하는 것이 좋습니다.
-
-| <ul><li>GitHub에 새로운 브랜치 게시</li></ul> | ![Name branch](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/branch-publish.PNG) |
-| :-------------------------------------------- | ---------------------------------------------------------------------------------------------------------------: |
-
-
-- 이제 마스터와 분리된 새로운 브랜치를 생성했습니다.
-- 다음 단계를 위해 이 브랜치에서 작업중인지 확인하세요. GitHub 데스크탑 앱의 상단 중앙에 *Current branch*에서 현재 브랜치의 이름이 표시됩니다.
-
-**절대 `master` 브랜치에서 작업하지 마세요.**
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-### 4단계: index.html 파일 열기
+### Contribute
 
-- 이제 선호하는 코드 에디터에서 편집할 파일을 열어야 합니다.
-- 컴퓨터에서 프로젝트 폴더를 찾으세요. 기본 값으로 설정했다면 다음과 같은 경로에서 프로젝트 폴더를 찾을 수 있습니다. `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- `index.html` 파일은 `Contribute-To-This-Project` 폴더에 저장되어 있습니다.
+Become an open source contributor in 10 easy steps.
 
-| <ul><li>코드 에디터(Sublime, VS Code, Atom 등)를 열고 `Open file` 명령으로 프로젝트의 메인 디렉토리에서 index.html 파일을 찾습니다.</li><li>하드 디스크에 저장된 파일을 우클릭해 직접 코드 에디터로 여는 방법도 있습니다.</li></ul> | ![Open index file](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/index-open.PNG) |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------: |
+_Estimated time: Less than 30 minutes_.
 
+#### Step 1: Fork this repository
 
-- 이제 코드 에디터에서 편집할 파일을 열었으며 편경할 준비가 완료되었습니다.
+- The objective here is to make a copy of this project and place it in your account.
+- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
+- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
----
+| ![Fork](/readme-only/fork.png "click on 'Fork'") |
+| :---------------------------------------------: |
+|         **Click on the _Fork_ button**          |
 
-### 5단계: 카드 템플릿 복사
+- You now have a complete copy of the project in your own account.
 
-- 작업을 시작하기에 앞서, 카드 템플릿의 복사본을 만들어야 합니다.
-
-| <ul><li>html 파일 상단, `<head>` 및 `<header>` 섹션 아래에 `== TEMPLATE ==`레이블이 지정된 섹션이 있습니다.</li><li>아래 이미지에 빨간색으로 표시된 사각형 내부의 `Contributor card START`부터 `Contributor card END` 주석 사이의 모든 코드를 복사하세요. </li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Copy card template](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/card-copy.PNG)                                                                                                                                                   |
-
-| <ul><li>복사한 코드를 주석 바로 아래에 붙여넣으세요.</li><li>카드의 시작 부분과 마지막 끝 부분 사이에 공백 한 줄이 있는지 확인하세요. 코드를 가능한 명확하게 유지하는 것이 좋습니다.</li><li>린터나 스타일 포매터를 사용하지마세요. 프로젝트에 Prettier 설정이 있습니다.</li></ul> |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Paste card template](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/card-paste.PNG)                                                                                                                                                              |
-
-- 이제 카드를 본인의 정보로 변경하고 편집할 차례입니다.
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-### 6단계: 내용 변경
+#### Step 2: Clone the repository
 
-- 이제 html 편집을 시작할 것입니다. 카드에서 수정해야될 필드의 내용을 변경합니다.
+- Now we want to make a local copy of the project. That is a copy saved on your own machine.
+- Open the GitHub desktop app. In the app:
 
-| <ul><li>'Name'을 자신의 이름으로 변경합니다. </li><li> `class="name"`를 수정 하지마세요.</li></ul> | ![Change name](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/change-name.PNG) |
-| :------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------: |
+| ![Clone](/readme-only/clone.PNG 'click clone repository') |
+| :------------------------------------------------------: |
+|       **Click on _File_ then _Clone repository_**        |
 
+- You will see a list of your projects and forks on GitHub.
+- Select `<your-github-username>/Contribute-To-This-Project`.
+- Click _Clone_
 
-| <ul><li>`href="Insert URL here"`에 트위터 계정 URL을 입력하세요.</li><li>텍스트 필드에 계정 이름을 입력하세요.</li></ul> |
-| :----------------------------------------------------------------------------------------------------------------------- |
-| ![Change contact](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/change-contact.PNG)      |
+| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
+| :----------------------------------------------------------------------------------------------------------: |
 
-- 트위터가 아닌 다른 연락처를 사용하려면 [Font Awesome Icons](http://fontawesome.io/icons/)에서 본인이 사용하고 싶은 아이콘을 찾아 `<i class="fa fa-twitter"></i>`에서 `fa-twitter` 부분을 수정하면 됩니다. 예를 들어 페이스북 아이콘을 사용하려면 `fa-twitter` 대신 `fa-facebook`를 사용하면 됩니다.
+| :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
+| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
-| <ul><li>여러분에 대해 알려주세요.</li><li>블로그 게시물처럼 자세한 설명이 아닌 트윗처럼 짧고 간결하게 작성하세요.</li></ul> | ![Change about](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/change-about.PNG) |
-| :-------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------: |
+- This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
+- Now you have a local copy of the project.
 
-
-| <ul><li>웹 개발과 관련해 유용한 리소스가 있는 커뮤니티의 링크 3개를 공유하세요. </li><li>영상, 강연, 팟캐스트, 기사, 참고 자료 무엇이든 좋습니다.</li><li>만약 여러분이 초보자라도 부담갖지말고 아는 것 무엇이든 공유하세요. 많은 사람들이 도움을 받을 수 있을겁니다.</li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| ![Change resources](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/change-resources.PNG)                                                                                                                                                         |
-| <ul><li>링크: `href="here"`의 `#` 부분에 링크를 삽입하세요.</li><li>설명: `title="here"`부분에 간단한 설명을 작성하세요.</li><li>이름: >here</a>` 부분에 리소스의 이름을 쓰세요.</li></ul>                                                                                      |
-
-- 변경된 내용들이 모두 저장되었는지 확인하세요.
-- 변경된 내용들을 꼭 테스트하세요. 브라우저에서 html 파일을 열고 카드가 웹사이트에서 어떻게 보이는지 확인해야합니다. 전체 페이지에 이상이 없는지 확인하세요. 링크를 클릭하고 제대로 동작하는지도 확인해야합니다. 콘솔(Ctrl + Shift + J (Windows / Linux) 또는 Cmd + Opt + J (Mac))을 열고 에러 메시지가 없는지 확인하세요.
-- 이제 코드 편집을 무사히 마쳤습니다! 다음 단계에서는 변경 사항을 GitHub로 보낸 다음 제출해 메인 프로젝트와 병합할 것입니다.
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-### 7단계: 변경 사항 Commit
+#### Step 3: Create a new branch
 
-- 다시 GitHub 데스크탑 앱으로 돌아갑니다.
-- 변경 사항이 스테이징 영역에 자동으로 추가됩니다.
-- Git에 의해 모든 변경 사항이 기록되었습니다.
-- 앱에 반영된 것을 확인할 수 있습니다. 파일에 추가된 부분은 녹색으로 표시되며 삭제된 항목은 빨간색으로 표시됩니다.
+- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
+- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| <ul><li>다음 단계는 *commit*입니다.</li><li>*commit*은 간단히 "변경 사항 확인" 정도로 설명할 수 있습니다.</li></ul> | ![Commit changes](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/commit.PNG) |
-| :------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
+- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
+- Now you have created a new branch separate from the master.
+- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
 
-| <ul><li>GitHub 데스크탑 헤더는 다음과 같아야 합니다. </li><li>`Current repository`에서 프로젝트 이름 옆 fork 아이콘을 확인하세요.</li><li>여러분의 `Current branch`에 3단계에서 입력한 이름의 브랜치가 있을 것입니다. </li></ul> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Commit changes](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/commit-header.PNG)                                                                                                               |
+**Do NOT work on the `master` branch**
 
-| <ul><li>*Commit*을 위해 _Summary_ 필드를 작성하세요.</li><li>이 필드는 여러분이 무엇을 변경했는지를 설명하는 commit 메시지입니다.</li><li>이 경우 "Add my card information"가 적당한 commit 메시지가 될 것입니다.</li><li>필수는 아니지만, 더 자세한 설명이 담긴 *Description*을 추가할 수 있습니다.</li><li>_Commit_ 버튼을 클릭하세요. 버튼에 `Commit to "your-branch-name"`를 확인할 수 있을 것입니다.</li></ul> | ![Write commit message and commit](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/commit-message.PNG) |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -----------------------------------------------------------------------------------------------------------------------------------: |
-
-
----
-
-### 8단계: 변경 사항 GitHub에 Push
-
-- 이제 변경된 내용들이 저장되고 commit되었습니다. 그러나 변경 사항들은 여러분의 로컬 컴퓨터에만 저장된 것입니다.
-- GitHub의 저장소와 로컬 변경 사항을 동기화하는 것을 *push*라고 합니다. *push*를 통해 로컬 컴퓨터 저장소의 변경 사항들을 GitHub의 저장소로 "pushing"합니다.
-
-| <ul><li>_Push_ 버튼을 클릭하세요.</li></ul> | ![Push to GitHub](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/push.PNG) |
-| :------------------------------------------ | --------------------------------------------------------------------------------------------------------: |
-
-
-- 몇 초 후에 작업이 완료되고 GitHub에 여러분의 컴퓨터의 브랜치 복사본과 정확히 일치하는 복사본이 존재하게 됩니다.
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-### 9단계: PR 제출
+#### Step 4: Open the index.html file
 
-- 여러분이 기다리시던 Pull Request(PR)를 제출하는 단계입니다.
-- 지금까지 실시한 모든 작업들은 여러분의 GitHub의 계정의 프로젝트 fork에 있었습니다.
-- 이제 병합될 변경 사항을 메인 프로젝트에 보낼 차례입니다.
-- 이것을 [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help')라고 합니다. Pull Request는 말 그대로 프로젝트 관리자에게 끌어오도록(Pull) 요청(Request)하는 작업입니다.
-- GitHub에서 여러분의 fork 저장소의 메인 페이지로 이동하세요. (맨 위의 사용자 이름과 fork 아이콘이 있습니다.)
-- 저장소 상단에서 pull request 메시지가 적혀진 녹색 버튼이 있습니다.
+- Now we need to open the file we are going to edit with your favourite code editor.
+- Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
+- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
+- Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project
 
-| <ul><li>`Compare and pull request`를 클릭하세요.</li></ul> | ![Submit a Pull Request](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/pull-request.PNG) |
-| :--------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------: |
+|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
+| :---------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Alternatively you can locate the file on your hard drive, right click, and open with your editor** |
 
+- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
 
-| <ul><li>아래는 `Open a pull request` 페이지입니다.</li><li>우리는 지금 여러분의 브랜치의 fork를 `Master` 브랜치가 아닌 기존 프로젝트와 병합하려고 시도하고 있다는 것을 꼭 기억하세요.</li><li>아래 이미지는 pull request의 헤더가 어떻게 구성되는지를 보여주고 있습니다. </li><li> 가장 왼쪽 드롭박스에는 기존의 프로젝트가 있으며, 다음은 master 브랜치, 이어서 생성한 fork와 브랜치가 있습니다.</li></ul> |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Open a Pull Request](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/pull-request-branches.PNG)                                                                                                                                                                                                                                                                             |
-
-| <ul><li>pull request 생성:</li><li>제목을 작성하세요.</li><li>설명에 추가적인 설명을 작성하세요.</li><li>`Create pull request`를 클릭하세요.</li></ul> | ![Submit a Pull Request](https://github.com/Syknapse/Contribute-To-This-Project/raw/master/readme-only/pull-request-open.PNG) |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------: |
-
-
-- 다른 옵션들에 당황하지마세요. 여러분은 이 세 단계만 실시하시면 됩니다.
-- `Allow edits from maintainers`을 선택한 상태로 두세요.
-- 이제 *Pull Request*가 프로젝트 메인테이너에게 전송될 것입니다. 리뷰 후 검토가 완료되면 여러분이 변경한 내용이 [프로젝트 웹 페이지](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page')에 반영됩니다.
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
-### 10단계: 축하합니다!
+#### Step 5: Copy the card template
 
-모든 단계가 완료되었습니다! 여러분은 이제 GitHub의 오픈 소스 프로젝트에 기여했습니다.
+- We will make a copy of the card template to start working on it
+- At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
+- Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
-라이브 웹 페이지에 여러분의 코드가 추가 되었습니다. [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+| ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
+| :-----------------------------------------------------------------------: |
 
-여러분이 추가하고 변경한 내용은 **즉시 반영되지 않습니다.** 먼저 프로젝트 메인테이너의 리뷰, 승인 및 병합 과정을 거쳐야합니다. 병합되면 카드가 라이브 웹 페이지에 표시됩니다.
+- Paste the whole thing directly below the comment indicating it
+- Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
+- Never use a linters or style formatters. The project has Prettier setup
 
-PR에 대한 리뷰어의 수정 요청은 매우 일반적인 일입니다. 만약 여러분의 PR에 리뷰어가 수정 요청을 한다면 좋은 기회라고 생각하세요. 리뷰어의 의견과 요청된 변경 사항을 확인하고 변경 후 여러분의 브랜치에서 다시 commit, push 하시면 됩니다. PR은 새로운 변경 사항과 함께 자동으로 업데이트됩니다.
+| ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
+| :---------------------------------------------------------------------------------: |
 
-PR에 대해 가능한 빠르게 리뷰와 병합이 이루어지지만 남는 시간에 작업하기 때문에 며칠정도 소요될 수 있습니다.
+- This now is **your** card for you to customize and edit.
+
+[↑ Go to top ↑](#quick-access-index)
 
 ---
 
+#### Step 6: Apply your changes
+
+- We'll now start editing html, changing the customizable fields in our card.
+
+| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
+| :----------------------------------------------- | :----------------------------------------------------------: |
+
+- **Note: Don't change `class="name"`**
+
+| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
+
+|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
+|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+| :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
+
+- **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
+- **Title:** Write a brief description `title="here"`.
+- **Name:** Write the resource's name in the text field `>here</a>`.
+- Make sure you have **saved all your changes**.
+- **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
+- Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
+
+[↑ Go to top ↑](#quick-access-index)
+
 ---
 
-## 다음 단계
+#### Step 7: Commit your changes
 
-- 병합된 Pull Request 확인하세요.
-- 변경 사항이 승인되거나 추가적인 요청사항이 있을 경우 GitHub에서 메일을 발송하게 됩니다. 그리고 PR이 master와 최종적으로 병합되면 여러분의 카드가 추가됩니다.
-- 이 프로젝트가 여러분에게 도움 되었다면 :star: star :star:를 클릭해주시고 트위터[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')에 공유하세요.
-- 이 프로젝트의 제작자인 Syk Hhoudeib에게 연락하고 싶다면 [트위터](https://twitter.com/Syknapse '@Syknapse')와 [링크](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')를 통해 연락할 수 있습니다.
-- 이 프로젝트는 오픈 소스 프로젝트입니다. 카드 기여 외에도 버그, 개선 사항 및 새로운 기능 추가 등의 수정 사항은 언제든 환영입니다. [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides')를 관리하고 새로운 [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')를 보내세요.
-- 커뮤니티를 참여하시려면 Pull Requerst 옆에 위치한 GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) 탭을 확인하세요. 이 곳에서 본인 소개, 오픈 소스에 대한 토론 및 프로젝트 메인테이너와 소통할 수 있습니다. 커뮤니티에 참여해 기능을 추가하고 커뮤니티를 발전시키는데 도움을 주시겠습니까?
-- **프로젝트에 기여해 주셔서 감사합니다.** 이제 ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png)에서 초보자들도 참여할 수 있는 옵션을 찾아 다른 프로젝트에도 기여해보세요.
-- PR을 리뷰하고 병합하는데 도움을 줄 콜라보레이터를 찾고 있습니다. 고급 Git 작업을 직접 해보고 싶으시면 트위터로 DM을 보내주시고 [maintainer's guide](maintainer_guide.md)를 정독하세요.
+- Go back to the GitHub desktop app.
+- Your changes will have been added automatically to the staging area.
+- This means that Git has recorded all the **saved** changes.
+- You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 
-## 감사의 말
+|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: The next step is called _`Commit`_. This roughly means `confirm the changes` |
+|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
+|                                                                            :arrow_right_hook: **This is what your GitHub desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, Your `Current branch` will have the name you gave it in step 3**                                                                            |
+|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
+| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
 
-이 프로젝트는 [Roshan Jossey](https://github.com/Roshanjossey)가 만든 최고의 프로젝트 [first-contributions](https://github.com/Roshanjossey/first-contributions)에서 많은 영향을 받았습니다.
+[↑ Go to top ↑](#quick-access-index)
 
-또한 [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe에서 큰 영감을 받았습니다.
+---
 
-## 라이센스
+#### Step 8: Push your changes to GitHub
 
-[MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
+- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
+- Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
-[처음으로 &uparrow;](#소개)
+| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+
+- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+
+[↑ Go to top ↑](#quick-access-index)
+
+---
+
+#### Step 9: Submit a PR(Pull Request)
+
+- This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
+- So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
+- Now it's time to send your changes to the main project to be merged with it.
+- This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
+- Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
+- Towards the top of the repo you will see a highlighted pull request message with a green button.
+
+|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                    :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
+| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
+|                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
+
+- REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
+- The image below gives you an idea of how the header of your pull request should look like.
+- On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
+
+|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Create a pull request: Write a title, Add optional information in the description and Click on `Create pull request`** |
+
+- Don't be fazed by all the options. You only need to do these three steps for now.
+- Leave the option `Allow edits from maintainers` ticked.
+- Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
+
+[↑ Go to top ↑](#quick-access-index)
+
+---
+
+#### Step 10: Celebrate
+
+That's it. You have done it! You have now contributed to open source on GitHub.
+
+You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+
+Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+
+It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+
+I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
+
+[↑ Go to top ↑](#quick-access-index)
+
+---
+
+### Next Steps
+
+- Come back in a while to check for your merged Pull Request.
+- You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
+- You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
+- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
+- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
+- **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](/maintainer_guide.md).
+
+[↑ Go to top ↑](#quick-access-index)
+
+---
+
+### Acknowledgements
+
+This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
+
+It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+
+### Top 100 Contributors
+
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+
+[Back to the top &uparrow;](#introduction)
+
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
