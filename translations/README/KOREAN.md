@@ -2,7 +2,7 @@
 
 ![image info](/favicon.png)
 
-> 로고 :sparkling_heart: 으로, 제작자: [CandidDeer](https://github.com/CandidDeer)
+> :sparkling_heart: 으로 제작된 로고, 제작자: [CandidDeer](https://github.com/CandidDeer)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
@@ -22,29 +22,29 @@
 
 #### 개요
 
-- [공지](#announcement)
-- [소개](#introduction)
-- [누구를 위한 프로젝트인가요?](#who-is-this-for)
-- [이 프로젝트는 왜 필요한가요?](#why-do-i-need-to-do-this)
-- [무엇을 기여하게 되나요?](#what-am-i-going-to-contribute)
-- [번역](#translations)
-- [설정](#setup-)
-- [다음 단계](#next-steps)
-- [감사의 말](#acknowledgements)
+- [공지](#공지)
+- [소개](#소개)
+- [누구를 위한 프로젝트인가요?](#누구를-위한-프로젝트인가요?)
+- [이 프로젝트는 왜 필요한가요?](#이-프로젝트는-왜-필요한가요?)
+- [무엇을 기여하게 되나요?](#무엇을-기여하게-되나요?)
+- [번역](#번역)
+- [준비](#준비-)
+- [다음 단계](#다음-단계)
+- [감사의 말](#감사의-말)
 
 #### 진행단계
 
-- [기여하기](#contribute)
-- [1단계 - 저장소 포크(fork)하기](#step-1-fork-this-repository)
-- [2단계 - 저장소 복제(clone)하기](#step-2-clone-the-repository)
-- [3단계 - 새 브랜치 생성](#step-3-create-a-new-branch)
-- [4단계 - 메인 index.html 파일 열기](#step-4-open-the-indexhtml-file)
-- [5단계 - 카드 템플릿 복사하기](#step-5-copy-the-card-template)
-- [6단계 - 내용 변경 적용하기](#step-6-apply-your-changes)
-- [7단계 - 변경사항 커밋(commit)하기](#step-7-commit-your-changes)
-- [8단계 - Github에 푸시(push)하기](#step-8-push-your-changes-to-github)
-- [9단계 - PR 제출하기](#step-9-submit-a-prpull-request)
-- [10단계 - 축하합니다](#step-10-celebrate)
+- [기여하기](#기여하기)
+- [1단계 - 저장소 포크(fork)하기](#1단계:-저장소-포크(fork)하기)
+- [2단계 - 저장소 복제(clone)하기](#2단계:-저장소-복제(clone)하기)
+- [3단계 - 새 브랜치 생성](#3단계:-새-브랜치-생성)
+- [4단계 - 메인 index.html 파일 열기](#4단계:-메인-index.html-파일-열기)
+- [5단계 - 카드 템플릿 복사하기](#5단계:-카드-템플릿-복사하기)
+- [6단계 - 내용 변경 적용하기](#6단계:-내용-변경-적용하기)
+- [7단계 - 변경사항 커밋(commit)하기](#7단계:-변경사항-커밋(commit)하기)
+- [8단계 - Github에 푸시(push)하기](#8단계:-Github에-푸시(push)하기)
+- [9단계 - PR 제출하기](#9단계:-PR-제출하기)
+- [10단계 - 축하합니다](#10단계:-축하합니다)
 
 ---
 
@@ -90,89 +90,89 @@ HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정�
 
 ---
 
-### Setup! :)
+### 준비! :)
 
-Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
+참고: 이 튜토리얼은 GitHub PC를 기반으로 합니다. [터미널을 편하게 사용하신다면 해당 튜토리얼로 이동하세요 (여기를 클릭하세요)](/terminal_tutorial.md)
 
-First let's get setup to do the work
+먼저 작업 환경을 설정해봅시다.
 
-1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
-   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+1. GitHub 계정에 로그인하세요. 만약 아직 계정이 없으시다면 [GitHub에 가입하세요](https://github.com/join). 원활한 작업 진행을 위해 [GitHub Hello World 튜토리얼](https://guides.github.com/activities/hello-world/)을 읽고 시작하는 것을 추천드립니다.
+2. [GitHub 데스크탑 앱](https://desktop.github.com/)을 다운로드 후 설치하세요.
+   - 커맨드 라인에서 Git을 사용하는 것이 편하다면 GitHub 데스크탑 앱을 설치하지 않으셔도됩니다. [커맨드 라인(CLI) 튜토리얼 링크](/terminal-tutorial.md).
+   - [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website')를 사용하는 경우 통합 Git이 제공되므로 에디터에서 직접 필요한 작업을 수행할 수 있습니다.
+   - 하지만 이 튜토리얼을 따라하기 가장 간단하고 쉬운 방법은 GitHub Desktop을 사용하는 것입니다.
 
-> Now that you are all setup let's get on with the business of contributing to the project.
+> 이제 모든 준비가 완료되었으므로 본격적으로 프로젝트 기여를 위한 작업을 시작해보겠습니다.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ 위로 ↑](#빠른-액세스-인덱스)
 
 ---
 
-### Contribute
+### 기여하기
 
-Become an open source contributor in 10 easy steps.
+간단한 10가지 단계를 통해 오픈소스 기여자가 되어보세요.
 
-_Estimated time: Less than 30 minutes_.
+_예상 소요 시간: 30분 미만_.
 
-#### Step 1: Fork this repository
+#### 1단계: 저장소 포크(fork)하기
 
-- The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
-- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
+- 이 단계에서의 목표는 프로젝트의 복사본을 만들어 여러분의 GitHub 계정에 저장하는 것입니다.
+- 저장소(repo)는 GitHub에서 프로젝트가 호출되는 방식이며 포크는 프로젝트의 복사본입니다.
+- 자신이 저장소의 [메인 페이지](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')에 있는지 확인하세요.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :---------------------------------------------: |
-|         **Click on the _Fork_ button**          |
+|         **_Fork_ button을 클릭하세요**          |
 
-- You now have a complete copy of the project in your own account.
+- 이제 여러분의 계정에 프로젝트 사본 복사가 완료되었습니다.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ 위로 ↑](#빠른-액세스-인덱스)
 
 ---
 
-#### Step 2: Clone the repository
+#### 2단계: 저장소 복제(clone)하기
 
-- Now we want to make a local copy of the project. That is a copy saved on your own machine.
-- Open the GitHub desktop app. In the app:
+- 이제 프로젝트의 로컬 복사본이 필요합니다. 로컬 복사본이란 여러분의 컴퓨터에 저장된 프로젝트의 복사본을 의미합니다.
+- GitHub 데스크탑 앱을 열고 다음 작업을 수행하세요:
 
 | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :------------------------------------------------------: |
 |       **Click on _File_ then _Clone repository_**        |
 
-- You will see a list of your projects and forks on GitHub.
-- Select `<your-github-username>/Contribute-To-This-Project`.
-- Click _Clone_
+- GitHub에서 자신의 프로젝트와 포크 목록을 볼 수 있을겁니다.
+- `<your-github-username>/Contribute-To-This-Project`를 선택하세요.
+- _Clone_ 버튼을 클릭하세요.
 
 | ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
 | :----------------------------------------------------------------------------------------------------------: |
 
-| :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
+| :arrow_right_hook: 포크된 프로젝트는 왼쪽에 포크 아이콘이 있을 것입니다. 자신의 포크는 자신의 GitHub 사용자명이 표시됩니다. | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
 | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
-- This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
-- Now you have a local copy of the project.
+- 프로젝트가 하드디스크로 복사되는데 시간이 소요됩니다. 일반적으로 `..\Documents\GitHub`를 기본 경로로 설정하는 것을 추천드립니다.
+- 이제 프로젝트의 로컬 복사본이 생성되었습니다.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ 위로 ↑](#빠른-액세스-인덱스)
 
 ---
 
-#### Step 3: Create a new branch
+#### 3단계: 새 브랜치 생성
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- 저장소가 복제되고 GitHub 데스크탑에서 열리면 새로운 브랜치를 생성할 차례입니다.
+- 브랜치는 수정 사항을 `Master`라는 프로젝트의 주요 부분과 분리하는 수단입니다. 예를 들어 잘못된 수정을 통해 원하지 않은 결과를 얻게되더라도 간단히 브랜치 삭제를 통해 메인 프로젝트에 영향을 끼치지않게 할 수 있습니다.
 
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :arrow_right_hook: _`Current branch`_ 를 클릭한 후, _`New`_ 를 클릭하세요. | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **브랜치 이름을 지정한 후, `Create branch`를 클릭하세요** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow_right_hook: **생성된 브랜치를 Github에 게시**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- 브랜치 이름을 마음대로 지정할 수 있지만, 이 브랜치는 본인의 이름이 입력된 카드를 프로젝트에 추가하기 위한 브랜치이므로 브랜치의 의도를 잘 나타낼 수 있는 `your-name-card`(본인 이름)로 지정하는 것이 좋습니다.
+- 이제 마스터와 분리된 새로운 브랜치를 생성했습니다.
+- 다음 단계를 위해 이 브랜치에서 작업중인지 확인하세요. GitHub 데스크탑 앱의 상단 중앙에 _Current branch_ 에서 현재 작업중인 브랜치의 이름이 표시됩니다.
 
-**Do NOT work on the `master` branch**
+**절대 `master` 브랜치에서 작업하지 마세요**
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ 위로 ↑](#빠른-액세스-인덱스)
 
 ---
 
