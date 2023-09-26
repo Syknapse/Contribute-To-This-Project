@@ -36,9 +36,9 @@
 
 - [기여하기](#기여하기)
 - [1단계 - 저장소 포크](#1단계-저장소-포크fork하기)
-- [2단계 - 저장소 복제](#2단계:-저장소-복제(clone)하기)
-- [3단계 - 새 브랜치 생성](#3단계:-새-브랜치-생성)
-- [4단계 - 메인 index.html 파일 열기](#4단계:-메인-index.html-파일-열기)
+- [2단계 - 저장소 복제](#2단계-저장소-복제clone하기)
+- [3단계 - 새 브랜치 생성](#3단계-새-브랜치-생성)
+- [4단계 - 메인 index.html 파일 열기](#4단계-메인-indexhtml-파일-열기)
 - [5단계 - 카드 템플릿 복사하기](#5단계:-카드-템플릿-복사하기)
 - [6단계 - 내용 변경 적용하기](#6단계:-내용-변경-적용하기)
 - [7단계 - 변경사항 커밋(commit)하기](#7단계:-변경사항-커밋(commit)하기)
@@ -176,20 +176,20 @@ _예상 소요 시간: 30분 미만_.
 
 ---
 
-#### Step 4: Open the index.html file
+#### 4단계: 메인 index.html 파일 열기 
 
-- Now we need to open the file we are going to edit with your favourite code editor.
-- Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
-- Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project
+- 이제 선호하는 코드 에디터에서 편집할 파일을 열어야 합니다.
+- 컴퓨터에서 프로젝트 폴더를 찾으세요. 기본 값으로 설정했다면 다음과 같은 경로에서 프로젝트 폴더를 찾을 수 있습니다. `your-computer > Documents > GitHub > Contribute-To-This-Project`
+- `index.html` 파일은 `Contribute-To-This-Project` 폴더에서 찾을 수 있습니다.
+- 코드 에디터(Sublime, VS Code, Atom..등)를 사용해 `Open file` 명령으로 프로젝트의 메인 디렉토리에서 index.html 파일을 찾습니다.
 
 |                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Alternatively you can locate the file on your hard drive, right click, and open with your editor** |
+| :arrow_right_hook: **하드 디스크에 저장된 파일을 우클릭해 직접 코드 에디터로 여는 방법도 있습니다** |
 
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+- 코드 에디터에서 편집할 파일을 열었으니 내용을 변경할 준비가 완료되었습니다.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ 위로 ↑](#빠른-액세스-인덱스)
 
 ---
 
