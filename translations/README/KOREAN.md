@@ -122,7 +122,7 @@ _예상 소요 시간: 30분 미만_.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :---------------------------------------------: |
-|         **_Fork_ button을 클릭하세요**          |
+|         **_Fork_ button을 클릭하세요.**          |
 
 - 이제 여러분의 계정에 프로젝트 사본 복사가 완료되었습니다.
 
@@ -137,7 +137,7 @@ _예상 소요 시간: 30분 미만_.
 
 | ![Clone](/readme-only/clone.PNG 'click clone repository') |
 | :------------------------------------------------------: |
-|       **Click on _File_ then _Clone repository_**        |
+|       **_File_ 버튼을 클릭 후 _Clone repository_ 를 클릭하세요.**        |
 
 - GitHub에서 자신의 프로젝트와 포크 목록을 볼 수 있을겁니다.
 - `<your-github-username>/Contribute-To-This-Project`를 선택하세요.
@@ -163,14 +163,14 @@ _예상 소요 시간: 30분 미만_.
 
 | :arrow_right_hook: _`Current branch`_ 를 클릭한 후, _`New`_ 를 클릭하세요. | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **브랜치 이름을 지정한 후, `Create branch`를 클릭하세요** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **생성된 브랜치를 Github에 게시**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **브랜치 이름을 지정한 후, `Create branch`를 클릭하세요.** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow_right_hook: **생성된 브랜치를 Github에 게시.**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
 - 브랜치 이름을 마음대로 지정할 수 있지만, 이 브랜치는 본인의 이름이 입력된 카드를 프로젝트에 추가하기 위한 브랜치이므로 브랜치의 의도를 잘 나타낼 수 있는 `your-name-card`(본인 이름)로 지정하는 것이 좋습니다.
 - 이제 마스터와 분리된 새로운 브랜치를 생성했습니다.
 - 다음 단계를 위해 이 브랜치에서 작업중인지 확인하세요. GitHub 데스크탑 앱의 상단 중앙에 _Current branch_ 에서 현재 작업중인 브랜치의 이름이 표시됩니다.
 
-**절대 `master` 브랜치에서 작업하지 마세요**
+**절대 `master` 브랜치에서 작업하지 마세요.**
 
 [↑ 위로 ↑](#빠른-액세스-인덱스)
 
@@ -185,7 +185,7 @@ _예상 소요 시간: 30분 미만_.
 
 |                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **하드 디스크에 저장된 파일을 우클릭해 직접 코드 에디터로 여는 방법도 있습니다** |
+| :arrow_right_hook: **하드 디스크에 저장된 파일을 우클릭해 직접 코드 에디터로 여는 방법도 있습니다.** |
 
 - 코드 에디터에서 편집할 파일을 열었으니 내용을 변경할 준비가 완료되었습니다.
 
@@ -217,21 +217,21 @@ _예상 소요 시간: 30분 미만_.
 
 #### 6단계: 내용 변경 적용하기
 
-- 이제 html 편집을 시작할 것입니다. 카드에서 수정해야될 필드의 내용을 변경합니다.
+- 이제 html 편집을 시작합니다. 카드에서 수정해야 될 필드의 내용을 변경합니다.
 
-| :arrow_right_hook: 'Name'을 자신의 이름으로 변경합니다. | ![Change name](/readme-only/change-name.PNG 'Type your name') |
+| :arrow_right_hook: 'Name'을 자신의 이름으로 변경합니다 | ![Change name](/readme-only/change-name.PNG 'Type your name') |
 | :----------------------------------------------- | :----------------------------------------------------------: |
 
 - **참고: `class="name"`은 수정하지마세요.**
 
-| :arrow_right_hook: `href="Insert URL here"`에 트위터 계정 URL을 입력하고, 텍스트 필드에 트위터 계정 이름(핸들)을 입력합니다. | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :arrow_right_hook: `href="Insert URL here"`에 트위터 계정 URL을 입력하고, 텍스트 필드에 트위터 계정 이름(핸들)을 입력합니다 | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
 - 트위터가 아닌 다른 연락처를 사용하려면 [Font Awesome Icons](http://fontawesome.io/icons/)에서 연락처에 알맞는 아이콘을 찾아 `<i class="fa fa-twitter"></i>` 에서 `fa-twitter` 부분을 수정하면 됩니다. 예를 들어 페이스북 아이콘을 사용하려면 `fa-facebook`을 대신 사용하면됩니다.
 
 |                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **여러분의 소개를 간단히 해주세요, 블로그 게시물처럼 길고 자세한 설명보단 트윗처럼 짧고 간결하게 작성해주세요**                                                                                                                |
+|                                                                                                               :arrow_right_hook: **여러분의 소개를 간단히 해주세요, 블로그 게시물처럼 길고 자세한 설명보단 트윗처럼 짧고 간결하게 작성해주세요.**                                                                                                                |
 |                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
 | :arrow_right_hook: **웹 개발과 관련해 유용한 리소스가 있는 커뮤니티의 링크 3개를 공유하세요. 영상, 강연, 팟캐스트, 기사, 참고 자료 무엇이든 좋습니다. 만약 여러분이 입문자라도 부담 갖지 말고 아는 것 무엇이든 공유하세요. 많은 사람들이 도움을 받을 수 있을겁니다.** |
 
@@ -257,9 +257,9 @@ _예상 소요 시간: 30분 미만_.
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: 다음 단계는 _`Commit`_ 입니다. 간단히 말해 `변경 사항 확인` 정도로 설명할 수 있습니다. |
 |                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
-|                                                                            :arrow_right_hook: **GitHub 데스크탑 헤더는 다음과 같아야 합니다. `Current repository`에서 프로젝트 이름 옆 fork 아이콘을 확인하세요, `Current branch` 에는 3단계에서 지정한 이름이 표시됩니다**                                                                            |
+|                                                                            :arrow_right_hook: **GitHub 데스크탑 헤더는 다음과 같아야 합니다. `Current repository`에서 프로젝트 이름 옆 fork 아이콘을 확인하세요, `Current branch` 에는 3단계에서 지정한 이름이 표시됩니다.**                                                                            |
 |                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **_`Commit`_ 위해선 _`Summary`_ 필드를 작성해야합니다. 이 필드는 여러분이 무엇을 변경했는지를 설명하는 commit 메시지입니다. 이 경우 `"Add my card information"`이 적당한 메세지가 될 것입니다. 추가로 더 자세한 설명이 담긴 _`Description`_ 을 입력할 수 있습니다. _`Commit`_ 버튼을 클릭하세요. 버튼에 `Commit to "your-branch-name"`를 확인할 수 있을 것입니다** |
+| :arrow_right_hook: **_`Commit`_ 위해선 _`Summary`_ 필드를 작성해야합니다. 이 필드는 여러분이 무엇을 변경했는지를 설명하는 commit 메시지입니다. 이 경우 `"Add my card information"`이 적당한 메세지가 될 것입니다. 추가로 더 자세한 설명이 담긴 _`Description`_ 을 입력할 수 있습니다. _`Commit`_ 버튼을 클릭하세요. 버튼에 `Commit to "your-branch-name"`를 확인할 수 있을 것입니다.** |
 
 [↑ 위로 ↑](#빠른-액세스-인덱스)
 
