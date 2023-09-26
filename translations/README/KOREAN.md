@@ -52,35 +52,33 @@
 
 이 튜토리얼은 기여가 처음인 분들이 쉽고 간단하게 프로젝트에 참여할 수 있도록 도움을 주기 위한 튜토리얼입니다.
 
-### Objectives
+### 목표
 
-- Make a contribution to an open source project.
-- Get more comfortable in using GitHub.
+- 오픈소스 프로젝트에 기여하기.
+- Github를 더 능숙하게 사용하기.
 
-### Who is this for?
+### 누구를 위한 프로젝트인가요?
 
-- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
-- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+- 이 프로젝트는 완전 초보자들을 위한 프로젝트입니다. 앵커 태그 `<a href="" target=""></a>`를 작성하고 수정할 수 있다면 진행 할 수 있습니다.
+- 처음으로 오픈소스에 기여 해보고 싶거나, 이미 경험이 있지만 더 많은 기여를 경험하고 자신감을 얻고 싶은 분들을 위한 프로젝트입니다.
 
-### Why do I need to do this?
+### 이 프로젝트는 왜 필요한가요?
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
+웹 개발자 취업을 희망하는 사람들과 현직 개발자들에게 Git 버전 관리는 필수입니다. GitHub는 많은 사람들이 사용하는 가장 대중적인 Git 호스팅 서비스이자 오픈소스 커뮤니티입니다. GitHub를 능숙하게 사용하는 것은 개발자로서 필수이며 중요한 기술 중 하나입니다. 프로젝트에 기여하면 GitHub 사용에 대한 자신감이 높아지고 GitHub 프로필에 기여 내용이 표시됩니다.
 
-If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+만약 본인이 입문자이며 Git과 GitHub에 대해 배워야 할지 고민을 하고 있다면 여기에 답이 있습니다: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-### What am I going to contribute?
+### 무엇을 기여하게 되나요?
 
 ![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
-You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+여러분은 이 [프로젝트의 웹 페이지](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project')에 위 그림과 같은 카드를 기여하게 될 것입니다. 카드에는 본인 이름, 트위터 아이디, 간단한 소개 및 여러분들이 추천하는 웹 개발자들을 위한 유용한 리소스 링크가 포함됩니다.
 
-You will make a copy of the card template inside the HTML file and customize it with your own information.
+HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정보로 수정하세요.
 
----
+### 번역
 
-### Translations
-
-This tutorial is also available in [other languages](/translations/README.md)
+이 튜토리얼은 [다른 언어](/translations/README.md)로도 제공됩니다. 
 
 |     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  | [Chinese (Traditional)](/translations/README/CHINESE_TRADITIONAL.md) |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
@@ -88,7 +86,7 @@ This tutorial is also available in [other languages](/translations/README.md)
   [Polish](/translations/README/POLISH.md)  | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) |
    [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) |
 
-> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
+> 프로젝트 문서 번역을 하고 싶다면 환영입니다. [`번역 가이드`](/translations/README.md)를 읽고 기여해주세요.
 
 ---
 
