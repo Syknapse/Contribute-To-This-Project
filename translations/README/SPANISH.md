@@ -1,32 +1,75 @@
 # [Contribuye a este proyecto](https://syknapse.github.io/Contribute-To-This-Project/)
 
+![Logo del proyecto](/favicon.png)
+
+> Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Twittea este proyecto')
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Unete a nuestro servidor de Discord!')
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
+
+---
+
+> ## **Anuncio:**
+>
+> Te gustaría formar parte de este proyecto y ayudar a mantenerlo? Si estás interesado, lee la [guía para mantenedores](/maintainer_guide.md) y envíame un DM en [Twitter](https://twitter.com/Syknapse).
+
+---
+
+### Índice de acceso rápido
+
+#### General
+
+- [Anuncios](#anuncio)
+- [Introducción](#introducción)
+- [Objetivos](#objetivos)
+- [Para quién es?](#para-quién-es)
+- [Por qué debería hacer esto?](#por-qué-debería-hacer-esto)
+- [Con qué voy a contribuir?](#con-qué-voy-a-contribuir)
+- [Traducciones](#traducciones)
+- [Preparación](#preparación)
+- [Próximos pasos](#próximos-pasos)
+- [Agradecimientos](#agradecimientos)
+
+#### Pasos
+
+- [Contribuye](#contribuye)
+- [Paso 1: Copia el repositorio](#paso-1-copia-el-repositorio)
+- [Paso 2: Clona el repositorio](#paso-2-clona-el-repositorio)
+- [Paso 3: Crea una nueva rama](#paso-3-crea-una-nueva-rama)
+- [Paso 4: Abre el archivo html](#paso-4-abre-el-archivo-html)
+- [Paso 5: Copia la plantilla de la tarjeta](#paso-5-copia-la-plantilla-de-la-tarjeta)
+- [Paso 6: Aplica tus cambios](#paso-6-aplica-tus-cambios)
+- [Paso 7: Confirma tus cambios](#paso-7-confirma-tus-cambios)
+- [Paso 8: Sube tus cambios a GitHub](#paso-8-sube-tus-cambios-a-github)
+- [Paso 9: Crea una solicitud para que añadan tus cambios](#paso-9-crea-una-solicitud-para-que-añadan-tus-cambios)
+- [Paso 10: A celebrar!](#paso-10-a-celebrar)
+
+---
 
 ## Introducción
 
 Éste es un tutorial para ayudar a aquellos que quieren contribuir por primera vez a un proyecto fácil y simple.
-
-El tutorial está también disponible en [otros idiomas](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (actualmente [Francés](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Italiano](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Polaco](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugués](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), e [Inglés](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/README.MD)). Nuevas traducciones seran bienvenidas).
 
 ### Objetivos
 
 - Hacer una contribución a un proyecto de código abierto.
 - Ganar confianza usando Github.
 
-### ¿Para quién es?
+### Para quién es?
 
 - Es para principiantes absolutos. Si sabes como escribir y editar una etiqueta de hipertexto `<a href="" target=""></a>` entonces deberías ser capaz de seguir este tutorial.
-- Es también para aquellos que, aun con un poco mas de experiencia, quieran hacer su primera contribución al código abierto, o hacer mas contribuciones para ganar experiencia y confianza.
+- Es también para aquellos que, aún con un poco más de experiencia, quieran hacer su primera contribución al código abierto, o hacer más contribuciones para ganar experiencia y confianza.
 
-### ¿Por qué debería hacer esto?
+### Por qué debería hacer esto?
 
-Cualquier desarrollador web, principiante o experimentado, necesita usar el control de versiones Git y Github es el servicio mas popular. Es también el corazón de la comunidad de código abierto. Sentirse cómodo usando Github es una habilidad esencial.
+Cualquier desarrollador web, principiante o experimentado, necesita usar el control de versiones Git y Github es el servicio más popular. Es también el corazón de la comunidad de código abierto. Sentirse cómodo usando Github es una habilidad esencial.
 Hacer una contribución al código abierto aumenta tu confianza y te provee de algo para mostrar en tu perfil de Github.<br>
 Si eres nuevo en el desarrollo de software y te estás preguntando si necesitas aprender Git y Github, la respuesta es: [Deberías haber aprendido Git ayer](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. Por Brandon Morelli, creador de CodeBurst.io').
 
-## ¿Con qué voy a contribuir?
+### Con qué voy a contribuir?
 
 ![Tarjeta de contribuyente](/readme-only/card.PNG 'Tarjeta de contribuyente')
 
@@ -34,13 +77,25 @@ Vas a contribuir con una tarjeta como ésta a la [página del proyecto](https://
 
 Vas a hacer una copia de la plantilla de la tarjeta dentro del archivo HTML y vas a personalizarla con tu información.
 
-## Índice de acceso rápido
+---
 
-| <ul><li>[Introducción](#introduccion)</li><li>[¿Con qué voy a contribuir?](#con-qué-voy-a-contribuir)</li><li>[Preparación](#preparación)</li><li>[Contribuye &rightarrow;](#contribuye)</li><li>[Próximos pasos](#próximos-pasos)</li><li>[Agradecimientos](#agradecimientos)</li></ul> | Contribuye: <ul><li>[Paso 1: Haz una bifurcación del repositorio](#paso-1-haz-una-bifurcación-del-repositorio)</li><li>[Paso 2: Clona el repositorio](#paso-2-clona-el-repositorio)</li><li>[Paso 3: Crea una nueva rama](#paso-3-crea-una-nueva-rama)</li><li>[Paso 4: Abre el archivo index.html](#paso-4-abre-el-archivo-indexhtml)</li><li>[Paso 5: Copia la plantilla de la tarjeta](#paso-5-copia-la-plantilla-de-la-tarjeta)</li><li>[Paso 6: Aplica tus cambios](#paso-6-aplica-tus-cambios)</li><li>[Paso 7: Confirma tus cambios](#paso-7-confirma-tus-cambios)</li><li>[Paso 8: Sube tus cambios a GitHub](#paso-8-sube-tus-cambios-a-github)</li><li>[Paso 9: Crea una solicitud de extracción](#paso-9-crea-una-solicitud-de-extracción)</li><li>[Paso 10: A celebrar!](#paso-10-a-celebrar)</li></ul> |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+### Traducciones
 
+Este tutorial tambien está disponible en [otros idiomas](/translations/README.md)
 
-## Preparación
+|     [Árabe](/translations/README/ARABIC.md)     |  [Bengalí](/translations/README/BANGLA.md)  | [Chino (Tradicional)](/translations/README/CHINESE_TRADITIONAL.md) |            [Inglés](/README.md)             |  [Francés](/translations/README/FRENCH.md)  
+| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+|  [Alemán](/translations/README/GERMAN.md)  |      [Hindú](/translations/README/HINDI.md)      | [Italiano](/translations/README/ITALIAN.md) | [Japonés](/translations/README/JAPANESE.md) |  [Coreano](/translations/README/KOREAN.md)  |
+  [Polaco](/translations/README/POLISH.md)  | [Portugués](/translations/README/PORTUGUESE.md) | [Ruso](/translations/README/RUSSIAN.md) |  [Serbio](/translations/README/SERBIAN.md)  | [Español](/translations/README/SPANISH.md) |
+   [Turco](/translations/README/TURKISH.md) | [Ucraniano](/translations/README/UKRAINIAN.md) |
+
+> Las traducciones para la documentación del proyecto son bienvenidas. Lee la [`Guia de traducciones`](/translations/README.md) para contribuir.
+
+---
+
+### Preparación
+
+Nota: Este tutorial está basado en GitHub para escritorio. [Si te sientes cómodo usando la terminal ve a este tutorial (Click Aquí)](/terminal_tutorial.md)
 
 Primero, vamos a preparar lo necesario:
 
@@ -50,19 +105,19 @@ Primero, vamos a preparar lo necesario:
    - Si usas [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website'), trae integrado Git y te permite hacer lo que necesites directamente desde el editor.
    - Sin embargo, la forma más simple y fácil de seguir este tutorial es usar GitHub Desktop.
 
-Ahora que tenemos todo listo vamos a ponernos manos a la obra para contribuir al proyecto.
+> Ahora que tenemos todo listo vamos a ponernos manos a la obra para contribuir al proyecto.
+
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
----
-
-## Contribuye
+### Contribuye
 
 Conviértete en un contribuyente al código abierto en 10 sencillos pasos.
 
-_Tiempo estimado: Menos de 30 minutos._
+_Tiempo estimado: Menos de 30 minutos_.
 
-### Paso 1: Haz una bifurcación del repositorio
+#### Paso 1: Copia el repositorio
 
 - El objetivo aquí es hacer una copia de éste proyecto para colocarlo en tu cuenta.
 - Un repositorio (repo) el nombre que se le da a un proyecto en GitHub y una bifurcación (fork) es una copia del mismo.
@@ -74,9 +129,11 @@ _Tiempo estimado: Menos de 30 minutos._
 
 - Ahora tienes una copia completa del proyecto en tu propia cuenta.
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 2: Clona el repositorio
+#### Paso 2: Clona el repositorio
 
 - Ahora queremos hacer una copia local del proyecto, ésto es, una copia guardada en tu computadora.
 - Abre la aplicacion GitHub Desktop y en la aplicación:
@@ -87,14 +144,16 @@ _Tiempo estimado: Menos de 30 minutos._
 
 | <ul><li>Vas a ver una lista de tus proyectos y bifurcaciones en GitHub.</li><li>Selecciona `<tu-nombre-de-usuario-de-github'>/Contribute-To-This-Project`.</li><li>Haz click en _Clone_</li></ul> | ![Clona el proyecto](/readme-only/clone-project.PNG 'Selecciona <tu-nombre-de-usuario-de-github>/Contribute-To-This-Project') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------: |
-| <ul><li>Un proyecto bifurcado va a tener el símbolo de bifurcación a la izquierda</li><li>Tu bifurcación va a tener tu propio nombre de usuario de GitHub.</li></ul>                              |     ![Tu bifurcación](/readme-only/clone-your-fork.PNG 'Tu bifurcación va a verse así, con tu propio nombre de usuario')      |
+| ![Pega la plantilla de la tarjeta](/readme-only/card-paste.PNG 'Pega sobre la línea indicada')                                                                                                                                                                                                                                                               |
 
 - Va a tomar un momento realizar la copia del proyecto a tu disco duro. Te recomiendo que dejes la ruta por defecto que normalmente es `..\Documentos\GitHub`.
 - Ahora tienes una copia local del proyecto
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 3: Crea una nueva rama
+#### Paso 3: Crea una nueva rama
 
 - Una vez que el repositorio se ha clonado y tienes abierto GitHub Desktop es hora de crear una nueva rama (branch).
 - Una rama es la manera de mantener separados tus cambios del proyecto principal llamado `Master`. Si, por ejemplo, las cosas van mal y no estas conforme con los cambios que has hecho, simplemente puedes borrar la rama y el proyecto principal no se verá afectado.
@@ -118,9 +177,11 @@ _Tiempo estimado: Menos de 30 minutos._
 
 **NO trabajes en la rama `master`**
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 4: Abre el archivo index.html
+#### Paso 4: Abre el archivo html
 
 - En éste momento necesitaremos abrir el archivo que vamos a modificar con tu editor de código favorito.
 - Busca la carpeta en tu computadora. Si usaste las opciones por defecto debería estar en `tu-nombre-de-usuario-de-windows > Documentos > GitHub > Contribute-To-This-Project`
@@ -132,9 +193,11 @@ _Tiempo estimado: Menos de 30 minutos._
 
 - Ahora tienes el archivo que vas a editar abierto en tu editor y estás listo para comenzar a hacer cambios en él.
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 5: Copia la plantilla de la tarjeta
+#### Paso 5: Copia la plantilla de la tarjeta
 
 - Vamos a hacer una copia de la tarjeta para empezar a trabajar en ella
 
@@ -148,9 +211,11 @@ _Tiempo estimado: Menos de 30 minutos._
 
 - Ésta es ahora **tu** tarjeta y puedes personalizarla.
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 6: Aplica tus cambios
+#### Paso 6: Aplica tus cambios
 
 - Comenzaremos editando el html, cambiando los campos personalizables en nuestra tarjeta.
 
@@ -177,9 +242,11 @@ _Tiempo estimado: Menos de 30 minutos._
 - **Prueba tus cambios**. ÉSTO ES IMPORTANTE! Abre el archivo html en tu navegador (dándole doble click, por ejemplo) y observa como se ve tu tarjeta en el sitio. Verifica que la página completa luce igual y que nada está roto. Haz click en tus enlaces y comprueba que funcionan. Abre la consola (Ctrl + Shift + J (Windows / Linux) o Cmd + Opt + J (Mac)) y verifica que no hay mensajes de error.
 - Genial, has terminado de editar tu código! Los pasos siguientes subirán tus cambios a GitHub y los enviarán para ser unidos con el proyecto principal.
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 7: Confirma tus cambios
+#### Paso 7: Confirma tus cambios
 
 - Ve hacia atrás en la aplicacion GitHub Desktop.
 - Tus cambios serán agregados automáticamente al area de trabajo (staging area).
@@ -197,10 +264,11 @@ _Tiempo estimado: Menos de 30 minutos._
 | <ul><li>Para confirmar tus cambios (_Commit_) deberás llenar el campo _Summary_ (Resumen)</li><li>Éste es el mensaje de confirmación que explica tus cambios</li><li>En éste caso "Agregué mi tarjeta de información" sería un mensaje acorde</li><li>Opcionalmente puedes usar el campo _Description_ para añadir mas información</li><li>Haz click en el botón _Commit_. Tu boton va a decir algo como `Commit to "nombre-de-tu-rama"`</li></ul> | ![Escribe un mensaje y confirma](/readme-only/commit-message.PNG "Escribe un breve mensaje en 'summary' y haz click en 'commit'") |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------: |
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
-### Paso 8: Sube tus cambios a GitHub
+#### Paso 8: Sube tus cambios a GitHub
 
 - Tus cambios ahora están guardados o confirmados. Pero ellos están guardados localmente, es decir, en tu computadora.
 - Sincronizar cambios locales con tu repositorio en GitHub es llamado _Push_. Estás "pusheando" (subiendo) los cambios desde tu ambiente local a tu repositorio remoto en GitHub.
@@ -211,26 +279,28 @@ _Tiempo estimado: Menos de 30 minutos._
 
 - Despues de unos segundos la operación se habrá completado y tendras exactamente la misma copia de esta rama tanto en tu computadora como en GitHub.
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 9: Crea una solicitud de extracción
+#### Paso 9: Crea una solicitud para que añadan tus cambios
 
-- Éste es el momento por el que has estado esperando: enviar una solicitud de extracción (_Pull Request_ o _PR_).
+- Éste es el momento por el que has estado esperando: enviar una solicitud para que añadan tus cambios (_Pull Request_ o _PR_).
 - Hasta aquí, todo el trabajo que has hecho ha sido en tu bifurcación del proyecto que, como recuerdas, vive en tu propia cuenta de GitHub.
 - Es hora de enviar tus cambios al proyecto principal para que sea unido a él.
-- Ésto es llamado Solicitud de extracción ([_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help')) porque estas solicitando a quien mantiene el proyecto original que "extraiga" tus cambios y los incluya en el proyecto.
+- Ésto es llamado ([_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help')) porque estas solicitando a quien mantiene el proyecto original que "extraiga" tus cambios y los incluya en el proyecto.
 - Vé a la página principal de tu **bifurcación** en GitHub (tendrá el símbolo de bifurcación y tu nombre arriba).
-- Hacia la parte superior del repositorio verás un mensaje de solicitud de extracción resaltado con un botón verde.
+- Hacia la parte superior del repositorio verás un mensaje de Pull Request resaltado con un botón verde.
 
-| <ul><li>Haz click en `Compare and pull request`</li></ul> | ![Enviar una solicitud de extracción](/readme-only/pull-request.PNG 'Ésto usualmente está ubicado hacia la parte superior de la página, bajo la descripción y sobre las carpetas y archivos del proyecto') |
+| <ul><li>Haz click en `Compare and pull request`</li></ul> | ![Enviar una Pull Request](/readme-only/pull-request.PNG 'Ésto usualmente está ubicado hacia la parte superior de la página, bajo la descripción y sobre las carpetas y archivos del proyecto') |
 | :-------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
-| <ul><li>Así es como luce la página `Open a pull request` (Abrir una solicitud de extracción).</li><li>RECUERDA _estás tratando de unir tu rama con el proyecto original, no con la rama `master` de tu bifurcación_.</li><li>La imagen a continuación de una idea de como debería verse la cabecera de tu solicitud de extracción.</li><li>A la izquierda el proyecto original, seguido por la rama master. A la derecha está tu bifurcación y la rama que creaste.</li></ul> |
+| <ul><li>Así es como luce la página `Open a pull request` (Abrir una Pull Request).</li><li>RECUERDA _estás tratando de unir tu rama con el proyecto original, no con la rama `master` de tu bifurcación_.</li><li>La imagen a continuación de una idea de como debería verse la cabecera de tu Pull Request.</li><li>A la izquierda el proyecto original, seguido por la rama master. A la derecha está tu bifurcación y la rama que creaste.</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Abre una solicitud de extracción](/readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                                                   |
+| ![Abre una Pull Request](/readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                                                   |
 
-| <ul><li>Crear una solicitud de extracción:</li><li>Escribe un título</li><li>Agrega información adicional en la descripción</li><li>Haz click en `Create pull request`</li></ul> | ![Envía una solicitud de extracción](/readme-only/pull-request-open.PNG 'Haz click en el boton verde, no tengas miedo!!') |
+| <ul><li>Crear una Pull Request:</li><li>Escribe un título</li><li>Agrega información adicional en la descripción</li><li>Haz click en `Create pull request`</li></ul> | ![Envía una Pull Request](/readme-only/pull-request-open.PNG 'Haz click en el boton verde, no tengas miedo!!') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------: |
 
 
@@ -238,9 +308,11 @@ _Tiempo estimado: Menos de 30 minutos._
 - Deja marcada la opción `Allow edits from maintainers` (Permitir que quien mantiene el proyecto haga cambios)
 - Ahora un _Pull Request_ será enviado a quien mantiene el proyecto. Tan pronto como él lo revise y acepte tus cambios, ellos aparecerán en la [página del proyecto](https://syknapse.github.io/Contribute-To-This-Project 'Página web de Contribute To This Project').
 
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
 ---
 
-### Paso 10: A celebrar!
+#### Paso 10: A celebrar!
 
 Eso es todo. Lo hiciste! Has contribuido al código abierto en GitHub.
 
@@ -248,32 +320,42 @@ Has agregado código a la página: [https://syknapse.github.io/Contribute-To-Thi
 
 Tus cambios **no serán visibles inmediatamente**; primero deben ser revisados, aceptados y unidos al proyecto por quien lo mantiene. Una vez que sean unidos, tu tarjeta será visible en la página.
 
-Es muy normal que un revisor pida que hagas cambios en tu solicitud de extracción. Piensa en ésto como una buena práctica si llega a sucederte. Presta atención a los comentarios y los cambios solicitados. Una vez que hagas esos cambios (nuevamente en tu rama), todo lo que tienes que hacer es confirmar tus cambios y subirlos (commit y push). La solicitud de extracción se actualizará automáticamente con los nuevos cambios.
+Es muy normal que un revisor pida que hagas cambios en tu Pull Request. Piensa en ésto como una buena práctica si llega a sucederte. Presta atención a los comentarios y los cambios solicitados. Una vez que hagas esos cambios (nuevamente en tu rama), todo lo que tienes que hacer es confirmar tus cambios y subirlos (commit y push). La Pull Request se actualizará automáticamente con los nuevos cambios.
 
 Te prometo tratar de revisar y unir los cambios tan pronto como me sea posible pero lo hago en mi tiempo libre, por lo que algunos dias de retraso son inevitables.
 
----
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
-## Próximos pasos
+### Próximos pasos
 
 - Vuelve en un tiempo para verificar que tus cambios se hayan unido.
-- Deberías recibir un email de GitHub cuando tus cambios hayan sido aprobados, si te han pedido cambios adicionales y si la solicitud de extracción está finalmente unida a master y tu tarjeta ha sido añadida.
+- Deberías recibir un email de GitHub cuando tus cambios hayan sido aprobados, si te han pedido cambios adicionales y si la Pull Request está finalmente unida a master y tu tarjeta ha sido añadida.
 - Si encuentras **útil** éste proyecto, por favor dale una :star: estrella :star: al inicio de la página y **twittea** al respecto para hacer correr la voz [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Twittea este proyecto')
 - Puedes **seguirme** y estar en contacto en [Twitter](https://twitter.com/Syknapse '@Syknapse') o [usando cualquiera de estas otras opciones](https://syknapse.github.io/Syk-Houdeib/#contact 'Mi sección de contacto | Portfolio')
-- Éste es un proyecto de código abierto, por lo que aparte de contribuir con tu tarjeta eres bienvenido a corregir errores, a proponer mejoras y a agregar funcionalidades. Abre un [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') o envía una nueva [solicitud de extracción](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- Éste es un proyecto de código abierto, por lo que aparte de contribuir con tu tarjeta eres bienvenido a corregir errores, a proponer mejoras y a agregar funcionalidades. Abre un [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') o envía una nueva [Pull Request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - **Gracias por contribuir a éste proyecto**. Ahora puedes ir y tratar de contribuir a otros. Busca la etiqueta ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para ver los issues orientados a principiantes.
 - También estoy buscando colaboradores para que me den una mano revisando y uniendo las solicitudes de extracción. Si te gustaría ganar conocimientos y práctica con Git, enviame un mensaje privado via Twitter.
 
-## Agradecimientos
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
+
+---
+
+### Agradecimientos
 
 Éste proyecto está fuertemente influenciado por el grandioso proyecto [first-contributions](https://github.com/Roshanjossey/first-contributions) de [Roshan Jossey](https://github.com/Roshanjossey) con su excelente tutorial.
 
 También está particularmente inspirado por la grandiosa comunidad alrededor de [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) La beca Google: Desarrollo web Front-End, clase de 2017 Europa.
 
-## Licencias
+### Licencias
 
 [MIT License](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/LICENSE)
 
+### Top 100 Contributors
+
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+
 [Volver al principio &uparrow;](#introducción)
+
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Twittea este proyecto'
