@@ -265,7 +265,7 @@
       {
         "title": "First Resource",
         "link": "https://www.flaticon.com/",
-        "text": "Resource 1: free vectors for front-end"
+        "text": "Resource 1: free vectors for front-end Developement"
       },
       {
         "title": "Second Resource",
@@ -273,7 +273,7 @@
         "text": "Resource 2: transparrent logos of companies for UI"
       },
       {
-        "title": "Third resource",
+        "title": "Third Resource",
         "link": "https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ",
         "text": "Resource 3: youtube channel 'Clever Programmer' (best one so far i,ve came across)"
       }
@@ -461,7 +461,7 @@
         "handle": "@PhilSeReal"
       }
     ],
-    "about": "I am new in GitHub and i like Java, JavaScript and NodeJS",
+    "about": "I am new in GitHub and i like Java, JavaScript and Node.JS",
     "resources": [
       {
         "title": "First Resource",
@@ -2540,6 +2540,34 @@
         "title": "If you like responsive design then bootrap is your friend",
         "link": "http://getbootstrap.com/",
         "text": "Bootstrap"
+      }
+    ]
+  },
+  {
+    "name": "Santosh",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SantoshGurjar",
+        "handle": "@SantoshGurjar"
+      }
+    ],
+    "about": "I love coding and I also love Robotics. Coding was easier AI wasn't there! I also create Art(sketches mostly).",
+    "resources": [
+      {
+        "title": "Learning programming for beginner",
+        "link": "https://www.freecodecamp.org/",
+        "text": "Free Code Camp"
+      },
+      {
+        "title": "Coding Practice, Prepare for Competitions",
+        "link": "https://www.hackerrank.com/dashboard",
+        "text": "Sometimes challanges look easier than reality!"
+      },
+      {
+        "title": "Learn Frontend by Gaming!",
+        "link": "https://flexboxfroggy.com/",
+        "text": "CSS Practice for beginner"
       }
     ]
   },
