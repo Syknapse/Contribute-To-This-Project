@@ -4116,5 +4116,38 @@
         "text": "Hackerrank"
       }
     ]
+  },
+  {
+    "name": "Indrani Som",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/indrani-som-258498248",
+        "handle": "Indrani Som - LinkedIn"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/IndraniSom",
+        "handle": "IndraniSom - Github"
+      }
+    ],
+    "about": "I'm currently learning Frontend Development and DSA. I'm excited about the endless possibilities of Web Dev field.",
+    "resources": [
+      {
+        "title": "freefrontend(Website)",
+        "link": "https://freefrontend.com/",
+        "text": "freefrontend(Website)"
+      },
+      {
+        "title": "codewell(website)",
+        "link": "https://www.codewell.cc/",
+        "text": "codewell(website)"
+      },
+      {
+        "title": "LoveBabbar(Youtube)",
+        "link": "https://www.youtube.com/@LoveBabbar",
+        "text": "LoveBabbar(Youtube)"
+      }
+    ]
   }
 ]
