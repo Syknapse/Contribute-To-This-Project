@@ -7,6 +7,7 @@ This guide is for those who would like to join the project as maintainers, to he
 This tutorial is also available in [other languages](translations/README.md)
 
 | [English](maintainer_guide.md)   | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) | [Hindi](translations/maintainer_guide/maintainer_guide.hin.md) |
+[Spanish](translations/maintainer_guide/maintainer_guide.spa.md)|
 | :---: | :---: | :---: | :---: | :---: |
 | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) | [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
