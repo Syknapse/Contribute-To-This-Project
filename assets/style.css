@@ -205,7 +205,9 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 18px;
-  border-radius: 5px;
+  border: 1px solid black;
+  padding: 2rem;
+  border-radius: 25px;
   width: 500px;
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
