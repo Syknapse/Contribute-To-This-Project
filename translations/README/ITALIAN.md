@@ -37,13 +37,13 @@
 - [Contribuisci](#Contribuisci)
 - [Step 1 - Copia la repository](#step-1-copia-la-repository)
 - [Step 2 - Clona la repository](#step-2-clona-la-repository)
-- [Step 3 - Crea un nuovo ramo](#step 3-crea-un-nuovo-ramo)
+- [Step 3 - Crea un nuovo ramo](#step-3-crea-un-nuovo-ramo)
 - [Step 4 - Apri il file html principale](#step-4-apri-il-file-html-principale)
 - [Step 5 - Copia la template della card](#step-5-copia-la-template-della-card)
 - [Step 6 - Conferma le modifiche](#step-6-conferma-le-modifiche)
 - [Step 7 - Esegui il commit](#step-7-esegui-il-commit)
 - [Step 8 - Invia a GitHub](#step-8-invia-a-GitHub)
-- [Step 9 - Crea una Pull Request](#step-9-crea una Pull Request)
+- [Step 9 - Crea una Pull Request](#step-9-crea-una-Pull-Request)
 - [Step 10 - Festeggia](#step-10-festeggia)
 
 ---
