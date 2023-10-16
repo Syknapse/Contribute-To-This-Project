@@ -241,7 +241,7 @@ footer {
   word-break: break-word;
 }
 
-.resources a:hover {
+a:hover {
   color: var(--purple);
 }
 
@@ -251,7 +251,7 @@ footer {
   color: var(--orange);
 }
 
-.night .resources a:hover {
+.night  a:hover {
   color: var(--orange);
 }
 
