@@ -8,7 +8,7 @@
 
 | [ইংরেজি](../../maintainer_guide.md) | [বাংলা](maintainer_guide.ben.md) | [জার্মানি](maintainer_guide.ger.md) | [ইটালিয়ান](maintainer_guide.ita.md) | [জাপানিজ](maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [পর্তুগিজ](maintainer_guide.por.md) |
+| [পর্তুগিজ](maintainer_guide.por.md) | [Türkçe](translations/maintainer_guide/maintainer_guide.tur.md) |
 
 > আমাদের প্রকল্পের নথিগুলোর বিভিন্ন ভাষায় রুপান্তরকে আমরা আন্তরিকভাবে স্বাগত জানাই। অনুবাদ সম্বন্ধীয় অবদানের জন্যঃ [`অনুবাদ সহায়ক`](../README.md) -টি পরুন।
 
