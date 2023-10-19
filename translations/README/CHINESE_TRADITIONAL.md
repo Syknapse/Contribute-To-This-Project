@@ -14,7 +14,7 @@
 
 > ## **公告：**
 >
-> 你願意成為這個專案的維護者 (maintainer) 並讓它繼續運行嗎？如果你有興趣，請閱讀[維護者指南](/maintainer_guide.md)並在[Twitter](https://twitter.com/Syknapse)上私訊我。
+> 你願意成為這個專案的維護者 (maintainer) 並讓它繼續運行嗎？如果你有興趣，請閱讀[維護者指南](/translations/maintainer_guide/maintainer_guide.zho-tc.md)並在[Twitter](https://twitter.com/Syknapse)上私訊我。
 
 ---
 
@@ -100,7 +100,7 @@
 
 1. 登入你的 GitHub 帳號。如果你沒有一個帳號就[加入 GitHub](https://github.com/join)。我建議你在繼續之前先完成[GitHub Hello World 教學](https://guides.github.com/activities/hello-world/)。
 2. 下載 [GitHub Desktop](https://desktop.github.com/).
-   - 或者，如果你熟悉在命令列使用 Git，你也可以這樣做。 [命令列教學的連結在這裡](/terminal-tutorial.md).
+   - 或者，如果你熟悉在命令列使用 Git，你也可以這樣做。 [命令列教學的連結在這裡](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md).
    - 如果你使用 [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website')，它自帶整合的 Git 並且讓你可以直接從編輯器做我們需要的事情。
    - 不過使用這個教學最簡單的方法是使用 GitHub Desktop。
 
