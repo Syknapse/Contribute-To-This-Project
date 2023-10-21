@@ -92,7 +92,7 @@ HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정�
 
 ### 준비! :)
 
-참고: 이 튜토리얼은 GitHub PC를 기반으로 합니다. [터미널을 편하게 사용하신다면 해당 튜토리얼로 이동하세요 (여기를 클릭하세요)](/terminal_tutorial.md)
+참고: 이 튜토리얼은 GitHub PC를 기반으로 합니다. [터미널을 편하게 사용하신다면 해당 튜토리얼로 이동하세요 (여기를 클릭하세요)](/traslations/terminal_tutorial/terminal_tutorial.kor.md)
 
 먼저 작업 환경을 설정해봅시다.
 
