@@ -4,13 +4,15 @@
 
 ## भाषांतरे
 
-हे ट्यूटोरियल [इतर भाषांमध्ये] उपलब्ध आहे (translation/README.md)
+हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](translation/README.md)
 
-| [इंग्रजी](maintainer_guide.md) | [बांगला](अनुवाद/maintainer_guide/maintainer_guide.ben.md) | [चीनी (पारंपारिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [जर्मन](अनुवाद/maintainer_guide/maintainer_guide.ger.md) | [हिंदी](translations/maintainer_guide/maintainer_guide.hin.md) |
+
+
+| [इंग्रजी](../../maintainer_guide.md) | [बंगाली](/translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](/translations/maintainer_guide/maintainer_guide.ger.md) | [इटालियन](/translations/maintainer_guide/maintainer_guide.ita.md) | [जपानी](/translations/maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [इटालियन](अनुवाद/maintainer_guide/maintainer_guide.ita.md) | [जपानी](translations/maintainer_guide/maintainer_guide.jpn.md) | [पोर्तुगीज](अनुवाद/maintainer_guide/maintainer_guide.por.md) | [युक्रेनियन](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+| [हिंदी](maintainer_guide.hin.md) | [पोर्तुगीज](/translations/maintainer_guide/maintainer_guide.por.md) | [युक्रेनियन](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपारिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [मराठी](maintainer_guide.mar.md)
 
-> प्रकल्प दस्तऐवजीकरणांसाठी भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](translations/README.md) वाचा.
+> प्रकल्प कागदपत्रांच्या भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](../README.md) वाचा.
 
 ---
 
@@ -62,10 +64,10 @@ npx prettier --write index.html
 
 फाईल फॉरमॅट करण्याचा प्रयत्न केला पाहिजे आणि जर ते शक्य नसेल तर ते तुम्हाला त्रुटी दर्शवेल. काहीवेळा गहाळ क्लोजिंग टॅग किंवा तुटलेला HTML चुकून विलीन केला जातो आणि तो शोधण्याचा आणि निराकरण करण्याचा हा एक चांगला मार्ग आहे.
 
-तुम्हाला कधीही शंका असल्यास, तुम्ही नेहमी माझा किंवा PR मधील इतर देखभाल करणार्‍यांचा उल्लेख करू शकता किंवा [Twitter](https://twitter.com/Syknapse) वर मला DM करू शकता.
+तुम्हाला कधीही शंका असल्यास, तुम्ही नेहमी माझा किंवा PR मधील इतर देखभाल करणार्‍यांचा उल्लेख करू शकता किंवा [ट्विटर](https://twitter.com/Syknapse) वर मला DM करू शकता.
 
 ## आमच्यात सामील व्हा
 
-हा प्रकल्प एकत्रितपणे वाढविण्यात मदत करण्यासाठी आमच्यात सामील व्हा. माझ्याशी [Twitter](https://twitter.com/Syknapse) वर संपर्क साधा आणि मला तुमचे GitHub वापरकर्ता नाव पाठवा जेणेकरून मी तुम्हाला जोडू शकेन. तुम्ही खालील बटणावर क्लिक करून आमच्या Discord समुदायात देखील सामील होऊ शकता:
+हा प्रकल्प एकत्रितपणे वाढविण्यात मदत करण्यासाठी आमच्यात सामील व्हा. माझ्याशी [ट्विटर](https://twitter.com/Syknapse) वर संपर्क साधा आणि मला तुमचे GitHub वापरकर्ता नाव पाठवा जेणेकरून मी तुम्हाला जोडू शकेन. तुम्ही खालील बटणावर क्लिक करून आमच्या Discord समुदायात देखील सामील होऊ शकता:
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'आमच्या सर्व्हरमध्ये सामील व्हा !')
