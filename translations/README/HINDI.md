@@ -3,7 +3,7 @@
 
 ![इमेज की जानकारी](/favicon.png)
 
-> लोगो बनाया गया :sparkling_heart: द्वारा [CandidDeer](https://github.com/CandidDeer)
+> यह लोगो [CandidDeer](https://github.com/CandidDeer) द्वारा बनाया गया है :sparkling_heart:
 
 [![ट्वीट](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
