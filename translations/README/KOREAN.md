@@ -98,7 +98,7 @@ HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정�
 
 1. GitHub 계정에 로그인하세요. 만약 아직 계정이 없으시다면 [GitHub에 가입하세요](https://github.com/join). 원활한 작업 진행을 위해 [GitHub Hello World 튜토리얼](https://guides.github.com/activities/hello-world/)을 읽고 시작하는 것을 추천드립니다.
 2. [GitHub 데스크탑 앱](https://desktop.github.com/)을 다운로드 후 설치하세요.
-   - 커맨드 라인에서 Git을 사용하는 것이 편하다면 GitHub 데스크탑 앱을 설치하지 않으셔도됩니다. [커맨드 라인(CLI) 튜토리얼 링크](/terminal-tutorial.md).
+   - 커맨드 라인에서 Git을 사용하는 것이 편하다면 GitHub 데스크탑 앱을 설치하지 않으셔도됩니다. [커맨드 라인(CLI) 튜토리얼 링크](/translations/terminal_tutorial/terminal_tutorial.kor.md).
    - [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website')를 사용하는 경우 통합 Git이 제공되므로 에디터에서 직접 필요한 작업을 수행할 수 있습니다.
    - 하지만 이 튜토리얼을 따라하기 가장 간단하고 쉬운 방법은 GitHub Desktop을 사용하는 것입니다.
 

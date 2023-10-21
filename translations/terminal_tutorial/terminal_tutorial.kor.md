@@ -93,7 +93,7 @@ HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정�
 
 ### 준비! :)
 
-참고: 만약 커맨드 라인 환경이 익숙하지 않다면 [GitHub Desktop을 사용하는 GUI 튜토리얼](/README.md)을 봐주세요. 
+참고: 만약 커맨드 라인 환경이 익숙하지 않다면 [GitHub Desktop을 사용하는 GUI 튜토리얼](translations/README/KOREAN.md)을 봐주세요. 
 
 먼저 작업 환경을 설정해봅시다.
 
