@@ -41,7 +41,7 @@
 - [Schritt 4: Öffne die Datei index.html](#schritt-4-öffne-die-datei-indexhtml)
 - [Schritt 5: Kopiere die Karten-Vorlage](#schritt-5-kopiere-die-karten-vorlage)
 - [Schritt 6: Änderungen eintragen](#schritt-6-änderungen-eintragen)
-- [Step 7: Commit Deine Änderungen](#step-7-commit-deine-änderungen)
+- [Schritt 7: Commit Deine Änderungen](#schritt-7-commit-deine-änderungen)
 - [Schritt 8: Push Deine Änderungen zu GitHub](#schritt-8-push-deine-änderungen-zu-github)
 - [Schritt 9: Erstelle einen PR(Pull Request)](#schritt-9-erstelle-einen-prpull-request)
 - [Schritt 10: Feier](#schritt-10-feier)
@@ -258,7 +258,7 @@ Info: Dies ist die Befehlszeilenversion, um `index.html` in `VSCode` zu öffnen.
 
 ---
 
-#### Step 7: Commit Deine Änderungen
+#### Schritt 7: Commit Deine Änderungen
 
 - Öffne ein Terminal in Deinem Projektverzeichnis und führe `git status` aus und Du bemerkst, dass in git nichts geändert wurde.
 - Du kannst Deine Änderungen mit dem `git add`-Befehl hinzufügen
