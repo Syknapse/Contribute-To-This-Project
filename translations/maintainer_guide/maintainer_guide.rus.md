@@ -10,7 +10,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [итальянский](/translations/maintainer_guide/maintainer_guide.ita.md) | [Японский](/translations/maintainer_guide/maintainer_guide.jpn.md) | [португальский](/translations/maintainer_guide/maintainer_guide.por.md) | [украинец](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
-> Приветствуются переводы проектной документации. Прочтите [`Руководство по переводу`](translations/README.md) внести свой вклад.
+> Приветствуются переводы проектной документации. Прочтите [`Руководство по переводу`](/translations/README.md) внести свой вклад.
 
 ---
 
