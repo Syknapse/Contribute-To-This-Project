@@ -6,7 +6,7 @@
 
 Это руководство также доступно на [других языках](/translations/README.md)
 
-| [Английский](maintainer_guide.md)   | [Бангла](translations/maintainer_guide/maintainer_guide.ben.md) | [Китайский (традиционный)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Немецкий](translations/maintainer_guide/maintainer_guide.ger.md) | [хинди](translations/maintainer_guide/maintainer_guide.hin.md) |
+| [Английский](/maintainer_guide.md)   | [Бангла](/translations/maintainer_guide/maintainer_guide.ben.md) | [Китайский (традиционный)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Немецкий](/translations/maintainer_guide/maintainer_guide.ger.md) | [хинди](/translations/maintainer_guide/maintainer_guide.hin.md) |
 | :---: | :---: | :---: | :---: | :---: |
 | [итальянский](translations/maintainer_guide/maintainer_guide.ita.md) | [Японский](translations/maintainer_guide/maintainer_guide.jpn.md) | [португальский](translations/maintainer_guide/maintainer_guide.por.md) | [украинец](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
