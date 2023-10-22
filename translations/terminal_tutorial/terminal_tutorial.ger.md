@@ -34,31 +34,17 @@
 
 #### Steps
 
-- [Zu diesem Projekt beitragen](#zu-diesem-projekt-beitragen)
-  - [Schnellzugriff](#schnellzugriff)
-    - [Übersicht](#übersicht)
-    - [Steps](#steps)
-  - [Einleitung](#einleitung)
-    - [Ziele](#ziele)
-    - [Für wen ist es geeignet](#für-wen-ist-es-geeignet)
-    - [Warum sollte ich mitmachen?](#warum-sollte-ich-mitmachen)
-    - [Was werde ich beitragen?](#was-werde-ich-beitragen)
-    - [Übersetzungen](#übersetzungen)
-    - [Setup! :)](#setup-)
-    - [Beitragen](#beitragen)
-      - [Schritt 1: Fork dieses Repository](#schritt-1-fork-dieses-repository)
-      - [Schritt 2: Clone das Repository](#schritt-2-clone-das-repository)
-      - [Schritt 3: Erstelle einen Branch](#schritt-3-erstelle-einen-branch)
-      - [Schritt 4: Öffne die Datei index.html](#schritt-4-öffne-die-datei-indexhtml)
-      - [Schritt 5: Kopiere die Karten-Vorlage](#schritt-5-kopiere-die-karten-vorlage)
-      - [Schritt 6: Änderungen eintragen](#schritt-6-änderungen-eintragen)
-      - [Step 7: Commit Deine Änderungen](#step-7-commit-deine-änderungen)
-      - [Schritt 8: Push Deine Änderungen zu GitHub](#schritt-8-push-deine-änderungen-zu-github)
-      - [Schritt 9: Erstelle einen PR(Pull Request)](#schritt-9-erstelle-einen-prpull-request)
-      - [Schritt 10: Feier](#schritt-10-feier)
-    - [Nächste Schritte](#nächste-schritte)
-    - [Danke](#danke)
-    - [Top 100 Beitragende](#top-100-beitragende)
+- [Beitragen](#beitragen)
+- [Schritt 1: Fork dieses Repository](#schritt-1-fork-dieses-repository)
+- [Schritt 2: Clone das Repository](#schritt-2-clone-das-repository)
+- [Schritt 3: Erstelle einen Branch](#schritt-3-erstelle-einen-branch)
+- [Schritt 4: Öffne die Datei index.html](#schritt-4-öffne-die-datei-indexhtml)
+- [Schritt 5: Kopiere die Karten-Vorlage](#schritt-5-kopiere-die-karten-vorlage)
+- [Schritt 6: Änderungen eintragen](#schritt-6-änderungen-eintragen)
+- [Step 7: Commit Deine Änderungen](#step-7-commit-deine-änderungen)
+- [Schritt 8: Push Deine Änderungen zu GitHub](#schritt-8-push-deine-änderungen-zu-github)
+- [Schritt 9: Erstelle einen PR(Pull Request)](#schritt-9-erstelle-einen-prpull-request)
+- [Schritt 10: Feier](#schritt-10-feier)
 
 ---
 
@@ -107,7 +93,7 @@ Dieses Tutorial ist auch in [anderen Sprachen](/translations/README.md) verfügb
 
 ### Setup! :)
 
-Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/README.md)
+Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/translations/README/German.md)
 
 Als erstes bereiten wir das Setup vor.
 
@@ -134,7 +120,7 @@ Werde ein Open-Source-Mitwirkender in 10 einfachen Schritten.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :---------------------------------------------: |
-|         **Klicke auf die Fork-Schaltfläche**          |
+|         **Klicke auf die _Fork_-Schaltfläche**          |
 
 - Jetzt hast Du eine vollständige Kopie des Projekts in Deinem Konto.
 
