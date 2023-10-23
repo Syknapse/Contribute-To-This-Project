@@ -4,8 +4,8 @@
 
 ## भाषांतरे
 
-हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](../README.md)
 
+हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](../README.md)
 
 
 | [इंग्रजी](../../maintainer_guide.md) | [बंगाली](/translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](/translations/maintainer_guide/maintainer_guide.ger.md) | [इटालियन](/translations/maintainer_guide/maintainer_guide.ita.md) | [जपानी](/translations/maintainer_guide/maintainer_guide.jpn.md) |
