@@ -4,15 +4,15 @@
 
 ## भाषांतरे
 
-हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](/translations/README.md)
 
+हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](../README.md)
 
 
 | [इंग्रजी](../../maintainer_guide.md) | [बंगाली](/translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](/translations/maintainer_guide/maintainer_guide.ger.md) | [इटालियन](/translations/maintainer_guide/maintainer_guide.ita.md) | [जपानी](/translations/maintainer_guide/maintainer_guide.jpn.md) |
 | :---: | :---: | :---: | :---: | :---: |
 | [हिंदी](maintainer_guide.hin.md) | [पोर्तुगीज](/translations/maintainer_guide/maintainer_guide.por.md) | [युक्रेनियन](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपारिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [मराठी](maintainer_guide.mar.md)
 
-> प्रकल्प कागदपत्रांच्या भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](/translations/README.md) वाचा.
+> प्रकल्प कागदपत्रांच्या भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](../README.md) वाचा.
 
 ---
 
