@@ -4,7 +4,7 @@
 
 ## भाषांतरे
 
-हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](/translation/README.md)
+हे ट्यूटोरियल उपलब्ध आहे [इतर भाषांमध्ये](/translations/README.md)
 
 
 
@@ -12,7 +12,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [हिंदी](maintainer_guide.hin.md) | [पोर्तुगीज](/translations/maintainer_guide/maintainer_guide.por.md) | [युक्रेनियन](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपारिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [मराठी](maintainer_guide.mar.md)
 
-> प्रकल्प कागदपत्रांच्या भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](../README.md) वाचा.
+> प्रकल्प कागदपत्रांच्या भाषांतरांचे स्वागत आहे. योगदान देण्यासाठी [`अनुवाद मार्गदर्शक`](/translations/README.md) वाचा.
 
 ---
 
