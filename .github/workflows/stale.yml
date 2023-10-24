@@ -1,0 +1,36 @@
+name: "Close stale issues and PR"
+on:
+  schedule:
+    - cron: "30 1 * * *"
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  intentions-not-clear:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v8
+        with:
+          # for both PR and issues
+          any-of-labels: "intentions not clear"
+          stale-pr-message: "This PR is stale because it has been 1 days with no activity. Explain intention of this PR or this will be closed in 2 days."
+          close-pr-message: "This PR was closed because it has been stalled for 3 days with unclear intentions."
+          stale-issue-message: "This issue is stale because it has been 1 days with no activity. Explain intention of this PR or this will be closed in 2 days."
+          close-issue-message: "This issue was closed because it has been stalled for 3 days with unclear intentions."
+          days-before-stale: 1
+          days-before-close: 2
+          remove-stale-when-updated: true
+  changes-requested:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v8
+        with:
+          # only for PR
+          any-of-pr-labels: "changes requested"
+          stale-pr-message: "This PR is stale because it has been 1 days with no activity. Update PR or this will be closed in 4 days."
+          close-pr-message: "This PR was closed because it has been stalled for 5 days with no activity."
+          days-before-stale: 1
+          days-before-close: 4 
+          remove-pr-stale-when-updated: true
