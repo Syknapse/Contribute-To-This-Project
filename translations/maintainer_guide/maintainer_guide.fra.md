@@ -4,13 +4,9 @@ Ce guide est destiné à ceux qui souhaitent rejoindre le projet en tant que res
 
 ## Traductions
 
-Ce tutoriel est également disponible en [autres langues](translations/README.md)
+Ce tutoriel est également disponible en [autres langues](../README.md)
 
-| [English](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/maintainer_guide.md)   | [Bangla]([/translations/maintainer_guide/maintainer_guide.ben.md](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.ben.md)) | [Chinese (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [German]([/translations/maintainer_guide/maintainer_guide.ger.md](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.ger.md)) | [Hindi]([/translations/maintainer_guide/maintainer_guide.hin.md](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.hin.md)) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Italian]([/translations/maintainer_guide/maintainer_guide.ita.md](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.jpn.md) | [Portuguese](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainian](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/maintainer_guide/maintainer_guide.ukr.md) |
-
-> Les traductions des documentations de projets sont les bienvenues. Lire [`Guide de traduction`](https://github.com/Syknapse/Contribute-To-This-Project/blob/69f692fc596e46dfe624e3d263b458defd31b258/translations/README.md)contribuer.
+> Les traductions des documentations de projets sont les bienvenues. Lire [`Guide de traduction`](../README.md) contribuer.
 
 ---
 
@@ -31,7 +27,7 @@ Vous pouvez y consacrer autant ou aussi peu de temps que vous le souhaitez. Entr
 - Ouvrez un PR et accédez à l'onglet Modifications des fichiers et lancez une révision du code.
 - Vérifiez le PR, assurez-vous qu'il suit les spécifications du didacticiel.
 - Assurez-vous que le HTML, les liens et les données sont tous corrects. Assurez-vous que la carte est positionnée au début du fichier là où elle devrait être.
-- Vérifiez ensuite tout conflit. Fusionnez « master » dans la branche PR pour résoudre les conflits. Les conflits surviennent généralement lorsqu'un certain temps s'est écoulé depuis les fusions précédentes et que plusieurs PR utilisent la même version obsolète.
+- Vérifiez ensuite tout conflit. Fusionnez `master` dans la branche PR pour résoudre les conflits. Les conflits surviennent généralement lorsqu'un certain temps s'est écoulé depuis les fusions précédentes et que plusieurs PR utilisent la même version obsolète.
 - Si tel est le cas, résolvez le conflit. Habituellement, vous devrez ajouter la nouvelle carte au-dessus des cartes qui ont été ajoutées depuis la création du fork.
 - Si tout le reste va bien, approuvez le PR, écrivez un message au contributeur pour le remercier pour sa contribution (en vous rappelant qu'il s'agit d'un premier venu et qu'il bénéficierait d'encouragements).
 - Fusionnez le PR dans `master`.
@@ -56,7 +52,7 @@ Le projet a installé Prettier pour garantir que quelle que soit la manière don
 Si vous remarquez que le fichier HTML semble désordonné, exécutez le code ci-dessous à la racine du projet.
 
 ```js
-npx plus joli --write index.html
+npx prettier --write index.html
 ```
 
 Il devrait essayer de formater le fichier et s'il n'y parvient pas, il vous montrera les erreurs. Parfois, une balise de fermeture manquante ou un code HTML cassé est fusionné par erreur et c'est un bon moyen de le repérer et de le corriger.
