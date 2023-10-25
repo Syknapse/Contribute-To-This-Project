@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1795c54-2885-4f01-9eb2-20896af75806" name="Changes" comment="">
+    <list default="true" id="b1795c54-2885-4f01-9eb2-20896af75806" name="Changes" comment="commit-popunusog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -64,8 +64,17 @@
       <option name="presentableId" value="Default" />
       <updated>1684522614106</updated>
       <workItem from="1684522615201" duration="372000" />
-      <workItem from="1698263471666" duration="982000" />
+      <workItem from="1698263471666" duration="1564000" />
     </task>
+    <task id="LOCAL-00001" summary="commit-popunusog">
+      <option name="closed" value="true" />
+      <created>1698264488913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698264488913</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +90,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit-popunusog" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit-popunusog" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
