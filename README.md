@@ -74,7 +74,7 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
-You will make a copy of the card template inside the HTML file and customize it with your own information.
+You will make a copy of the card template inside the HTML file and customize it with your information.
 
 ---
 
@@ -96,13 +96,13 @@ This tutorial is also available in [other languages](/translations/README.md)
 
 Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
 
-First let's get setup to do the work
+First, let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
+   - Alternatively, if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+   - However, the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
 > Now that you are all setup let's get on with the business of contributing to the project.
 
