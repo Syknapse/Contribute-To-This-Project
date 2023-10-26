@@ -21,7 +21,7 @@ jobs:
             - name: Check source code style with Prettier
               uses: creyD/prettier_action@v4.3
               with:
-                  prettier_options: --check index.html
+                  prettier_options: --write index.html
                   only_changed: True
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
