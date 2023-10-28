@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1795c54-2885-4f01-9eb2-20896af75806" name="Changes" comment="commit-popunusog">
+    <list default="true" id="b1795c54-2885-4f01-9eb2-20896af75806" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -25,9 +25,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
   <component name="ProjectId" id="2JnQfdGXUDqO14KUP4MvobaoyZF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -43,14 +40,9 @@
     "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
     "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "kuba-card",
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "last_opened_file_path": "/home/dokter/Desktop/Contribute-To-This-Project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
   }
@@ -64,17 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684522614106</updated>
       <workItem from="1684522615201" duration="372000" />
-      <workItem from="1698263471666" duration="1564000" />
     </task>
-    <task id="LOCAL-00001" summary="commit-popunusog">
-      <option name="closed" value="true" />
-      <created>1698264488913</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1698264488913</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,10 +72,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit-popunusog" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit-popunusog" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
