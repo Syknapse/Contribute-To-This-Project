@@ -343,6 +343,14 @@ I promise I will try to review and merge as soon as possible but I do this in my
 [↑ Go to top ↑](#quick-access-index)
 
 ---
+### License
+This project is licensed under the MIT License.
+
+**Copyright (c) 2017 Syk Houdeib**
+
+The MIT License allows you to use, modify, and distribute the software for any purpose, provided you include the original copyright notice and the license text in your distribution. For more information on the MIT License and its terms, please refer to the [LICENSE](./LICENSE) file.
+
+If you have any questions or need further information about the license, please contact the project maintainers.
 
 ### Acknowledgements
 
