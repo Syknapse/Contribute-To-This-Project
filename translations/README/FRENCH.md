@@ -177,7 +177,7 @@ _Temps estimé: moins de 30 minutes_.
 | :------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Changer de contact](/readme-only/change-contact.PNG 'Insérez un lien vers votre compte Twitter et saisissez votre identifiant')                       |
 
-- Si vous préférez utiliser un contact autre que Twitter, vous devrez remplacer l'icône Twitter `<i class =" fa fa-twitter "> </i>` en accédant à [Font Awesome Icons](http://fontawesome.io/icons/) en recherchant la bonne icône et en remplaçant uniquement la partie `fa-twitter` par la nouvelle icône comme `fa-facebook` par exemple. Suivez ensuite les mêmes étapes ci-dessus.
+- Si vous préférez utiliser un contact autre que Twitter, vous devrez remplacer l'icône Twitter `<i class =" fa fa-x-twitter "> </i>` en accédant à [Font Awesome Icons](http://fontawesome.io/icons/) en recherchant la bonne icône et en remplaçant uniquement la partie `fa-x-twitter` par la nouvelle icône comme `fa-facebook` par exemple. Suivez ensuite les mêmes étapes ci-dessus.
 
 | <ul> <li> Parlez-nous de vous </li> <li> Soyez bref et concis. Pensez-y plus comme un tweet qu'un article de blog </li> </ul> | ![Change about](/readme-only/change-about.PNG 'Ecrivez une phrase sur vous') |
 | :---------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------: |

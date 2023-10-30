@@ -227,7 +227,7 @@ _Tiempo estimado: Menos de 30 minutos_.
 | :-------------------------------------------------------------------------------------------------------------------------- |
 | ![Cambiar contacto](/readme-only/change-contact.PNG 'Inserta un vínculo a tu cuenta de Twitter y escribe tu arroba')        |
 
-- Si prefieres usar otro método de contacto en lugar de Twitter, deberás reemplazar el ícono`<i class="fa fa-twitter"></i>` yendo a [Font Awesome Icons](http://fontawesome.io/icons/), buscando el ícono adecuado y reemplazando sólo la parte de `fa-twitter` con la del nuevo ícono. `fa-facebook` por ejemplo. Luego continúa con los mismos pasos.
+- Si prefieres usar otro método de contacto en lugar de Twitter, deberás reemplazar el ícono`<i class="fa fa-x-twitter"></i>` yendo a [Font Awesome Icons](http://fontawesome.io/icons/), buscando el ícono adecuado y reemplazando sólo la parte de `fa-x-twitter` con la del nuevo ícono. `fa-facebook` por ejemplo. Luego continúa con los mismos pasos.
 
 | <ul><li>Dinos algo acerca de tí</li><li>Hazlo corto y sencillo. Piensa mas en un tweet que en un artículo de un blog</li></ul> | ![Cambia el "Acerca de"](/readme-only/change-about.PNG 'Escribe una oración acerca de tí') |
 | :----------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------: |

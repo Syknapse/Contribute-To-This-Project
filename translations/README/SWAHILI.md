@@ -229,7 +229,7 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 | :arrow_right_hook: Chomeka URL ya akaunti yako ya Twitter `href="Ingiza URL hapa"`, Charaza mpini wako katika sehemu ya maandishi | ![Badilisha mwasiliani](/readme-only/change-contact.PNG 'Ingiza kiungo kwenye akaunti yako ya Twitter na uandike mpini wako') |
 | :---------------------------------------------- ----------------------------------------------- ------------------ | :---------------------------------------------- ----------------------------------------------- ---------: |
 
-- Ukipendelea kutumia mwasiliani isipokuwa Twitter utahitaji kubadilisha ikoni ya twitter `<i class="fa fa-twitter"></i>` kwa kwenda kwa [Icons Awesome Font](http://fontawesome .io/icons/) inatafuta ikoni sahihi na kubadilisha sehemu ya `fa-twitter` pekee na ikoni mpya kama vile `fa-facebook` kwa mfano. Kisha fuata hatua sawa hapo juu.
+- Ukipendelea kutumia mwasiliani isipokuwa Twitter utahitaji kubadilisha ikoni ya twitter `<i class="fa fa-x-twitter"></i>` kwa kwenda kwa [Icons Awesome Font](http://fontawesome .io/icons/) inatafuta ikoni sahihi na kubadilisha sehemu ya `fa-x-twitter` pekee na ikoni mpya kama vile `fa-facebook` kwa mfano. Kisha fuata hatua sawa hapo juu.
 
 | ![Change about](/readme-only/change-about.PNG 'Andika sentensi kukuhusu') |
 | :---------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- --------------------------------------------: |
