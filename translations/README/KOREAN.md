@@ -14,7 +14,7 @@
 
 > ## **공지:**
 >
-> 이 프로젝트의 메인테이너가 되어 도움을 주고 싶으신가요? 관심이 있으시다면 메인테이너 가이드 [maintainer's guide](/maintainer_guide.md) 를 읽고 [Twitter](https://twitter.com/Syknapse) 에서 DM을 보내주세요.
+> 이 프로젝트의 메인테이너가 되어 도움을 주고 싶으신가요? 관심이 있으시다면 메인테이너 가이드 [maintainer's guide](/translations/maintainer_guide/maintainer_guide.kor.md) 를 읽고 [Twitter](https://twitter.com/Syknapse) 에서 DM을 보내주세요.
 
 ---
 
