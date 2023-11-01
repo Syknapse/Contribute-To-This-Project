@@ -204,9 +204,9 @@ footer {
 .card {
   display: flex;
   flex-direction: column;
-  margin: 18px;
+  margin: 20px;
   border-radius: 5px;
-  width: 500px;
+  width: 400px;
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.2);

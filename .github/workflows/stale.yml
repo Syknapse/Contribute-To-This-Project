@@ -27,8 +27,8 @@ jobs:
     steps:
       - uses: actions/stale@v8
         with:
-          # only for PR
-          any-of-pr-labels: "changes requested"
+          # only for PR normally
+          any-of-labels: "changes requested"
           stale-pr-message: "This PR is stale because it has been 1 days with no activity. Update PR or this will be closed in 4 days."
           close-pr-message: "This PR was closed because it has been stalled for 5 days with no activity."
           days-before-stale: 1
