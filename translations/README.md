@@ -31,7 +31,8 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 | [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Hindi](maintainer_guide/maintainer_guide.hin.md) |
 | :---: | :---: | :---: | :---: | :---: |
-|[Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) | [Russian](maintainer_guide/maintainer_guide.rus.md)
+[Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Korean](maintainer_guide/maintainer_guide.kor.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Russian](maintainer_guide/maintainer_guide.rus.md) |
+[Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |
 
 ---
 
