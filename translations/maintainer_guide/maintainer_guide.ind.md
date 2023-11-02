@@ -4,12 +4,12 @@ Petunjuk ini ialah ditujukan kepada mereka yang ingin bergabung dengan proyek se
 
 ## Terjemahan
 
-Petunjuk ini pula tersedia dalam [bahasa lain](translations/README.md)
+Petunjuk ini pula tersedia dalam [bahasa lain](/translations/README.md)
 
-| [Inggris](maintainer_guide.md) | [Bengali](translations/maintainer_guide/maintainer_guide.ben.md) | [Zhōngwén (Tradisional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Jerman](translations/maintainer_guide/maintainer_guide.ger.md) | [Hindi](translations/maintainer_guide/maintainer_guide.hin.md) |
+| [Inggris](../../maintainer_guide.md) | [Bengali](maintainer_guide.ben.md) | [Zhōngwén (Tradisional)](maintainer_guide.zho-tc.md) | [Jerman](maintainer_guide.ger.md) | [Hindi](maintainer_guide.hin.md) |
 | :---: | :---: | :---: | :---: | :---: |
-| [Italia](translations/maintainer_guide/maintainer_guide.ita.md) | [Jepang](translations/maintainer_guide/maintainer_guide.jpn.md) | [Korea](translations/maintainer_guide/maintainer_guide.kor.md) | [Marathi](translations/maintainer_guide/maintainer_guide.mar.md) | [Portugis](translations/maintainer_guide/maintainer_guide.por.md) 
-| [Prancis (français)](translations/maintainer_guide/maintainer_guide.fra.md) | [Rusia](translations/maintainer_guide/maintainer_guide.rus.md) | [Ukraina](translations/maintainer_guide/maintainer_guide.ukr.md)
+| [Italia](maintainer_guide.ita.md) | [Jepang](maintainer_guide.jpn.md) | [Korea](maintainer_guide.kor.md) | [Marathi](maintainer_guide.mar.md) | [Portugis](maintainer_guide.por.md) 
+| [Prancis (français)](maintainer_guide.fra.md) | [Rusia](maintainer_guide.rus.md) | [Ukraina](maintainer_guide.ukr.md)
 
 > Terjemahan kepada proyek dokumentasi ialah dipersilakan. Lihat [`Petunjuk Terjemahan`](translations/README.md) untuk berkontribusi.
 
