@@ -24,4 +24,4 @@ jobs:
                   prettier_options: --write index.html
                   only_changed: True
               env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_TOKEN: ${{ secrets.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 }}
