@@ -50,4 +50,4 @@ jobs:
                   prettier_options: --write index.html
                   only_changed: True
               env:
-                  GITHUB_TOKEN: ${{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}}}}
+                  GITHUB_TOKEN: ${{ secrets.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 }}}}
