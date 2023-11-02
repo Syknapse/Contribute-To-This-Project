@@ -1,17 +1,17 @@
-# Petunjuk Pengelola
+# Panduan Pengelola
 
-Petunjuk ini ialah ditujukan kepada mereka yang ingin bergabung dengan proyek sebagai pengelola, membantu memelihara dan mengelola proyek terhadap komunitas. (Ini bukanlah petunjuk untuk **kontributor yang masih baru**)
+Panduan ini ialah ditujukan kepada mereka yang ingin bergabung dengan proyek sebagai pengelola, membantu memelihara dan mengelola proyek terhadap komunitas. (Ini bukanlah panduan untuk **kontributor yang masih baru**)
 
 ## Terjemahan
 
-Petunjuk ini pula tersedia dalam [bahasa lain](../README.md)
+Panduan ini pula tersedia dalam [bahasa lain](../README.md)
 
 | [Inggris](/maintainer_guide.md) | [Bengali](maintainer_guide.ben.md) | [Zhōngwén (Tradisional)](maintainer_guide.zho-tc.md) | [Jerman](maintainer_guide.ger.md) | [Hindi](maintainer_guide.hin.md) |
 | :---: | :---: | :---: | :---: | :---: |
 | [Italia](maintainer_guide.ita.md) | [Jepang](maintainer_guide.jpn.md) | [Korea](maintainer_guide.kor.md) | [Marathi](maintainer_guide.mar.md) | [Portugis](maintainer_guide.por.md) 
 | [Prancis (français)](maintainer_guide.fra.md) | [Rusia](maintainer_guide.rus.md) | [Ukraina](maintainer_guide.ukr.md)
 
-> Terjemahan kepada proyek dokumentasi ialah dipersilakan. Lihat [`Petunjuk Terjemahan`](../README.md) untuk berkontribusi.
+> Terjemahan kepada proyek dokumentasi ialah dipersilakan. Lihat [`Panduan Terjemahan`](../README.md) untuk berkontribusi.
 
 ---
 
@@ -22,7 +22,7 @@ Selain itu, kami dapat memelihara proyek menjamin semua berfungsi dengan benar s
 
 ## Untuk siapakah ini?
 
-Siapa pun dengan sedikit keterampilan Git dan GitHub. Anda tak perlu harus menjadi ahli, petunjuk ini bahkan membantu para pemula. Ini ialah proyek aktif yang mendapat kontribusi berkala dan membantu banyak orang dalam membuat kontribusi sumber terbuka pertama mereka. Menjadi pengelola proyek ini membantu menjamin proyek secara berkelanjutan memberikan pengalaman pertama yang baik kepada kontributor kami dan menganjurkan mereka berkontribusi lebih banyak.
+Siapa pun dengan sedikit keterampilan Git dan GitHub. Anda tak perlu harus menjadi ahli, panduan ini bahkan membantu para pemula. Ini ialah proyek aktif yang mendapat kontribusi berkala dan membantu banyak orang dalam membuat kontribusi sumber terbuka pertama mereka. Menjadi pengelola proyek ini membantu menjamin proyek secara berkelanjutan memberikan pengalaman pertama yang baik kepada kontributor kami dan menganjurkan mereka berkontribusi lebih banyak.
 
 Anda dapat berkomitmen sebanyak atau sekadar waktu yang Anda inginkan. Di antara kita, kami berharap dapat tetap menjalankan ini dengan lancar.
 
@@ -54,7 +54,7 @@ Akan tetapi, bukanlah hal yang jarang memiliki beberapa PR yang menunggu dan saa
 Saya merekomendasikan penggunaan alat seperti [GitKraken](https://www.gitkraken.com/download). Kemampuan visual dan tata kelola lebih mudah kala terdapat beberapa PR yang harus dilalui.
 Unduh GitKraken, lalu klon proyek. Menggunakan kombinasi dari kode editor Anda dan integrasi alat konflik penggabungan milik GitKraken menyuguhkan kendali penuh untuk secara cepat melalui PR, memperbaiki konflik dan penggabungan.
 
-Proyek tersebut telah terpasang Prettier untuk menjamin bahwa terlepas dari bagaimana kontributor mengajukan PR, panduan terhadap gaya akan diberlakukan. Proyek dengan cara ini selalu dipelihara dengan gaya dan indentasi yang sama.
+Proyek tersebut telah terpasang Prettier untuk menjamin bahwa terlepas dari bagaimana kontributor mengajukan PR, petunjuk terhadap gaya akan diberlakukan. Proyek dengan cara ini selalu dipelihara dengan gaya dan indentasi yang sama.
 Bila Anda melihat berkas HTML terlihat berantakan jalankan kode berikut dalam bawaan proyek.
 
 ```js
