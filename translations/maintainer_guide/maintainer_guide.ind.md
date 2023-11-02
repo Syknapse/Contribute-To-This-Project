@@ -17,7 +17,7 @@ Panduan ini pula tersedia dalam [bahasa lain](../README.md)
 
 ## Tujuan
 
-Tujuan utama kami ialah memberikan umpan balik tercepat sebisa mungkin kepada kontributor sejak mereka membuat permintaan penggabungan (*pull request*) mereka. Hal terutama memberikan tinjauan kode dan menggabungkan PR yang diterima.
+Tujuan utama kami ialah memberikan umpan balik tercepat sebisa mungkin kepada kontributor sejak mereka membuat permintaan penggabungan (*pull request* / PR) mereka. Hal terutama memberikan tinjauan kode dan menggabungkan PR yang diterima.
 Selain itu, kami dapat memelihara proyek menjamin semua berfungsi dengan benar sebagaimana membantu dan bermanfaat kepada kontributor kami.
 
 ## Untuk siapakah ini?
