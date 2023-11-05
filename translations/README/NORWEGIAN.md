@@ -26,7 +26,7 @@
 - [Introduksjon](#introduksjon)
 - [Hvem er dette for?](#hvem-er-dette-for)
 - [Hvorfor må jeg gjøre dette?](#hvorfor-må-jeg-gjøre-dette)
-- [Hva skal jeg bidra til?](#hva-skal-jeg-bidra-med?)
+- [Hva skal jeg bidra til?](#hva-skal-jeg-bidra-med)
 - [Oversettelser](#oversettelse)
 - [Oppsett](#oppsett-)
 - [Neste steg](#neste-steg)
