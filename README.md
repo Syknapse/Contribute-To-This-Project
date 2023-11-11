@@ -343,12 +343,15 @@ I promise I will try to review and merge as soon as possible but I do this in my
 [↑ Go to top ↑](#quick-access-index)
 
 ---
-
 ### Acknowledgements
 
 This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+
+### License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ### Top 100 Contributors
 
