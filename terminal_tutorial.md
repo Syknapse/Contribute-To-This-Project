@@ -93,7 +93,8 @@ This tutorial is also available in [other languages](/translations/README.md)
 
 ### Setup! :)
 
-Note: If you're not good with the command line interface [here is the GUI tutorial using GitHub Desktop](/README.md)
+> [!Note]
+> If you're not good with the command line interface [here is the GUI tutorial using GitHub Desktop](/README.md)
 
 First let's get setup to do the work
 
