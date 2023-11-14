@@ -93,7 +93,7 @@ Dieses Tutorial ist auch in [anderen Sprachen](/translations/README.md) verfügb
 
 ### Setup! :)
 
-Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/translations/README/German.md)
+Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/translations/README/GERMAN.md)
 
 Als erstes bereiten wir das Setup vor.
 

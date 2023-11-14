@@ -92,7 +92,7 @@
 
 ### 設置！ :)
 
-注意：如果你不擅長使用命令列介面，[這裡是使用 GitHub Desktop 的圖形介面教學](/README.md)。
+注意：如果你不擅長使用命令列介面，[這裡是使用 GitHub Desktop 的圖形介面教學](../README/CHINESE_TRADITIONAL.md)。
 
 首先，我們先來設置好環境。
 
