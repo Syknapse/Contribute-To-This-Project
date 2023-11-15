@@ -2780,13 +2780,13 @@
       {
         "icon": "fab fa-discord",
         "link": "https://discord.com/invite/2WMJjcpzPA",
-        "handle": "TenTraicion#6565"
+        "handle": "@TenTraicion"
       }
     ],
     "about": "I'm a student and new to this programming world. Recently set my goal to become a Full Stack Web Developer.\n          I am eager to join any community which is friendly enough to accept me as one of them.",
     "resources": [
       {
-        "title": "This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.",
+        "title": "This project is designed to fill in the gap for people who are trying to hack it on their own but still want a high-quality education.",
         "link": "https://www.theodinproject.com/",
         "text": "The Odin Project"
       },
@@ -3140,7 +3140,7 @@
       {
         "title": "IT source code",
         "link": "https://itsourcecode.com/",
-        "text": "ITsourceCode(A totorial website of my IT Teacher)"
+        "text": "ITsourceCode(A tutorial website of my IT Teacher)"
       }
     ]
   }
