@@ -83,7 +83,7 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/README.md)
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tuorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
 | :----: | :----: | :----: | :----: | :----: |
 | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
 
@@ -94,7 +94,7 @@ This tutorial is also available in [other languages](/translations/README.md)
 ### Setup! :)
 
 > [!Note]
-> If you're not good with the command line interface [here is the GUI tutorial using GitHub Desktop](./README.md)
+> If you're not good with the command line interface [here is the GUI tutorial using GitHub Desktop](/README.md)
 
 First let's get setup to do the work
 
