@@ -94,7 +94,8 @@ This tutorial is also available in [other languages](/translations/README.md)
 
 ### Setup! :)
 
-Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
+> [!Note]
+> This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
 
 First let's get setup to do the work
 
