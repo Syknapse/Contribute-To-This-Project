@@ -69,7 +69,7 @@ numberOfFilesArray.forEach(number => {
 const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
-  console.info('Cards in index.html', cardsInIndex)
+  console.info('Cards in index.html:', cardsInIndex)
   if (cardsInIndex > 100)
     console.warn(
       `Too many cards in index.html: ${cardsInIndex}. Run the archive_cards script. Follow instructions in archive/archiving_cards_guide`
@@ -81,6 +81,7 @@ showInfoInConsole()
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
+  console.info('Total Contributions:', numberOfContributors)
 
   setTimeout(() => {
     if (displayNumber < numberOfContributors) {
