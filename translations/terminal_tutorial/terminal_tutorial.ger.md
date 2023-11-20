@@ -93,7 +93,7 @@ Dieses Tutorial ist auch in [anderen Sprachen](/translations/README.md) verfügb
 
 ### Setup! :)
 
-Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/translations/README/German.md)
+Info: Wenn Du Dich nicht so gut mit der Kommandozeile auskennst, [gibt es hier ein GUI-Tutorial mit dem GitHub-Desktop](/translations/README/GERMAN.md)
 
 Als erstes bereiten wir das Setup vor.
 
@@ -239,7 +239,7 @@ Info: Dies ist die Befehlszeilenversion, um `index.html` in `VSCode` zu öffnen.
 | :arrow_right_hook: Trage die URL Deines Twitter-Kontos hier `href="Insert URL here"` ein, und Deinen Twitternamen in das Textfeld | ![Change contact](/readme-only/change-contact.PNG 'Füge Deinen Twitter-Link und Deinen Twitter-Namen ein') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
-- Wenn Du lieber einen anderen Kontakt anstatt Twitter eintragen möchtest, musst Du das Twitter-Symbol `<i class="fa fa-twitter"></i>` ersetzen und ein anderes von [Font Awesome Icons](http://fontawesome.io/icons/) suchen und dann nur den `fa-twitter`-Teil mit dem neuen Icon ersetzen, z. B. `fa-facebook`. Dann wieder den obigen Schritten folgen.
+- Wenn Du lieber einen anderen Kontakt anstatt Twitter eintragen möchtest, musst Du das Twitter-Symbol `<i class="fa fa-x-twitter"></i>` ersetzen und ein anderes von [Font Awesome Icons](http://fontawesome.io/icons/) suchen und dann nur den `fa-x-twitter`-Teil mit dem neuen Icon ersetzen, z. B. `fa-facebook`. Dann wieder den obigen Schritten folgen.
 
 |                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Schreib einen Satz über Dich')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

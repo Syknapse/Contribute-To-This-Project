@@ -14,7 +14,7 @@
 
 > ## **공지:**
 >
-> 이 프로젝트의 메인테이너가 되어 도움을 주고 싶으신가요? 관심이 있으시다면 메인테이너 가이드 [maintainer's guide](/maintainer_guide.md) 를 읽고 [Twitter](https://twitter.com/Syknapse) 에서 DM을 보내주세요.
+> 이 프로젝트의 메인테이너가 되어 도움을 주고 싶으신가요? 관심이 있으시다면 메인테이너 가이드 [maintainer's guide](/translations/maintainer_guide/maintainer_guide.kor.md) 를 읽고 [Twitter](https://twitter.com/Syknapse) 에서 DM을 보내주세요.
 
 ---
 
@@ -227,7 +227,7 @@ _예상 소요 시간: 30분 미만_.
 | :arrow_right_hook: `href="Insert URL here"`에 트위터 계정 URL을 입력하고, 텍스트 필드에 트위터 계정 이름(핸들)을 입력합니다 | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
-- 트위터가 아닌 다른 연락처를 사용하려면 [Font Awesome Icons](http://fontawesome.io/icons/)에서 연락처에 알맞는 아이콘을 찾아 `<i class="fa fa-twitter"></i>` 에서 `fa-twitter` 부분을 수정하면 됩니다. 예를 들어 페이스북 아이콘을 사용하려면 `fa-facebook`을 대신 사용하면됩니다.
+- 트위터가 아닌 다른 연락처를 사용하려면 [Font Awesome Icons](http://fontawesome.io/icons/)에서 연락처에 알맞는 아이콘을 찾아 `<i class="fa fa-x-twitter"></i>` 에서 `fa-x-twitter` 부분을 수정하면 됩니다. 예를 들어 페이스북 아이콘을 사용하려면 `fa-facebook`을 대신 사용하면됩니다.
 
 |                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |

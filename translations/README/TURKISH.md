@@ -163,7 +163,7 @@ _Tahmini süre: 30 dakikadan az_.
 | :---------------------------------------------------------------------------------------------------------------------------------- |
 | ![Promeni kontakt](/readme-only/change-contact.PNG 'Umetnite vezu do svog Tvitter naloga i otkucajte svoje tviter username')        |
 
-- Twitter dışında bir platform kullanmayı tercih ederseniz twitter simgesini değiştirmeniz gerekecektir `<i class="fa fa-twitter"></i>`. [Font Awesome Icons](http://fontawesome.io/icons/)'a giderek doğru simgeyi bulmanız sonrasında yalnızca `fa-twitter` bölümünü örneğin `fa-facebook` gibi yeni simgeyle değiştirebilirsiniz.
+- Twitter dışında bir platform kullanmayı tercih ederseniz twitter simgesini değiştirmeniz gerekecektir `<i class="fa fa-x-twitter"></i>`. [Font Awesome Icons](http://fontawesome.io/icons/)'a giderek doğru simgeyi bulmanız sonrasında yalnızca `fa-x-twitter` bölümünü örneğin `fa-facebook` gibi yeni simgeyle değiştirebilirsiniz.
 
 | <ul><li>Bize kendin hakkında birşeyler söyle</li><li>Kısa ve güzel tut. Bunu blog gönderisinden çok bir tweet gibi düşünebilirsiniz</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------: |
