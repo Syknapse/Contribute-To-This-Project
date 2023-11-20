@@ -81,7 +81,6 @@ showInfoInConsole()
 const countUp = () => {
   const numberOfCards = document.getElementsByClassName('card').length
   const numberOfContributors = numberOfCards - 1 // minus the example card
-  console.info('Total Contributions:', numberOfContributors)
 
   setTimeout(() => {
     if (displayNumber < numberOfContributors) {
@@ -90,7 +89,9 @@ const countUp = () => {
       countUp()
     }
 
-    if (displayNumber === numberOfContributors) displayClass.add('rubberBand')
+    if (displayNumber === numberOfContributors) {
+      displayClass.add('rubberBand')
+    }
   }, 15)
 }
 
