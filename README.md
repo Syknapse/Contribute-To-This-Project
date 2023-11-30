@@ -20,46 +20,28 @@
 
 ### Quick access index
 
-#### Overview
-
-- [Announcements](#announcement)
 - [Introduction](#introduction)
+- [Objectives](#objectives)
 - [Who is this for?](#who-is-this-for)
 - [Why do I need to do this?](#why-do-i-need-to-do-this)
-- [What am I going to contribute to?](#what-am-i-going-to-contribute)
+- [What am I going to contribute?](#what-am-i-going-to-contribute)
 - [Translations](#translations)
-- [Setup](#setup-)
+- [Setup! :)](#setup-)
+- [Contribute](#contribute)
+  - [Step 1: Fork this repository](#step-1-fork-this-repository)
+  - [Step 2: Clone the repository](#step-2-clone-the-repository)
+  - [Step 3: Create a new branch](#step-3-create-a-new-branch)
+  - [Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)
+  - [Step 5: Copy the card template](#step-5-copy-the-card-template)
+  - [Step 6: Apply your changes](#step-6-apply-your-changes)
+  - [Step 7: Commit your changes](#step-7-commit-your-changes)
+  - [Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)
+  - [Step 9: Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
+  - [Step 10: Celebrate](#step-10-celebrate)
 - [Next Steps](#next-steps)
 - [Acknowledgements](#acknowledgements)
-
-#### Steps
-
-- [Contribute To This Project](#contribute-to-this-project)
-    - [Quick access index](#quick-access-index)
-      - [Overview](#overview)
-      - [Steps](#steps)
-  - [Introduction](#introduction)
-    - [Objectives](#objectives)
-    - [Who is this for?](#who-is-this-for)
-    - [Why do I need to do this?](#why-do-i-need-to-do-this)
-    - [What am I going to contribute?](#what-am-i-going-to-contribute)
-    - [Translations](#translations)
-    - [Setup! :)](#setup-)
-    - [Contribute](#contribute)
-      - [Step 1: Fork this repository](#step-1-fork-this-repository)
-      - [Step 2: Clone the repository](#step-2-clone-the-repository)
-      - [Step 3: Create a new branch](#step-3-create-a-new-branch)
-      - [Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)
-      - [Step 5: Copy the card template](#step-5-copy-the-card-template)
-      - [Step 6: Apply your changes](#step-6-apply-your-changes)
-      - [Step 7: Commit your changes](#step-7-commit-your-changes)
-      - [Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)
-      - [Step 9: Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
-      - [Step 10: Celebrate](#step-10-celebrate)
-    - [Next Steps](#next-steps)
-    - [Acknowledgements](#acknowledgements)
-    - [License](#license)
-    - [Top 100 Contributors](#top-100-contributors)
+- [License](#license)
+- [Top 100 Contributors](#top-100-contributors)
 
 ---
 
