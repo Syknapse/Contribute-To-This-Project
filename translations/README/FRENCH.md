@@ -1,155 +1,199 @@
-<p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/92825997/180024524-b4fe0042-faaf-4e67-91ef-e0ab7f22028c.png" width="300">
+# [Apporter votre contribution à ce projet](https://syknapse.github.io/Contribute-To-This-Project/)
 
-# <p align="center">[Apporter votre contribution à ce projet](https://syknapse.github.io/Contribute-To-This-Project/)</p>
+![image info](/favicon.png)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project')
+> Logo créé avec :sparkling_heart: par [CandidDeer](https://github.com/CandidDeer)
 
-</p>
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Rejoignez notre serveur Discord!')
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![GitHub forks](https://img.shields.io/github/forks/Syknapse/Contribute-To-This-Project.svg?style=social&label=Fork&maxAge=2592000)
-![GitHub stars](https://img.shields.io/github/stars/Syknapse/Contribute-To-This-Project.svg?style=social&label=Star&maxAge=2592000)
-![GitHub watchers](https://img.shields.io/github/watchers/Syknapse/Contribute-To-This-Project.svg?style=social&label=Watch&maxAge=2592000)
+---
 
 > ### **Annonce:**
 >
-> Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, envoyez moi un DM sur [Twitter](https://twitter.com/Syknapse) et lisez le [guide du mainteneur](maintainer_guide.md).
+> Souhaitez-vous devenir un responsable de ce projet et aider à le maintenir? Si vous êtes intéressé, lisez le [guide du mainteneur](/maintainer_guide.md) et envoyez-moi un DM sur [Twitter](https://twitter.com/Syknapse).
 
-<h4 align="center">Introduction</h4>
-<p align="center">Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.</p>
+---
 
-<h5 align="center">Objectives</h5>
+### Index d'accès rapide
+
+- [Introduction](#introduction)
+- [Objectifs](#objectifs)
+- [Pour qui est ce projet?](#pour-qui-est-ce-projet)
+- [Pourquoi contribuer?](#pourquoi-contribuer)
+- [Que vais-je contribuer?](#que-vais-je-contribuer)
+- [Traductions](#traductions)
+- [Setup! :)](#setup-)
+- [Contribuer](#contribuer)
+  - [Etape 1: Forker le repo](#etape-1-forker-le-repo)
+  - [Etape 2: Cloner le repo](#etape-2-cloner-le-repo)
+  - [Etape 3: Créer une nouvelle branche](#etape-3-creer-une-nouvelle-branche)
+  - [Etape 4: Ouvrir le fichier index.html](#etape-4-ouvrir-le-fichier-indexhtml)
+  - [Etape 5: Copier la template de la carte](#etape-5-copier-la-template-de-la-carte)
+  - [Etape 6: Effectuer les modifications](#etape-6-effectuer-les-modifications)
+  - [Etape 7: Appliquer un commit](#etape-7-appliquer-un-commit)
+  - [Etape 8: Faire un push à GitHub](#etape-8-faire-un-push-a-github)
+  - [Etape 9: Soumettre une PR (Pull Request)](#etape-9-soumettre-une-pr-pull-request)
+  - [Etape 10: Fêter ça](#etape-10-feter-ca)
+- [Prochaines étapes](#prochaines-etapes)
+- [Remerciements](#remerciements)
+- [License](#license)
+- [Top 100 Contributeurs](#top-100-contributeurs)
+
+---
+
+### Introduction
+
+Ceci est un tutoriel pour aider les nouveaux contributeurs à participer à un projet simple et facile.
+
+### Objectifs
 
 - Apporter une contribution à un projet open source.
 - Devenir plus à l'aise dans l'utilisation GitHub.
 
-Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) (Actuellement disponible en [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), et [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md). Des traductions sont les bienvenue).
+### Pour qui est ce projet?
 
-<h5 align="center">À qui est-ce destiné?</h5>
+- Pour les débutants absolus. Si vous savez comment écrire et modifier une balise d'ancrage `<a href="" target=""></a>`, alors vous devriez pouvoir le faire.
+- C'est aussi pour ceux qui ont un peu plus d'expérience mais qui veulent faire leur première contribution open source, ou pour ceux qui souhaitent faire plus de contributions pour plus monter en expérience et prendre confiance.
 
-- Ceci est pour les débutants absolus. Si vous savez comment écrire et modifier une balise d'ancrage`<a href="" target=""></a>` alors vous devriez pouvoir le faire.
-- C'est pour ceux qui ont un peu plus d'expérience mais qui veulent faire leur première contribution open source, ou obtenir plus de contributions pour plus d'expérience et de confiance.
+### Pourquoi contribuer?
 
-<h5 align="center">Pourquoi dois-je faire ça?</h5>
+Tout développeur heb, en herbe ou expérimenté, doit utiliser le contrôle de version Git, et GitHub est le service d'hébergement Git le plus populaire au monde. C'est aussi le cœur de la communauté Open Source. Se familiariser avec GitHub est une compétence essentielle. Contribuer à un projet renforce votre confiance et vous donne quelque chose à afficher sur votre profil GitHub.
 
-Tout développeur Web, en herbe ou expérimenté, doit utiliser le contrôle de version Git, et GitHub est le service d'hébergement Git le plus populaire utilisé dans le monde. C'est aussi le cœur de la communauté Open Source. Se familiariser avec GitHub est une compétence essentielle. Contribuer à un projet renforce votre confiance et vous donne quelque chose à afficher sur votre profil GitHub.<br>
 Si vous êtes un nouveau développeur et que vous vous demandez si vous avez besoin d'apprendre Git et GitHub, voici la réponse: [Vous auriez dû apprendre Git hier](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'Nouveau développeur? Vous devriez avoir appris Git hier. par Brandon Morelli, créateur de CodeBurst.io ').
 
-<h4 align="center">Que vais-je apporter?</h4>
+### Que vais-je contribuer?
 
 ![Carte de contributeur](/readme-only/card.PNG 'Contributor Card')
 
-Vous allez contribuer une carte comme celle-ci à la [page web du projet](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Il comprendra votre nom, votre pseudo Twitter, une brève description et 3 liens vers des ressources utiles pour les développeurs Web que vous recommandez.
+Vous allez contribuer une carte comme celle-ci à la [page web du projet](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Il comprendra votre nom, votre pseudo Twitter, une brève description et 3 liens vers des ressources utiles pour les développeurs web que vous recommandez.
 
 Vous allez faire une copie du modèle de carte dans le fichier HTML et le personnaliser avec vos propres informations.
 
-<h4 align="center">Les traductions</h4>
+---
 
-Ce tutoriel est également disponible dans d'[autres langues](https://github.com/Syknapse/Contribute-To-This-Project/tree/master/translations) ([Arabe](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ARABIC.md), [Français](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/FRENCH.md), [Allemagne](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/German.md), [Italien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/ITALIAN.md), [Coréen](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/KOREAN.md), [Polonais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/POLISH.md), [Portugais](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/PORTUGUESE.md), [Serbien](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SERBIAN.md), [Espagnol](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/SPANISH.md), and [Turc](https://github.com/Syknapse/Contribute-To-This-Project/blob/master/translations/TURKISH.md) actuellement.
-Des traductions pour ce README ou le fichier README des responsables sont les bienvenues!).
+### Traductions
 
-<h4 align="center">Index d'accès rapide</h4>
+Ce tutoriel est également disponible dans d'[autres langues](/translations/README.md)
 
-| <ul><li>[Introduction](#introduction)</li><li>[Que vais-je apporter?](#what-am-i-going-to-contribute)</li><li>[Installer](#setup)</li><li>[Contribuer &rightarrow;](#contribute)</li><li>[Prochaines étapes](#next-steps)</li><li>[Remerciements](#acknowledgements)</li></ul> | Pour contribuer: <ul><li>[Étape 1: Forker ce référentiel](#step-1-fork-this-repository)</li><li>[Étape 2: Cloner le référentiel](#step-2-clone-the-repository)</li><li>[Étape 3: Créer une nouvelle branche](#step-3-create-a-new-branch)</li><li>[Étape 4: Ouvrer le fichier index.html](#step-4-open-the-indexhtml-file)</li><li>[Étape 5: Copier le modèle de carte](#step-5-copy-the-card-template)</li><li>[Étape 6: Appliquer vos modifications](#step-6-apply-your-changes)</li><li>[Étape 7: Valider vos modifications](#step-7-commit-your-changes)</li><li>[Étape 8: Transférer vos modifications sur GitHub](#step-8-push-your-changes-to-github)</li><li>[Étape 9: Soumetter un PR](#step-9-submit-a-pr)</li><li>[Étape 10: Célébrer!](#step-10-celebrate)</li></ul> |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     [Arabe (عربي)](/translations/README/ARABIC.md)     |  [Bengali (বাংলা)](/translations/README/BANGLA.md)  | [Chinois (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [Anglais (English)](/README.md)             |  [Français (Français)](/translations/README/FRENCH.md)  
+| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+|  [Allemand (Deutsch)](/translations/README/GERMAN.md)  |      [Hindu (हिंदी)](/translations/README/HINDI.md)      | [Italien (Italiano)](/translations/README/ITALIAN.md) | [Japonais (日本語)](/translations/README/JAPANESE.md) |  [Coréen (한국어)](/translations/README/KOREAN.md)  |
+  [Polonais (Polski)](/translations/README/POLISH.md)  | [Portuguais (Portuguese)](/translations/README/PORTUGUESE.md) | [Russe (Русский)](/translations/README/RUSSIAN.md) |  [Serbe (Српски)](/translations/README/SERBIAN.md)  | [Espagnol (Español)](/translations/README/SPANISH.md) |
+   [Turc (Türkçe)](/translations/README/TURKISH.md) | [Ukrainien (українська)](/translations/README/UKRAINIAN.md) | [Norvégien (Norsk)](/translations/README/NORWEGIAN.md)
 
-
-<h4 align="center">Mise en place!</h4>
-D'abord mettons nous en place pour effectuer le travail
-
-1. Connectez-vous à votre compte GitHub. Si vous n'avez pas encore de compte, [rejoindre GitHub](https://github.com/join). Je vous recommande de faire le [Tutoriel GitHub Hello World](https://guides.github.com/activities/hello-world/) avant de continuer.
-1. Télécharger [GitHub Desktop app](https://desktop.github.com/).
-   - Alternativement, si vous êtes à l'aise avec Git sur la ligne de commande, vous pouvez le faire (voici[first-contributions](https://github.com/Syknapse/first-contributions), a similar project that can serve as a guide for the commands needed). OR
-     -Si tu utilises [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') il est livré avec Git intégré et vous permet de faire ce dont nous avons besoin directement depuis l'éditeur.
-   - Cependant, le moyen le plus simple et le plus simple de suivre ce didacticiel consiste à utiliser GitHub Desktop.
-
-Maintenant que vous êtes tous configurés, continuons à contribuer au projet.
+> Les traductions de documentations sont les bienvenues. Lisez le [`Guide du Traducteur`](/translations/README.md) pour contribuer.
 
 ---
 
+### Setup! :)
+
+> [!Note]
+> Ce tutoriel est basé sur un GitHub PC. [Si vous êtes confortable avec un terminal, essayez ce tutoriel (Cliquez Ici)](/terminal_tutorial.md)
+
+Commençons par configurer l'environnement de travail :
+
+1. Connectez-vous à votre compte GitHub. Si vous n'en avez pas encore, [créez un compte](https://github.com/join). Je vous conseille de faire le [Tutoriel GitHub Hello World](https://guides.github.com/activities/hello-world/) avant de continuer.
+2. Téléchargez la [GitHub Desktop app](https://desktop.github.com/).
+   - Autrement, si vous êtes confortable avec le terminal, vous pouvez l'utiliser: [voici le lien vers le tutoriel CLI](/terminal_tutorial.md).
+   - Si vous utilisez [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website'), il propose un Git intégré et permet de faire le nécessaire directement depuis l'éditeur.
+   - La manière la plus simple et la plus directe de suivre ce tutoriel reste Github Desktop.
+
+> Maintenant que vous avez la configuration nécessaire, passons à la partie contribution.
+
+[↑ Retour à l'index ↑](#index-dacces-rapide)
+
 ---
 
-## Contribuer
+### Contribuer
 
-Bdevenir un contributeur open source en 10 étapes faciles.
+Devenir un contributeur open source en 10 étapes faciles.
 
 _Temps estimé: moins de 30 minutes_.
 
-### Étape 1: créez ce référentiel
+### Etape 1: Forker ce repo
 
-- L'objectif ici est de faire une copie de ce projet et de le placer dans votre compte.
-- Un référentiel (repo) est la façon dont un projet est appelé sur GitHub et un fork en est une copie.
+- L'objectif ici est de faire une copie de ce projet sur votre compte.
+- Un repo (dépôt) est la façon dont un projet est appelé sur GitHub, et un fork en est une copie par un autre utilisateur.
 - Assurez-vous que vous êtes sur la [page principale](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de ce repo.
 
-| <ul><li>Cliquez sur le bouton _Fork_</li></ul> | ![Fork](/readme-only/fork.png "cliquez sur 'Fork'") |
-| :--------------------------------------------- | --------------------------------------------------: |
+| ![Fork](/readme-only/fork.png "cliquez sur 'Fork'") |
+| :---------------------------------------------: |
+|        **Cliquez sur le bouton _Fork_**         |
 
+- Vous avez maintenant une copie complète du projet sur votre propre compte
 
-- Vous avez maintenant une copie complète du projet dans votre propre compte
+[↑ Retour à l'index ↑](#index-dacces-rapide)
 
 ---
 
-### Étape 2: Cloner le référentiel
+### Etape 2: Cloner le repo
 
 - Maintenant, nous voulons faire une copie locale du projet. C'est une copie enregistrée sur votre propre machine.
 - Ouvrez l'application de bureau GitHub. Dans l'appli:
 
-| <ul> <li> Cliquez sur _File_ puis sur _Clone repository_ </li> </ul> | ![Clone](/readme-only/clone.PNG 'click clone repository') |
-| :------------------------------------------------------------------- | --------------------------------------------------------: |
+| ![Clone](/readme-only/clone.PNG 'click clone repository') |
+| :------------------------------------------------------: |
+|    **Cliquez sur _File_ puis sur _Clone repository_**    |
 
+- Vous verrez une liste de vos projets et forks sur GitHub.
+- Sélectionnez `<your-github-username>/Contribute-To-This-Project`.
+- Cliquez sur _Clone_
 
-| <ul> <li> Vous verrez une liste de vos projets et forks sur GitHub. </li> <li> Sélectionnez `<your-github-username>/Contribute-To-This-Project`. </li> <li> Cliquez sur _Clone_ </li> </ul> |  ![Clone project](/readme-only/clone-project.PNG 'cliquez sur <your-github-username> / Contribute-To-This-Project')  |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------: |
-| <ul> <li> Un projet forké aura le symbole fork sur la gauche. </li> <li> Votre fork aura votre propre nom d'utilisateur GitHub. </li> </ul>                                                 | ![votre fork](/readme-only/clone-your-fork.PNG "votre fork ressemblera à ceci, avec votre propre nom d'utilisateur") |
+| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
+|:----------------------------------------------------------------------------------------------------------: |
 
-- Cela prendra un moment pendant que le projet est copié sur votre disque dur. Je vous recommande de conserver le chemin par défaut qui est généralement `.. \ Documents \ GitHub`.
-- Vous disposez maintenant d'une copie locale du projet.
+| :arrow_right_hook: Un projet forké aura le symbole fork sur la gauche. Votre fork aura votre propre nom d'utilisateur GitHub. | ![votre fork](/readme-only/clone-your-fork.PNG 'votre fork ressemblera à ça, avec votre propre nom d'utilisateur') |
+| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+
+- La copie du projet sur votre disque dur prendra un moment. Il est conseillé de garder le chemin par défaut, qui est généralement `..\Documents\GitHub`.
+- Vous avez maintenant une copie locale du projet.
+
+[↑ Retour à l'index ↑](#index-dacces-rapide)
 
 ---
 
 ### Étape 3: créer une nouvelle branche
 
-- Une fois que le repo a été clonée et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
-- Une branche est un moyen de séparer vos modifications de la partie principale du projet appelée `Master`. Par exemple, si les choses tournent mal et que vous n’êtes pas satisfait de vos modifications, vous pouvez simplement supprimer la branche et le projet principal ne sera pas affecté.
+- Une fois que le repo a été cloné et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
+- Une branche est un moyen de séparer vos modifications de la partie principale du projet, appelée `master`. Par exemple, si les choses tournent mal et que vous n’êtes pas satisfait de vos modifications, vous pouvez simplement supprimer la branche et le projet principal ne sera pas affecté.
 
-| <ul><li>Clique sur _Current branch_</li><li>ensuite clique sur _New_</li></ul> | ![Créer une branche](/readme-only/branch-new.PNG "Clique sur 'Branch', et 'New'") |
-| :----------------------------------------------------------------------------- | --------------------------------------------------------------------------------: |
+| :arrow_right_hook: Cliquez sur _`Current branch`_, puis sur _`New`_ | ![Créer une branche](/readme-only/branch-new.PNG "Cliquez sur 'Branch', puis sur 'New'") |
+| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Donnez un nom à votre branche, puis cliquez sur `Create branch`** |                           ![Nommer la branche](/readme-only/branch-name.PNG 'Nommez votre branche')                            |
+| :arrow_right_hook: **Publiez votre nouvelle branche sur GitHub**                      | ![Publier la branche](/readme-only/branch-publish.PNG 'Cliquez sur Publier pour envoyer la nouvelle branche à votre référentiel distant sur GitHub') |
 
+- Vous pouvez la nommer comme vous voulez, mais puisqu'il s’agit d’une branche pour ajouter une carte avec votre nom au projet, l'appeler `your-name-card` est une bonne pratique, parce que cela rend l’intention de la branche claire.
+- Vous avez créé une nouvelle branche, séparée de la branche master.
+- Pour les étapes suivantes, assurez-vous que vous travaillez sur cette branche. Vous verrez le nom de la branche sur laquelle vous vous trouvez en haut au centre de l’application de bureau GitHub, où il est dit _Current branch_.
 
-| <ul><li>Donnez un nom à votre branche</li><li>Clique sur `Create branch`</li></ul> | ![Nom de la branche](/readme-only/branch-name.PNG 'Nom de la branche') |
-| :--------------------------------------------------------------------------------- | ---------------------------------------------------------------------: |
+**Ne PAS travailler sur la branche `master`**
 
-
-- Vous pouvez le nommer comme vous voulez, mais comme il s’agit d’une branche pour ajouter une carte avec votre nom au projet, appelez-le `your-name-card` est une bonne pratique parce qu’elle maintient l’intention de cette branche claire.
-
-| <ul><li>Publiez votre nouvelle branche sur GitHub</li></ul> | ![Nom de la branche](/readme-only/branch-publish.PNG 'Cliquez sur Publier pour envoyer la nouvelle branche à votre référentiel distant sur GitHub') |
-| :---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------: |
-
-
-- Vous avez maintenant créé une nouvelle branche distincte du maître.
-- Pour les étapes suivantes, assurez-vous que vous travaillez dans cette branche. Vous verrez le nom de la branche sur laquelle vous vous trouvez en haut au centre de l’application de bureau GitHub où il est dit _Current branch_.
-
-**Na PAS travailler sur la branche `master`**
+[↑ Retour à l'index ↑](#index-dacces-rapide)
 
 ---
 
-### Étape 4: Ouvrez le fichier index.html
+### Etape 4: Ouvrir le fichier index.html
 
 - Maintenant, nous devons ouvrir le fichier que nous allons éditer avec votre éditeur de code préféré.
 - Recherchez le dossier du projet sur votre ordinateur. Si vous avez conservé la valeur par défaut, cela devrait être quelque chose comme `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- Le fichier `index.html` est directement dans le dossier `Contribute-To-This-Project`.
+- Le fichier `index.html` est à la racine du dossier `Contribute-To-This-Project`.
+- Ouvrez votre éditeur de code (Sublime, VS Code, Atom..etc) et utilisez la commande `Open file` et trouvez le fichier index.html dans le répertoire principal du projet
 
-| <ul><li>Ouvrez votre éditeur de code (Sublime, VS Code, Atom..etc) et utilisez la commande `Open file` et trouvez le fichier the index.html dans le répertoire principal du projet</li><li>Vous pouvez également localiser le fichier sur votre disque dur, cliquer avec le bouton droit de la souris et l’ouvrir avec votre éditeur.</li></ul> | ![Ouvrir le fichier d’index](/readme-only/index-open.PNG 'Ouvrir l’index.html dans votre éditeur de texte') |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------: |
+|                  ![Ouvrir le fichier index.html](/readme-only/index-open.PNG 'Ouvrir l’index.html dans votre éditeur de texte')                   |
+| :---------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Vous pouvez également localiser le fichier sur votre disque dur, cliquer avec le bouton droit de la souris, et l’ouvrir avec votre éditeur.** |
 
+- Vous avez maintenant le fichier ouvert dans votre éditeur et vous êtes prêt à y apporter des modifications.
 
-- Maintenant, vous avez le fichier que vous allez modifier ouvert dans votre éditeur et vous êtes prêt à commencer à y apporter des modifications.
+[↑ Retour à l'index ↑](#index-dacces-rapide)
 
 ---
 
-### Étape 5: Copier le modèle de carte
+### Etape 5: Copier la template de la carte
 
 - Nous allons faire une copie du modèle de carte pour commencer à travailler dessus
 
