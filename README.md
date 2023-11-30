@@ -34,17 +34,32 @@
 
 #### Steps
 
-- [Contribute](#contribute)
-- [Step 1 - Forking](#step-1-fork-this-repository)
-- [Step 2 - Cloning](#step-2-clone-the-repository)
-- [Step 3 - Creating a new branch](#step-3-create-a-new-branch)
-- [Step 4 - Opening the main html file](#step-4-open-the-indexhtml-file)
-- [Step 5 - Copying the card template](#step-5-copy-the-card-template)
-- [Step 6 - Applying your changes](#step-6-apply-your-changes)
-- [Step 7 - Committing](#step-7-commit-your-changes)
-- [Step 8 - Pushing to GitHub](#step-8-push-your-changes-to-github)
-- [Step 9 - Submit a PR](#step-9-submit-a-prpull-request)
-- [Step 10 - Celebrate](#step-10-celebrate)
+- [Contribute To This Project](#contribute-to-this-project)
+    - [Quick access index](#quick-access-index)
+      - [Overview](#overview)
+      - [Steps](#steps)
+  - [Introduction](#introduction)
+    - [Objectives](#objectives)
+    - [Who is this for?](#who-is-this-for)
+    - [Why do I need to do this?](#why-do-i-need-to-do-this)
+    - [What am I going to contribute?](#what-am-i-going-to-contribute)
+    - [Translations](#translations)
+    - [Setup! :)](#setup-)
+    - [Contribute](#contribute)
+      - [Step 1: Fork this repository](#step-1-fork-this-repository)
+      - [Step 2: Clone the repository](#step-2-clone-the-repository)
+      - [Step 3: Create a new branch](#step-3-create-a-new-branch)
+      - [Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)
+      - [Step 5: Copy the card template](#step-5-copy-the-card-template)
+      - [Step 6: Apply your changes](#step-6-apply-your-changes)
+      - [Step 7: Commit your changes](#step-7-commit-your-changes)
+      - [Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)
+      - [Step 9: Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
+      - [Step 10: Celebrate](#step-10-celebrate)
+    - [Next Steps](#next-steps)
+    - [Acknowledgements](#acknowledgements)
+    - [License](#license)
+    - [Top 100 Contributors](#top-100-contributors)
 
 ---
 
@@ -199,14 +214,21 @@ _Estimated time: Less than 30 minutes_.
 #### Step 5: Copy the card template
 
 - We will make a copy of the card template to start working on it
-- At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
+- Right inside the `<body>`, you will find a `<div class="container">` section. This contains a lot of other sections.
+- The **first 2** sections are exactly like: `<div class="row">`. Collapse them by clicking on the arrow by their sides on your VS Code editor as shown in the picture below. (if you are using another editor, you may not be able to use the feature. You'll just have to scroll down). The collapse makes it easy to hide some code components that you won't need to change.
+- You should now see the section that houses all contribution cards: `<div class="grid" id="contributions">`
+
+| ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
+| :-----------------------------------------------------------------------: |
+
+- Inside this section, you will find the section labelled `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
 | :-----------------------------------------------------------------------: |
 
-- Paste the whole thing directly below the comment indicating it
-- Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
+- Paste the whole thing directly below the comment indicating it; right on top of the most recent contributor's card.
+- Make sure there is a single line of space between your card end and the last card's start. Also add a line of space between your card's start and the line with the comment `=== Paste YOUR CARD directly BELOW this line ===`. It's good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
