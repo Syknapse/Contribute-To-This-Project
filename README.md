@@ -218,7 +218,7 @@ _Estimated time: Less than 30 minutes_.
 - The **first 2** sections are exactly like: `<div class="row">`. Collapse them by clicking on the arrow by their sides on your VS Code editor as shown in the picture below. (if you are using another editor, you may not be able to use the feature. You'll just have to scroll down). The collapse makes it easy to hide some code components that you won't need to change.
 - You should now see the section that houses all contribution cards: `<div class="grid" id="contributions">`
 
-| ![Find card template](/readme-only/find-card-template.PNG 'Find the card template') |
+| ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
 | :-----------------------------------------------------------------------: |
 
 - Inside this section, you will find the section labelled `== TEMPLATE ==`
