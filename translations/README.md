@@ -13,7 +13,7 @@ All Translations regarding Project Documentations are welcome. There are certain
 - Other than README, all other project file translations naming must include [`ISO 639-2 language code`](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes). Example: for English Translation of `translation.md` should be: `translation.eng.md`.
 - For the naming of the translations of the README file it should be either the language name or [`ISO 639-2 language code`](https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes). Example: `English.md` or `eng.md`.
 - After adding a new language in file, make sure they're sorted in alphabetical order.
-- Exempt to translate: [`translation.md`](translation.md).
+- Exempt to translate: [`translation.md`](README.md).
 
 ---
 
@@ -29,15 +29,17 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## Maintainers Guide Translations
 
-| [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Italian](maintainer_guide/maintainer_guide.ita.md)
+| [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Hindi](maintainer_guide/maintainer_guide.hin.md) |
 | :---: | :---: | :---: | :---: | :---: |
- [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |
+[Indonesian](maintainer_guide/maintainer_guide.ind.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Korean](maintainer_guide/maintainer_guide.kor.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) |
+[Russian](maintainer_guide/maintainer_guide.rus.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |
 
 ---
 
 ## Terminal Tutorial
 
-| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md)
+| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
 | :----: | :----: | :----: | :----: | :----: |
+| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
 
 ---

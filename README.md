@@ -20,31 +20,28 @@
 
 ### Quick access index
 
-#### Overview
-
-- [Announcements](#announcement)
 - [Introduction](#introduction)
+- [Objectives](#objectives)
 - [Who is this for?](#who-is-this-for)
 - [Why do I need to do this?](#why-do-i-need-to-do-this)
-- [What am I going to contribute to?](#what-am-i-going-to-contribute)
+- [What am I going to contribute?](#what-am-i-going-to-contribute)
 - [Translations](#translations)
-- [Setup](#setup-)
+- [Setup! :)](#setup-)
+- [Contribute](#contribute)
+  - [Step 1: Fork this repository](#step-1-fork-this-repository)
+  - [Step 2: Clone the repository](#step-2-clone-the-repository)
+  - [Step 3: Create a new branch](#step-3-create-a-new-branch)
+  - [Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)
+  - [Step 5: Copy the card template](#step-5-copy-the-card-template)
+  - [Step 6: Apply your changes](#step-6-apply-your-changes)
+  - [Step 7: Commit your changes](#step-7-commit-your-changes)
+  - [Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)
+  - [Step 9: Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
+  - [Step 10: Celebrate](#step-10-celebrate)
 - [Next Steps](#next-steps)
 - [Acknowledgements](#acknowledgements)
-
-#### Steps
-
-- [Contribute](#contribute)
-- [Step 1 - Forking](#step-1-fork-this-repository)
-- [Step 2 - Cloning](#step-2-clone-the-repository)
-- [Step 3 - Creating a new branch](#step-3-create-a-new-branch)
-- [Step 4 - Opening the main html file](#step-4-open-the-indexhtml-file)
-- [Step 5 - Copying the card template](#step-5-copy-the-card-template)
-- [Step 6 - Applying your changes](#step-6-apply-your-changes)
-- [Step 7 - Committing](#step-7-commit-your-changes)
-- [Step 8 - Pushing to GitHub](#step-8-push-your-changes-to-github)
-- [Step 9 - Submit a PR](#step-9-submit-a-prpull-request)
-- [Step 10 - Celebrate](#step-10-celebrate)
+- [License](#license)
+- [Top 100 Contributors](#top-100-contributors)
 
 ---
 
@@ -82,11 +79,11 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/README.md)
 
-|     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  | [Chinese (Traditional)](/translations/README/CHINESE_TRADITIONAL.md) |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  
+|     [Arabic (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [English (English)](/README.md)             |  [French (Français)](/translations/README/FRENCH.md)  
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  [German](/translations/README/GERMAN.md)  |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |
-  [Polish](/translations/README/POLISH.md)  | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) |
-   [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) |
+|  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |  [Korean (한국어)](/translations/README/KOREAN.md)  |
+  [Polish (Polski)](/translations/README/POLISH.md)  | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  | [Spanish (Español)](/translations/README/SPANISH.md) |
+   [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md)
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
@@ -94,13 +91,14 @@ This tutorial is also available in [other languages](/translations/README.md)
 
 ### Setup! :)
 
-Note: This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
+> [!Note]
+> This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
 
 First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal-tutorial.md).
+   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal_tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
@@ -198,14 +196,21 @@ _Estimated time: Less than 30 minutes_.
 #### Step 5: Copy the card template
 
 - We will make a copy of the card template to start working on it
-- At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
+- Right inside the `<body>`, you will find a `<div class="container">` section. This contains a lot of other sections.
+- The **first 2** sections are exactly like: `<div class="row">`. Collapse them by clicking on the arrow by their sides on your VS Code editor as shown in the picture below. (if you are using another editor, you may not be able to use the feature. You'll just have to scroll down). The collapse makes it easy to hide some code components that you won't need to change.
+- You should now see the section that houses all contribution cards: `<div class="grid" id="contributions">`
+
+| ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
+| :-----------------------------------------------------------------------: |
+
+- Inside this section, you will find the section labelled `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
 | :-----------------------------------------------------------------------: |
 
-- Paste the whole thing directly below the comment indicating it
-- Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
+- Paste the whole thing directly below the comment indicating it; right on top of the most recent contributor's card.
+- Make sure there is a single line of space between your card end and the last card's start. Also add a line of space between your card's start and the line with the comment `=== Paste YOUR CARD directly BELOW this line ===`. It's good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
@@ -229,7 +234,7 @@ _Estimated time: Less than 30 minutes_.
 | :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
-- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
 |                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -334,21 +339,24 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
 - You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- You can **follow me** and get in touch on [Twitter](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
+- You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice please send me a DM on Twitter and read the [maintainer's guide](/maintainer_guide.md).
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, join our Discord server and read the [maintainer's guide](/maintainer_guide.md).
 
 [↑ Go to top ↑](#quick-access-index)
 
 ---
-
 ### Acknowledgements
 
 This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
 
 It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+
+### License
+
+This project is licensed under the [MIT License](./LICENSE).
 
 ### Top 100 Contributors
 
