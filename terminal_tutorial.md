@@ -31,6 +31,7 @@
 - [Setup](#setup-)
 - [Next Steps](#next-steps)
 - [Acknowledgements](#acknowledgements)
+- [Top 100 Contributors](#top-100-contributors)
 
 #### Steps
 
@@ -209,7 +210,14 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 #### Step 5: Copy the card template
 
 - We will make a copy of the card template to start working on it
-- At the top of the html file, under the `<head>` and `<header>` sections you will find the section labelled `== TEMPLATE ==`
+- At the top of the html file, under the `<head>` right within the `<body>` element, there available `<div class="container">` that contains other sections
+- The **first 2** sections are exactly like: `<div class="row">`
+- Collapse them by clicking on the arrow if you use VSCode as shown in screenshot below
+
+| ![Copy card template](/readme-only/find-card-template.png 'Find the card template') |
+| :--------------------------------------------------------------------------------: |
+
+- Contributions card template namely `<div class="grid" id="contributions">` should be visible as you will find the section labelled as `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
