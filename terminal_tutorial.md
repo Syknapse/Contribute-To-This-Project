@@ -214,7 +214,7 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 - The **first 2** sections are exactly like: `<div class="row">`
 - Collapse them by clicking on the arrow if you use VSCode as shown in screenshot below
 
-| ![Copy card template](/readme-only/find-card-template.png 'Find the card template') |
+| ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
 | :--------------------------------------------------------------------------------: |
 
 - Contributions card template namely `<div class="grid" id="contributions">` should be visible as you will find the section labelled as `== TEMPLATE ==`
