@@ -184,7 +184,13 @@
   },
   {
     "name": "Devon Pinkston",
-    "contacts": [],
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "Contribute-To-This-Project"
+      }
+    ],
     "about": "My name is Devon Pinkston, and I am a beginner \"Web Developer\" in central America. I am interested in code\n          work for phone applications and machines. I want to find a community of like-minded individuals that I can\n          contribute to technology with. My top 5 core values are 1)Trust/Truth 2)Health 3)Logic/Intelligence\n          4)Creativity 5)Emotional Intelligence",
     "resources": [
       {
@@ -294,12 +300,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/confused-Techie",
-        "handle": ""
+        "handle": "@confused-Techie"
       },
       {
         "icon": "fab fa-stack-overflow",
         "link": "https://stackoverflow.com/users/12707685/confused-techie",
-        "handle": ""
+        "handle": "@confused-Techie"
       }
     ],
     "about": "Hello all, I'm confused-Techie with a passion for the self-hosted community! I work mainly with JavaScript,\n          loving frameworks like NPM, NodeJS, React, and Next. But try to learn a new language with every project I work\n          on, from Golang, to C#.",
