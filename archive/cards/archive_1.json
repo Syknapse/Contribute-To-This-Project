@@ -2654,5 +2654,33 @@
         "text": "Practice coding or compete. Challenges can be seemingly simple when they are not!"
       }
     ]
+  },
+  {
+    "name": "Devagya",
+    "contacts": [
+      {
+        "icon": "fab fa-y-twitter",
+        "link": "https://twitter.com/cjvandijk",
+        "handle": "@cjvandijk"
+      }
+    ],
+    "about": "I love coding and I also love teaching. Coding is predictable, especially compared to children! I also love\n          art and science. And Math is Beautiful.",
+    "resources": [
+      {
+        "title": "Exellent instruction, no videos, all practice",
+        "link": "https://www.dataquest.io/",
+        "text": "dataquest.io"
+      },
+      {
+        "title": "Great practice in Java or Python",
+        "link": "https://codingbat.com",
+        "text": "Coding practice in Python or Java"
+      },
+      {
+        "title": "Coding Practice and Competition",
+        "link": "https://www.hackerrank.com/dashboard",
+        "text": "Practice coding or compete. Challenges can be seemingly simple when they are not!"
+      }
+    ]
   }
 ]
