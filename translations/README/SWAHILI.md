@@ -26,19 +26,19 @@
 - [Kwa nini ninahitaji kufanya hivi?](#Kwa-nini-ninahitaji-kufanya-hivi)
 - [Ninatarajia kuchangia nini?](#Ninatarajia-kuchangia-nini)
 - [Tafsiri](#Tafsiri)
-- [Usanidi!](#Usanidi)
+- [Usanidi!](#Usanidi-)
 - [Changia](#Changia)
-    - [Hatua ya 1: Gawa tena hifadhi hii](#hatua-1-uma-hazina-hili)
-    - [Hatua ya 2: Clone hifadhi huu](#hatua-2-kuunganisha-hazina)
-    - [Hatua ya 3: Unda tawi jipya](#hatua-3-unda-tawi-mpya)
-    - [Hatua ya 4: Fungua faili ya index.html](#hatua-4-fungua-faili-ya-indexhtml)
-    - [Hatua ya 5: Nakili templeti ya kadi](#hatua-5-nakala-kiolezo-cha-kadi)
-    - [Hatua ya 6: Tumia mabadiliko yako](#hatua-6-tumia-mabadiliko-yako)
-    - [Hatua ya 7: Hifadhi mabadiliko yako](#hatua-7-fanya-mabadiliko-yako)
-    - [Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub](#hatua-8-sukuma-mabadiliko-yako-kwa-github)
-    - [Hatua ya 9: Wasilisha Ombi la Kuchangia](#hatua-9-wasilisha-ombi-ya-kuvuta)
-    - [Hatua ya 10: Sherehekea](#hatua-10-sherehekea)
-- [Hatua Zinazofuata](#Hatua-Zifuatazo)
+    - [Hatua ya 1: Gawa tena hifadhi hii](#hatua-ya-1-uma-hazina-hili)
+    - [Hatua ya 2: Clone hifadhi huu](#hatua-ya-2-kuunganisha-hazina)
+    - [Hatua ya 3: Unda tawi jipya](#hatua-ya-3-unda-tawi-mpya)
+    - [Hatua ya 4: Fungua faili ya index.html](#hatua-ya-4-fungua-faili-ya-indexhtml)
+    - [Hatua ya 5: Nakili templeti ya kadi](#hatua-ya-5-nakala-kiolezo-cha-kadi)
+    - [Hatua ya 6: Tumia mabadiliko yako](#hatua-ya-6-tumia-mabadiliko-yako)
+    - [Hatua ya 7: Hifadhi mabadiliko yako](#hatua-ya-7-fanya-mabadiliko-yako)
+    - [Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub](#hatua-ya-8-sukuma-mabadiliko-yako-kwa-github)
+    - [Hatua ya 9: Wasilisha Ombi la Kuchangia](#hatua-ya-9-wasilisha-ombi-ya-kuvuta)
+    - [Hatua ya 10: Sherehekea](#hatua-ya-10-sherehekea)
+- [Hatua Zinazofuata](#Hatua-Zinazofuata)
 - [Shukrani](#Shukrani)
 - [Leseni](#Leseni)
 - [Wachangiaji Bora 100](#Wachangiaji-Bora-100)
@@ -80,11 +80,11 @@ Utafanya nakala ya kiolezo cha kadi ndani ya faili ya HTML na ukibinafsishe kwa 
 
 Mafunzo haya pia yanapatikana katika [lugha zingine](/translations/README.md)
 
-| [Kiarabu](/tafsiri/README/ARABIC.md) | [Bangla](/translations/README/BANGLA.md) | [Kichina (Cha Jadi)](/tafsiri/README/CHINESE_TRADITIONAL.md) | [Kiingereza](/README.md) | [Kifaransa](/translations/README/FRENCH.md)
-| :-------------------------------------------: | :--------------------------------------: | :---------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-| [Kijerumani](/translations/README/GERMAN.md) | [Kihindi](/tafsiri/README/HINDI.md) | [Kiitaliano](/tafsiri/README/ITALIAN.md) | [Kijapani](/translations/README/JAPANESE.md) | [Kikorea](/tafsiri/README/KOREAN.md) |
-   [Kipolandi](/tafsiri/README/POLISH.md) | [Kireno](/translations/README/PORTUGUESE.md) | [Kirusi](/tafsiri/README/RUSIAN.md) | [Kiserbia](/translations/README/SERBIAN.md) | [Kihispania](/translations/README/SPANISH.md) |
-    [Kituruki](/tafsiri/README/TURKISH.md) | [Kiukreni](/translations/README/UKRAINIAN.md) |
+|     [Kiarabu (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Kichina (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [Kingereza (English)](/README.md)             |  [Kifaransa (Français)](/translations/README/FRENCH.md)  
+| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+|  [Kijerumani (Deutsch)](/translations/README/GERMAN.md)  |      [Kihindi (हिंदी)](/translations/README/HINDI.md)      | [Kiitaliano (Italiano)](/translations/README/ITALIAN.md) | [Kijapani (日本語)](/translations/README/JAPANESE.md) |  [Kikorea (한국어)](/translations/README/KOREAN.md)  |
+  [Kipolandi (Polski)](/translations/README/POLISH.md)  | [Kireno (Portuguese)](/translations/README/PORTUGUESE.md) | [Kirusi (Русский)](/translations/README/RUSSIAN.md) |  [Kiserbia (Српски)](/translations/README/SERBIAN.md)  | [Kihispania (Español)](/translations/README/SPANISH.md) |
+   [Kituruki (Türkçe)](/translations/README/TURKISH.md) | [Kiukreni (українська)](/translations/README/UKRAINIAN.md) | [Kinorwe (Norsk)](/translations/README/NORWEGIAN.md)
 
 > Tafsiri za hati za miradi zinakaribishwa. Soma [`Mwongozo wa Tafsiri`](/translations/README.md) ili kuchangia.
 
