@@ -21,27 +21,27 @@
 ### Faharasa ya ufikiaji wa haraka
 
 - [Utangulizi](#utangulizi)
-- [Malengo](#Malengo)
-- [Hii ni kwa ajili ya nani?](#Hii-ni-kwa-ajili-ya-nani)
-- [Kwa nini ninahitaji kufanya hivi?](#Kwa-nini-ninahitaji-kufanya-hivi)
-- [Ninatarajia kuchangia nini?](#Ninatarajia-kuchangia-nini)
-- [Tafsiri](#Tafsiri)
-- [Usanidi!](#Usanidi-)
-- [Changia](#Changia)
-    - [Hatua ya 1: Gawa tena hifadhi hii](#hatua-ya-1-uma-hazina-hili)
-    - [Hatua ya 2: Clone hifadhi huu](#hatua-ya-2-kuunganisha-hazina)
-    - [Hatua ya 3: Unda tawi jipya](#hatua-ya-3-unda-tawi-mpya)
+- [Malengo](#malengo)
+- [Hii ni kwa ajili ya nani?](#hii-ni-kwa-ajili-ya-nani)
+- [Kwa nini ninahitaji kufanya hivi?](#kwa-nini-ninahitaji-kufanya-hivi)
+- [Ninatarajia kuchangia nini?](#ninatarajia-kuchangia-nini)
+- [Tafsiri](#tafsiri)
+- [Usanidi!](#usanidi-)
+- [Changia](#changia)
+    - [Hatua ya 1: Gawa tena hifadhi hii](#hatua-ya-1-gawa-tena-hifadhi-hii)
+    - [Hatua ya 2: Clone hifadhi huu](#hatua-ya-2-clone-hifadhi-huu)
+    - [Hatua ya 3: Unda tawi jipya](#hatua-ya-3-unda-tawi-jipya)
     - [Hatua ya 4: Fungua faili ya index.html](#hatua-ya-4-fungua-faili-ya-indexhtml)
-    - [Hatua ya 5: Nakili templeti ya kadi](#hatua-ya-5-nakala-kiolezo-cha-kadi)
+    - [Hatua ya 5: Nakili templeti ya kadi](#hatua-ya-5-nakili-templeti-ya-kadi)
     - [Hatua ya 6: Tumia mabadiliko yako](#hatua-ya-6-tumia-mabadiliko-yako)
-    - [Hatua ya 7: Hifadhi mabadiliko yako](#hatua-ya-7-fanya-mabadiliko-yako)
-    - [Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub](#hatua-ya-8-sukuma-mabadiliko-yako-kwa-github)
-    - [Hatua ya 9: Wasilisha Ombi la Kuchangia](#hatua-ya-9-wasilisha-ombi-ya-kuvuta)
+    - [Hatua ya 7: Hifadhi mabadiliko yako](#hatua-ya-7-hifadhi-mabadiliko-yako)
+    - [Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub](#hatua-ya-8-chapisha-mabadiliko-yako-kwenye-github)
+    - [Hatua ya 9: Wasilisha Ombi la Kuchangia](#hatua-ya-9-wasilisha-ombi-la-kuchangia)
     - [Hatua ya 10: Sherehekea](#hatua-ya-10-sherehekea)
-- [Hatua Zinazofuata](#Hatua-Zinazofuata)
-- [Shukrani](#Shukrani)
-- [Leseni](#Leseni)
-- [Wachangiaji Bora 100](#Wachangiaji-Bora-100)
+- [Hatua Zinazofuata](#hatua-zinazofuata)
+- [Shukrani](#shukrani)
+- [Leseni](#leseni)
+- [Wachangiaji Bora 100](#wachangiaji-bora-100)
 
 
 ---
@@ -84,7 +84,7 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](/translations/README.md)
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |  [Kijerumani (Deutsch)](/translations/README/GERMAN.md)  |      [Kihindi (हिंदी)](/translations/README/HINDI.md)      | [Kiitaliano (Italiano)](/translations/README/ITALIAN.md) | [Kijapani (日本語)](/translations/README/JAPANESE.md) |  [Kikorea (한국어)](/translations/README/KOREAN.md)  |
   [Kipolandi (Polski)](/translations/README/POLISH.md)  | [Kireno (Portuguese)](/translations/README/PORTUGUESE.md) | [Kirusi (Русский)](/translations/README/RUSSIAN.md) |  [Kiserbia (Српски)](/translations/README/SERBIAN.md)  | [Kihispania (Español)](/translations/README/SPANISH.md) |
-   [Kituruki (Türkçe)](/translations/README/TURKISH.md) | [Kiukreni (українська)](/translations/README/UKRAINIAN.md) | [Kinorwe (Norsk)](/translations/README/NORWEGIAN.md)
+   [Kituruki (Türkçe)](/translations/README/TURKISH.md) | [Kiukreni (українська)](/translations/README/UKRAINIAN.md) | [Kinorwe (Norsk)](/translations/README/NORWEGIAN.md) | [Kiswahili (Swahili)](/translations/README/SWAHILI.md)
 
 > Tafsiri za hati za miradi zinakaribishwa. Soma [`Mwongozo wa Tafsiri`](/translations/README.md) ili kuchangia.
 
