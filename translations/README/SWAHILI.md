@@ -1,20 +1,20 @@
-# [Changia Katika Mradi Huu](https://syknapse.github.io/Changia-Kwa-Mradi Huu/)
+# [Changia Katika Mradi Huu](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![maelezo ya picha](/favicon.png)
 
-> Nembo Imeundwa kwa :sparkling_heart: Na [CandidDeer](https://github.com/CandidDeer)
+> Nembo imeundwa kwa :sparkling_heart: na [CandidDeer](https://github.com/CandidDeer)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Jiunge%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Jiunge na seva yetu ya Discord !')
-[![PRs Karibu](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This -Mradi/)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Changia-Kwa-Hii- Mradi/)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Upendo wa Chanzo Wazi](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
 > ## **Tangazo:**
 >
-> Je, ungependa kuwa mtunzaji wa mradi huu na kusaidia kuuendeleza? Ikiwa una nia, soma [mwongozo wa mlezi](/maintainer_guide.md) na unitumie DM kwenye [Twitter](https://twitter.com/Syknapse).
+> Je, ungependa kuwa mtunzaji wa mradi huu na kusaidia kuuendeleza? Ikiwa una nia, soma [mwongozo wa maelezi](/maintainer_guide.md) , Jiunge na [server yetu ya Discord](https://discord.gg/tWkvS4ueVF) au unitumie DM kwenye [Twitter](https://twitter.com/Syknapse) ili kuombi kujiunga na timu kutoka kwa waendeshaji wa mradi.
 
 ---
 
@@ -352,8 +352,8 @@ Pia imetiwa moyo hasa na jumuiya kuu inayozunguka [#GoogleUdacityScholars](https
 
 ### Wachangiaji 100 Bora
 
-[![Picha ya Wachangiaji wa GitHub](https://contrib.rocks/image?repo=Syknapse/Changia-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/ grafu/wachangiaji)
+[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[Rudi juu &uparrow;](#utangulizi)
+[Back to the top &uparrow;](#utangulizi)
 
-[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial. %20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet mradi huu'
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
