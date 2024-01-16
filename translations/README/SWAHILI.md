@@ -20,31 +20,29 @@
 
 ### Faharasa ya ufikiaji wa haraka
 
-#### Muhtasari
-
-- [Matangazo](#tangazo)
 - [Utangulizi](#utangulizi)
-- [Hii ni ya nani?](#hi-ni-ya-nani)
-- [Kwa nini ninahitaji kufanya hivi?](#kwani-ni-nahitaji-kufanya-hili)
-- [Nitachangia nini?](#nini-nitachangia-nini)
-- [Tafsiri](#tafsiri)
-- [Weka](#sanidi-)
-- [Hatua Zinazofuata](#hatua zinazofuata)
-- [Shukrani](#shukrani)
+- [Malengo](#Malengo)
+- [Hii ni kwa ajili ya nani?](#Hii-ni-kwa-ajili-ya-nani)
+- [Kwa nini ninahitaji kufanya hivi?](#Kwa-nini-ninahitaji-kufanya-hivi)
+- [Ninatarajia kuchangia nini?](#Ninatarajia-kuchangia-nini)
+- [Tafsiri](#Tafsiri)
+- [Usanidi!](#Usanidi)
+- [Changia](#Changia)
+    - [Hatua ya 1: Gawa tena hifadhi hii](#hatua-1-uma-hazina-hili)
+    - [Hatua ya 2: Clone hifadhi huu](#hatua-2-kuunganisha-hazina)
+    - [Hatua ya 3: Unda tawi jipya](#hatua-3-unda-tawi-mpya)
+    - [Hatua ya 4: Fungua faili ya index.html](#hatua-4-fungua-faili-ya-indexhtml)
+    - [Hatua ya 5: Nakili templeti ya kadi](#hatua-5-nakala-kiolezo-cha-kadi)
+    - [Hatua ya 6: Tumia mabadiliko yako](#hatua-6-tumia-mabadiliko-yako)
+    - [Hatua ya 7: Hifadhi mabadiliko yako](#hatua-7-fanya-mabadiliko-yako)
+    - [Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub](#hatua-8-sukuma-mabadiliko-yako-kwa-github)
+    - [Hatua ya 9: Wasilisha Ombi la Kuchangia](#hatua-9-wasilisha-ombi-ya-kuvuta)
+    - [Hatua ya 10: Sherehekea](#hatua-10-sherehekea)
+- [Hatua Zinazofuata](#Hatua-Zifuatazo)
+- [Shukrani](#Shukrani)
+- [Leseni](#Leseni)
+- [Wachangiaji Bora 100](#Wachangiaji-Bora-100)
 
-#### Hatua
-
-- [Changia](#changia)
-- [Hatua ya 1 - Kufunika](#hatua-1-uma-hazina-hili)
-- [Hatua ya 2 - Kuunganisha](#hatua-2-kuunganisha-hazina)
-- [Hatua ya 3 - Kuunda tawi jipya](#hatua-3-unda-tawi-mpya)
-- [Hatua ya 4 - Kufungua faili kuu ya html](#hatua-4-fungua-faili-ya-indexhtml)
-- [Hatua ya 5 - Kunakili kiolezo cha kadi](#hatua-5-nakala-kiolezo-cha-kadi)
-- [Hatua ya 6 - Kutumia mabadiliko yako](#hatua-6-tumia-mabadiliko-yako)
-- [Hatua ya 7 - Kujitolea](#hatua-7-fanya-mabadiliko-yako)
-- [Hatua ya 8 - Kusukuma hadi GitHub](#hatua-8-sukuma-mabadiliko-yako-kwa-github)
-- [Hatua ya 9 - Wasilisha PR](#hatua-9-wasilisha-ombi-ya-kuvuta)
-- [Hatua ya 10 - Sherehekea](#hatua-10-sherehekea)
 
 ---
 
@@ -57,7 +55,7 @@ Haya ni mafunzo ya kusaidia wachangiaji kwa mara ya kwanza kushiriki katika mrad
 - Toa mchango kwa mradi wa chanzo huria.
 - Pata urahisi zaidi katika kutumia GitHub.
 
-### Hii ni ya nani?
+### Hii ni kwa ajili ya nani?
 
 - Hii ni kwa wanaoanza kabisa. Ikiwa unajua jinsi ya kuandika na kuhariri lebo ya nanga `<a href="" target=""></a>` basi unapaswa kuweza kuifanya.
 - Pia ni kwa wale walio na uzoefu zaidi lakini ambao wanataka kutoa mchango wao wa kwanza wa chanzo huria, au kupata michango zaidi kwa matumizi zaidi na kujiamini.
@@ -66,13 +64,13 @@ Haya ni mafunzo ya kusaidia wachangiaji kwa mara ya kwanza kushiriki katika mrad
 
 Msanidi programu yeyote wa wavuti, anayetarajia au mwenye uzoefu anahitaji kutumia udhibiti wa toleo la Git, na GitHub ndiyo huduma maarufu zaidi ya upangishaji wa Git inayotumiwa na kila mtu. Pia ni moyo wa jumuiya ya Open Source. Kupata starehe kwa kutumia GitHub ni ujuzi muhimu. Kutoa mchango kwenye mradi huongeza kujiamini kwako na hukupa kitu cha kuonyesha kwenye wasifu wako wa GitHub.
 
-Ikiwa wewe ni msanidi programu mpya na unajiuliza ikiwa unahitaji kujifunza Git na GitHub basi jibu ndilo hili: [Unapaswa Kujifunza Git Jana](https://codeburst.io/number-one-piece-of- ushauri-kwa-watengenezaji-wapya-ddd08abc8bfa 'Msanidi Programu Mpya? Ulipaswa kujifunza Git jana. na Brandon Morelli, mtayarishaji wa CodeBurst.io').
+Ikiwa wewe ni msanidi programu mpya na unajiuliza ikiwa unahitaji kujifunza Git na GitHub basi jibu ndilo hili: [Ulipaswa Kujifunza Git Jana](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-### Nitachangia nini?
+### Ninatarajia kuchangia nini?
 
-![Kadi ya Mchangiaji](/readme-only/card.PNG 'Kadi ya Mchangiaji')
+![Kadi ya Mchangiaji](/readme-only/card.PNG 'Contributor Card')
 
-Utachangia kadi kama hii kwa [ukurasa wa wavuti wa mradi] (https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute- Kwa-Huu-Mradi'). Itajumuisha jina lako, mpini wako wa Twitter, maelezo mafupi, na viungo 3 vya nyenzo muhimu kwa wasanidi wa wavuti unaopendekeza.
+Utachangia kadi kama hii kwa [ukurasa wa wavuti wa mradi](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Itajumuisha jina lako, mpini wako wa Twitter, maelezo mafupi, na viungo 3 vya nyenzo muhimu kwa wasanidi wa wavuti unaopendekeza.
 
 Utafanya nakala ya kiolezo cha kadi ndani ya faili ya HTML na ukibinafsishe kwa maelezo yako mwenyewe.
 
@@ -92,7 +90,7 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](/translations/README.md)
 
 ---
 
-### Weka mipangilio! :)
+### Usanidi! :)
 
 Kumbuka: Mafunzo haya yanatokana na GitHub PC. [Ikiwa umeridhika na terminal nenda kwenye mafunzo haya (Bofya Hapa)](/terminal_tutorial.md)
 
@@ -116,7 +114,7 @@ Kuwa mchangiaji wa programu huria katika hatua 10 rahisi.
 
 _Muda uliokadiriwa: Chini ya dakika 30_.
 
-#### Hatua ya 1: Fanya hazina hii
+#### Hatua ya 1: Gawa tena hifadhi hii
 
 - Lengo hapa ni kutengeneza nakala ya mradi huu na kuiweka kwenye akaunti yako.
 - Hifadhi (repo) ni jinsi mradi unavyoitwa kwenye GitHub na uma ni nakala yake.
@@ -132,24 +130,24 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 2: Funga hazina
+#### Hatua ya 2: Clone hifadhi huu
 
 - Sasa tunataka kufanya nakala ya ndani ya mradi. Hiyo ni nakala iliyohifadhiwa kwenye mashine yako mwenyewe.
 - Fungua programu ya kompyuta ya GitHub. Katika programu:
 
 | ![Clone](/readme-only/clone.PNG 'click clone there') |
-| :---------------------------------------------- -----: |
+| :---------------------------------------------------: |
 | **Bofya _Faili_ kisha _Clone hazina_** |
 
 - Utaona orodha ya miradi yako na uma kwenye GitHub.
 - Chagua `<your-github-username>/Changia-Kwa-Hii-Mradi`.
 - Bofya _Clone_
 
-| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Changia-Kwa-Huu-Mradi') |
-| :---------------------------------------------- ----------------------------------------------- -------: |
+| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
+| :----------------------------------------------------------------------------------------------------: |
 
-| :arrow_right_hook: Mradi uliogawanyika utakuwa na alama ya uma upande wa kushoto. Uma wako utakuwa na mtumiaji wako wa GitHub | ![uma wako](/readme-only/clone-your-fork.PNG 'uma wako utaonekana hivi, ukitumia jina lako la mtumiaji') |
-| :---------------------------------------------- ----------------------------------------------- --------------- | :---------------------------------------------- ----------------------------------------------- -: |
+| :arrow_right_hook: Mradi uliogawiwa utakuwa na ishara ya kugawanywa kushoto. Gawanya lako litakuwa na mtumiaji wako wa GitHub yenyewe. | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
+| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
 - Hii itachukua muda kama mradi unakiliwa kwenye diski yako kuu. Ninapendekeza uweke njia chaguo-msingi ambayo kawaida ni `..\Documents\GitHub`.
 - Sasa una nakala ya ndani ya mradi.
@@ -163,10 +161,10 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 - Mara tu repo imeundwa na umeifungua kwenye eneo-kazi la GitHub ni wakati wa kuunda tawi jipya.
 - Tawi ni njia ya kuweka mabadiliko yako tofauti na sehemu kuu ya mradi inayoitwa `Master`. Kwa mfano ikiwa mambo yataenda vibaya na haufurahii mabadiliko yako unaweza kufuta tawi na mradi mkuu hautaathiriwa.
 
-| :arrow_right_hook: bofya kwenye _`tawi la sasa`_, Kisha ubofye _`Mpya`_ | ![Create branch](/readme-only/branch-new.PNG "Bofya 'Tawi', kisha 'Mpya'") |
-| :---------------------------------------------- --------------------------- | :---------------------------------------------- ----------------------------------------------- --------------: |
-| :arrow_right_hook: **Lipe tawi lako jina, kisha ubofye `Unda tawi`** | ![Jina tawi](/readme-only/branch-name.PNG 'Taja tawi lako') |
-| :arrow_right_hook: **Chapisha tawi lako jipya kwa GitHub** | ![Name branch](/readme-only/branch-publish.PNG 'Bofya publish ili kutuma tawi jipya kwenye repo yako ya mbali kwenye GitHub') |
+| :arrow_right_hook: bofya kwenye _`tawi la sasa`_, Kisha ubofye _`Mpya`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Lipe tawi lako jina, kisha ubofye `Unda tawi`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow_right_hook: **Chapisha tawi lako jipya kwa GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
 - Unaweza kuitaja chochote unachotaka, lakini kwa kuwa hili ni tawi la kuongeza kadi yenye jina lako kwenye mradi, kuiita `jina-kadi yako` ni mazoezi mazuri kwa sababu huweka nia ya tawi hili wazi.
 - Sasa umeunda tawi jipya tofauti na bwana.
@@ -186,7 +184,7 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 - Fungua kihariri chako cha msimbo (Sublime, VS Code, Atom..etc) na utumie amri ya `Fungua faili` na utafute faili ya index.html kwenye saraka kuu ya mradi.
 
 | ![Fungua faili ya faharasa](/readme-only/index-open.PNG 'Open index.html in your text editor') |
-| :---------------------------------------------- ----------------------------------------------- ------------------: |
+| :---------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Vinginevyo unaweza kupata faili kwenye diski yako kuu, bofya kulia, na ufungue kwa kihariri chako** |
 
 - Sasa una faili utakayohariri wazi katika kihariri chako na uko tayari kuanza kuifanyia mabadiliko.
@@ -195,21 +193,21 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 5: Nakili kiolezo cha kadi
+#### Hatua ya 5: Nakili templeti ya kadi
 
 - Tutafanya nakala ya kiolezo cha kadi ili kuanza kuifanyia kazi
 - Juu ya faili ya html, chini ya sehemu za `<head>` na `<header>` utapata sehemu iliyoandikwa `== TEMPLATE ==`
 - Nakili kila kitu ndani ya mraba nyekundu kwenye picha, kutoka kwa maoni ya `Kadi ya mchangiaji START` hadi maoni ya `Kadi ya mchangiaji END`
 
 | ![Nakili kiolezo cha kadi](/readme-only/card-copy.PNG 'Nakili kiolezo cha kadi') |
-| :---------------------------------------------- ----------------------: |
+| :--------------------------------------------------------------------: |
 
 - Bandika jambo zima moja kwa moja chini ya maoni yanayoonyesha
 - Hakikisha kuna mstari mmoja wa nafasi kati ya kuanza kwa kadi yako na mwisho wa kadi. Ni mazoezi mazuri kuweka msimbo wetu wazi iwezekanavyo
 - Kamwe usitumie linters au fomati za mtindo. Mradi una usanidi wa Prettier
 
 | ![Bandika kiolezo cha kadi](/readme-only/card-paste.PNG 'Bandika chini ya mstari ulioonyeshwa') |
-| :---------------------------------------------- -------------------------------: |
+| :-----------------------------------------------------------------------------: |
 
 - Hii sasa ni **kadi** yako ili uweze kubinafsisha na kuhariri.
 
@@ -217,22 +215,22 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 6: Tekeleza mabadiliko yako
+#### Hatua ya 6: Tumia mabadiliko yako
 
 - Sasa tutaanza kuhariri html, kubadilisha sehemu zinazoweza kugeuzwa kukufaa kwenye kadi yetu.
 
 | :arrow_right_hook: Badilisha 'Jina' kwa jina lako | ![Badilisha jina](/readme-only/change-name.PNG 'Chapa jina lako') |
-| :--------------------------------------------- | :---------------------------------------------- ---------: |
+| :--------------------------------------------- | :-------------------------------------------------------: |
 
 - **Kumbuka: Usibadilishe `class="jina"`**
 
 | :arrow_right_hook: Chomeka URL ya akaunti yako ya Twitter `href="Ingiza URL hapa"`, Charaza mpini wako katika sehemu ya maandishi | ![Badilisha mwasiliani](/readme-only/change-contact.PNG 'Ingiza kiungo kwenye akaunti yako ya Twitter na uandike mpini wako') |
-| :---------------------------------------------- ----------------------------------------------- ------------------ | :---------------------------------------------- ----------------------------------------------- ---------: |
+| :--------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------: |
 
-- Ukipendelea kutumia mwasiliani isipokuwa Twitter utahitaji kubadilisha ikoni ya twitter `<i class="fa fa-x-twitter"></i>` kwa kwenda kwa [Icons Awesome Font](http://fontawesome .io/icons/) inatafuta ikoni sahihi na kubadilisha sehemu ya `fa-x-twitter` pekee na ikoni mpya kama vile `fa-facebook` kwa mfano. Kisha fuata hatua sawa hapo juu.
+- Ukipendelea kutumia mwasiliani isipokuwa Twitter utahitaji kubadilisha ikoni ya twitter `<i class="fa fa-x-twitter"></i>` kwa kwenda kwa [Icons Awesome Font](http://fontawesome.io/icons/) inatafuta ikoni sahihi na kubadilisha sehemu ya `fa-x-twitter` pekee na ikoni mpya kama vile `fa-facebook` kwa mfano. Kisha fuata hatua sawa hapo juu.
 
 | ![Change about](/readme-only/change-about.PNG 'Andika sentensi kukuhusu') |
-| :---------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- --------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Tuambie jambo kukuhusu. Weka fupi na tamu. Ifikirie zaidi kama tweet kuliko chapisho la blogi** |
 | ![Badilisha rasilimali](/readme-only/change-resources.PNG 'Chomeka kiungo, andika maelezo mafupi, na uandike jina la rasilimali') |
 | :arrow_right_hook: **Shiriki na jumuiya viungo 3 vya rasilimali ambazo ni muhimu kwa ukuzaji wa wavuti. Hii inaweza kuwa chochote, video, mazungumzo, podcast, makala, rerejea, au chombo. Ikiwa wewe ni mwanzilishi usiogopeshwe na hili, shiriki chochote unachokijua hata kama unaona ni cha msingi. Utashangaa ni watu wangapi watafaidika.** |
@@ -248,7 +246,7 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 7: Toa mabadiliko yako
+#### Hatua ya 7: Hifadhi mabadiliko yako
 
 - Rudi kwenye programu ya kompyuta ya GitHub.
 - Mabadiliko yako yatakuwa yameongezwa kiotomatiki kwenye eneo la jukwaa.
@@ -256,7 +254,7 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 - Unaweza kuona hii yalijitokeza katika programu. Kila kitu ambacho umeongeza kwenye faili kitakuwa kijani, na ufutaji utaonekana kama nyekundu.
 
 | ![Commit changes](/readme-only/commit.PNG "Mabadiliko ambayo umeongeza yanapaswa kuonekana katika kijani kibichi upande wa kulia wa programu ya eneo-kazi la GitHub. Kitufe cha ahadi kiko chini kushoto") |
-| :---------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ----------------------------------------------- ---------------: |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: Hatua inayofuata inaitwa _`Commit`_. Hii ina maana takriban `thibitisha mabadiliko` |
 | ![Commit changes](/readme-only/commit-header.PNG "Mabadiliko ambayo umeongeza yanapaswa kuonekana katika kijani kibichi upande wa kulia wa programu ya eneo-kazi la GitHub. Kitufe cha ahadi kiko chini kushoto") |
 | :arrow_right_hook: **Hivi ndivyo kichwa chako cha eneo-kazi cha GitHub kinapaswa kuonekana. Angalia alama ya uma karibu na jina la mradi katika `Hazina ya Sasa`, `Tawi lako la Sasa` litakuwa na jina uliloipa katika hatua ya 3** |
@@ -267,13 +265,13 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 8: Sukuma mabadiliko yako kwa GitHub
+#### Hatua ya 8: Chapisha mabadiliko yako kwenye GitHub
 
 - Mabadiliko yako sasa yamehifadhiwa au kutekelezwa. Lakini zinahifadhiwa tu ndani ya nchi, hiyo ni kwenye kompyuta yako.
 - Kusawazisha mabadiliko ya ndani na hazina yako kwenye GitHub inaitwa _Push_. "Unasukuma" mabadiliko kutoka kwa hazina yako ya karibu hadi hazina ya mbali kwenye GitHub.
 
 | :arrow_right_hook: Bofya kitufe cha _`Push`_ | ![Bonyeza hadi GitHub](/readme-only/push.PNG "Sogeza mabadiliko yako hadi GitHub, bofya kitufe cha 'Push'") |
-| :----------------------------------------- | :---------------------------------------------- --------------------------------------------: |
+| :----------------------------------------- | :------------------------------------------------------------------------------------------: |
 
 - Baada ya sekunde chache operesheni imekamilika na sasa unayo nakala sawa ya tawi hili kwenye mashine yako na vile vile kwenye GitHub.
 
@@ -281,17 +279,17 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 
 ---
 
-#### Hatua ya 9: Wasilisha PR(Vuta Ombi)
+#### Hatua ya 9: Wasilisha Ombi la Kuchangia
 
 - Huu ndio wakati ambao umekuwa ukingojea; kuwasilisha _Vuta Ombi_ (PR).
 - Kufikia sasa kazi yote ambayo umefanya imekuwa kwenye uma wa mradi, ambao kama unavyokumbuka unakaa kwenye akaunti yako ya GitHub.
 - Sasa ni wakati wa kutuma mabadiliko yako kwa mradi mkuu ili kuunganishwa nayo.
-- Hii inaitwa [_Vuta Ombi_](https://help.github.com/articles/about-pull-requests/ 'Kuhusu Maombi ya Kuvuta - Msaada wa GitHub') kwa sababu unauliza mtunza mradi asilia "kuvuta" mabadiliko yako kwenye mradi wao.
+- Hii inaitwa [_Ombi la Kuvuta_](https://help.github.com/articles/about-pull-requests/ 'Kuhusu Maombi ya Kuvuta - Msaada wa GitHub') kwa sababu unauliza mtunza mradi asilia "kuvuta" mabadiliko yako kwenye mradi wao.
 - Nenda kwenye ukurasa kuu wa **uma wako** kwenye GitHub (itakuwa na ikoni ya uma na jina lako la mtumiaji hapo juu).
 - Kuelekea juu ya repo utaona ujumbe wa ombi la kuvuta ulioangaziwa na kitufe cha kijani.
 
 | ![Wasilisha Ombi la Kuvuta](/readme-only/pull-request.PNG 'Hii kwa kawaida inaelekea juu ya ukurasa, chini ya maelezo na juu ya faili na folda za mradi') |
-| :---------------------------------------------- ----------------------------------------------- ----------------------------------------------- --------------: |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Bofya kwenye `Linganisha na kuvuta ombi`** |
 | ![Fungua Ombi la Kuvuta](/readme-only/pull-request-branches.PNG 'Unaomba kuunganisha tawi lako kutoka kwa uma wako hadi tawi kuu la mradi asilia') |
 | :arrow_right_hook: Hivi ndivyo ukurasa wa `Fungua ombi la kuvuta` unavyoonekana. |
@@ -301,7 +299,7 @@ _Muda uliokadiriwa: Chini ya dakika 30_.
 - Upande wa kushoto ni mradi wa awali, ikifuatiwa na tawi kuu. Upande wa kulia ni uma wako na tawi ulilounda.
 
 | ![Wasilisha Ombi la Kuvuta](/readme-only/pull-request-open.PNG "Bofya kitufe cha kijani. Usiogope!") |
-| :---------------------------------------------- ----------------------------------------------- -------------------------------------: |
+| :----------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Unda ombi la kuvuta: Andika kichwa, Ongeza maelezo ya hiari katika maelezo na Bofya `Unda ombi la kuvuta`** |
 
 - Usifadhaike na chaguzi zote. Unahitaji tu kufanya hatua hizi tatu kwa sasa.
@@ -318,7 +316,7 @@ Ni hayo tu. Umefanya hivyo! Sasa umechangia kwenye chanzo huria kwenye GitHub.
 
 Umeongeza msimbo kwenye ukurasa wa wavuti wa moja kwa moja: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Mabadiliko yako ** hayataonekana mara moja**; kwanza zinapaswa kupitiwa, kukubaliwa, na kuunganishwa na mtunza mradi. Mara baada ya kuunganishwa kadi yako inapaswa kuonekana na kuishi kwenye ukurasa.
+Mabadiliko yako **hayataonekana mara moja**; kwanza zinapaswa kupitiwa, kukubaliwa, na kuunganishwa na mtunza mradi. Mara baada ya kuunganishwa kadi yako inapaswa kuonekana na kuishi kwenye ukurasa.
 
 Ni kawaida sana kwa mhakiki kuomba mabadiliko kwenye PR. Ifikirie kama mazoezi mazuri ikiwa itatokea kwako. Fuatilia maoni na mabadiliko uliyoomba. Mara tu unapofanya mabadiliko yaliyoombwa (nyuma kwenye tawi lako) unachotakiwa kufanya ni kujitolea na kusukuma mabadiliko yako. PR itasasisha kiotomatiki na mabadiliko mapya.
 
@@ -333,12 +331,12 @@ Ninaahidi nitajaribu kukagua na kuunganisha haraka iwezekanavyo lakini ninafanya
 - Rudi baada ya muda ili kuangalia Ombi lako la Kuvuta lililounganishwa.
 - Unapaswa kupokea barua pepe kutoka kwa GitHub wakati mabadiliko yako yameidhinishwa, au ikiwa mabadiliko ya ziada yameombwa. Na wakati PR hatimaye imeunganishwa na bwana na kadi yako imeongezwa.
 - Unaweza pia kujifunza jinsi ya kuchangia kutoka kwa mfululizo huu _free_: [Jinsi ya Kuchangia Mradi wa Open Source kwenye GitHub](https://kcd.im/pull-request)
-- Iwapo umepata mradi huu **ni muhimu** tafadhali upe :star: star :star: juu ya ukurasa na **Tweet** kuuhusu ili kusaidia kueneza neno [![Tweet](https:/ /img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- Unaweza **kunifuata** na kuwasiliana na [Twitter](https://twitter.com/Syknapse '@Syknapse') au [kutumia mojawapo ya chaguo hizi nyingine](https://syknapse.github. io/Syk-Houdeib/#contact 'Sehemu yangu ya mawasiliano | Kwingineko')
-- Huu ni mradi wa programu huria kwa hivyo mbali na kuchangia kadi yako, unakaribishwa kukusaidia kurekebisha hitilafu, uboreshaji au vipengele vipya. Fungua [tole](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') au tuma [ombi la kuvuta] (https://help.github.com) /makala/kuunda-ombi-kuvuta-kutoka-uma/ 'Kuunda ombi la kuvuta kutoka kwa uma | Msaada wa GitHub')
+- Iwapo umepata mradi huu **ni muhimu** tafadhali upe :star: star :star: juu ya ukurasa na **Tweet** kuuhusu ili kusaidia kueneza neno [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- Unaweza **kunifuata** na kuwasiliana nami kwa [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') au [kutumia mojawapo ya chaguo hizi nyingine](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
+- Huu ni mradi wa programu huria kwa hivyo mbali na kuchangia kadi yako, unakaribishwa kukusaidia kurekebisha hitilafu, uboreshaji au vipengele vipya. Fungua [suala](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') au tuma [ombi la changia](https://help.github.com) /makala/kuunda-ombi-kuvuta-kutoka-uma/ 'Kuunda ombi la kuvuta kutoka kwa uma | Msaada wa GitHub')
 - Ili kusaidia kuboresha jumuiya yetu, angalia kichupo cha GitHub [Majadiliano](https://github.com/Syknapse/Contribute-To-This-Project/discussions) kilicho karibu na Vuta Maombi. Eneo hili ni mahali pa kujitambulisha, kuingia katika majadiliano ya kina kuhusu Chanzo Huria, na kuwasiliana na Wasimamizi wa Mradi. Je, utatusaidia kujenganje ya kipengele hiki na kuboresha jumuiya yetu?
 - **Asante kwa kuchangia mradi huu**. Sasa unaweza kuendelea na kujaribu kuchangia miradi mingine; tafuta ![Toleo zuri la Kwanza](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) lebo kwa chaguo za michango zinazofaa kwa wanaoanza.
-- Pia ninatafuta washiriki wa kunisaidia katika kukagua na kuunganisha PR. Ikiwa ungependa kupata mazoezi ya hali ya juu zaidi ya Git tafadhali nitumie DM kwenye Twitter na usome [mwongozo wa mlezi](/maintainer_guide.md).
+- Pia ninatafuta washiriki wa kunisaidia katika kukagua na kuunganisha PR. Ikiwa ungependa kupata mazoezi ya hali ya juu zaidi ya Git soma [mwongozo wa mtunzaji](/maintainer_guide.md) jiunge na [server letu la Discord](https://discord.gg/tWkvS4ueVF) na kuomba kujiunga na timu kutoka kwa wasimamizi wa mradi.
 
 [↑ Nenda juu ↑](#faharisi-ya-ufikiaji-haraka)
 
@@ -350,7 +348,11 @@ Mradi huu umeathiriwa sana na mradi wa [Roshan Jossey](https://github.com/Roshan
 
 Pia imetiwa moyo hasa na jumuiya kuu inayozunguka [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, darasa la 2017 Ulaya.
 
-### Wachangiaji 100 Bora
+### Leseni
+
+Mradi huu umesajiliwa chini ya [Leseni ya MIT](./LICENSE).
+
+### Wachangiaji Bora 100
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
