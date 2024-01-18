@@ -91,7 +91,7 @@ Diese Anleitung ist auch in anderen Sprachen verfügbar:  [other languages](/tra
 
 ### Installation :)
 
-> [!Notiz]
+> [!Note]
 > Diese Anleitung basiert auf GitHub PC. [Falls du vertraut im Umgang mit dem Terminal bist (Klicke Hier)](/terminal_tutorial.md)
 
 Zuerst, lass die Installationsanwendung ihre Arbeit verrichten.
