@@ -7,7 +7,7 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Sluit%20je%20aan%20bij%20onze%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Sluit je aan bij onze Discord server!')
-[![PR's Welkom](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![PRs Welkom](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square&label=PR's)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
@@ -28,16 +28,16 @@
 - [Vertalingen](#vertalingen)
 - [Setup! :)](#setup-)
 - [Bijdragen](#bijdragen)
-  - [Stap 1: Splits (fork) deze bron (repository)](#step-1-splits-fork-deze-bron-repository)
-  - [Stap 2: Kloon deze bron (repository)](#step-2-kloon-deze-bron-repository)
-  - [Stap 3: Creëer een nieuwe tak (Branch)](#step-3-creëer-een-nieuwe-tak-branch)
-  - [Stap 4: Open het index.html bestand](#step-4-open-het-indexhtml-bestand)
-  - [Stap 5: Kopieer het HTML-kaartsjabloon](#step-5-kopieer-het-html-kaartsjabloon)
-  - [Stap 6: Pas je wijzigingen toe](#step-6-pas-je-wijzigingen-toe)
-  - [Stap 7: Bevestig je wijzigingen](#step-7-bevestig-je-wijzigingen)
-  - [Stap 8: Publiceer (Push) je wijzigingen naar GitHub](#step-8-publiceer-push-je-wijzigingen-naar-github)
-  - [Stap 9: Dien een PR(Pull Request) in](#step-9-dien-een-prpull-request-in)
-  - [Stap 10: Vier feest](#step-10-vier-feest)
+  - [Stap 1: Splits (fork) deze bron (repository)](#stap-1-splits-fork-deze-bron-repository)
+  - [Stap 2: Kloon deze bron (repository)](#stap-2-kloon-deze-bron-repository)
+  - [Stap 3: Creëer een nieuwe tak (branch)](#stap-3-creëer-een-nieuwe-tak-branch)
+  - [Stap 4: Open het index.html bestand](#stap-4-open-het-indexhtml-bestand)
+  - [Stap 5: Kopieer het HTML-kaartsjabloon](#stap-5-kopieer-het-html-kaartsjabloon)
+  - [Stap 6: Pas je wijzigingen toe](#stap-6-pas-je-wijzigingen-toe)
+  - [Stap 7: Bevestig je wijzigingen](#stap-7-bevestig-je-wijzigingen)
+  - [Stap 8: Publiceer (Push) je wijzigingen naar GitHub](#stap-8-publiceer-push-je-wijzigingen-naar-github)
+  - [Stap 9: Dien een PR(Pull Request) in](#stap-9-dien-een-prpull-request-in)
+  - [Stap 10: Vier feest](#stap-10-vier-feest)
 - [Volgende stappen](#volgende-stappen)
 - [Dankbetuigingen](#dankbetuigingen)
 - [Licensie](#licensie)
@@ -155,21 +155,21 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 ---
 
-#### Stap 3: Creëer een nieuwe tak (Branch)
+#### Stap 3: Creëer een nieuwe tak (branch)
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- Als de repo eenmaal afgesplitst (gecloned) is en je het open hebt staan in GitHub Desktop, is het tijd om een nieuwe tak(branch) te creëeren.
+- Een aftaking maken is een manier om jouw veranderingen apart te houden van het hoofddeel van het project genaamd `Master`. Als er bijvoorbeeld dingen fout gaan en je niet blij bent met je veranderingen dan kan je gemakkelijk jouw tak verwijderen zonder dat dit alles het hoofdproject beïnvloedt.
 
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :arrow_right_hook: klik op _`Current branch`_, Klik daarna op _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Klik op 'Branch', dan 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **Geef jouw tak een naam en klik daarna op `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Geef je tak (branch) een naam')                            |
+| :arrow_right_hook: **Publiceer je nieuwe tak naar to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Klik publiceer om je nieuwe tak te verzenden naar je online GitHub bron (repo)') |
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- Je kan je tak noemen wat je wilt, maar daar dit een tak is die de bedoeling heeft een kaart met je naam aan het project toe te voegen, is het een goede oefening om het `je-naam-card` te noemen daar dat de intentie van deze tak duidelijk maakt.
+- Nu heb je een nieuwe tak (branch) gemaakt die gescheiden is van de hoofdtak (master branch).
+- Voor de volgende stappen moet je er zeker van zijn dat je in deze branch werkt. Je zult de naam van de tak waarin je zit bovenaan in het midden van GitHub Desktop zien, waar het zegt _Current branch_.
 
-**Do NOT work on the `master` branch**
+**Werk NIET in de `master` tak (branch)**
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -177,16 +177,16 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 4: Open het index.html bestand
 
-- Now we need to open the file we are going to edit with your favourite code editor.
-- Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
-- Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project
+- Nu moeten we het bestand openen dat we gaan bewerken met je favoriete bewerkingsprogramma voor code.
+- Ga op zoek naar het mapje van het project op je computer. Als je die standaard had gelaten, zal het iets zijn zoals `je-computer > Documenten > GitHub > Contribute-To-This-Project`
+- Het `index.html` bestand bevind zich direct in het `Contribute-To-This-Project` mapje.
+- Open je bewerkingsprogramma voor code (Sublime, VS Code, Atom, etc.) en gebruik de `Open bestand` opdracht en zoek het index.html bestand op in de hoofdmap van het project
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
+|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in je tekstbewerker')                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Alternatively you can locate the file on your hard drive, right click, and open with your editor** |
+| :arrow_right_hook: **Het is ook mogelijk om eerst het bestand op je harde schijf op te zoeken, rechtermuisknopklik, en open met je bewerker** |
 
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+- Nu heb je het bestand dat je gaat bewerken open in je bewerkingsprogramma en je bent klaar om veranderingen te gaan maken.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -194,28 +194,28 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 5: Kopieer het HTML-kaartsjabloon
 
-- We will make a copy of the card template to start working on it
-- Right inside the `<body>`, you will find a `<div class="container">` section. This contains a lot of other sections.
-- The **first 2** sections are exactly like: `<div class="row">`. Collapse them by clicking on the arrow by their sides on your VS Code editor as shown in the picture below. (if you are using another editor, you may not be able to use the feature. You'll just have to scroll down). The collapse makes it easy to hide some code components that you won't need to change.
-- You should now see the section that houses all contribution cards: `<div class="grid" id="contributions">`
+- We maken een kopie van het kaartsjabloon, zodat we ermee aan de slag kunnen.
+- Direct binnen de `<body>` vind je een `<div class="container">` sectie, die een hoop andere secties bevat.
+- De **eerste 2** secties beginnen exact met: `<div class="row">`. Klap ze samen door op de pijl aan de zijkant te klikken in je VS Code editor, zoals in de afbeelding hieronder. (Als u een andere editor gebruikt, kunt u deze functie mogelijk niet gebruiken. Je moet dan gewoon naar beneden scrollen). Het samenvouwen maakt het gemakkelijk om sommige codecomponenten te verbergen die je niet hoeft te veranderen.
+- Je zou nu de sectie moeten zien die alle bijdragekaarten (kaarten die door anderen zijn bijgedragen) bevat: `<div class="grid" id="contributions">`
 
-| ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
+| ![Find card template](/readme-only/find-card-template.png 'Zoek de kaartsjabloon') |
 | :-----------------------------------------------------------------------: |
 
-- Inside this section, you will find the section labelled `== TEMPLATE ==`
-- Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
+- In deze sectie vindt u de sectie met het label `== TEMPLATE ==`
+- Kopieer alles binnen het rode vierkant in de afbeelding, van de `Contributor card START` opmerking tot de `Contributor card END` opmerking
 
-| ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
+| ![Copy card template](/readme-only/card-copy.PNG 'Kopieer het kaartsjabloom') |
 | :-----------------------------------------------------------------------: |
 
-- Paste the whole thing directly below the comment indicating it; right on top of the most recent contributor's card.
-- Make sure there is a single line of space between your card end and the last card's start. Also add a line of space between your card's start and the line with the comment `=== Paste YOUR CARD directly BELOW this line ===`. It's good practice to keep our code as clear as possible
-- Never use a linters or style formatters. The project has Prettier setup
+- Plak het geheel direct onder de opmerking die dit aangeeft; boven de kaart van de meest recente bijdrager.
+- Zorg ervoor dat er een regel afstand is tussen het einde van je kaart en het begin van de laatste kaart. Voeg ook een regel toe tussen het begin van je kaart en de regel met de opmerking `=== Paste YOUR CARD directly BELOW this line ===`. Dit is een goede oefening om onze code zo duidelijk mogelijk te houden.
+- Gebruik nooit linters of stijlopmaakprogramma's. Het project is mooier opgezet.
 
-| ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
+| ![Paste card template](/readme-only/card-paste.PNG 'Plak onder de aangegeven regel') |
 | :---------------------------------------------------------------------------------: |
 
-- This now is **your** card for you to customize and edit.
+- Dit is nu **jouw** HTML-kaart, die je kan personaliseren en bewerken.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -223,14 +223,14 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 6: Pas je wijzigingen toe
 
-- We'll now start editing html, changing the customizable fields in our card.
+- We zullen nu beginnen de html-code te bewerken door de aanpasbare velden van je kaart te veranderen.
 
-| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
+| :arrow_right_hook: Vervang 'Name' met je naam | ![Change name](/readme-only/change-name.PNG 'Type je naam') |
 | :----------------------------------------------- | :----------------------------------------------------------: |
 
-- **Note: Don't change `class="name"`**
+- **Let op: Wijzig niet `class="name"`**
 
-| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :arrow_right_hook: Voeg de URL van je Twitter- / X-account toe in `href="Insert URL here"`, Type je Twitternaam in het tekstvak | ![Change contact](/readme-only/change-contact.PNG 'Voeg een link naar je Twitter-account in en typ je gebruikersnaam') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
 - If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
@@ -332,7 +332,7 @@ I promise I will try to review and merge as soon as possible but I do this in my
 
 ---
 
-### Next Steps
+### Volgende stappen
 
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
@@ -348,17 +348,17 @@ I promise I will try to review and merge as soon as possible but I do this in my
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
 ---
-### Acknowledgements
+### Dankbetuigingen
 
-This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
+Dit project is erg beïnvloed door [Roshan Jossey's](https://github.com/Roshanjossey) geweldige [first-contributions](https://github.com/Roshanjossey/first-contributions) project met zijn uitstekende handleiding.
 
-It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+Het is ook bijzonder geïnspireerd door de geweldige gemeenschap rond [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
 
-### License
+### Licensie
 
 Dit project is gelicentieerd onder de [MIT License](./LICENSE).
 
-### Top 100 Contributors
+### Top 100 bijdragers
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
