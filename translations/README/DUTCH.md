@@ -254,18 +254,18 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 7: Bevestig je wijzigingen
 
-- Go back to the GitHub desktop app.
-- Your changes will have been added automatically to the staging area.
-- This means that Git has recorded all the **saved** changes.
-- You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
+- Ga terug naar GitHub Desktop.
+- Je wijzigingen zijn automatisch toegevoegd aan de voorbereidingsplaats (staging area).
+- Dit betekent dat Git alle **opgeslagen** wijzigingen heeft vastgelegd.
+- Je kunt dit terugzien in het programma. Alles wat je hebt toegevoegd aan het bestand wordt groen weergegeven en verwijderingen worden rood weergegeven.
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
+|                                                                                                  ![Commit changes](/readme-only/commit.PNG "De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder")                                                                                                  |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: The next step is called _`Commit`_. This roughly means `confirm the changes` |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
-|                                                                            :arrow_right_hook: **This is what your GitHub desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, Your `Current branch` will have the name you gave it in step 3**                                                                            |
-|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
+| :arrow_right_hook: De volgende stap heet _`Commit`_. Dit betekent ongeveer `bevestig de wijzigingen` |
+|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder")                                                                                               |
+|                                                                            :arrow_right_hook: **Dit is hoe jouw GitHub Desktop header eruit zou moeten zien. Let op het vorksymbool naast de projectnaam in `Current repository`, je `Current branch` zal de naam hebben die je het in stap 3 hebt gegeven.**                                                                            |
+|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Schrijf een korte samenvatting van je veranderingen in de 'summary' invoer en klik op 'commit'")                                                                                                                  |
+| :arrow_right_hook: **Om op _`Commit`_ te kunnen klikken, moet je het _`Summary`_ veld invullen. Dit is het vastleggingsbericht dat uitlegt wat je hebt veranderd. In dit geval zou `"Voeg mijn kaartgegevens toe"` een redelijk bericht zijn. Optioneel kun je een meer gedetailleerde _`Description`_ bijvoegen. Klik op de _`Commit`_ knop. Op je knop staat zoiets als `Commit to "your-branch-name"`** |
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -273,13 +273,13 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 8: Publiceer (Push) je wijzigingen naar GitHub
 
-- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
-- Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
+- Je wijzigingen zijn nu opgeslagen of vastgelegd. Maar ze worden alleen lokaal opgeslagen, dat wil zeggen op je computer.
+- Het synchroniseren van lokale wijzigingen met je bron (repository) op GitHub wordt een _Push_ genoemd. Je "duwt" de wijzigingen van je lokale repository naar de online bron op GitHub.
 
-| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :arrow_right_hook: Klik de _`Push`_ knop | ![Push to GitHub](/readme-only/push.PNG "Publiceer je wijzigingen naar GitHub, klik op de knop 'Push'") |
 | :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
 
-- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+- Na een paar seconden is de operatie voltooid en nu heb je precies dezelfde kopie van deze tak (branch) op zowel je computer als op GitHub.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -287,30 +287,30 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 9: Dien een PR(Pull Request) in
 
-- This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
-- So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
-- Now it's time to send your changes to the main project to be merged with it.
-- This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
-- Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
-- Towards the top of the repo you will see a highlighted pull request message with a green button.
+- Dit is het moment waar je op hebt gewacht: het indienen van een _Pull Request_ (PR).
+- Tot nu toe is al het werk dat je gedaan hebt op je eigen tak van het project geweest, die zoals je je herinnert op je eigen account van GitHub staat.
+- Nu is het tijd om je wijzigingen naar het hoofdproject te sturen zodat ze ermee samengevoegd kunnen worden.
+- Dit wordt een [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') genoemd, omdat je de originele projectontwikkelaar vraagt om jou veranderingen in zijn project op te nemen (to "pull").
+- Ga naar de hoofdpagina van **je afsplitsing** op GitHub (het zal bovenaan het vork-icoon en je gebruikersnaam weergeven).
+- Bovenaan de repo zie je een gemarkeerd pull request-bericht met een groene knop.
 
-|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
+|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'Dit staat meestal bovenaan de pagina, onder de beschrijving en boven de projectbestanden en -mappen.')  |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
-| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
-|                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
+|                                                    :arrow_right_hook: **Klik op `Compare and pull request`**                                                     |
+| ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Je vraagt om je tak (branch) van je afsplitsing (fork) samen te voegen in de hoofdtak van het originele project') |
+|                                              :arrow_right_hook: Dit is hoe de `Open a pull request` webpagina eruit ziet.                                               |
 
-- REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
-- The image below gives you an idea of how the header of your pull request should look like.
-- On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
+- ONTHOUD dat _je probeert je tak (branch) samen te voegen met het originele project, niet met de `Master` tak van je afsplitsing (fork)_.
+- De afbeelding hieronder geeft je een idee van hoe de header van je pull request eruit zou moeten zien.
+- Aan de linkerkant staat het originele project, gevolgd door de hoofdtak. Aan de rechterkant staat je afsplitsing (fork) en de tak (branch) die je gemaakt hebt.
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
+|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Klik op de groene knop. Wees niet bang!")                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Create a pull request: Write a title, Add optional information in the description and Click on `Create pull request`** |
+| :arrow_right_hook: **Maak een pull request: Schrijf een titel, voeg optionele informatie toe in de beschrijving en klik op `Create pull request`** |
 
-- Don't be fazed by all the options. You only need to do these three steps for now.
-- Leave the option `Allow edits from maintainers` ticked.
-- Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
+- Laat je niet afschrikken door alle opties. Je hoeft voorlopig alleen deze drie stappen uit te voeren.
+- Laat de optie `Allow edits from maintainers` aangevinkt.
+- Nu wordt er een _Pull Request_ naar de projectbeheerder gestuurd. Zodra het is bekeken en geaccepteerd, verschijnen je wijzigingen op de [webpagina van het project](https://syknapse.github.io/Contribute-To-This-Project 'Draag bij aan deze project webpagina').
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -318,15 +318,15 @@ _Geschatte tijd: Minder dan 30 minuten_.
 
 #### Stap 10: Vier feest
 
-That's it. You have done it! You have now contributed to open source on GitHub.
+Dat is het. Je hebt het gedaan! Je hebt nu bijgedragen aan open source op GitHub.
 
-You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+Je hebt code toegevoegd aan een live webpagina: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+Je wijzigingen **zullen niet meteen zichtbaar zijn**; ze moeten eerst bekeken, geaccepteerd en samengevoegd worden door de projectbeheerder. Zodra ze zijn samengevoegd zou je kaart zichtbaar moeten zijn en live op de pagina moeten staan.
 
-It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+Het is heel normaal dat een reviewer vraagt om wijzigingen in een PR. Zie het als een goede oefening als het jou overkomt. Houd commentaar en aangevraagde wijzigingen in de gaten. Zodra je de gevraagde wijzigingen hebt doorgevoerd ( op jouw tak (branch)) hoef je alleen nog maar je wijzigingen vast te leggen en te publiceren (pushen). De PR zal automatisch bijgewerkt worden met de nieuwe wijzigingen.
 
-I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
+Ik beloof dat ik zal proberen zo snel mogelijk te reviewen en samen te voegen, maar ik doe dit in mijn vrije tijd, dus een paar dagen vertraging is onvermijdelijk.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -334,16 +334,16 @@ I promise I will try to review and merge as soon as possible but I do this in my
 
 ### Volgende stappen
 
-- Come back in a while to check for your merged Pull Request.
-- You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
-- You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
-- You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
-- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
-- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
-- **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
+- Kom over een tijdje terug om te kijken of je Pull Request is gefuseerd.
+- Je zou een e-mail van GitHub moeten ontvangen als je wijzigingen zijn goedgekeurd, of als er om extra wijzigingen wordt gevraagd. En ook als de PR uiteindelijk is samengevoegd met de hoofdmap en je kaart is toegevoegd.
+- Je kunt ook leren hoe je kunt bijdragen met behulp van deze _gratis_ serie: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
+- Als je dit project **bruikbaar** vond, geef het dan een :star: ster :star: bovenaan de pagina en **Tweet** erover om het nieuws te helpen verspreiden [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- Je kunt je aansluiten bij onze [Discord server](https://discord.gg/tWkvS4ueVF)
+- Je kunt me **volgen** en contact opnemen op via [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') of [een van deze andere optie te gebruiken](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
+- Dit is een open source project, dus naast het bijdragen van je kaart ben je welkom om te helpen bij het oplossen van fouten, het maken van verbeteringen of het toevoegen van nieuwe functies. Open een [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') of begin a nieuw [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- Om onze community te helpen verbeteren, kun je een kijkje nemen op het GitHub [Discussies](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tabblad dat zich naast die van de Pull Requests bevindt. Dit is een plaats om jezelf voor te stellen, dieper in te gaan op discussies over Open Source en te communiceren met de projectbeheerders. Wil je ons helpen deze functie uit te bouwen en onze gemeenschap te versterken?
+- **Dank voor je bijdrage aan dit project**. Nu kun je proberen bij te dragen aan andere projecten; zoek naar de ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label voor beginnersvriendelijke bijdrageopties.
+- Ik ben ook op zoek naar medewerkers die me kunnen helpen met het reviewen en samenvoegen van PR's. Als je meer geavanceerde Git oefeningen wilt, lees dan de [beheerdershandleiding](/maintainer_guide.md), sluit je aan bij onze [Discord server](https://discord.gg/tWkvS4ueVF), en vraag om aan te sluiten bij het team van de projectbeheerders.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
