@@ -78,11 +78,11 @@ Je maakt een kopie van het kaartsjabloon in het HTML-bestand en past het aan met
 
 Deze handleiding is ook beschikbaar in [andere talen](/translations/README.md)
 
-|     [Arabisch (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinees (Traditioneel) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [Engels (English)](/README.md)             |  [Frans (Français)](/translations/README/FRENCH.md)  
+| [Arabisch (عربي)](/translations/README/ARABIC.md) | [Bangla (বাংলা)](/translations/README/BANGLA.md) | [Chinees (Traditioneel) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Duits (Deutsch)](/translations/README/GERMAN.md) | [Engels (English)](/README.md)   
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  [Duits (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italiaans (Italiano)](/translations/README/ITALIAN.md) | [Japans (日本語)](/translations/README/JAPANESE.md) |  [Koreaans (한국어)](/translations/README/KOREAN.md)  |
-  [Pools (Polski)](/translations/README/POLISH.md)  | [Portuguees (Portuguese)](/translations/README/PORTUGUESE.md) | [Russisch (Русский)](/translations/README/RUSSIAN.md) |  [Servisch (Српски)](/translations/README/SERBIAN.md)  | [Spaans (Español)](/translations/README/SPANISH.md) |
-   [Turks (Türkçe)](/translations/README/TURKISH.md) | [Oekraïens (українська)](/translations/README/UKRAINIAN.md) | [Noors (Norsk)](/translations/README/NORWEGIAN.md)
+| [Frans (Français)](/translations/README/FRENCH.md) | [Hindi (हिंदी)](/translations/README/HINDI.md) | [Italiaans (Italiano)](/translations/README/ITALIAN.md) | [Japans (日本語)](/translations/README/JAPANESE.md) | [Koreaans (한국어)](/translations/README/KOREAN.md) |
+  [Nederlands](/translations/README/DUTCH.md) | [Noors (Norsk)](/translations/README/NORWEGIAN.md) | [Oekraïens (українська)](/translations/README/UKRAINIAN.md) | [Pools (Polski)](/translations/README/POLISH.md) | [Portuguees (Portuguese)](/translations/README/PORTUGUESE.md) | [Russisch (Русский)](/translations/README/RUSSIAN.md) 
+  [Servisch (Српски)](/translations/README/SERBIAN.md)  | [Spaans (Español)](/translations/README/SPANISH.md) | [Turks (Türkçe)](/translations/README/TURKISH.md)
 
 > Vertalingen voor projectdocumentaties zijn welkom. Lees de [`Vertaalhandleiding`](/translations/README.md) om bij te dragen.
 
