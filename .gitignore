@@ -2,6 +2,7 @@
 .vscode/*
 !.vscode/settings.json
 .vs
+.vscode
 node_modules
 .idea
 archive_test
