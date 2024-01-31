@@ -14,7 +14,7 @@
 
 > ## **Announcement:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md) and send me a DM on [Twitter](https://twitter.com/Syknapse).
+> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
 
 ---
 
@@ -79,11 +79,11 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/README.md)
 
-|     [Arabic (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [English (English)](/README.md)             |  [French (Français)](/translations/README/FRENCH.md)  
+|     [Arabic (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) |            [English (English)](/README.md)             |  
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |  [Korean (한국어)](/translations/README/KOREAN.md)  |
-  [Polish (Polski)](/translations/README/POLISH.md)  | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  | [Spanish (Español)](/translations/README/SPANISH.md) |
-   [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md)
+| [French (Français)](/translations/README/FRENCH.md) |  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |
+  [Korean (한국어)](/translations/README/KOREAN.md)  | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
+  [Spanish (Español)](/translations/README/SPANISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md)
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
@@ -339,11 +339,12 @@ I promise I will try to review and merge as soon as possible but I do this in my
 - You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
 - You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
 - You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, join our Discord server and read the [maintainer's guide](/maintainer_guide.md).
+- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
 
 [↑ Go to top ↑](#quick-access-index)
 

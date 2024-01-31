@@ -184,7 +184,13 @@
   },
   {
     "name": "Devon Pinkston",
-    "contacts": [],
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "Contribute-To-This-Project"
+      }
+    ],
     "about": "My name is Devon Pinkston, and I am a beginner \"Web Developer\" in central America. I am interested in code\n          work for phone applications and machines. I want to find a community of like-minded individuals that I can\n          contribute to technology with. My top 5 core values are 1)Trust/Truth 2)Health 3)Logic/Intelligence\n          4)Creativity 5)Emotional Intelligence",
     "resources": [
       {
@@ -294,12 +300,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/confused-Techie",
-        "handle": ""
+        "handle": "@confused-Techie"
       },
       {
         "icon": "fab fa-stack-overflow",
         "link": "https://stackoverflow.com/users/12707685/confused-techie",
-        "handle": ""
+        "handle": "@confused-Techie"
       }
     ],
     "about": "Hello all, I'm confused-Techie with a passion for the self-hosted community! I work mainly with JavaScript,\n          loving frameworks like NPM, NodeJS, React, and Next. But try to learn a new language with every project I work\n          on, from Golang, to C#.",
@@ -421,12 +427,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/andrealvesaraujo",
-        "handle": ""
+        "handle": "@andrealvesaraujo"
       },
       {
         "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/andre-alves-araujo/",
-        "handle": ""
+        "handle": "andre-alves-araujo"
       }
     ],
     "about": "Hello There. I'm a front-end developer who loves disney movies. Also a Kingdom Hearts fan gamer. I want to\n          work someday in game development. Thanks for reading my contribution card",
@@ -614,12 +620,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/elijah-park",
-        "handle": ""
+        "handle": "@elijah-park"
       },
       {
         "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/elijahpark/",
-        "handle": ""
+        "handle": "@elijah-park"
       }
     ],
     "about": "I am a Software Engineer trying to level up and one day land a job in a MANGA company.",
@@ -685,7 +691,7 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/gilbertomavs",
-        "handle": ""
+        "handle": "@gilbertomavs"
       }
     ],
     "about": "i am a software developer trainee, looking for GIT experience",
@@ -1252,22 +1258,22 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/zivkaplan",
-        "handle": ""
+        "handle": "@zivkaplan"
       },
       {
         "icon": "fab fa-facebook",
         "link": "https://www.facebook.com/zivkap",
-        "handle": ""
+        "handle": "@zivkap"
       },
       {
         "icon": "fab fa-x-twitter",
         "link": "https://twitter.com/ZivKaplan",
-        "handle": ""
+        "handle": "@zivkaplan"
       },
       {
         "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/ziv-kaplan-947028207/",
-        "handle": ""
+        "handle": "@zivkaplan"
       }
     ],
     "about": "Programmer and Classical Percussion Player and Teacher",
@@ -1477,7 +1483,7 @@
     "contacts": [
       {
         "icon": "fab fa-x-twitter",
-        "link": "www.twitter.com",
+        "link": "https://www.twitter.com/pillowedwillow",
         "handle": "@pillowedwillow"
       }
     ],
@@ -1534,17 +1540,17 @@
       {
         "icon": "fab fa-x-twitter",
         "link": "https://twitter.com/PanwarEkansh",
-        "handle": ""
+        "handle": "@PanwarEkansh"
       },
       {
         "icon": "fab fa-github",
         "link": "https://github.com/Ekansh-187",
-        "handle": ""
+        "handle": "@Ekansh-187"
       },
       {
         "icon": "fab fa-linkedin-in",
         "link": "https://in.linkedin.com/in/ekansh-panwar-751795200",
-        "handle": ""
+        "handle": "Ekansh Panwar"
       }
     ],
     "about": "I am a web dev as well as competitive coding enthusiast. I hope to create a successfull dynamic website\n          someday.",
@@ -1572,7 +1578,7 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/crppckyz",
-        "handle": ""
+        "handle": "@crppckyz"
       }
     ],
     "about": "Hi everyone! I am Chao and I am from China. Very happy to make my first contribution here! Hope to be a\n          web-developer in the very near future!",
@@ -1638,12 +1644,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/gv68682",
-        "handle": ""
+        "handle": "@gv68682"
       },
       {
         "icon": "fab fa-linkedin",
-        "link": "www.linkedin.com/in/padma-v-3a248a17b",
-        "handle": ""
+        "link": "https://www.linkedin.com/in/padma-v-3a248a17b",
+        "handle": "@Padma"
       }
     ],
     "about": "Developers can do magic, excited to be part of this amazing creaters world!",
@@ -1704,12 +1710,12 @@
       {
         "icon": "fab fa-github",
         "link": "https://github.com/Cesar959",
-        "handle": ""
+        "handle": "@Cesar959"
       },
       {
         "icon": "fab fa-linkedin",
         "link": "https://www.linkedin.com/in/cesarsantosalmeida/",
-        "handle": ""
+        "handle": "cesarsantosalmeida"
       }
     ],
     "about": "Sou programador júnior, Apaixonado por programação web, formado no curso técnico em informatica do Senac de\n          taubaté.",
@@ -1862,9 +1868,9 @@
     "name": "Ash Sass",
     "contacts": [
       {
-        "icon": "fab fa-x-twitter",
-        "link": "www.twitter.com",
-        "handle": "Your handle"
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "@root"
       }
     ],
     "about": "I am a wannabe coder working in the restaurant industry. I'm trying to get out of said industry and make it as\n          a software developer.",
@@ -1971,60 +1977,22 @@
     ]
   },
   {
-    "name": "Ekansh Panwar",
-    "contacts": [
-      {
-        "icon": "fab fa-x-twitter",
-        "link": "https://twitter.com/PanwarEkansh",
-        "handle": ""
-      },
-      {
-        "icon": "fab fa-github",
-        "link": "https://github.com/Ekansh-187",
-        "handle": ""
-      },
-      {
-        "icon": "fab fa-linkedin-in",
-        "link": "https://in.linkedin.com/in/ekansh-panwar-751795200",
-        "handle": ""
-      }
-    ],
-    "about": "I am a web dev as well as competitive coding enthusiast. I hope to create a successfull dynamic website\n          someday.",
-    "resources": [
-      {
-        "title": "First Resource",
-        "link": "https://roadmap.sh/",
-        "text": "Roadmaps"
-      },
-      {
-        "title": "Second Resource",
-        "link": "https://www.freecodecamp.org/",
-        "text": "freecodecamp"
-      },
-      {
-        "title": "Third resource",
-        "link": "https://www.codecademy.com/learn/paths/web-development",
-        "text": "Codecademy"
-      }
-    ]
-  },
-  {
     "name": "Cagin Cevik",
     "contacts": [
       {
         "icon": "fab fa-linkedin-in",
         "link": "https://www.linkedin.com/in/cagincevik/",
-        "handle": ""
+        "handle": "@cagincevik"
       },
       {
         "icon": "fab fa-github",
         "link": "https://github.com/cgncvk",
-        "handle": ""
+        "handle": "@cgncvk"
       },
       {
         "icon": "fab fa-x-twitter",
-        "link": "https://mobile.twitter.com/cagin_cevik",
-        "handle": ""
+        "link": "https://twitter.com/cagin_cevik",
+        "handle": "@cagin_cevik"
       }
     ],
     "about": "I do data analysis to make life more understandable, i don't mind getting my hands dirty to collect data. 😊",
@@ -2116,9 +2084,9 @@
     "name": "M1ma",
     "contacts": [
       {
-        "icon": "fab fa-x-twitter",
-        "link": "www.twitter.com",
-        "handle": "\"None\""
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "@root"
       }
     ],
     "about": "Noob in coding. Fast learner, new coding or learning stuff makes me happy. wanna be a dev :)",
@@ -2144,27 +2112,27 @@
     "name": "Sudipto Chakraboryy",
     "contacts": [
       {
-        "icon": "fab fa-x-twitter",
-        "link": "www.twitter.com",
-        "handle": ""
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "@root"
       }
     ],
     "about": "I am a Software enthusiast and engineer, want to build an amazing application someday!",
     "resources": [
       {
         "title": "First Resource",
-        "link": "#",
-        "text": "https://www.udacity.com/course/product-design--ud509"
+        "link": "https://www.udacity.com/course/product-design--ud509",
+        "text": "Product Design - Udacity"
       },
       {
         "title": "Second Resource",
-        "link": "#",
-        "text": "https://developer.mozilla.org/en-US/"
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN"
       },
       {
         "title": "Third resource",
-        "link": "#",
-        "text": "https://github.com/"
+        "link": "https://github.com/",
+        "text": "GitHub"
       }
     ]
   },
@@ -2286,12 +2254,12 @@
       {
         "icon": "fab fa-linkedin-in",
         "link": "https://www.linkedin.com/in/yarden-ankonina/",
-        "handle": ""
+        "handle": "yarden-ankonina"
       },
       {
         "icon": "fab fa-github",
         "link": "https://github.com/Yarden-Ankonina",
-        "handle": ""
+        "handle": "Yarden-Ankonina"
       }
     ],
     "about": "I am a CS student in my third year, commiting in my first open source project",
@@ -2345,9 +2313,9 @@
     "name": "Khem Singh",
     "contacts": [
       {
-        "icon": "fab fa-x-twitter",
-        "link": "www.twitter.com",
-        "handle": "Not Active"
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "handle": "@root"
       }
     ],
     "about": "Hello! My name is Khem Singh. I am a student and trying to learn web-development. This is my first open source\n          contibution.",
@@ -2375,17 +2343,17 @@
       {
         "icon": "fab fa-linkedin-in",
         "link": "https://www.linkedin.com/in/gianluca-cinà-a345b94b",
-        "handle": ""
+        "handle": "gianluca-cinà"
       },
       {
         "icon": "fab fa-github",
         "link": "https://github.com/Gianlca",
-        "handle": ""
+        "handle": "@Gianlca"
       },
       {
         "icon": "fab fa-x-twitter",
         "link": "https://twitter.com/8Cinaski",
-        "handle": ""
+        "handle": "@8Cinaski"
       }
     ],
     "about": "living in Palermo (Italy). Bachelor degree in communication.",
@@ -2469,22 +2437,22 @@
       {
         "icon": "fab fa-linkedin-in",
         "link": "https://www.linkedin.com/in/javierbm",
-        "handle": ""
+        "handle": "@javierbm"
       },
       {
         "icon": "fab fa-github",
         "link": "https://github.com/chatojavier",
-        "handle": ""
+        "handle": "@chatojavier"
       },
       {
         "icon": "fab fa-x-twitter",
         "link": "https://twitter.com/chatoxavier",
-        "handle": ""
+        "handle": "@chatoxavier"
       },
       {
         "icon": "fab fa-instagram",
         "link": "https://instagram.com/chatojavier",
-        "handle": ""
+        "handle": "@chatojavier"
       }
     ],
     "about": "Made in Arequipa, living in Lima (Peru). Bachelor degree in advertising. Current student of MIT xPro\n          Professional Certificate in Coding. 🏳️‍🌈",
