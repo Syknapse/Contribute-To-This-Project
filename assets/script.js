@@ -3,6 +3,7 @@ import numberOfFiles from '../archive/archiveFilesTotal.js'
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
+let searchTimeout = null;
 
 // Create an array of ascending numbers corresponding with the number of archive files
 const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
@@ -147,45 +148,52 @@ const currentYear = new Date().getFullYear()
 currentYearSpan.innerText = currentYear
 
 // Search bar
-// const searchBar = document.getElementById('searchbar')
-// searchBar.addEventListener('input', searchCard)
+const searchBar = document.getElementById('searchbar')
+searchBar.addEventListener('input', searchCard)
 
-// function clearSearchHighlights() {
-//   const marks = Array.from(document.querySelectorAll('mark'))
-//   if (marks.length > 0) {
-//     marks.forEach(mark => {
-//       mark.outerHTML = mark.innerText
-//     })
-//   }
-// }
+function clearSearchHighlights() {
+  const marks = Array.from(document.querySelectorAll('mark'))
+  if (marks.length > 0) {
+    marks.forEach(mark => {
+      mark.outerHTML = mark.innerText
+    })
+  }
+}
 
-// function applyHighlightToSearchResults(value, card) {
-//   const regex = new RegExp(value, 'gi')
-//   const cardElements = Array.from(card.querySelectorAll('*'))
-//   const matches = cardElements.filter(
-//     element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
-//   )
+function applyHighlightToSearchResults(value, card) {
+  const regex = new RegExp(value, 'gi')
+  const cardElements = Array.from(card.querySelectorAll('*'))
+  const matches = cardElements.filter(
+    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
+  )
 
-//   if (value && value.length > 0) {
-//     matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
-//   }
-// }
+  if (value && value.length > 0) {
+    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
+  }
+}
 
-// function searchCard() {
-//   let input = searchBar.value.toLowerCase()
-//   const cards = document.getElementsByClassName('card')
+function searchCard() {
+  const input = searchBar.value.toLowerCase();
 
-//   clearSearchHighlights()
+  if (searchTimeout) {
+    clearTimeout(searchTimeout);
+  }
 
-//   for (let i = 0; i < cards.length; i++) {
-//     if (!cards[i].textContent.toLowerCase().includes(input)) {
-//       cards[i].style.display = 'none'
-//     } else {
-//       cards[i].style.display = 'flex'
-//       applyHighlightToSearchResults(input, cards[i])
-//     }
-//   }
-// }
+  searchTimeout = setTimeout(async () => {
+    const cards = document.getElementsByClassName('card');
+
+    clearSearchHighlights();
+
+    for (let i = 0; i < cards.length; i++) {
+      if (!cards[i].textContent.toLowerCase().includes(input)) {
+        cards[i].style.display = 'none';
+      } else {
+        cards[i].style.display = 'flex';
+        applyHighlightToSearchResults(input, cards[i]);
+      }
+    }
+  }, 500); // 500 millisecond delay between keystrokes to trigger the search
+}
 
 // Get the button
 let topButton = document.getElementById('topButton')
