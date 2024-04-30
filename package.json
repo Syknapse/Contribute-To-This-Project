@@ -8,6 +8,14 @@
     "clean": "node archive/clean.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
-  }
+    "cheerio": "^1.0.0-rc.12",
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "contribute-to-this-project",
+  "description": "![image info](/favicon.png)",
+  "version": "1.0.0",
+  "main": "prettier.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
