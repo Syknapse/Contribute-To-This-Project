@@ -86,7 +86,7 @@ This tutorial is also available in [other languages](/translations/README.md)
 
 | [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
 | :----: | :----: | :----: | :----: | :----: |
-| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |[Spanish](/translations/terminal_tutorial/terminal_tutorial.spa.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
