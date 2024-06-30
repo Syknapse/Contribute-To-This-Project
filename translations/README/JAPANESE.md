@@ -154,7 +154,7 @@ _所要時間: 30分以内_
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Change contact](../../readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')               |
 
-- Twitter以外を使う場合は、Twitterアイコン`<i class="fa fa-twitter"></i>`を別のものに置き換えましょう。[Font Awesome Icons](http://fontawesome.io/icons/)で置き換えるものを検索して、`fa-twitter`を別のものに置き換えてください。例えばfacebookの場合は、`fa-facebook`です。その後上記と同じ手順を踏んでください。
+- Twitter以外を使う場合は、Twitterアイコン`<i class="fa fa-x-twitter"></i>`を別のものに置き換えましょう。[Font Awesome Icons](http://fontawesome.io/icons/)で置き換えるものを検索して、`fa-x-twitter`を別のものに置き換えてください。例えばfacebookの場合は、`fa-facebook`です。その後上記と同じ手順を踏んでください。
 
 | <ul><li>あなたについて教えてください</li><li>短くまとめてください。ブログの記事というより、つぶやきのように考えてください。</li></ul> | ![Change about](../../readme-only/change-about.PNG 'Write a sentence about you') |
 | :------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |

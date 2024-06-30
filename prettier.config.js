@@ -1,33 +1,33 @@
 module.exports = {
-    arrowParens: 'avoid',
+  arrowParens: 'avoid',
 
-    bracketSpacing: true,
+  bracketSpacing: true,
 
-    endOfLine: 'lf',
+  endOfLine: 'lf',
 
-    htmlWhitespaceSensitivity: 'ignore',
+  htmlWhitespaceSensitivity: 'ignore',
 
-    insertPragma: false,
+  insertPragma: false,
 
-    jsxBracketSameLine: false,
+  jsxBracketSameLine: false,
 
-    jsxSingleQuote: false,
+  jsxSingleQuote: false,
 
-    printWidth: 120,
+  printWidth: 120,
 
-    proseWrap: 'preserve',
+  proseWrap: 'preserve',
 
-    quoteProps: 'as-needed',
+  quoteProps: 'as-needed',
 
-    requirePragma: false,
+  requirePragma: false,
 
-    semi: false,
+  semi: false,
 
-    singleQuote: true,
+  singleQuote: true,
 
-    tabWidth: 2,
+  tabWidth: 2,
 
-    trailingComma: 'es5',
+  trailingComma: 'es5',
 
-    useTabs: false,
+  useTabs: false,
 }
