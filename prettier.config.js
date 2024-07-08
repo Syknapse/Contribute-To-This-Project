@@ -5,7 +5,7 @@ module.exports = {
   htmlWhitespaceSensitivity: 'ignore',
   insertPragma: false,
   // jsxBracketSameLine: false, // Deprecated
-  bracketSameLine: false, // Use this if your Prettier version supports it
+  bracketSameLine: false, // Updated to this
   jsxSingleQuote: false,
   printWidth: 120,
   proseWrap: 'preserve',
