@@ -87,7 +87,7 @@ Este tutorial tambien está disponible en [otros idiomas](/translations/README.m
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |  [Alemán](/translations/README/GERMAN.md)  |      [Hindú](/translations/README/HINDI.md)      | [Italiano](/translations/README/ITALIAN.md) | [Japonés](/translations/README/JAPANESE.md) |  [Coreano](/translations/README/KOREAN.md)  |
   [Polaco](/translations/README/POLISH.md)  | [Portugués](/translations/README/PORTUGUESE.md) | [Ruso](/translations/README/RUSSIAN.md) |  [Serbio](/translations/README/SERBIAN.md)  | [Español](/translations/README/SPANISH.md) |
-   [Turco](/translations/README/TURKISH.md) | [Ucraniano](/translations/README/UKRAINIAN.md) |
+   [Turco](/translations/README/TURKISH.md) | [Ucraniano](/translations/README/UKRAINIAN.md) | | [Persian](/translations/README/FARSI.md) |
 
 > Las traducciones para la documentación del proyecto son bienvenidas. Lee la [`Guia de traducciones`](/translations/README.md) para contribuir.
 
