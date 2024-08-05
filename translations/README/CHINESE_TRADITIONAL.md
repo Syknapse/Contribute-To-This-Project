@@ -85,8 +85,8 @@
 |     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
-| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
-| [Ukrainian](/translations/README/UKRAINIAN.md) |
+| [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) | 
+| [Ukrainian](/translations/README/UKRAINIAN.md) | [Persian](/translations/README/FARSI.md) |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
 

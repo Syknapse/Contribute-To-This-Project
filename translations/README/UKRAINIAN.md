@@ -86,7 +86,7 @@
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
 | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
-|  [Ukrainian](/translations/README/UKRAINIAN.md)  |
+|  [Ukrainian](/translations/README/UKRAINIAN.md)  | [Persian](/translations/README/FARSI.md) |
 
 > Вітаються переклади проєктної документації. Прочитайте ['Посібник з перекладу'](/translations/README.md), щоб зробити свій внесок.
 

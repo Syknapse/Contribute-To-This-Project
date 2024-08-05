@@ -84,7 +84,7 @@ HTML 파일 내부에 카드 템플릿의 복사본을 만들고 본인의 정�
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |  [German](/translations/README/GERMAN.md)  |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |
   [Polish](/translations/README/POLISH.md)  | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) |
-   [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) |
+   [Turkish](/translations/README/TURKISH.md) | [Ukrainian](/translations/README/UKRAINIAN.md) | [Persian](/translations/README/FARSI.md) |
 
 > 프로젝트 문서 번역을 하고 싶다면 환영입니다. [`번역 가이드`](/translations/README.md)를 읽고 기여해주세요.
 

@@ -83,7 +83,7 @@ Diese Anleitung ist auch in anderen Sprachen verfügbar:  [other languages](/tra
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
 |  [Deutsch (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italienisch (Italiano)](/translations/README/ITALIAN.md) | [Japanisch (日本語)](/translations/README/JAPANESE.md) |  [Koreanisch (한국어)](/translations/README/KOREAN.md)  |
   [Polnisch (Polski)](/translations/README/POLISH.md)  | [Portugisisch (Portuguese)](/translations/README/PORTUGUESE.md) | [Russisch (Русский)](/translations/README/RUSSIAN.md) |  [Serbisch (Српски)](/translations/README/SERBIAN.md)  | [Spanisch (Español)](/translations/README/SPANISH.md) |
-   [Turkisch (Türkçe)](/translations/README/TURKISH.md) | [Ukrainisch (українська)](/translations/README/UKRAINIAN.md) | [Norwegisch (Norsk)](/translations/README/NORWEGIAN.md)
+   [Turkisch (Türkçe)](/translations/README/TURKISH.md) | [Ukrainisch (українська)](/translations/README/UKRAINIAN.md) | [Norwegisch (Norsk)](/translations/README/NORWEGIAN.md) | [Persian (فارسی)](/translations/README/FARSI.md) |
 
 > Übersetzungen für Projekt-Dokumentationen sind stets willkommen. Lies dir den [`Translation Guide`](/translations/README.md) druch, um dort beizutragen.
 

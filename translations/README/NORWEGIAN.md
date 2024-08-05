@@ -86,7 +86,7 @@ Denne veiledningen er også tilgjengelig på [andre språk](/translations/README
 | :----------------------------------------: | :-----------------------------------------------: | :--------------------------------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
 |   [Tysk](/translations/README/GERMAN.md)   |      [Hindi](/translations/README/HINDI.md)       |              [Italiensk](/translations/README/ITALIAN.md)              | [Japansk](/translations/README/JAPANESE.md) | [Koreansk](/translations/README/KOREAN.md) |
 |  [Polsk](/translations/README/POLISH.md)   | [Portugisisk](/translations/README/PORTUGUESE.md) |               [Russisk](/translations/README/RUSSIAN.md)               | [Serbisk](/translations/README/SERBIAN.md)  | [Spansk](/translations/README/SPANISH.md)  |
-| [Tyrkisk](/translations/README/TURKISH.md) |   [Ukrainsk](/translations/README/UKRAINIAN.md)   |  [Norsk](/translations/README/NORWEGIAN.md)
+| [Tyrkisk](/translations/README/TURKISH.md) |   [Ukrainsk](/translations/README/UKRAINIAN.md)   |  [Norsk](/translations/README/NORWEGIAN.md) | [Persian](/translations/README/FARSI.md) |
 
 > Oversettelser for prosjektdokumentasjon er velkommen. Les [`Oversettelses guide`](/translations/README.md) for å bidra.
 
