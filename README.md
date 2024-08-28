@@ -170,6 +170,7 @@ _Estimated time: Less than 30 minutes_.
 - Now you have created a new branch separate from the master.
 - For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
 
+
 **Do NOT work on the `master` branch**
 
 [↑ Go to top ↑](#quick-access-index)
