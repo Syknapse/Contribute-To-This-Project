@@ -1,13 +1,10 @@
-Here's the translation of the contribution guide into Urdu:
-
-```markdown
 # [اس پروجیکٹ میں حصہ لیں](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![تصویر کی معلومات](/favicon.png)
 
 > یہ لوگو دل کی گہرائیوں سے [CandidDeer](https://github.com/CandidDeer) نے بنایا ہے۔
 
-[![ٹویٹ کریں](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+[![ٹویٹ کریں](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fsyknapse.github.io%2FContribute-To-This-Project%2F)
 
 [![ڈسکارڈ](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'ہمارے ڈسکارڈ سرور میں شامل ہوں!')
 [![PRs کا خیر مقدم ہے](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -82,13 +79,12 @@ Here's the translation of the contribution guide into Urdu:
 
 یہ گائیڈ دیگر [زبانوں میں بھی دستیاب](#ترجمے) ہے۔
 
-|     [عربی](/translations/README/ARABIC.md)     |  [بنگالی](/translations/README/BANGLA.md)  | [روایتی چینی](/translations/README/CHINESE_TRADITIONAL.md) | [ڈچ](/translations/README/DUTCH.md) |            [انگریزی](/README.md)             |  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [فرانسیسی](/translations/README/FRENCH.md) |  [جرمن](/translations/README/GERMAN.md)  |      [ہندی](/translations/README/HINDI.md)      | [اطالوی](/translations/README/ITALIAN.md) | [جاپانی](/translations/README/JAPANESE.md) |
-  [کورین](/translations/README/KOREAN.md)  | [پولش](/translations/README/POLISH.md) | [پرتگالی](/translations/README/PORTUGUESE.md) | [روسی](/translations/README/RUSSIAN.md) |  [سربین](/translations/README/SERBIAN.md)  |
-  [ہسپانوی](/translations/README/SPANISH.md) | [ترکی](/translations/README/TURKISH.md) | [یوکرینی](/translations/README/UKRAINIAN.md) | [ناروے](/translations/README/NORWEGIAN.md)
+| [عربی](/translations/README/ARABIC.md) | [بنگالی](/translations/README/BANGLA.md) | [روایتی چینی](/translations/README/CHINESE_TRADITIONAL.md) | [ڈچ](/translations/README/DUTCH.md) | [انگریزی](/README.md) |
+| :-------------------------------------: | :---------------------------------------: | :-------------------------------------------------------: | :---------------------------------: | :-------------------: |
+| [فرانسیسی](/translations/README/FRENCH.md) | [جرمن](/translations/README/GERMAN.md) | [ہندی](/translations/README/HINDI.md) | [اطالوی](/translations/README/ITALIAN.md) | [جاپانی](/translations/README/JAPANESE.md) |
+| [کورین](/translations/README/KOREAN.md) | [پولش](/translations/README/POLISH.md) | [پرتگالی](/translations/README/PORTUGUESE.md) | [روسی](/translations/README/RUSSIAN.md) | [سربین](/translations/README/SERBIAN.md) |
+| [ہسپانوی](/translations/README/SPANISH.md) | [ترکی](/translations/README/TURKISH.md) | [یوکرینی](/translations/README/UKRAINIAN.md) | [ناروے](/translations/README/NORWEGIAN.md) |
 
 > پروجیکٹس میں دستاویزات کے ترجمے کا خیر مقدم کیا جاتا ہے۔ حصہ لینے کے لئے [`ترجمہ گائیڈ`](/translations/README.md) پڑھیں۔
 
 ---
-```
