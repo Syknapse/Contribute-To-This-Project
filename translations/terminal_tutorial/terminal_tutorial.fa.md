@@ -1,4 +1,4 @@
-# [به این پروژه کمک کنید](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![image info](/favicon.png)
 
