@@ -21,7 +21,7 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 | [Arabic](README/ARABIC.md) | [Bangla](README/BANGLA.md) | [Chinese (Traditional)](README/CHINESE_TRADITIONAL.md) | [Dutch](README/DUTCH.md) | [English](../README.md) |
 | :------------------------: | :------------------------: | :---------------------: | :------------------------: | :------------------------: |
- [French](README/FRENCH.md) | [German](README/GERMAN.md) | [Greek](README/GREEK.md) | [Hindi](README/HINDI.md)   | [Italian](README/ITALIAN.md) |
+ [Farsi](README/FARSI.md) |  [French](README/FRENCH.md)   | [German](README/GERMAN.md) | [Greek](README/GREEK.md) | [Hindi](README/HINDI.md)   | [Italian](README/ITALIAN.md) |
  [Japanese](README/JAPANESE.md) | [Korean](README/KOREAN.md)   |  [Polish](README/POLISH.md)   | [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) |
  [Serbian](README/SERBIAN.md) | [Spanish](README/SPANISH.md) |  [Turkish](README/TURKISH.md) | [Ukrainian](README/UKRAINIAN.md) |
 
@@ -29,17 +29,17 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## Maintainers Guide Translations
 
-| [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Greek](maintainer_guide/maintainer_guide.ell.md)|
-| :---: | :---: | :---: | :---: | :---: |
-[Hindi](maintainer_guide/maintainer_guide.hin.md) |[Indonesian](maintainer_guide/maintainer_guide.ind.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Korean](maintainer_guide/maintainer_guide.kor.md) |
-[Portuguese](maintainer_guide/maintainer_guide.por.md) |[Russian](maintainer_guide/maintainer_guide.rus.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md)|
+| [Bangla](maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) | [English](../maintainer_guide.md) | [Farsi](maintainer_guide/maintainer_guide.fa.md)  | [German](maintainer_guide/maintainer_guide.ger.md) | [Greek](maintainer_guide/maintainer_guide.ell.md) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [Hindi](maintainer_guide/maintainer_guide.hin.md) | [Indonesian](maintainer_guide/maintainer_guide.ind.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Korean](maintainer_guide/maintainer_guide.kor.md) | [Portuguese](maintainer_guide/maintainer_guide.por.md) |
+| [Russian](maintainer_guide/maintainer_guide.rus.md) | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |  |  |  |  |
 
 ---
 
 ## Terminal Tutorial
 
-| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |  [English](/terminal_tutorial.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
-| :----: | :----: | :----: | :----: | :----: |
-| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [English](/terminal_tutorial.md) | [Farsi](/translations/terminal_tutorial/terminal_tutorial.fa.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+|  |  |  |  |  |  |  |  |
 
 ---
