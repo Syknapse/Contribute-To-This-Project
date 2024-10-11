@@ -28,6 +28,16 @@ header {
   text-align: left;
   max-width: 1575px;
 }
+.navbar{
+  background:white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 a {
   color: #fa3d66;
