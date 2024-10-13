@@ -9,7 +9,16 @@
   --box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   --ease-out: 0.25s ease-in-out;
 }
-
+.navbar{
+  background:white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 body {
   color: var(--dark-purple);
   background-size: 100% 400%;
