@@ -9,15 +9,21 @@
   --box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   --ease-out: 0.25s ease-in-out;
 }
-.navbar{
-  background:white;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-.logo{
+.navbar {
+  background: #ffffff; /* White background */
+  padding: 15px 30px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+  font-size: 24px; 
+  font-weight: bold; 
+  color: #333; 
 }
 body {
   color: var(--dark-purple);
