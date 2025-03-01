@@ -65,6 +65,14 @@ Any web developer, aspiring or experienced needs to use Git version control, and
 
 If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
+### Why are github contributions important?
+
+1. Diverse Perspectives
+Contributors from different backgrounds bring unique ideas and approaches to problem-solving. This diversity helps in creating more innovative and well-rounded solutions.
+
+2. Community Building
+Contributions foster a sense of community around the project. Engaged communities provide support, feedback, and advocacy, which are essential for the project's growth and success.
+
 ### What am I going to contribute?
 
 ![Contributor Card](/readme-only/card.PNG 'Contributor Card')
