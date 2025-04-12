@@ -1,7 +1,7 @@
 const fs = require('fs')
 const cheerio = require('cheerio')
 
-const htmlFile = `index.html`
+const htmlFile = 'index.html'
 const requiredcardCount = 11
 
 fs.readFile(htmlFile, 'utf8', (err, html) => {
@@ -16,15 +16,11 @@ fs.readFile(htmlFile, 'utf8', (err, html) => {
   const cardsCount = $cards.length
 
   if (cardsCount > requiredcardCount) {
-    return console.log(`\u{1F6D1} It's not the right time to edit the ${htmlFile} . Please try again later.`)
+    return console.log(`\u{1F6D1} It's not the right time to edit the ${htmlFile}. Please try again later.`)
   } else {
-    // Get all the cards inside the contributions span
     const cards = $cards.toArray()
-
-    // Remove all the content inside the contributions span
     $contributions.empty()
 
-    // Add the cards back inside the contributions span using the custom HTML comment template
     $contributions.append(
       `\n<!-- ================================================ --> \n<!-- ==================  TEMPLATE  ================== --> \n<!-- DO NOT modify the TEMPLATE directly, make a copy and paste it below -->\n \n<!-- ________ *TEMPLATE: MAKE A COPY* Contributor card START ________  -->\n`
     )
@@ -43,7 +39,6 @@ fs.readFile(htmlFile, 'utf8', (err, html) => {
       `\n<!-- ========= END ========= -->\n \n<!-- <<<<< Do not change anything below this line >>>>> --> \n<!-- -------------------------------------------------- -->\n`
     )
 
-    // Save the updated HTML file
     fs.writeFile(htmlFile, $.html(), err => {
       if (err) {
         console.error(`\u{1F6D1} Error updating ${htmlFile}:`, err)
