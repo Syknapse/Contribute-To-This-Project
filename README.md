@@ -1,5 +1,7 @@
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
+This is the great project.
+
 ![image info](/favicon.png)
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
