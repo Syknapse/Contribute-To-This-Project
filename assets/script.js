@@ -194,6 +194,10 @@ function searchCard() {
     }
   }, 500); // 500 millisecond delay between keystrokes to trigger the search
 }
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.style.backgroundColor = "#fff";
+  document.body.style.color = "#111";
+});
 
 // Get the button
 let topButton = document.getElementById('topButton')
