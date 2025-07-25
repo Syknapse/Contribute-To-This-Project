@@ -226,25 +226,25 @@ _Estimated time: Less than 30 minutes_.
 
 - We'll now start editing html, changing the customizable fields in our card.
 
-| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
+| :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Md Nasim Akhtar') |
 | :----------------------------------------------- | :----------------------------------------------------------: |
 
 - **Note: Don't change `class="name"`**
 
-| :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
+| :arrow_right_hook: Insert the URL of your Twitter account `href="https://www.x.com/itsnasim254"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'https://www.x.com/itsnasim254') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
 - If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
+|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Currently doing Oen source contributions  Full Stack development | An active open source contributer | actively contributing | Self-Taught Developer Thank you .')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
-|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+|                                                                                                               :arrow_right_hook: **Full Stack development | An active open source contributer | actively contributing | Self-Taught  Developer  post**                                                                                                                |
+|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=m7hTeyjn8O8ZQQL1')                                                                                                              |
 | :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
-- **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
-- **Title:** Write a brief description `title="here"`.
-- **Name:** Write the resource's name in the text field `>here</a>`.
+- **Link:** Insert the link `href="https://youtube.com/playlist?list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&si=m7hTeyjn8O8ZQQL1"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
+- **Title:** My Linkedin account take a look now `title="MERN Stack playlist "`.
+- **Name:** Mern Stack playlist`>Youtube</a>`.
 - Make sure you have **saved all your changes**.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
