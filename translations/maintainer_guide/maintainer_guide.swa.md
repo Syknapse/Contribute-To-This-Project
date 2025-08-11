@@ -15,58 +15,62 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](translations/README.md)
 
 ---
 
-## Objectives
+## Malengo
 
-Our main objective is to give our contributors the quickest feedback possible from the point they make their pull request. This primarily means giving code reviews, and merging accepted PRs.  
-Apart from that we can maintain the project making sure everything is working correctly and as helpful and useful as it can be for our contributors.
+Lengo letu kuu ni kuwapa wachangiaji wetu maoni ya haraka iwezekanavyo kuanzia pale wanapotuma ombi lao la kuchangia. Hii ina maana kwamba utakagua mabadiliko yaliyofanywa na kuunganisha `PR` zilizokubalika.  
+Zaidi ya hayo, tunaweza kudumisha mradi huu kwa kuhakikisha kila kitu kinafanya kazi ipasavyo, kwa usahihi, na kikiwa na manufaa kadri inavyowezekana kwa wachangiaji wetu.
 
-## Who is this for?
+## Hii ni kwa ajili ya nani?
 
-Anyone with a bit of Git and GitHub skills. You don't have to be an expert, this guide should help even beginners. This is an active project that receives regular contributions and it helps many people make their first open source contribution. Being a maintainer on this project helps make sure it continues to give our contributors a good first experience and encouraging them to contribute more.
+Kwa mtu yeyote mwenye ujuzi hata mdogo wa Git na GitHub. Huna haja ya kuwa mtaalamu, kwani mwongozo huu umeandaliwa kusaidia hata wanaoanza kabisa.  
+Huu ni mradi unaoendelea kupokea michango mara kwa mara na unawasaidia watu wengi kufanya mchango wao wa kwanza kwenye chanzo huria.  
+Kuwa msimamizi wa mradi huu kunasaidia kuhakikisha wachangiaji wanapata uzoefu mzuri wa kwanza na kuwahimiza wachangie zaidi.
 
-You can commit as much or as little time as you want to this. Between us we hopefully can keep it running smoothly.
+Unaweza kujitolea muda mwingi au mdogo kadri utakavyopenda kwa jambo hili. Tukishirikiana, tunatumaini tutaendelea kuliendesha kwa ufanisi bila matatizo.
 
-## Methodology
+## Utaratibu wa mradi
 
-- Go to the project's pull request section, start with the oldest pull request that is not in 'changes requested' state.
-- Open a PR and go to the files changes tab and start a code review.
-- Check the PR, make sure it follows the spec in the tutorial.
-- Make sure the HTML, the links, and the data are all correct. Make sure the card is positioned at the start of the file where it should be.
-- Next check for any conflicts. Merge `master` into the PR branch to fix the conflicts. Conflicts usually happen when it's been a while since the previous merges and several PRs are using the same outdated version.
-- If this is the case fix the conflict. Usually you will have to add the new card on top of cards that had been added since the fork was made.
-- If everything else is ok, approve the PR, write a message to the contributor thanking them for the contribution (remembering they are first timers and would benefit from encouragement).
-- Merge the PR into `master`.
+- Nenda kwenye sehemu ya `pull requests` ya mradi huu, anza na ombi la kuchangia lililo la zamani zaidi ambalo haliko kwenye hali ya `changes requested`.
+- Fungua `PR`, kisha nenda kwenye kichupo cha faili zilizobadilishwa na uanze ukaguzi wa msimbo.
+- Hakikisha PR inafuata maelekezo yaliyo kwenye mafunzo (tutorial).
+- Kagua faili ya HTML, viungo, na data zote ili kuhakikisha ziko sahihi. Pia hakikisha kadi (card) ipo mwanzoni mwa faili mahali inapopaswa kuwa.
+- Kagua kama kuna migongano ya msimbo (conflicts). Ikiwa ipo, unganisha `master` kwenye tawi la PR ili kuitatua. Migongano mara nyingi hutokea ikiwa imepita muda mrefu tangu muunganiko wa mwisho na PR kadhaa zinatumia toleo lile lile lililopitwa na wakati.
+- Ikiwa kuna mgongano, utatue. Mara nyingi utahitaji kuongeza kadi mpya juu ya kadi zilizoongezwa tangu `fork` ilipofanyika.
+- Iwapo kila kitu kiko sawa, idhinisha PR hiyo na andika ujumbe wa kumshukuru mchangiaji kwa mchango wake (kumbuka, mara nyingi ni mchango wao wa kwanza na pongezi huwapa motisha).
+- Unganisha `PR` hiyo kwenye tawi la `master`.
 
-## Request changes
+## Kuomba mabadiliko
 
-- Sometimes there are problems with the PR that should be fixed by the contributor like wrong branching, broken HTML, missing info, card placed in the wrong place. Anything where the tutorial wasn't followed correctly (and not simple merge conflicts).
-- Start a code review on GitHub and request changes. Try to be as descriptive as possible, comment the exact line, tell them exactly what the problem is and how to fix it, and encourage them that this is a normal part of the PR review process.
-- When you are ready submit the review.
-- Keep an eye on the conversation in case the contributor has follow up questions you can help with. Our objective is to get everyone past the finish line, so we try to guide them all the way there.
-- Once they fix the requested changes, the PR can be merged to `master`.
+- Wakati mwingine, kuna matatizo kwenye PR ambayo yanapaswa kurekebishwa na mchangiaji, kama vile kutumia tawi lisilo sahihi, faili ya HTML isiyo sahihi, taarifa kukosekana, au kadi kuwekwa mahali pasipo sahihi. Hii inamaanisha kwamba mafunzo hayakufuatwa ipasavyo (na sio migongano ya kawaida ya msimbo).
+- Anza ukaguzi wa msimbo kwenye GitHub na omba mabadiliko. Toa maelezo ya kina kadiri uwezavyo, weka maoni kwenye mstari husika, eleza tatizo ni nini na jinsi ya kulitatua, na wape moyo kwamba hili ni jambo la kawaida kwenye mchakato wa ukaguzi wa `PR`.
+- Baada ya kukamilisha ukaguzi, wasilisha.
+- Fuata mazungumzo iwapo mchangiaji atakuwa na maswali ya ziada unayoweza kumsaidia kuyajibu. Lengo ni kuhakikisha kila mtu anafika mwisho wa mchakato huu, hivyo tunawaongoza hadi wakamilishe.
+- Baada ya mabadiliko yaliyohitajika kufanywa, PR inaweza kuunganishwa kwenye `master`.
 
-Please, always test that the changes have not broken the project and that the live page still works as expected. It's always best to test the changes locally before merging and never merge anything that looks suspicious.
+Tafadhali hakikisha kila mara kuwa mabadiliko hayajaharibu mradi na kwamba tovuti bado inafanya kazi kama inavyotarajiwa.  
+Ni bora kuyajaribu mabadiliko hayo kwenye mashine yako binafsi (locally) kabla ya kuyaunganisha, na kamwe usiunganishe kitu chochote kinachoonekana kuwa cha shaka.
 
-## Tools
+## Zana za matumizi
 
-If there aren't a lot of accumulated PRs all of this process can be done directly in the project's GitHub page.  
-However, it is not uncommon to have a few PRs waiting and that's when there will inevitably be some merge conflicts. You can use any tools you are familiar with to see diffs, and fix conflicts.  
-I recommend the use of a tool like [GitKraken](https://www.gitkraken.com/download). It is visual and it allows for an easier management of the project when there is a few PRs to go through.  
-Download GitKraken, clone the project. Using a combination of your code editor and GitKraken's integrated merge conflict tool gives you full control to quickly go through PRs, fixing conflicts and merging.
+Ikiwa hakuna idadi kubwa ya ombi la kuchangia, mchakato huu wote unaweza kufanywa moja kwa moja kwenye ukurasa wa GitHub.  
+Hata hivyo, si jambo la ajabu kuwa na PR kadhaa zikisubiri, na hapo mara nyingi kutakuwa na migongano katika kuunganisha PR hizo. Unaweza kutumia zana zozote unazozifahamu kuona `diffs` na kutatua migongano hiyo.  
 
-The project has Prettier installed to ensure that regardless of how a contributor submits the PR, the style guide will be enforced. The project this way is always maintained with the same indentation and style.  
-If you notice the HTML file looking messy run below code in the project root.
+Ninapendekeza kutumia zana kama [GitKraken](https://www.gitkraken.com/download), ambayo ina kiolesura cha mtumiaji na inarahisisha usimamizi wa mradi pale ambapo kuna PR nyingi za kupitia.  
+Pakia GitKraken, kisha tengeneza nakala (clone). Kutumia mchanganyiko wa kihariri chako cha msimbo na kifaa cha GitKraken cha kushughulikia migongano ya muunganiko kunakupa udhibiti kamili wa kupitia PR haraka, kutatua migongano na kuunganisha.
+
+Mradi huu unatumia `Prettier` ili kuhakikisha kwamba, haijalishi mchangiaji anawasilisha PR kwa namna gani, mwongozo wa mtindo utafuatwa. Hii inahakikisha mradi unasalia kila wakati ukiwa na mpangilio na mtindo uleule.  
+Ikiwa utaona faili la HTML linaonekana **haupendezi**, endesha msimbo ulioko hapa chini kwenye mzizi wa mradi huu:
 
 ```js
 npx prettier --write index.html
 ```
 
-It should try to format the file and if it can't it will show you the errors. Sometimes a missing closing tag or broken HTML is merged by mistake and this is a good way to spot and fix it.
+Amri hii itajaribu kurekebisha mpangilio wa faili, na ikiwa haiwezi, itaonyesha makosa. Wakati mwingine, kosa linaweza kuwa alama ya kufunga iliyokosekana au faili ya HTML iliyoharibika, na hii ni njia nzuri ya kugundua na kurekebisha tatizo hilo.
 
-If you are ever in doubt, you can always mention me or the other maintainers in the PR itself or DM me on [Twitter](https://twitter.com/Syknapse).
+Ikiwa una shaka, unaweza kunitaja kila wakati au kumtaja msimamizi mwingine katika PR yenyewe, au kunitumia ujumbe mfupi kwenye [Twitter](https://twitter.com/Syknapse).
+Jiunge nasi
 
-## Join us
+Jiunge nasi ili kusaidia kukuza mradi huu. Unaweza kuwasiliana nami kupitia [Twitter/X](https://twitter.com/Syknapse) na kutuma jina lako la mtumiaji wa GitHub ili nikuongeze kwenye mradi huu.
+Unaweza pia kujiunga na jumuiya yetu ya Discord kwa kubofya kitufe kilicho hapa chini:
 
-Join us to help grow this project together. Get in touch with me on [Twitter](https://twitter.com/Syknapse) and send me your GitHub user name so I can add you. You can also join our Discord Community by clicking the button below:
-
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Jiunge na seva yetu ya Discord!')
