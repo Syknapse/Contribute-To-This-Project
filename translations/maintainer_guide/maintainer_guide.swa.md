@@ -17,26 +17,26 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](translations/README.md)
 
 ## Malengo
 
-Lengo letu kuu ni kuwapa wachangiaji wetu maoni ya haraka iwezekanavyo kuanzia pale wanapotuma ombi lao la kuchangia. Hii ina maana kwamba utakagua mabadiliko yaliyofanywa na kuunganisha `PR` zilizokubalika.  
-Zaidi ya hayo, tunaweza kudumisha mradi huu kwa kuhakikisha kila kitu kinafanya kazi ipasavyo, kwa usahihi, na kikiwa na manufaa kadri inavyowezekana kwa wachangiaji wetu.
+Lengo letu kuu ni kuwapa wachangiaji wetu maoni ya haraka iwezekanavyo kuanzia pale wanapotuma ombi lao la kuchangia. Hii ina maana kwamba utakagua mabadiliko yaliyofanywa na kuunganisha maombi ya kuchangia kwa kiufupi `PRs` zilizokubalika. 
+Zaidi ya hayo, tunaweza kudumisha mradi huu kwa kuhakikisha kila kitu kinafanya kazi kwa usahihi, yenye umuhimu na kusaidia wachangiaji wetu kadri inavyowezekana.
 
 ## Hii ni kwa ajili ya nani?
 
-Kwa mtu yeyote mwenye ujuzi hata mdogo wa Git na GitHub. Huna haja ya kuwa mtaalamu, kwani mwongozo huu umeandaliwa kusaidia hata wanaoanza kabisa.  
+Kwa mtu yeyote mwenye ujuzi hata mdogo wa Git na GitHub. Huhitaji kuwa mtaalamu, kwani mwongozo huu unapaswa kuwasadia hata wanaoanza.  
 Huu ni mradi unaoendelea kupokea michango mara kwa mara na unawasaidia watu wengi kufanya mchango wao wa kwanza kwenye chanzo huria.  
 Kuwa msimamizi wa mradi huu kunasaidia kuhakikisha wachangiaji wanapata uzoefu mzuri wa kwanza na kuwahimiza wachangie zaidi.
 
-Unaweza kujitolea muda mwingi au mdogo kadri utakavyopenda kwa jambo hili. Tukishirikiana, tunatumaini tutaendelea kuliendesha kwa ufanisi bila matatizo.
+Unaweza kujitolea muda mwingi au mdogo kadri utakavyopenda kwa jambo hili. Baina yetu, tuna matumaini kuwa tutaiendeleza kwa ufanisi bila matatizo.
 
-## Utaratibu wa mradi
+## Methodolojia
 
 - Nenda kwenye sehemu ya `pull requests` ya mradi huu, anza na ombi la kuchangia lililo la zamani zaidi ambalo haliko kwenye hali ya `changes requested`.
 - Fungua `PR`, kisha nenda kwenye kichupo cha faili zilizobadilishwa na uanze ukaguzi wa msimbo.
-- Hakikisha PR inafuata maelekezo yaliyo kwenye mafunzo (tutorial).
-- Kagua faili ya HTML, viungo, na data zote ili kuhakikisha ziko sahihi. Pia hakikisha kadi (card) ipo mwanzoni mwa faili mahali inapopaswa kuwa.
-- Kagua kama kuna migongano ya msimbo (conflicts). Ikiwa ipo, unganisha `master` kwenye tawi la PR ili kuitatua. Migongano mara nyingi hutokea ikiwa imepita muda mrefu tangu muunganiko wa mwisho na PR kadhaa zinatumia toleo lile lile lililopitwa na wakati.
+- Angalia PR na kuhakikisha inafuata maelekezo yaliyo kwenye mafunzo (tutorial).
+- Hakikisha kuwa HTML, viungo, na data zote ziko sahihi. Pia hakikisha kadi (card) ipo mwanzoni mwa faili mahali inapopaswa kuwa.
+- Baada ya hapo, kagua kama kuna migongano ya msimbo (conflicts). Ikiwa ipo, unganisha `master` kwenye tawi la PR ili kuitatua. Migongano mara nyingi hutokea ikiwa imepita muda mrefu tangu muunganiko wa mwisho na PR kadhaa zinatumia toleo lile lile lililopitwa na wakati.
 - Ikiwa kuna mgongano, utatue. Mara nyingi utahitaji kuongeza kadi mpya juu ya kadi zilizoongezwa tangu `fork` ilipofanyika.
-- Iwapo kila kitu kiko sawa, idhinisha PR hiyo na andika ujumbe wa kumshukuru mchangiaji kwa mchango wake (kumbuka, mara nyingi ni mchango wao wa kwanza na pongezi huwapa motisha).
+- Iwapo kila kitu kiko sawa, idhinisha PR hiyo na andika ujumbe ukimshukuru mchangia kwa mchango wake (kumbuka, mara nyingi ni mchango wao wa kwanza na pongezi huwapa motisha).
 - Unganisha `PR` hiyo kwenye tawi la `master`.
 
 ## Kuomba mabadiliko
@@ -67,7 +67,7 @@ npx prettier --write index.html
 
 Amri hii itajaribu kurekebisha mpangilio wa faili, na ikiwa haiwezi, itaonyesha makosa. Wakati mwingine, kosa linaweza kuwa alama ya kufunga iliyokosekana au faili ya HTML iliyoharibika, na hii ni njia nzuri ya kugundua na kurekebisha tatizo hilo.
 
-Ikiwa una shaka, unaweza kunitaja kila wakati au kumtaja msimamizi mwingine katika PR yenyewe, au kunitumia ujumbe mfupi kwenye [Twitter](https://twitter.com/Syknapse).
+Ikiwa una shaka, unaweza kunitaja kila wakati au wasimamizi wengine katika PR yenyewe, au kunitumia ujumbe mfupi kwenye [Twitter](https://twitter.com/Syknapse).
 Jiunge nasi
 
 Jiunge nasi ili kusaidia kukuza mradi huu. Unaweza kuwasiliana nami kupitia [Twitter/X](https://twitter.com/Syknapse) na kutuma jina lako la mtumiaji wa GitHub ili nikuongeze kwenye mradi huu.
