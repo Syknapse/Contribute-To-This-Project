@@ -11,7 +11,7 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](translations/README.md)
 [kihindi](translations/maintainer_guide/maintainer_guide.hin.md) | [Kiindonesia](translations/maintainer_guide/maintainer_guide.ind.md) | [Kiitaliano](translations/maintainer_guide/maintainer_guide.ita.md) | [Kijapani](translations/maintainer_guide/maintainer_guide.jpn.md) | [Kikorea](translations/maintainer_guide/maintainer_guide.kor.md) | 
 [Kireno](translations/maintainer_guide/maintainer_guide.por.md) | [Kirusi](translations/maintainer_guide/maintainer_guide.rus.md) | [Kiukreni](/translations/maintainer_guide/maintainer_guide.ukr.md) | [Kiswahili](translations/maintainer_guide/maintainer_guide.swa.md) |
 
-> Tafsiri za nyaraka za mradi zinakaribishwa. Soma [`Mwongozo wa Tafsiri`](translations/README.md) ili kuchangia.
+> Tafsiri za nyaraka za miradi zinakaribishwa. Soma [`Mwongozo wa Tafsiri`](translations/README.md) ili kuchangia.
 
 ---
 
