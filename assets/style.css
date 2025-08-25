@@ -204,9 +204,9 @@ footer {
 .card {
   display: flex;
   flex-direction: column;
-  margin: 18px;
+  margin: 20px;
   border-radius: 5px;
-  width: 500px;
+  width: 400px;
   -webkit-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   -moz-box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
   box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.2);
@@ -247,15 +247,16 @@ footer {
 
 /* Night Mode Code */
 
-.night .contact i {
+.night.card .contact i {
   color: var(--orange);
 }
 
-.night .resources a:hover {
+.night.card .resources a:hover {
   color: var(--orange);
 }
 
-.night .container {
+/* only updates description about project, no text in card */
+.night .container .row {
   color: var(--light-grey1);
 }
 
@@ -263,11 +264,11 @@ footer {
   color: var(--orange);
 }
 
-.night .card {
+.night.card {
   border: 1px solid var(--orange);
 }
 
-.night .card:hover {
+.night.card:hover {
   background-color: var(--orange);
 }
 
@@ -280,27 +281,27 @@ body.night {
   background-color: var(--dark-purple);
 }
 
-.night .name {
+.night.card .name {
   color: var(--light-grey1);
   background-color: var(--purple);
 }
 
-.night .contact {
+.night.card .contact {
   background-color: var(--purple);
   border-bottom: 1px solid var(--orange);
 }
 
-.night .about {
+.night.card .about {
   color: var(--light-grey1);
   background-color: var(--dark-purple);
 }
 
-.night .resources {
+.night.card .resources {
   color: var(--light-grey1);
   background-color: var(--dark-purple);
 }
 
-.night .resources:hover {
+.night.card .resources:hover {
   color: var(--pink);
   background-color: var(--purple);
 }
@@ -435,8 +436,15 @@ body.night {
   height: 3.088rem;
 }
 
+@keyframes animate {
+  50%{
+    transform: translateY(8px);
+  }
+}
+
 #topButton:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+  animation: animate 1s linear infinite;
 }
 
 @media screen and (max-width: 550px) {

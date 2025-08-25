@@ -161,7 +161,7 @@ _Przewidywany czas: Mniej niż 30 minut_.
 | :-------------------------------------------------------------------------------------------------------------------------------- |
 | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle')                    |
 
-- Jeśli wolisz użyć kontaktu innego niż Twitter, musisz zmienić ikonę Twittera, `<i class="fa fa-twitter"></i>`, przechodząc do [Font Awesome Icons](http://fontawesome.io/icons/), wyszukując odpowiedniej ikony i zastępując tylko część `fa-twitter` nową ikoną, jak na przykład `fa-facebook`. Następnie wykonaj te same kroki co powyżej.
+- Jeśli wolisz użyć kontaktu innego niż Twitter, musisz zmienić ikonę Twittera, `<i class="fa fa-x-twitter"></i>`, przechodząc do [Font Awesome Icons](http://fontawesome.io/icons/), wyszukując odpowiedniej ikony i zastępując tylko część `fa-x-twitter` nową ikoną, jak na przykład `fa-facebook`. Następnie wykonaj te same kroki co powyżej.
 
 | <ul><li>Powiedz nam coś o sobie</li><li>Pisz krótko i miło. Pomyśl o tym bardziej jak o tweecie niż poście na bloga</li></ul> | ![Change about](/readme-only/change-about.PNG 'Write a sentence about you') |
 | :---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------: |

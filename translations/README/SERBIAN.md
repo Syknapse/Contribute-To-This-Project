@@ -163,7 +163,7 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Promeni kontakt](/readme-only/change-contact.PNG 'Umetnite vezu do svog Tvitter naloga i otkucajte svoje tviter username') |
 
-- Ako više volite da koristite kontakt koji nije Tviter, moraćete da zamenite tviter ikonicu`<i class="fa fa-twitter"></i>` tako što ćete da odete na [Font Awesome Icons](http://fontawesome.io/icons/) pronađete odgovarajucu ikonicu i zamenite samo `fa-twitter` deo sa novom ikonicom `fa-facebook` fna primer. Potom pratite iste korake iznad.
+- Ako više volite da koristite kontakt koji nije Tviter, moraćete da zamenite tviter ikonicu`<i class="fa fa-x-twitter"></i>` tako što ćete da odete na [Font Awesome Icons](http://fontawesome.io/icons/) pronađete odgovarajucu ikonicu i zamenite samo `fa-x-twitter` deo sa novom ikonicom `fa-facebook` fna primer. Potom pratite iste korake iznad.
 
 | <ul><li>Recite nam nešto o sebi</li><li>Neka bude kratko i slatko. Razmislite o tome više kao na tvit nego na post na blogu</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------: |

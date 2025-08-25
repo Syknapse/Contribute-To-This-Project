@@ -3,6 +3,7 @@ import numberOfFiles from '../archive/archiveFilesTotal.js'
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
+let searchTimeout = null;
 
 // Create an array of ascending numbers corresponding with the number of archive files
 const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
@@ -69,7 +70,7 @@ numberOfFilesArray.forEach(number => {
 const showInfoInConsole = () => {
   const cardsInIndex = document.getElementsByClassName('card').length - 1
 
-  console.info('Cards in index.html', cardsInIndex)
+  console.info('Cards in index.html:', cardsInIndex)
   if (cardsInIndex > 100)
     console.warn(
       `Too many cards in index.html: ${cardsInIndex}. Run the archive_cards script. Follow instructions in archive/archiving_cards_guide`
@@ -89,17 +90,56 @@ const countUp = () => {
       countUp()
     }
 
-    if (displayNumber === numberOfContributors) displayClass.add('rubberBand')
+    if (displayNumber === numberOfContributors) {
+      displayClass.add('rubberBand')
+    }
   }, 15)
 }
 
 // night mode feature
+let nightModeIntervalId = null
 document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
-  if (e.target.checked) {
+  // stop the last interval
+  if (nightModeIntervalId) {
+    clearInterval(nightModeIntervalId)
+  }
+
+  // NOTE: clicking button before card is fetched will cause the card not updated
+  const cards = document.getElementsByClassName('card')
+  const { length: cardCount } = cards
+  let cardIndex = 0 // which card we're updating
+
+  const { checked: isNightMode } = e.target
+
+  // update background color first
+  if (isNightMode) {
     document.body.classList.add('night')
   } else {
-    document.body.classList.remove('night')
+    document.body.classList.remove('night') // change background color first
   }
+
+  const updateCount = 50 // how many cards to update in one cycle
+  const updateInterval = 500
+
+  const updateCardCss = () => {
+    for (let i = 0; i < updateCount; i++) {
+      if (cardIndex + i >= cardCount) {
+        clearInterval(nightModeIntervalId)
+        return
+      }
+
+      if (isNightMode) {
+        cards[cardIndex + i].classList.add('night')
+      } else {
+        cards[cardIndex + i].classList.remove('night')
+      }
+    }
+    cardIndex += updateCount
+  }
+
+  // update all cards in several cycles, update every cards' css at once will cause lag
+  updateCardCss() // update the first 50 cards
+  nightModeIntervalId = setInterval(updateCardCss, updateInterval)
 })
 
 // Current year for footer
@@ -108,45 +148,52 @@ const currentYear = new Date().getFullYear()
 currentYearSpan.innerText = currentYear
 
 // Search bar
-// const searchBar = document.getElementById('searchbar')
-// searchBar.addEventListener('input', searchCard)
+const searchBar = document.getElementById('searchbar')
+searchBar.addEventListener('input', searchCard)
 
-// function clearSearchHighlights() {
-//   const marks = Array.from(document.querySelectorAll('mark'))
-//   if (marks.length > 0) {
-//     marks.forEach(mark => {
-//       mark.outerHTML = mark.innerText
-//     })
-//   }
-// }
+function clearSearchHighlights() {
+  const marks = Array.from(document.querySelectorAll('mark'))
+  if (marks.length > 0) {
+    marks.forEach(mark => {
+      mark.outerHTML = mark.innerText
+    })
+  }
+}
 
-// function applyHighlightToSearchResults(value, card) {
-//   const regex = new RegExp(value, 'gi')
-//   const cardElements = Array.from(card.querySelectorAll('*'))
-//   const matches = cardElements.filter(
-//     element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
-//   )
+function applyHighlightToSearchResults(value, card) {
+  const regex = new RegExp(value, 'gi')
+  const cardElements = Array.from(card.querySelectorAll('*'))
+  const matches = cardElements.filter(
+    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
+  )
 
-//   if (value && value.length > 0) {
-//     matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
-//   }
-// }
+  if (value && value.length > 0) {
+    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
+  }
+}
 
-// function searchCard() {
-//   let input = searchBar.value.toLowerCase()
-//   const cards = document.getElementsByClassName('card')
+function searchCard() {
+  const input = searchBar.value.toLowerCase();
 
-//   clearSearchHighlights()
+  if (searchTimeout) {
+    clearTimeout(searchTimeout);
+  }
 
-//   for (let i = 0; i < cards.length; i++) {
-//     if (!cards[i].textContent.toLowerCase().includes(input)) {
-//       cards[i].style.display = 'none'
-//     } else {
-//       cards[i].style.display = 'flex'
-//       applyHighlightToSearchResults(input, cards[i])
-//     }
-//   }
-// }
+  searchTimeout = setTimeout(async () => {
+    const cards = document.getElementsByClassName('card');
+
+    clearSearchHighlights();
+
+    for (let i = 0; i < cards.length; i++) {
+      if (!cards[i].textContent.toLowerCase().includes(input)) {
+        cards[i].style.display = 'none';
+      } else {
+        cards[i].style.display = 'flex';
+        applyHighlightToSearchResults(input, cards[i]);
+      }
+    }
+  }, 500); // 500 millisecond delay between keystrokes to trigger the search
+}
 
 // Get the button
 let topButton = document.getElementById('topButton')

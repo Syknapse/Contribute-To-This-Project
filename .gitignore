@@ -1,6 +1,12 @@
 .DS_Store
+.vscode/*
+!.vscode/settings.json
+.vs
 .vscode
-/node_modules
-/.idea
-/archive_test
+node_modules
+.idea
+archive_test
 index_test.html
+.idea/workspace.xml
+package-lock.json
+.gitpod.yml
