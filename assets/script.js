@@ -1,221 +1,191 @@
-import numberOfFiles from '../archive/archiveFilesTotal.js'
+import numberOfFiles from '../archive/archiveFilesTotal.js';
 
-const contributionsDisplay = document.getElementById('contributions-number')
-const displayClass = document.getElementById('contributions-number').classList
-let displayNumber = 0
+const contributionsDisplay = document.getElementById('contributions-number');
+const displayClass = document.getElementById('contributions-number').classList;
+let displayNumber = 0;
 let searchTimeout = null;
+let nightModeIntervalId = null;
 
 // Create an array of ascending numbers corresponding with the number of archive files
-const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
-const archiveCardsDirectory = './archive/cards'
+const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1);
+const archiveCardsDirectory = './archive/cards';
 
-// Import all archived cards and insert into the DOM
-numberOfFilesArray.forEach(number => {
-  // Fetch each JSON archive file based on its number
-  fetch(`${archiveCardsDirectory}/archive_${number}.json`)
-    .then(response => response.json())
-    .then(data => {
-      const file = `archive_${number}.json`
-      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/cards/${file}`
-      // For each file iterate over the data and create an array of the HTML card template
-      const cards = data
-        .map(card => {
-          const { name, contacts, about, resources } = card
-          // Insert each user data into the template
-          return `
-            <div class="card">
+// Import all archived cards and insert them into the DOM
+const fetchAndDisplayCards = async () => {
+  const grid = document.getElementById('contributions');
+  
+  for (const number of numberOfFilesArray) {
+    try {
+      const response = await fetch(`${archiveCardsDirectory}/archive_${number}.json`);
+      const data = await response.json();
+      const file = `archive_${number}.json`;
+      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/cards/${file}`;
+      
+      const cardsHTML = data.map(card => {
+        const { name, contacts, about, resources } = card;
+        return `
+          <div class="card">
             <!-- Fetched from Archive: ${file} -->
-              <p class="name">${name}</p>
-              <p class="contact">
-              ${contacts
-                .map(
-                  contact => `
-                    <i class="${contact.icon}"></i>
-                    <a href="${contact.link}" target="_blank">${contact.handle}</a>
-                    `
-                )
-                .join('')}
-              </p>
-              <p class="about">${about}</p>
-              <div class="resources">
-                <p>3 Useful Dev Resources</p>
-                <ul>
-                ${resources
-                  .map(
-                    resource => `
-                    <li>
-                      <a href="${resource.link}" target="_blank" title="${resource.title}">${resource.text}</a>
-                    </li>
-                  `
-                  )
-                  .join('')}
-                </ul>
-              </div>
-              <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
+            <p class="name">${name}</p>
+            <p class="contact">
+              ${contacts.map(contact => `
+                <i class="${contact.icon}"></i>
+                <a href="${contact.link}" target="_blank">${contact.handle}</a>
+              `).join('')}
+            </p>
+            <p class="about">${about}</p>
+            <div class="resources">
+              <p>3 Useful Dev Resources</p>
+              <ul>
+                ${resources.map(resource => `
+                  <li>
+                    <a href="${resource.link}" target="_blank" title="${resource.title}">${resource.text}</a>
+                  </li>
+                `).join('')}
+              </ul>
             </div>
-          `
-        })
-        .join('')
-      const grid = document.getElementById('contributions')
-      // Add the cards to the grid
-      grid.innerHTML += cards
-    })
-    .catch(error => {
-      console.error('Error importing archive JSON files:', error)
-    })
-    .finally(() => countUp())
-})
+            <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
+          </div>
+        `;
+      }).join('');
+      
+      grid.innerHTML += cardsHTML;
+    } catch (error) {
+      console.error(`Error importing ${file}:`, error);
+    } finally {
+      countUp();
+    }
+  }
+
+  showInfoInConsole();
+};
+
+// Display the number of contributions
+const countUp = () => {
+  const numberOfCards = document.getElementsByClassName('card').length;
+  const numberOfContributors = numberOfCards - 1; // Minus the example card
+
+  if (displayNumber < numberOfContributors) {
+    displayNumber++;
+    contributionsDisplay.textContent = displayNumber;
+    setTimeout(countUp, 15);
+  } else {
+    displayClass.add('rubberBand');
+  }
+};
 
 // Prompt to archive when there are too many cards
 const showInfoInConsole = () => {
-  const cardsInIndex = document.getElementsByClassName('card').length - 1
-
-  console.info('Cards in index.html:', cardsInIndex)
-  if (cardsInIndex > 100)
+  const cardsInIndex = document.getElementsByClassName('card').length - 1;
+  
+  console.info('Cards in index.html:', cardsInIndex);
+  
+  if (cardsInIndex > 100) {
     console.warn(
       `Too many cards in index.html: ${cardsInIndex}. Run the archive_cards script. Follow instructions in archive/archiving_cards_guide`
-    )
-}
-showInfoInConsole()
-
-// display for the number of contributions
-const countUp = () => {
-  const numberOfCards = document.getElementsByClassName('card').length
-  const numberOfContributors = numberOfCards - 1 // minus the example card
-
-  setTimeout(() => {
-    if (displayNumber < numberOfContributors) {
-      displayNumber++
-      contributionsDisplay.textContent = displayNumber
-      countUp()
-    }
-
-    if (displayNumber === numberOfContributors) {
-      displayClass.add('rubberBand')
-    }
-  }, 15)
-}
-
-// night mode feature
-let nightModeIntervalId = null
-document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
-  // stop the last interval
-  if (nightModeIntervalId) {
-    clearInterval(nightModeIntervalId)
+    );
   }
+};
 
-  // NOTE: clicking button before card is fetched will cause the card not updated
-  const cards = document.getElementsByClassName('card')
-  const { length: cardCount } = cards
-  let cardIndex = 0 // which card we're updating
-
-  const { checked: isNightMode } = e.target
-
-  // update background color first
-  if (isNightMode) {
-    document.body.classList.add('night')
-  } else {
-    document.body.classList.remove('night') // change background color first
-  }
-
-  const updateCount = 50 // how many cards to update in one cycle
-  const updateInterval = 500
+// Night mode feature
+const toggleNightMode = (isNightMode) => {
+  document.body.classList.toggle('night', isNightMode);
+  
+  const cards = document.getElementsByClassName('card');
+  let cardIndex = 0;
+  const updateCount = 50; // Number of cards to update in one cycle
+  const updateInterval = 500;
 
   const updateCardCss = () => {
-    for (let i = 0; i < updateCount; i++) {
-      if (cardIndex + i >= cardCount) {
-        clearInterval(nightModeIntervalId)
-        return
-      }
-
-      if (isNightMode) {
-        cards[cardIndex + i].classList.add('night')
-      } else {
-        cards[cardIndex + i].classList.remove('night')
-      }
+    for (let i = 0; i < updateCount && cardIndex < cards.length; i++, cardIndex++) {
+      cards[cardIndex].classList.toggle('night', isNightMode);
     }
-    cardIndex += updateCount
-  }
+    
+    if (cardIndex >= cards.length) {
+      clearInterval(nightModeIntervalId);
+    }
+  };
 
-  // update all cards in several cycles, update every cards' css at once will cause lag
-  updateCardCss() // update the first 50 cards
-  nightModeIntervalId = setInterval(updateCardCss, updateInterval)
-})
+  updateCardCss(); // Update the first batch immediately
+  nightModeIntervalId = setInterval(updateCardCss, updateInterval);
+};
+
+document.getElementById('toggle-box-checkbox').addEventListener('change', (e) => {
+  if (nightModeIntervalId) {
+    clearInterval(nightModeIntervalId);
+  }
+  
+  toggleNightMode(e.target.checked);
+});
 
 // Current year for footer
-const currentYearSpan = document.getElementById('currentYear')
-const currentYear = new Date().getFullYear()
-currentYearSpan.innerText = currentYear
+document.getElementById('currentYear').innerText = new Date().getFullYear();
 
-// Search bar
-const searchBar = document.getElementById('searchbar')
-searchBar.addEventListener('input', searchCard)
-
-function clearSearchHighlights() {
-  const marks = Array.from(document.querySelectorAll('mark'))
-  if (marks.length > 0) {
-    marks.forEach(mark => {
-      mark.outerHTML = mark.innerText
-    })
-  }
-}
-
-function applyHighlightToSearchResults(value, card) {
-  const regex = new RegExp(value, 'gi')
-  const cardElements = Array.from(card.querySelectorAll('*'))
-  const matches = cardElements.filter(
-    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
-  )
-
-  if (value && value.length > 0) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
-  }
-}
-
-function searchCard() {
+// Search bar functionality
+const searchCard = () => {
   const input = searchBar.value.toLowerCase();
 
   if (searchTimeout) {
     clearTimeout(searchTimeout);
   }
 
-  searchTimeout = setTimeout(async () => {
+  searchTimeout = setTimeout(() => {
     const cards = document.getElementsByClassName('card');
-
+    
     clearSearchHighlights();
 
-    for (let i = 0; i < cards.length; i++) {
-      if (!cards[i].textContent.toLowerCase().includes(input)) {
-        cards[i].style.display = 'none';
-      } else {
-        cards[i].style.display = 'flex';
-        applyHighlightToSearchResults(input, cards[i]);
+    Array.from(cards).forEach(card => {
+      const cardText = card.textContent.toLowerCase();
+      const isMatch = cardText.includes(input);
+      card.style.display = isMatch ? 'flex' : 'none';
+      
+      if (isMatch) {
+        applyHighlightToSearchResults(input, card);
       }
-    }
-  }, 500); // 500 millisecond delay between keystrokes to trigger the search
-}
+    });
+  }, 500); // 500 millisecond delay between keystrokes
+};
 
-// Get the button
-let topButton = document.getElementById('topButton')
+const clearSearchHighlights = () => {
+  document.querySelectorAll('mark').forEach(mark => {
+    mark.outerHTML = mark.innerText;
+  });
+};
 
-// When the user scrolls down 500px from the top of the document, show the button
-window.onscroll = function() {
-  // TODO this is very excessive, it fires all the time when a user is scrolling
-  // We need to debounce or find a more economic way to trigger button show
-  scrollFunction()
-}
-function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    topButton.style.display = 'flex'
-  } else {
-    topButton.style.display = 'none'
-  }
-}
+const applyHighlightToSearchResults = (value, card) => {
+  const regex = new RegExp(value, 'gi');
+  const cardElements = Array.from(card.querySelectorAll('*')).filter(
+    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
+  );
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0 // For Safari
-  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
-}
+  cardElements.forEach(match => {
+    match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`);
+  });
+};
 
-topButton.addEventListener('click', topFunction)
+document.getElementById('searchbar').addEventListener('input', searchCard);
+
+// Scroll-to-top button functionality
+const debounce = (func, wait) => {
+  let timeout;
+  return () => {
+    clearTimeout(timeout);
+    timeout = setTimeout(func, wait);
+  };
+};
+
+const scrollFunction = debounce(() => {
+  const topButton = document.getElementById('topButton');
+  const shouldShow = document.body.scrollTop > 500 || document.documentElement.scrollTop > 500;
+  topButton.style.display = shouldShow ? 'flex' : 'none';
+}, 100);
+
+window.onscroll = scrollFunction;
+
+document.getElementById('topButton').addEventListener('click', () => {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+});
+
+// Initial fetch of cards
+fetchAndDisplayCards();
