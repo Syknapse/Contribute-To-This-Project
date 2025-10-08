@@ -66,7 +66,7 @@ Questo è un tutorial per aiutare chi contribuisce per la prima volta a partecip
 
 Qualsiasi sviluppatore web, aspirante o esperto, deve utilizzare il controllo della versione Git e GitHub è il servizio di hosting Git più popolare utilizzato da tutti. È anche il cuore della comunità Open Source. Acquisire familiarità con GitHub è un'abilità essenziale. Dare un contributo a un progetto aumenta la tua sicurezza e ti dà qualcosa da mostrare sul tuo profilo GitHub.
 
-Se sei un nuovo sviluppatore e ti stai chiedendo se hai bisogno di imparare Git e GitHub, ecco la risposta: [Avresti dovuto imparare Git ieri](https://codeburst.io/number-one-piece-of- consigli-per-nuovi-sviluppatori-ddd08abc8bfa 'Nuovo sviluppatore? Avresti dovuto imparare Git ieri. di Brandon Morelli, creatore di CodeBurst.io').
+Se sei un nuovo sviluppatore e ti stai chiedendo se hai bisogno di imparare Git e GitHub, ecco la risposta: [Avresti dovuto imparare Git ieri](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa)'Nuovo sviluppatore? Avresti dovuto imparare Git ieri. di Brandon Morelli, creatore di CodeBurst.io').
 
 ### A cosa contribuirò?
 
@@ -318,7 +318,7 @@ Questo è tutto. Ce l'hai fatta! Ora hai contribuito all'open source su GitHub.
 
 Hai aggiunto il codice a una pagina web attiva: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Le tue modifiche **non saranno immediatamente visibili**; prima devono essere rivisti, accettati e uniti dal manutentore del progetto. Una volta uniti, la tua carta dovrebbe essere visibile e pubblicata sulla pagina.
+Le tue modifiche **non saranno immediatamente visibili**; prima devono essere riviste, accettate e unite dal manutentore del progetto. Una volta unite, la tua carta dovrebbe essere visibile e pubblicata sulla pagina.
 
 È molto normale che un revisore chieda modifiche a un PR. Considerala una buona pratica se ti succede. Tieni d'occhio i commenti e le modifiche richieste. Una volta apportate le modifiche richieste (di nuovo nel tuo ramo), tutto ciò che devi fare è confermare e inviare le modifiche. Il PR si aggiornerà automaticamente con le nuove modifiche.
 
