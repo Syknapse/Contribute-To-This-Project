@@ -4,8 +4,7 @@ module.exports = {
   endOfLine: 'lf',
   htmlWhitespaceSensitivity: 'ignore',
   insertPragma: false,
-  // jsxBracketSameLine: false, // Deprecated
-  bracketSameLine: false, // Updated to this
+  bracketSameLine: false, 
   jsxSingleQuote: false,
   printWidth: 120,
   proseWrap: 'preserve',
