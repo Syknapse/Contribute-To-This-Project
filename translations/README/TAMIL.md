@@ -12,7 +12,7 @@
 
 ---
 
-> ## **அறிக்கை:**
+> ## **அறிவிப்பு:**
 >
 > இந்த திட்டத்தில் பராமரிப்பாளராக ஆகி, அதை தொடரச் செய்ய உதவ விரும்புகிறீர்களா? ஆர்வமிருந்தால், [பராமரிப்பாளரின் கையேடு](/maintainer_guide.md)-ஐ படிக்கவும்., நமது [டிஸ்கோர்ட் சேவையகத்தில்](https://discord.gg/tWkvS4ueVF) சேரவும், மற்றும் திட்ட பராமரிப்பாளர்களிடமிருந்து குழுவில் சேர வேண்டுகோள் செய்யவும்.
 
@@ -20,58 +20,75 @@
 
 ### Quick access index
 
-- [Introduction](#introduction)
-- [Objectives](#objectives)
-- [Who is this for?](#who-is-this-for)
-- [Why do I need to do this?](#why-do-i-need-to-do-this)
-- [What am I going to contribute?](#what-am-i-going-to-contribute)
-- [Translations](#translations)
-- [Setup! :)](#setup-)
-- [Contribute](#contribute)
-  - [Step 1: Fork this repository](#step-1-fork-this-repository)
-  - [Step 2: Clone the repository](#step-2-clone-the-repository)
-  - [Step 3: Create a new branch](#step-3-create-a-new-branch)
-  - [Step 4: Open the index.html file](#step-4-open-the-indexhtml-file)
-  - [Step 5: Copy the card template](#step-5-copy-the-card-template)
-  - [Step 6: Apply your changes](#step-6-apply-your-changes)
-  - [Step 7: Commit your changes](#step-7-commit-your-changes)
-  - [Step 8: Push your changes to GitHub](#step-8-push-your-changes-to-github)
-  - [Step 9: Submit a PR(Pull Request)](#step-9-submit-a-prpull-request)
-  - [Step 10: Celebrate](#step-10-celebrate)
-- [Next Steps](#next-steps)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-- [Top 100 Contributors](#top-100-contributors)
+- [அறிமுகம்](#introduction)
+- [குறிக்கோள்கள்](#objectives)
+- [இது யாருக்கானது?](#who-is-this-for)
+- [நான் ஏன் இதைச் செய்ய வேண்டும்?](#why-do-i-need-to-do-this)
+- [நான் என்ன பங்களிக்கப் போகிறேன்?](#what-am-i-going-to-contribute)
+- [மொழிபெயர்ப்புகள்](#translations)
+- [அமைப்பு! :)](#setup-)
+- [பங்களிக்கவும்](#contribute)
+  - [படி 1: இந்த சேமிப்பகத்தை ஃபோர்க் செய்யவும்](step-1-fork-this-repository)
+  - [படி 2: சேமிப்பகத்தை கிளோன் செய்யவும்](#step-2-clone-the-repository)
+  - [படி 3: புதிய கிளையை உருவாக்கவும்](#step-3-create-a-new-branch)
+  - [படி 4: index.html கோப்பை திறக்கவும்](#step-4-open-the-indexhtml-file)
+  - [படி 5: கார்டு மாதிரியை நகலெடுக்கவும்](#step-5-copy-the-card-template)
+  - [படி 6: உங்கள் மாற்றங்களை பொருத்தவும்](#step-6-apply-your-changes)
+  - [படி 7: உங்கள் மாற்றங்களை commit செய்யவும்](#step-7-commit-your-changes)
+  - [படி 8: உங்கள் மாற்றங்களை GitHub-க்கு push செய்யவும்](#step-8-push-your-changes-to-github)
+  - [படி 9: ஒரு PR (Pull Request) சமர்ப்பிக்கவும்](#step-9-submit-a-prpull-request)
+  - [படி 10: கொண்டாடு!](#step-10-celebrate)
+- [அடுத்த படிகள்](#next-steps)
+- [நன்றிகள்](#acknowledgements)
+- [அனுமதி உரிமம்](#license)
+- [சிறந்த 100 பங்களிப்பாளர்கள்](#top-100-contributors)
 
 ---
 
-## Introduction
+## அறிமுகம்
 
 This is a tutorial to help first-time contributors to participate in a simple and easy project.
 
-### Objectives
+### குறிக்கோள்கள்
 
 - Make a contribution to an open source project.
 - Get more comfortable in using GitHub.
 
-### Who is this for?
+### இது யாருக்கானது?
 
 - This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
 - It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
 
-### Why do I need to do this?
+### நான் ஏன் இதைச் செய்ய வேண்டும்?
 
 Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
 
 If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
-### What am I going to contribute?
+### நான் என்ன பங்களிக்கப் போகிறேன்?
 
 ![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customize it with your own information.
+
+---
+
+---
+
+### மொழிபெயர்ப்புகள்
+
+இந்தப் பயிற்சி [பிற மொழிகளிலும்](/translations/README.md) கிடைக்கிறது.
+
+| [அரபு (عربي)](/translations/README/ARABIC.md) | [வங்காளம் (বাংলা)](/translations/README/BANGLA.md) | [சீன (பாரம்பரிய) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [டச்சு](/translations/README/DUTCH.md) | [ஆங்கிலம் (English)](/README.md) |
+| :---------------------------------------------: | :-----------------------------------------------: | :----------------------------------------------------------------------------: | :---------------------------------: | :-------------------------------: |
+| [ஃபிரெஞ்சு (Français)](/translations/README/FRENCH.md) | [ஜெர்மன் (Deutsch)](/translations/README/GERMAN.md) | [இந்தி (हिंदी)](/translations/README/HINDI.md) | [இத்தாலியன் (Italiano)](/translations/README/ITALIAN.md) | [ஜப்பானியர்கள் (日本語)](/translations/README/JAPANESE.md) |
+| [கொரியன் (한국어)](/translations/README/KOREAN.md) | [போலிஷ் (Polski)](/translations/README/POLISH.md) | [போர்ச்சுகீஸ் (Portuguese)](/translations/README/PORTUGUESE.md) | [ரஷ்யன் (Русский)](/translations/README/RUSSIAN.md) | [செர்பியன் (Српски)](/translations/README/SERBIAN.md) |
+| [ஸ்பானிஷ் (Español)](/translations/README/SPANISH.md) | [துருக்கியம்(Türkçe)](/translations/README/TURKISH.md) | [உக்ரைனியன் (українська)](/translations/README/UKRAINIAN.md) | [உருது (اُردُو)](/translations/README/URDU.md) | [நார்வேஜியன் (Norsk)](/translations/README/NORWEGIAN.md) |
+| [மலையாளம்](/translations/README/MALAYALAM.md) | [தமிழ் (Tamil)](/translations/README/TAMIL.md) |  |  |  |
+
+> திட்ட ஆவணங்களுக்கான மொழிபெயர்ப்பு வரவேற்கப்படுகிறது. பங்களிக்க [`மொழிபெயர்ப்பு வழிகாட்டி`](/translations/README.md) ஐப் படியுங்கள்.
 
 ---
 
