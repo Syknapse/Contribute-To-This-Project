@@ -47,31 +47,31 @@
 
 ## அறிமுகம்
 
-This is a tutorial to help first-time contributors to participate in a simple and easy project.
+இது முதல் முறையாக பங்களிப்பாளர்கள் எளிமையான மற்றும் எளிதான திட்டத்தில் பங்கேற்க உதவும் ஒரு பயிற்சி.
 
 ### குறிக்கோள்கள்
 
-- Make a contribution to an open source project.
-- Get more comfortable in using GitHub.
+- ஒரு திறந்த மூல திட்டத்திற்கு பங்களிப்பு செய்யுங்கள்.
+- GitHub-ஐப் பயன்படுத்துவதில் இன்னும் சௌகரியமாக இருங்கள்.
 
 ### இது யாருக்கானது?
 
-- This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
-- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+- இது முற்றிலும் தொடக்கநிலையாளர்களுக்கானது. `<a href="" target=""></a>` என்ற ஆங்கர் டேக்கை எழுதவும் திருத்தவும் உங்களுக்குத் தெரிந்தால், உங்களால் அதைச் செய்ய முடியும்.
+- இது சற்று அதிக அனுபவம் உள்ளவர்களுக்கும், ஆனால் முதல் திறந்த மூல பங்களிப்பைச் செய்ய விரும்புவோருக்கும், அல்லது அதிக அனுபவம் மற்றும் நம்பிக்கைக்காக அதிக பங்களிப்புகளைப் பெற விரும்புவோருக்கும் பொருந்தும்.
 
 ### நான் ஏன் இதைச் செய்ய வேண்டும்?
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
+எந்தவொரு வலை உருவாக்குநரும், ஆர்வமுள்ள அல்லது அனுபவம் வாய்ந்தவரும் Git பதிப்பு கட்டுப்பாட்டைப் பயன்படுத்த வேண்டும், மேலும் GitHub என்பது அனைவரும் பயன்படுத்தும் மிகவும் பிரபலமான Git ஹோஸ்டிங் சேவையாகும். இது திறந்த மூல சமூகத்தின் இதயமாகவும் உள்ளது. GitHub ஐப் பயன்படுத்தி வசதியாக இருப்பது ஒரு அத்தியாவசிய திறமையாகும். ஒரு திட்டத்திற்கு பங்களிப்பது உங்கள் நம்பிக்கையை அதிகரிக்கிறது மற்றும் உங்கள் GitHub சுயவிவரத்தில் காட்ட ஏதாவது ஒன்றை உங்களுக்கு வழங்குகிறது.
 
-If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+நீங்கள் ஒரு புதிய டெவலப்பராக இருந்து, Git மற்றும் GitHub கற்க வேண்டுமா என்று யோசித்துக்கொண்டிருந்தால், இதோ பதில்: [நீங்கள் நேற்று Git கற்றிருக்க வேண்டும்](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'புதிய டெவலப்பரா? நேற்றுதான் Git கற்றுக்கொண்டிருக்க வேண்டும். CodeBurst.io-ஐ உருவாக்கிய பிராண்டன் மோரெல்லி எழுதியது').
 
 ### நான் என்ன பங்களிக்கப் போகிறேன்?
 
-![Contributor Card](/readme-only/card.PNG 'Contributor Card')
+![பங்களிப்பாளர் அட்டை](/readme-only/card.PNG 'பங்களிப்பாளர் அட்டை')
 
-You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
+நீங்கள் இந்த [திட்டத்தின் வலைப்பக்கத்திற்கு](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project') இதைப் போன்ற ஒரு அட்டையைப் பங்களிக்கப் போகிறீர்கள். அதில் உங்கள் பெயர், உங்கள் ட்விட்டர் கைப்பிடி, ஒரு சிறு விளக்கம் மற்றும் நீங்கள் பரிந்துரைக்கும் வலை உருவாக்குநர்களுக்கான பயனுள்ள ஆதாரங்களுக்கான 3 இணைப்புகள் ஆகியவை அடங்கும்.
 
-You will make a copy of the card template inside the HTML file and customize it with your own information.
+நீங்கள் HTML கோப்பிற்குள் அட்டை டெம்ப்ளேட்டின் நகலை உருவாக்கி, நீங்கள் பரிந்துரைக்கும் உங்கள் சொந்த தகவல்களுடன் அதைத் தனிப்பயனாக்குவீர்கள். வலை உருவாக்குநர்களுக்கான ஆதாரங்கள்.
 
 ---
 
@@ -92,111 +92,111 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 ---
 
-### Setup! :)
+### அமைப்பு! 
 
-> [!Note]
-> This Tutorial is based on GitHub PC. [If you're comfortable with the terminal go to this tutorial (Click Here)](/terminal_tutorial.md)
+> [!குறிப்பு]
+> இந்தப் பயிற்சி GitHub PC-ஐ அடிப்படையாகக் கொண்டது. [டெர்மினலில் உங்களுக்கு சௌகரியமாக இருந்தால் இந்தப் பயிற்சிக்குச் செல்லவும் (இங்கே கிளிக் செய்யவும்)](/terminal_tutorial.md)
 
-First let's get setup to do the work
+முதலில் வேலையைச் செய்ய அமைப்போம்.
 
-1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
-2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal_tutorial.md).
-   - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
-   - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
+1. உங்கள் GitHub கணக்கில் உள்நுழையவும். உங்களிடம் இன்னும் கணக்கு இல்லையென்றால் [GitHub இல் சேரவும்](https://github.com/join). தொடர்வதற்கு முன் [GitHub Hello World டுடோரியலை](https://guides.github.com/activities/hello-world/) செய்யுமாறு நான் பரிந்துரைக்கிறேன்.
+2. [GitHub டெஸ்க்டாப் செயலியை](https://desktop.github.com/) பதிவிறக்கவும்.
+   - மாற்றாக, கட்டளை வரியில் Git ஐப் பயன்படுத்துவது உங்களுக்கு வசதியாக இருந்தால், நீங்கள் அவ்வாறு செய்யலாம் [CLI டுடோரியலுக்கான இணைப்பு இங்கே](/terminal_tutorial.md).
+   - நீங்கள் [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') ஐப் பயன்படுத்தினால், அது ஒருங்கிணைந்த Git உடன் வருகிறது, மேலும் எடிட்டரிலிருந்து நமக்குத் தேவையானதை நேரடியாகச் செய்ய உங்களை அனுமதிக்கிறது.
+   - இருப்பினும் இந்த டுடோரியலைப் பின்பற்றுவதற்கான எளிய மற்றும் எளிதான வழி GitHub Desktop ஐப் பயன்படுத்துவதாகும்.
 
-> Now that you are all setup let's get on with the business of contributing to the project.
+> இப்போது நீங்கள் எல்லாம் தயாராகிவிட்டீர்கள், இப்போது திட்டத்திற்கு பங்களிக்கும் வேலையைத் தொடங்குவோம்.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-### Contribute
+### பங்களிக்கவும்
 
-Become an open source contributor in 10 easy steps.
+10 எளிய படிகளில் திறந்த மூல பங்களிப்பாளராகுங்கள்.
 
-_Estimated time: Less than 30 minutes_.
+_மதிப்பிடப்பட்ட நேரம்: 30 நிமிடங்களுக்கும் குறைவானது_.
 
-#### Step 1: Fork this repository
+#### படி 1: இந்த சேமிப்பகத்தை ஃபோர்க் செய்யவும்
 
-- The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
-- Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
+- இந்த திட்டத்தின் நகலை உருவாக்கி உங்கள் கணக்கில் வைப்பதே இங்கு நோக்கமாகும்.
+- ஒரு திட்டம் GitHub-இல் எவ்வாறு அழைக்கப்படுகிறது என்பது repository (repo) ஆகும், மேலும் ஒரு fork என்பது அதன் நகலாகும்.
+- இந்த ரெப்போவின் [முதன்மைப் பக்கத்தில்](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') நீங்கள் இருப்பதை உறுதிசெய்து கொள்ளவும்.
 
-| ![Fork](/readme-only/fork.png "click on 'Fork'") |
+| ![ஃபோர்க்](/readme-only/fork.png "'ஃபோர்க்' என்பதைக் கிளிக் செய்யவும்") |
 | :---------------------------------------------: |
-|         **Click on the _Fork_ button**          |
+|         **_ஃபோர்க்_ பட்டன்னைக் கிளிக் செய்யவும்.**          |
 
-- You now have a complete copy of the project in your own account.
+- இப்போது உங்கள் சொந்தக் கணக்கில் திட்டத்தின் முழுமையான நகல் உங்களிடம் உள்ளது.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 2: Clone the repository
+#### Step 2: படி 2: சேமிப்பகத்தை கிளோன் செய்யவும்
 
-- Now we want to make a local copy of the project. That is a copy saved on your own machine.
-- Open the GitHub desktop app. In the app:
+- இப்போது நாம் திட்டத்தின் உள்ளூர் நகலை உருவாக்க விரும்புகிறோம். அது உங்கள் சொந்த கணினியில் சேமிக்கப்பட்ட நகல்.
+- GitHub டெஸ்க்டாப் செயலியைத் திறக்கவும். செயலியில்:
 
-| ![Clone](/readme-only/clone.PNG 'click clone repository') |
+| ![குளோன்](/readme-only/clone.PNG 'குளோன் களஞ்சியத்தைக் கிளிக் செய்யவும்.') |
 | :------------------------------------------------------: |
-|       **Click on _File_ then _Clone repository_**        |
+|       **_கோப்பு_ பின்னர் _குளோன் களஞ்சியம்_ என்பதைக் கிளிக் செய்யவும்.**        |
 
-- You will see a list of your projects and forks on GitHub.
-- Select `<your-github-username>/Contribute-To-This-Project`.
-- Click _Clone_
+- உங்கள் திட்டங்கள் மற்றும் ஃபோர்க்குகளின் பட்டியலை GitHub இல் காண்பீர்கள்.
+- `<your-github-username>/Contribute-To-This-Project` என்பதைத் தேர்ந்தெடுக்கவும்.
+- _குளோன்_ என்பதைக் கிளிக் செய்யவும்.
 
-| ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
+| ![குளோன் திட்டம்](/readme-only/clone-project.PNG '=your-github-username=/Contribute-To-This-Project என்பதைக் கிளிக் செய்யவும்.') |
 | :----------------------------------------------------------------------------------------------------------: |
 
-| :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
+| :arrow_right_hook: ஒரு ஃபோர்க்டு ப்ராஜெக்ட்டில் இடதுபுறத்தில் ஃபோர்க் சின்னம் இருக்கும். உங்கள் ஃபோர்க்கில் உங்களுக்கான சொந்த GitHub பயனர் இருப்பார். | ![உங்கள் ஃபோர்க்](/readme-only/clone-your-fork.PNG 'உங்கள் ஃபோர்க் உங்கள் சொந்த பயனர் பெயருடன் இப்படி இருக்கும்.') |
 | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
-- This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
-- Now you have a local copy of the project.
+- உங்கள் வன் வட்டில் திட்டம் நகலெடுக்கப்படும்போது இது சிறிது நேரம் எடுக்கும். வழக்கமாக `..\Documents\GitHub` என்ற இயல்புநிலை பாதையை வைத்திருக்க பரிந்துரைக்கிறேன்.
+- இப்போது உங்களிடம் திட்டத்தின் உள்ளூர் நகல் உள்ளது.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 3: Create a new branch
+#### படி 3: புதிய கிளையை உருவாக்கவும்
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- ரெப்போ குளோன் செய்யப்பட்டு, அதை GitHub டெஸ்க்டாப்பில் திறந்தவுடன், புதிய கிளையை உருவாக்க வேண்டிய நேரம் இது.
+- `மாஸ்டர்` எனப்படும் திட்டத்தின் முக்கிய பகுதியிலிருந்து உங்கள் மாற்றங்களைத் தனித்தனியாக வைத்திருப்பதற்கான ஒரு வழி ஒரு கிளை ஆகும். உதாரணமாக, ஏதாவது தவறு நடந்தால், உங்கள் மாற்றங்களில் நீங்கள் மகிழ்ச்சியடையவில்லை என்றால், நீங்கள் கிளையை நீக்கலாம், மேலும் பிரதான திட்டம் பாதிக்கப்படாது.
 
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :arrow_right_hook: _`தற்போதைய கிளை`_ என்பதைக் கிளிக் செய்து, பின்னர் _`புதியது`_ என்பதைக் கிளிக் செய்யவும். | ![கிளையை உருவாக்கு](/readme-only/branch-new.PNG "'கிளை' என்பதைக் கிளிக் செய்து, பின்னர் 'புதியது' என்பதைக் கிளிக் செய்யவும்.'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **உங்கள் கிளைக்கு ஒரு பெயரைக் கொடுத்து, பின்னர் `கிளையை உருவாக்கு` என்பதைக் கிளிக் செய்யவும்.** |                           ![கிளைக்கு பெயர்](/readme-only/branch-name.PNG 'உங்கள் கிளைக்கு பெயரிடுங்கள்')                            |
+| :arrow_right_hook: **உங்கள் புதிய கிளையை GitHub இல் வெளியிடுங்கள்.**                      | ![கிளைக்கு பெயர்](/readme-only/branch-publish.PNG 'புதிய கிளையை GitHub இல் உள்ள உங்கள் தொலைதூர களஞ்சியத்திற்கு அனுப்ப வெளியிடு என்பதைக் கிளிக் செய்யவும்.') |
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- நீங்கள் என்ன வேண்டுமானாலும் பெயரிடலாம், ஆனால் இது உங்கள் பெயருடன் ஒரு அட்டையை திட்டத்தில் சேர்க்க ஒரு கிளை என்பதால், அதை `உங்கள்-பெயர்-அட்டை` என்று அழைப்பது நல்ல நடைமுறையாகும், ஏனெனில் இது இந்தக் கிளையின் நோக்கத்தை தெளிவாக வைத்திருக்கிறது.
+- இப்போது நீங்கள் மாஸ்டரிலிருந்து தனித்தனியாக ஒரு புதிய கிளையை உருவாக்கியுள்ளீர்கள்.
+- அடுத்த படிகளுக்கு நீங்கள் இந்தக் கிளையில் பணிபுரிகிறீர்கள் என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள். GitHub டெஸ்க்டாப் பயன்பாட்டின் மேல் மையத்தில் நீங்கள் இருக்கும் கிளையின் பெயரைக் காண்பீர்கள், அங்கு அது _Current branch_ என்று கூறுகிறது.
 
-**Do NOT work on the `master` branch**
+**`மாஸ்டர்` கிளையில் வேலை செய்ய வேண்டாம்.**
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 4: Open the index.html file
+#### படி 4: index.html கோப்பை திறக்கவும்
 
-- Now we need to open the file we are going to edit with your favourite code editor.
-- Find the project folder on your computer. If you have kept the default this should be something like `your-computer > Documents > GitHub > Contribute-To-This-Project`
-- The `index.html` file is directly in the `Contribute-To-This-Project` folder.
-- Open your code editor (Sublime, VS Code, Atom..etc) and use the `Open file` command and locate the index.html file in the main directory of the project
+- இப்போது நாம் திருத்தப் போகும் கோப்பை உங்களுக்குப் பிடித்த குறியீடு எடிட்டரைப் பயன்படுத்தித் திறக்க வேண்டும்.
+- உங்கள் கணினியில் திட்ட கோப்புறையைக் கண்டறியவும். நீங்கள் இயல்புநிலையை வைத்திருந்தால், இது `your-computer > Documents > GitHub > Contribute-To-This-Project` போல இருக்க வேண்டும்.
+- `index.html` கோப்பு நேரடியாக `இந்தத் திட்டத்திற்குப் பங்களிக்கவும்` கோப்புறையில் உள்ளது.
+- உங்கள் குறியீடு திருத்தியைத் (Sublime, VS Code, Atom..etc) திறந்து, `Open file` கட்டளையைப் பயன்படுத்தி, திட்டத்தின் பிரதான கோப்பகத்தில் index.html கோப்பைக் கண்டறியவும்.
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
+|                  ![குறியீட்டு கோப்பைத் திறக்கவும்](/readme-only/index-open.PNG 'உங்கள் உரை திருத்தியில் index.html-ஐத் திறக்கவும்.')                   |
 | :---------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Alternatively you can locate the file on your hard drive, right click, and open with your editor** |
+| :arrow_right_hook: **மாற்றாக, உங்கள் வன்வட்டில் கோப்பைக் கண்டுபிடித்து, வலது கிளிக் செய்து, உங்கள் எடிட்டரைப் பயன்படுத்தி திறக்கலாம்.** |
 
-- Now you have the file you are going to edit open in your editor and you are ready to start making changes to it.
+- இப்போது நீங்கள் திருத்தப் போகும் கோப்பு உங்கள் எடிட்டரில் திறக்கப்பட்டுள்ளது, மேலும் அதில் மாற்றங்களைச் செய்யத் தயாராக உள்ளீர்கள்.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 5: Copy the card template
+#### படி 5: கார்டு மாதிரியை நகலெடுக்கவும்
 
 - We will make a copy of the card template to start working on it
 - Right inside the `<body>`, you will find a `<div class="container">` section. This contains a lot of other sections.
@@ -221,11 +221,11 @@ _Estimated time: Less than 30 minutes_.
 
 - This now is **your** card for you to customize and edit.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 6: Apply your changes
+#### படி 6: உங்கள் மாற்றங்களை பொருத்தவும்
 
 - We'll now start editing html, changing the customizable fields in our card.
 
@@ -252,11 +252,11 @@ _Estimated time: Less than 30 minutes_.
 - **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 7: Commit your changes
+#### படி 7: உங்கள் மாற்றங்களை commit செய்யவும்
 
 - Go back to the GitHub desktop app.
 - Your changes will have been added automatically to the staging area.
@@ -271,25 +271,25 @@ _Estimated time: Less than 30 minutes_.
 |                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
 | :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 8: Push your changes to GitHub
+#### படி 8: உங்கள் மாற்றங்களை GitHub-க்கு push செய்யவும்
 
-- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
-- Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
+- உங்கள் மாற்றங்கள் இப்போது சேமிக்கப்பட்டுள்ளன அல்லது உறுதி செய்யப்பட்டுள்ளன. ஆனால் அவை உங்கள் கணினியில் உள்ளூரில் மட்டுமே சேமிக்கப்படும்.
+- GitHub இல் உங்கள் களஞ்சியத்துடன் உள்ளூர் மாற்றங்களை ஒத்திசைப்பது _Push_ என்று அழைக்கப்படுகிறது. உங்கள் உள்ளூர் களஞ்சியத்திலிருந்து GitHub இல் உள்ள தொலைதூர களஞ்சியத்திற்கு மாற்றங்களை "தள்ளுகிறீர்கள்".
 
-| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :arrow_right_hook: _`Push`_ பொத்தானைக் கிளிக் செய்யவும் | ![GitHub க்கு தள்ளவும்](/readme-only/push.PNG "உங்கள் மாற்றங்களை GitHub-க்கு அழுத்தி, 'Push' பொத்தானைக் கிளிக் செய்யவும்") |
 | :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
 
-- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+- சில வினாடிகளுக்குப் பிறகு செயல்பாடு முடிந்தது, இப்போது உங்கள் கணினியிலும் GitHub-லும் இந்தக் கிளையின் அதே நகல் உங்களிடம் உள்ளது.
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 9: Submit a PR(Pull Request)
+#### படி 9: ஒரு PR (Pull Request) சமர்ப்பிக்கவும்
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
@@ -316,56 +316,56 @@ _Estimated time: Less than 30 minutes_.
 - Leave the option `Allow edits from maintainers` ticked.
 - Now, a _Pull Request_ will be sent to the project maintainer. As soon as it is reviewed and accepted your changes will appear on the [project web page](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
 
-#### Step 10: Celebrate
+#### படி 10: கொண்டாடு!
 
-That's it. You have done it! You have now contributed to open source on GitHub.
+அவ்வளவுதான். நீங்கள் அதைச் செய்துவிட்டீர்கள்! இப்போது நீங்கள் GitHub இல் திறந்த மூலத்திற்கு பங்களித்துள்ளீர்கள்.
 
-You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+நீங்கள் ஒரு நேரடி வலைப்பக்கத்தில் குறியீட்டைச் சேர்த்துள்ளீர்கள்: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
+உங்கள் மாற்றங்கள் **உடனடியாகத் தெரியாது**; முதலில் அவற்றை திட்டப் பராமரிப்பாளர் மதிப்பாய்வு செய்து, ஏற்றுக்கொண்டு, ஒன்றிணைக்க வேண்டும். அவை இணைக்கப்பட்டதும், உங்கள் அட்டை பக்கத்தில் தெரியும்படியும், நேரடியாகவும் இருக்க வேண்டும்.
 
-It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+ஒரு மதிப்பாய்வாளர் ஒரு PR-இல் மாற்றங்களைக் கேட்பது மிகவும் இயல்பானது. அது உங்களுக்கு நடந்தால் அதை ஒரு நல்ல நடைமுறையாகக் கருதுங்கள். கருத்துகள் மற்றும் கோரப்பட்ட மாற்றங்களைக் கவனியுங்கள். நீங்கள் கோரப்பட்ட மாற்றங்களைச் செய்தவுடன் (உங்கள் கிளைக்குத் திரும்பியதும்) நீங்கள் செய்ய வேண்டியதெல்லாம், உங்கள் மாற்றங்களை உறுதிசெய்து செயல்படுத்துவதுதான். புதிய மாற்றங்களுடன் PR தானாகவே புதுப்பிக்கப்படும்.
 
-I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
+விரைவில் மதிப்பாய்வு செய்து ஒன்றிணைக்க முயற்சிப்பேன் என்று உறுதியளிக்கிறேன், ஆனால் நான் இதை எனது ஓய்வு நேரத்தில் செய்கிறேன், எனவே சில நாட்கள் தாமதம் தவிர்க்க முடியாதது.
 
-[↑ Go to top ↑](#quick-access-index)
-
----
-
-### Next Steps
-
-- Come back in a while to check for your merged Pull Request.
-- You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
-- You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
-- You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
-- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
-- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
-- **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
-- I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
-
-[↑ Go to top ↑](#quick-access-index)
+[↑ மேலே செல்க ↑](#quick-access-index)
 
 ---
-### Acknowledgements
 
-This project is heavily influenced by [Roshan Jossey's](https://github.com/Roshanjossey) great [first-contributions](https://github.com/Roshanjossey/first-contributions) project with its excellent tutorial.
+### அடுத்த படிகள்
 
-It is also particularly inspired by the great community around [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe.
+- உங்கள் இணைக்கப்பட்ட புல் கோரிக்கையைச் சரிபார்க்க சிறிது நேரம் கழித்து திரும்பி வாருங்கள்.
+- உங்கள் மாற்றங்கள் அங்கீகரிக்கப்பட்டாலோ அல்லது கூடுதல் மாற்றங்கள் கோரப்பட்டாலோ. PR இறுதியாக மாஸ்டருடன் இணைக்கப்பட்டு உங்கள் கார்டு சேர்க்கப்பட்டாலோ GitHub இலிருந்து உங்களுக்கு ஒரு மின்னஞ்சல் வரும்.
+- இந்த _free_ தொடரிலிருந்து எவ்வாறு பங்களிப்பது என்பதையும் நீங்கள் கற்றுக்கொள்ளலாம்: [GitHub இல் திறந்த மூல திட்டத்திற்கு எவ்வாறு பங்களிப்பது](https://kcd.im/pull-request)
+- இந்த திட்டம் **பயனுள்ளதாக** நீங்கள் கண்டால், பக்கத்தின் மேலே :star: நட்சத்திரம் :star: என்று கொடுத்து, அதைப் பற்றி **ட்வீட்** செய்து [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit] என்ற வார்த்தையைப் பரப்ப உதவுங்கள்.
+- நீங்கள் எங்கள் [டிஸ்கார்ட் சர்வரில்] (https://discord.gg/tWkvS4ueVF) சேரலாம்.
+- நீங்கள் **என்னைப் பின்தொடரலாம்** மற்றும் [𝕏 (ட்விட்டர்)](https://twitter.com/Syknapse '@Syknapse') அல்லது [இந்த வேறு ஏதேனும் விருப்பங்களைப் பயன்படுத்தி](https://syknapse.github.io/Syk-Houdeib/#contact 'எனது தொடர்புப் பிரிவு | போர்ட்ஃபோலியோ') இல் தொடர்பு கொள்ளலாம்.
+- இது ஒரு திறந்த மூல திட்டம், எனவே உங்கள் அட்டையை பங்களிப்பதைத் தவிர, பிழைகள், மேம்பாடுகள் அல்லது புதிய அம்சங்களை சரிசெய்ய உதவ நீங்கள் வரவேற்கப்படுகிறீர்கள். [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') ஐத் திறக்கவும் அல்லது புதிய [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'ஒரு ஃபோர்க்கிலிருந்து ஒரு புல் கோரிக்கையை உருவாக்குதல் | GitHub உதவி') ஐ அனுப்பவும்.
+- எங்கள் சமூகத்தை மேம்படுத்த உதவ, புல் ரிக்வெஸ்ட்களுக்கு அடுத்துள்ள GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) தாவலைப் பாருங்கள். இந்தப் பகுதி உங்களை அறிமுகப்படுத்திக் கொள்ளவும், திறந்த மூலத்தில் ஆழமான விவாதங்களுக்குச் செல்லவும், திட்ட பராமரிப்பாளர்களுடன் தொடர்பு கொள்ளவும் ஒரு இடமாகும். இந்த அம்சத்தை உருவாக்கி எங்கள் சமூகத்தை மேம்படுத்த நீங்கள் எங்களுக்கு உதவுவீர்களா?
+- **இந்த திட்டத்திற்கு பங்களித்ததற்கு நன்றி.**. இப்போது நீங்கள் மற்ற திட்டங்களுக்கு பங்களிக்க முயற்சி செய்யலாம்; தொடக்கநிலையாளர்களுக்கு ஏற்ற பங்களிப்பு விருப்பங்களுக்கு ![நல்ல முதல் வெளியீடு](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) லேபிளைப் பாருங்கள்.
+- PR-களை மதிப்பாய்வு செய்து இணைப்பதில் எனக்கு உதவ ஒத்துழைப்பாளர்களையும் நான் தேடுகிறேன். நீங்கள் இன்னும் மேம்பட்ட Git பயிற்சியைப் பெற விரும்பினால், [பராமரிப்பாளரின் வழிகாட்டியை](/maintainer_guide.md) படித்து, எங்கள் [Discord சர்வரில்](https://discord.gg/tWkvS4ueVF) சேர்ந்து, திட்ட பராமரிப்பாளர்களிடமிருந்து குழுவில் சேரக் கோருங்கள்.
 
-### License
+[↑ மேலே செல்க ↑](#quick-access-index)
 
-This project is licensed under the [MIT License](./LICENSE).
+---
+### நன்றிகள்
 
-### Top 100 Contributors
+இந்த திட்டம் [ரோஷன் ஜோஸியின்](https://github.com/Roshanjossey) சிறந்த [முதல் பங்களிப்புகள்](https://github.com/Roshanjossey/first-contributions) திட்டத்தால் பெரிதும் பாதிக்கப்பட்டுள்ளது, அதன் சிறந்த பயிற்சியும் இதில் அடங்கும்.
 
-[![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+இது குறிப்பாக [#GoogleUdacityScholars] (https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) சுற்றியுள்ள சிறந்த சமூகத்தால் ஈர்க்கப்பட்டுள்ளது. கூகிள் சேலஞ்ச் ஸ்காலர்ஷிப்: ஃப்ரண்ட்-எண்ட் வெப் டெவ், 2017 ஐரோப்பாவின் வகுப்பு.
 
-[Back to the top &uparrow;](#introduction)
+### அனுமதி உரிமம்
+
+இந்த திட்டம் [MIT உரிமத்தின்](./LICENSE) கீழ் உரிமம் பெற்றது.
+
+### சிறந்த 100 பங்களிப்பாளர்கள்
+
+[![GitHub பங்களிப்பாளர்கள் படம்](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+
+[மேலே திரும்பவும் & மேல் அம்புக்குறி;](#introduction)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
