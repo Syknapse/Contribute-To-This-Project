@@ -1,8 +1,8 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+# [இந்த திட்டத்தில் பங்களிக்கவும்](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![image info](/favicon.png)
+![படத்தின் விவரங்கள்](/favicon.png)
 
-> Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+> லோகோ உருவாக்கியவர் [CandidDeer](https://github.com/CandidDeer) :sparkling_heart:
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
@@ -12,9 +12,9 @@
 
 ---
 
-> ## **Announcement:**
+> ## **அறிக்கை:**
 >
-> Would you like to become a maintainer on this project and help keeping it going? If you are interested, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
+> இந்த திட்டத்தில் பராமரிப்பாளராக ஆகி, அதை தொடரச் செய்ய உதவ விரும்புகிறீர்களா? ஆர்வமிருந்தால், [பராமரிப்பாளரின் கையேடு](/maintainer_guide.md)-ஐ படிக்கவும்., நமது [டிஸ்கோர்ட் சேவையகத்தில்](https://discord.gg/tWkvS4ueVF) சேரவும், மற்றும் திட்ட பராமரிப்பாளர்களிடமிருந்து குழுவில் சேர வேண்டுகோள் செய்யவும்.
 
 ---
 
@@ -72,20 +72,6 @@ If you are a new developer and you are wondering if you need to learn Git and Gi
 You are going to contribute a card just like this one to this [project's web page](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). It will include your name, your Twitter handle, a short description, and 3 links to useful resources for web developers that you recommend.
 
 You will make a copy of the card template inside the HTML file and customize it with your own information.
-
----
-
-### Translations
-
-This tutorial is also available in [other languages](/translations/README.md)
-
-|     [Arabic (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) |            [English (English)](/README.md)             |  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [French (Français)](/translations/README/FRENCH.md) |  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |
-  [Korean (한국어)](/translations/README/KOREAN.md)  | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
-  [Spanish (Español)](/translations/README/SPANISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |  [Urdu (اُردُو)](/translations/README/URDU.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md) | [Tamil](/translations/README/TAMIL.md)
-
-> Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
 ---
 
