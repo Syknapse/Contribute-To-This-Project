@@ -1,55 +1,65 @@
-# Guida Manutentori
+# Guida del Manutentore (Italiano)
 
-Questa guida si rivolge a coloro che vogliono unirsi al progetto come manutentori, per aiutare a gestire e mantenere il progetto per la comunità. (Questa non è una guida per **contributori alla prima contribuzione**)
+Questa guida è destinata a coloro che desiderano unirsi al progetto come manutentori, per contribuire a gestire e mantenere il progetto per la comunità. (Questa **non è una guida per i nuovi contributori**)
+
+⚠️ Questa è la traduzione italiana della guida del manutentore. Per la versione originale in inglese, visita [maintainer_guide.md](../../maintainer_guide.md)
+
+## Traduzioni
+
+Questo tutorial è disponibile anche in [altre lingue](translations/README.md)
+
+| [English](maintainer_guide.md)   | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [French (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) |
+| :---: | :---: | :---: | :---: | :---: |
+[Hindi](translations/maintainer_guide/maintainer_guide.hin.md) | [Indonesian](translations/maintainer_guide/maintainer_guide.ind.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) | [Korean](translations/maintainer_guide/maintainer_guide.kor.md) | 
+[Portuguese](translations/maintainer_guide/maintainer_guide.por.md) | [Russian](translations/maintainer_guide/maintainer_guide.rus.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+
+> Translations for projects documentations are welcome. Read [`Translation Guide`](translations/README.md) to contribute.
+
+---
 
 ## Obiettivi
 
-Il nostro obiettivo principale è di fornire ai nostri contributori nel modo più rapido possibile dei riscontri e risposte dal momento in cui aprono la loro richiesta di unione codice (pull request). Questo si traduce principalmente in fornire revisioni di codice, ed unire "PRs" approvate.
-Inoltre, possiamo mantenere il progetto accertandoci che tutto funzioni correttamente nella maniera più utile per i nostri contributori.ontributors.
+Il nostro obiettivo principale è fornire ai contributori il feedback più rapido possibile dal momento in cui inviano la loro pull request.Ciò significa principalmente eseguire le revisioni del codice e unire (merge) le PR accettate.
 
-## A chi si rivolge?
+Oltre a questo, possiamo mantenere il progetto assicurandoci che tutto funzioni correttamente e che rimanga il più utile e intuitivo possibile per i nostri contributori.
 
-Chiunque abbia un minimo di conoscenze Git e GitHub. Non è necessario essere esperti, questa guida dovrebbe essere d'aiuto perfino per neofiti. Questo è un progetto attivo che riceve contribuzioni regolarmente ed aiuta molte persone ad intraprendere i loro primi passi verso contribuzioni open source. Essere un manutentore di questo progetto aiuta ad assicurarsi di continuare a fornire ai nostri contributori una buona prima esperienza, e ad incoraggiarli a contribuire ancora.
+## Who is this for?
 
-È possibile dedicare quanto più o meno tempo si voglia in questa atività. Con il nostro impegno dovremmo riuscire a mantenere il tutto ben funzionante.
+Chiunque abbia un po' di esperienza con Git e GitHub. Non è necessario essere un esperto: questa guida dovrebbe aiutare anche i principianti. Questo è un progetto attivo che riceve contributi regolari e aiuta molte persone a fare la loro prima contribuzione open source. Essere un manutentore di questo progetto aiuta a garantire che continui a offrire ai contributori una buona prima esperienza e li incoraggi a contribuire di più.
+
+Puoi dedicare a questo progetto tutto il tempo che desideri, poco o tanto. Tra di noi, speriamo di riuscire a mantenerlo in funzione senza problemi.
 
 ## Metodologia
 
-- Recarsi nella sezione "Pull request" del progetto, e iniziare dalla meno recente che non sia in stato "Change requested" (Modifiche richieste)
-- Aprire una PR (Pull Rquest) e spostarsi nella sezione "Changes" (modifiche), quindi iniziare la revisione del codice.
-- Verificare la PR, assicurandosi che segua le specifiche del tutorial.
-- Assicurarsi che HTML, collegamenti e dati siano tutti corretti. Assicurarsi che la scheda sia posizionata all'inizio del file dove dovrebbe essere.
-- Successivamente, controllare che non ci siano conflitti. Unire `master` nella "branch" della PR per risolvere i conflitti. Solitamente, conflitti appaiono quando è passato del tempo dalle unioni precedenti e svariate PR stanno usando la stessa vecchia versione.
-- Se questo è il caso, risolvere i conflitti. Solitamente sarà necessario aggiungere la nuova scheda sopra altre schede che sono state aggiunte da quando il "fork" (copia personale del progetto) è stato creato.
-- Se tutto il resto è corretto, approvare la PR, scrivere un messaggio al contributore ringraziandolo per la contribuzione (Ricordate, è la loro prima volta e probabilmente beneficeranno da un incoraggiamento).
-- Unire la PR in `master`.
+- Vai alla sezione delle pull request del progetto e inizia con la pull request più vecchia che non si troa nello stato "modifiche richieste".
+- Apri una PR, vai alla scheda delle modifiche ai file e inizia una revisione del codice.
+- Controlla la PR e assicurati che segua le specifiche indicate nel tutorial.
+- Assicurati che l'HTML, i collegamenti e i dati siano tutti corretti. Verifica che la scheda sia posizionata all'inizio del file, dove dovrebbe essere.
+- Successivamente controlla la presenza di eventuali conflitti. Unisci il branch `master` nel branch della PR per risolverli. I conflitti di solito si verificano quando è passato un po' di tempo dagli ultimi merge e diverse PR utilizzano la stessa versione non aggiornata.
+- In questo caso, risolvi il conflitto. Di solito dovrai aggiungere la nuova scheda sopra le schede che sono state aggiunte dopo la creazione del fork.
+- Se tutto il resto è a posto, approva la PR e scrivi un messaggio al collaboratore ringraziandolo per il contributo (ricorda che spesso sono alle prime armi e trarranno beneficio da un po' di incoraggiamento).
+- Unisci la PR nel branch `master`.
 
-### Richiedere modifiche
+## Richiedi modifiche
 
-- Alcune volte potrebbero esserci problemi con la PR che dovrebbero essere sistemati dal contributore, come la creazione di una "branch" (ramo) incorretta, HTML incorretto, informazioni mancanti, scheda inserita nel posto sbagliato. Tutto ciò che dimostri di non avere seguito correttamente il tutorial (e non semplici conflitti di unione).
-- Iniziare la revisione su GitHub e richiedere modifiche. Cercare di essere quanto più descrittivi possibile, commentare la linea esatta, informare loro esattamente di quale sia il problema e come sistemarlo, quindi incoraggiarli comunicando quanto questo sia normale nel processo di revisione di una PR.
-- Quando pronti, sottoporre la revisione.
-- Tenere d'occhio la conversazione nel caso il contributore abbia successive domande a cui si possa fornire aiuto. Il nostro obiettivo è che raggiunga il traguardo, proviamo quindi a guidarli fino alla fine.
-- Una volta che il contributore avrà fornito le modifiche richieste, la PR può essere unita a `master`.
+- A volte ci sono problemi con la PR che devono essere corretti dal collaboratore, come ramificazioni errate, HTML danneggiato, informazioni mancanti o la scheda posizionata nel posto sbagliato. Qualsiasi cosa che non segua correttamente il tutorial (e non semplici conflitti di merge).
+- Avvia una revisione del codice su GitHub e richiedi modifiche. Cerca di essere il più descrittivo possibile, commenta la riga esatta, spiega esattamente qual è il problema e come risolverlo e incoraggiali, ricordando che fa parte normale del processo di revisione delle PR.
+- Quando sei pronto, invia la revisione.
+- Tieni d’occhio la conversazione nel caso il collaboratore abbia domande di follow-up su cui puoi aiutarlo. Il nostro obiettivo è far arrivare tutti al traguardo, quindi cerchiamo di guidarli fino alla fine.
+- Una volta che hanno corretto le modifiche richieste, la PR può essere unita al branch `master`.
 
-Per favore, verificare sempre che le modifiche non abbiano impattato le funzionalità del progetto e che la pagina "live" (in diretta) funzioni ancora come previsto. È sempre meglio verificare le modifiche in locale prima di unirle, e mai unire niente che risulti sospetto.
+Ti preghiamo sempre di testare che le modifiche non abbiano rotto il progetto e che la pagina live funzioni come previsto. È sempre meglio testare le modifiche in locale prima di fare il merge e non unire mai nulla che sembri sospetto.
 
 ## Strumenti
 
-Se non sono presenti troppe PR accumulate, questo intero processo può essere svolto direttamente nella pagina GitHub del progetto.
-Nonostante ciò, non è insolito avere alcune PR in attesa, e questo porterà inevitabilmente a dei conflitti. È consentito usare qualsiasi strumento con cui si abbia familiarità per vedere differenze e risolvere conflitti.
-Raccomandiamo l'uso di uno strumento come [GitKraken](https://www.gitkraken.com/download). È grafico e permette una gestione più facile del progetto quando ci sono diverse PR da revisionare.
-Scaricare GitKraken, quindi clonare il progetto. Usando una combinazione di editor di codice a voi familiare e lo strumento integrato di gestione conflitti di GitKraken fornirà il controllo totale per muoversi con rapidità tra le varie PR, risolvendo conflitti ed unendo il codice.
+Se non ci sono molte PR accumulate, l’intero processo può essere eseguito direttamente dalla pagina GitHub del progetto.  
+Tuttavia, non è raro avere alcune PR in attesa, e in questi casi ci saranno inevitabilmente conflitti di merge. Puoi usare qualsiasi strumento con cui ti senti a tuo agio per vedere le differenze e risolvere i conflitti.  
+Ti consiglio di usare uno strumento come [GitKraken](https://www.gitkraken.com/download). È visivo e consente una gestione più semplice del progetto quando ci sono diverse PR da revisionare.  
+Scarica GitKraken, clona il progetto. Usando una combinazione del tuo editor di codice e dello strumento integrato di risoluzione dei conflitti di GitKraken, puoi gestire rapidamente le PR, risolvendo conflitti e unendo i cambiamenti.
 
-Il progetto ha installato "Prettier" per assicurarsi che, a prescindere da come un contributore sottoponga la sua PR, la guida di stile verrà forzata. In questo modo il progetto è sempre mantenuto con la stessa indentazione e stile.
-Nel caso notiate che il file HTML risulti disordinato, eseguite `npx prettier --write index.html` nella cartella "root" (base) del progetto. Questo dovrebbe cercare di formattare il file e, nel caso fallisse, mostrerà quali errori ha incontrato. In certi casi un tag di chiusura mancante o HTML incorretto potrebbe essere unito per errore, e questo è un metodo valido per accorgersene e risolvere il problema.
+Il progetto ha Prettier installato per garantire che, indipendentemente da come un collaboratore invii la PR, la guida allo stile venga sempre rispettata. In questo modo il progetto mantiene sempre la stessa indentazione e stile.  
+Se noti che il file HTML sembra disordinato, esegui il seguente comando nella directory principale del progetto:
 
-In caso di dubbi, è sempre possibile menzionare me o altri manutentori nella PR stessa, oppure inviarmi direttamente un messaggio diretto su [Twitter](https://twitter.com/Syknapse).
+```js
+npx prettier --write index.html
 
-## Unisciti
-
-Unisciti a noi per aiutare la crescita di questo progetto insieme. Contattami pure su Twitter e mandami il tuo account GitHub per essere aggiunto.
-
-_Questo documento non è stato tradotto dall'inglese direttamente da [Syknapse](https://github.com/Syknapse), in caso di contatto si suggerisce di usare l'inglese_
-
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
