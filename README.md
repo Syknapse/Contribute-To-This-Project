@@ -47,7 +47,7 @@
 
 ## Introduction
 
-This is a tutorial to help first-time contributors to participate in a simple and easy project.
+This is a tutorial to help first-time contributors participate in a simple and easy project.
 
 ### Objectives
 
@@ -57,13 +57,13 @@ This is a tutorial to help first-time contributors to participate in a simple an
 ### Who is this for?
 
 - This is for absolute beginners. If you know how to write and edit an anchor tag `<a href="" target=""></a>` then you should be able to do it.
-- It is also for those with a little more experience but who want to make their first open source contribution, or get more contributions for more experience and confidence.
+- It is also for those with a little more experience who want to make their first open source contribution or want to make more contributions to increase experience and confidence.
 
 ### Why do I need to do this?
 
-Any web developer, aspiring or experienced needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
+Any web developer, aspiring or experienced, needs to use Git version control, and GitHub is the most popular Git hosting service used by everyone. It is also the heart of the Open Source community. Getting comfortable using GitHub is an essential skill. Making a contribution to a project boosts your confidence and gives you something to show on your GitHub profile.
 
-If you are a new developer and you are wondering if you need to learn Git and GitHub then here is the answer: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+If you are a new developer and you are wondering if you need to learn Git and GitHub, the answer is: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ### What am I going to contribute?
 
@@ -98,7 +98,7 @@ First let's get setup to do the work
 
 1. Login to your GitHub account. If you don't yet have an account then [join GitHub](https://github.com/join). I recommend that you do the [GitHub Hello World tutorial](https://guides.github.com/activities/hello-world/) before you continue.
 2. Download [GitHub Desktop app](https://desktop.github.com/).
-   - Alternatively if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal_tutorial.md).
+   - Alternatively, if you are comfortable using Git on the command line you can do so [Here is the link to the CLI tutorial](/terminal_tutorial.md).
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
@@ -117,7 +117,7 @@ _Estimated time: Less than 30 minutes_.
 #### Step 1: Fork this repository
 
 - The objective here is to make a copy of this project and place it in your account.
-- A repository (repo) is how a project is called on GitHub and a fork is a copy of it.
+- A repository (repo) is the term used on GitHub for a project, and a fork is a copy of it.
 - Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
@@ -159,7 +159,7 @@ _Estimated time: Less than 30 minutes_.
 #### Step 3: Create a new branch
 
 - Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
+- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example, if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
 | :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
@@ -203,14 +203,14 @@ _Estimated time: Less than 30 minutes_.
 | ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
 | :-----------------------------------------------------------------------: |
 
-- Inside this section, you will find the section labelled `== TEMPLATE ==`
+- Inside this section you will find the section labelled `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
 | :-----------------------------------------------------------------------: |
 
-- Paste the whole thing directly below the comment indicating it; right on top of the most recent contributor's card.
-- Make sure there is a single line of space between your card end and the last card's start. Also add a line of space between your card's start and the line with the comment `=== Paste YOUR CARD directly BELOW this line ===`. It's good practice to keep our code as clear as possible
+- Paste the whole thing directly below the `=== Paste YOUR CARD directly BELOW this line ===`, right on top of the most recent contributor's card.
+- Make sure there is a single line of space between your card end and the last card's start. Also add a line of space between your card's start and the line with the comment `=== Paste YOUR CARD directly BELOW this line ===`. Keeping spaces between segments is good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
@@ -234,19 +234,19 @@ _Estimated time: Less than 30 minutes_.
 | :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
 | :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
-- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
+- If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon (like `fa-facebook`, for example). Then follow the same steps above.
 
 |                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
 |                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
-| :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
+| :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything: a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner, don't be intimidated. Share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
 - **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
 - **Title:** Write a brief description `title="here"`.
 - **Name:** Write the resource's name in the text field `>here</a>`.
 - Make sure you have **saved all your changes**.
-- **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. See that the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
+- **Test your changes**. THIS IS IMPORTANT! Open the html file in your browser (by double clicking on it for example) and see what your card will look like on the site. Verify the entire page still looks the same and nothing is broken. Click your links and make sure they are working. Open the console (Ctrl + Shift + J (Windows / Linux) or Cmd + Opt + J (Mac)) and check that there are no error messages.
 - Great, you have finished editing your code! The next steps will send your changes to GitHub and then submit them to be merged with the main project.
 
 [↑ Go to top ↑](#quick-access-index)
@@ -266,7 +266,7 @@ _Estimated time: Less than 30 minutes_.
 |                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
 |                                                                            :arrow_right_hook: **This is what your GitHub desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, Your `Current branch` will have the name you gave it in step 3**                                                                            |
 |                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
+| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally, you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -274,13 +274,13 @@ _Estimated time: Less than 30 minutes_.
 
 #### Step 8: Push your changes to GitHub
 
-- Your changes are now saved or committed. But they are saved only locally, that is on your computer.
+- Your changes are now saved or committed. But they are saved only locally (on your computer).
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
 | :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
 | :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
 
-- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
+- After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine and on GitHub.
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -290,7 +290,7 @@ _Estimated time: Less than 30 minutes_.
 
 - This is the moment you have been waiting for; submitting a _Pull Request_ (PR).
 - So far all the work you have done has been on the fork of the project, which as you remember resides on your own account of GitHub.
-- Now it's time to send your changes to the main project to be merged with it.
+- Now it's time to send your changes to be merged with the main project.
 - This is called a [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - GitHub Help') because you are asking the original project maintainer to "pull" your changes into their project.
 - Go to the main page of **your fork** on GitHub (it will have the fork icon and your own user name at the top).
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
@@ -301,9 +301,9 @@ _Estimated time: Less than 30 minutes_.
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
 |                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
 
-- REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
-- The image below gives you an idea of how the header of your pull request should look like.
-- On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
+- REMEMBER _you are trying to merge your branch with the original project, not with the `Master` branch on your fork_.
+- The image below gives you an idea what the header of your pull request should look like.
+- On the left is the original project followed by the master branch. On the right is your fork and the branch you created.
 
 |                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
@@ -325,9 +325,9 @@ You have added code to a live web page: [https://syknapse.github.io/Contribute-T
 
 Your changes **won't be visible immediately**; first they have to be reviewed, accepted, and merged by the project maintainer. Once they are merged your card should be visible and live on the page.
 
-It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is to commit and push your changes. The PR will automatically update with the new changes.
+It is very normal for a reviewer to ask for changes on a PR. Think of it as good practice if it happens to you. Keep an eye for comments and requested changes. Once you make the requested changes (back in your branch) all you have to do is commit and push your changes. The PR will automatically update with the new changes.
 
-I promise I will try to review and merge as soon as possible but I do this in my spare time, so a few days delay is inevitable.
+I promise I will try to review and merge as soon as possible but I do this in my spare time so a few days delay is inevitable.
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -336,13 +336,13 @@ I promise I will try to review and merge as soon as possible but I do this in my
 ### Next Steps
 
 - Come back in a while to check for your merged Pull Request.
-- You should receive an email from GitHub when your changes have been approved, or if additional changes are requested. And when the PR is finally merged with the master and your card has been added.
+- You should receive an email from GitHub when your changes have been approved, if additional changes are requested, and when the PR is finally merged with the master and your card has been added.
 - You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 - You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
 - You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
-- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
-- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
+- This is an open source project so apart from contributing your card you are welcome to help fix bugs, make improvements, or add new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.
 
