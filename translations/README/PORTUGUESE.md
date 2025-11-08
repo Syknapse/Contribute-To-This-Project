@@ -6,7 +6,7 @@
 
 ## Introdução
 
-Esse é um tutorial para ajudar os contribuidores inicial a participar de um simples e fácil projeto.
+Esse é um tutorial para ajudar os contribuidores iniciais a participar de um simples e fácil projeto.
 
 ### Objetivos
 
@@ -69,7 +69,7 @@ _Tempos estimado: menos de 30 minutos_.
 | :---------------------------------------- | -----------------------------------------------: |
 
 
-- Agora você tem um cópia complete desse projeto na sua conta.
+- Agora você tem uma cópia completa desse projeto na sua conta.
 
 ---
 
@@ -165,13 +165,13 @@ _Tempos estimado: menos de 30 minutos_.
 | :---------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------: |
 
 
-| <ul><li>Compartilhe com a comunidade 3 links para recursos úteis para o desenvolvimento web</li><li>Pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta</li><li>Se você é iniciante, não se deixe intimidar por isso, compartilhe o que sabe, mesmo que você ache básico. Você ficará surpreso com quantas pessoas se beneficiarão</li></ul> |
+| <ul><li>Compartilhe com a comunidade 3 links de recursos úteis para o desenvolvimento web</li><li>Pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta</li><li>Se você é iniciante, não se deixe intimidar por isso, compartilhe o que sabe, mesmo que você ache básico. Você ficará surpreso com quantas pessoas se beneficiarão</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ![Alterar recurso](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                                                                                                                                                                                 |
 | <ul><li>Link: Insira o link `href="here"` substituindo o `#`</li><li>Título: Escreva uma breve descrição `title="here"`</li><li> Nome: escreva o nome do recurso no campo de texto `>here</a>`</li></ul>                                                                                                                                                                                          |
 
 - Garanta que você **salvou todas as suas mudanças**.
-- **Teste suas mudanças**. ISSO É IMPORTANTE!Abra o arquivo html no seu navegador (clicando duas vezes nele, por exemplo) e veja como será o seu cartão no site. Veja que a página inteira ainda parece a mesma e nada está quebrado. Clique nos seus links e verifique se eles estão funcionando.Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
+- **Teste suas mudanças**. ISSO É IMPORTANTE! Abra o arquivo html no seu navegador (clicando duas vezes nele, por exemplo) e veja como será o seu cartão no site. Veja que a página inteira ainda parece a mesma e nada está quebrado. Clique nos seus links e verifique se eles estão funcionando.Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
 - Ótimo, você terminou de editar seu código! As próximas etapas enviarão suas alterações para o GitHub e as enviarão para serem mescladas com o projeto principal.
 
 ---
