@@ -3,7 +3,34 @@
    Glossy buttons | XP colors
    ============================ */
 
-:root {
+header::before {
+  content: "🚧 Site Under Construction – 2000s Mode Activated 🚧";
+  display: block;
+  background: #ffeb3b;
+  padding: 8px;
+  border: 2px solid #c4a600;
+  font-family: "Comic Sans MS", cursive;
+  color: #000;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+body::after {
+  content: "";
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url("https://i.imgur.com/1XWnS5D.gif");
+  background-size: cover;
+  z-index: 9999;
+  border: 3px solid #3a6ea5;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+   :root {
   --xp-blue: #3a6ea5;
   --xp-light-blue: #bcd4f6;
   --xp-dark-blue: #1a4e8a;
@@ -180,4 +207,27 @@ footer {
 #topButton:hover {
   background: var(--xp-light-blue);
   color: #000;
+}
+.retro-banner {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(180deg, #bcd4f6, #ffffff);
+  border: 2px solid #3a6ea5;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.4);
+}
+
+.retro-banner span {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll2000 10s linear infinite;
+  font-size: 18px;
+  font-weight: bold;
+  color: #1a4e8a;
+}
+
+@keyframes scroll2000 {
+  from { transform: translateX(100%); }
+  to { transform: translateX(-100%); }
 }
