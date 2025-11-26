@@ -1,0 +1,28 @@
+{
+  "name": "Mistu",
+  "contacts": [
+    {
+      "icon": "fab fa-github",
+      "link": "https://github.com/<your-github-username>",
+      "handle": "@<your-github-username>"
+    }
+  ],
+  "about": "I am a student learning web development and open-source. I love building projects and improving my coding skills.",
+  "resources": [
+    {
+      "title": "Frontend Resources",
+      "link": "https://www.w3schools.com/",
+      "text": "Best place for beginners to learn HTML, CSS & JS"
+    },
+    {
+      "title": "JavaScript Learning",
+      "link": "https://javascript.info/",
+      "text": "Full JavaScript tutorial"
+    },
+    {
+      "title": "Practice Coding",
+      "link": "https://leetcode.com/",
+      "text": "Solve coding problems to improve logic"
+    }
+  ]
+}
