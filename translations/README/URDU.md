@@ -1,7 +1,7 @@
 # [اس پروجیکٹ میں حصہ لیں](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![تصویر کی معلومات](/favicon.png)
- 
+![تصویر کی معلومات](readme-only/favicon.png)
+
 > لوگو 💖 کے ساتھ بنایا گیا ہے [CandidDeer](https://github.com/CandidDeer) کے ذریعے
 
 [![ٹویٹ کریں](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fsyknapse.github.io%2FContribute-To-This-Project%2F)
@@ -75,17 +75,20 @@
 
 ---
 
+
 ### ترجمے
 
 یہ گائیڈ دیگر [زبانوں میں بھی دستیاب](#ترجمے) ہے۔
 
-| [عربی](/translations/README/ARABIC.md) | [بنگالی](/translations/README/BANGLA.md) | [روایتی چینی](/translations/README/CHINESE_TRADITIONAL.md) | [ڈچ](/translations/README/DUTCH.md) | [انگریزی](/README.md) |
-| :-------------------------------------: | :---------------------------------------: | :-------------------------------------------------------: | :---------------------------------: | :-------------------: |
-| [فرانسیسی](/translations/README/FRENCH.md) | [جرمن](/translations/README/GERMAN.md) | [ہندی](/translations/README/HINDI.md) | [اطالوی](/translations/README/ITALIAN.md) | [جاپانی](/translations/README/JAPANESE.md) |
-| [کورین](/translations/README/KOREAN.md) | [پولش](/translations/README/POLISH.md) | [پرتگالی](/translations/README/PORTUGUESE.md) | [روسی](/translations/README/RUSSIAN.md) | [سربین](/translations/README/SERBIAN.md) |
-| [ہسپانوی](/translations/README/SPANISH.md) | [ترکی](/translations/README/TURKISH.md) | [یوکرینی](/translations/README/UKRAINIAN.md) | [ناروے](/translations/README/NORWEGIAN.md) |
-
-> پروجیکٹس میں دستاویزات کے ترجمے کا خیر مقدم کیا جاتا ہے۔ حصہ لینے کے لئے [`ترجمہ گائیڈ`](/translations/README.md) پڑھیں۔
+| زبان | عربی | بنگالی | روایتی چینی | ڈچ | انگریزی |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| لنک | [ARABIC](/translations/README/ARABIC.md) | [BANGLA](/translations/README/BANGLA.md) | [CHINESE_TRADITIONAL](/translations/README/CHINESE_TRADITIONAL.md) | [DUTCH](/translations/README/DUTCH.md) | [ENGLISH](/README.md) |
+| زبان | فرانسیسی | جرمن | ہندی | اطالوی | جاپانی |
+| لنک | [FRENCH](/translations/README/FRENCH.md) | [GERMAN](/translations/README/GERMAN.md) | [HINDI](/translations/README/HINDI.md) | [ITALIAN](/translations/README/ITALIAN.md) | [JAPANESE](/translations/README/JAPANESE.md) |
+| زبان | کورین | پولش | پرتگالی | روسی | سربین |
+| لنک | [KOREAN](/translations/README/KOREAN.md) | [POLISH](/translations/README/POLISH.md) | [PORTUGUESE](/translations/README/PORTUGUESE.md) | [RUSSIAN](/translations/README/RUSSIAN.md) | [SERBIAN](/translations/README/SERBIAN.md) |
+| زبان | ہسپانوی | ترکی | یوکرینی | ناروے | |
+| لنک | [SPANISH](/translations/README/SPANISH.md) | [TURKISH](/translations/README/TURKISH.md) | [UKRAINIAN](/translations/README/UKRAINIAN.md) | [NORWEGIAN](/translations/README/NORWEGIAN.md) | |
 
 ---
 ### سیٹ اپ! :)
