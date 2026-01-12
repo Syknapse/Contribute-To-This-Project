@@ -1,7 +1,7 @@
 # [اس پروجیکٹ میں حصہ لیں](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![تصویر کی معلومات](/favicon.png)
- 
+![تصویر کی معلومات](readme-only/favicon.png)
+
 > لوگو 💖 کے ساتھ بنایا گیا ہے [CandidDeer](https://github.com/CandidDeer) کے ذریعے
 
 [![ٹویٹ کریں](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fsyknapse.github.io%2FContribute-To-This-Project%2F)
