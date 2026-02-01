@@ -17,7 +17,8 @@
 > Ma jeceshahay inaad noqoto maamule (maintainer) mashruucan oo aad gacan ka gaysato sii socoshadiisa? Haddii aad xiisaynayso, akhri [hagaha maamulayaasha](/maintainer_guide.md), ku soo biir [server-kayaga Discord](https://discord.gg/tWkvS4ueVF), oo ka codso maamulayaasha mashruuca inaad ku soo biirto kooxda.
 
 ---
-## Jadwalka Mawduucyada
+### Jadwalka Mawduucyada
+
 
 - [Hordhac](#hordhac)
 - [Ujeedooyinka](#ujeedooyinka)
@@ -104,7 +105,8 @@ Marka hore, aan isku diyaarino qabashada shaqada:
 
 > Maadaama aad hadda diyaar tahay, aan u gudubno shaqada rasmiga ah ee ku saabsan ka qayb-qaadashada mashruuca.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -127,7 +129,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 - Hadda waxaad haysataa copy dhammaystiran oo mashruuca ah oo kugu dhex jira akoonkaaga.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -154,7 +157,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Tani waxay qaadan doontaa cabbaar inta mashruuca lagu koobiyeynayo hard disk-gaaga. Waxaan kugula talinayaa inaad u daysid meesha uu markaba dooranayo (default path) oo badanaa ah `..\Documents\GitHub`.
 - Hadda waxaad haysataa copy maxalli ah (local copy) oo mashruuca ah.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -175,7 +179,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 **HA ku dhex shaqayn laanta `master`**
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 ---
 
@@ -193,7 +198,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 - Hadda waxaad haysataa faylkii aad wax ka beddeli lahayd isagoo u furan editor-kaaga, waxaadna diyaar u tahay inaad bilowdo isbeddellada.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 ---
 #### Tallaabada 5: Copy ka samee template-ka kaadhka
@@ -221,7 +227,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 - Kan hadda waa kaadhkaaga **adiga** si aad u habayso oo aad wax uga beddesho.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 ---
 
@@ -252,7 +259,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - **Tijaabi isbeddelladaada**. TANI WAA MUHIIM! Ku fur faylka HTML-ka biraawsarkaaga (browser) adigoo laba jeer gujinaya, si aad u aragto sida uu kaadhkaagu ugu muuqan doono mareegta. Hubi in bogga oo dhan uu wali u muuqdo sidii hore oo uusan waxba ka hallaabin. Guji xiriiriyeyaashaada si aad u hubiso inay shaqaynayaan. Fur Console-ka (Ctrl + Shift + J (Windows / Linux) ama Cmd + Opt + J (Mac)) oo hubi inaysan jirin fariimo qalad ah (error messages).
 - Aad u fiican, waxaad dhamaysay wax ka beddelka koodkaaga! Tallaabooyinka xiga waxay isbeddelladaada u diri doonaan GitHub si loogu daro mashruuca rasmiga ah.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -271,7 +279,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 |                                                                                                                                                                                                                                                                          ![Write commit message and commit](/readme-only/commit-message.PNG "Qor fariin kooban oo commit ah qaybta 'summary', ka dibna guji 'commit'")                                                                                                                                                                                                                                                                          |
 | :arrow_right_hook: **Si aad u samayso _`Commit`_, waa inaad buuxisaa meesha _`Summary`_. Tani waa fariinta commit-ka oo sharxaysa waxaad beddeshay. Xaaladdan, fariin macquul ah waxay noqon kartaa `"Add my card information"`. Haddii aad rabto waxaad ku dari kartaa _`Description`_ faahfaahsan. Guji badhanka _`Commit`_. Badhankaaga wuxuu dhihi doonaa wax u dhow `Commit to "magaca-branch-kaaga"`** |
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -285,7 +294,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 - Muddo ilbiriqsiyo ah ka dib, hawshaas waa la dhammaystiri doonaa, haddana waxaad haysataa nuqul isku mid ah oo branch-kan ah oo ku jira mashiinkaaga iyo GitHub labadaba.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -317,7 +327,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Iska daa xulashada `Allow edits from maintainers` inay calaamadsan tahay (ticked).
 - Hadda, _Pull Request_ waxaa loo diri doonaa maamulaha mashruuca. Isla marka la eego oo la aqbalo, isbeddelladaada waxay ka muuqan doonaan [bogga internetka ee mashruuca](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -334,7 +345,8 @@ Waa wax iska caadi ah in qofka dib-u-eegista samaynaya uu ku weydiiyo isbeddelo 
 
 Waxaan ballan-qaadayaa inaan isku dayi doono inaan dib-u-eegis ku sameeyo oo aan ku daro sida ugu dhakhsaha badan ee suurtogalka ah, laakiin waxaan tan sameeyaa waqtigayga firaaqada ah, markaa dib u dhac dhowr maalmood ah waa mid lama huraan ah.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -351,7 +363,8 @@ Waxaan ballan-qaadayaa inaan isku dayi doono inaan dib-u-eegis ku sameeyo oo aan
 - **Waad ku mahadsan tahay ka qayb-qaadashada mashruucan**. Hadda waxaad sii wadan kartaa inaad isku daydo inaad wax ku darsato mashaariicda kale; ka raadi sumadda ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) ee loogu talagalay kuwa cusub ee hadda bilaabaya.
 - Sidoo kale, waxaan raadinayaa la-shaqeeyayaal gacan iga siiya dib-u-eegista iyo ku darista (merging) PR-yada. Haddii aad rabto inaad hesho tababar Git oo horumarsan, akhri [hagaha maamulayaasha](/maintainer_guide.md), ku soo biir [Discord server-kayaga](https://discord.gg/tWkvS4ueVF), oo ka codso maamulayaasha mashruuca inaad ku biirto kooxda.
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 ---
@@ -370,7 +383,8 @@ Mashruucan waxaa lagu bixiyay shatiga [MIT License](./LICENSE).
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[Ku noqo xagga sare ↑](#hordhac)
+[↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
+
 
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet-garee mashruucan'
