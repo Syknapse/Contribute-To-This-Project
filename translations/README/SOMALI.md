@@ -2,7 +2,7 @@
 
 ![image info](/favicon.png)
 
-> Logo waxaa si :sparkling_heart: ah u sameeyay [CandidDeer](https://github.com/CandidDeer)
+> Logodan waxaa si :sparkling_heart: ku saleysan yahay u sameeyay [CandidDeer](https://github.com/CandidDeer)
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
@@ -59,7 +59,7 @@ Kani waa cashar (tutorial) loogu talagalay in lagu caawiyo dadka markii ugu horr
 
 ### Maxaan uga baahnahay inaan tan sameeyo?
 
-Horumariye kasta oo mareegaha ah (web developer), ha ahaado mid hadda bilaabaya ama mid khibrad leh, wuxuu u baahan yahay inuu isticmaalo nidaamka Git (version control), GitHub-na waa adeegga ugu caansan ee loo isticmaalo martigalinta Git. Sidoo kale, waa wadnaha bulshada Mashaariicda Furan (Open Source). Inaad barato isticmaalka GitHub waa xirfad lagama maarmaan ah. Ka qayb-qaadashada mashruuc waxay kor u qaadaysaa kalsoonidaada, waxayna ku siinaysaa wax aad ku muujisid profile-kaaga GitHub.
+Horumariye kasta oo mareegaha ah (web developer), ha ahaado mid hadda bilaabaya ama mid khibrad u leh, wuxuu u baahan yahay inuu isticmaalo nidaamka Git (version control), GitHub-na waa adeegga ugu caansan ee loo isticmaalo martigalinta Git. Sidoo kale, waa wadnaha bulshada Mashaariicda Furan (Open Source). Inaad barato isticmaalka GitHub waa xirfad lagama maarmaan ah. Ka qayb-qaadashada mashruuc waxay kor u qaadaysaa kalsoonidaada, waxayna ku siinaysaa wax aad ku muujisid profile-kaaga GitHub.
 
 Haddii aad tahay horumariye cusub oo aad is weydiinayso inaad u baahan tahay inaad barato Git iyo GitHub, halkan waa jawaabta: [Waa inaad shalayba baran lahayd Git](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should’ve learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
@@ -67,15 +67,15 @@ Haddii aad tahay horumariye cusub oo aad is weydiinayso inaad u baahan tahay ina
 
 ![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
-Waxaad ku kordhin doontaa kaadh (card) u gaar ah, oo la mid ah kan kor ku xusan, [bogga internetka ee mashruucan](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Waxaa ku jiri doona magacaaga, cinwaankaaga Twitter-ka, sharaxaad kooban, iyo 3 xiriiriye (links) oo waxtar u leh horumarinta mareegaha oo aad adigu ku talinayso.
+Waxaad ku kordhin doontaa kaadh (card), oo la mid ah kan kor ku xusan, [bogga internetka ee mashruucan](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Waxaa ku jiri doona magacaaga, cinwaankaaga Twitter-ka, sharaxaad kooban, iyo 3 xiriiriye (links) oo waxtar u leh horumarinta Web-dhisayaasha(web-developers) oo aad adigu ku la talinayso.
 
-Waxaad nuqul ka samayn doontaa template-ka kaadhka ee ku dhex jira faylka HTML, ka dibna waxaad ku habayn doontaa macluumaadkaaga gaarka ah.
+Waxaad copy ka samayn doontaa template-ka kaadhka ee ku dhex jira faylka HTML, ka dibna waxaad ku habayn doontaa macluumaadkaaga gaarka ah.
 
 ---
 
 ### Turjumaadaha
 
-Casharkan waxaa sidoo kale lagu heli karaa [luuqado kale](/translations/README.md)
+Casharkan waxaa sidoo kale ku heli karta [luuqado kale](/translations/README.md)
 
 |      [Arabic (عربي)](/translations/README/ARABIC.md)      |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) |            [English (English)](/README.md)             |  
 | :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
@@ -116,14 +116,14 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 #### Tallaabada 1: Fork-garee kaydkan (repository)
 
 - Ujeedadu waa inaad mashruucan copy ka samaysato oo aad geliso akoonkaaga.
-- Kayd (repository/repo) waa sida loogu yeero mashruuca dhexdiisa GitHub, Fork-na waa nuqul ka mid ah mashruucaas.
+- Kayd (repository/repo) waa sida loogu yeero mashruuca dhexdiisa GitHub, Fork-na waa copy ka mid ah mashruucaas.
 - Hubi inaad ku jirto [bogga rasmiga ah](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') ee kaydkan.
 
 | ![Fork](/readme-only/fork.png "guji 'Fork'") |
 | :---------------------------------------------: |
 |          **Guji badhanka _Fork_** |
 
-- Hadda waxaad haysataa nuqul dhammaystiran oo mashruuca ah oo ku dhex jira akoonkaaga.
+- Hadda waxaad haysataa copy dhammaystiran oo mashruuca ah oo kugu dhex jira akoonkaaga.
 
 [↑ Ku noqo kor ↑](#quick-access-index)
 
@@ -131,7 +131,7 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 #### Tallaabada 2: Clone-garee kaydka
 
-- Hadda waxaan rabnaa inaan samayno nuqul maxalli ah (local copy) oo mashruuca ah. Taas oo macnaheedu yahay nuqul ku kaydsan kombuyuutarkaaga.
+- Hadda waxaan rabnaa inaan samayno copy maxalli ah (local copy) oo mashruuca ah. Taas oo macnaheedu yahay copy ku kaydsan kombuyuutarkaaga.
 - Fur GitHub Desktop app. Gudaha app-ka:
 
 | ![Clone](/readme-only/clone.PNG 'guji clone repository') |
@@ -148,31 +148,30 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 | :arrow_right_hook: Mashruuca fork-ka ah wuxuu yeelan doonaa astaanta fork-ka ee dhanka bidix. Fork-gaaga wuxuu yeelan doonaa magacaaga GitHub | ![your fork](/readme-only/clone-your-fork.PNG 'fork-gaagu wuxuu u muuqan doonaa sidan, isagoo wata magacaaga') |
 | :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
 
-- Tani waxay qaadan doontaa cabbaar inta mashruuca lagu koobiyeynayo hard disk-gaaga. Waxaan kugula talinayaa inaad u daayid meesha uu markaba dooranayo (default path) oo badiyaa ah `..\Documents\GitHub`.
-- Hadda waxaad haysataa nuqul maxalli ah (local copy) oo mashruuca ah.
+- Tani waxay qaadan doontaa cabbaar inta mashruuca lagu koobiyeynayo hard disk-gaaga. Waxaan kugula talinayaa inaad u daysid meesha uu markaba dooranayo (default path) oo badanaa ah `..\Documents\GitHub`.
+- Hadda waxaad haysataa copy maxalli ah (local copy) oo mashruuca ah.
 
 [↑ Ku noqo kor ↑](#quick-access-index)
 
 ---
 
+#### Talaabada 3aad: Abuur laan (branch) cusub
 
-#### Step 3: Create a new branch
+- Marka kaydka (repo) la koobiyeeyo (cloned) oo aad ku furto GitHub Desktop, waxaa la joogaa waqtigii aad abuuri lahayd laan cusub.
+- Laantu (branch) waa hab aad isbeddelladaada uga sooci karto qaybta ugu muhiimsan ee mashruuca oo loo yaqaan `Master`. Tusaale ahaan, haddii ay wax khaldamaan oo aadan ku qanacsanayn isbeddelladaada, waxaad si fudud u tirtiri kartaa laanta, mashruuca weynna ma saameyn doono.
 
-- Once the repo has been cloned and you have it open in GitHub desktop it is time to create a new branch.
-- A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
-
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
+| :arrow_right_hook: Guji _`Current branch`_, Ka dibna guji _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Guji 'Branch', ka dibna 'New'") |
 | :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **Magac u bixi laantaada, ka dibna guji `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Magac u bixi laantaada')                             |
+| :arrow_right_hook: **U dir (Publish) laantaada cusub GitHub** | ![Name branch](/readme-only/branch-publish.PNG 'Guji publish si aad ugu dirto laanta cusub GitHub-kaaga') |
 
-- You can name it whatever you want, but since this is a branch to add a card with your name to the project, calling it `your-name-card` is good practice because it keeps the intention of this branch clear.
-- Now you have created a new branch separate from the master.
-- For the next steps make sure you are working in this branch. You will see the name of the branch you are on at the top center of the GitHub desktop app where it says _Current branch_.
+- Waxaad u bixin kartaa magac kasta oo aad rabto, laakiin maadaama ay tani tahay laan aad ku darayso kaadh magacaaga leh, u bixinta `magacaaga-card` waa dhaqan wanaagsan waayo waxay caddaynaysaa ujeeddada laantaan.
+- Hadda waxaad abuurtay laan cusub oo ka madax-bannaan master-ka.
+- Tallaabooyinka xiga, hubi inaad ku dhex shaqaynayso laantaan. Waxaad ku arki doontaa magaca laanta aad ku jirto qaybta sare ee dhexe ee GitHub Desktop halka ay ku qoran tahay _Current branch_.
 
-**Do NOT work on the `master` branch**
+**HA ku dhex shaqayn laanta `master`**
 
-[↑ Go to top ↑](#quick-access-index)
+[↑ Ku laabo kor ↑](#quick-access-index)
 
 ---
 
@@ -195,7 +194,7 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 ---
 #### Tallaabada 5: Copy ka samee template-ka kaadhka
 
-- Waxaan samayn doonaa nuqul ka mid ah template-ka kaadhka si aan u bilowno ka shaqayntiisa.
+- Waxaan samayn doonaa copy ka mid ah template-ka kaadhka si aan u bilowno ka shaqayntiisa.
 - Si toos ah gudaha `<body>`, waxaad ka heli doontaa qaybta `<div class="container">`. Tani waxay ka kooban tahay qaybo kale oo badan.
 - **Laba qaybood ee ugu horreeya** waa sida: `<div class="row">`. Isku laab (Collapse) iyaga adigoo gujinaya faliirka dhinacooda ku yaalla ee VS Code editor-kaaga, sida ka muuqata sawirka hoose. (Haddii aad isticmaalayso editor kale, waxaa laga yaabaa inaadan isticmaali karin habkan, ee hoos uun u soco). Isku laabiddu waxay kuu sahlaysaa inaad qariso qaybaha koodka ee aadan u baahnayn inaad wax ka beddesho.
 - Hadda waa inaad aragtaa qaybta ay ku dhex jiraan dhammaan kaadhka ka qayb-qaatayaasha: `<div class="grid" id="contributions">`
@@ -240,7 +239,7 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                                                                                                                                                                                 :arrow_right_hook: **Wax nooga sheeg naftaada. Ka dhig mid kooban oo macaan. U firi inay tahay sidii qoraal Tweet ah oo kale ee ma aha qoraal blog ah.** |
 |                                                                                                                                                                                                                                                                                           ![Change resources](/readme-only/change-resources.PNG 'Geli link, qor sharaxaad kooban, iyo magaca waxaad soo xigatay')                                                                                                                                                                                                                                                                                           |
-| :arrow_right_hook: **La wadaag bulshada 3 xiriiriye (links) oo waxtar u leh horumarinta mareegaha (web development). Tani waxay noqon kartaa wax kasta: muuqaal, khudbad, podcast, maqaal, tixraac, ama qalab (tool). Haddii aad tahay qof hadda bilaabaya, ha ka baqin tan, la wadaag wax kasta oo aad taqaan xataa haddii aad u malaynayso inay yihiin wax iska fudud. Waxaad layaabi doontaa inta qof ee ka faa'iidaysan doonta.** |
+| :arrow_right_hook: **La wadaag bulshada 3 xiriiriye (links) oo waxtar u leh horumarinta web-dhisida (web development). Tani waxay noqon kartaa wax kasta: muuqaal, khudbad, podcast, maqaal, tixraac, ama qalab (tool). Haddii aad tahay qof hadda bilaabaya, ha ka baqin tan, la wadaag wax kasta oo aad taqaan xataa haddii aad u malaynayso inay yihiin wax iska fudud. Waxaad layaabi doontaa inta qof ee ka faa'iidaysan doonta.** |
 
 - **Link:** Geli xiriiriyaha `href="halkan"` adigoo ku beddelaya `#`. Fadlan iska ilaali isticmaalka URL-yada la soo gaabiyey (shorteners) ama URL-yo aan ka imaanin mareegta aad soo dhigayso!
 - **Title:** Qor sharaxaad kooban `title="halkan"`.
