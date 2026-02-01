@@ -349,7 +349,7 @@ Waxaan ballan-qaadayaa inaan isku dayi doono inaan dib-u-eegis ku sameeyo oo aan
 
 ### Mahadnaq
 
-Mashruucan waxaa si weyn u saameeyay mashruuca weyn ee [Roshan Jossey](https://github.com/Roshanjossey) ee [first-contributions](https://github.com/Roshanjossey/first-contributions) kaas oo leh casharro aad u wanaagsan.
+Mashruucan waxaa si weyn u saameeyay mashruucaa weyn ee [Roshan Jossey](https://github.com/Roshanjossey) ee [first-contributions](https://github.com/Roshanjossey/first-contributions) kaas oo leh casharro aad u wanaagsan.
 
 Sidoo kale, waxaa si gaar ah u dhiirigeliyay bulshada weyn ee [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) ee deeqda waxbarasho ee Google Challenge Scholarship: Front-End Web Dev, dufcaddii 2017 ee Yurub.
 
