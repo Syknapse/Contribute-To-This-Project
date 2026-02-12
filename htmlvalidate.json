@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "html-validate:recommended"
+  ],
+  "rules": {
+    "no-trailing-whitespace": "off",
+    "void-style": ["error", { "style": "omit" }],
+    "attr-quotes": ["error", { "style": "double", "unquoted": false }],
+    "doctype-html": "error",
+    "require-closing-tags": "error",
+    "no-duplicate-id": "error",
+    "no-inline-style": "off"
+  }
+}
