@@ -1,12 +1,12 @@
 name: Continuous Integration
-
 on:
     push:
+        branches: [master]
+    pull_request:
         branches: [master]
 jobs:
     prettier:
         runs-on: ubuntu-latest
-
         steps:
             - name: Checkout
               uses: actions/checkout@v4
@@ -16,7 +16,6 @@ jobs:
                   repository: ${{ github.event.pull_request.head.repo.full_name }}
                   # This is important to fetch the changes to the previous commit
                   fetch-depth: 0
-
             - name: Check source code style with Prettier
               uses: creyD/prettier_action@v4.3
               with:
@@ -24,3 +23,38 @@ jobs:
                   only_changed: True
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    html-validation:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: '20'
+
+            - name: Install html-validate
+              run: npm install -g html-validate
+
+            - name: Get changed HTML files
+              id: changed-files
+              uses: tj-actions/changed-files@v41
+              with:
+                  files: |
+                      **/*.html
+
+            - name: Validate HTML files
+              if: steps.changed-files.outputs.any_changed == 'true'
+              run: |
+                  echo "Validating HTML files..."
+                  echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
+                  html-validate ${{ steps.changed-files.outputs.all_changed_files }}
+              continue-on-error: false
+
+            - name: Validate index.html (always run on master)
+              if: github.ref == 'refs/heads/master' && steps.changed-files.outputs.any_changed != 'true'
+              run: |
+                  echo "Validating index.html on master branch..."
+                  html-validate index.html
