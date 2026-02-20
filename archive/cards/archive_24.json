@@ -1180,34 +1180,6 @@
     ]
   },
   {
-    "name": "de_soot",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/de-soot",
-        "handle": "de-soot"
-      }
-    ],
-    "about": "An aspiring software developer looking to solve problems with code. Currently learning about the web\n            development and more.",
-    "resources": [
-      {
-        "title": "Visual Studio Code without Telemetry and Tracking",
-        "link": "https://vscodium.com",
-        "text": "VSCodium"
-      },
-      {
-        "title": "Learn Ruby in the Browser",
-        "link": "https://try.ruby-lang.org",
-        "text": "TryRuby"
-      },
-      {
-        "title": "Analyse the Performance of any Website",
-        "link": "https://pagespeed.web.dev",
-        "text": "PageSpeed"
-      }
-    ]
-  },
-  {
     "name": "divixtr3n",
     "contacts": [
       {
