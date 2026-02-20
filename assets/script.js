@@ -65,6 +65,10 @@ numberOfFilesArray.forEach(number => {
     })
     .finally(() => countUp())
 })
+const banner = document.createElement("div");
+banner.className = "retro-banner";
+banner.innerHTML = `<span>🚀 Welcome to the 2000s Retro Theme Website! 🚀</span>`;
+document.body.prepend(banner);
 
 // Prompt to archive when there are too many cards
 const showInfoInConsole = () => {
