@@ -1,0 +1,99 @@
+    1  cd 
+    2  cd .
+    3  cd E:\VSCode Quiz\EU Integracije
+    4  cd E:E:\VSCode Quiz\EU Integracije
+    5  cd E:E:\VSCode Quiz
+    6  cd E:\VSCode Quiz
+    7  cd E:\
+    8  cd VSCode Quiz
+    9  cd Coding drive
+   10  cd "$(pwd)"
+   11  cd
+   12  code .
+   13  npm install -g pnpm
+   14  pnpm --version
+   15  pnpm create vite my-react-app --template react
+   16  cd my-react-app
+   17  pnpm install
+   18  pnpm approve-builds
+   19  pnpm approve-builds
+   20  pnpm config set unsafe-perm true
+   21  pnpm dev
+   22  pwn
+   23  pwn
+   24  pwd
+   25  cd 4vscode
+   26  mkdir first-deepsite-quiz-app
+   27  cd first-deepsite-quiz-app
+   28  pnpm create vite .
+   29  pnpm install
+   30  pnpm add -g pnpm
+   31  pnpm setup
+   32  pnpm -version
+   33  pnpm --version
+   34   pnpm add -g pnpm
+   35  pnpm add -g pnpm
+   36  pnpm add -g pnpm
+   37  pnpm setup
+   38  pnpm add -g pnpm
+   39  [200~echo $PNPM_HOME
+   40  echo $PNPM_HOME
+   41  echo $PNPM_HOME
+   42  echo %PNPM_HOME%
+   43  echo $PNPM_HOME
+   44  export PNPM_HOME="$HOME/.pnpm"
+   45  echo 'export PNPM_HOME="$HOME/.pnpm"' >> ~/.bashrc
+   46  source ~/.bashrc
+   47  echo $PNPM_HOME
+   48  pnpm add -g pnpm
+   49  export PATH="$PNPM_HOME:$PATH"
+   50  echo 'export PATH="$PNPM_HOME:$PATH"' >> ~/.bashrc
+   51  source ~/.bashrc
+   52  echo $PATH
+   53  pnpm add -g pnpm
+   54  pnpm self-update
+   55  pnpm env use latest
+   56  pnpm env use latest --global
+   57  pnpm --version
+   58  pnpm --update
+   59  pnpm env use latest
+   60  pnpm self-update
+   61  pnpm --version
+   62  pnpm --global-dir
+   63  pnpm root -g
+   64  pnpm add -g pnpm@latest
+   65  pnpm --version
+   66  pnpm list -g pnpm
+   67  which pnpm
+   68  export PNPM_HOME="/c/Users/Admin/.pnpm/global/5/node_modules"
+   69  export PATH="$PNPM_HOME:$PATH"
+   70  echo 'export PNPM_HOME="/c/Users/Admin/.pnpm/global/5/node_modules"' >> ~/.bashrc
+   71  echo 'export PATH="$PNPM_HOME:$PATH"' >> ~/.bashrc
+   72  source ~/.bashrc
+   73  pnpm --version
+   74  npm install @fortawesome/fontawesome-free tailwindcss postcss autoprefixer
+   75  npm list
+   76  rm -rf node_modules package-lock.json
+   77  npm cache clean --force
+   78  pnpm install
+   79  pnpm list
+   80  pnpm update --latest
+   81  pnpm approve-builds
+   82  pnpm install @fortawesome/fontawesome-free tailwindcss postcss autoprefixer
+   83  pnpm dev
+   84  ~objdump -d c:\Users\Admin\Desktop\regular-plates > disassembled_output.txt
+   85  objdump -d c:\Users\Admin\Desktop\regular-plates > disassembled_output.txt
+   86  git clone https://github.com/Ned111m/Contribute-To-This-Project
+   87  cd Contribute-To-This-Project
+   88  git checkout -b add-Ned111m-card
+   89  code .
+   90  git add index,html
+   91  git add index.html
+   92  git commit -m "Add Ned111m contributor card"
+   93  git push origin add-Ned111m-card
+   94  git add .
+   95  [200~git commit -m "Add Ned111m's contributor card"~
+   96  git commit -m "Add Ned111m's contributor card"
+   97  git push origin Ned111m
+   98  git push origin add-Ned111m-card
+   99  history > git_workflow.txt
