@@ -18,6 +18,23 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', arial, sans-serif;
 }
+.theme-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;   /* keep as inline-block */
+  /* Optional improvements below: */
+  white-space: nowrap;     /* prevent text wrapping */
+  user-select: none;       /* prevent text selection on double click */
+}
+.theme-button:hover {
+  background: #0056b3;
+}
 
 html {
   scroll-behavior: smooth;
