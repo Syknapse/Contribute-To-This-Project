@@ -59,6 +59,11 @@ numberOfFilesArray.forEach(number => {
       const grid = document.getElementById('contributions')
       // Add the cards to the grid
       grid.innerHTML += cards
+      // If we are in night mode, we need to apply it to the newly added cards
+      if (localStorage.getItem('theme') === 'night') {
+        const newlyAddedCards = grid.querySelectorAll('.card:not(.night)')
+        newlyAddedCards.forEach(card => card.classList.add('night'))
+      }
     })
     .catch(error => {
       console.error('Error importing archive JSON files:', error)
@@ -98,7 +103,16 @@ const countUp = () => {
 
 // night mode feature
 let nightModeIntervalId = null
-document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
+const themeToggle = document.getElementById('toggle-box-checkbox')
+
+// Load theme from localStorage
+const currentTheme = localStorage.getItem('theme')
+if (currentTheme === 'night') {
+  document.body.classList.add('night')
+  themeToggle.checked = true
+}
+
+themeToggle.addEventListener('change', e => {
   // stop the last interval
   if (nightModeIntervalId) {
     clearInterval(nightModeIntervalId)
@@ -114,8 +128,10 @@ document.getElementById('toggle-box-checkbox').addEventListener('change', e => {
   // update background color first
   if (isNightMode) {
     document.body.classList.add('night')
+    localStorage.setItem('theme', 'night')
   } else {
     document.body.classList.remove('night') // change background color first
+    localStorage.setItem('theme', 'light')
   }
 
   const updateCount = 50 // how many cards to update in one cycle
