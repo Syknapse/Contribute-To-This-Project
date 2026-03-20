@@ -113,31 +113,39 @@ await new Promise(resolve => setTimeout(resolve, 500))
 
 ### `validate-card.js` — Validation Module
 
-**Input:** cheerio-loaded HTML fragment of the extracted card.
+**Design principle — Phase 1 is lenient by intent.**
 
-**Checks (all must pass):**
+These PRs were submitted months ago by first-time contributors who are unlikely to return and fix minor mistakes. Rejecting a card because of a missing tooltip attribute or an unfilled `.about` field punishes people for small oversights on a submission they may not even remember making. The goal is inclusion: merge everything that represents a genuine, identifiable contribution. Reserve stricter rules for Phase 2, where automation can guide contributors in real time at the moment they submit.
 
-1. Exactly one `.card` div present in the diff
-2. No template placeholder text:
-   - `.name` text is not `"Your name"` (case-insensitive)
-   - `.contact a` href is not `"#"`
-   - `.about` text is not the template placeholder sentence
-3. Required elements present: `.name`, `.about`, `.contact`
-4. `.resources` is optional; if present, between 0 and 5 `<li>` items inside `.resources ul`
-5. Each `<li>` that is present must have an `<a>` with:
-   - `href` that is a real URL (not `"#"`, not empty)
-   - `title` attribute that is non-empty
-6. Only `index.html` appears in the PR's changed files list (already checked in categorization, but re-assert here)
+**Two modes** (set via the `mode` option):
+
+| Mode | Used in | Philosophy |
+| --- | --- | --- |
+| `'phase1'` (default) | Backlog script | Lenient — merge if the card has a real name |
+| `'phase2'` | `validate-card-pr.yml` | Strict — full field and resource validation |
+
+**Phase 1 checks (hard blocks only):**
+
+1. Exactly one `.card` div in the diff (zero = no card added; >1 = whole file pasted)
+2. `.name` present, non-empty, not the placeholder `"Your name"`
+
+Everything else (`.about`, `.contact`, resources, title attributes) is ignored in Phase 1. If the contributor has a name and a card structure, they get merged.
+
+**Phase 2 checks (additionally):**
+
+1. `.about` present, non-empty, not the placeholder text
+2. `.contact` present with at least one link; no `href` containing `"your_user_handle"`
+3. `.resources` optional (0–5 items); each `<li>` present must have `<a>` with a real `href` (not `"#"`)
 
 **Output:**
 
 ```js
 { valid: true }
 // or
-{ valid: false, errors: ['Missing .about element', 'Resource 2 has href="#"'] }
+{ valid: false, errors: ['Missing .name element'] }
 ```
 
-**Reuse in Phase 2:** This same module is imported by `validate-card-pr.yml`'s validation step (called from a Node.js script inside the Action), applied to `cards/[username].html` instead of a diff fragment.
+**Reuse in Phase 2:** The same module is used by `validate-card-pr.yml` with `mode: 'phase2'`, applied to `cards/[username].html` instead of a diff fragment.
 
 ---
 

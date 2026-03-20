@@ -1,26 +1,37 @@
 'use strict'
 
+/**
+ * Card validator — two modes
+ *
+ * PHASE 1 (backlog, default): lenient.
+ *   These PRs were submitted months ago by first-timers who are unlikely to
+ *   return and fix small mistakes. We merge anything that has a real name and
+ *   a recognisable card structure. The goal is inclusion, not perfection.
+ *   Only hard-block on things that signal a genuinely broken submission:
+ *     - no card div found in the diff
+ *     - more than one card div (pasted the whole file)
+ *     - name is empty or still the template placeholder
+ *
+ * PHASE 2 (new flow, strict): enforced by validate-card-pr.yml at PR time.
+ *   Contributors get immediate feedback and can fix before merge. Stricter
+ *   rules are fair because the automation is there to guide them in real time.
+ */
+
 // Exact placeholder values from the index.html template card
 const PLACEHOLDERS = {
   name: 'your name',
-  about: 'about you',
-  contactHref: 'your_user_handle',
-  resourceHref: '#',
-  resourceTitles: ['first resource', 'second resource', 'third resource'],
-  resourceTexts: ['resource 1', 'resource 2', 'resource 3'],
 }
-
-const MAX_RESOURCES = 5
 
 /**
  * Validate a contributor card.
  *
- * @param {import('cheerio').CheerioAPI} $ - cheerio instance loaded with the card HTML
+ * @param {import('cheerio').CheerioAPI} $ - cheerio instance loaded with card HTML
  * @param {object} opts
- * @param {string[]} opts.changedFiles - list of files changed in the PR (for file-scope check)
+ * @param {string[]} opts.changedFiles - PR changed files list (for file-scope check)
+ * @param {'phase1'|'phase2'} opts.mode - validation strictness (default: 'phase1')
  * @returns {{ valid: true } | { valid: false, errors: string[] }}
  */
-function validateCard($, { changedFiles = [] } = {}) {
+function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
   const errors = []
 
   // --- File scope (re-assert; categorisation already checked this) ---
@@ -31,20 +42,22 @@ function validateCard($, { changedFiles = [] } = {}) {
     }
   }
 
-  // --- Card presence ---
+  // --- Card presence (hard block in both modes) ---
   const cards = $('.card')
   if (cards.length === 0) {
     errors.push('No .card div found in the diff')
     return { valid: false, errors }
   }
   if (cards.length > 1) {
-    errors.push(`Expected exactly 1 .card div in the diff, found ${cards.length}`)
+    errors.push(
+      `Expected exactly 1 .card div in the diff, found ${cards.length} — the PR may have included the whole file`
+    )
     return { valid: false, errors }
   }
 
   const card = cards.first()
 
-  // --- .name ---
+  // --- .name (hard block in both modes) ---
   const nameEl = card.find('.name')
   if (nameEl.length === 0) {
     errors.push('Missing .name element')
@@ -57,16 +70,23 @@ function validateCard($, { changedFiles = [] } = {}) {
     }
   }
 
+  // Early return for phase1 — if name is fine, we're done
+  if (mode === 'phase1') {
+    return errors.length === 0 ? { valid: true } : { valid: false, errors }
+  }
+
+  // -----------------------------------------------------------------------
+  // Phase 2 checks — stricter, applied at PR submission time
+  // -----------------------------------------------------------------------
+
   // --- .about ---
   const aboutEl = card.find('.about')
   if (aboutEl.length === 0) {
     errors.push('Missing .about element')
   } else {
     const about = aboutEl.text().trim()
-    if (!about) {
-      errors.push('.about is empty')
-    } else if (about.toLowerCase() === PLACEHOLDERS.about) {
-      errors.push(`.about still contains the template placeholder ("${about}")`)
+    if (!about || about.toLowerCase() === 'about you') {
+      errors.push('.about is empty or still contains the template placeholder')
     }
   }
 
@@ -81,7 +101,7 @@ function validateCard($, { changedFiles = [] } = {}) {
     }
     links.each((i, link) => {
       const href = $(link).attr('href') || ''
-      if (href.includes(PLACEHOLDERS.contactHref)) {
+      if (href.includes('your_user_handle')) {
         errors.push(
           `.contact link ${i + 1} still uses the template href (contains "your_user_handle")`
         )
@@ -93,32 +113,19 @@ function validateCard($, { changedFiles = [] } = {}) {
   const resourcesEl = card.find('.resources')
   if (resourcesEl.length > 0) {
     const items = resourcesEl.find('li')
-
-    if (items.length > MAX_RESOURCES) {
-      errors.push(`.resources has ${items.length} items (maximum is ${MAX_RESOURCES})`)
+    if (items.length > 5) {
+      errors.push(`.resources has ${items.length} items (maximum is 5)`)
     }
-
     items.each((i, item) => {
       const link = $(item).find('a')
       const n = i + 1
-
       if (link.length === 0) {
         errors.push(`Resource ${n} has no <a> element`)
         return
       }
-
       const href = (link.attr('href') || '').trim()
-      const title = (link.attr('title') || '').trim()
-      const text = link.text().trim()
-
-      if (!href || href === PLACEHOLDERS.resourceHref) {
+      if (!href || href === '#') {
         errors.push(`Resource ${n} has a placeholder or empty href`)
-      }
-      if (!title || PLACEHOLDERS.resourceTitles.includes(title.toLowerCase())) {
-        errors.push(`Resource ${n} has a placeholder or empty title attribute`)
-      }
-      if (PLACEHOLDERS.resourceTexts.includes(text.toLowerCase())) {
-        errors.push(`Resource ${n} has placeholder link text ("${text}")`)
       }
     })
   }
