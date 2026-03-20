@@ -21,6 +21,7 @@ Owner has full admin access to the GitHub repo (branch protection, Actions, secr
 **Goal:** Merge as many card PRs as possible using automation. Reject only PRs that automation genuinely cannot salvage.
 
 **Approach:**
+
 - **Phase 1** (before v2 launch): Write an automated script/workflow to process old-format PRs in bulk
   - Extract each contributor's card from the `index.html` diff
   - Validate it (structure, required fields, valid HTML)
@@ -32,15 +33,17 @@ Owner has full admin access to the GitHub repo (branch protection, Actions, secr
 
 **The core problem:** All contributors currently edit the same `index.html`, causing constant merge conflicts and formatting corruption.
 
-**v2 Solution: One file per contributor (hybrid approach)**
+### v2 Solution: One file per contributor (hybrid approach)
 
 **Contribution flow:**
+
 - Contributor creates `cards/[username].html` containing only their `<div class="card">...</div>` block
 - PR touches only their own file — zero conflicts by design
 - Automation validates and merges the PR
 - Card appears live on the site
 
 **Assembly (recommendation: client-side dynamic loading):**
+
 - A GH Action maintains a `cards/manifest.json` listing all card filenames
 - On each PR merge, the Action appends the new card to the manifest and commits it
 - `script.js` fetches the manifest at runtime, then fetches each `cards/*.html` and renders it alongside archived cards
@@ -48,16 +51,18 @@ Owner has full admin access to the GitHub repo (branch protection, Actions, secr
 - No build step, no secrets needed, works entirely within free GitHub Actions/Pages
 
 **Automation levels:**
+
 - **Card PRs:** minimal to zero maintainer time — validate → auto-approve/merge → manifest updates → card is live
 - **Non-card PRs (translations, fixes, features):** semi-automated — maintainer reviews content/intent, tooling handles conflict resolution, formatting, and merge mechanics
 
 **Tutorial strategy:**
-- The main `README.md` becomes the v2 tutorial — it is the authoritative guide for all new contributors
-- The v1 tutorial is archived at `docs/tutorial_v1.md` as a reference, not a live guide
-- Translated READMEs reference the v1 flow and are clearly labelled as such (e.g. a notice at the top pointing to the main README for the current tutorial)
-- No forced migration of translations — they remain useful as language examples but are explicitly out of date; the community can update them over time
+
+- Create a new v2 tutorial (README_v2 or separate guide) for the new `cards/[username].html` flow
+- Keep the existing tutorial intact — translations remain valid for v1
+- Translations are updated over time by the community; no forced migration
 
 **Transition period:**
+
 - New PRs will continue arriving in the old format while we build v2
 - The Phase 1 backlog script will handle these as they come in
 - Once v2 is live, the repo prominently signals the new flow; old-format PRs get a friendly redirect
@@ -67,7 +72,7 @@ Owner has full admin access to the GitHub repo (branch protection, Actions, secr
 These are improvements that make the project easier to contribute to, maintain, and run — addressed after the two main workstreams are complete.
 
 | Item | Priority | Notes |
-|------|----------|-------|
+| ------ | ---------- | ------- |
 | Create `CONTRIBUTING.md` | High | Missing entirely; critical for a first-timer project (GH issue #4455) |
 | Stale bot timing | High | Currently closes PRs in 1–4 days — far too aggressive for first-timers; needs loosening |
 | Prettier upgrade | Medium | Pinned to `^1.18.2` (2018); upgrade to `^3.x` |
@@ -93,6 +98,7 @@ These are improvements that make the project easier to contribute to, maintain, 
 ---
 
 ## What This Spec Does NOT Cover Yet
+
 - Specific technical implementation details (to be planned in ROADMAP.md)
 - Exact GitHub Actions workflow design
 - Script implementation for backlog processing
