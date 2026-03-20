@@ -84,20 +84,22 @@ See validation module spec below. Returns `{ valid: boolean, errors: string[] }`
 
 #### Step 6: Prevent `index.html` bloat
 
-After every 10 merges (configurable), run:
+Auto-run after every 10 merges (not configurable — this is safety behaviour, not optional):
 
 ```js
 execSync('npm run archive_cards')
 ```
 
-This keeps `index.html` at ≤11 cards (template + 10). Mirrors existing logic in `archive/archive_cards_script.js:107`.
+`archive_cards` is idempotent — if `index.html` has ≤11 cards it exits immediately, so running it frequently has no downside. Keeps `index.html` at ≤11 cards (template + 10). Mirrors existing logic in `archive/archive_cards_script.js:107`.
+
+**Recommended run pattern:** `node process-backlog.js --batch 30`. Review log output after each batch, then re-run. The script must track processed PR numbers (write to a local `_v2/processed.json` file) so re-running never double-processes a PR.
 
 #### CLI flags
 
 | Flag | Behavior |
 | --- | --- |
 | `--dry-run` | Print what would happen; make no API calls |
-| `--batch N` | Process only the first N card PRs, then stop |
+| `--batch N` | Process only the first N card PRs, then stop (default: 30) |
 
 #### Rate limiting
 
@@ -120,9 +122,9 @@ await new Promise(resolve => setTimeout(resolve, 500))
    - `.name` text is not `"Your name"` (case-insensitive)
    - `.contact a` href is not `"#"`
    - `.about` text is not the template placeholder sentence
-3. Required elements present: `.name`, `.about`, `.contact`, `.resources`
-4. Exactly 3 `<li>` items inside `.resources ul`
-5. Each `<li>` has an `<a>` with:
+3. Required elements present: `.name`, `.about`, `.contact`
+4. `.resources` is optional; if present, between 0 and 5 `<li>` items inside `.resources ul`
+5. Each `<li>` that is present must have an `<a>` with:
    - `href` that is a real URL (not `"#"`, not empty)
    - `title` attribute that is non-empty
 6. Only `index.html` appears in the PR's changed files list (already checked in categorization, but re-assert here)
