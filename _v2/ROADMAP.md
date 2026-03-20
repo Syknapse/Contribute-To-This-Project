@@ -269,9 +269,11 @@ on:
 
 1. Read `cards/[username].html`
 2. Wrap in minimal HTML document:
+
    ```html
    <!DOCTYPE html><html><body>{{ card content }}</body></html>
    ```
+
 3. Run `html-validate` with `htmlvalidate.json` config (extends `html-validate:recommended`; key rules: `no-duplicate-id: error`, `attr-quotes: double`, `require-closing-tags: error`). The `doctype-html: error` rule applies to the wrapper, not the fragment.
 4. Run `validate-card.js` checks (same module from Phase 1) against the card file
 
@@ -281,9 +283,11 @@ on:
 gh pr review --approve
 gh pr merge --squash
 ```
+
 Uses `GITHUB_TOKEN` — no additional secrets required.
 
 **On failure:**
+
 - Post comment with specific errors and fix instructions
 - `exit 1` to fail the check
 
@@ -302,6 +306,7 @@ on:
 ```
 
 **Steps:**
+
 1. Checkout with `fetch-depth: 0`
 2. Set up Node.js 20
 3. Run `node _v2/scripts/update-manifest.js`
@@ -336,6 +341,7 @@ Ordered by priority. None of these block Phase 1 or Phase 2.
 Create at repo root. Target: under 300 lines.
 
 **Sections:**
+
 - Welcome (tone: encouraging, non-intimidating)
 - How to add your card — link to README v2 tutorial
 - What makes a valid PR — the exact validation rules in plain English (mirrors `validate-card.js` checks)
@@ -371,6 +377,7 @@ Create at repo root. Target: under 300 lines.
 **Current:** pinned to `^1.18.2` in `package.json`.
 
 **Steps:**
+
 1. `npm install --save-dev prettier@^3.x`
 2. Review `prettier.config.js` — `arrowParens: 'always'` is now the v3 default (can be removed or left explicit)
 3. Run `npm run prettier-html` to reformat `index.html`
@@ -384,6 +391,7 @@ Create at repo root. Target: under 300 lines.
 **Change:** Rename `.github/workflows/.travis.yml` to `.github/workflows/ci.yml`.
 
 **Also update:**
+
 - Any README or translation files that reference `.travis.yml` by name
 - The workflow `name:` field is already `Continuous Integration` — no change needed there
 
