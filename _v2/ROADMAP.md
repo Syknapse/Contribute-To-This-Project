@@ -15,7 +15,13 @@
 
 ---
 
-## Phase 1 — Backlog Processing Script
+## Phase 1 — Backlog Processing Script ✅ COMPLETE (2026-03-21)
+
+> **Result:** 173 cards injected and PRs closed. 19 labeled `changes-requested`. 30 labeled `maintainer-review`.
+> 10 PRs still open (all non-card or unfixable). State tracked in `_v2/scripts/processed.json`.
+> **Next: Phase 2.**
+
+---
 
 ### Overview
 

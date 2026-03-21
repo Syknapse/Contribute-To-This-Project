@@ -1,5 +1,9 @@
 # Phase 1 — Backlog Processing Scripts
 
+> **Status: COMPLETE** (2026-03-21)
+> 173 contributor cards processed. 10 PRs remain open (9 `maintainer-review`, 1 `changes-requested`).
+> All state is in `processed.json`. Ready for Phase 2.
+
 ## Quick start (Monday morning)
 
 ```bash
