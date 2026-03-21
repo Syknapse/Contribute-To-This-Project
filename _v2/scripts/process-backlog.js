@@ -196,11 +196,11 @@ async function applyPendingMerges(pendingMerges, processed) {
   console.log('  Running prettier...')
   execSync('npm run prettier-html', { stdio: 'pipe' })
 
-  // Commit
+  // Commit — include index.html, any new archive JSON files, and archiveFilesTotal.js
   const prList = pendingMerges.map(m => `#${m.number}`).join(' ')
   const commitMsg = `feat: add ${pendingMerges.length} contributor card(s) from backlog ${prList} [skip ci]`
   fs.writeFileSync(TMP_COMMIT_MSG_FILE, commitMsg)
-  execSync('git add index.html', { stdio: 'pipe' })
+  execSync('git add index.html archive/archiveFilesTotal.js "archive/cards/"', { stdio: 'pipe' })
   execSync(`git commit -F "${TMP_COMMIT_MSG_FILE}"`, { stdio: 'inherit' })
   fs.unlinkSync(TMP_COMMIT_MSG_FILE)
 
