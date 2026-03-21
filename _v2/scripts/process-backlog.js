@@ -4,10 +4,19 @@
 /**
  * Contribute-To-This-Project — backlog processing script
  *
- * Usage:
+ * Usage (must be run from the master branch):
+ *   git checkout master && git pull origin master
  *   node _v2/scripts/process-backlog.js [--dry-run] [--batch N]
  *
+ * Strategy for valid card PRs:
+ *   Rather than merging the PR branch (which conflicts on index.html for every
+ *   old PR), we extract the contributor's card from the diff and inject it
+ *   directly into index.html on master. This bypasses merge conflicts entirely.
+ *   At the end of each batch, all queued cards are committed and pushed together,
+ *   then each PR is commented on and closed.
+ *
  * Prerequisites:
+ *   - Run from master branch (script will check and exit if not)
  *   - gh CLI authenticated (gh auth login)
  *   - npm install already run (cheerio must be available)
  *   - Run from repo root
@@ -29,8 +38,10 @@ const { welcomeComment, invalidComment, maintainerReviewComment } = require('./b
 
 const PROCESSED_FILE = path.resolve(__dirname, 'processed.json')
 const TMP_COMMENT_FILE = path.resolve(__dirname, '.tmp-comment.md')
+const TMP_COMMIT_MSG_FILE = path.resolve(__dirname, '.tmp-commit-msg.txt')
+const INDEX_FILE = path.resolve(process.cwd(), 'index.html')
+const TEMPLATE_END_MARKER = '<!-- ________ *TEMPLATE* Contributor card END ________  -->'
 const DELAY_MS = 500
-const ARCHIVE_EVERY = 10
 const DEFAULT_BATCH = 30
 
 // ---------------------------------------------------------------------------
@@ -82,8 +93,7 @@ function gh(cmd) {
 
 function postComment(number, body) {
   if (DRY_RUN) {
-    const preview = body.split('\n')[0]
-    console.log(`  [dry-run] Would comment on #${number}: "${preview}..."`)
+    console.log(`  [dry-run] Would comment on #${number}: "${body.split('\n')[0]}..."`)
     return
   }
   fs.writeFileSync(TMP_COMMENT_FILE, body)
@@ -102,12 +112,12 @@ function addLabel(number, label) {
   gh(`pr edit ${number} --add-label "${label}"`)
 }
 
-function mergeSquash(number) {
+function closePr(number) {
   if (DRY_RUN) {
-    console.log(`  [dry-run] Would merge #${number} --squash`)
+    console.log(`  [dry-run] Would close #${number}`)
     return
   }
-  gh(`pr merge ${number} --squash --delete-branch`)
+  gh(`pr close ${number}`)
 }
 
 function runArchive() {
@@ -120,12 +130,11 @@ function runArchive() {
 }
 
 // ---------------------------------------------------------------------------
-// Card extraction
+// Card extraction and injection
 // ---------------------------------------------------------------------------
 
 /**
- * Extract the added lines from a unified diff and load them into cheerio.
- * Returns a cheerio instance so validate-card.js can query it.
+ * Load the added lines of a unified diff into a cheerio instance.
  */
 function extractCardFromDiff(diff) {
   const addedLines = diff
@@ -133,8 +142,100 @@ function extractCardFromDiff(diff) {
     .filter(l => l.startsWith('+') && !l.startsWith('+++'))
     .map(l => l.slice(1))
     .join('\n')
-
   return cheerio.load(addedLines, { xmlMode: false })
+}
+
+/**
+ * Get the outer HTML of the .card div from a cheerio instance.
+ */
+function extractCardHtml($) {
+  return $.html($('.card').first())
+}
+
+/**
+ * Insert a card HTML block into index.html content, right after the template end marker.
+ * Prettier will normalise indentation on commit.
+ */
+function insertCardIntoHtml(indexHtml, cardHtml) {
+  if (!indexHtml.includes(TEMPLATE_END_MARKER)) {
+    throw new Error('Template end marker not found in index.html')
+  }
+  return indexHtml.replace(TEMPLATE_END_MARKER, `${TEMPLATE_END_MARKER}\n\n        ${cardHtml.trim()}`)
+}
+
+// ---------------------------------------------------------------------------
+// Batch commit & push
+// ---------------------------------------------------------------------------
+
+/**
+ * Apply all pending card injections to index.html, commit, and push to master.
+ * Then post welcome comments and close each PR.
+ */
+async function applyPendingMerges(pendingMerges, processed) {
+  if (pendingMerges.length === 0) return 0
+
+  if (DRY_RUN) {
+    console.log(`\n  [dry-run] Would inject ${pendingMerges.length} cards into index.html, commit [skip ci], push, then close PRs`)
+    return pendingMerges.length
+  }
+
+  console.log(`\nInjecting ${pendingMerges.length} card(s) into index.html...`)
+
+  // Pull latest master before modifying
+  execSync('git pull origin master', { stdio: 'inherit' })
+
+  // Insert all cards
+  let html = fs.readFileSync(INDEX_FILE, 'utf-8')
+  for (const { number, authorLogin, cardHtml } of pendingMerges) {
+    html = insertCardIntoHtml(html, cardHtml)
+    console.log(`  Inserted @${authorLogin} (#${number})`)
+  }
+  fs.writeFileSync(INDEX_FILE, html)
+
+  // Format
+  console.log('  Running prettier...')
+  execSync('npm run prettier-html', { stdio: 'pipe' })
+
+  // Commit
+  const prList = pendingMerges.map(m => `#${m.number}`).join(' ')
+  const commitMsg = `feat: add ${pendingMerges.length} contributor card(s) from backlog ${prList} [skip ci]`
+  fs.writeFileSync(TMP_COMMIT_MSG_FILE, commitMsg)
+  execSync('git add index.html', { stdio: 'pipe' })
+  execSync(`git commit -F "${TMP_COMMIT_MSG_FILE}"`, { stdio: 'inherit' })
+  fs.unlinkSync(TMP_COMMIT_MSG_FILE)
+
+  // Push (retry once on failure)
+  console.log('  Pushing to master...')
+  try {
+    execSync('git push origin master', { stdio: 'inherit' })
+  } catch {
+    console.log('  Push failed — pulling and retrying...')
+    execSync('git pull --rebase origin master', { stdio: 'inherit' })
+    execSync('git push origin master', { stdio: 'inherit' })
+  }
+
+  // Post comments + close PRs
+  console.log('  Posting comments and closing PRs...')
+  for (const { number, authorLogin } of pendingMerges) {
+    try {
+      await sleep(DELAY_MS)
+      postComment(number, welcomeComment(authorLogin))
+      await sleep(DELAY_MS)
+      closePr(number)
+      processed[number] = 'merged'
+      saveProcessed(processed)
+    } catch (e) {
+      console.log(`  WARNING: could not comment/close #${number}: ${e.message.split('\n')[0]}`)
+      processed[number] = 'merged:comment-failed'
+      saveProcessed(processed)
+    }
+  }
+
+  // Archive to keep index.html tidy
+  runArchive()
+  console.log()
+
+  return pendingMerges.length
 }
 
 // ---------------------------------------------------------------------------
@@ -147,6 +248,20 @@ async function main() {
   console.log(`  Mode: ${DRY_RUN ? 'DRY RUN (no changes will be made)' : 'LIVE'}`)
   console.log(`  Batch size: ${BATCH}`)
   console.log('═══════════════════════════════════════════════════\n')
+
+  // Guard: must be on master for direct injection to work
+  if (!DRY_RUN) {
+    const branch = execSync('git rev-parse --abbrev-ref HEAD', { encoding: 'utf-8' }).trim()
+    if (branch !== 'master') {
+      console.error(`Error: must be run from the master branch (currently on "${branch}")`)
+      console.error('Run: git checkout master && git pull origin master')
+      process.exit(1)
+    }
+    // Pull before starting
+    console.log('Pulling latest master...')
+    execSync('git pull origin master', { stdio: 'inherit' })
+    console.log()
+  }
 
   const processed = loadProcessed()
   const alreadyProcessedCount = Object.keys(processed).length
@@ -161,9 +276,9 @@ async function main() {
   )
   console.log(`Found ${prs.length} open PRs\n`)
 
-  let mergeCount = 0
   let batchCount = 0
   let skipCount = 0
+  const pendingMerges = [] // queued for batch commit at end
   const results = { merged: [], invalid: [], maintainerReview: [], skipped: [], errors: [] }
 
   for (const pr of prs) {
@@ -194,7 +309,7 @@ async function main() {
       continue
     }
 
-    if (labelNames.some(l => ['maintainer-review', 'changes-requested'].includes(l))) {
+    if (labelNames.some(l => ['maintainer-review', 'changes requested'].includes(l))) {
       console.log(`#${number} — already labeled (${labelNames.join(', ')}), skipping`)
       processed[number] = 'skipped:already-labeled'
       saveProcessed(processed)
@@ -213,10 +328,19 @@ async function main() {
     // ── Non-card PR ────────────────────────────────────────────────────────
 
     if (!isCardPr) {
-      await sleep(DELAY_MS)
-      addLabel(number, 'maintainer-review')
-      await sleep(DELAY_MS)
-      postComment(number, maintainerReviewComment(authorLogin))
+      try {
+        await sleep(DELAY_MS)
+        addLabel(number, 'maintainer-review')
+        await sleep(DELAY_MS)
+        postComment(number, maintainerReviewComment(authorLogin))
+      } catch (e) {
+        console.log(`  ERROR on #${number}: ${e.message.split('\n')[0]}`)
+        processed[number] = 'error:label-failed'
+        saveProcessed(processed)
+        results.errors.push(number)
+        batchCount++
+        continue
+      }
       processed[number] = 'labeled:maintainer-review'
       saveProcessed(processed)
       results.maintainerReview.push(number)
@@ -231,7 +355,7 @@ async function main() {
     try {
       diff = gh(`pr diff ${number}`)
     } catch (e) {
-      console.log(`  ERROR fetching diff for #${number}: ${e.message}`)
+      console.log(`  ERROR fetching diff for #${number}: ${e.message.split('\n')[0]}`)
       processed[number] = 'error:diff-fetch'
       saveProcessed(processed)
       results.errors.push(number)
@@ -245,29 +369,29 @@ async function main() {
     const result = validateCard($, { changedFiles })
 
     if (result.valid) {
-      console.log('  ✓ Valid')
-      await sleep(DELAY_MS)
-      postComment(number, welcomeComment(authorLogin))
-      await sleep(DELAY_MS)
-      mergeSquash(number)
-      processed[number] = 'merged'
+      const cardHtml = extractCardHtml($)
+      console.log('  ✓ Valid — queued for injection')
+      pendingMerges.push({ number, authorLogin, cardHtml })
+      // Mark as pending so a crash mid-batch doesn't reprocess
+      processed[number] = 'pending'
       saveProcessed(processed)
-      results.merged.push(number)
-      mergeCount++
-
-      // Run archive every N merges to keep index.html tidy
-      if (mergeCount % ARCHIVE_EVERY === 0) {
-        console.log(`\n  [archive] ${mergeCount} merges reached — running archive_cards`)
-        runArchive()
-        console.log()
-      }
+      results.merged.push(number) // optimistic; corrected to 'merged' in applyPendingMerges
     } else {
       console.log(`  ✗ Invalid — ${result.errors.length} error(s):`)
       result.errors.forEach(e => console.log(`    · ${e}`))
-      await sleep(DELAY_MS)
-      postComment(number, invalidComment(authorLogin, result.errors))
-      await sleep(DELAY_MS)
-      addLabel(number, 'changes-requested')
+      try {
+        await sleep(DELAY_MS)
+        postComment(number, invalidComment(authorLogin, result.errors))
+        await sleep(DELAY_MS)
+        addLabel(number, 'changes requested')
+      } catch (e) {
+        console.log(`  ERROR on #${number}: ${e.message.split('\n')[0]}`)
+        processed[number] = 'error:label-failed'
+        saveProcessed(processed)
+        results.errors.push(number)
+        batchCount++
+        continue
+      }
       processed[number] = 'labeled:changes-requested'
       saveProcessed(processed)
       results.invalid.push(number)
@@ -276,18 +400,16 @@ async function main() {
     batchCount++
   }
 
-  // Final archive run if we ended mid-cycle
-  if (!DRY_RUN && mergeCount > 0 && mergeCount % ARCHIVE_EVERY !== 0) {
-    console.log('\nRunning final archive_cards...')
-    runArchive()
-  }
+  // ── Apply all queued card injections ───────────────────────────────────────
 
-  // ── Summary ──────────────────────────────────────────────────────────────
+  const mergeCount = await applyPendingMerges(pendingMerges, processed)
 
-  console.log('\n═══════════════════════════════════════════════════')
+  // ── Summary ───────────────────────────────────────────────────────────────
+
+  console.log('═══════════════════════════════════════════════════')
   console.log('  Summary')
   console.log('═══════════════════════════════════════════════════')
-  console.log(`  Merged:            ${results.merged.length}`)
+  console.log(`  Injected & closed: ${mergeCount}`)
   console.log(`  Needs fixes:       ${results.invalid.length}`)
   console.log(`  Maintainer review: ${results.maintainerReview.length}`)
   console.log(`  Skipped:           ${skipCount}`)

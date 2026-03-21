@@ -9,9 +9,9 @@ const README_URL = `https://github.com/${REPO}#readme`
 function welcomeComment(author) {
   return `Hi @${author}! 👋
 
-Your contributor card looks great — merging this now. ✅
+Your contributor card has been applied and is now live on the [project site](https://syknapse.github.io/${REPO.split('/')[1]}/). ✅
 
-Your card will appear on the [live site](https://syknapse.github.io/${REPO.split('/')[1]}/) shortly. Welcome to the project, and thank you for contributing! 🎉`
+This PR is being closed rather than merged because \`index.html\` has had many updates since you submitted — your card was extracted from the diff and added directly to keep things clean. Your contribution is fully credited in the commit. Welcome to the project, and thank you! 🎉`
 }
 
 /**
