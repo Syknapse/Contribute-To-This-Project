@@ -1,0 +1,708 @@
+[
+  {
+    "name": "Himanshu Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/h1manshu-kumar",
+        "handle": "Himanshu Kumar"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/H1manshu-Kumar",
+        "handle": "H1manshu-Kumar"
+      }
+    ],
+    "about": "A passionate software engineer from India!!! I’m currently learning DevOps | AWS, Linux, Scripts, GITOps,\n            CI/CD, Jenkins, Docker, Kubernetes, Ansible, many more...",
+    "resources": [
+      {
+        "title": "Second Resource",
+        "link": "https://www.youtube.com/@AbhishekVeeramalla",
+        "text": "DevOps Zero-to-hero"
+      },
+      {
+        "title": "First Resource",
+        "link": "https://www.trainwithshubham.com/",
+        "text": "DevOps Tutorial"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://www.geeksforgeeks.org/devops-tutorial/",
+        "text": "DevOps Notes"
+      }
+    ]
+  },
+  {
+    "name": "Mariam",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/mariam-omar-ayoub",
+        "handle": "mariam-omar-ayoub"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/mariam138",
+        "handle": "mariam138"
+      }
+    ],
+    "about": "Hi I'm Mariam! Just getting started in the tech industry. Huge Ateez lover, Seonghwa is my ult. Obsessed\n            with the colour purple. Dying to have a sausage dog as a pet.",
+    "resources": [
+      {
+        "title": "Convert your tables into markdown!",
+        "link": "https://tabletomarkdown.com/",
+        "text": "tabletomarkdown.com"
+      },
+      {
+        "title": "Some free API's to use in your code",
+        "link": "https://www.freepublicapis.com/",
+        "text": "freepublicapis.com"
+      },
+      {
+        "title": "A visual debugger for Python, Java, C, C++ and JavaScript",
+        "link": "https://pythontutor.com/",
+        "text": "pythontutor.com"
+      }
+    ]
+  },
+  {
+    "name": "Vatsal",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/patelbvatsal/",
+        "handle": "patelbvatsal"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/vatsalpb",
+        "handle": "vatsalpb"
+      }
+    ],
+    "about": "A highly skilled and accomplished Principal Software Engineer with a proven track record of success in\n            developing and maintaining complex software systems. Possesses a deep understanding of software engineering\n            principles and a strong command of various programming languages and tools. Adept at collaborating with\n            cross-functional teams to deliver high-quality solutions that meet customer requirements.",
+    "resources": [
+      {
+        "title": "Web-Dev-For-Beginners",
+        "link": "https://github.com/microsoft/Web-Dev-For-Beginners",
+        "text": "Resource 1"
+      },
+      {
+        "title": "Project Based Learning",
+        "link": "https://github.com/practical-tutorials/project-based-learning",
+        "text": "Resource 2"
+      },
+      {
+        "title": "Hiring Without Whiteboards",
+        "link": "https://github.com/poteto/hiring-without-whiteboards",
+        "text": "Resource 3"
+      }
+    ]
+  },
+  {
+    "name": "SAKET KUMAR",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/@saket_28012004",
+        "handle": "@saket_28012004"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/https://github.com/saketkumar28",
+        "handle": "saketkumar28"
+      }
+    ],
+    "about": "about you",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "#",
+        "text": "Angela yu's Udemy courses"
+      },
+      {
+        "title": "Second Resource",
+        "link": "#",
+        "text": "Courses from brian holt"
+      },
+      {
+        "title": "Third resource",
+        "link": "#",
+        "text": "MDN docs"
+      }
+    ]
+  },
+  {
+    "name": "Shaishav",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/shaishav007",
+        "handle": "@shaishav007"
+      }
+    ],
+    "about": "I am really grateful this project exists.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.youtube.com/watch?v=JnTPd9G6hoY",
+        "text": "Kevin Powell basic CSS"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.youtube.com/watch?v=nDLb8_wgX50",
+        "text": "David Goggins mindset"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://www.youtube.com/watch?v=jmgsgjPn1vs",
+        "text": "Live Overflow on basics"
+      }
+    ]
+  },
+  {
+    "name": "Rohan Patil",
+    "contacts": [
+      {
+        "icon": "fab fa-x-instagram",
+        "link": "https://www.instagram.com/rohxnp",
+        "handle": "Instagram"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/rohanongithub",
+        "handle": "Github"
+      }
+    ],
+    "about": "New to web development. This could just be the start, more to expect in the upcoming years",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.udemy.com/share/101qYw3@wfjgTXgfscDNDDwBQATvupXbhCcnIcgY9Lul0WQLHnDDo991zLlOLB42LGXI947_Uw==/",
+        "text": "Udemy Full Stack Course"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.reactbits.dev/",
+        "text": "React Bits for Visuals"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://www.duyle.dev/",
+        "text": "Portfolio Inspiration"
+      }
+    ]
+  },
+  {
+    "name": "Dorian Alexander Tituaña Pulupa",
+    "contacts": [
+      {
+        "icon": "fa-solid fa-headset",
+        "link": "https://www.twitter.com/your_user_handle",
+        "handle": "Your handle"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/your_user_handle",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "Estudiante de la carrera de ingenieria en Software de la EPN",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://github.com/topics/good-first-issue",
+        "text": "GitHub"
+      }
+    ]
+  },
+  {
+    "name": "Sheba",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/your_handle",
+        "handle": "sheba mugisha"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Sheba02",
+        "handle": "Sheba02"
+      }
+    ],
+    "about": "I am a Business Computing student, passionate about learning programming and contributing to open-source\n            projects.",
+    "resources": [
+      {
+        "title": "JavaScript Guide",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+        "text": "JavaScript Guide"
+      },
+      {
+        "title": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "FreeCodeCamp"
+      },
+      {
+        "title": "Git Documentation",
+        "link": "https://www.git-scm.com/doc",
+        "text": "Git Documentation"
+      }
+    ]
+  },
+  {
+    "name": "Davi P. Oliveira",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/your_user_handle",
+        "handle": "@davi-p-oliveira-11"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/davi-p-oliveira-11",
+        "handle": "davi-p-oliveira-11"
+      }
+    ],
+    "about": "Full-Stack Developer | Web3 Enthusiast React | Angular | Node.js (Express/Fastify/Nest) | Java (Spring Boot)",
+    "resources": [
+      {
+        "title": "DSA Java",
+        "link": "https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d",
+        "text": "Data Structures and Algorithms in Java"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.freecodecamp.org/",
+        "text": "FreeCodeCamp"
+      },
+      {
+        "title": "Harvard  CS",
+        "link": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+        "text": "CS50: Introduction to Computer Science (Harvard)"
+      }
+    ]
+  },
+  {
+    "name": "Umer Aslam",
+    "contacts": [
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/in/umer-aslam-dev/",
+        "handle": "Umer Aslam"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/umeraslam00",
+        "handle": "umeraslam00"
+      }
+    ],
+    "about": "I am a web developer (MERN STACK) and a content writer.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "http://www.umeraslam.com/",
+        "text": "Umer Aslam"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.npmjs.com/",
+        "text": "NPM JS"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://redux-toolkit.js.org/",
+        "text": "Redux Toolkit"
+      }
+    ]
+  },
+  {
+    "name": "Yousaf Arbaz",
+    "contacts": [
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.twitter.com/your_user_handle",
+        "handle": "arbazyousaf"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/arbaz93",
+        "handle": "arbaz93"
+      }
+    ],
+    "about": "Passionate about programming and experiencing new things!",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.youtube.com/@javascriptmastery",
+        "text": "JS Mastery"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.frontendmentor.io/challenges",
+        "text": "Front End Mentors"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      }
+    ]
+  },
+  {
+    "name": "Sagar TAunk",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/sagartaunk2",
+        "handle": "sagartaunk2"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/sagartaunk",
+        "handle": "sagartaunk"
+      }
+    ],
+    "about": "Am 17 years old jus started learning to code , aim to make a buttload of projects on github slowly",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "GeeksforGeeks/a>"
+      },
+      {
+        "title": "First Resource",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "Udemy"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://www.xda-developers.com/",
+        "text": "xda-developers"
+      }
+    ]
+  },
+  {
+    "name": "Paco",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "",
+        "handle": "No twitter :c"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Pacotacou",
+        "handle": "Pacotacou"
+      }
+    ],
+    "about": "Computer and systems engineering student. I like dogs 🐕.",
+    "resources": [
+      {
+        "title": "Good start",
+        "link": "#",
+        "text": "Sololearn"
+      },
+      {
+        "title": "Free certifications!",
+        "link": "#",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Nice docs",
+        "link": "#",
+        "text": "W3Schools"
+      }
+    ]
+  },
+  {
+    "name": "Nayamat-E-Meet",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/meet_e70532",
+        "handle": "@your_twitter_handle"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/NAYAMATVISION",
+        "handle": "@your_github_handle"
+      }
+    ],
+    "about": "Aspiring AI Engineer | Passionate about Open Source | First-Year B.Tech CSE-AI Student",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "Roadmap.sh"
+      },
+      {
+        "title": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org",
+        "text": "FreeCodeCamp"
+      },
+      {
+        "title": "Harvard CS50 Course",
+        "link": "https://cs50.harvard.edu/",
+        "text": "Harvard CS50"
+      }
+    ]
+  },
+  {
+    "name": "Gobinath Venkatachalam",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/vgobinathh",
+        "handle": "vgobinathh"
+      }
+    ],
+    "about": "I'm a Full-Stack Developer with expertise in .NET (C#, ASP.NET Core, Microservices) and React.",
+    "resources": [
+      {
+        "title": "",
+        "link": "https://flowiseai.com/",
+        "text": "Build LLM Apps Easily"
+      },
+      {
+        "title": "",
+        "link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/",
+        "text": "CSS Grid"
+      },
+      {
+        "title": "",
+        "link": "https://tanstack.com/query/latest/docs/framework/react/overview",
+        "text": "React Query"
+      }
+    ]
+  },
+  {
+    "name": "Veldrine Evelia Kaharwa",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/EVeldrine",
+        "handle": "@EVeldrine"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Tech-Vexy",
+        "handle": "Tech-Vexy"
+      }
+    ],
+    "about": "I like writing code and working on projects.",
+    "resources": [
+      {
+        "title": "HTMLrev",
+        "link": "https://htmlrev.com/",
+        "text": "free HTML templates"
+      },
+      {
+        "title": "Responsive Web Design",
+        "link": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+        "text": "Responsive Web Design"
+      },
+      {
+        "title": "The Odin Project",
+        "link": "https://www.theodinproject.com/",
+        "text": "The Odin Project"
+      }
+    ]
+  },
+  {
+    "name": "Teemu",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/",
+        "handle": "Link to Twitter"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/ooperinteemu",
+        "handle": "GitHub: ooperinteemu"
+      }
+    ],
+    "about": "I'm a student at IT-field and I respect open source projects and privacy.",
+    "resources": [
+      {
+        "title": "Docker",
+        "link": "https://www.docker.com/",
+        "text": "Docker"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Chrome DevTools",
+        "link": "https://developer.chrome.com/docs/devtools",
+        "text": "Chrome DevTools"
+      }
+    ]
+  },
+  {
+    "name": "Jivi",
+    "contacts": [
+      {
+        "icon": "fab fa-instagram",
+        "link": "https://www.instagram.com/orphic.nari/",
+        "handle": "Orphic nari"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Jivi-this-side",
+        "handle": "Jivi-this-side"
+      }
+    ],
+    "about": "Hey,there! Myself Jivi ~_~. Just exploring Tech world to increase the probability of my dreams to become\n            reality! Good day and Thank you!!",
+    "resources": [
+      {
+        "title": "DSA Resource",
+        "link": "https://www.youtube.com/watch?v=rZ41y93P2Qo&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+        "text": "Kushal K - DSA (available on Youtube)"
+      },
+      {
+        "title": "All over Tech stacks Resource",
+        "link": "https://www.freecodecamp.org/",
+        "text": "Free CodeCamp"
+      },
+      {
+        "title": "CP to Job prep resource",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "GeeksforGeeks"
+      }
+    ]
+  },
+  {
+    "name": "Harsh",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/MariaTseytlin",
+        "handle": "Harsh"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/hk_212",
+        "handle": "Harsh"
+      }
+    ],
+    "about": "Hey i am Harsh currently a cmputer engineer student and in 3rd year.",
+    "resources": [
+      {
+        "title": "Udemy - has the best courses",
+        "link": "https://www.udemy.com/",
+        "text": "Udemy"
+      },
+      {
+        "title": "W3 Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3 Schools"
+      },
+      {
+        "title": "A great video about when you shouldn't use boolean functions",
+        "link": "https://www.youtube.com/watch?v=8XJzdjhVrpw",
+        "text": "The problem with boolean functions"
+      }
+    ]
+  },
+  {
+    "name": "Vailen",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/vailensz",
+        "handle": "Your handle"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/vailenz",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "about you",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "#",
+        "text": "Hey I am a python dev"
+      },
+      {
+        "title": "Second Resource",
+        "link": "#",
+        "text": "Currently planning to become a full stack developer"
+      },
+      {
+        "title": "Third resource",
+        "link": "#",
+        "text": "Feel free to check my github"
+      }
+    ]
+  },
+  {
+    "name": "Jonus Green",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/JonusGreen",
+        "handle": "Jonus Green"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/jonusgreen",
+        "handle": "Jonus Green"
+      }
+    ],
+    "about": "Web Developer; Graphic Designer I develop Web applications, Mobile applications, Websies, Systems and\n            Designing flyers, Banners, Business cards,Book covers , barcodes and book interior Design for KDP and\n            others.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://jonusgreen.github.io/jonus_web/",
+        "text": "Resume"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.linkedin.com/in/ashaba-jonus-235978267/",
+        "text": "Linkin"
+      },
+      {
+        "title": "Third resource",
+        "link": "#",
+        "text": "facebook"
+      }
+    ]
+  },
+  {
+    "name": "Lakshay Bisht",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/lakshaybxt",
+        "handle": "lakshaybxt"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/lakshaybxt",
+        "handle": "lakshaybxt"
+      }
+    ],
+    "about": "Hey!! I'm Lakshay Bisht a Java Developer enthusiasm and just trying to make a change that can bring a",
+    "resources": [
+      {
+        "title": "It'a very good resource to learn and practice Data Structures & Algorithms.",
+        "link": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+        "text": "TakeUForward"
+      },
+      {
+        "title": "It's a nice YT channel for Indian folks to learn about web development.",
+        "link": "https://www.youtube.com/@harkirat1/videos",
+        "text": "Harkirat Singh"
+      },
+      {
+        "title": "Everyone knows him.",
+        "link": "https://www.youtube.com/@Fireship/videos",
+        "text": "Tech Updates"
+      }
+    ]
+  }
+]
