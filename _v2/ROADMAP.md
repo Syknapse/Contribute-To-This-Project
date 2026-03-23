@@ -229,19 +229,37 @@ Same module used in Phase 1, but called with `mode: 'phase2'` (applied to `cards
 
 1. Phase 1 complete ✓
 2. Run `npm run archive_cards` (with temporary `minimumCardCount = 1`) until `index.html` has only the template card ✓ (done on branch)
-3. Create `cards/` directory with `cards/template.html` (extracted from `index.html` template card)
-4. Write `_v2/scripts/card-to-archive.js` (reusing extraction functions from `archive/archive_cards_script.js`)
-5. Deploy `validate-card-pr.yml` and `card-to-archive.yml`
-6. Rewrite `README.md` as v2 tutorial; archive old tutorial content to `docs/tutorial_v1.md`
-7. Add redirect notice to `translations/README.*.md` files
-8. Rename `.travis.yml` → `ci.yml`; extend `files` glob to cover `cards/*.html`
-9. **Pre-merge cleanup on master** (do this immediately before merging the branch):
-   - Switch to master
-   - Temporarily set `minimumCardCount = 1` in `archive/archive_cards_script.js`
-   - Run `npm run archive_cards` until `index.html` is template-only (clears cards accumulated since Phase 1)
-   - Restore `minimumCardCount = 11`, commit on master
-   - Merge `refactor/version_2` — both sides are template-only, no conflict
-10. Push merged master; verify live page with a test PR (`cards/test-username.html`)
+3. Create `cards/` directory with `cards/template.html` ✓
+4. Write `_v2/scripts/card-to-archive.js` ✓
+5. Deploy `validate-card-pr.yml` and `card-to-archive.yml` ✓
+6. Rewrite `README.md`; archive old tutorial to `docs/tutorial_v1.md` ✓
+7. Add redirect notice to `translations/README.*.md` ✓
+8. Rename `.travis.yml` → `ci.yml` ✓
+9. Write `CONTRIBUTING.md`
+10. **Pre-merge pass on master** (run on master immediately before the final merge):
+    - Run `_v2/scripts/check-fixed-prs.js` — scans all open `changes-requested` PRs for valid cards (using phase1 lenient validation), injects and closes any that have been fixed since Phase 1, same approach as `process-backlog.js`
+    - Run `npm run archive_cards` (temporary `minimumCardCount = 1`) to drain any new cards that accumulated in `index.html` since Phase 1 — commit on master
+    - Merge `refactor/version_2` into master — both sides are template-only, no conflict
+11. **Post-merge notifications** (run on master after the merge):
+    - Run `_v2/scripts/notify-v1-prs.js` — posts a friendly v2 migration comment on every remaining open PR that still targets `index.html`, telling contributors to re-submit via the new `cards/` flow
+12. Push master; verify live page with a test PR (`cards/test-username.html`)
+
+### Scripts to write before step 10
+
+**`_v2/scripts/check-fixed-prs.js`**
+- Fetch all open PRs with label `changes-requested`
+- For each: extract card HTML from diff (same approach as `process-backlog.js`)
+- Validate with `validate-card.js` phase1 mode
+- If valid: inject into `index.html`, commit `[skip ci]`, push, close PR with a success comment (reuse `welcomeComment` from `backlog-messages.js`)
+- If still invalid: skip (leave for `notify-v1-prs.js`)
+- Idempotent: respects `_v2/scripts/processed.json` — skips already-processed PRs
+
+**`_v2/scripts/notify-v1-prs.js`**
+- Fetch all open PRs that change `index.html` (covers `changes-requested` and any stale `maintainer-review` card PRs)
+- Skip any already in `processed.json`
+- Post a single comment explaining the new flow: the contributor should open a fresh PR adding `cards/their-username.html` instead
+- Do NOT close — leave that to the stale bot or the contributor
+- Mark each notified PR in `processed.json` to prevent double-posting
 
 ---
 
