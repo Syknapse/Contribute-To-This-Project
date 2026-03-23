@@ -1,10 +1,12 @@
 name: Archive Card
 
-# Triggered when a card file lands on master (after validate-card-pr.yml merges it).
-# Converts cards/[username].html to JSON archive format, deletes the file,
-# and commits with [skip ci] to avoid triggering this workflow again.
+# Triggered when a card PR is merged into master.
+# Uses pull_request_target:[closed] instead of push so that it fires even when
+# the merge was performed by GITHUB_TOKEN (push events from Actions tokens are
+# suppressed to prevent loops, but PR-closed events are not).
 on:
-  push:
+  pull_request_target:
+    types: [closed]
     branches: [master]
     paths:
       - 'cards/*.html'
@@ -15,10 +17,13 @@ permissions:
 jobs:
   archive:
     runs-on: ubuntu-latest
+    # Only run if the PR was actually merged (not just closed)
+    if: github.event.pull_request.merged == true
     steps:
       - name: Checkout master
         uses: actions/checkout@v4
         with:
+          ref: master
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -29,30 +34,36 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Get added card files
-        id: changed
-        uses: tj-actions/changed-files@v46
-        with:
-          files: 'cards/*.html'
-          files_ignore: 'cards/template.html'
-
-      - name: Archive each new card
-        if: steps.changed.outputs.added_files != ''
+      - name: Get added card file from PR
+        id: card
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          for FILE in ${{ steps.changed.outputs.added_files }}; do
-            echo "Formatting and archiving $FILE..."
-            npx prettier --write "$FILE"
-            node scripts/card-to-archive.js "$(basename "$FILE")"
-          done
+          CARD_FILE=$(gh pr view ${{ github.event.pull_request.number }} --json files \
+            --jq '.files[].path' | grep '^cards/' | grep -v 'template\.html' || true)
+          echo "file=${CARD_FILE}" >> "$GITHUB_OUTPUT"
+          if [ -z "$CARD_FILE" ]; then
+            echo "No card file found in PR — skipping."
+          else
+            echo "Card file: $CARD_FILE"
+          fi
 
-      - name: Commit archived cards
-        if: steps.changed.outputs.added_files != ''
+      - name: Archive card
+        if: steps.card.outputs.file != ''
+        run: |
+          FILE="${{ steps.card.outputs.file }}"
+          echo "Formatting and archiving $FILE..."
+          npx prettier --write "$FILE"
+          node scripts/card-to-archive.js "$(basename "$FILE")"
+
+      - name: Commit archived card
+        if: steps.card.outputs.file != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add archive/cards/ archive/archiveFilesTotal.js
+          git add archive/json/ archive/archiveFilesTotal.js
           git add -A cards/
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
-          FILENAMES=$(echo "${{ steps.changed.outputs.added_files }}" | xargs -n1 basename | tr '\n' ' ' | sed 's/ $//')
-          git commit -m "archive card: ${FILENAMES} [skip ci]"
+          FILENAME=$(basename "${{ steps.card.outputs.file }}")
+          git commit -m "archive card: ${FILENAME} [skip ci]"
           git push
