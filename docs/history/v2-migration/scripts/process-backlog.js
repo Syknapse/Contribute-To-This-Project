@@ -29,14 +29,14 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const { validateCard } = require('./validate-card')
-const { welcomeComment, invalidComment, maintainerReviewComment } = require('./backlog-messages')
+const { validateCard } = require('../../../../scripts/validate-card')
+const { welcomeComment, invalidComment, maintainerReviewComment } = require('../../../../scripts/backlog-messages')
 
 // ---------------------------------------------------------------------------
 // Config
 // ---------------------------------------------------------------------------
 
-const PROCESSED_FILE = path.resolve(__dirname, 'processed.json')
+const PROCESSED_FILE = path.resolve(process.cwd(), '_v2/scripts/processed.json')
 const TMP_COMMENT_FILE = path.resolve(__dirname, '.tmp-comment.md')
 const TMP_COMMIT_MSG_FILE = path.resolve(__dirname, '.tmp-commit-msg.txt')
 const INDEX_FILE = path.resolve(process.cwd(), 'index.html')

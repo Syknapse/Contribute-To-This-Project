@@ -7,7 +7,7 @@ let searchTimeout = null;
 
 // Create an array of ascending numbers corresponding with the number of archive files
 const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
-const archiveCardsDirectory = './archive/cards'
+const archiveCardsDirectory = './archive/json'
 
 // Import all archived cards and insert into the DOM
 numberOfFilesArray.forEach(number => {
@@ -16,7 +16,7 @@ numberOfFilesArray.forEach(number => {
     .then(response => response.json())
     .then(data => {
       const file = `archive_${number}.json`
-      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/cards/${file}`
+      const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/json/${file}`
       // For each file iterate over the data and create an array of the HTML card template
       const cards = data
         .map(card => {
@@ -215,11 +215,11 @@ function searchCard() {
 let topButton = document.getElementById('topButton')
 
 // When the user scrolls down 500px from the top of the document, show the button
-window.onscroll = function() {
-  // TODO this is very excessive, it fires all the time when a user is scrolling
-  // We need to debounce or find a more economic way to trigger button show
-  scrollFunction()
-}
+let scrollDebounceId = null
+window.addEventListener('scroll', () => {
+  if (scrollDebounceId) clearTimeout(scrollDebounceId)
+  scrollDebounceId = setTimeout(scrollFunction, 100)
+})
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     topButton.style.display = 'flex'

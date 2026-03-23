@@ -1,3 +1,7 @@
+> **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
+
+---
+
 # [ساهم في هذا المشروع](https://syknapse.github.io/Contribute-To-This-Project/)
 
 [![غرد](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%D8%B3%D8%A7%D9%87%D9%85%20%D9%81%D9%8A%20%D9%87%D8%B0%D8%A7%20%D8%A7%D9%84%D9%85%D8%B4%D8%B1%D9%88%D8%B9.%20%D9%85%D8%B4%D8%B1%D9%88%D8%B9%20%D8%B3%D9%87%D9%84%20%D9%84%D9%84%D9%85%D8%B3%D8%A7%D9%87%D9%85%D9%8A%D9%86%20%D9%84%D8%A3%D9%88%D9%84%20%D9%85%D8%B1%D8%A9%D8%8C%20%D9%85%D8%B9%20%D8%AF%D9%84%D9%8A%D9%84%20%D9%85%D9%81%D8%B5%D9%84%20%D8%A8%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%A7%D8%AA.%20%D9%85%D9%82%D8%AF%D9%85%20%D9%85%D9%86%20%40Syknapse%20https%3A%2F%2Fgithub.com%2FSyknapse%2FContribute-To-This-Project%20%23100DaysofCode%0A 'غرد عن هذا المشروع')

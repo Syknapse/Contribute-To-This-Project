@@ -44,4 +44,35 @@ This PR touches files beyond \`index.html\`, so it needs a manual review from a 
 Thanks for your patience! 🙏`
 }
 
-module.exports = { welcomeComment, invalidComment, maintainerReviewComment }
+/**
+ * Posted by check-fixed-prs.js when a previously-flagged PR turns out to be
+ * valid on re-check (contributor fixed the issues).
+ */
+function fixedComment(author) {
+  return `Hi @${author}! 👋
+
+Looks like you fixed the issues — your card is valid. ✅
+
+It has been applied and is now live on the [project site](https://syknapse.github.io/${REPO.split('/')[1]}/). This PR is being closed rather than merged because \`index.html\` has had many updates since you submitted, but your contribution is fully credited in the commit. Thank you for sticking with it! 🎉`
+}
+
+/**
+ * Posted by notify-v1-prs.js after the v2 migration, on PRs that still
+ * target index.html and haven't been resolved.
+ */
+function v1MigrationComment(author) {
+  return `Hi @${author}! 👋
+
+We've recently updated how contributor cards are added to this project, and this PR is now out of date.
+
+**The new way is simpler:**
+1. Copy \`cards/template.html\` to \`cards/your-github-username.html\`
+2. Fill in your details
+3. Open a new PR with just that file — a bot will validate and auto-merge it for you, usually within minutes
+
+See the [README](${README_URL}) for the full step-by-step tutorial.
+
+We're closing this PR, but please don't be discouraged — re-submitting with the new flow takes just a few minutes and you'll be merged automatically. We'd love to have your card on the site! 🙌`
+}
+
+module.exports = { welcomeComment, invalidComment, maintainerReviewComment, fixedComment, v1MigrationComment }

@@ -1,0 +1,58 @@
+name: Archive Card
+
+# Triggered when a card file lands on master (after validate-card-pr.yml merges it).
+# Converts cards/[username].html to JSON archive format, deletes the file,
+# and commits with [skip ci] to avoid triggering this workflow again.
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'cards/*.html'
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Get added card files
+        id: changed
+        uses: tj-actions/changed-files@v46
+        with:
+          files: 'cards/*.html'
+          files_ignore: 'cards/template.html'
+
+      - name: Archive each new card
+        if: steps.changed.outputs.added_files != ''
+        run: |
+          for FILE in ${{ steps.changed.outputs.added_files }}; do
+            echo "Formatting and archiving $FILE..."
+            npx prettier --write "$FILE"
+            node scripts/card-to-archive.js "$(basename "$FILE")"
+          done
+
+      - name: Commit archived cards
+        if: steps.changed.outputs.added_files != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add archive/cards/ archive/archiveFilesTotal.js
+          git add -A cards/
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          FILENAMES=$(echo "${{ steps.changed.outputs.added_files }}" | xargs -n1 basename | tr '\n' ' ' | sed 's/ $//')
+          git commit -m "archive card: ${FILENAMES} [skip ci]"
+          git push

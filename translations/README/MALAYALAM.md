@@ -1,3 +1,7 @@
+> **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
+
+---
+
 # [ഈ പ്രോജക്ടിൽ സംഭാവന ചെയ്യുക](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![ചിത്ര വിവരം](/favicon.png)
