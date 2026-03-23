@@ -10,7 +10,7 @@ const cheerio = require('cheerio')
 // Path to file with cards to be archived
 const htmlFile = `index.html`
 // Path to directory to store created json archive
-const archiveDir = 'archive/cards'
+const archiveDir = 'archive/json'
 // Path to file where number of files in archive directory is saved
 const archiveFilesTotal = 'archive/archiveFilesTotal.js'
 // Number of cards to keep in index.html

@@ -1,8 +1,8 @@
 // Converts a contributor card file (cards/[username].html) into the JSON archive format.
 // Called by the card-to-archive GitHub Action after a card PR is merged.
 //
-// Usage: node _v2/scripts/card-to-archive.js <filename>
-//   e.g. node _v2/scripts/card-to-archive.js syknapse.html
+// Usage: node scripts/card-to-archive.js <filename>
+//   e.g. node scripts/card-to-archive.js syknapse.html
 //
 // The script:
 //   1. Reads cards/<filename>, parses the card div
@@ -17,7 +17,7 @@ const cheerio = require('cheerio')
 
 // ── paths ──────────────────────────────────────────────────────────────────────
 const CARDS_DIR = 'cards'
-const ARCHIVE_DIR = 'archive/cards'
+const ARCHIVE_DIR = 'archive/json'
 const ARCHIVE_FILES_TOTAL = 'archive/archiveFilesTotal.js'
 const MAX_ENTRIES_PER_FILE = 50
 

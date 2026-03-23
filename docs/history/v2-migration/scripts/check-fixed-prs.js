@@ -10,7 +10,7 @@
  *
  * Usage (must be run from the master branch):
  *   git checkout master && git pull origin master
- *   node _v2/scripts/check-fixed-prs.js [--dry-run]
+ *   node docs/history/v2-migration/scripts/check-fixed-prs.js [--dry-run]
  *
  * What it does:
  *   - Fetches all open PRs with the "changes requested" label
@@ -30,11 +30,11 @@ const fs = require('fs')
 const path = require('path')
 const cheerio = require('cheerio')
 
-const { validateCard } = require('./validate-card')
-const { fixedComment } = require('./backlog-messages')
+const { validateCard } = require('../../../../scripts/validate-card')
+const { fixedComment } = require('../../../../scripts/backlog-messages')
 
 // ── config ─────────────────────────────────────────────────────────────────────
-const PROCESSED_FILE = path.resolve(__dirname, 'processed.json')
+const PROCESSED_FILE = path.resolve(process.cwd(), '_v2/scripts/processed.json')
 const TMP_COMMENT_FILE = path.resolve(__dirname, '.tmp-comment.md')
 const TMP_COMMIT_MSG_FILE = path.resolve(__dirname, '.tmp-commit-msg.txt')
 const INDEX_FILE = path.resolve(process.cwd(), 'index.html')

@@ -41,4 +41,4 @@ jobs:
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
           PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-        run: node _v2/scripts/validate-card-pr.js
+        run: node scripts/validate-card-pr.js

@@ -42,7 +42,7 @@ jobs:
           for FILE in ${{ steps.changed.outputs.added_files }}; do
             echo "Formatting and archiving $FILE..."
             npx prettier --write "$FILE"
-            node _v2/scripts/card-to-archive.js "$(basename "$FILE")"
+            node scripts/card-to-archive.js "$(basename "$FILE")"
           done
 
       - name: Commit archived cards

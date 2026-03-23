@@ -10,7 +10,7 @@
  *
  * Usage (must be run from the master branch):
  *   git checkout master && git pull origin master
- *   node _v2/scripts/notify-v1-prs.js [--dry-run]
+ *   node docs/history/v2-migration/scripts/notify-v1-prs.js [--dry-run]
  *
  * What it does:
  *   - Fetches all open PRs that change index.html
@@ -26,10 +26,10 @@ const { execSync } = require('child_process')
 const fs = require('fs')
 const path = require('path')
 
-const { v1MigrationComment } = require('./backlog-messages')
+const { v1MigrationComment } = require('../../../../scripts/backlog-messages')
 
 // ── config ─────────────────────────────────────────────────────────────────────
-const PROCESSED_FILE = path.resolve(__dirname, 'processed.json')
+const PROCESSED_FILE = path.resolve(process.cwd(), '_v2/scripts/processed.json')
 const TMP_COMMENT_FILE = path.resolve(__dirname, '.tmp-comment.md')
 const DELAY_MS = 600
 
