@@ -788,5 +788,33 @@
         "text": "JavaScript.info"
       }
     ]
+  },
+  {
+    "name": "Suman Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/sumankr1211",
+        "handle": "sumankr1211"
+      }
+    ],
+    "about": "Hello Everyone , I am a new developer learning to contribute in open source .",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.youtube.com/watch?v=gmuTjeQUbTM&pp=ygUEY3M1MA%3D%3D",
+        "text": "CS 50 youtube video"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.learn-c.org/",
+        "text": "C tutorial website"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.youtube.com/watch?v=EjrAzulPsT4&t=3022s&pp=ygUOaG93IGxpbnV4IHdvcnM%3D",
+        "text": "how linux boots video"
+      }
+    ]
   }
 ]
