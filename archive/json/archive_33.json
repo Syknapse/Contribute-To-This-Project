@@ -760,5 +760,33 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "name": "Syk Houdeib",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Syknapse",
+        "handle": "@Syknapse"
+      }
+    ],
+    "about": "Front-end developer and open source educator. Creator of this project.",
+    "resources": [
+      {
+        "title": "CSS Tricks",
+        "link": "https://css-tricks.com",
+        "text": "CSS Tricks"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "The Modern JavaScript Tutorial",
+        "link": "https://javascript.info",
+        "text": "javascript.info"
+      }
+    ]
   }
 ]

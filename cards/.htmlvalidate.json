@@ -3,8 +3,10 @@
   "rules": {
     "doctype-html": "off",
     "no-trailing-whitespace": "off",
-    "void-style": ["error", { "style": "omit" }],
+    "void-style": ["error", { "style": "selfclosing" }],
     "attr-quotes": ["error", { "style": "double", "unquoted": false }],
+    "attribute-boolean-style": "off",
+    "attribute-empty-style": "off",
     "no-inline-style": "off"
   }
 }

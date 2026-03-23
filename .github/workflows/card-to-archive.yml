@@ -1,10 +1,17 @@
 name: Archive Card
 
-# Triggered when a card PR is merged into master.
-# Uses pull_request_target:[closed] instead of push so that it fires even when
-# the merge was performed by GITHUB_TOKEN (push events from Actions tokens are
-# suppressed to prevent loops, but PR-closed events are not).
+# Primary trigger: workflow_dispatch dispatched by validate-card-pr.yml after merge.
+# workflow_dispatch is NOT suppressed by GITHUB_TOKEN (unlike push/PR events),
+# so it fires reliably even when the merge was performed by a workflow token.
+#
+# Fallback: pull_request_target:[closed] for any merges not dispatched above.
 on:
+  workflow_dispatch:
+    inputs:
+      filename:
+        description: 'Card filename to archive (e.g. syknapse.html)'
+        required: true
+        type: string
   pull_request_target:
     types: [closed]
     branches: [master]
@@ -17,8 +24,9 @@ permissions:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    # Only run if the PR was actually merged (not just closed)
-    if: github.event.pull_request.merged == true
+    # For pull_request_target: only run if the PR was actually merged.
+    # For workflow_dispatch: always run (no PR event to check).
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.merged == true
     steps:
       - name: Checkout master
         uses: actions/checkout@v4
@@ -34,36 +42,42 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Get added card file from PR
+      - name: Resolve card filename
         id: card
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          CARD_FILE=$(gh pr view ${{ github.event.pull_request.number }} --json files \
-            --jq '.files[].path' | grep '^cards/' | grep -v 'template\.html' || true)
-          echo "file=${CARD_FILE}" >> "$GITHUB_OUTPUT"
-          if [ -z "$CARD_FILE" ]; then
-            echo "No card file found in PR — skipping."
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            # Filename passed directly as input
+            FILENAME="${{ inputs.filename }}"
           else
-            echo "Card file: $CARD_FILE"
+            # Detect from PR's changed files (fallback pull_request_target path)
+            FILENAME=$(gh pr view ${{ github.event.pull_request.number }} --json files \
+              --jq '.files[].path' | grep '^cards/' | grep -v 'template\.html' \
+              | xargs -I{} basename {} || true)
+          fi
+          echo "filename=${FILENAME}" >> "$GITHUB_OUTPUT"
+          if [ -z "$FILENAME" ]; then
+            echo "No card filename resolved — skipping."
+          else
+            echo "Card filename: $FILENAME"
           fi
 
       - name: Archive card
-        if: steps.card.outputs.file != ''
+        if: steps.card.outputs.filename != ''
         run: |
-          FILE="${{ steps.card.outputs.file }}"
+          FILE="cards/${{ steps.card.outputs.filename }}"
           echo "Formatting and archiving $FILE..."
           npx prettier --write "$FILE"
-          node scripts/card-to-archive.js "$(basename "$FILE")"
+          node scripts/card-to-archive.js "${{ steps.card.outputs.filename }}"
 
       - name: Commit archived card
-        if: steps.card.outputs.file != ''
+        if: steps.card.outputs.filename != ''
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add archive/json/ archive/archiveFilesTotal.js
           git add -A cards/
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
-          FILENAME=$(basename "${{ steps.card.outputs.file }}")
-          git commit -m "archive card: ${FILENAME} [skip ci]"
+          git commit -m "archive card: ${{ steps.card.outputs.filename }} [skip ci]"
           git push
