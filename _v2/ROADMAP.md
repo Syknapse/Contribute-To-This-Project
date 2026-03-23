@@ -228,14 +228,20 @@ Same module used in Phase 1, but called with `mode: 'phase2'` (applied to `cards
 ### Transition Sequence (order matters)
 
 1. Phase 1 complete ✓
-2. Run `npm run archive_cards` repeatedly until `index.html` has only the template card (≤1 card remaining)
+2. Run `npm run archive_cards` (with temporary `minimumCardCount = 1`) until `index.html` has only the template card ✓ (done on branch)
 3. Create `cards/` directory with `cards/template.html` (extracted from `index.html` template card)
 4. Write `_v2/scripts/card-to-archive.js` (reusing extraction functions from `archive/archive_cards_script.js`)
 5. Deploy `validate-card-pr.yml` and `card-to-archive.yml`
 6. Rewrite `README.md` as v2 tutorial; archive old tutorial content to `docs/tutorial_v1.md`
 7. Add redirect notice to `translations/README.*.md` files
 8. Rename `.travis.yml` → `ci.yml`; extend `files` glob to cover `cards/*.html`
-9. Push to master; verify live page with a test PR (`cards/test-username.html`)
+9. **Pre-merge cleanup on master** (do this immediately before merging the branch):
+   - Switch to master
+   - Temporarily set `minimumCardCount = 1` in `archive/archive_cards_script.js`
+   - Run `npm run archive_cards` until `index.html` is template-only (clears cards accumulated since Phase 1)
+   - Restore `minimumCardCount = 11`, commit on master
+   - Merge `refactor/version_2` — both sides are template-only, no conflict
+10. Push merged master; verify live page with a test PR (`cards/test-username.html`)
 
 ---
 
