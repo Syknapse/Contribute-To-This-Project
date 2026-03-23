@@ -8,179 +8,74 @@
 
 ## Table of Contents
 
-1. [Phase 1 — Backlog Processing Script](#phase-1--backlog-processing-script)
-2. [Phase 2 — v2 Architecture](#phase-2--v2-architecture)
+1. [Phase 1 — Backlog Processing Script](#phase-1--backlog-processing-script--complete)
+2. [Phase 2 — v2 Architecture (Unified Archive)](#phase-2--v2-architecture-unified-archive)
 3. [Phase 3 — Smaller Issues](#phase-3--smaller-issues)
 4. [Critical Files Reference](#critical-files-reference)
 
 ---
 
-## Phase 1 — Backlog Processing Script
+## Phase 1 — Backlog Processing Script ✅ COMPLETE
 
-### Overview
+### What was done
 
-~223 open PRs exist, ~85% of which are standard card PRs that edit `index.html`. The goal is to merge every salvageable card PR with zero maintainer time.
+~223 open PRs existed, ~85% of which were standard card PRs editing `index.html`. All were processed.
 
-**Execution model:** Local Node.js script run by the repo owner using the `gh` CLI. One-time operation. Local is preferable to a GitHub Action because it can be paused mid-run, inspected after each batch, retried selectively, and does not require a workflow dispatch setup.
+**Approach taken (final):** `gh pr merge` was abandoned — every card PR had merge conflicts against the stale `index.html`. Instead: extract card HTML from diff `+` lines using cheerio, inject directly into master's `index.html`, commit `[skip ci]`, push, then close the PR with an explanation comment (shows as "Closed" on GitHub).
 
-**Prerequisites:**
+**Validation used (Phase 1 — lenient by design):** Only checks for exactly 1 `.card` div in the diff and a non-placeholder `.name`. Everything else (`.about`, contacts, resources) is ignored. The goal was inclusion: merge anything that represents a genuine, identifiable contribution.
 
-- `gh` CLI authenticated (`gh auth login`)
-- `npm install` already run (cheerio is available)
-- Run from repo root
+### Outcome
+
+| Category | Count |
+| --- | --- |
+| Cards injected + PR closed | 173 |
+| `changes-requested` (invalid cards) | 19 |
+| `maintainer-review` (non-card PRs) | 30 |
+| Still open — need owner review | 10 (9 `maintainer-review`, 1 `changes-requested`) |
+
+State fully tracked in `_v2/scripts/processed.json` on master.
+
+### Files (all in `_v2/scripts/`)
+
+| File | Purpose |
+| --- | --- |
+| `process-backlog.js` | Main script (batch inject + commit + close) |
+| `validate-card.js` | phase1/phase2 mode validator — **reused in Phase 2** |
+| `backlog-messages.js` | Comment templates — **reused in Phase 2** |
+| `processed.json` | Final state; idempotency record |
 
 ---
 
-### Files to Create
+## Phase 2 — v2 Architecture (Unified Archive)
+
+### Design rationale
+
+The original plan stored new cards as permanent `cards/[username].html` files plus a `manifest.json`, while old cards lived in `archive/cards/archive_N.json`. This creates two parallel storage systems and a `cards/` directory that grows without bound.
+
+**Revised approach:** `cards/[username].html` is **ephemeral** — it exists only during the PR lifecycle. A post-merge Action immediately converts it to the existing JSON archive format and deletes the file. Result: one unified storage system, no directory bloat, `script.js` unchanged.
+
+### New contribution flow
 
 ```text
-_v2/scripts/
-  process-backlog.js      ← main script
-  validate-card.js        ← validation module (reused in Phase 2)
-  backlog-messages.js     ← comment templates
-```
-
----
-
-### `process-backlog.js` — Main Script Logic
-
-#### Step 1: Fetch open PRs
-
-```js
-const prs = JSON.parse(
-  execSync('gh pr list --state open --limit 300 --json number,title,author,files').toString()
-)
-```
-
-Fields used: `number`, `title`, `author.login`, `files[].path`.
-
-#### Step 2: Categorize each PR
-
-| Category | Condition |
-| --- | --- |
-| `card-pr` | Only `index.html` in changed files |
-| `non-card-pr` | Changed files include things beyond `index.html` (translations, feature files, etc.) |
-| `skip` | Already labeled `maintainer-review`; bot already commented; draft PR |
-
-#### Step 3: Extract card from diff (card PRs only)
-
-```js
-const diff = execSync(`gh pr diff ${number}`).toString()
-```
-
-From the `+` lines in the diff, extract the `<div class="card">...</div>` block using cheerio. Port `extractContactDetails` and `extractResourceDetails` from `archive/archive_cards_script.js` (lines 20–68). Load the extracted HTML fragment with `cheerio.load(fragment)`.
-
-#### Step 4: Validate via `validate-card.js`
-
-See validation module spec below. Returns `{ valid: boolean, errors: string[] }`.
-
-#### Step 5: Dispatch
-
-| Result | Action |
-| --- | --- |
-| Valid card | Post welcome comment → `gh pr merge --squash --number <N>` |
-| Invalid card | Post specific failure comment listing each error + how to fix → `gh pr edit --add-label "changes-requested"` |
-| Non-card PR | `gh pr edit --add-label "maintainer-review"` → post maintainer-review comment |
-
-#### Step 6: Prevent `index.html` bloat
-
-Auto-run after every 10 merges (not configurable — this is safety behaviour, not optional):
-
-```js
-execSync('npm run archive_cards')
-```
-
-`archive_cards` is idempotent — if `index.html` has ≤11 cards it exits immediately, so running it frequently has no downside. Keeps `index.html` at ≤11 cards (template + 10). Mirrors existing logic in `archive/archive_cards_script.js:107`.
-
-**Recommended run pattern:** `node process-backlog.js --batch 30`. Review log output after each batch, then re-run. The script must track processed PR numbers (write to a local `_v2/processed.json` file) so re-running never double-processes a PR.
-
-#### CLI flags
-
-| Flag | Behavior |
-| --- | --- |
-| `--dry-run` | Print what would happen; make no API calls |
-| `--batch N` | Process only the first N card PRs, then stop (default: 30) |
-
-#### Rate limiting
-
-Insert a 500ms delay between each `gh` API call:
-
-```js
-await new Promise(resolve => setTimeout(resolve, 500))
-```
-
----
-
-### `validate-card.js` — Validation Module
-
-**Design principle — Phase 1 is lenient by intent.**
-
-These PRs were submitted months ago by first-time contributors who are unlikely to return and fix minor mistakes. Rejecting a card because of a missing tooltip attribute or an unfilled `.about` field punishes people for small oversights on a submission they may not even remember making. The goal is inclusion: merge everything that represents a genuine, identifiable contribution. Reserve stricter rules for Phase 2, where automation can guide contributors in real time at the moment they submit.
-
-**Two modes** (set via the `mode` option):
-
-| Mode | Used in | Philosophy |
-| --- | --- | --- |
-| `'phase1'` (default) | Backlog script | Lenient — merge if the card has a real name |
-| `'phase2'` | `validate-card-pr.yml` | Strict — full field and resource validation |
-
-**Phase 1 checks (hard blocks only):**
-
-1. Exactly one `.card` div in the diff (zero = no card added; >1 = whole file pasted)
-2. `.name` present, non-empty, not the placeholder `"Your name"`
-
-Everything else (`.about`, `.contact`, resources, title attributes) is ignored in Phase 1. If the contributor has a name and a card structure, they get merged.
-
-**Phase 2 checks (additionally):**
-
-1. `.about` present, non-empty, not the placeholder text
-2. `.contact` present with at least one link; no `href` containing `"your_user_handle"`
-3. `.resources` optional (0–5 items); each `<li>` present must have `<a>` with a real `href` (not `"#"`)
-
-**Output:**
-
-```js
-{ valid: true }
-// or
-{ valid: false, errors: ['Missing .name element'] }
-```
-
-**Reuse in Phase 2:** The same module is used by `validate-card-pr.yml` with `mode: 'phase2'`, applied to `cards/[username].html` instead of a diff fragment.
-
----
-
-### `backlog-messages.js` — Comment Templates
-
-Export named string templates (use template literals with parameters):
-
-| Export | When used |
-| --- | --- |
-| `welcomeComment(author)` | Valid card, about to be merged |
-| `invalidComment(author, errors)` | Invalid card; `errors` is the array from `validate-card.js` |
-| `maintainerReviewComment(author)` | Non-card PR |
-| `alreadyProcessedComment()` | PR was already handled by a previous run |
-
-Comments must be friendly and actionable. Invalid comments must list each specific error and link to the relevant README section for the fix.
-
----
-
-## Phase 2 — v2 Architecture
-
-### New Contribution Flow
-
-```text
-contributor creates cards/[username].html
+contributor copies cards/template.html → cards/[username].html
       ↓
 opens PR
       ↓
-validate-card-pr.yml runs (validates + auto-merges)
+validate-card-pr.yml: validates + auto-merges on success
       ↓
-push to master triggers update-manifest.yml
+push to master triggers card-to-archive.yml
       ↓
-manifest.json updated + committed [skip ci]
+card-to-archive.js: converts HTML → JSON, appends to archive_N.json, deletes cards/[username].html
       ↓
-script.js fetches manifest at runtime → card appears live
+commits [skip ci] — cards/ is clean again
 ```
+
+### Why `cards/[username].html` instead of `index.html`
+
+- Each contributor owns their own file → **zero merge conflicts** → PRs show green "Merged" (not "Closed")
+- Contributor never touches the archive system — it is hidden entirely
+- Accidentally editing someone else's card is impossible
 
 ---
 
@@ -188,71 +83,23 @@ script.js fetches manifest at runtime → card appears live
 
 | File | Purpose |
 | --- | --- |
-| `cards/template.html` | Reference card template for contributors; never rendered |
-| `cards/manifest.json` | Auto-maintained list of all card filenames; written only by the Action |
-| `.github/workflows/validate-card-pr.yml` | Validates card PRs + auto-merges valid ones |
-| `.github/workflows/update-manifest.yml` | Rebuilds manifest after a card is merged to master |
-| `docs/tutorial_v1.md` | Archived v1 tutorial (moved from README) |
-| `_v2/scripts/update-manifest.js` | Node script called by `update-manifest.yml` |
-
----
+| `cards/template.html` | Standalone card template for contributors to copy; never archived |
+| `.github/workflows/validate-card-pr.yml` | Validate + auto-merge on card PRs |
+| `.github/workflows/card-to-archive.yml` | Convert merged card HTML to JSON archive, delete file |
+| `_v2/scripts/card-to-archive.js` | Node script run by `card-to-archive.yml` |
+| `docs/tutorial_v1.md` | Archived v1 README tutorial |
 
 ### Modified Files
 
 | File | Change |
 | --- | --- |
-| `assets/script.js` | Add manifest fetch block after line 72 (after existing archive block) |
-| `README.md` | Full rewrite as v2 tutorial |
+| `README.md` | Full rewrite: copy `cards/template.html` → `cards/[username].html`, fill in, PR |
 | `translations/README.*.md` | Add notice at top pointing to main README for v2 flow |
 | `.github/workflows/.travis.yml` | Rename to `ci.yml`; update Prettier version; extend `files` glob to cover `cards/*.html` |
 
----
+### `script.js` — NO CHANGES
 
-### `cards/manifest.json` — Structure
-
-```json
-{
-  "version": 2,
-  "cards": ["octocat.html", "syknapse.html"]
-}
-```
-
-- Append-only in normal operation
-- Only `update-manifest.yml` writes to it — contributors never touch it
-- `update-manifest.js` does a full directory scan (`fs.readdirSync('cards/')`) and rebuilds the array each run, so it is self-healing if files are deleted
-
----
-
-### `assets/script.js` — Manifest Fetch Block
-
-Insert **after line 72** (after the closing `})` of the `numberOfFilesArray.forEach` block). The existing archive loading code (lines 1–72) is untouched.
-
-```js
-// Load v2 cards from manifest
-fetch('./cards/manifest.json')
-  .then(response => response.json())
-  .then(manifest => {
-    const grid = document.getElementById('contributions')
-    return Promise.all(
-      manifest.cards.map(filename =>
-        fetch(`./cards/${filename}`)
-          .then(r => r.text())
-          .then(html => {
-            grid.insertAdjacentHTML('afterbegin', html)
-            if (localStorage.getItem('theme') === 'night') {
-              const newCard = grid.querySelector('.card:not(.night)')
-              if (newCard) newCard.classList.add('night')
-            }
-          })
-          .catch(() => {}) // silently skip missing files
-      )
-    )
-  })
-  .catch(error => console.error('Error loading cards manifest:', error))
-  .finally(() => countUp())
-```
-
-`insertAdjacentHTML('afterbegin', ...)` inserts newest cards at the top. `countUp()` is called in `finally()` — same pattern as the archive block at line 71. Missing card files are silently skipped so a bad filename in the manifest never breaks the page.
+The existing archive loading code is untouched. New cards flow directly into the same `archive/cards/archive_N.json` files via `card-to-archive.js`. The live page works without modification.
 
 ---
 
@@ -278,19 +125,18 @@ on:
 **Card validation:**
 
 1. Read `cards/[username].html`
-2. Wrap in minimal HTML document:
+2. Run `validate-card.js` (phase2 mode) via Node + cheerio — reuses the module from Phase 1
+3. Wrap in minimal HTML document for `html-validate`:
 
    ```html
    <!DOCTYPE html><html><body>{{ card content }}</body></html>
    ```
 
-3. Run `html-validate` with `htmlvalidate.json` config (extends `html-validate:recommended`; key rules: `no-duplicate-id: error`, `attr-quotes: double`, `require-closing-tags: error`). The `doctype-html: error` rule applies to the wrapper, not the fragment.
-4. Run `validate-card.js` checks (same module from Phase 1) against the card file
+4. Run `html-validate` with `htmlvalidate.json` config (extends `html-validate:recommended`; key rules: `no-duplicate-id: error`, `attr-quotes: double`, `require-closing-tags: error`)
 
 **On success:**
 
 ```bash
-gh pr review --approve
 gh pr merge --squash
 ```
 
@@ -298,12 +144,14 @@ Uses `GITHUB_TOKEN` — no additional secrets required.
 
 **On failure:**
 
-- Post comment with specific errors and fix instructions
+- Post comment with specific errors and fix instructions (reuse `backlog-messages.js` templates or extend)
 - `exit 1` to fail the check
+
+**Additional trigger:** If `index.html` is in the PR's changed files → post friendly redirect comment explaining the new flow, close PR without merging.
 
 ---
 
-### `update-manifest.yml` — Key Design
+### `card-to-archive.yml` — Key Design
 
 **Trigger:**
 
@@ -313,30 +161,81 @@ on:
     branches: [master]
     paths:
       - 'cards/*.html'
+    paths-ignore:
+      - 'cards/template.html'
 ```
 
 **Steps:**
 
 1. Checkout with `fetch-depth: 0`
 2. Set up Node.js 20
-3. Run `node _v2/scripts/update-manifest.js`
-4. Commit `cards/manifest.json` with message `chore: update cards manifest [skip ci]`
+3. Run `node _v2/scripts/card-to-archive.js [username].html` (filename passed as argument, detected from the push event)
+4. Commit with `[skip ci]` to avoid triggering a CI loop
 
-The `[skip ci]` prevents the push from re-triggering CI and creating a loop.
+---
+
+### `card-to-archive.js` — Logic
+
+1. Read `cards/[username].html`, parse with cheerio
+2. Extract card fields using functions ported from `archive/archive_cards_script.js`:
+   - `extractContactDetails($card)` → contacts array (lines 20–45)
+   - `extractResourceDetails($card)` → resources array (lines 47–68)
+3. Build card JSON object: `{ name, contacts, about, resources }`
+4. Read latest `archive/cards/archive_N.json`; if it has ≥50 entries, create `archive_N+1.json` and update `archive/archiveFilesTotal.js` (same logic as `archive/archive_cards_script.js:107`)
+5. Append the card object to the target archive JSON file
+6. Delete `cards/[username].html`
+7. Stage and commit: `archive/cards/` + `archive/archiveFilesTotal.js` + `cards/[username].html` (deletion)
+
+### Archive JSON schema (unchanged)
+
+```json
+[
+  {
+    "name": "Ada Lovelace",
+    "contacts": [{ "icon": "fab fa-github", "link": "https://github.com/ada", "handle": "@ada" }],
+    "about": "Mathematician and writer.",
+    "resources": [{ "title": "First Resource", "link": "https://example.com", "text": "Description" }]
+  }
+]
+```
+
+`resources` is 0–5 items (Phase 2 validation allows it to be optional). Existing archive files remain untouched.
+
+---
+
+### `validate-card.js` — Phase 2 Checks
+
+Same module used in Phase 1, but called with `mode: 'phase2'` (applied to `cards/[username].html` rather than a diff fragment).
+
+**Phase 2 checks (stricter than Phase 1):**
+
+1. Exactly one `.card` div
+2. `.name` present, non-empty, not placeholder `"Your name"`
+3. `.about` present, non-empty, not the placeholder text
+4. `.contact` present with at least one link; no `href` containing `"your_user_handle"`
+5. `.resources` optional (0–5 items); each `<li>` present must have `<a>` with a real `href` (not `"#"`)
+
+**Output:**
+
+```js
+{ valid: true }
+// or
+{ valid: false, errors: ['Missing .name element'] }
+```
 
 ---
 
 ### Transition Sequence (order matters)
 
-1. Phase 1 completes — backlog is cleared
-2. Create `cards/` directory, `cards/template.html`, `cards/manifest.json` (empty `{ "version": 2, "cards": [] }`)
-3. Deploy `validate-card-pr.yml` and `update-manifest.yml`
-4. Update `assets/script.js` (add manifest fetch block after line 72)
-5. Run `npm run archive_cards` repeatedly until `index.html` has only the template card (1 card remaining)
-6. Rewrite `README.md` as v2 tutorial; move old tutorial content to `docs/tutorial_v1.md`
+1. Phase 1 complete ✓
+2. Run `npm run archive_cards` repeatedly until `index.html` has only the template card (≤1 card remaining)
+3. Create `cards/` directory with `cards/template.html` (extracted from `index.html` template card)
+4. Write `_v2/scripts/card-to-archive.js` (reusing extraction functions from `archive/archive_cards_script.js`)
+5. Deploy `validate-card-pr.yml` and `card-to-archive.yml`
+6. Rewrite `README.md` as v2 tutorial; archive old tutorial content to `docs/tutorial_v1.md`
 7. Add redirect notice to `translations/README.*.md` files
-8. Add third trigger to `validate-card-pr.yml`: if `index.html` is in the PR's changed files, post a friendly comment explaining the new flow and close the PR without merging
-9. Push everything to master; verify live page loads archive cards + new manifest cards
+8. Rename `.travis.yml` → `ci.yml`; extend `files` glob to cover `cards/*.html`
+9. Push to master; verify live page with a test PR (`cards/test-username.html`)
 
 ---
 
@@ -346,7 +245,7 @@ Ordered by priority. None of these block Phase 1 or Phase 2.
 
 ---
 
-### 1. `CONTRIBUTING.md` (High priority — missing entirely; refs issue #4455)
+### 1. `CONTRIBUTING.md` (High priority — missing entirely)
 
 Create at repo root. Target: under 300 lines.
 
@@ -354,7 +253,7 @@ Create at repo root. Target: under 300 lines.
 
 - Welcome (tone: encouraging, non-intimidating)
 - How to add your card — link to README v2 tutorial
-- What makes a valid PR — the exact validation rules in plain English (mirrors `validate-card.js` checks)
+- What makes a valid PR — the exact validation rules in plain English (mirrors `validate-card.js` phase2 checks)
 - What happens after you submit — "the bot reviews within minutes; if valid, it auto-merges"
 - My PR was closed — "read the bot's comment carefully; push a fix to the same branch"
 - Non-card contributions — open an issue first to discuss; PRs without a linked issue may be closed
@@ -378,7 +277,7 @@ Create at repo root. Target: under 300 lines.
 | `intentions-not-clear` | 14 | 14 |
 | `changes-requested` | 21 | 21 |
 
-**Also update stale messages** to be less terse — mention what the contributor should do (push a fix, leave a comment explaining intent) rather than just warning of closure.
+Also update stale messages to be less terse — mention what the contributor should do (push a fix, leave a comment explaining intent) rather than just warning of closure.
 
 ---
 
@@ -392,7 +291,7 @@ Create at repo root. Target: under 300 lines.
 2. Review `prettier.config.js` — `arrowParens: 'always'` is now the v3 default (can be removed or left explicit)
 3. Run `npm run prettier-html` to reformat `index.html`
 4. After `cards/` exists, ensure `prettier.config.js` covers `cards/*.html` (same options)
-5. Update `.github/workflows/.travis.yml` (or `ci.yml` after rename) — `creyD/prettier_action@v4.3` should be updated; verify it supports Prettier 3
+5. Update `ci.yml` — `creyD/prettier_action@v4.3` should be updated; verify it supports Prettier 3
 
 ---
 
@@ -405,7 +304,7 @@ Create at repo root. Target: under 300 lines.
 - Any README or translation files that reference `.travis.yml` by name
 - The workflow `name:` field is already `Continuous Integration` — no change needed there
 
-**Do this as part of the CI update in Phase 2** (when extending the workflow to cover `cards/*.html`) to bundle the rename with functional changes.
+Do this as part of the Phase 2 CI update (when extending the workflow to cover `cards/*.html`) to bundle the rename with functional changes.
 
 ---
 
@@ -437,7 +336,7 @@ window.addEventListener('scroll', () => {
 
 ---
 
-### 6. Link Validation (Medium priority — refs issue #4421)
+### 6. Link Validation (Medium priority)
 
 Add a `lychee` job to `ci.yml` (after the rename from `.travis.yml`):
 
@@ -462,7 +361,7 @@ Run only on changed `cards/*.html` files (not `index.html` — too many existing
 
 ---
 
-### 7. Font Awesome Update (Medium priority — refs issue #4117)
+### 7. Font Awesome Update (Medium priority)
 
 **Change:** Find the Font Awesome CDN `<link>` in `index.html` and update to the current v6.x URL from the official CDN.
 
@@ -476,12 +375,15 @@ These files must be read in full before implementing each phase.
 
 | File | Why | Relevant to |
 | --- | --- | --- |
-| `assets/script.js:1–72` | Archive loading pattern — template for manifest fetch block | Phase 2 |
-| `assets/script.js:218–222` | Scroll debounce TODO | Phase 3 item 5 |
-| `archive/archive_cards_script.js:20–68` | `extractContactDetails` + `extractResourceDetails` to port | Phase 1 |
-| `archive/archive_cards_script.js:107` | `minimumCardCount = 11` logic | Phase 1 |
+| `archive/archive_cards_script.js:20–68` | `extractContactDetails` + `extractResourceDetails` to port verbatim | Phase 2 |
+| `archive/archive_cards_script.js:107` | `minimumCardCount = 11` logic; how archiving threshold works | Phase 2 |
+| `archive/cards/archive_N.json` | Confirm schema (name, contacts, about, resources) before writing card-to-archive.js | Phase 2 |
+| `archive/archiveFilesTotal.js` | Understand how `updateScriptFile()` works (auto-updated by archival script) | Phase 2 |
+| `_v2/scripts/validate-card.js` | Existing validator; extend to phase2 mode | Phase 2 |
+| `_v2/scripts/backlog-messages.js` | Existing comment templates; extend for Phase 2 error messages | Phase 2 |
 | `.github/workflows/.travis.yml` | Full CI workflow before rename/update | Phase 2, Phase 3 item 4 |
 | `.github/workflows/stale.yml` | Current stale values before changing | Phase 3 item 2 |
-| `htmlvalidate.json` | Rules to extend for fragment-mode card validation | Phase 1, Phase 2 |
+| `htmlvalidate.json` | Rules to extend for card fragment validation | Phase 2 |
 | `package.json` | Current Prettier version (`^1.18.2`) | Phase 3 item 3 |
 | `prettier.config.js` | Current Prettier config before v3 update | Phase 3 item 3 |
+| `assets/script.js:218–222` | Scroll debounce TODO | Phase 3 item 5 |
