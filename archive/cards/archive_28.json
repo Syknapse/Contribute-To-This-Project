@@ -1,0 +1,327 @@
+[
+  {
+    "name": "Rashmi Paboda",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/RPaboda33562",
+        "handle": "RPaboda33562"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rash200319",
+        "handle": "rash200319"
+      }
+    ],
+    "about": "A Computer Science and Engineering student",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.interviewbit.com/practice/",
+        "text": "InterviewBit"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://archive.org/details/ucberkeley-webcast?&and%5B%5D=subject%3A%22Computer%20Science%22&and%5B%5D=subject%3A%22CS%22",
+        "text": "UC Berkeley Data Structures"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://leetcode.com/",
+        "text": "LeetCode"
+      }
+    ]
+  },
+  {
+    "name": "Anil Peter R",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/formatjson75",
+        "handle": "formatjson75"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/anilpeter75",
+        "handle": "anilpeter75"
+      }
+    ],
+    "about": "Senior FrontEnd develepor",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://formatjsononline.com/",
+        "text": "Free JSON Formatter"
+      },
+      {
+        "title": "Chatgpt",
+        "link": "https://chatgpt.com/",
+        "text": "Chatgpt"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://roadmap.sh/",
+        "text": "Developers roadmap"
+      }
+    ]
+  },
+  {
+    "name": "Sonal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/nicolas234567",
+        "handle": "@nicolas234567"
+      }
+    ],
+    "about": "Im a Full Stack Developer starting to contribute to open-source projects.",
+    "resources": [
+      {
+        "title": "Net Ninja - Youtube Channel",
+        "link": "https://www.youtube.com/@NetNinja/videos",
+        "text": "NetNinja's Youtube Channel"
+      },
+      {
+        "title": "Free Programming courses and resources for aspiring developers",
+        "link": "https://www.theodinproject.com/",
+        "text": "The Odin Project"
+      },
+      {
+        "title": "Fireship - Youtube Channel",
+        "link": "https://www.youtube.com/@Fireship",
+        "text": "Fireship's Youtube Channel"
+      }
+    ]
+  },
+  {
+    "name": "Anil Peter R",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/formatjson75",
+        "handle": "formatjson75"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/anilpeter75",
+        "handle": "anilpeter75"
+      }
+    ],
+    "about": "Senior FrontEnd develepor",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://formatjsononline.com/",
+        "text": "Free JSON Formatter"
+      },
+      {
+        "title": "Chatgpt",
+        "link": "https://chatgpt.com/",
+        "text": "Chatgpt"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://roadmap.sh/",
+        "text": "Developers roadmap"
+      }
+    ]
+  },
+  {
+    "name": "Atharva Raut",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/Atharva_Raut55",
+        "handle": "Atharva_Raut55"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/atharvaraut55",
+        "handle": "atharvaraut55"
+      }
+    ],
+    "about": "I am a Full Stack developer passionate about creating interactive and user-friendly web applications.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://leetcode.com/",
+        "text": "LeetCode"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "GeeksforGeeks"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://stackoverflow.com/",
+        "text": "Stack Overflow"
+      }
+    ]
+  },
+  {
+    "name": "rlaxogh76",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/rlaxogh76",
+        "handle": "Twitter"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rlaxogh76",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Frontend Developer",
+    "resources": [
+      {
+        "title": "",
+        "link": "https://gsap.com/scroll/",
+        "text": "gsap ScrollTrigger"
+      },
+      {
+        "title": "",
+        "link": "https://motion.dev/",
+        "text": "Motion.dev"
+      },
+      {
+        "title": "",
+        "link": "https://storybook.js.org/",
+        "text": "Storybook"
+      }
+    ]
+  },
+  {
+    "name": "Syed Mohammed Maaz",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/syed_maaz7",
+        "handle": "Syed Maaz"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/syed-mohammed-maaz",
+        "handle": "syed-mohammed-maaz"
+      }
+    ],
+    "about": "Open-source beginner excited to contribute and learn.",
+    "resources": [
+      {
+        "title": "GitHub Hello World",
+        "link": "https://guides.github.com/activities/hello-world/",
+        "text": "GitHub Hello World"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      }
+    ]
+  },
+  {
+    "name": "Ara Jane",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/ara-jane-amora-74629833b",
+        "handle": "Ara Jane Amora"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/amoraara",
+        "handle": "amoraara"
+      }
+    ],
+    "about": "I am an aspiring Backend Developer from Philippines. Passionate in technology and innovation.",
+    "resources": [
+      {
+        "title": "The Odin Project",
+        "link": "https://www.theodinproject.com/",
+        "text": "The Odin Project"
+      },
+      {
+        "title": "Dev Docs",
+        "link": "https://devdocs.io/",
+        "text": "Dev Docs"
+      },
+      {
+        "title": "Quick Reference",
+        "link": "https://quickref.me/index.html",
+        "text": "Quick Reference"
+      }
+    ]
+  },
+  {
+    "name": "Pratham Mishra",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.twitter.com/DAEM0N_7",
+        "handle": "DAEM0N_7"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/PrathamC0DES",
+        "handle": "PrathamC0DES"
+      }
+    ],
+    "about": "Cs undergrad , deep diving in DevOps and want to build cool projects with the community :>",
+    "resources": [
+      {
+        "title": "Git Tutorial for Dummies",
+        "link": "https://youtu.be/mJ-qvsxPHpY?si=wa6sEPWJ_MIloTpP",
+        "text": "Git Tutorial for Dummies"
+      },
+      {
+        "title": "Docker",
+        "link": "https://youtu.be/DQdB7wFEygo?si=Q0Rn8M6OtmYTGI8d",
+        "text": "Docker"
+      },
+      {
+        "title": "Linux",
+        "link": "https://youtu.be/VbEx7B_PTOE?si=k4zOgamK4UHkB2DX",
+        "text": "Linux Basics"
+      }
+    ]
+  },
+  {
+    "name": "Hamadullah",
+    "contacts": [
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://www.linkedin.com/in/hamadullah-noonari-web-developer/",
+        "handle": "Hamadullah Noonari"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/hamadnoonari",
+        "handle": "hamadnoonari"
+      }
+    ],
+    "about": "Creative Web Developer crafting responsive and engaging websites with clean design and smooth user\n            experience. Always learning, always building.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.freecodecamp.org/",
+        "text": "FreeCodeCamp"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Third resource",
+        "link": "https://css-tricks.com/",
+        "text": "CSS-Tricks"
+      }
+    ]
+  }
+]
