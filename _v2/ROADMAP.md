@@ -360,28 +360,9 @@ window.addEventListener('scroll', () => {
 
 ---
 
-### 6. Link Validation (Medium priority)
+### 6. Link Validation — ~~DROPPED~~
 
-Add a `lychee` job to `ci.yml` (after the rename from `.travis.yml`):
-
-```yaml
-link-check:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v4
-    - name: Get changed card files
-      id: changed-files
-      uses: tj-actions/changed-files@v46
-      with:
-        files: 'cards/*.html'
-    - name: Check links
-      if: steps.changed-files.outputs.any_changed == 'true'
-      uses: lycheeverse/lychee-action@v2
-      with:
-        args: ${{ steps.changed-files.outputs.all_changed_files }}
-```
-
-Run only on changed `cards/*.html` files (not `index.html` — too many existing links to audit at once). Fail PR if any link returns a non-2xx/3xx response.
+Decided against lychee-based link validation. The false-positive rate is too high for this project's contributor profile: LinkedIn always returns `999` to crawlers, Twitter/X does the same, and personal sites may be temporarily unreachable. First-time contributors would get confusing failures with no way to fix them. `validate-card.js` phase2 already catches placeholder links (`#`, `your_user_handle`), which is the right level of link validation here.
 
 ---
 
