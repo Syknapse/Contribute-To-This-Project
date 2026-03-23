@@ -38,8 +38,8 @@ jobs:
               with:
                   node-version: '20'
 
-            - name: Install html-validate
-              run: npm install -g html-validate
+            - name: Install dependencies
+              run: npm install
 
             - name: Get changed HTML files
               id: changed-files
@@ -53,11 +53,11 @@ jobs:
               run: |
                   echo "Validating HTML files..."
                   echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
-                  html-validate ${{ steps.changed-files.outputs.all_changed_files }}
+                  npx html-validate ${{ steps.changed-files.outputs.all_changed_files }}
               continue-on-error: false
 
             - name: Validate index.html (always run on master)
               if: github.ref == 'refs/heads/master' && steps.changed-files.outputs.any_changed != 'true'
               run: |
                   echo "Validating index.html on master branch..."
-                  html-validate index.html
+                  npx html-validate index.html
