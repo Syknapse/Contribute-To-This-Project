@@ -15,12 +15,12 @@ jobs:
         with:
           # for both PR and issues
           any-of-labels: "intentions not clear"
-          stale-pr-message: "This PR is stale because it has been 1 days with no activity. Explain intention of this PR or this will be closed in 2 days."
-          close-pr-message: "This PR was closed because it has been stalled for 3 days with unclear intentions."
-          stale-issue-message: "This issue is stale because it has been 1 days with no activity. Explain intention of this PR or this will be closed in 2 days."
-          close-issue-message: "This issue was closed because it has been stalled for 3 days with unclear intentions."
-          days-before-stale: 1
-          days-before-close: 2
+          stale-pr-message: "This PR has had no activity for 14 days. If you still intend to contribute, please leave a comment or push a fix — otherwise it will be closed in 14 days."
+          close-pr-message: "This PR was closed due to 28 days of inactivity. If you'd like to contribute, feel free to open a new PR using the current tutorial in the README."
+          stale-issue-message: "This issue has had no activity for 14 days. Please leave a comment if it is still relevant — otherwise it will be closed in 14 days."
+          close-issue-message: "This issue was closed due to 28 days of inactivity. Feel free to reopen if it is still relevant."
+          days-before-stale: 14
+          days-before-close: 14
           remove-stale-when-updated: true
   changes-requested:
     runs-on: ubuntu-latest
@@ -29,8 +29,8 @@ jobs:
         with:
           # only for PR normally
           any-of-labels: "changes requested"
-          stale-pr-message: "This PR is stale because it has been 1 days with no activity. Update PR or this will be closed in 4 days."
-          close-pr-message: "This PR was closed because it has been stalled for 5 days with no activity."
-          days-before-stale: 1
-          days-before-close: 4 
+          stale-pr-message: "This PR has had no activity for 21 days. Please push a fix to address the requested changes — otherwise it will be closed in 21 days. The bot comment on your PR explains exactly what needs fixing."
+          close-pr-message: "This PR was closed due to 42 days of inactivity after changes were requested. Feel free to open a new PR once the issues are resolved."
+          days-before-stale: 21
+          days-before-close: 21
           remove-pr-stale-when-updated: true
