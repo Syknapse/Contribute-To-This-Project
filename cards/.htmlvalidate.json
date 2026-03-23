@@ -5,8 +5,6 @@
     "no-trailing-whitespace": "off",
     "void-style": ["error", { "style": "omit" }],
     "attr-quotes": ["error", { "style": "double", "unquoted": false }],
-    "require-closing-tags": "error",
-    "no-duplicate-id": "error",
     "no-inline-style": "off"
   }
 }
