@@ -1,2 +1,8 @@
-/node_modules/
-*.md
+# Card files are auto-formatted by card-to-archive.yml after merge.
+# Excluding them here prevents CI from failing on fork PRs (where the
+# prettier action can't write back to the contributor's branch).
+cards/*.html
+
+# Archive data files
+archive/cards/*.json
+archive/archiveFilesTotal.js

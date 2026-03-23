@@ -19,7 +19,10 @@ jobs:
             - name: Check source code style with Prettier
               uses: creyD/prettier_action@v4.3
               with:
-                  prettier_options: --write index.html
+                  # cards/*.html are auto-formatted by card-to-archive.yml and
+                  # excluded here — fork PRs can't write back, which would fail
+                  # the check for first-time contributors.
+                  prettier_options: --write --ignore-path .prettierignore index.html
                   only_changed: True
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
