@@ -1,0 +1,44 @@
+name: Validate Card PR
+
+# pull_request_target runs in the base-repo context so GITHUB_TOKEN has
+# write permission even for fork PRs (needed to post comments and merge).
+# Security: we check out master only — no PR code runs on the runner.
+# The card HTML is fetched via gh api in the script, not via checkout.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: [master]
+    paths:
+      - 'cards/*.html'
+      - 'index.html'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master (scripts from master only — no PR code)
+        uses: actions/checkout@v4
+        # Default ref for pull_request_target is the base branch (master).
+        # Do NOT override with github.event.pull_request.head.sha here —
+        # that would allow PR code to run with write permissions.
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate card and merge or comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node _v2/scripts/validate-card-pr.js
