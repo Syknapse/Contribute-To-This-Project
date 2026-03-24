@@ -266,10 +266,12 @@ footer {
 
 .night.card {
   border: 1px solid var(--orange);
+  color: var(--light-grey1);
 }
 
 .night.card:hover {
-  background-color: var(--orange);
+  /* Keep hover behavior consistent with light theme: animation only, no recoloring. */
+  background-color: transparent;
 }
 
 .toggle-box-label-left:empty {
