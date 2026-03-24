@@ -4,9 +4,7 @@
     "prettier": "^3.8.1"
   },
   "scripts": {
-    "prettier-html": "npx prettier --write index.html",
-    "archive_cards": "node archive/archive_cards_script.js",
-    "clean": "node archive/clean.js"
+    "prettier-html": "npx prettier --write index.html"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
