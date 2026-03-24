@@ -1,12 +1,19 @@
 {
   "devDependencies": {
     "html-validate": "^10.9.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.8.1"
   },
   "scripts": {
-    "prettier-html": "npx prettier --write index.html"
+    "prettier-html": "npx prettier --write index.html",
+    "prepare": "husky"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12"
+  },
+  "lint-staged": {
+    "*.{js,yml,yaml,json}": "prettier --write",
+    "*.html": "prettier --write --ignore-path .prettierignore"
   }
 }

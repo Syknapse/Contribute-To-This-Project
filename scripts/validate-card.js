@@ -102,9 +102,7 @@ function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
     links.each((i, link) => {
       const href = $(link).attr('href') || ''
       if (href.includes('your_user_handle')) {
-        errors.push(
-          `.contact link ${i + 1} still uses the template href (contains "your_user_handle")`
-        )
+        errors.push(`.contact link ${i + 1} still uses the template href (contains "your_user_handle")`)
       }
     })
   }
@@ -133,9 +131,7 @@ function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
   card.find('[href]').each((i, el) => {
     const href = ($(el).attr('href') || '').trim()
     if (href && !href.startsWith('http://') && !href.startsWith('https://')) {
-      errors.push(
-        `Link href "${href}" is not allowed — all links must start with https:// or http://`
-      )
+      errors.push(`Link href "${href}" is not allowed — all links must start with https:// or http://`)
     }
   })
 
