@@ -11,21 +11,28 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v4
               with:
-                  # Make sure the actual branch is checked out when running on pull requests
+                  # Check out the PR branch so we format the contributor's actual changes
                   ref: ${{ github.event.pull_request.head.ref }}
                   repository: ${{ github.event.pull_request.head.repo.full_name }}
-                  # This is important to fetch the changes to the previous commit
                   fetch-depth: 0
-            - name: Check source code style with Prettier
-              uses: creyD/prettier_action@v4.3
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
               with:
-                  # cards/*.html are auto-formatted by card-to-archive.yml and
-                  # excluded here — fork PRs can't write back, which would fail
-                  # the check for first-time contributors.
-                  prettier_options: --write --ignore-path .prettierignore index.html
-                  only_changed: True
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  node-version: 'lts/*'
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Get changed files
+              id: changed-files
+              uses: tj-actions/changed-files@v47
+
+            - name: Check formatting with Prettier
+              if: steps.changed-files.outputs.any_changed == 'true'
+              run: |
+                  # cards/*.html and archive files are excluded via .prettierignore
+                  npx prettier --check --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
 
     html-validation:
         runs-on: ubuntu-latest
@@ -36,14 +43,14 @@ jobs:
             - name: Set up Node.js
               uses: actions/setup-node@v4
               with:
-                  node-version: '20'
+                  node-version: 'lts/*'
 
             - name: Install dependencies
               run: npm install
 
             - name: Get changed HTML files
               id: changed-files
-              uses: tj-actions/changed-files@v46
+              uses: tj-actions/changed-files@v47
               with:
                   files: |
                       **/*.html
