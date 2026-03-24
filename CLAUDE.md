@@ -33,7 +33,11 @@ Each card is a standalone HTML fragment with this shape:
   <p class="name">...</p>
   <p class="contact"><!-- <i> icon + <a> link pairs --></p>
   <p class="about">...</p>
-  <div class="resources"><ul><!-- <li><a> items --></ul></div>
+  <div class="resources">
+    <ul>
+      <!-- <li><a> items -->
+    </ul>
+  </div>
 </div>
 ```
 
@@ -43,8 +47,8 @@ Each card is a standalone HTML fragment with this shape:
 
 - `archive/archiveFilesTotal.js` — auto-generated, exports `numberOfFiles` (integer)
 - `archive/json/archive_N.json` — arrays of card objects `{ name, contacts, about, resources }`
-- `assets/script.js` — imports `numberOfFiles`, fetches all `archive_N.json` files in parallel, renders each into `#contributions` via `innerHTML +=`; also handles night mode, search, contribution counter, and the scroll-to-top button
-- `index.html` — static shell; `#contributions` grid is empty on load, populated entirely by `script.js`
+- `assets/main.js` — imports `numberOfFiles`, fetches all `archive_N.json` files in parallel, renders each into `#contributions` via `innerHTML +=`; also handles night mode, search, contribution counter, and the scroll-to-top button
+- `index.html` — static shell; `#contributions` grid is empty on load, populated entirely by `main.js`
 
 ### Scripts directory
 
