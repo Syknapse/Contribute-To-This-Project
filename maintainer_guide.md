@@ -65,10 +65,12 @@ If the HTML file looks unformatted, run the following command in the project roo
 
 ```js
 npx prettier --write index.html
+```
 
 ---
 
 ## ✅ What to do now (final steps)
+
 - Paste this into the file
 - **Commit message**:  
   `Improve clarity, grammar, and consistency in Maintainer Guide`
