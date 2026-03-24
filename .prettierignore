@@ -3,6 +3,9 @@
 # prettier action can't write back to the contributor's branch).
 cards/*.html
 
+# Husky git hooks (no file extension — Prettier can't infer a parser)
+.husky/
+
 # Archive data files
 archive/cards/*.json
 archive/archiveFilesTotal.js
