@@ -31,7 +31,7 @@ function gh(cmd) {
 }
 
 function postComment(body) {
-  const tmp = '/tmp/pr-comment.md'
+  const tmp = `/tmp/pr-comment-${PR_NUMBER}.md`
   fs.writeFileSync(tmp, body)
   gh(`gh pr comment ${PR_NUMBER} --body-file ${tmp}`)
 }
