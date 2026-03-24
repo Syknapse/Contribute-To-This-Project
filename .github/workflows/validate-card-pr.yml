@@ -22,13 +22,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master (scripts from master only — no PR code)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         # Default ref for pull_request_target is the base branch (master).
         # Do NOT override with github.event.pull_request.head.sha here —
         # that would allow PR code to run with write permissions.
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 'lts/*'
 

@@ -11,7 +11,7 @@ jobs:
   intentions-not-clear:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           # for both PR and issues
           any-of-labels: 'intentions not clear'
@@ -25,7 +25,7 @@ jobs:
   changes-requested:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/stale@v9
+      - uses: actions/stale@v10
         with:
           # only for PR normally
           any-of-labels: 'changes requested'
