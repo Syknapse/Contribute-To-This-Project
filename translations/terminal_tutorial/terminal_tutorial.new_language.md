@@ -1,0 +1,3 @@
+# Ola Amigo
+
+[Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/) by [Syk Houdeib](https://github.com/Syknapse) is a beginner-friendly project that helps newcomers make their first contribution on GitHub. It teaches beginners how to use Git. With over 1.5k contributors from around the world, we need your help to make this project available in every possible language, so people worldwide can contribute more easily.
