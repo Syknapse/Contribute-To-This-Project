@@ -27,7 +27,9 @@ if (!PR_NUMBER || !PR_AUTHOR || !PR_HEAD_SHA || !GITHUB_REPOSITORY) {
 
 // ── helpers ────────────────────────────────────────────────────────────────────
 function gh(cmd) {
-  return execSync(cmd, { stdio: ['pipe', 'pipe', 'inherit'] }).toString().trim()
+  return execSync(cmd, { stdio: ['pipe', 'pipe', 'inherit'] })
+    .toString()
+    .trim()
 }
 
 function postComment(body) {
@@ -100,9 +102,7 @@ The filename \`${filename}\` isn't valid. Card filenames must only contain lette
 console.log(`Fetching ${cardFile} at ${PR_HEAD_SHA}...`)
 let html
 try {
-  const encoded = gh(
-    `gh api "repos/${GITHUB_REPOSITORY}/contents/${cardFile}?ref=${PR_HEAD_SHA}" --jq '.content'`
-  )
+  const encoded = gh(`gh api "repos/${GITHUB_REPOSITORY}/contents/${cardFile}?ref=${PR_HEAD_SHA}" --jq '.content'`)
   html = Buffer.from(encoded.replace(/\s/g, ''), 'base64').toString('utf-8')
 } catch (err) {
   fail(`Hi @${PR_AUTHOR}! 👋
