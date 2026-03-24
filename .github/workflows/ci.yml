@@ -32,7 +32,8 @@ jobs:
         if: steps.changed-files.outputs.any_changed == 'true'
         run: |
           # cards/*.html and archive files are excluded via .prettierignore
-          npx prettier --check --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
+          # --ignore-unknown skips files Prettier has no parser for (extensionless files, etc.)
+          npx prettier --check --ignore-unknown --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
 
   html-validation:
     runs-on: ubuntu-latest
