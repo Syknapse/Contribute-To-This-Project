@@ -3,7 +3,7 @@ import numberOfFiles from '../archive/archiveFilesTotal.js'
 const contributionsDisplay = document.getElementById('contributions-number')
 const displayClass = document.getElementById('contributions-number').classList
 let displayNumber = 0
-let searchTimeout = null;
+let searchTimeout = null
 
 // Create an array of ascending numbers corresponding with the number of archive files
 const numberOfFilesArray = Array.from({ length: numberOfFiles }, (_, index) => index + 1)
@@ -189,26 +189,26 @@ function applyHighlightToSearchResults(value, card) {
 }
 
 function searchCard() {
-  const input = searchBar.value.toLowerCase();
+  const input = searchBar.value.toLowerCase()
 
   if (searchTimeout) {
-    clearTimeout(searchTimeout);
+    clearTimeout(searchTimeout)
   }
 
   searchTimeout = setTimeout(async () => {
-    const cards = document.getElementsByClassName('card');
+    const cards = document.getElementsByClassName('card')
 
-    clearSearchHighlights();
+    clearSearchHighlights()
 
     for (let i = 0; i < cards.length; i++) {
       if (!cards[i].textContent.toLowerCase().includes(input)) {
-        cards[i].style.display = 'none';
+        cards[i].style.display = 'none'
       } else {
-        cards[i].style.display = 'flex';
-        applyHighlightToSearchResults(input, cards[i]);
+        cards[i].style.display = 'flex'
+        applyHighlightToSearchResults(input, cards[i])
       }
     }
-  }, 500); // 500 millisecond delay between keystrokes to trigger the search
+  }, 500) // 500 millisecond delay between keystrokes to trigger the search
 }
 
 // Get the button
