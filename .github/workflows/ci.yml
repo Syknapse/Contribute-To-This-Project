@@ -1,70 +1,70 @@
 name: Continuous Integration
 on:
-    push:
-        branches: [master]
-    pull_request:
-        branches: [master]
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
 jobs:
-    prettier:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v4
-              with:
-                  # Check out the PR branch so we format the contributor's actual changes
-                  ref: ${{ github.event.pull_request.head.ref }}
-                  repository: ${{ github.event.pull_request.head.repo.full_name }}
-                  fetch-depth: 0
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Check out the PR branch so we format the contributor's actual changes
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          fetch-depth: 0
 
-            - name: Set up Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: 'lts/*'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
 
-            - name: Install dependencies
-              run: npm install
+      - name: Install dependencies
+        run: npm install
 
-            - name: Get changed files
-              id: changed-files
-              uses: tj-actions/changed-files@v47
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v47
 
-            - name: Check formatting with Prettier
-              if: steps.changed-files.outputs.any_changed == 'true'
-              run: |
-                  # cards/*.html and archive files are excluded via .prettierignore
-                  npx prettier --check --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
+      - name: Check formatting with Prettier
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          # cards/*.html and archive files are excluded via .prettierignore
+          npx prettier --check --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
 
-    html-validation:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
+  html-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-            - name: Set up Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: 'lts/*'
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
 
-            - name: Install dependencies
-              run: npm install
+      - name: Install dependencies
+        run: npm install
 
-            - name: Get changed HTML files
-              id: changed-files
-              uses: tj-actions/changed-files@v47
-              with:
-                  files: |
-                      **/*.html
+      - name: Get changed HTML files
+        id: changed-files
+        uses: tj-actions/changed-files@v47
+        with:
+          files: |
+            **/*.html
 
-            - name: Validate HTML files
-              if: steps.changed-files.outputs.any_changed == 'true'
-              run: |
-                  echo "Validating HTML files..."
-                  echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
-                  npx html-validate ${{ steps.changed-files.outputs.all_changed_files }}
-              continue-on-error: false
+      - name: Validate HTML files
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+          echo "Validating HTML files..."
+          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
+          npx html-validate ${{ steps.changed-files.outputs.all_changed_files }}
+        continue-on-error: false
 
-            - name: Validate index.html (always run on master)
-              if: github.ref == 'refs/heads/master' && steps.changed-files.outputs.any_changed != 'true'
-              run: |
-                  echo "Validating index.html on master branch..."
-                  npx html-validate index.html
+      - name: Validate index.html (always run on master)
+        if: github.ref == 'refs/heads/master' && steps.changed-files.outputs.any_changed != 'true'
+        run: |
+          echo "Validating index.html on master branch..."
+          npx html-validate index.html

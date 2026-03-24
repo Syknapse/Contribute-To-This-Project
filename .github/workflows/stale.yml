@@ -1,7 +1,7 @@
-name: "Close stale issues and PR"
+name: 'Close stale issues and PR'
 on:
   schedule:
-    - cron: "30 1 * * *"
+    - cron: '30 1 * * *'
 
 permissions:
   issues: write
@@ -14,11 +14,11 @@ jobs:
       - uses: actions/stale@v9
         with:
           # for both PR and issues
-          any-of-labels: "intentions not clear"
-          stale-pr-message: "This PR has had no activity for 14 days. If you still intend to contribute, please leave a comment or push a fix — otherwise it will be closed in 14 days."
+          any-of-labels: 'intentions not clear'
+          stale-pr-message: 'This PR has had no activity for 14 days. If you still intend to contribute, please leave a comment or push a fix — otherwise it will be closed in 14 days.'
           close-pr-message: "This PR was closed due to 28 days of inactivity. If you'd like to contribute, feel free to open a new PR using the current tutorial in the README."
-          stale-issue-message: "This issue has had no activity for 14 days. Please leave a comment if it is still relevant — otherwise it will be closed in 14 days."
-          close-issue-message: "This issue was closed due to 28 days of inactivity. Feel free to reopen if it is still relevant."
+          stale-issue-message: 'This issue has had no activity for 14 days. Please leave a comment if it is still relevant — otherwise it will be closed in 14 days.'
+          close-issue-message: 'This issue was closed due to 28 days of inactivity. Feel free to reopen if it is still relevant.'
           days-before-stale: 14
           days-before-close: 14
           remove-stale-when-updated: true
@@ -28,9 +28,9 @@ jobs:
       - uses: actions/stale@v9
         with:
           # only for PR normally
-          any-of-labels: "changes requested"
-          stale-pr-message: "This PR has had no activity for 21 days. Please push a fix to address the requested changes — otherwise it will be closed in 21 days. The bot comment on your PR explains exactly what needs fixing."
-          close-pr-message: "This PR was closed due to 42 days of inactivity after changes were requested. Feel free to open a new PR once the issues are resolved."
+          any-of-labels: 'changes requested'
+          stale-pr-message: 'This PR has had no activity for 21 days. Please push a fix to address the requested changes — otherwise it will be closed in 21 days. The bot comment on your PR explains exactly what needs fixing.'
+          close-pr-message: 'This PR was closed due to 42 days of inactivity after changes were requested. Feel free to open a new PR once the issues are resolved.'
           days-before-stale: 21
           days-before-close: 21
           remove-pr-stale-when-updated: true
