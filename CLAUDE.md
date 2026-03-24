@@ -45,9 +45,9 @@ Each card is a standalone HTML fragment with this shape:
 
 ### Archive & frontend rendering
 
-- `archive/archiveFilesTotal.js` — auto-generated, exports `numberOfFiles` (integer)
+- `archive/manifest.json` — auto-generated; `{ files: [...], totalArchivedCards: N }`
 - `archive/json/archive_N.json` — arrays of card objects `{ name, contacts, about, resources }`
-- `assets/main.js` — imports `numberOfFiles`, fetches all `archive_N.json` files in parallel, renders each into `#contributions` via `innerHTML +=`; also handles night mode, search, contribution counter, and the scroll-to-top button
+- `assets/main.js` — fetches manifest, lazy-loads archive files in batches of 3 via `IntersectionObserver`, shows contribution count immediately from manifest; loads all remaining files on search focus; also handles night mode, search highlighting, and scroll-to-top
 - `index.html` — static shell; `#contributions` grid is empty on load, populated entirely by `main.js`
 
 ### Scripts directory

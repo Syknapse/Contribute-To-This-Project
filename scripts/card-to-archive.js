@@ -8,7 +8,7 @@
 //   1. Reads cards/<filename>, parses the card div
 //   2. Extracts name, contacts, about, resources
 //   3. Appends to the latest archive JSON (creates a new file if latest has >=50 entries)
-//   4. Updates archive/archiveFilesTotal.js if a new archive file was created
+//   4. Regenerates archive/manifest.json (file list + total card count)
 //   5. Deletes cards/<filename>
 
 const fs = require('fs')
@@ -18,7 +18,7 @@ const cheerio = require('cheerio')
 // ── paths ──────────────────────────────────────────────────────────────────────
 const CARDS_DIR = 'cards'
 const ARCHIVE_DIR = 'archive/json'
-const ARCHIVE_FILES_TOTAL = 'archive/archiveFilesTotal.js'
+const MANIFEST = 'archive/manifest.json'
 const MAX_ENTRIES_PER_FILE = 50
 
 // ── args ───────────────────────────────────────────────────────────────────────
@@ -126,14 +126,19 @@ existing.push(card)
 fs.writeFileSync(targetPath, JSON.stringify(existing, null, 2))
 console.log(`✅ Appended card to ${path.basename(targetPath)} (${existing.length} entries)`)
 
-// ── update archiveFilesTotal.js if a new archive file was created ──────────────
-if (newFileCreated) {
-  const allFiles = fs.readdirSync(ARCHIVE_DIR).filter(f => f.match(/^archive_\d+\.json$/))
-  const script = fs.readFileSync(ARCHIVE_FILES_TOTAL, 'utf-8')
-  const updated = script.replace(/const numberOfFiles = \d+/, `const numberOfFiles = ${allFiles.length}`)
-  fs.writeFileSync(ARCHIVE_FILES_TOTAL, updated)
-  console.log(`📃 Updated archiveFilesTotal.js → ${allFiles.length}`)
+// ── update manifest.json (always regenerate from filesystem) ──────────────────
+const allFiles = fs
+  .readdirSync(ARCHIVE_DIR)
+  .filter(f => f.match(/^archive_\d+\.json$/))
+  .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]))
+
+let totalArchivedCards = 0
+for (const file of allFiles) {
+  totalArchivedCards += JSON.parse(fs.readFileSync(path.join(ARCHIVE_DIR, file), 'utf-8')).length
 }
+
+fs.writeFileSync(MANIFEST, JSON.stringify({ files: allFiles, totalArchivedCards }, null, 2))
+console.log(`📋 Updated manifest.json → ${allFiles.length} files, ${totalArchivedCards} cards`)
 
 // ── delete the card file ───────────────────────────────────────────────────────
 fs.unlinkSync(cardPath)
