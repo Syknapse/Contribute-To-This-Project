@@ -816,5 +816,48 @@
         "text": "how linux boots video"
       }
     ]
+  },
+  {
+    "name": "Manoj Thilakarathna",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/manojtharindu11/",
+        "handle": "Manoj Thilakarathna"
+      },
+      {
+        "icon": "fab fa-medium",
+        "link": "https://medium.com/@manojtharindu11",
+        "handle": "Manoj Thilakarathna"
+      },
+      {
+        "icon": "fab fa-youtube",
+        "link": "https://www.youtube.com/@manojtharindu11",
+        "handle": "Manoj Thilakarathna"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/manojtharindu11",
+        "handle": "manojtharindu11"
+      }
+    ],
+    "about": "Developer interested in web technologies, sharing my projects and learning journey.",
+    "resources": [
+      {
+        "title": "Trusted docs for HTML, CSS, and JavaScript",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN\n          Web Docs"
+      },
+      {
+        "title": "Practical guides for performance and modern UX",
+        "link": "https://web.dev/",
+        "text": "web.dev"
+      },
+      {
+        "title": "Check browser support before shipping features",
+        "link": "https://caniuse.com/",
+        "text": "Can I\n          use"
+      }
+    ]
   }
 ]
