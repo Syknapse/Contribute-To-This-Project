@@ -816,33 +816,5 @@
         "text": "how linux boots video"
       }
     ]
-  },
-  {
-    "name": "Syknapse Test",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/syknapse",
-        "handle": "syknapse"
-      }
-    ],
-    "about": "This is an automated smoke test card to verify the validate and archive pipeline is working correctly.",
-    "resources": [
-      {
-        "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org",
-        "text": "MDN Web Docs"
-      },
-      {
-        "title": "GitHub Actions",
-        "link": "https://github.com/features/actions",
-        "text": "GitHub Actions"
-      },
-      {
-        "title": "Prettier",
-        "link": "https://prettier.io",
-        "text": "Prettier"
-      }
-    ]
   }
 ]
