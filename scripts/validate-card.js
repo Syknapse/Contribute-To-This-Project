@@ -102,12 +102,38 @@ function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
     links.each((i, link) => {
       const href = $(link).attr('href') || ''
       if (href.includes('your_user_handle')) {
-        errors.push(
-          `.contact link ${i + 1} still uses the template href (contains "your_user_handle")`
-        )
+        errors.push(`.contact link ${i + 1} still uses the template href (contains "your_user_handle")`)
       }
     })
   }
+
+  // --- Security checks ---
+
+  // Reject dangerous tags
+  const dangerousTags = ['script', 'iframe', 'object']
+  for (const tag of dangerousTags) {
+    if (card.find(tag).length > 0) {
+      errors.push(`Card contains a <${tag}> element, which is not allowed`)
+    }
+  }
+
+  // Reject inline event handler attributes (onclick, onmouseover, etc.)
+  card.find('*').each((_, el) => {
+    const attribs = el.attribs || {}
+    for (const attr of Object.keys(attribs)) {
+      if (/^on\w+/i.test(attr)) {
+        errors.push(`Card contains an inline event handler attribute "${attr}", which is not allowed`)
+      }
+    }
+  })
+
+  // Reject hrefs that don't start with http:// or https://
+  card.find('[href]').each((i, el) => {
+    const href = ($(el).attr('href') || '').trim()
+    if (href && !href.startsWith('http://') && !href.startsWith('https://')) {
+      errors.push(`Link href "${href}" is not allowed — all links must start with https:// or http://`)
+    }
+  })
 
   // --- .resources (optional, 0–5 items) ---
   const resourcesEl = card.find('.resources')
