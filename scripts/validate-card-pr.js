@@ -49,20 +49,6 @@ const README = `https://github.com/${GITHUB_REPOSITORY}#readme`
 const prFiles = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files.map(f => f.path)
 console.log(`Changed files: ${prFiles.join(', ')}`)
 
-// ── index.html redirect ────────────────────────────────────────────────────────
-if (prFiles.includes('index.html')) {
-  postComment(`Hi @${PR_AUTHOR}! 👋
-
-Thanks for contributing! We recently updated how cards are added to this project.
-
-**The new way:** Instead of editing \`index.html\`, copy \`cards/template.html\` to \`cards/your-github-username.html\`, fill it in, and open a PR with just that file. The bot validates and auto-merges — no waiting!
-
-See the [README](${README}) for the updated step-by-step tutorial. This PR is being closed — please don't be discouraged, re-submitting with the new flow takes just a few minutes. 🙌`)
-  gh(`gh pr close ${PR_NUMBER}`)
-  console.log(`PR #${PR_NUMBER} closed with redirect comment.`)
-  process.exit(0)
-}
-
 // ── file scope ─────────────────────────────────────────────────────────────────
 const nonCardFiles = prFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
 if (nonCardFiles.length > 0) {
