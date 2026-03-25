@@ -7,6 +7,7 @@
   },
   "scripts": {
     "prettier-html": "npx prettier --write index.html",
+    "format": "git diff --name-only HEAD | xargs npx prettier --write --ignore-unknown",
     "prepare": "husky"
   },
   "dependencies": {
