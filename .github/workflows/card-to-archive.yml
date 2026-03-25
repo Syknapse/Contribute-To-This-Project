@@ -22,6 +22,12 @@ on:
 permissions:
   contents: write
 
+# Serialize archive runs so concurrent card merges don't corrupt the archive.
+# cancel-in-progress: false means runs queue rather than cancel each other.
+concurrency:
+  group: archive
+  cancel-in-progress: false
+
 jobs:
   archive:
     runs-on: ubuntu-latest
