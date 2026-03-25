@@ -113,11 +113,40 @@ ${errorList}
 Don't hesitate to ask if anything is unclear — we're happy to help! 🙌`)
 }
 
-// ── success: enable auto-merge ─────────────────────────────────────────────────
-// Branch protection is required on master, so --auto is always available.
-// The PR merges automatically once all required status checks pass.
-// card-to-archive.yml is triggered by pull_request_target:[closed] after the
-// actual merge — no dispatch needed here.
+// ── success: enable auto-merge then wait and dispatch archive ──────────────────
+// Branch protection on master makes --auto always available. The PR merges once
+// all required status checks pass (typically 1-3 minutes).
+//
+// pull_request_target:[closed] is suppressed when GITHUB_TOKEN performs the merge,
+// so we cannot rely on it to trigger card-to-archive. Instead, we poll until the
+// PR is merged and then dispatch workflow_dispatch — which is never suppressed.
 console.log(`✅ Card is valid — merging PR #${PR_NUMBER}`)
 gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
-console.log('🎉 Auto-merge enabled — will merge once all checks pass.')
+console.log('🎉 Auto-merge enabled — waiting for merge to complete...')
+
+const MAX_ATTEMPTS = 40
+const POLL_INTERVAL_SECONDS = 15
+let merged = false
+
+for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+  execSync(`sleep ${POLL_INTERVAL_SECONDS}`)
+  const state = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json state`)).state
+  console.log(`Attempt ${attempt}/${MAX_ATTEMPTS} — PR state: ${state}`)
+  if (state === 'MERGED') {
+    merged = true
+    break
+  }
+}
+
+if (merged) {
+  try {
+    gh(`gh workflow run card-to-archive.yml --ref master -f filename=${filename}`)
+    console.log(`📦 Dispatched card-to-archive for ${filename}`)
+  } catch (err) {
+    console.log(`⚠️  Could not dispatch card-to-archive: ${err.message.split('\n')[0]}`)
+    console.log('   Trigger it manually: gh workflow run card-to-archive.yml --ref master -f filename=' + filename)
+  }
+} else {
+  console.log(`⚠️  PR did not merge within ${(MAX_ATTEMPTS * POLL_INTERVAL_SECONDS) / 60} minutes.`)
+  console.log('   Trigger archive manually: gh workflow run card-to-archive.yml --ref master -f filename=' + filename)
+}

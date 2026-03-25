@@ -1,11 +1,11 @@
 name: Archive Card
 
-# Primary trigger: pull_request_target:[closed] fires after the PR is actually
-# merged — guaranteed to run after the card file lands on master.
-# pull_request_target is not suppressed by GITHUB_TOKEN, so it fires reliably
-# even when auto-merge (triggered by a workflow token) does the merge.
+# Primary trigger: workflow_dispatch, dispatched by validate-card-pr.js after
+# polling until the PR is confirmed merged. This is necessary because
+# pull_request_target:[closed] is suppressed when GITHUB_TOKEN performs the merge.
 #
-# workflow_dispatch is kept for manual re-runs (e.g. if the primary trigger fails).
+# workflow_dispatch is also used for manual re-runs if the primary trigger fails.
+# pull_request_target:[closed] is kept as a fallback for manually merged PRs.
 on:
   workflow_dispatch:
     inputs:
