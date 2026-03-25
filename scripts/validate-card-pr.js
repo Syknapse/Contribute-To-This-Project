@@ -114,15 +114,11 @@ Don't hesitate to ask if anything is unclear — we're happy to help! 🙌`)
 }
 
 // ── success: merge then dispatch archive ───────────────────────────────────────
+// Branch protection is required on master, so --auto is always available.
+// The PR will merge automatically once all required status checks pass.
 console.log(`✅ Card is valid — merging PR #${PR_NUMBER}`)
-try {
-  gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
-  console.log('🎉 Auto-merge enabled — will merge once all checks pass.')
-} catch {
-  // --auto requires branch protection; fall back to immediate merge
-  gh(`gh pr merge ${PR_NUMBER} --squash`)
-  console.log('🎉 PR merged.')
-}
+gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
+console.log('🎉 Auto-merge enabled — will merge once all checks pass.')
 
 // Dispatch card-to-archive.yml via workflow_dispatch.
 // workflow_dispatch is NOT suppressed by GITHUB_TOKEN (unlike push/PR events),
