@@ -1,8 +1,11 @@
 # Archive
 
+> [!WARNING]
+> Never edit files in `archive/json/` or `archive/manifest.json` by hand. They are fully managed by `scripts/card-to-archive.js`.
+
 ## Where did my card go?
 
-After a number of contributions accumulate, cards are moved from their individual HTML files (`cards/<username>.html`) into archive JSON files. This keeps the repository lightweight and reduces merge conflicts for contributors.
+When a pull request is merged, cards are moved from their individual HTML files (`cards/<username>.html`) into archive JSON files. This keeps the repository lightweight and reduces merge conflicts for contributors.
 
 **This happens automatically — you don't need to do anything.**
 
@@ -44,6 +47,3 @@ Or trigger it from the Actions tab in GitHub: **Archive Card** → **Run workflo
 | ----------------------------- | ---------------------------------------------------------------------------------------------------- |
 | `archive/manifest.json`       | Auto-generated. Lists all archive files and the total card count. Do not edit manually.              |
 | `archive/json/archive_N.json` | Auto-generated. Arrays of card objects `{ name, contacts, about, resources }`. Do not edit manually. |
-
-> [!WARNING]
-> Never edit files in `archive/json/` or `archive/manifest.json` by hand. They are fully managed by `scripts/card-to-archive.js`.

@@ -323,7 +323,7 @@ You have added code to a live web page: [https://syknapse.github.io/Contribute-T
 
 Your card will be automatically reviewed and merged if everything is correct. If the bot finds an issue it will leave a comment on your PR explaining exactly what needs fixing — push the fix to the same branch and it will re-check automatically.
 
-**Where did my HTML file go?** After a while, submitted cards are automatically archived to keep the repository lightweight. Your card still appears on the site. [Find out more](archive/README.md).
+**Where did my HTML file go?** After a while, submitted cards are automatically archived to keep the repository lightweight. Your html file will be automatically removed from the `cards/` directory, but its data is conserved in the archive. Your card still appears on the site. [Find out more](archive/README.md).
 
 [↑ Go to top ↑](#quick-access-index)
 
