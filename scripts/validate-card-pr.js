@@ -46,7 +46,9 @@ function fail(body) {
 const README = `https://github.com/${GITHUB_REPOSITORY}#readme`
 
 // ── get changed files ──────────────────────────────────────────────────────────
-const prFiles = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files.map(f => f.path)
+// Keep full file objects (path + changeType) for later checks.
+const prFilesData = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files
+const prFiles = prFilesData.map(f => f.path)
 console.log(`Changed files: ${prFiles.join(', ')}`)
 
 // ── file scope ─────────────────────────────────────────────────────────────────
@@ -62,6 +64,47 @@ Please submit a PR that only adds your card at \`cards/your-github-username.html
 }
 
 if (prFiles.length > 1) {
+  // All files are cards/*.html at this point. Check if any are stale archived
+  // cards — this happens when a contributor forks just before another card is
+  // archived, then opens their PR after the archive workflow has deleted the file.
+  const archivedFiles = []
+  const newFiles = []
+
+  for (const filePath of prFiles) {
+    let hasHistory = false
+    try {
+      const commits = JSON.parse(
+        gh(`gh api "repos/${GITHUB_REPOSITORY}/commits?path=${filePath}&sha=master&per_page=1"`)
+      )
+      hasHistory = commits.length > 0
+    } catch {
+      // Treat as new if the API call fails
+    }
+    if (hasHistory) {
+      archivedFiles.push(path.basename(filePath))
+    } else {
+      newFiles.push(path.basename(filePath))
+    }
+  }
+
+  if (archivedFiles.length > 0 && newFiles.length === 1) {
+    const staleList = archivedFiles.map(f => `- \`${f}\``).join('\n')
+    fail(`Hi @${PR_AUTHOR}! 👋
+
+Your PR contains ${archivedFiles.length === 1 ? 'a card' : 'cards'} that ${archivedFiles.length === 1 ? 'was' : 'were'} recently archived from this repository:
+
+${staleList}
+
+This happens when you fork the repo just as another contributor's card is being archived — the file exists in your fork but has since been removed from master. The fix is simple: update your branch from upstream master to drop the stale ${archivedFiles.length === 1 ? 'file' : 'files'}:
+
+\`\`\`bash
+git fetch upstream
+git rebase upstream/master
+\`\`\`
+
+Or if you're using GitHub Desktop, sync your fork with the upstream. Then push again and the bot will re-check automatically.`)
+  }
+
   fail(`Hi @${PR_AUTHOR}! 👋
 
 This PR changes more than one file. Please submit one card per PR — each contributor gets their own file.`)
@@ -69,6 +112,8 @@ This PR changes more than one file. Please submit one card per PR — each contr
 
 const cardFile = prFiles[0]
 const filename = path.basename(cardFile)
+const cardChangeType = (prFilesData[0] && prFilesData[0].changeType) || 'ADDED'
+const isCardUpdate = cardChangeType === 'MODIFIED'
 
 if (filename === 'template.html') {
   fail(`Hi @${PR_AUTHOR}! 👋
@@ -82,6 +127,27 @@ if (!/^[a-zA-Z0-9_-]+\.html$/.test(filename)) {
   fail(`Hi @${PR_AUTHOR}! 👋
 
 The filename \`${filename}\` isn't valid. Card filenames must only contain letters, numbers, hyphens, and underscores — for example: \`your-github-username.html\`.`)
+}
+
+// ── check for duplicate card filename ──────────────────────────────────────────
+// A new card (ADDED) whose filename already exists on master means two PRs with
+// the same filename were submitted around the same time. Fail early rather than
+// silently overwriting the existing card.
+if (!isCardUpdate) {
+  let fileExistsOnMaster = false
+  try {
+    gh(`gh api "repos/${GITHUB_REPOSITORY}/contents/${cardFile}?ref=master"`)
+    fileExistsOnMaster = true
+  } catch {
+    // 404 — file doesn't exist on master yet, which is expected for new cards
+  }
+  if (fileExistsOnMaster) {
+    fail(`Hi @${PR_AUTHOR}! 👋
+
+A card file named \`cards/${filename}\` already exists in this repository. This usually means two PRs with the same filename were submitted at the same time.
+
+If you're trying to update your existing card, please make sure your fork is up to date with master and reopen the PR. If you believe this is an error, leave a comment and a maintainer will take a look.`)
+  }
 }
 
 // ── fetch card HTML from PR head (only this content comes from the PR) ─────────
@@ -120,6 +186,19 @@ Don't hesitate to ask if anything is unclear — we're happy to help! 🙌`)
 // pull_request_target:[closed] is suppressed when GITHUB_TOKEN performs the merge,
 // so we cannot rely on it to trigger card-to-archive. Instead, we poll until the
 // PR is merged and then dispatch workflow_dispatch — which is never suppressed.
+
+// Guard against re-runs on already-merged/closed PRs (e.g. a late synchronize
+// event arriving after the PR has already been processed).
+const prState = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json state`)).state
+if (prState === 'MERGED') {
+  console.log(`✅ PR #${PR_NUMBER} is already merged — nothing to do.`)
+  process.exit(0)
+}
+if (prState === 'CLOSED') {
+  console.log(`⚠️  PR #${PR_NUMBER} is closed — skipping merge.`)
+  process.exit(0)
+}
+
 console.log(`✅ Card is valid — merging PR #${PR_NUMBER}`)
 gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
 console.log('🎉 Auto-merge enabled — waiting for merge to complete...')
