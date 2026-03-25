@@ -34,6 +34,7 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
+          ssh-key: ${{ secrets.ARCHIVE_DEPLOY_KEY }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v6
