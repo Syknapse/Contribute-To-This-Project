@@ -859,5 +859,33 @@
         "text": "Can I\n          use"
       }
     ]
+  },
+  {
+    "name": "xingzihai",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/xingzihai",
+        "handle": "xingzihai"
+      }
+    ],
+    "about": "开源爱好者，正在学习AI和Web开发",
+    "resources": [
+      {
+        "title": "GitHub - Where the world builds software",
+        "link": "https://github.com/",
+        "text": "GitHub"
+      },
+      {
+        "title": "MDN Web Docs - Resources for developers",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp - Learn to code for free",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
