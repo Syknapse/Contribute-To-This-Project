@@ -887,5 +887,23 @@
         "text": "Prettier"
       }
     ]
+  },
+  {
+    "name": "Syk Houdeib",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Syknapse",
+        "handle": "Syknapse"
+      }
+    ],
+    "about": "Web developer and open source advocate. Creator of this project.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
