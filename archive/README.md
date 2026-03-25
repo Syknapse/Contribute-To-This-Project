@@ -1,37 +1,49 @@
-# Archive cards
+# Archive
 
-For maintainers only.
+## Where did my card go?
 
-## How to archive cards
+After a number of contributions accumulate, cards are moved from their individual HTML files (`cards/<username>.html`) into archive JSON files. This keeps the repository lightweight and reduces merge conflicts for contributors.
 
-1. Open a terminal in the project root.
-1. Run `npm run prettier-html`. This will run Prettier on the html.index file and ensure there are no html errors. This is important to archive correctly.
-1. If the Prettier command shows errors you must fix those first. Usually the errors are a missing closing html tag somewhere. Once the command runs with no errors you are ready to archive.
-1. In the same terminal run `npm run archive_cards`. This will start the automatic archiving process described below in the how it works section.
-1. Once the terminal process is finished successfully you should have a new json file in archive/json, the number of files should be automatically updated in archive/archiveFilesTotals and the html.index should have the template and 10 other cards left, all the rest should be automatically eliminated.
-1. In the index.html card you will find the leftover comments from archived cards, you can delete all of those.
-1. Review that the archived cards are still showing up on the project website (checking locally by opening VS Code live Server or the index in your browser).
-1. If everything is correct and the archives have been converted correctly and still show up on the page, you can commit your changes and push to origin.
+**This happens automatically — you don't need to do anything.**
 
-> [!Warning]
-> Never commit and push unless you make sure all the process has been completed without errors
+Your card still appears on the live site exactly as before:
+[https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
-## When to archive and why
+The original HTML file and your full contribution history are preserved in git history.
 
-We archive the cards to keep the index.html file as light as possible. This helps contributors work with a small file and maintainers deal with much less conflicts.
+---
 
-In theory there is no limit on when you can archive as long as there are more than 10 cards in the index. We prefer to have many small json files in the archive than wait until there are too many cards in the index. So whenever you have time run the script and follow the steps above.
+## How the archive system works (for maintainers)
 
-## How it all works
+### Pipeline
 
-The archive_cards_script.js is a node script that does several things.  
-This script will copy all the .cards elements in index.html. It will leave the first 11 cards (template + 10 cards) and convert all the remainder into json format.  
-It will create a new json file called archive_{number}.json incrementing number by 1, it will copy the json cards there.  
-It will then remove the cards from the html file.  
-Finally it will update a special file called archiveFilesTotal with the number of files in the archive/json directory.
+Archiving is fully automated and runs after every card merge:
 
-When the project is loaded in a browser, script.js runs. It imports the number of files from archiveFilesTotal.  
-It then uses this to import all the json archives in archive/json directory by using the archive_{number}.json based on the number of files.  
-Each json file is imported and the data it contained is mapped over the html card template, then it gets appended to the .grid element.  
+1. A card PR is merged into `master`
+2. `validate-card-pr.js` polls until the merge is confirmed, then dispatches `card-to-archive.yml` via `workflow_dispatch`
+3. `scripts/card-to-archive.js` runs:
+   - Parses `cards/<username>.html` and extracts name, contacts, about, and resources
+   - Appends the card data to the latest `archive/json/archive_N.json` (max 50 entries per file — creates a new file when full)
+   - Regenerates `archive/manifest.json` with the updated file list and total card count
+   - Deletes `cards/<username>.html`
+4. The bot commits and pushes the changes to `master`
 
-This way the cards are no longer cluttering the html file, but still appear on the page.
+### Manual trigger
+
+If archiving fails (e.g. the workflow timed out or was skipped), re-run it manually:
+
+```bash
+gh workflow run card-to-archive.yml --ref master -f filename=<username>.html
+```
+
+Or trigger it from the Actions tab in GitHub: **Archive Card** → **Run workflow** → enter the filename.
+
+### Files in this directory
+
+| Path                          | Description                                                                                          |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `archive/manifest.json`       | Auto-generated. Lists all archive files and the total card count. Do not edit manually.              |
+| `archive/json/archive_N.json` | Auto-generated. Arrays of card objects `{ name, contacts, about, resources }`. Do not edit manually. |
+
+> [!WARNING]
+> Never edit files in `archive/json/` or `archive/manifest.json` by hand. They are fully managed by `scripts/card-to-archive.js`.
