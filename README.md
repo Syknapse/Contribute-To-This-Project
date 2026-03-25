@@ -79,12 +79,12 @@ You will copy a ready-made card template file, fill it in with your own informat
 
 This tutorial is also available in [other languages](/translations/README.md)
 
-| [Arabic (عربي)](/translations/README/ARABIC.md) | [Bangla (বাংলা)](/translations/README/BANGLA.md) | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) | [English (English)](/README.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [French (Français)](/translations/README/FRENCH.md) | [German (Deutsch)](/translations/README/GERMAN.md) | [Hindi (हिंदी)](/translations/README/HINDI.md) | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/日本語/README.md) |
-| [Korean (한국어)](/translations/README/KOREAN.md) | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) | [Serbian (Српски)](/translations/README/SERBIAN.md) |
-| [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) | [Urdu (اُردُو)](/translations/README/URDU.md) |
-| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md) | | | |
+|    [Arabic (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Dutch](/translations/README/DUTCH.md)            |           [English (English)](/README.md)           |
+| :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------: |
+|  [French (Français)](/translations/README/FRENCH.md)   |  [German (Deutsch)](/translations/README/GERMAN.md)  |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Japanese (日本語)](/translations/日本語/README.md) |
+|   [Korean (한국어)](/translations/README/KOREAN.md)    |  [Polish (Polski)](/translations/README/POLISH.md)   |          [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Russian (Русский)](/translations/README/RUSSIAN.md)     | [Serbian (Српски)](/translations/README/SERBIAN.md) |
+| [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |    [Urdu (اُردُو)](/translations/README/URDU.md)    |
+| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |    [Malayalam](/translations/README/MALAYALAM.md)    |                                                                                 |                                                             |                                                     |
 
 > Translations for project documentation are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
@@ -122,8 +122,8 @@ _Estimated time: Less than 30 minutes_.
 - Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **Click on the _Fork_ button**          |
+| :----------------------------------------------: |
+|          **Click on the _Fork_ button**          |
 
 - You now have a complete copy of the project in your own account.
 
@@ -137,18 +137,18 @@ _Estimated time: Less than 30 minutes_.
 - Open the GitHub Desktop app. In the app:
 
 | ![Clone](/readme-only/clone.PNG 'click clone repository') |
-| :------------------------------------------------------: |
-|       **Click on _File_ then _Clone repository_**        |
+| :-------------------------------------------------------: |
+|        **Click on _File_ then _Clone repository_**        |
 
 - You will see a list of your projects and forks on GitHub.
 - Select `<your-github-username>/Contribute-To-This-Project`.
 - Click _Clone_
 
 | ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
-| :----------------------------------------------------------------------------------------------------------: |
+| :-----------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: A forked project will have the fork symbol on the left. Your fork will have your own GitHub user name | ![your fork](/readme-only/clone-your-fork.PNG 'your fork will look like this, with your own user name') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------: |
 
 - This will take a moment as the project is copied to your hard disk. I recommend that you keep the default path which is usually `..\Documents\GitHub`.
 - Now you have a local copy of the project.
@@ -162,8 +162,8 @@ _Estimated time: Less than 30 minutes_.
 - Once the repo has been cloned and you have it open in GitHub Desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| :arrow_right_hook: click on _`Current branch`_, Then click on _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: click on *`Current branch`_, Then click on _`New`\_        |                    ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'")                     |
+| :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
 | :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
@@ -259,13 +259,13 @@ cp cards/template.html cards/your-github-username.html
 - This means that Git has recorded all the **saved** changes.
 - You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
+|                                                                                                 ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: The next step is called _`Commit`_. This roughly means `confirm the changes` |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
-|                                                                            :arrow_right_hook: **This is what your GitHub Desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, and your `Current branch` will have the name you gave it in step 3**                                                                            |
-|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **To _`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`_ button. Your button will say something like `Commit to "your-branch-name"`** |
+|                                                                                                                                        :arrow*right_hook: The next step is called *`Commit`\_. This roughly means `confirm the changes`                                                                                                                                        |
+|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                              |
+|                                                                          :arrow_right_hook: **This is what your GitHub Desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, and your `Current branch` will have the name you gave it in step 3**                                                                          |
+|                                                                                                                 ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
+| :arrow*right_hook: \*\*To *`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`\_ button. Your button will say something like `Commit to "your-branch-name"`\*\* |
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -276,8 +276,8 @@ cp cards/template.html cards/your-github-username.html
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
-| :arrow_right_hook: Click the _`Push`_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: Click the *`Push`\_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :-------------------------------------------- | :------------------------------------------------------------------------------------------------: |
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
@@ -295,16 +295,16 @@ cp cards/template.html cards/your-github-username.html
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
 
 |  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Click on `Compare and pull request`**                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                       :arrow_right_hook: **Click on `Compare and pull request`**                                                       |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
-|                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
+|                                               :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
 
 - REMEMBER: _you are trying to merge your branch with the original project, not with the `Master` branch on your fork_.
 - The image below gives you an idea of how the header of your pull request should look. On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                  ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                  |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Create a pull request: Write a title, add optional information in the description, and click `Create pull request`** |
 
 - Don't be fazed by all the options. You only need to do these three steps for now.
@@ -322,6 +322,8 @@ That's it. You have done it! You have now contributed to open source on GitHub.
 You have added code to a live web page: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
 
 Your card will be automatically reviewed and merged if everything is correct. If the bot finds an issue it will leave a comment on your PR explaining exactly what needs fixing — push the fix to the same branch and it will re-check automatically.
+
+**Where did my HTML file go?** After a while, submitted cards are automatically archived to keep the repository lightweight. Your html file will be automatically removed from the `cards/` directory, but its data is conserved in the archive. Your card still appears on the site. [Find out more](archive/README.md).
 
 [↑ Go to top ↑](#quick-access-index)
 
