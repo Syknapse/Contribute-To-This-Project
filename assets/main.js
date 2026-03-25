@@ -1,167 +1,213 @@
-// ── state ──────────────────────────────────────────────────────────────────────
+// ── shared state ───────────────────────────────────────────────────────────────
+// These variables are shared across the archive loading, search, and UI sections.
+
 const contributionsDisplay = document.getElementById('contributions-number')
-const displayClass = document.getElementById('contributions-number').classList
+const contributionsDisplayClass = document.getElementById('contributions-number').classList
 const archiveCardsDirectory = './archive/json'
 const searchBar = document.getElementById('searchbar')
 
-let displayNumber = 0
-let searchTimeout = null
-let filesToLoad = []
-let loadedCount = 0
-let observer = null
-let fullyLoaded = false
+let countUpCurrentNumber = 0 // tracks the current number shown in the counter animation
+let searchTimeout = null // holds the debounce timer for the search input
+let archiveFilesToLoad = [] // full list of archive filenames from the manifest
+let archiveLoadedCount = 0 // how many files have been fetched so far
+let intersectionObserver = null // watches the sentinel element to trigger lazy loading
+let archiveFullyLoaded = false // true once all archive files have been fetched
 
-const BATCH_SIZE = 3
+const ARCHIVE_BATCH_SIZE = 3 // number of archive files to fetch per scroll trigger
 
-// ── initialise: fetch manifest then start lazy loading ─────────────────────────
+// ── manifest & initialisation ──────────────────────────────────────────────────
+// The manifest (archive/manifest.json) is fetched first. It contains the list of
+// archive files and the pre-computed total card count. Everything else starts here.
+
 fetch('./archive/manifest.json')
-  .then(r => r.json())
+  .then(response => response.json())
   .then(manifest => {
-    filesToLoad = manifest.files
+    archiveFilesToLoad = manifest.files
     countUpTo(manifest.totalArchivedCards)
     initLazyLoading()
   })
-  .catch(err => console.error('Failed to load archive manifest:', err))
+  .catch(error => console.error('Failed to load archive manifest:', error))
 
-// ── render cards from one archive file into the grid ──────────────────────────
-function renderCards(data, file) {
-  const link = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/json/${file}`
-  const cards = data
+// ── card rendering ─────────────────────────────────────────────────────────────
+// Takes the parsed JSON data from one archive file and appends the cards to the
+// contributions grid. Also applies night mode to any newly added cards if active.
+
+function renderCards(cardDataArray, sourceFile) {
+  const sourceFileUrl = `https://github.com/Syknapse/Contribute-To-This-Project/blob/master/archive/json/${sourceFile}`
+
+  const cardsHtml = cardDataArray
     .map(card => {
       const { name, contacts, about, resources } = card
       return `
         <div class="card">
-          <!-- Fetched from Archive: ${file} -->
+          <!-- Fetched from Archive: ${sourceFile} -->
           <p class="name">${name}</p>
           <p class="contact">
-            ${contacts.map(c => `<i class="${c.icon}"></i><a href="${c.link}" target="_blank">${c.handle}</a>`).join('')}
+            ${contacts
+              .map(
+                contact =>
+                  `<i class="${contact.icon}"></i><a href="${contact.link}" target="_blank">${contact.handle}</a>`
+              )
+              .join('')}
           </p>
           <p class="about">${about}</p>
           <div class="resources">
             <p>3 Useful Dev Resources</p>
             <ul>
               ${resources
-                .map(r => `<li><a href="${r.link}" target="_blank" title="${r.title}">${r.text}</a></li>`)
+                .map(
+                  resource =>
+                    `<li><a href="${resource.link}" target="_blank" title="${resource.title}">${resource.text}</a></li>`
+                )
                 .join('')}
             </ul>
           </div>
-          <p><small>Fetched From: <a href="${link}" target="_blank">${file}</a></small></p>
+          <p><small>Fetched From: <a href="${sourceFileUrl}" target="_blank">${sourceFile}</a></small></p>
         </div>
       `
     })
     .join('')
 
   const grid = document.getElementById('contributions')
-  grid.innerHTML += cards
+  grid.innerHTML += cardsHtml
 
+  // If night mode is active, apply the night class to any cards just added
   if (localStorage.getItem('theme') === 'night') {
     grid.querySelectorAll('.card:not(.night)').forEach(card => card.classList.add('night'))
   }
 }
 
-// ── lazy loading with IntersectionObserver ─────────────────────────────────────
+// ── lazy loading ───────────────────────────────────────────────────────────────
+// A sentinel <div> is placed just below the contributions grid. An
+// IntersectionObserver watches it: when it enters the viewport (with a 400px
+// look-ahead margin), the next batch of archive files is fetched and rendered.
+// This means only the first few files load on page open; the rest load on demand.
+
 function loadNextBatch() {
-  const batch = filesToLoad.slice(loadedCount, loadedCount + BATCH_SIZE)
-  if (batch.length === 0) {
-    disconnectObserver()
+  const nextBatch = archiveFilesToLoad.slice(archiveLoadedCount, archiveLoadedCount + ARCHIVE_BATCH_SIZE)
+
+  if (nextBatch.length === 0) {
+    stopLazyLoading()
     return
   }
-  loadedCount += batch.length
 
-  Promise.all(batch.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(r => r.json())))
+  archiveLoadedCount += nextBatch.length
+
+  Promise.all(nextBatch.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(response => response.json())))
     .then(results => {
-      results.forEach((data, i) => renderCards(data, batch[i]))
-      if (loadedCount >= filesToLoad.length) disconnectObserver()
+      results.forEach((cardData, index) => renderCards(cardData, nextBatch[index]))
+      if (archiveLoadedCount >= archiveFilesToLoad.length) stopLazyLoading()
     })
-    .catch(err => console.error('Error loading archive batch:', err))
+    .catch(error => console.error('Error loading archive batch:', error))
 }
 
-function disconnectObserver() {
-  if (observer) {
-    observer.disconnect()
-    observer = null
+function stopLazyLoading() {
+  // Disconnect the observer once all files are loaded — no more scrolling needed
+  if (intersectionObserver) {
+    intersectionObserver.disconnect()
+    intersectionObserver = null
   }
-  fullyLoaded = true
+  archiveFullyLoaded = true
 }
 
 function initLazyLoading() {
+  // The sentinel sits just after the grid. When it scrolls into view the observer
+  // fires loadNextBatch(). The 400px rootMargin means loading starts before the
+  // user actually reaches the bottom, keeping the experience seamless.
   const sentinel = document.createElement('div')
   sentinel.id = 'archive-sentinel'
   document.getElementById('contributions').after(sentinel)
 
-  observer = new IntersectionObserver(
+  intersectionObserver = new IntersectionObserver(
     entries => {
       if (entries[0].isIntersecting) loadNextBatch()
     },
-    {
-      rootMargin: '400px',
-    }
+    { rootMargin: '400px' }
   )
-  observer.observe(sentinel)
-
-  loadNextBatch() // load first batch immediately without waiting to scroll
+  intersectionObserver.observe(sentinel)
+  // Note: we do NOT call loadNextBatch() manually here. The observer fires
+  // immediately on first observe() because the sentinel starts within the
+  // 400px margin, so the first batch loads automatically.
 }
 
-// ── load all remaining files on search focus ───────────────────────────────────
-function loadAllRemaining() {
-  if (fullyLoaded) return
-  disconnectObserver()
+// ── search: load all cards on focus ───────────────────────────────────────────
+// Search only works on cards already in the DOM. When the user focuses the search
+// bar, we stop lazy loading and fetch all remaining archive files at once so the
+// search covers every card. The placeholder text signals that loading is in progress.
+// { once: true } ensures this only runs on the very first focus.
 
-  const remaining = filesToLoad.slice(loadedCount)
-  loadedCount = filesToLoad.length
+searchBar.addEventListener(
+  'focus',
+  function loadAllRemainingForSearch() {
+    if (archiveFullyLoaded) return
 
-  const originalPlaceholder = searchBar.placeholder
-  searchBar.placeholder = 'Loading all cards…'
+    stopLazyLoading()
 
-  Promise.all(remaining.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(r => r.json())))
-    .then(results => {
-      results.forEach((data, i) => renderCards(data, remaining[i]))
-    })
-    .catch(err => console.error('Error loading all archive files:', err))
-    .finally(() => {
-      searchBar.placeholder = originalPlaceholder
-    })
-}
+    const remainingFiles = archiveFilesToLoad.slice(archiveLoadedCount)
+    archiveLoadedCount = archiveFilesToLoad.length
+
+    const originalPlaceholder = searchBar.placeholder
+    searchBar.placeholder = 'Loading all cards…'
+
+    Promise.all(remainingFiles.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(response => response.json())))
+      .then(results => {
+        results.forEach((cardData, index) => renderCards(cardData, remainingFiles[index]))
+      })
+      .catch(error => console.error('Error loading all archive files:', error))
+      .finally(() => {
+        searchBar.placeholder = originalPlaceholder
+      })
+  },
+  { once: true }
+)
 
 // ── contribution counter ───────────────────────────────────────────────────────
-function countUpTo(target) {
-  const steps = 50
-  const interval = 1500 / steps
-  const increment = Math.ceil(target / steps)
+// Animates the contributions number from 0 up to the target over ~1.5 seconds.
+// The target comes from manifest.json (pre-computed total), so it displays
+// immediately without waiting for any cards to render in the DOM.
 
-  const tick = () => {
-    displayNumber = Math.min(displayNumber + increment, target)
-    contributionsDisplay.textContent = displayNumber
-    if (displayNumber < target) {
-      setTimeout(tick, interval)
+function countUpTo(targetNumber) {
+  const totalSteps = 50
+  const stepInterval = 1500 / totalSteps // ~30ms per step
+  const stepIncrement = Math.ceil(targetNumber / totalSteps)
+
+  function tick() {
+    countUpCurrentNumber = Math.min(countUpCurrentNumber + stepIncrement, targetNumber)
+    contributionsDisplay.textContent = countUpCurrentNumber
+
+    if (countUpCurrentNumber < targetNumber) {
+      setTimeout(tick, stepInterval)
     } else {
-      displayClass.add('rubberBand')
+      contributionsDisplayClass.add('rubberBand') // bounce animation when counter reaches final number
     }
   }
+
   tick()
 }
 
 // ── night mode ─────────────────────────────────────────────────────────────────
+// Toggles night mode on the body and all card elements. Cards are updated in
+// batches of 50 every 500ms to avoid layout jank when thousands are in the DOM.
+
 let nightModeIntervalId = null
 const themeToggle = document.getElementById('toggle-box-checkbox')
 
-const currentTheme = localStorage.getItem('theme')
-if (currentTheme === 'night') {
+// Apply saved theme on page load
+const savedTheme = localStorage.getItem('theme')
+if (savedTheme === 'night') {
   document.body.classList.add('night')
   themeToggle.checked = true
 }
 
-themeToggle.addEventListener('change', e => {
-  if (nightModeIntervalId) {
-    clearInterval(nightModeIntervalId)
-  }
+themeToggle.addEventListener('change', event => {
+  if (nightModeIntervalId) clearInterval(nightModeIntervalId)
 
   const cards = document.getElementsByClassName('card')
-  const { length: cardCount } = cards
-  let cardIndex = 0
+  const totalCards = cards.length
+  let currentCardIndex = 0
+  const { checked: isNightMode } = event.target
 
-  const { checked: isNightMode } = e.target
-
+  // Apply to the body immediately, then batch-update the cards
   if (isNightMode) {
     document.body.classList.add('night')
     localStorage.setItem('theme', 'night')
@@ -170,95 +216,89 @@ themeToggle.addEventListener('change', e => {
     localStorage.setItem('theme', 'light')
   }
 
-  const updateCount = 50
-  const updateInterval = 500
+  const CARDS_PER_BATCH = 50
+  const BATCH_INTERVAL_MS = 500
 
-  const updateCardCss = () => {
-    for (let i = 0; i < updateCount; i++) {
-      if (cardIndex + i >= cardCount) {
+  function updateNextCardBatch() {
+    for (let offset = 0; offset < CARDS_PER_BATCH; offset++) {
+      if (currentCardIndex + offset >= totalCards) {
         clearInterval(nightModeIntervalId)
         return
       }
       if (isNightMode) {
-        cards[cardIndex + i].classList.add('night')
+        cards[currentCardIndex + offset].classList.add('night')
       } else {
-        cards[cardIndex + i].classList.remove('night')
+        cards[currentCardIndex + offset].classList.remove('night')
       }
     }
-    cardIndex += updateCount
+    currentCardIndex += CARDS_PER_BATCH
   }
 
-  updateCardCss()
-  nightModeIntervalId = setInterval(updateCardCss, updateInterval)
+  updateNextCardBatch()
+  nightModeIntervalId = setInterval(updateNextCardBatch, BATCH_INTERVAL_MS)
 })
 
 // ── footer year ────────────────────────────────────────────────────────────────
-const currentYearSpan = document.getElementById('currentYear')
-currentYearSpan.innerText = new Date().getFullYear()
+document.getElementById('currentYear').innerText = new Date().getFullYear()
 
 // ── search ─────────────────────────────────────────────────────────────────────
+// Filters visible cards as the user types, with a 500ms debounce to avoid
+// running on every keystroke. Matching text within each card is highlighted.
+
 searchBar.addEventListener('input', searchCard)
-searchBar.addEventListener('focus', loadAllRemaining, { once: true })
 
 function clearSearchHighlights() {
-  const marks = Array.from(document.querySelectorAll('mark'))
-  if (marks.length > 0) {
-    marks.forEach(mark => {
-      mark.outerHTML = mark.innerText
-    })
-  }
+  // Unwrap all <mark> elements, replacing them with their plain text content
+  document.querySelectorAll('mark').forEach(mark => {
+    mark.outerHTML = mark.innerText
+  })
 }
 
-function applyHighlightToSearchResults(value, card) {
-  const regex = new RegExp(value, 'gi')
-  const cardElements = Array.from(card.querySelectorAll('*'))
-  const matches = cardElements.filter(
-    element => element.children.length === 0 && element.textContent.toLowerCase().includes(value)
+function highlightMatchesInCard(searchValue, cardElement) {
+  // Only highlight leaf nodes (elements with no children) that contain the search term
+  const regex = new RegExp(searchValue, 'gi')
+  const leafNodes = Array.from(cardElement.querySelectorAll('*')).filter(
+    element => element.children.length === 0 && element.textContent.toLowerCase().includes(searchValue)
   )
 
-  if (value && value.length > 0) {
-    matches.forEach(match => (match.innerHTML = match.textContent.replaceAll(regex, `<mark>$&</mark>`)))
+  if (searchValue.length > 0) {
+    leafNodes.forEach(node => (node.innerHTML = node.textContent.replaceAll(regex, `<mark>$&</mark>`)))
   }
 }
 
 function searchCard() {
-  const input = searchBar.value.toLowerCase()
+  const searchInput = searchBar.value.toLowerCase()
 
-  if (searchTimeout) {
-    clearTimeout(searchTimeout)
-  }
+  if (searchTimeout) clearTimeout(searchTimeout)
 
-  searchTimeout = setTimeout(async () => {
+  // Debounce: wait until the user pauses typing before running the search
+  searchTimeout = setTimeout(() => {
     const cards = document.getElementsByClassName('card')
-
     clearSearchHighlights()
 
-    for (let i = 0; i < cards.length; i++) {
-      if (!cards[i].textContent.toLowerCase().includes(input)) {
-        cards[i].style.display = 'none'
-      } else {
-        cards[i].style.display = 'flex'
-        applyHighlightToSearchResults(input, cards[i])
-      }
+    for (let index = 0; index < cards.length; index++) {
+      const cardMatchesSearch = cards[index].textContent.toLowerCase().includes(searchInput)
+      cards[index].style.display = cardMatchesSearch ? 'flex' : 'none'
+      if (cardMatchesSearch) highlightMatchesInCard(searchInput, cards[index])
     }
   }, 500)
 }
 
 // ── scroll to top ──────────────────────────────────────────────────────────────
-let topButton = document.getElementById('topButton')
+// Shows a "back to top" button once the user has scrolled 500px down.
+// Scroll events are debounced to avoid running on every pixel of scroll.
+
+const topButton = document.getElementById('topButton')
 let scrollDebounceId = null
 
 window.addEventListener('scroll', () => {
   if (scrollDebounceId) clearTimeout(scrollDebounceId)
-  scrollDebounceId = setTimeout(scrollFunction, 100)
+  scrollDebounceId = setTimeout(updateTopButtonVisibility, 100)
 })
 
-function scrollFunction() {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-    topButton.style.display = 'flex'
-  } else {
-    topButton.style.display = 'none'
-  }
+function updateTopButtonVisibility() {
+  const scrolled = document.body.scrollTop > 500 || document.documentElement.scrollTop > 500
+  topButton.style.display = scrolled ? 'flex' : 'none'
 }
 
 topButton.addEventListener('click', () => {
