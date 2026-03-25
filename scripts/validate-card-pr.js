@@ -113,20 +113,11 @@ ${errorList}
 Don't hesitate to ask if anything is unclear — we're happy to help! 🙌`)
 }
 
-// ── success: merge then dispatch archive ───────────────────────────────────────
+// ── success: enable auto-merge ─────────────────────────────────────────────────
 // Branch protection is required on master, so --auto is always available.
-// The PR will merge automatically once all required status checks pass.
+// The PR merges automatically once all required status checks pass.
+// card-to-archive.yml is triggered by pull_request_target:[closed] after the
+// actual merge — no dispatch needed here.
 console.log(`✅ Card is valid — merging PR #${PR_NUMBER}`)
 gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
 console.log('🎉 Auto-merge enabled — will merge once all checks pass.')
-
-// Dispatch card-to-archive.yml via workflow_dispatch.
-// workflow_dispatch is NOT suppressed by GITHUB_TOKEN (unlike push/PR events),
-// so this fires reliably regardless of how the merge was performed.
-try {
-  gh(`gh workflow run card-to-archive.yml --ref master -f filename=${filename}`)
-  console.log(`📦 Dispatched card-to-archive for ${filename}`)
-} catch (err) {
-  console.log(`⚠️  Could not dispatch card-to-archive: ${err.message.split('\n')[0]}`)
-  console.log('   The pull_request_target:[closed] trigger will handle it as fallback.')
-}
