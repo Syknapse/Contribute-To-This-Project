@@ -105,6 +105,8 @@ First let's get set up to do the work.
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
+> **Want to improve the project itself?** Translations, bug fixes, and other improvements are very welcome — but please keep them in a separate PR from your card. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+
 > Now that you are all set up let's get on with the business of contributing to the project.
 
 [↑ Go to top ↑](#quick-access-index)
