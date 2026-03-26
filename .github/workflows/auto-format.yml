@@ -52,10 +52,22 @@ jobs:
         with:
           node-version: 'lts/*'
 
-      - name: Format with Prettier
+      - name: Format changed files with Prettier
+        # Only format files changed in this PR — avoids touching unrelated files.
         # Run via npx — never executes the fork's npm install or postinstall scripts.
         # Pinned to major version 3, matching our package.json (^3.8.1).
-        run: npx --yes prettier@3 --write --ignore-unknown --ignore-path .prettierignore .
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CHANGED=$(gh pr view ${{ github.event.pull_request.number }} \
+            --json files --jq '[.files[].path] | join(" ")')
+          if [ -z "$CHANGED" ]; then
+            echo "No changed files found."
+            exit 0
+          fi
+          echo "Formatting: $CHANGED"
+          # shellcheck disable=SC2086
+          npx --yes prettier@3 --write --ignore-unknown --ignore-path .prettierignore $CHANGED
 
       - name: Commit and push formatting fixes
         env:
