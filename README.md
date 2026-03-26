@@ -73,6 +73,8 @@ You are going to contribute a card just like this one to this [project's web pag
 
 You will copy a ready-made card template file, fill it in with your own information, and submit it.
 
+> Already contributed a card? There are other ways to help — translations, bug fixes, accessibility improvements, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+
 ---
 
 ### Translations
@@ -337,7 +339,7 @@ Your card will be automatically reviewed and merged if everything is correct. If
 - If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 - You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
 - You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
-- This is an open source project so apart from contributing your card you are welcome to help fix bugs, improvements, or new features. Open an [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') or send a new [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
+- This is an open source project so apart from contributing your card you are welcome to help fix bugs, make improvements, or add new features. Read the [Contributing Guide](CONTRIBUTING.md) to see what's welcome and how to get started
 - To help improve our community take a look at the GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) tab located next to Pull Requests. This area is a place to introduce yourself, go into deeper discussions on Open Source, and communicate with the Project Maintainers. Will you help us build out this feature and enhance our community?
 - **Thanks for contributing to this project**. Now you can go ahead and try contributing to other projects; look for the ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) label for beginner-friendly contribution options.
 - I'm also looking for collaborators to give me a hand in reviewing and merging PRs. If you would like to get more advanced Git practice, read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team from the project maintainers.

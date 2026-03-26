@@ -67,11 +67,40 @@ That's all. The PR will update automatically. The bot will re-run the check auto
 
 ## Contributing something other than a card
 
-Non-card contributions — bug fixes, new features, improvements — are very welcome, but they work a bit differently.
+Non-card contributions are very welcome. This includes:
 
-**Please open an issue first** before writing any code. Describe what you want to change and why. This gives us a chance to discuss whether it fits the project, avoid duplicate work, and make sure your time is well spent. PRs that arrive without a linked issue may be closed.
+- **Translations** — translating the README or tutorial into another language
+- **Bug fixes** — something broken, a layout issue, a validation edge case
+- **Documentation** — improving clarity, fixing outdated instructions, adding examples
+- **Accessibility** — better screen reader support, keyboard navigation, contrast
+- **Performance** — loading speed, rendering improvements
+- **New features** — must have clear scope and fit the project's goals
 
-The exception is small things like typos or broken links — those are fine to just fix and submit directly.
+### Open an issue first
+
+Before writing any code, [open an issue](https://github.com/Syknapse/Contribute-To-This-Project/issues/new) describing what you want to change and why. A good issue includes:
+
+- What the current behaviour is
+- What you propose to change
+- Why it improves the project
+
+This signals your intent so no one else starts the same work in parallel. **You don't need to wait for a response** — once the issue is open, go ahead and start. If there's a concern with the approach, it will be raised in the PR review. The exception is small things like typos or broken links, which are fine to fix and submit directly without an issue.
+
+### Branch and PR conventions
+
+- Branch names: `fix/short-description`, `docs/short-description`, `translation/language-name`
+- Fill in the PR template — use the "Making another type of change?" section
+- Link your issue in the PR body: `Resolves #123`
+
+### What to expect from review
+
+PRs are reviewed by maintainers as time allows. If changes are requested, the bot will mark the PR and leave a comment. If a PR receives no activity for 30 days it may be closed by the stale bot — you can always reopen it.
+
+### What is out of scope
+
+- Changes to the core card template structure (`cards/template.html`)
+- Changes that affect the auto-merge or archive pipeline without prior maintainer discussion
+- Large refactors or new dependencies without a linked issue and prior agreement
 
 ---
 
