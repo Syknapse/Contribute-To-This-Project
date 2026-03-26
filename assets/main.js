@@ -95,7 +95,7 @@ function loadNextBatch() {
 
   Promise.all(nextBatch.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(response => response.json())))
     .then(results => {
-      results.forEach((cardData, index) => renderCards(cardData, nextBatch[index]))
+      results.forEach((cardData, index) => renderCards([...cardData].reverse(), nextBatch[index]))
       if (archiveLoadedCount >= archiveFilesToLoad.length) stopLazyLoading()
     })
     .catch(error => console.error('Error loading archive batch:', error))
@@ -151,7 +151,7 @@ searchBar.addEventListener(
 
     Promise.all(remainingFiles.map(file => fetch(`${archiveCardsDirectory}/${file}`).then(response => response.json())))
       .then(results => {
-        results.forEach((cardData, index) => renderCards(cardData, remainingFiles[index]))
+        results.forEach((cardData, index) => renderCards([...cardData].reverse(), remainingFiles[index]))
       })
       .catch(error => console.error('Error loading all archive files:', error))
       .finally(() => {
