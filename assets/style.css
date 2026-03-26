@@ -245,6 +245,36 @@ footer {
   color: var(--purple);
 }
 
+/* Skills Tags
+-------------- */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 24px;
+  background-color: var(--white);
+}
+
+.skills:empty {
+  display: none;
+}
+
+.skill {
+  display: inline-block;
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--white);
+  background: linear-gradient(135deg, var(--pink) 0%, var(--purple) 100%);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(250, 61, 102, 0.4);
+}
+
 /* Night Mode Code */
 
 .night.card .contact i {
@@ -304,6 +334,18 @@ body.night {
 .night.card .resources:hover {
   color: var(--pink);
   background-color: var(--purple);
+}
+
+.night.card .skills {
+  background-color: var(--dark-purple);
+}
+
+.night.card .skill {
+  background: linear-gradient(135deg, var(--orange) 0%, var(--pink) 100%);
+}
+
+.night.card .skill:hover {
+  box-shadow: 0 2px 8px rgba(255, 188, 34, 0.4);
 }
 
 .night #searchbar {

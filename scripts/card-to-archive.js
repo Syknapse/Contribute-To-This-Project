@@ -68,6 +68,20 @@ function extractResourceDetails($, resourcesElement) {
   return resources
 }
 
+function extractSkills($, skillsElement) {
+  const skills = []
+  const skillTags = skillsElement.find('.skill')
+
+  skillTags.each((index, element) => {
+    const skillText = $(element).text().trim()
+    if (skillText) {
+      skills.push(skillText)
+    }
+  })
+
+  return skills
+}
+
 // ── parse card ─────────────────────────────────────────────────────────────────
 const html = fs.readFileSync(cardPath, 'utf-8')
 const $ = cheerio.load(html)
@@ -82,6 +96,7 @@ const card = {
   name: $card.find('.name').text().trim(),
   contacts: extractContactDetails($, $card.find('.contact')),
   about: $card.find('.about').text().trim(),
+  skills: extractSkills($, $card.find('.skills')),
   resources: extractResourceDetails($, $card.find('.resources')),
 }
 

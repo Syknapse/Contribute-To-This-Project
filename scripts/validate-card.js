@@ -156,6 +156,23 @@ function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
     })
   }
 
+  // --- .skills (optional, 0–5 items) ---
+  const skillsEl = card.find('.skills')
+  if (skillsEl.length > 0) {
+    const skillTags = skillsEl.find('.skill')
+    if (skillTags.length > 5) {
+      errors.push(`.skills has ${skillTags.length} items (maximum is 5)`)
+    }
+    // Check for placeholder skills
+    skillTags.each((i, skill) => {
+      const text = $(skill).text().trim()
+      const n = i + 1
+      if (text.toLowerCase().match(/^skill\s*\d+$/)) {
+        errors.push(`.skill ${n} still contains the template placeholder ("${text}")`)
+      }
+    })
+  }
+
   return errors.length === 0 ? { valid: true } : { valid: false, errors }
 }
 

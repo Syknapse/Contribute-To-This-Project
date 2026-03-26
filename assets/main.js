@@ -37,7 +37,10 @@ function renderCards(cardDataArray, sourceFile) {
 
   const cardsHtml = cardDataArray
     .map(card => {
-      const { name, contacts, about, resources } = card
+      const { name, contacts, about, skills, resources } = card
+      const skillsHtml = skills && skills.length > 0
+        ? `<div class="skills">${skills.map(skill => `<span class="skill">${skill}</span>`).join('')}</div>`
+        : ''
       return `
         <div class="card">
           <!-- Fetched from Archive: ${sourceFile} -->
@@ -51,6 +54,7 @@ function renderCards(cardDataArray, sourceFile) {
               .join('')}
           </p>
           <p class="about">${about}</p>
+          ${skillsHtml}
           <div class="resources">
             <p>3 Useful Dev Resources</p>
             <ul>
