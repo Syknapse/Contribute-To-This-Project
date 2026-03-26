@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://syknapse.github.io/Contribute-To-This-Project/schemas/card.schema.json",
+  "title": "Contributor Card Schema",
+  "description": "JSON schema for contributor card structure validation. This documents the expected HTML structure for cards.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The contributor's display name",
+      "minLength": 1,
+      "examples": ["John Doe", "Jane Smith"]
+    },
+    "contacts": {
+      "type": "array",
+      "description": "List of contact/social links",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["link"],
+        "properties": {
+          "icon": {
+            "type": "string",
+            "description": "Font Awesome icon class (e.g., 'fab fa-github')",
+            "pattern": "^(fab|fas|far|fal|fad|fab) fa-[a-z0-9-]+$"
+          },
+          "link": {
+            "type": "string",
+            "description": "URL to the social profile",
+            "format": "uri",
+            "pattern": "^https?://.+"
+          },
+          "handle": {
+            "type": "string",
+            "description": "Display text for the link"
+          }
+        }
+      }
+    },
+    "about": {
+      "type": "string",
+      "description": "A short bio or description of the contributor",
+      "minLength": 1,
+      "maxLength": 500
+    },
+    "resources": {
+      "type": "array",
+      "description": "List of useful developer resources (max 5)",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": ["link", "text"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Tooltip text for the resource link"
+          },
+          "link": {
+            "type": "string",
+            "description": "URL to the resource",
+            "format": "uri",
+            "pattern": "^https?://.+"
+          },
+          "text": {
+            "type": "string",
+            "description": "Display text for the resource link",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  },
+  "required": ["name", "contacts", "about"],
+  "additionalProperties": false
+}

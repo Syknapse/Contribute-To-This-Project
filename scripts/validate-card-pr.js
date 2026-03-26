@@ -168,11 +168,26 @@ const result = validateCard($, { mode: 'phase2' })
 
 if (!result.valid) {
   const errorList = result.errors.map((e, i) => `${i + 1}. ${e}`).join('\n')
+
+  // Build suggestions section if available
+  let suggestionsSection = ''
+  if (result.suggestions && result.suggestions.length > 0) {
+    const uniqueSuggestions = [...new Set(result.suggestions)]
+    suggestionsSection = `\n\n**💡 Quick fixes:**\n${uniqueSuggestions.map(s => `- ${s}`).join('\n')}`
+  }
+
+  // Build warnings section if available
+  let warningsSection = ''
+  if (result.warnings && result.warnings.length > 0) {
+    warningsSection = `\n\n**⚠️ Suggestions (optional):**\n${result.warnings.map(w => `- ${w}`).join('\n')}`
+  }
+
   fail(`Hi @${PR_AUTHOR}! 👋
 
 Thanks for your card! A few things need fixing before we can merge:
 
 ${errorList}
+${suggestionsSection}${warningsSection}
 
 **How to fix:** Update \`cards/${filename}\` in your branch to address each point above, then push. The bot will re-check automatically. The [README](${README}) has the full template and field descriptions if you need a reference.
 
