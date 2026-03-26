@@ -22,7 +22,7 @@ const ARCHIVE_BATCH_SIZE = 3 // number of archive files to fetch per scroll trig
 fetch('./archive/manifest.json')
   .then(response => response.json())
   .then(manifest => {
-    archiveFilesToLoad = manifest.files
+    archiveFilesToLoad = [...manifest.files].reverse()
     countUpTo(manifest.totalArchivedCards)
     initLazyLoading()
   })
