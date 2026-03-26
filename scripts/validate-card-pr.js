@@ -16,6 +16,7 @@ const { execSync } = require('child_process')
 const path = require('path')
 const cheerio = require('cheerio')
 const { validateCard } = require('./validate-card')
+const messages = require('./messages')
 
 // ── env ────────────────────────────────────────────────────────────────────────
 const { PR_NUMBER, PR_AUTHOR, PR_HEAD_SHA, GITHUB_REPOSITORY } = process.env
@@ -54,13 +55,7 @@ console.log(`Changed files: ${prFiles.join(', ')}`)
 // ── file scope ─────────────────────────────────────────────────────────────────
 const nonCardFiles = prFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
 if (nonCardFiles.length > 0) {
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-This PR changes files outside the \`cards/\` directory:
-
-${nonCardFiles.map(f => `- \`${f}\``).join('\n')}
-
-Please submit a PR that only adds your card at \`cards/your-github-username.html\`. Any other changes need a separate PR with a linked issue first.`)
+  fail(messages.wrongFile(PR_AUTHOR, nonCardFiles))
 }
 
 if (prFiles.length > 1) {
@@ -88,26 +83,10 @@ if (prFiles.length > 1) {
   }
 
   if (archivedFiles.length > 0 && newFiles.length === 1) {
-    const staleList = archivedFiles.map(f => `- \`${f}\``).join('\n')
-    fail(`Hi @${PR_AUTHOR}! 👋
-
-Your PR contains ${archivedFiles.length === 1 ? 'a card' : 'cards'} that ${archivedFiles.length === 1 ? 'was' : 'were'} recently archived from this repository:
-
-${staleList}
-
-This happens when you fork the repo just as another contributor's card is being archived — the file exists in your fork but has since been removed from master. The fix is simple: update your branch from upstream master to drop the stale ${archivedFiles.length === 1 ? 'file' : 'files'}:
-
-\`\`\`bash
-git fetch upstream
-git rebase upstream/master
-\`\`\`
-
-Or if you're using GitHub Desktop, sync your fork with the upstream. Then push again and the bot will re-check automatically.`)
+    fail(messages.staleArchivedFiles(PR_AUTHOR, archivedFiles))
   }
 
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-This PR changes more than one file. Please submit one card per PR — each contributor gets their own file.`)
+  fail(messages.tooManyFiles(PR_AUTHOR))
 }
 
 const cardFile = prFiles[0]
@@ -116,17 +95,11 @@ const cardChangeType = (prFilesData[0] && prFilesData[0].changeType) || 'ADDED'
 const isCardUpdate = cardChangeType === 'MODIFIED'
 
 if (filename === 'template.html') {
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-It looks like you submitted \`cards/template.html\` itself rather than a copy of it.
-
-Please copy \`cards/template.html\` to \`cards/your-github-username.html\` (using your actual GitHub username as the filename), fill it in, and submit that file instead.`)
+  fail(messages.submitTemplate(PR_AUTHOR))
 }
 
 if (!/^[a-zA-Z0-9_-]+\.html$/.test(filename)) {
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-The filename \`${filename}\` isn't valid. Card filenames must only contain letters, numbers, hyphens, and underscores — for example: \`your-github-username.html\`.`)
+  fail(messages.invalidFilename(PR_AUTHOR, filename))
 }
 
 // ── check for duplicate card filename ──────────────────────────────────────────
@@ -142,11 +115,7 @@ if (!isCardUpdate) {
     // 404 — file doesn't exist on master yet, which is expected for new cards
   }
   if (fileExistsOnMaster) {
-    fail(`Hi @${PR_AUTHOR}! 👋
-
-A card file named \`cards/${filename}\` already exists in this repository. This usually means two PRs with the same filename were submitted at the same time.
-
-If you're trying to update your existing card, please make sure your fork is up to date with master and reopen the PR. If you believe this is an error, leave a comment and a maintainer will take a look.`)
+    fail(messages.duplicateFilename(PR_AUTHOR, filename))
   }
 }
 
@@ -157,9 +126,7 @@ try {
   const encoded = gh(`gh api "repos/${GITHUB_REPOSITORY}/contents/${cardFile}?ref=${PR_HEAD_SHA}" --jq '.content'`)
   html = Buffer.from(encoded.replace(/\s/g, ''), 'base64').toString('utf-8')
 } catch (err) {
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-We couldn't read \`${cardFile}\` from your PR. This is usually a transient issue — please close and reopen the PR to trigger a re-check, or leave a comment and a maintainer will take a look.`)
+  fail(messages.fetchFailed(PR_AUTHOR))
 }
 
 // ── validate card content ──────────────────────────────────────────────────────
@@ -167,16 +134,7 @@ const $ = cheerio.load(html)
 const result = validateCard($, { mode: 'phase2' })
 
 if (!result.valid) {
-  const errorList = result.errors.map((e, i) => `${i + 1}. ${e}`).join('\n')
-  fail(`Hi @${PR_AUTHOR}! 👋
-
-Thanks for your card! A few things need fixing before we can merge:
-
-${errorList}
-
-**How to fix:** Update \`cards/${filename}\` in your branch to address each point above, then push. The bot will re-check automatically. The [README](${README}) has the full template and field descriptions if you need a reference.
-
-Don't hesitate to ask if anything is unclear — we're happy to help! 🙌`)
+  fail(messages.validationFailed(PR_AUTHOR, filename, result.errors, README))
 }
 
 // ── success: enable auto-merge then wait and dispatch archive ──────────────────
@@ -199,7 +157,8 @@ if (prState === 'CLOSED') {
   process.exit(0)
 }
 
-console.log(`✅ Card is valid — merging PR #${PR_NUMBER}`)
+console.log(`✅ Card is valid — posting success message and merging PR #${PR_NUMBER}`)
+postComment(messages.successMerged(PR_AUTHOR))
 gh(`gh pr merge ${PR_NUMBER} --squash --auto`)
 console.log('🎉 Auto-merge enabled — waiting for merge to complete...')
 
