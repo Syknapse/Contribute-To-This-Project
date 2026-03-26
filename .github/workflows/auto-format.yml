@@ -71,7 +71,9 @@ jobs:
 
           git commit -am "style: auto-format with Prettier [skip ci]"
 
-          if git push; then
+          # Push to the PR head branch explicitly — needed because we checked out
+          # a specific SHA (detached HEAD), so git push needs a destination.
+          if git push origin HEAD:${{ github.event.pull_request.head.ref }}; then
             echo "Formatting fixes pushed to PR branch."
           else
             echo "Push failed — fork may not allow edits from maintainers. Posting comment."
