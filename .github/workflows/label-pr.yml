@@ -1,0 +1,36 @@
+name: Label PR
+
+# Runs on pull_request_target so GITHUB_TOKEN has write access to label
+# fork PRs. Only reads file paths — no PR code is checked out or executed.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize]
+    branches: [master]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply labels based on changed files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          FILES=$(gh pr view ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
+            --json files --jq '.files[].path')
+
+          apply_label() {
+            gh pr edit ${{ github.event.pull_request.number }} \
+              --repo ${{ github.repository }} \
+              --add-label "$1"
+          }
+
+          echo "$FILES" | grep -q '^cards/.*\.html$'  && apply_label "card-submission" || true
+          echo "$FILES" | grep -q '^translations/'    && apply_label "translation"      || true
+          echo "$FILES" | grep -qE '^(docs/|[^/]+\.md$)' && apply_label "documentation" || true
+          echo "$FILES" | grep -qE '^(assets/|scripts/)' && apply_label "enhancement"   || true
+          echo "$FILES" | grep -q '^\.github/'        && apply_label "ci"               || true
