@@ -1,8 +1,8 @@
 .DS_Store
 .vscode/*
 !.vscode/settings.json
+!.vscode/extensions.json
 .vs
-.vscode
 node_modules
 .idea
 archive_test

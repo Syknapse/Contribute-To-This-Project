@@ -1,0 +1,91 @@
+name: Auto Format
+
+# Runs on every PR (including forks) with pull_request_target so it has write
+# access to push formatting fixes back to the PR branch.
+#
+# Security: we never run npm install from the fork. Prettier is invoked via npx
+# (no fork code executed). The prettier config and .prettierignore are fetched
+# directly from master (trusted), overwriting any fork-modified versions.
+#
+# If the fork has "Allow edits from maintainers" enabled (GitHub default for new
+# PRs), the bot pushes the fix directly. If not, it posts a comment instead.
+
+on:
+  pull_request_target:
+    branches: [master]
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Cancel any in-progress format run for the same PR when a new commit arrives.
+concurrency:
+  group: auto-format-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR branch
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use head SHA (not ref) to avoid TOCTOU races
+          ref: ${{ github.event.pull_request.head.sha }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Override with trusted Prettier config from master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Fetch config files from the base repo (master) to prevent a malicious
+          # fork from injecting a custom prettier.config.js or .prettierignore.
+          gh api "repos/${{ github.repository }}/contents/prettier.config.js?ref=master" \
+            --jq '.content' | base64 -d > prettier.config.js
+          gh api "repos/${{ github.repository }}/contents/.prettierignore?ref=master" \
+            --jq '.content' | base64 -d > .prettierignore
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+
+      - name: Format with Prettier
+        # Run via npx — never executes the fork's npm install or postinstall scripts.
+        # Pinned to major version 3, matching our package.json (^3.8.1).
+        run: npx --yes prettier@3 --write --ignore-unknown --ignore-path .prettierignore .
+
+      - name: Commit and push formatting fixes
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "All files already formatted — nothing to do."
+            exit 0
+          fi
+
+          git commit -am "style: auto-format with Prettier [skip ci]"
+
+          if git push; then
+            echo "Formatting fixes pushed to PR branch."
+          else
+            echo "Push failed — fork may not allow edits from maintainers. Posting comment."
+            printf '%s\n' \
+              "Hi! 👋 Some files in this PR need formatting with [Prettier](https://prettier.io)." \
+              "" \
+              "To fix this, run the following in the project root and push the result:" \
+              "" \
+              '```bash' \
+              "npm install" \
+              "npm run format" \
+              '```' \
+              "" \
+              "Alternatively, install the [Prettier VS Code extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and enable **Format on Save** — it will handle this automatically." \
+              > /tmp/format-comment.md
+            gh pr comment ${{ github.event.pull_request.number }} --body-file /tmp/format-comment.md
+          fi
