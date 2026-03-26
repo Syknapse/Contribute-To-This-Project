@@ -182,6 +182,9 @@ footer {
   letter-spacing: 2px;
   margin: 16px;
 }
+.night footer {
+  color: var(--light-grey1);
+}
 
 /* Card
 ------ */
