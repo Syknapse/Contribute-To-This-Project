@@ -105,7 +105,7 @@ First let's get set up to do the work.
    - If you use [VS Code](https://code.visualstudio.com/ 'Visual Studio Code website') it comes with integrated Git and allows you to do what we need straight from the editor.
    - However the simplest and easiest way to follow this tutorial is using GitHub Desktop.
 
-> **Want to improve the project itself?** Translations, bug fixes, and other improvements are very welcome — but please keep them in a separate PR from your card. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
+**Want to improve the project itself?** Translations, bug fixes, and other improvements are very welcome — but please keep them in a separate PR from your card. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full process.
 
 > Now that you are all set up let's get on with the business of contributing to the project.
 
@@ -166,7 +166,7 @@ _Estimated time: Less than 30 minutes_.
 - Once the repo has been cloned and you have it open in GitHub Desktop it is time to create a new branch.
 - A branch is a way to keep your changes separate from the main part of the project called `Master`. For example if things go wrong and you are not happy with your changes you can simply delete the branch and the main project won't be affected.
 
-| :arrow*right_hook: click on *`Current branch`_, Then click on _`New`\_        |                    ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'")                     |
+| :arrow_right_hook: click on `Current branch`, then click on `New`             |                    ![Create branch](/readme-only/branch-new.PNG "Click on 'Branch', then 'New'")                     |
 | :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Give your branch a name, then click on `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
 | :arrow_right_hook: **Publish your new branch to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
@@ -263,13 +263,13 @@ cp cards/template.html cards/your-github-username.html
 - This means that Git has recorded all the **saved** changes.
 - You can see this reflected in the app. Everything you have added to the file will be in green, and deletions will show as red.
 
-|                                                                                                 ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        :arrow*right_hook: The next step is called *`Commit`\_. This roughly means `confirm the changes`                                                                                                                                        |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                              |
-|                                                                          :arrow_right_hook: **This is what your GitHub Desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, and your `Current branch` will have the name you gave it in step 3**                                                                          |
-|                                                                                                                 ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow*right_hook: \*\*To *`Commit`_ you must fill in the _`Summary`_ field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed _`Description`_. Click the _`Commit`\_ button. Your button will say something like `Commit to "your-branch-name"`\*\* |
+|                                                                                           ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                           |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                   :arrow_right_hook: The next step is called `Commit`. This roughly means `confirm the changes`                                                                                                                                   |
+|                                                                                       ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                        |
+|                                                                   :arrow_right_hook: **This is what your GitHub Desktop header should look like. Notice the fork symbol next to the project name in `Current repository`, and your `Current branch` will have the name you gave it in step 3**                                                                    |
+|                                                                                                           ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                           |
+| :arrow_right_hook: **To `Commit` you must fill in the `Summary` field. This is the commit message explaining what you have changed. In this case `"Add my card information"` would be a reasonable message. Optionally you can add a more detailed `Description`. Click the `Commit` button. Your button will say something like `Commit to "your-branch-name"`** |
 
 [↑ Go to top ↑](#quick-access-index)
 
@@ -280,8 +280,8 @@ cp cards/template.html cards/your-github-username.html
 - Your changes are now saved or committed. But they are saved only locally, that is on your computer.
 - Synchronizing local changes with your repository on GitHub is called a _Push_. You are "pushing" the changes from your local repository to the remote repository on GitHub.
 
-| :arrow*right_hook: Click the *`Push`\_ button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
-| :-------------------------------------------- | :------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: Click the `Push` button | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :----------------------------------------- | :------------------------------------------------------------------------------------------------: |
 
 - After a few seconds the operation is complete and now you have exactly the same copy of this branch on your machine as well as on GitHub.
 
