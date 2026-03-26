@@ -887,5 +887,38 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "name": "Safa Maqbool",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SafaMaqbool",
+        "handle": "SafaMaqbool"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/safamaqbool/",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "Software engineer focused on building scalable and user-friendly web applications.\n  Currently strengthening skills in JavaScript, React, and modern web development.",
+    "resources": [
+      {
+        "title": "MDN Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Frontend Roadmap",
+        "link": "https://roadmap.sh/frontend",
+        "text": "Frontend Roadmap"
+      },
+      {
+        "title": "CSS Tricks",
+        "link": "https://css-tricks.com/",
+        "text": "CSS-Tricks"
+      }
+    ]
   }
 ]
