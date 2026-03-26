@@ -81,7 +81,8 @@ jobs:
             exit 0
           fi
 
-          git commit -am "style: auto-format with Prettier [skip ci]"
+          # No [skip ci] — CI must re-run after this commit to verify formatting passes.
+          git commit -am "style: auto-format with Prettier"
 
           # Push to the PR head branch explicitly — needed because we checked out
           # a specific SHA (detached HEAD), so git push needs a destination.
