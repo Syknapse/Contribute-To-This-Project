@@ -301,6 +301,16 @@ body.night {
   background-color: var(--dark-purple);
 }
 
+
+.night .card p small {
+  color: var(--light-grey1);
+  transition: color 0.25s ease-in-out;
+}
+
+.night .card:hover p small {
+  color: var(--dark-purple); 
+}
+
 .night.card .resources:hover {
   color: var(--pink);
   background-color: var(--purple);
