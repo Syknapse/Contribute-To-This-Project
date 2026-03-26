@@ -3,6 +3,11 @@ name: Auto Format
 # Runs on every PR (including forks) with pull_request_target so it has write
 # access to push formatting fixes back to the PR branch.
 #
+# Uses FORMAT_BOT_PAT (not GITHUB_TOKEN) for the push so that GitHub fires a
+# real pull_request: synchronize event, causing CI to re-run on the new commit
+# with proper PR context. GITHUB_TOKEN pushes are suppressed by GitHub and do
+# not trigger downstream CI.
+#
 # Security: we never run npm install from the fork. Prettier is invoked via npx
 # (no fork code executed). The prettier config and .prettierignore are fetched
 # directly from master (trusted), overwriting any fork-modified versions.
@@ -18,7 +23,6 @@ on:
 permissions:
   contents: write
   pull-requests: write
-  actions: write
 
 # Cancel any in-progress format run for the same PR when a new commit arrives.
 concurrency:
@@ -32,7 +36,7 @@ jobs:
       - name: Checkout PR branch
         uses: actions/checkout@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.FORMAT_BOT_PAT }}
           # Use head SHA (not ref) to avoid TOCTOU races
           ref: ${{ github.event.pull_request.head.sha }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
@@ -89,13 +93,6 @@ jobs:
           # a specific SHA (detached HEAD), so git push needs a destination.
           if git push origin HEAD:${{ github.event.pull_request.head.ref }}; then
             echo "Formatting fixes pushed to PR branch."
-            # GitHub suppresses CI runs triggered by GITHUB_TOKEN pushes (anti-loop
-            # protection). Explicitly re-trigger CI so the prettier check passes
-            # on the now-formatted commit and auto-merge can proceed.
-            gh workflow run ci.yml \
-              --ref ${{ github.event.pull_request.head.ref }} \
-              -f ref=${{ github.event.pull_request.head.ref }}
-            echo "CI re-triggered on ${{ github.event.pull_request.head.ref }}."
           else
             echo "Push failed — fork may not allow edits from maintainers. Posting comment."
             printf '%s\n' \

@@ -4,15 +4,6 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-  # Allows auto-format.yml to re-trigger CI after pushing a formatting fix.
-  # GitHub suppresses workflow runs from GITHUB_TOKEN pushes, so the bot
-  # explicitly dispatches this workflow instead.
-  workflow_dispatch:
-    inputs:
-      ref:
-        description: 'Branch ref to check'
-        required: true
-        type: string
 jobs:
   prettier:
     runs-on: ubuntu-latest
