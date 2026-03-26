@@ -101,14 +101,10 @@ async function main() {
 
   // Fetch all open PRs — we'll filter to index.html ones below
   console.log('Fetching open PRs...')
-  const prs = JSON.parse(
-    gh('pr list --state open --limit 300 --json number,author,files')
-  )
+  const prs = JSON.parse(gh('pr list --state open --limit 300 --json number,author,files'))
 
   // Filter to PRs that change index.html (v1-style card submissions)
-  const v1Prs = prs.filter(pr =>
-    (pr.files ?? []).some(f => f.path === 'index.html')
-  )
+  const v1Prs = prs.filter(pr => (pr.files ?? []).some(f => f.path === 'index.html'))
   console.log(`Found ${v1Prs.length} open PR(s) targeting index.html\n`)
 
   if (v1Prs.length === 0) {

@@ -437,7 +437,7 @@ body.night {
 }
 
 @keyframes animate {
-  50%{
+  50% {
     transform: translateY(8px);
   }
 }

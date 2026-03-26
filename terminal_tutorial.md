@@ -84,8 +84,8 @@ You will make a copy of the card template inside the HTML file and customize it 
 
 This tutorial is also available in [other languages](/translations/README.md)
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
-| :----: | :----: | :----: | :----: | :----: |
+|                           [English](/terminal_tutorial.md)                            |  [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md)   | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
+| :-----------------------------------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
 | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
 
 > Translations for projects documentations are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
@@ -121,8 +121,8 @@ _Estimated time: Less than 30 minutes_.
 - Make sure you are on the [main page](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') of this repo.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **Click on the _Fork_ button**          |
+| :----------------------------------------------: |
+|          **Click on the _Fork_ button**          |
 
 - You now have a complete copy of the project in your own account.
 
@@ -215,20 +215,20 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 - Collapse them by clicking on the arrow if you use VSCode as shown in screenshot below
 
 | ![Find card template](/readme-only/find-card-template.png 'Find the card template') |
-| :--------------------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------------: |
 
 - Contributions card template namely `<div class="grid" id="contributions">` should be visible as you will find the section labelled as `== TEMPLATE ==`
 - Copy everything within the red square in the image, from the `Contributor card START` comment to the `Contributor card END` comment
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
-| :-----------------------------------------------------------------------: |
+| :------------------------------------------------------------------------: |
 
 - Paste the whole thing directly below the comment indicating it
 - Make sure there is a single line of space between your card start and the last card end. It's good practice to keep our code as clear as possible
 - Never use a linters or style formatters. The project has Prettier setup
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
-| :---------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - This now is **your** card for you to customize and edit.
 
@@ -241,19 +241,19 @@ Note: This is a terminal code to open the file: `index.html` in `VSCode`.
 - We'll now start editing html, changing the customizable fields in our card.
 
 | :arrow_right_hook: Replace 'Name' with your name | ![Change name](/readme-only/change-name.PNG 'Type your name') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :----------------------------------------------- | :-----------------------------------------------------------: |
 
 - **Note: Don't change `class="name"`**
 
 | :arrow_right_hook: Insert the URL of your Twitter account `href="Insert URL here"`, Type your handle in the text field | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
 
 - If you prefer to use a contact other than Twitter you will need to replace the twitter icon `<i class="fa fa-x-twitter"></i>` by going to [Font Awesome Icons](http://fontawesome.io/icons/) searching for the right icon and replacing only the `fa-x-twitter` part with the new icon like `fa-facebook` for example. Then follow the same steps above.
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
+|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                         |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                               :arrow_right_hook: **Tell us something about you. Keep it short and sweet. Think about it more like a tweet than a blog post**                                                                                                                |
-|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+|                                                                                                             ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
 | :arrow_right_hook: **Share with the community 3 links to resources that are useful for web development. This can be anything, a video, a talk, a podcast, an article, a reference, or a tool. If you are a beginner don't be intimidated by this, share whatever you know even if you think it's basic. You'll be surprised how many people will benefit.** |
 
 - **Link:** Insert the link `href="here"` replacing the `#`. Please refrain from using URL shorteners or URLs that are not from the site you are posting!
@@ -316,16 +316,16 @@ git push -u origin $Username-card
 - Towards the top of the repo you will see a highlighted pull request message with a green button.
 
 |  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                     :arrow_right_hook: **Click on the `Compare and pull request`**                                                     |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
-|                                              :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
+|                                               :arrow_right_hook: This is what the `Open a pull request` page looks like.                                               |
 
 - REMEMBER _you are trying to merge your branch with the original project not with the `Master` branch on your fork_.
 - The image below gives you an idea of how the header of your pull request should look like.
 - On the left is the original project, followed by the master branch. On the right is your fork and the branch you created.
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
+|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                   |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Create a pull request: Write a title, Add optional information in the description and Click on `Create pull request`** |
 

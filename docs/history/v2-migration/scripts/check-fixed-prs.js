@@ -112,7 +112,9 @@ function insertCardIntoHtml(indexHtml, cardHtml) {
 async function applyMerges(pendingMerges, processed) {
   if (pendingMerges.length === 0) return 0
   if (DRY_RUN) {
-    console.log(`\n[dry-run] Would inject ${pendingMerges.length} fixed card(s), commit [skip ci], push, comment and close`)
+    console.log(
+      `\n[dry-run] Would inject ${pendingMerges.length} fixed card(s), commit [skip ci], push, comment and close`
+    )
     return pendingMerges.length
   }
 
@@ -188,9 +190,7 @@ async function main() {
 
   // Fetch only open PRs labelled "changes requested"
   console.log('Fetching open "changes requested" PRs...')
-  const prs = JSON.parse(
-    gh('pr list --state open --label "changes requested" --limit 100 --json number,author,files')
-  )
+  const prs = JSON.parse(gh('pr list --state open --label "changes requested" --limit 100 --json number,author,files'))
   console.log(`Found ${prs.length} open PR(s) with "changes requested" label\n`)
 
   if (prs.length === 0) {

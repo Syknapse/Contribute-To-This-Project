@@ -27,23 +27,23 @@
 
 ### Outcome
 
-| Category | Count |
-| --- | --- |
-| Cards injected + PR closed | 173 |
-| `changes-requested` (invalid cards) | 19 |
-| `maintainer-review` (non-card PRs) | 30 |
-| Still open — need owner review | 10 (9 `maintainer-review`, 1 `changes-requested`) |
+| Category                            | Count                                             |
+| ----------------------------------- | ------------------------------------------------- |
+| Cards injected + PR closed          | 173                                               |
+| `changes-requested` (invalid cards) | 19                                                |
+| `maintainer-review` (non-card PRs)  | 30                                                |
+| Still open — need owner review      | 10 (9 `maintainer-review`, 1 `changes-requested`) |
 
 State fully tracked in `_v2/scripts/processed.json` on master.
 
 ### Files (all in `_v2/scripts/`)
 
-| File | Purpose |
-| --- | --- |
-| `process-backlog.js` | Main script (batch inject + commit + close) |
-| `validate-card.js` | phase1/phase2 mode validator — **reused in Phase 2** |
-| `backlog-messages.js` | Comment templates — **reused in Phase 2** |
-| `processed.json` | Final state; idempotency record |
+| File                  | Purpose                                              |
+| --------------------- | ---------------------------------------------------- |
+| `process-backlog.js`  | Main script (batch inject + commit + close)          |
+| `validate-card.js`    | phase1/phase2 mode validator — **reused in Phase 2** |
+| `backlog-messages.js` | Comment templates — **reused in Phase 2**            |
+| `processed.json`      | Final state; idempotency record                      |
 
 ---
 
@@ -81,20 +81,20 @@ commits [skip ci] — cards/ is clean again
 
 ### New Files
 
-| File | Purpose |
-| --- | --- |
-| `cards/template.html` | Standalone card template for contributors to copy; never archived |
-| `.github/workflows/validate-card-pr.yml` | Validate + auto-merge on card PRs |
-| `.github/workflows/card-to-archive.yml` | Convert merged card HTML to JSON archive, delete file |
-| `_v2/scripts/card-to-archive.js` | Node script run by `card-to-archive.yml` |
-| `docs/tutorial_v1.md` | Archived v1 README tutorial |
+| File                                     | Purpose                                                           |
+| ---------------------------------------- | ----------------------------------------------------------------- |
+| `cards/template.html`                    | Standalone card template for contributors to copy; never archived |
+| `.github/workflows/validate-card-pr.yml` | Validate + auto-merge on card PRs                                 |
+| `.github/workflows/card-to-archive.yml`  | Convert merged card HTML to JSON archive, delete file             |
+| `_v2/scripts/card-to-archive.js`         | Node script run by `card-to-archive.yml`                          |
+| `docs/tutorial_v1.md`                    | Archived v1 README tutorial                                       |
 
 ### Modified Files
 
-| File | Change |
-| --- | --- |
-| `README.md` | Full rewrite: copy `cards/template.html` → `cards/[username].html`, fill in, PR |
-| `translations/README.*.md` | Add notice at top pointing to main README for v2 flow |
+| File                            | Change                                                                                   |
+| ------------------------------- | ---------------------------------------------------------------------------------------- |
+| `README.md`                     | Full rewrite: copy `cards/template.html` → `cards/[username].html`, fill in, PR          |
+| `translations/README.*.md`      | Add notice at top pointing to main README for v2 flow                                    |
 | `.github/workflows/.travis.yml` | Rename to `ci.yml`; update Prettier version; extend `files` glob to cover `cards/*.html` |
 
 ### `script.js` — NO CHANGES
@@ -129,7 +129,12 @@ on:
 3. Wrap in minimal HTML document for `html-validate`:
 
    ```html
-   <!DOCTYPE html><html><body>{{ card content }}</body></html>
+   <!DOCTYPE html>
+   <html>
+     <body>
+       {{ card content }}
+     </body>
+   </html>
    ```
 
 4. Run `html-validate` with `htmlvalidate.json` config (extends `html-validate:recommended`; key rules: `no-duplicate-id: error`, `attr-quotes: double`, `require-closing-tags: error`)
@@ -248,6 +253,7 @@ Same module used in Phase 1, but called with `mode: 'phase2'` (applied to `cards
 ### Scripts (complete — at `docs/history/v2-migration/scripts/`)
 
 **`check-fixed-prs.js`** ✓
+
 - Fetches all open PRs with label `changes-requested`
 - Re-validates each card with `validate-card.js` phase1 mode
 - Valid cards: inject into `index.html`, commit `[skip ci]`, push, close PR with success comment
@@ -255,6 +261,7 @@ Same module used in Phase 1, but called with `mode: 'phase2'` (applied to `cards
 - Idempotent: respects `_v2/scripts/processed.json`
 
 **`notify-v1-prs.js`** ✓
+
 - Fetches all open PRs that change `index.html`
 - Skips PRs already in `processed.json`
 - Posts v2 migration instructions comment, closes PR
@@ -288,17 +295,17 @@ Create at repo root. Target: under 300 lines.
 
 **Current values** (`.github/workflows/stale.yml`):
 
-| Job | `days-before-stale` | `days-before-close` |
-| --- | --- | --- |
-| `intentions-not-clear` | 1 | 2 |
-| `changes-requested` | 1 | 4 |
+| Job                    | `days-before-stale` | `days-before-close` |
+| ---------------------- | ------------------- | ------------------- |
+| `intentions-not-clear` | 1                   | 2                   |
+| `changes-requested`    | 1                   | 4                   |
 
 **Target values** (under v2, most card PRs auto-merge; stale only applies to failed/non-card PRs):
 
-| Job | `days-before-stale` | `days-before-close` |
-| --- | --- | --- |
-| `intentions-not-clear` | 14 | 14 |
-| `changes-requested` | 21 | 21 |
+| Job                    | `days-before-stale` | `days-before-close` |
+| ---------------------- | ------------------- | ------------------- |
+| `intentions-not-clear` | 14                  | 14                  |
+| `changes-requested`    | 21                  | 21                  |
 
 Also update stale messages to be less terse — mention what the contributor should do (push a fix, leave a comment explaining intent) rather than just warning of closure.
 
@@ -338,7 +345,7 @@ Do this as part of the Phase 2 CI update (when extending the workflow to cover `
 **Current code:**
 
 ```js
-window.onscroll = function() {
+window.onscroll = function () {
   // TODO this is very excessive, it fires all the time when a user is scrolling
   // We need to debounce or find a more economic way to trigger button show
   scrollFunction()
@@ -377,17 +384,17 @@ Check the current URL in `index.html` and replace with the latest v6.x kit or CD
 
 These files must be read in full before implementing each phase.
 
-| File | Why | Relevant to |
-| --- | --- | --- |
-| `archive/archive_cards_script.js:20–68` | `extractContactDetails` + `extractResourceDetails` to port verbatim | Phase 2 |
-| `archive/archive_cards_script.js:107` | `minimumCardCount = 11` logic; how archiving threshold works | Phase 2 |
-| `archive/cards/archive_N.json` | Confirm schema (name, contacts, about, resources) before writing card-to-archive.js | Phase 2 |
-| `archive/archiveFilesTotal.js` | Understand how `updateScriptFile()` works (auto-updated by archival script) | Phase 2 |
-| `_v2/scripts/validate-card.js` | Existing validator; extend to phase2 mode | Phase 2 |
-| `_v2/scripts/backlog-messages.js` | Existing comment templates; extend for Phase 2 error messages | Phase 2 |
-| `.github/workflows/.travis.yml` | Full CI workflow before rename/update | Phase 2, Phase 3 item 4 |
-| `.github/workflows/stale.yml` | Current stale values before changing | Phase 3 item 2 |
-| `htmlvalidate.json` | Rules to extend for card fragment validation | Phase 2 |
-| `package.json` | Current Prettier version (`^1.18.2`) | Phase 3 item 3 |
-| `prettier.config.js` | Current Prettier config before v3 update | Phase 3 item 3 |
-| `assets/script.js:218–222` | Scroll debounce TODO | Phase 3 item 5 |
+| File                                    | Why                                                                                 | Relevant to             |
+| --------------------------------------- | ----------------------------------------------------------------------------------- | ----------------------- |
+| `archive/archive_cards_script.js:20–68` | `extractContactDetails` + `extractResourceDetails` to port verbatim                 | Phase 2                 |
+| `archive/archive_cards_script.js:107`   | `minimumCardCount = 11` logic; how archiving threshold works                        | Phase 2                 |
+| `archive/cards/archive_N.json`          | Confirm schema (name, contacts, about, resources) before writing card-to-archive.js | Phase 2                 |
+| `archive/archiveFilesTotal.js`          | Understand how `updateScriptFile()` works (auto-updated by archival script)         | Phase 2                 |
+| `_v2/scripts/validate-card.js`          | Existing validator; extend to phase2 mode                                           | Phase 2                 |
+| `_v2/scripts/backlog-messages.js`       | Existing comment templates; extend for Phase 2 error messages                       | Phase 2                 |
+| `.github/workflows/.travis.yml`         | Full CI workflow before rename/update                                               | Phase 2, Phase 3 item 4 |
+| `.github/workflows/stale.yml`           | Current stale values before changing                                                | Phase 3 item 2          |
+| `htmlvalidate.json`                     | Rules to extend for card fragment validation                                        | Phase 2                 |
+| `package.json`                          | Current Prettier version (`^1.18.2`)                                                | Phase 3 item 3          |
+| `prettier.config.js`                    | Current Prettier config before v3 update                                            | Phase 3 item 3          |
+| `assets/script.js:218–222`              | Scroll debounce TODO                                                                | Phase 3 item 5          |

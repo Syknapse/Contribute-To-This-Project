@@ -60,7 +60,7 @@ Este é um tutorial para ajudar contribuidores de primeira viagem a participarem
 
 ### Para quem é isso?
 
-- Isso é para iniciantes absolutos.  Se você sabe como escrever e editar uma tag de âncora `<a href="" target=""></a>` então você deve ser capaz de fazer isso.
+- Isso é para iniciantes absolutos. Se você sabe como escrever e editar uma tag de âncora `<a href="" target=""></a>` então você deve ser capaz de fazer isso.
 - É também para aqueles com um pouco mais de experiência, mas que desejam fazer sua primeira contribuição para o código aberto, ou conseguir mais contribuições para adquirir mais experiência e confiança.
 
 ### Por que preciso fazer isso?
@@ -83,8 +83,8 @@ Você fará uma cópia do modelo de cartão dentro do arquivo HTML e personaliz�
 
 Esse tutorial está disponivel em [outros idiomas](/translations/README.md)
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)| [Portuguese](/translations/terminal_tutorial/terminal_tutorial.por-br.md)|
-| :----: | :----: | :----: | :----: | :----: |
+| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Portuguese](/translations/terminal_tutorial/terminal_tutorial.por-br.md) |
+| :------------------------------: | :----------------------------------------------------------------: | :-------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: |
 
 > Traduções para documentações de projetos são bem-vindas. Leia [`Guia de tradução`](/translations/README.md) para contribuir.
 
@@ -118,8 +118,8 @@ _Tempo estimado: Menos de 30 minutos_.
 - Tenha certeza que você está na [pagina main](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') desse repositório.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **Clique no botão _Fork_**          |
+| :----------------------------------------------: |
+|            **Clique no botão _Fork_**            |
 
 - Agora você tem uma cópia completa do projeto na sua própria conta.
 
@@ -148,7 +148,7 @@ Por exemplo:
 git clone https://github.com/$NomeDeUsuario/Contribute-To-This-Project.git
 ```
 
-Onde `$NomeDeUsuario` é o seu nome de usuario do GitHub.  Aqui você está copiando o conteúdo do repositório first-contributions no GitHub para o seu computador.
+Onde `$NomeDeUsuario` é o seu nome de usuario do GitHub. Aqui você está copiando o conteúdo do repositório first-contributions no GitHub para o seu computador.
 
 [↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
@@ -178,7 +178,7 @@ Nota: Mude `$NomdeDeUsuario` pelo seu nome de usuário da sua conta do GitHub.
 
 - Agora você criou uma nova branch separada da master.
 - Para os próximos passos, certifique-se de estar trabalhando nesta branch. Você verá o nome da branch em que está no canto inferior esquerdo do editor de texto que você está usando, onde diz.
-`$NomeDeUsuario-card` como o nome da sua branch.
+  `$NomeDeUsuario-card` como o nome da sua branch.
 
 **NÃO trabalhe na branch master**
 
@@ -212,14 +212,14 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 - Copie tudo dentro do quadro vermelho na imagem, do comentário Contribuidor card START até o comentário Contribuidor card END.
 
 | ![Copie o modelo do Card](/readme-only/card-copy.PNG 'Copie o modelo do Card') |
-| :-----------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------: |
 
 - Cole o conteúdo inteiro diretamente abaixo do comentário que indica isso.
 - Certifique-se de que haja uma única linha de espaço entre o início do seu cartão e o final do último cartão. É uma boa prática manter nosso código o mais claro possível.
 - Nunca use linters ou formatadores de estilo. O projeto tem a configuração do Prettier.
 
 | ![Cole o modelo do Card](/readme-only/card-paste.PNG 'Cole abaixo da linha indicada') |
-| :---------------------------------------------------------------------------------: |
+| :-----------------------------------------------------------------------------------: |
 
 - Agora **esse** é seu Card para editar e personalizar.
 
@@ -232,19 +232,19 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 - Bem, agora nós vamos começar a editar o arquivo html, Mudando e customizando os campos no nosso card.
 
 | :arrow_right_hook: Substitua 'Name' pelo seu nome | ![mude o nome](/readme-only/change-name.PNG 'Escreva seu nome') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :------------------------------------------------ | :-------------------------------------------------------------: |
 
 - **Nota: Não mude `class="name"`**
 
 | :arrow_right_hook: Digite a URL para a conta do seu twitter `href="Insert URL here"`, Digite seu identificador no campo de texto | ![Mude o contato](/readme-only/change-contact.PNG 'Insira um link da sua conta do twitter e digite seu identificador') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------: |
 
 - Se você preferir usar um contato diferente do Twitter, você precisará substituir o ícone do Twitter `<i class="fa fa-x-twitter"></i>` visitando [Font Awesome Icons](http://fontawesome.io/icons/) e procurando pelo ícone certo, substituindo apenas a parte fa-x-twitter pelo novo ícone como fa-facebook, por exemplo. Depois, siga os mesmos passos acima.
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **Nos diga algo sobre você. Mantenha isso curto e direto. Penso mais como um tweet do que um post de  blog**                                                                                                                |
-|                                                                                                              ![Mudando os recursos](/readme-only/change-resources.PNG 'Insira um link, escreva uma curta descrição, e digite o nome do recurso')                                                                                                              |
+|                                                                                                                                                            ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                                            |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                  :arrow_right_hook: **Nos diga algo sobre você. Mantenha isso curto e direto. Penso mais como um tweet do que um post de blog**                                                                                                                                   |
+|                                                                                                                                ![Mudando os recursos](/readme-only/change-resources.PNG 'Insira um link, escreva uma curta descrição, e digite o nome do recurso')                                                                                                                                |
 | :arrow_right_hook: **Compartilhe com a comunidade 3 links para recursos úteis para desenvolvimento web. Isso pode ser qualquer coisa, um vídeo, uma palestra, um podcast, um artigo, uma referência ou uma ferramenta. Se você é iniciante, não se intimide com isso, compartilhe o que você sabe, mesmo que você pense que é básico. Você ficará surpreso com quantas pessoas se beneficiarão.** |
 
 - **Link:** Insira o link href="aqui" substituindo o `#`. Por favor, evite usar encurtadores de URL ou URLs que não sejam do site que você está postando!
@@ -254,7 +254,6 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 - **Teste suas mudanças**. ISSO É IMPORTANTE! Abra o arquivo html no seu navegador (clicando duas vezes nele por exemplo) e veja como o seu cartão ficará no site. Verifique se a página inteira ainda parece a mesma e que nada está quebrado. Clique nos seus links e certifique-se de que estão funcionando. Abra o console (Ctrl + Shift + J (Windows / Linux) ou Cmd + Opt + J (Mac)) e verifique se não há mensagens de erro.
 - Ótimo, você terminou de editar seu código! Os próximos passos enviarão suas alterações para o GitHub e depois as submeterão para serem mescladas com o projeto principal.
 
-
 [↑ Vá para o topo ↑](#índice-de-acesso-rápido)
 
 ---
@@ -262,8 +261,7 @@ Nota: Esse é um código de termenal para abrir o arquivo: `index.html` in `VSCo
 #### Passo 7: Commit suas mudanças
 
 - Agora abra o terminal no diretório do seu projeto e execute git status e você notará que não há alterações feitas no git.
-= Você pode adicionar essas alterações que fez usando o comando git add
-
+  = Você pode adicionar essas alterações que fez usando o comando git add
 
 ```bash
 git add index.html
@@ -287,7 +285,6 @@ git commit -m "Add $NomeDeUsuario card info"
 - Sincronizar alterações locais com o seu repositório no GitHub é chamado de Push. Você está "empurrando" as alterações do seu repositório local para o repositório remoto no GitHub.
 - Usamos o comando git push para enviar alterações para o GitHub.
 
-
 ```bash
 git push -u origin $NomeDeUsuario-card
 ```
@@ -309,17 +306,17 @@ git push -u origin $NomeDeUsuario-card
 - Vá para a página principal do seu fork no GitHub (ele terá o ícone de fork e seu próprio nome de usuário no topo).
 - Perto do topo do repositório, você verá uma mensagem destacada de pull request com um botão verde.
 
-|  ![Envie um Pull Request](/readme-only/pull-request.PNG 'Isso geralmente fica no topo da página, abaixo da descrição e acima dos arquivos e pastas do projeto.')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Clique em `Compare and pull request`**                                                     |
-| ![Abra um Pull Request](/readme-only/pull-request-branches.PNG 'Você está solicitando a fusão da sua branch do seu fork na branch master do projeto original') |
-|                                              :arrow_right_hook: Isso é o que a pagina `Open a pull request` parece.                                               |
+| ![Envie um Pull Request](/readme-only/pull-request.PNG 'Isso geralmente fica no topo da página, abaixo da descrição e acima dos arquivos e pastas do projeto.') |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                   :arrow_right_hook: **Clique em `Compare and pull request`**                                                   |
+| ![Abra um Pull Request](/readme-only/pull-request-branches.PNG 'Você está solicitando a fusão da sua branch do seu fork na branch master do projeto original')  |
+|                                             :arrow_right_hook: Isso é o que a pagina `Open a pull request` parece.                                              |
 
 - LEMBRE-SE _você está tentando mesclar sua branch com o projeto original, não com a branch Master do seu fork._.
 - A imagem abaixo dá uma ideia de como o cabeçalho do seu pull request deve parecer.
 - À esquerda está o projeto original, seguido pela branch master. À direita está o seu fork e a branch que você criou.
 
-|                   ![Envie um Pull Request](/readme-only/pull-request-open.PNG "Clique no botão verde. Não tenha medo!")                    |
+|                    ![Envie um Pull Request](/readme-only/pull-request-open.PNG 'Clique no botão verde. Não tenha medo!')                    |
 | :-----------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Crie um pull request: Escreva um título, Adicione informações opcionais na descrição e Clique em Criar pull request`** |
 
@@ -353,10 +350,10 @@ Prometo que tentarei revisar e mesclar o mais rápido possível, mas faço isso 
 - Você deve receber um e-mail do GitHub quando suas alterações forem aprovadas ou se forem solicitadas alterações adicionais. E quando o PR finalmente for mesclado com o master e seu cartão tiver sido adicionado.
 - Você também pode aprender como contribuir com esta série gratuita: [Como Contribuir para um Projeto de Código Aberto no GitHub](https://kcd.im/pull-request)
 - Se você achou este projeto **útil**por favor, dê uma :star: estrela :star: no topo da página e Tweet sobre ele para ajudar a espalhar a palavra [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- Você pode **me seguir**  e entrar em contato no [Twitter](https://twitter.com/Syknapse '@Syknapse') ou [usando qualquer uma dessas outras opções](https://syknapse.github.io/Syk-Houdeib/#contact 'Minha sessão de contato | Portfolio')
+- Você pode **me seguir** e entrar em contato no [Twitter](https://twitter.com/Syknapse '@Syknapse') ou [usando qualquer uma dessas outras opções](https://syknapse.github.io/Syk-Houdeib/#contact 'Minha sessão de contato | Portfolio')
 - Este é um projeto de código aberto, então, além de contribuir com seu cartão, você é bem-vindo para ajudar a corrigir bugs, melhorias ou novos recursos. Abra uma [issue](https://help.github.com/articles/creating-an-issue/ 'Masterizando Issues | GitHub Guides') ou envie um [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Criando um pull request de um fork | GitHub Help')
 - Para ajudar a melhorar nossa comunidade, dê uma olhada na aba [Discussões](https://github.com/Syknapse/Contribute-To-This-Project/discussions) do GitHub localizada ao lado de Pull Requests. Esta área é um lugar para se apresentar, entrar em discussões mais profundas sobre código aberto e se comunicar com os Mantenedores do Projeto. Você nos ajudará a desenvolver esse recurso e melhorar nossa comunidade?
-- **Obrigado por contribuir para este projeto**. Agora você pode seguir em frete e tentar contribuir com outros projetos; Procure pelo selo ![primeira boa Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png)  para opções de contribuição amigáveis para iniciantes.
+- **Obrigado por contribuir para este projeto**. Agora você pode seguir em frete e tentar contribuir com outros projetos; Procure pelo selo ![primeira boa Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para opções de contribuição amigáveis para iniciantes.
 - Também estou procurando colaboradores para me ajudar na revisão e mesclagem de PRs. Se você gostaria de praticar mais o Git, por favor, me envie uma DM no Twitter e leia o guia do mantenedor. [mantenedor guide](/maintainer_guide.md).
 
 [↑ Vá para o topo ↑](#índice-de-acesso-rápido)

@@ -90,7 +90,7 @@ Denne veiledningen er også tilgjengelig på [andre språk](/translations/README
 | :----------------------------------------: | :-----------------------------------------------: | :--------------------------------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
 |   [Tysk](/translations/README/GERMAN.md)   |      [Hindi](/translations/README/HINDI.md)       |              [Italiensk](/translations/README/ITALIAN.md)              | [Japansk](/translations/README/JAPANESE.md) | [Koreansk](/translations/README/KOREAN.md) |
 |  [Polsk](/translations/README/POLISH.md)   | [Portugisisk](/translations/README/PORTUGUESE.md) |               [Russisk](/translations/README/RUSSIAN.md)               | [Serbisk](/translations/README/SERBIAN.md)  | [Spansk](/translations/README/SPANISH.md)  |
-| [Tyrkisk](/translations/README/TURKISH.md) |   [Ukrainsk](/translations/README/UKRAINIAN.md)   |  [Norsk](/translations/README/NORWEGIAN.md)
+| [Tyrkisk](/translations/README/TURKISH.md) |   [Ukrainsk](/translations/README/UKRAINIAN.md)   |               [Norsk](/translations/README/NORWEGIAN.md)               |
 
 > Oversettelser for prosjektdokumentasjon er velkommen. Les [`Oversettelses guide`](/translations/README.md) for å bidra.
 
@@ -127,8 +127,8 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Sørg for at du er på [hovedsiden](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') av dette repositoriet.
 
 | ![Fork](../../readme-only/fork.png "klikk på 'Fork'") |
-| :----------------------------------------------: |
-|           **Klikk på _Fork_ knappen**            |
+| :---------------------------------------------------: |
+|              **Klikk på _Fork_ knappen**              |
 
 - Du har nå en komplett kopi av prosjektet på din egen konto.
 
@@ -142,20 +142,18 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Åpne GitHub Desktop-appen. I appen:
 
 | ![Clone](../../readme-only/clone.PNG 'Klikk på Klon et repositorium') |
-| :--------------------------------------------------------------: |
-|        **Klikk på _File_ og deretter _Clone repository_**        |
+| :-------------------------------------------------------------------: |
+|          **Klikk på _File_ og deretter _Clone repository_**           |
 
 - Du vil se en liste over prosjektene dine og forks på GitHub.
 - Velg `<ditt-github-brukernavn>/Contribute-To-This-Project`.
 - Trykk på _Clone_
 
 | ![Clone project](../../readme-only/clone-project.PNG 'trykk på =ditt-github-brukernavn=/Contribute-To-This-Project') |
-| :-------------------------------------------------------------------------------------------------------------: |
-
+| :------------------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: Et forket prosjekt vil ha forksymbolet på venstre side. Din fork vil ha ditt eget GitHub bruker | ![your fork](../../readme-only/clone-your-fork.PNG 'din fork vil se slik ut, med ditt eget brukernavn') |
-| :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------: |
-
+| :----------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------: |
 
 - Dette vil ta et øyeblikk ettersom prosjektet kopieres til harddisken din. Jeg anbefaler at du beholder standard banen som vanligvis er `..\Documents\GitHub`.
 - Nå har du en lokal kopi av prosjektet.
@@ -169,8 +167,8 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Når repositoriet er klonet og du har det åpent i GitHub Desktop, er det på tide å opprette en ny gren.
 - En gren er en måte å holde endringene dine atskilt fra hoveddelen av prosjektet, som kalles for `Master`. For eksempel, hvis ting ikke går som planlagt og du ikke er fornøyd med endringene dine, kan du ganske enkelt slette grenen, og hovedprosjektet vil ikke bli påvirket.
 
-| :arrow_right_hook: klikk på _`Current branch`_, Deretter klikker du på _`New`_      |                           ![Opprett gren](../../readme-only/branch-new.PNG "Klikk på 'Branch', deretter 'Ny")                           |
-| :----------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: klikk på *`Current branch`_, Deretter klikker du på _`New`\_      |                           ![Opprett gren](../../readme-only/branch-new.PNG "Klikk på 'Branch', deretter 'Ny")                           |
+| :----------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Gi grenen din et navn, deretter klikker du på `Create branch`** |                                   ![Navngi gren](../../readme-only/branch-name.PNG 'Navngi din gren')                                   |
 | :arrow_right_hook: **Publiser din nye gren til GitHub**                              | ![Navngi gren](../../readme-only/branch-publish.PNG 'Click publiser for å sende den nye grenen til ditt fjerne repositorium på GitHub') |
 
@@ -191,7 +189,7 @@ _Anslått tid: Mindre enn 30 minutter_.
 - `index.html` filen ligger direkte i `Contribute-To-This-Project` mappen.
 - Åpne din kodeeditor (Sublime, VS Code, Atom osv.), bruk kommandoen `Åpne fil` og finn index.html-filen i hovedkatalogen til prosjektet.
 
-|            ![Åpne index-filen](../../readme-only/index-open.PNG 'Åpne index.html i din teksteditor')             |
+|          ![Åpne index-filen](../../readme-only/index-open.PNG 'Åpne index.html i din teksteditor')          |
 | :---------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Alternativt kan du finne filen på harddisken din, høyreklikke og åpne med din editor** |
 
@@ -208,16 +206,14 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Kopier alt innenfor den røde firkanten i bildet, fra kommentaren `Contributor card START` til kommentaren `Contributor card END`
 
 | ![Kopier kortmalen](../../readme-only/card-copy.PNG 'Kopier kortmalen') |
-| :----------------------------------------------------------------: |
-
+| :---------------------------------------------------------------------: |
 
 - Lim inn hele innholdet rett under kommentaren som angir det
 - Sørg for at det er en enkelt linje med mellomrom mellom starten av ditt kort og slutten av det forrige kortet. Det er god praksis å holde koden vår så tydelig som mulig
 - Ikke bruk lintere eller stilformaterere. Prosjektet har Prettier satt opp
 
 | ![Lim inn kortmalen](../../readme-only/card-paste.PNG 'Lim inn under den angitte linjen') |
-| :----------------------------------------------------------------------------------: |
-
+| :---------------------------------------------------------------------------------------: |
 
 - Dette er nå **din** kort som du kan tilpasse og redigere.
 
@@ -230,21 +226,19 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Vi vil nå begynne å redigere HTML, endre de tilpassbare feltene på vårt kort.
 
 | :arrow_right_hook: Erstatt 'Name' med ditt navn | ![Change name](../../readme-only/change-name.PNG 'Skriv inn ditt navn') |
-| :---------------------------------------------- | :----------------------------------------------------------------: |
-
+| :---------------------------------------------- | :---------------------------------------------------------------------: |
 
 - **Merk: Ikke endre `class="name"`**
 
 | :arrow_right_hook: Sett inn URL-en til din Twitter-konto `href="Sett inn URL her"`, Skriv inn ditt brukernavn i tekstfeltet | ![Endre kontakt](../../readme-only/change-contact.PNG 'Sett inn en lenke til din Twitter-konto og skriv inn ditt brukernavn') |
-| :-------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------: |
-
+| :-------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------: |
 
 - Hvis du foretrekker å bruke en annen kontakt enn Twitter, må du erstatte Twitter-ikonet `<i class="fa fa-x-twitter"></i>` ved å gå til [Font Awesome Icons](http://fontawesome.io/icons/), søke etter det riktige ikonet og bare erstatte `fa-x-twitter` delen med det nye ikonet som `fa-facebook` for eksempel. Deretter følger du de samme stegene ovenfor.
 
-|                                                                                                                                                         ![Endre om](../../readme-only/change-about.PNG 'Skriv en setning om deg selv')                                                                                                                                                         |
+|                                                                                                                                                      ![Endre om](../../readme-only/change-about.PNG 'Skriv en setning om deg selv')                                                                                                                                                       |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                                             :arrow_right_hook: **Fortell oss noe om deg selv. Hold det kort og godt. Tenk på det mer som en tweet enn et blogginnlegg post**                                                                                                                              |
-|                                                                                                                              ![Endre ressurser](../../readme-only/change-resources.PNG 'Sett inn lenke, skriv en kort beskrivelse, og skriv navnet på ressursen')                                                                                                                              |
+|                                                                                                                           ![Endre ressurser](../../readme-only/change-resources.PNG 'Sett inn lenke, skriv en kort beskrivelse, og skriv navnet på ressursen')                                                                                                                            |
 | :arrow_right_hook: **Del med fellesskapet 3 lenker til ressurser som er nyttige for webutvikling. Dette kan være hva som helst, en video, et foredrag, en podcast, en artikkel, en referanse eller et verktøy. Hvis du er nybegynner, ikke la deg skremme av dette, del hva du vet selv om du tror det er grunnleggende. Du vil bli overrasket over hvor mange som vil ha nytte av det.** |
 
 - **Lenke:** Sett inn lenken `href="her"` ved å erstatte `#`. Vennligst unngå å bruke URL-forkortere eller URL-er som ikke er fra nettstedet du legger ut fra!
@@ -266,12 +260,12 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Du kan se dette reflektert i appen. Alt du har lagt til i filen vil være i grønt, og slettinger vil vises som rødt.
 
 |                                                                                        ![Commit endringer](../../readme-only/commit.PNG 'Endringene du har lagt til bør vises i grønt på høyre side av GitHub-Desktop appen. Knappen for å committe endringer er nederst til venstre')                                                                                        |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                      :arrow_right_hook: Det neste steget kalles _`Commit`_. Dette betyr omtrent `bekreft endringene`                                                                                                                                      |
-|                                                                                    ![Commit endringer](../../readme-only/commit-header.PNG 'Endringene du har lagt til bør vises i grønt på høyre side av GitHub-Desktop appen. Knappen for å commite endringer er nederst til venstre')                                                                                     |
-|                                                                          :arrow_right_hook: **Dette er hvordan GitHub-Desktop appen ditt bør se ut. Legg merke til fork symbolet ved siden av prosjektnavnet under `Current repository`, Din `Current branch` vil ha navnet du ga den i steg 3**                                                                           |
-|                                                                                                      ![Skriv inn en commit melding og bekreft endringene](../../readme-only/commit-message.PNG "Skriv en kort commit-melding i 'sammendrag' feltet, og klikk på 'commit'")                                                                                                       |
-| :arrow_right_hook: **For å _`Committe`_ må du fylle ut _`Sammendrag`_ feltet. Dette er commit-meldingen som forklarer hva du har endret. I dette tilfellet ville `"Add my card information"` være en fornuftig melding. Eventuelt kan du legge til en mer detaljert _`Beskrivelse`_. Klikk på _`Commit`_ knappen. Din knapp vil si noe som `Commit to "din-gren-navn"`** |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                       :arrow*right_hook: Det neste steget kalles *`Commit`\_. Dette betyr omtrent `bekreft endringene`                                                                                                                                        |
+|                                                                                     ![Commit endringer](../../readme-only/commit-header.PNG 'Endringene du har lagt til bør vises i grønt på høyre side av GitHub-Desktop appen. Knappen for å commite endringer er nederst til venstre')                                                                                     |
+|                                                                            :arrow_right_hook: **Dette er hvordan GitHub-Desktop appen ditt bør se ut. Legg merke til fork symbolet ved siden av prosjektnavnet under `Current repository`, Din `Current branch` vil ha navnet du ga den i steg 3**                                                                            |
+|                                                                                                     ![Skriv inn en commit melding og bekreft endringene](../../readme-only/commit-message.PNG "Skriv en kort commit-melding i 'sammendrag' feltet, og klikk på 'commit'")                                                                                                     |
+| :arrow*right_hook: \*\*For å *`Committe`_ må du fylle ut _`Sammendrag`_ feltet. Dette er commit-meldingen som forklarer hva du har endret. I dette tilfellet ville `"Add my card information"` være en fornuftig melding. Eventuelt kan du legge til en mer detaljert _`Beskrivelse`_. Klikk på _`Commit`\_ knappen. Din knapp vil si noe som `Commit to "din-gren-navn"`\*\* |
 
 [↑ Gå til toppen ↑](#hurtigtilgang-indeks)
 
@@ -282,9 +276,8 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Dine endringer er nå lagret eller bekreftet. Men de er bare lagret lokalt, det vil si på datamaskinen din.
 - Synkronisering av lokale endringer med ditt repositorium på GitHub kalles en _Push_. Du "pusher" endringene fra ditt lokale repositorium til det eksterne repositoriet på GitHub.
 
-| :arrow_right_hook: Klikk på _`Push`_ knappen | ![Push til GitHub](../../readme-only/push.PNG "Push endringene dine til GitHub, klikk på 'Push' knappen") |
-| :-------------------------------------------- | :--------------------------------------------------------------------------------------------------: |
-
+| :arrow*right_hook: Klikk på *`Push`\_ knappen | ![Push til GitHub](../../readme-only/push.PNG "Push endringene dine til GitHub, klikk på 'Push' knappen") |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------: |
 
 - Etter noen sekunder er operasjonen fullført, og nå har du nøyaktig den samme kopien av denne grenen på maskinen din som på GitHub.
 
@@ -302,16 +295,16 @@ _Anslått tid: Mindre enn 30 minutter_.
 - Mot toppen av repoet vil du se en fremhevet melding for pull request med en grønn knapp.
 
 |         ![Send inn en Pull Request](../../readme-only/pull-request.PNG 'Dette er vanligvis mot toppen av siden, under beskrivelsen og over prosjektfilene og mappene.')          |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                         :arrow_right_hook: **Klikk på `Compare and pull request`**                                                          |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                            :arrow_right_hook: **Klikk på `Compare and pull request`**                                                            |
 | ![Opprett en Pull Request](../../readme-only/pull-request-branches.PNG 'Du foreslår en merge av din branch fra din fork inn i master branchen til det opprinnelige prosjektet.') |
-|                                                :arrow_right_hook: Dette er hvordan siden for `Åpne en pull request` ser ut.                                                 |
+|                                                   :arrow_right_hook: Dette er hvordan siden for `Åpne en pull request` ser ut.                                                   |
 
 - HUSK _du prøver å merge sammen grenen din med det opprinnelige prosjektet, ikke med `Master` grenen på din fork_.
 - Bildet nedenfor gir deg en ide om hvordan overskriften på din pull request skal se ut.
 - På venstre side er det opprinnelige prosjektet, etterfulgt av master grenen. På høyre side er din fork og grenen du opprettet.
 
-|                   ![Send en Pull Request](../../readme-only/pull-request-open.PNG 'Klikk på den grønne knappen. Ikke vær redd!')                    |
+|                 ![Send en Pull Request](../../readme-only/pull-request-open.PNG 'Klikk på den grønne knappen. Ikke vær redd!')                 |
 | :--------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Opprett en pull request: Skriv en tittel, legg til valgfri informasjon i beskrivelsen og klikk på `Create pull request`** |
 

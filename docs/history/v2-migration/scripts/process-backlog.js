@@ -175,7 +175,9 @@ async function applyPendingMerges(pendingMerges, processed) {
   if (pendingMerges.length === 0) return 0
 
   if (DRY_RUN) {
-    console.log(`\n  [dry-run] Would inject ${pendingMerges.length} cards into index.html, commit [skip ci], push, then close PRs`)
+    console.log(
+      `\n  [dry-run] Would inject ${pendingMerges.length} cards into index.html, commit [skip ci], push, then close PRs`
+    )
     return pendingMerges.length
   }
 
@@ -271,9 +273,7 @@ async function main() {
 
   // Fetch open PRs
   console.log('Fetching open PRs...')
-  const prs = JSON.parse(
-    gh('pr list --state open --limit 300 --json number,title,author,files,labels,isDraft')
-  )
+  const prs = JSON.parse(gh('pr list --state open --limit 300 --json number,title,author,files,labels,isDraft'))
   console.log(`Found ${prs.length} open PRs\n`)
 
   let batchCount = 0

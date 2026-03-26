@@ -44,7 +44,6 @@ HTML dosyasının içindeki kart şablonunun bir kopyasını oluşturacak ve ken
 | <ul><li>[Giriş](#giriş)</li><li>[Ne katkıda bulunacağım?](#ne-katkıda-bulunacağım)</li><li>[Kurulum](#kurulum)</li><li>[Katkı &rightarrow;](#katkı)</li><li>[Sonraki adımlar](#sonraki-adımlar)</li><li>[Teşekkür](#teşekkür)</li></ul> | Katkı: <ul><li>[Adım 1: Bu depoyu çatallayın(fork)](<#adım-1-bu-depoyu-çatallayın(fork)>)</li><li>[Adım 2: Depoyu klonlayın(clone)](<#adım-2-depoyu-klonlayın(clon)>)</li><li>[Adım 3: Yeni bir şube(branch) oluşturun](<#adım-3-yeni-bir-şube(branch)-oluşturun>)</li><li>[Adım 4: index.html dosyasını açın](#adım-4-otvori-indexhtml-fajl)</li><li>[Adım 5: Kart şablonunu kopyalayın](#Adım-5-kart-şablonunu-kopyalayın)</li><li>[Adım 6: Değişikliklerinizi uygulayın](#adım-6-değişikliklerinizi-uygulayın)</li><li>[Adım 7: Değişikliklerinizi kabul edin(commit)](<#Adım-7-değişikliklerinizi-kabul-edin(commit)>)</li><li>[Adım 8: Değişikliklerinizi GitHub'a aktarın(push)](<#Adım-8-değişikliklerinizi-githuba-aktarın(push)>)</li><li>[Adım 9: Bir PR(Çekme İsteği) Gönderin(Pull Request)](<#Adım-9-bir-pr(çekmeisteği)-gönderin(pullrequest)>)</li><li>[Adım 10: Kutlama](#adım-10-kutlama)</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-
 ## Kurulum
 
 İlk önce uygulamamızı gerçekleştirmek için kurulumu yapalım
@@ -76,7 +75,6 @@ _Tahmini süre: 30 dakikadan az_.
 | <ul><li>Fork butonuna basın</li></ul> | ![Fork](/readme-only/fork.png "klikni na 'Fork'") |
 | :------------------------------------ | ------------------------------------------------: |
 
-
 - Artık kendi hesabınızda projenin tam bir kopyasına sahipsiniz.
 
 ---
@@ -88,7 +86,6 @@ _Tahmini süre: 30 dakikadan az_.
 
 | <ul><li>_Dosya_'ya ve ardından _Depoyu klonla_'ya tıklayın</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
 | :------------------------------------------------------------------- | ---------------------------------------------------------: |
-
 
 | <ul><li>GitHub'da projelerimizin ve forkladıklarımızın bir listesini göreceğiz.</li><li>`<github-kullanıcı-adı>/Contribute-To-This-Project` seçelim.</li><li>Klonlaya tıklayalım </li></ul> | ![Klonlaya tıklayalım](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------: |
@@ -107,16 +104,13 @@ _Tahmini süre: 30 dakikadan az_.
 | <ul><li>_Mevcut şube_'ye(current) tıklayın</li><li>Ardından _Yeni_'ye tıklayın</li></ul> | ![Create branch](/readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
 | :--------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------: |
 
-
 | <ul><li>Şubenize(branch) bir isim verin</li><li>`Create branch`'ı tıklayın </li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :------------------------------------------------------------------------------------ | ---------------------------------------------------------------: |
-
 
 - İstediğiniz bir isim koyabilirsiniz, ancak bu dal(branch) projeye adınızın olduğu bir kart eklemek amacıyla olduğundan, `your-name-card` şeklinde isimlendirmek iyi bir uygulama olacağından bu dalın amacını açık tutar.
 
 | <ul><li>Yeni şubenizi(branch) Github'da yayınlayın</li></ul> | ![Ime grane](/readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
 | :----------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------------: |
-
 
 - Şimdi ana daldan ayrı yeni bir dal oluşturdunuz.
 - Sonraki adımlar için bu dalda çalıştığınızdan emin olun. Bulunduğunuz şubenin adını GitHub masaüstü uygulamasının üst orta kısmında _Current branch_ şeklinde yazdığını göreceksiniz.
@@ -133,7 +127,6 @@ _Tahmini süre: 30 dakikadan az_.
 
 | <ul><li>Kod düzenleyicinizi (Sublime, VS Code, Atom..etc) açın ve `Open file` komutunu kullanın ve index.html dosyasını projenin ana dizininde bulun.</li><li>Alternatif olarak, dosyayı sabit sürücünüzde bulabilir, sağ tıklayıp düzenleyicinizle açabilirsiniz.</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------: |
-
 
 - Artık düzenleyeceğiniz dosya düzenleyicinizde açık ve üzerinde değişiklik yapmaya hazırsınız.
 
@@ -162,7 +155,6 @@ _Tahmini süre: 30 dakikadan az_.
 | <ul><li>'Name' kısmını adınız ile değiştirin</li><li>Not: `class="name" değiştirilmemelidir`</li></ul> | ![Promeni ime](/readme-only/change-name.PNG 'Ukucaj svoje ime') |
 | :----------------------------------------------------------------------------------------------------- | --------------------------------------------------------------: |
 
-
 | <ul><li>Twitter hesabınızın URL'sini girin `href="Insert URL here"`</li><li>Kullanıcı adınızı(handle) metin alanına yazın</li></ul> |
 | :---------------------------------------------------------------------------------------------------------------------------------- |
 | ![Promeni kontakt](/readme-only/change-contact.PNG 'Umetnite vezu do svog Tvitter naloga i otkucajte svoje tviter username')        |
@@ -171,7 +163,6 @@ _Tahmini süre: 30 dakikadan az_.
 
 | <ul><li>Bize kendin hakkında birşeyler söyle</li><li>Kısa ve güzel tut. Bunu blog gönderisinden çok bir tweet gibi düşünebilirsiniz</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :-------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------: |
-
 
 | <ul><li>Web geliştirme için yararlı olan 3 kaynağa ait bağlantının topluluk ile paylaşılması</li><li>Bu herhangi bir şey, video, konuşma, podcast, makale, referans veya araç olabilir</li><li>Yeni başlayan biriyseniz, bundan korkmayın, basit olduğunu düşünseniz bile bildiklerinizi paylaşın. Kaç kişinin faydalanacağına şaşıracaksınız</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -194,14 +185,12 @@ _Tahmini süre: 30 dakikadan az_.
 | <ul><li>Bir sonraki adıma _Commit_ denir </li><li>Bu kabaca "değişiklikleri onayla" anlamına gelir</li></ul> | ![Komituj promene](/readme-only/commit.PNG 'Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za komitovanje se nalazi u donjem levom uglu') |
 | :----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>GitHub masaüstü başlığınız böyle görünmelidir</li><li>`Geçerli depoda` proje adının yanındaki çatal sembolüne dikkat edin</li><li>`Mevcut şubeniz` 3. adımda verdiğiniz isme sahip olacaktır</li></ul>    |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Komituj promene](/readme-only/commit-header.PNG 'Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za urezivanje se nalazi u donjem levom uglu') |
 
 | <ul><li>Taahhüt(commit) etmek için _Summary_(özet) alanını doldurmalısınız</li><li>Bu, neyi değiştirdiğinizi açıklayan taahhüt mesajıdır</li><li>Bu durumda "Kart bilgilerimi ekle" mantıklı bir mesaj olacaktır</li><li>İsteğe bağlı olarak daha ayrıntılı bir _Açıklama_ ekleyebilirsiniz.</li><li>_Commit_ butonuna basınız Butonda şöyle bir şey yazacaktır `Commit to "your-branch-name"`</li></ul> | ![commit-message](https://user-images.githubusercontent.com/16895546/146438169-50b8596a-c622-4474-a5fb-fe0be7e3c10d.png) |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------------------------------------: |
-
 
 ---
 
@@ -212,7 +201,6 @@ _Tahmini süre: 30 dakikadan az_.
 
 | <ul><li>_Push_ Butonuna tıklayınız</li></ul> | ![Pušuj na GitHub](/readme-only/push.PNG "Pošalji svoje promene na GitHub, klikni na 'Push' dugme") |
 | :------------------------------------------- | --------------------------------------------------------------------------------------------------: |
-
 
 - Birkaç saniye sonra işlem tamamlanır ve artık bu dalın(branch) tam olarak aynı kopyası hem makinenizde hem de GitHub'da bulunur.
 
@@ -230,14 +218,12 @@ _Tahmini süre: 30 dakikadan az_.
 | <ul><li>`Compare and pull request` butonuna tıklayınız</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'Ovo se obično nalazi na vrhu stranice, ispod opisa i iznad projektnih datoteka i fascikli') |
 | :--------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>`Open a pull request` sayfası bu şekilde gözükmektedir.</li><li>UNUTMAYIN, dalınızı çatalınızdaki `Master` dalıyla değil, orijinal projeyle birleştirmeye çalışıyorsunuz.</li><li>Aşağıdaki resim, çekme isteğinizin başlığının nasıl görünmesi gerektiği hakkında bir fikir verecektir.</li><li>Solda orijinal proje ve ardından ana dal bulunur. Sağda ise çatalımız ve oluşturduğumuz dal vardır.</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Zahtevate da spojite svoju granu sa vaše vilice u glavnu granu originalnog projekta')                                                                                                                                                                                                                                                                   |
 
 | <ul><li>Çekme(Pull request) isteği oluşturun</li><li>Bir başlık yazın</li><li>Açıklamaya isteğe bağlı bilgiler ekleyin</li><li>`Create pull request` butonuna tıklayın</li></ul> | ![Submit a Pull Request](/readme-only/pull-request-open.PNG 'Kliknite yeleno dugme. Nemojte se plašiti!') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------: |
-
 
 - Tüm seçenekler sizi şaşırtmasın. Şimdilik sadece bu üç adımı yapmanız gerekiyor.
 - `Allow edits from maintainers` (Bakımcıların düzenlemelerine izin ver) seçeneğini işaretli bırakın.

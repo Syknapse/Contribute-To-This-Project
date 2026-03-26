@@ -82,11 +82,11 @@ Je maakt een kopie van het kaartsjabloon in het HTML-bestand en past het aan met
 
 Deze handleiding is ook beschikbaar in [andere talen](/translations/README.md)
 
-| [Arabisch (عربي)](/translations/README/ARABIC.md) | [Bangla (বাংলা)](/translations/README/BANGLA.md) | [Chinees (Traditioneel) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Duits (Deutsch)](/translations/README/GERMAN.md) | [Engels (English)](/README.md)   
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [Frans (Français)](/translations/README/FRENCH.md) | [Hindi (हिंदी)](/translations/README/HINDI.md) | [Italiaans (Italiano)](/translations/README/ITALIAN.md) | [Japans (日本語)](/translations/README/JAPANESE.md) | [Koreaans (한국어)](/translations/README/KOREAN.md) |
-  [Nederlands](/translations/README/DUTCH.md) | [Noors (Norsk)](/translations/README/NORWEGIAN.md) | [Oekraïens (українська)](/translations/README/UKRAINIAN.md) | [Pools (Polski)](/translations/README/POLISH.md) | [Portuguees (Portuguese)](/translations/README/PORTUGUESE.md) | [Russisch (Русский)](/translations/README/RUSSIAN.md) 
-  [Servisch (Српски)](/translations/README/SERBIAN.md)  | [Spaans (Español)](/translations/README/SPANISH.md) | [Turks (Türkçe)](/translations/README/TURKISH.md)
+|  [Arabisch (عربي)](/translations/README/ARABIC.md)   |  [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinees (Traditioneel) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |  [Duits (Deutsch)](/translations/README/GERMAN.md)  |                [Engels (English)](/README.md)                 |
+| :--------------------------------------------------: | :-------------------------------------------------: | :------------------------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------------------: | ----------------------------------------------------- |
+|  [Frans (Français)](/translations/README/FRENCH.md)  |   [Hindi (हिंदी)](/translations/README/HINDI.md)    |             [Italiaans (Italiano)](/translations/README/ITALIAN.md)              | [Japans (日本語)](/translations/README/JAPANESE.md) |      [Koreaans (한국어)](/translations/README/KOREAN.md)      |
+|     [Nederlands](/translations/README/DUTCH.md)      | [Noors (Norsk)](/translations/README/NORWEGIAN.md)  |           [Oekraïens (українська)](/translations/README/UKRAINIAN.md)            |  [Pools (Polski)](/translations/README/POLISH.md)   | [Portuguees (Portuguese)](/translations/README/PORTUGUESE.md) | [Russisch (Русский)](/translations/README/RUSSIAN.md) |
+| [Servisch (Српски)](/translations/README/SERBIAN.md) | [Spaans (Español)](/translations/README/SPANISH.md) |                [Turks (Türkçe)](/translations/README/TURKISH.md)                 |
 
 > Vertalingen voor projectdocumentaties zijn welkom. Lees de [`Vertaalhandleiding`](/translations/README.md) om bij te dragen.
 
@@ -124,8 +124,8 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Zorg ervoor dat je op de [hoofdpagina](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') van deze repo bent.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **Klik op de knop _Fork_**          |
+| :----------------------------------------------: |
+|            **Klik op de knop _Fork_**            |
 
 - Je hebt nu een volledige kopie van het project in je eigen account.
 
@@ -139,7 +139,7 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Open GitHub Desktop. In het programma:
 
 | ![Clone](/readme-only/clone.PNG 'click clone repository') |
-| :------------------------------------------------------: |
+| :-------------------------------------------------------: |
 |       **Klik op _File_ en dan _Clone repository_**        |
 
 - Je ziet een lijst van je projecten en takken (branches) die je op GitHub hebt.
@@ -147,10 +147,10 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Klik _Clone_
 
 | ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
-| :----------------------------------------------------------------------------------------------------------: |
+| :-----------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: Een afgesplitst (forked) project zal het vorksymbool aan de linkerkant hebben. Je afsplitsing zal je eigen GitHubgebruikersnaam hebben. | ![your fork](/readme-only/clone-your-fork.PNG 'je afsplitsing zal er zo uitkomen te zien, met je eigen gebruikersnaam') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------: |
 
 - Dit zal eventjes duren, daar het project naar je harde schijf wordt gekopieerd. Ik raad aan om het standaard pad te gebruiken, dat meestal `..\Documents\GitHub` is.
 - Nu heb je een lokale kopie van het project.
@@ -164,10 +164,10 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Als de repo eenmaal afgesplitst (gecloned) is en je het open hebt staan in GitHub Desktop, is het tijd om een nieuwe tak(branch) te creëeren.
 - Een aftaking maken is een manier om jouw veranderingen apart te houden van het hoofddeel van het project genaamd `Master`. Als er bijvoorbeeld dingen fout gaan en je niet blij bent met je veranderingen dan kan je gemakkelijk jouw tak verwijderen zonder dat dit alles het hoofdproject beïnvloedt.
 
-| :arrow_right_hook: klik op _`Current branch`_, Klik daarna op _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Klik op 'Branch', dan 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Geef jouw tak een naam en klik daarna op `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Geef je tak (branch) een naam')                            |
-| :arrow_right_hook: **Publiceer je nieuwe tak naar to GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Klik publiceer om je nieuwe tak te verzenden naar je online GitHub bron (repo)') |
+| :arrow*right_hook: klik op *`Current branch`_, Klik daarna op _`New`\_          |                           ![Create branch](/readme-only/branch-new.PNG "Klik op 'Branch', dan 'New'")                            |
+| :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Geef jouw tak een naam en klik daarna op `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Geef je tak (branch) een naam')                           |
+| :arrow_right_hook: **Publiceer je nieuwe tak naar to GitHub**                   | ![Name branch](/readme-only/branch-publish.PNG 'Klik publiceer om je nieuwe tak te verzenden naar je online GitHub bron (repo)') |
 
 - Je kan je tak noemen wat je wilt, maar daar dit een tak is die de bedoeling heeft een kaart met je naam aan het project toe te voegen, is het een goede oefening om het `je-naam-card` te noemen daar dat de intentie van deze tak duidelijk maakt.
 - Nu heb je een nieuwe tak (branch) gemaakt die gescheiden is van de hoofdtak (master branch).
@@ -186,8 +186,8 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Het `index.html` bestand bevind zich direct in het `Contribute-To-This-Project` mapje.
 - Open je bewerkingsprogramma voor code (Sublime, VS Code, Atom, etc.) en gebruik de `Open bestand` opdracht en zoek het index.html bestand op in de hoofdmap van het project
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in je tekstbewerker')                   |
-| :---------------------------------------------------------------------------------------------------------------------: |
+|                             ![Open index file](/readme-only/index-open.PNG 'Open index.html in je tekstbewerker')                             |
+| :-------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Het is ook mogelijk om eerst het bestand op je harde schijf op te zoeken, rechtermuisknopklik, en open met je bewerker** |
 
 - Nu heb je het bestand dat je gaat bewerken open in je bewerkingsprogramma en je bent klaar om veranderingen te gaan maken.
@@ -204,20 +204,20 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Je zou nu de sectie moeten zien die alle bijdragekaarten (kaarten die door anderen zijn bijgedragen) bevat: `<div class="grid" id="contributions">`
 
 | ![Find card template](/readme-only/find-card-template.png 'Zoek de kaartsjabloon') |
-| :-----------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------: |
 
 - In deze sectie vindt u de sectie met het label `== TEMPLATE ==`
 - Kopieer alles binnen het rode vierkant in de afbeelding, van de `Contributor card START` opmerking tot de `Contributor card END` opmerking
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Kopieer het kaartsjabloom') |
-| :-----------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------: |
 
 - Plak het geheel direct onder de opmerking die dit aangeeft; boven de kaart van de meest recente bijdrager.
 - Zorg ervoor dat er een regel afstand is tussen het einde van je kaart en het begin van de laatste kaart. Voeg ook een regel toe tussen het begin van je kaart en de regel met de opmerking `=== Paste YOUR CARD directly BELOW this line ===`. Dit is een goede oefening om onze code zo duidelijk mogelijk te houden.
 - Gebruik nooit linters of stijlopmaakprogramma's. Het project is mooier opgezet.
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Plak onder de aangegeven regel') |
-| :---------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - Dit is nu **jouw** HTML-kaart, die je kan personaliseren en bewerken.
 
@@ -230,19 +230,19 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - We zullen nu beginnen de html-code te bewerken door de aanpasbare velden van je kaart te veranderen.
 
 | :arrow_right_hook: Vervang 'Name' met je naam | ![Change name](/readme-only/change-name.PNG 'Type je naam') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :-------------------------------------------- | :---------------------------------------------------------: |
 
 - **Let op: Wijzig niet `class="name"`**
 
 | :arrow_right_hook: Voeg de URL van je Twitter- / X-account toe in `href="Insert URL here"`, Type je Twitternaam in het tekstvak | ![Change contact](/readme-only/change-contact.PNG 'Voeg een link naar je Twitter-account in en typ je gebruikersnaam') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------------: |
 
 - Als je liever een ander contact dan Twitter gebruikt, moet je het twitterpictogram vervangen `<i class="fa fa-x-twitter"></i>` door naar [Font Awesome Icons](http://fontawesome.io/icons/) te gaan en te zoeken voor het juiste icoontje en vervolgens alleen het `fa-x-twitter` deel te vervangen met het nieuwe icoontje, zoals bijvoorbeeld `fa-facebook`. Volg dan de bovenstaande stappen.
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Schrijf een zin die iets over jou verteld')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **Vertel ons iets over jezelf. Houd het kort en bondig. Zie het meer als een tweet dan als een blogbericht.**                                                                                                                |
-|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Link invoegen, korte beschrijving schrijven en de naam van de bron typen')                                                                                                              |
+|                                                                                                                                                             ![Change about](/readme-only/change-about.PNG 'Schrijf een zin die iets over jou verteld')                                                                                                                                                              |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                          :arrow_right_hook: **Vertel ons iets over jezelf. Houd het kort en bondig. Zie het meer als een tweet dan als een blogbericht.**                                                                                                                                           |
+|                                                                                                                                          ![Change resources](/readme-only/change-resources.PNG 'Link invoegen, korte beschrijving schrijven en de naam van de bron typen')                                                                                                                                          |
 | :arrow_right_hook: **Deel met de gemeenschap 3 koppelingen naar bronnen die nuttig zijn voor webontwikkeling. Dit kan van alles zijn, een video, een voordracht, een podcast, een artikel, een referentie of een programma. Laat je niet intimideren als je een beginner bent; deel alles wat je weet, zelfs als je denkt dat het basiskennis is. Je zult verbaasd zijn hoeveel mensen er baat bij zullen hebben.** |
 
 - **Link:** Voeg de snelkoppeling toe in `href="here"` door het `#` te vervangen. Gebruik geen URL-verkorters of URL's die niet van de site zijn die je post!
@@ -250,7 +250,7 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - **Name:** Schrijf de naam van de bron in het tekstvak `>here</a>`.
 - Zorg ervoor dat je **alle wijzigingen opgeslagen hebt**..
 - **Test je veranderingen**. DIT IS BELANGRIJKT! Open het html-bestand in je browser (door er bijvoorbeeld dubbel op te klikken) en kijk hoe je kaart er op de site uitziet. Kijk of de hele pagina er nog hetzelfde uitziet en of er niets verkeerd is gegaan. Klik op je snelkoppelingen en controleer of ze werken. Open de console (Ctrl + Shift + J (Windows / Linux) of Cmd + Opt + J (Mac)) en controleer of er geen foutmeldingen zijn.
-- Geweldig, je bent klaar met het bewerken van je code! De volgende stappen zullen je wijzigingen naar GitHub sturen en ze dan indienen om samengevoegd te worden met het hoofdproject. 
+- Geweldig, je bent klaar met het bewerken van je code! De volgende stappen zullen je wijzigingen naar GitHub sturen en ze dan indienen om samengevoegd te worden met het hoofdproject.
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -263,13 +263,13 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Dit betekent dat Git alle **opgeslagen** wijzigingen heeft vastgelegd.
 - Je kunt dit terugzien in het programma. Alles wat je hebt toegevoegd aan het bestand wordt groen weergegeven en verwijderingen worden rood weergegeven.
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: De volgende stap heet _`Commit`_. Dit betekent ongeveer `bevestig de wijzigingen` |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder")                                                                                               |
-|                                                                            :arrow_right_hook: **Dit is hoe jouw GitHub Desktop header eruit zou moeten zien. Let op het vorksymbool naast de projectnaam in `Current repository`, je `Current branch` zal de naam hebben die je het in stap 3 hebt gegeven.**                                                                            |
-|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Schrijf een korte samenvatting van je veranderingen in de 'summary' invoer en klik op 'commit'")                                                                                                                  |
-| :arrow_right_hook: **Om op _`Commit`_ te kunnen klikken, moet je het _`Summary`_ veld invullen. Dit is het vastleggingsbericht dat uitlegt wat je hebt veranderd. In dit geval zou `"Voeg mijn kaartgegevens toe"` een redelijk bericht zijn. Optioneel kun je een meer gedetailleerde _`Description`_ bijvoegen. Klik op de _`Commit`_ knop. Op je knop staat zoiets als `Commit to "your-branch-name"`** |
+|                                                                                             ![Commit changes](/readme-only/commit.PNG 'De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder')                                                                                             |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                      :arrow*right_hook: De volgende stap heet *`Commit`\_. Dit betekent ongeveer `bevestig de wijzigingen`                                                                                                                                                      |
+|                                                                                         ![Commit changes](/readme-only/commit-header.PNG 'De wijzigingen die je hebt toegevoegd zouden in het groen moeten verschijnen aan de rechterkant van GitHub Desktop. De vastlegknop (commit button) bevindt zich linksonder')                                                                                          |
+|                                                                                       :arrow_right_hook: **Dit is hoe jouw GitHub Desktop header eruit zou moeten zien. Let op het vorksymbool naast de projectnaam in `Current repository`, je `Current branch` zal de naam hebben die je het in stap 3 hebt gegeven.**                                                                                        |
+|                                                                                                                      ![Write commit message and commit](/readme-only/commit-message.PNG "Schrijf een korte samenvatting van je veranderingen in de 'summary' invoer en klik op 'commit'")                                                                                                                       |
+| :arrow*right_hook: \*\*Om op *`Commit`_ te kunnen klikken, moet je het _`Summary`_ veld invullen. Dit is het vastleggingsbericht dat uitlegt wat je hebt veranderd. In dit geval zou `"Voeg mijn kaartgegevens toe"` een redelijk bericht zijn. Optioneel kun je een meer gedetailleerde _`Description`_ bijvoegen. Klik op de _`Commit`\_ knop. Op je knop staat zoiets als `Commit to "your-branch-name"`\*\* |
 
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
@@ -280,8 +280,8 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Je wijzigingen zijn nu opgeslagen of vastgelegd. Maar ze worden alleen lokaal opgeslagen, dat wil zeggen op je computer.
 - Het synchroniseren van lokale wijzigingen met je bron (repository) op GitHub wordt een _Push_ genoemd. Je "duwt" de wijzigingen van je lokale repository naar de online bron op GitHub.
 
-| :arrow_right_hook: Klik de _`Push`_ knop | ![Push to GitHub](/readme-only/push.PNG "Publiceer je wijzigingen naar GitHub, klik op de knop 'Push'") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: Klik de *`Push`\_ knop | ![Push to GitHub](/readme-only/push.PNG "Publiceer je wijzigingen naar GitHub, klik op de knop 'Push'") |
+| :---------------------------------------- | :-----------------------------------------------------------------------------------------------------: |
 
 - Na een paar seconden is de operatie voltooid en nu heb je precies dezelfde kopie van deze tak (branch) op zowel je computer als op GitHub.
 
@@ -298,18 +298,18 @@ _Geschatte tijd: Minder dan 30 minuten_.
 - Ga naar de hoofdpagina van **je afsplitsing** op GitHub (het zal bovenaan het vork-icoon en je gebruikersnaam weergeven).
 - Bovenaan de repo zie je een gemarkeerd pull request-bericht met een groene knop.
 
-|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'Dit staat meestal bovenaan de pagina, onder de beschrijving en boven de projectbestanden en -mappen.')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Klik op `Compare and pull request`**                                                     |
+|          ![Submit a Pull Request](/readme-only/pull-request.PNG 'Dit staat meestal bovenaan de pagina, onder de beschrijving en boven de projectbestanden en -mappen.')          |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                            :arrow_right_hook: **Klik op `Compare and pull request`**                                                             |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Je vraagt om je tak (branch) van je afsplitsing (fork) samen te voegen in de hoofdtak van het originele project') |
-|                                              :arrow_right_hook: Dit is hoe de `Open a pull request` webpagina eruit ziet.                                               |
+|                                                   :arrow_right_hook: Dit is hoe de `Open a pull request` webpagina eruit ziet.                                                   |
 
 - ONTHOUD dat _je probeert je tak (branch) samen te voegen met het originele project, niet met de `Master` tak van je afsplitsing (fork)_.
 - De afbeelding hieronder geeft je een idee van hoe de header van je pull request eruit zou moeten zien.
 - Aan de linkerkant staat het originele project, gevolgd door de hoofdtak. Aan de rechterkant staat je afsplitsing (fork) en de tak (branch) die je gemaakt hebt.
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Klik op de groene knop. Wees niet bang!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                       ![Submit a Pull Request](/readme-only/pull-request-open.PNG 'Klik op de groene knop. Wees niet bang!')                       |
+| :------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Maak een pull request: Schrijf een titel, voeg optionele informatie toe in de beschrijving en klik op `Create pull request`** |
 
 - Laat je niet afschrikken door alle opties. Je hoeft voorlopig alleen deze drie stappen uit te voeren.
@@ -352,6 +352,7 @@ Ik beloof dat ik zal proberen zo snel mogelijk te reviewen en samen te voegen, m
 [↑ Ga naar boven ↑](#snelle-toegangsindex)
 
 ---
+
 ### Dankbetuigingen
 
 Dit project is erg beïnvloed door [Roshan Jossey's](https://github.com/Roshanjossey) geweldige [first-contributions](https://github.com/Roshanjossey/first-contributions) project met zijn uitstekende handleiding.

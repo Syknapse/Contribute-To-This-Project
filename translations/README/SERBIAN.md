@@ -44,7 +44,6 @@ Napravićete kopiju šablona kartice unutar index.html fajla i prilagoditi je so
 | <ul><li>[Uvod](#uvod)</li><li>[Šta ću da doprinesem?](#šta-cu-da-doprinesem)</li><li>[Nameštanje](#nameštanje)</li><li>[Doprinsi &rightarrow;](#doprinesi)</li><li>[Sledeći koraci](#sledeći-koraci)</li><li>[Priznanja](#priznanja)</li></ul> | Doprinesi: <ul><li>[Korak 1: Napravite račvanje (fork) repozitorijuma](#korak-1-račvaj-ovaj-repozitorijum)</li><li>[Korak 2: Kloniraj repozitorijum](#korak-2-kloniraj-repozitorijum)</li><li>[Korak 3: Napravi novu granu](#korak-3-napravi-novu-granu)</li><li>[Korak 4: Otvori index.html fajl](#korak-4-otvori-indexhtml-fajl)</li><li>[Korak 5: Kopiraj šablon kartice](#korak-5-kopiraj-šablon-kartice)</li><li>[Korak 6: Primeni svoje promene](#korak-6-primeni-svoje-promene)</li><li>[Korak 7: Potvrdi svoj promene](#step-7-potvrdi-svoje-promene)</li><li>[Korak 8: Pošalji izmene na GitHub](#korak-8-pošalji-svoje-izmene-na-github)</li><li>[Korak 9: Pošalji izmene na reviziju](#korak-9-pošalji-izmene-na-reviziju)</li><li>[Korak 10: Proslavi!](#korak-10-proslavi)</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-
 ## Podešavanje! :)
 
 Prvo hajde sve da podesimo za posao!
@@ -76,7 +75,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | <ul><li>Kliknite na _Fork_ dugme</li></ul> | ![Fork](/readme-only/fork.png "klikni na 'Fork'") |
 | :----------------------------------------- | ------------------------------------------------: |
 
-
 - Sada imate kompletnu kopiju projekta na svom nalogu.
 
 ---
@@ -88,7 +86,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 
 | <ul><li>Klikni na _File_ potom _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'klikni clone repository') |
 | :---------------------------------------------------------- | ---------------------------------------------------------: |
-
 
 | <ul><li>Videćete listu svojih projekata i forkova na GitHub-u.</li><li>Izaberite `<vaše-github-username>/Contribute-To-This-Project`.</li><li>Klikni _Clone_</li></ul> | ![Kloniraj projekat](/readme-only/clone-project.PNG 'klikni na <your-github-username>/Contribute-To-This-Project') |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------: |
@@ -107,16 +104,13 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | <ul><li>Kliknite na _Current branch_</li><li>Potom kliknite na _New_</li></ul> | ![Create branch](/readme-only/branch-new.PNG "Klikni na 'Branch', potom 'New'") |
 | :----------------------------------------------------------------------------- | ------------------------------------------------------------------------------: |
 
-
 | <ul><li>Dajte grani ime</li><li>Kliknite `Create branch`</li></ul> | ![Naziv grane](/readme-only/branch-name.PNG 'Dajte naziv grani') |
 | :----------------------------------------------------------------- | ---------------------------------------------------------------: |
-
 
 - Možete nazvati granu kako god želite, ali pošto je ovo grana za dodavanje kartice sa vašim imenom u projekat, nazvati je `your-name-card` je dobra praksa jer nameru ove grane održava jasnom.
 
 | <ul><li>Objavite Vašu granu na Github'u</li></ul> | ![Ime grane](/readme-only/branch-publish.PNG 'Kliknite na Objavi da biste novu granu poslali u vaš udaljeni repo na GitHub-u') |
 | :------------------------------------------------ | -----------------------------------------------------------------------------------------------------------------------------: |
-
 
 - Sada ste kreirali novu granu odvojenu od mastera.
 - Za sledeće korake proverite da li radite na ovoj grani. Videćete ime grane na kojoj se nalazite u gornjem centru GitHub desktop aplikacije gde piše _Current branch_.
@@ -133,7 +127,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 
 | <ul><li>Otvorite kod editor (Sublime, VS Code, Atom..etc) i otvorite fajl `Open file` komandom i locirajte index.html fajl u glavnom direktorijumu projekta.</li><li>Alternativno, možete locirati datoteku na hard disku, kliknuti desnim tasterom miša i otvoriti je pomoću uređivača</li></ul> | ![Otvori index fajl](/readme-only/index-open.PNG 'Otvori index.html u svom text editoru') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------: |
-
 
 - Sada imate otvorenu datoteku koju ćete uređivati u editoru i spremni ste da počnete da unosite izmene u nju.
 
@@ -162,7 +155,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | <ul><li>Yamenite 'Name' sa Vašim imenom</li><li>Poruka: Nemojte menjati `class="name"`</li></ul> | ![Promeni ime](/readme-only/change-name.PNG 'Ukucaj svoje ime') |
 | :----------------------------------------------------------------------------------------------- | --------------------------------------------------------------: |
 
-
 | <ul><li>Unesite URL svog Tvitter naloga `href="Insert URL here"`</li><li>Unesite svoju oznaku u polje za tekst</li></ul>     |
 | :--------------------------------------------------------------------------------------------------------------------------- |
 | ![Promeni kontakt](/readme-only/change-contact.PNG 'Umetnite vezu do svog Tvitter naloga i otkucajte svoje tviter username') |
@@ -171,7 +163,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 
 | <ul><li>Recite nam nešto o sebi</li><li>Neka bude kratko i slatko. Razmislite o tome više kao na tvit nego na post na blogu</li></ul> | ![Promeni o sebi](/readme-only/change-about.PNG 'Napiši rečenicu o sebi') |
 | :------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------: |
-
 
 | <ul><li>Podelite sa zajednicom 3 veze do resursa koji su korisni za razvoj veba</li><li>Ovo može biti bilo šta, video, razgovor, podkast, članak, referenca ili alat</li><li>Ako ste početnik, nemojte da Vas ovo plaši, podelite sve što znate čak i ako mislite da je osnovno. Iznenadićete se koliko će ljudi imati koristi</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -194,14 +185,12 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | <ul><li>Sledeći korak se zove _Commit_</li><li>Ugrubo ovo znači "potvrdi promene"</li></ul> | ![Komituj promene](/readme-only/commit.PNG 'Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za komitovanje se nalazi u donjem levom uglu') |
 | :------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>Tako bi trebalo da izgleda zaglavlje vašeg GitHub desktopa</li><li>Obratite pažnju na simbol račvanja pored naziva projekta u `Current repository`</li><li>Vaša `Current branch` imaće ime koje ste mu dali u koraku 3</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Komituj promene](/readme-only/commit-header.PNG 'Promene koje ste dodali trebalo bi da se pojave u zelenoj boji na desnoj strani GitHub desktop aplikacije. Dugme za urezivanje se nalazi u donjem levom uglu')                        |
 
 | <ul><li>Da biste _Commit_ morate popuniti _Summary_ polje</li><li>Ovo je poruka potvrđivanja promene koja objašnjava šta ste promenili</li><li>U ovom slučaju "Add my card information" bi bila logična poruka</li><li>Opciono možete dodati i detaljniji opis _Description_</li><li>Kliknite _Commit_ dugme. Vaše dugme će imati poruku `Commit to "your-branch-name"`</li></ul> | ![Napiši poruku komitovanja i komituj](readme-only/commit-message.PNG "Napiši kratku poruku komitovanja u 'summary' polju, i klikni 'commit'") |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------: |
-
 
 ---
 
@@ -212,7 +201,6 @@ _Procenjeno vreme: Manje od 30 minuta_.
 
 | <ul><li>Kliknite _Push_ dugme</li></ul> | ![Pušuj na GitHub](/readme-only/push.PNG "Pošalji svoje promene na GitHub, klikni na 'Push' dugme") |
 | :-------------------------------------- | --------------------------------------------------------------------------------------------------: |
-
 
 - Posle nekoliko sekundi operacija je završena i sada imate potpuno istu kopiju ove grane na vašoj mašini kao i na GitHub-u.
 
@@ -230,14 +218,12 @@ _Procenjeno vreme: Manje od 30 minuta_.
 | <ul><li>Kliknite na `Compare and pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request.PNG 'Ovo se obično nalazi na vrhu stranice, ispod opisa i iznad projektnih datoteka i fascikli') |
 | :------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>Ovako `Open a pull request` stranica izgleda.</li><li>SETITE SE _vi pokušavate da spojite Vašu granu sa originalnim projektom, a ne sa `Master` granom na vašem račvanju_.</li><li>Slika ispod daje vam ideju kako bi zaglavlje vašeg zahteva za povlačenje trebalo da izgleda</li><li>a levoj strani je originalni projekat, a zatim glavna grana. Na desnoj strani je vaše račvanje i grana koju ste kreirali.</li></ul> |
 | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Zahtevate da spojite svoju granu sa vaše vilice u glavnu granu originalnog projekta')                                                                                                                                                                                                                                                                               |
 
 | <ul><li>Kreirajte pull request:</li><li>Napišite naslov</li><li>Dodajte opcionalne informacije i opis</li><li>Kliknite `Create pull request`</li></ul> | ![Submit a Pull Request](/readme-only/pull-request-open.PNG 'Kliknite yeleno dugme. Nemojte se plašiti!') |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------: |
-
 
 - Nemojte da vas uznemiravaju sve opcije. Za sada treba da uradite samo ova tri koraka.
 - Ostavi opciju `Allow edits from maintainers` obeleženom.

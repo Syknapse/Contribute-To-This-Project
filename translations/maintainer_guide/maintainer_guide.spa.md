@@ -6,10 +6,10 @@ Esta guía es para aquellos que deseen unirse al proyecto como mantenedores, par
 
 Este tutorial también está disponible en [otros idiomas](traducciones/README.md)
 
-| [Inglés](maintainer_guide.md) | [Bangla](traducciones/maintainer_guide/maintainer_guide.ben.md) | [Chino (tradicional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Francés (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [Alemán](traducciones/maintainer_guide/maintainer_guide.ger.md) |
-| :---: | :---: | :---: | :---: | :---: |
-[Hindi](traducciones/maintainer_guide/maintainer_guide.hin.md) | [Indonesio](traducciones/maintainer_guide/maintainer_guide.ind.md) | [Italiano](traducciones/maintainer_guide/maintainer_guide.ita.md) | [Japonés](traducciones/maintainer_guide/maintainer_guide.jpn.md) | [Coreano](traducciones/maintainer_guide/maintainer_guide.kor.md) |
-[Portugués](traducciones/maintainer_guide/maintainer_guide.por.md) | [Ruso](traducciones/maintainer_guide/maintainer_guide.rus.md) | [Ucraniano](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+|                   [Inglés](maintainer_guide.md)                    |  [Bangla](traducciones/maintainer_guide/maintainer_guide.ben.md)   | [Chino (tradicional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Francés (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [Alemán](traducciones/maintainer_guide/maintainer_guide.ger.md)  |
+| :----------------------------------------------------------------: | :----------------------------------------------------------------: | :------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+|   [Hindi](traducciones/maintainer_guide/maintainer_guide.hin.md)   | [Indonesio](traducciones/maintainer_guide/maintainer_guide.ind.md) |        [Italiano](traducciones/maintainer_guide/maintainer_guide.ita.md)         |       [Japonés](traducciones/maintainer_guide/maintainer_guide.jpn.md)       | [Coreano](traducciones/maintainer_guide/maintainer_guide.kor.md) |
+| [Portugués](traducciones/maintainer_guide/maintainer_guide.por.md) |   [Ruso](traducciones/maintainer_guide/maintainer_guide.rus.md)    |       [Ucraniano](/translations/maintainer_guide/maintainer_guide.ukr.md)        |
 
 > Se aceptan traducciones de documentación de proyectos. Lea la [`Guía de traducción`](translations/README.md) para contribuir.
 
@@ -59,7 +59,6 @@ Si nota que el archivo HTML se ve desordenado, ejecute el siguiente código en l
 ```js
 npx prettier --write index.html
 ```
-
 
 Debería intentar formatear el archivo y si no puede, le mostrará los errores. A veces, una etiqueta de cierre faltante o un HTML roto se fusionan por error y esta es una buena forma de detectarlo y solucionarlo.
 
