@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an older workflow that no longer works. Please follow the [up-to-date English tutorial](/terminal_tutorial.md) instead.
+
+---
+
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![image info](/favicon.png)
@@ -84,7 +88,7 @@
 這份教學也有[其他語言](/translations/README.md)的翻譯
 
 | [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
-| :----: | :----: | :----: |
+| :------------------------------: | :----------------------------------------------------------------: | :-------------------------------------------------------------------: |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
 
@@ -118,8 +122,8 @@ _估計時間：少於30分鐘_.
 - 請確認你在這個儲存庫的[主頁](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')。
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **點擊 _Fork_ 按鈕**          |
+| :----------------------------------------------: |
+|               **點擊 _Fork_ 按鈕**               |
 
 - 現在你在自己的帳號有一份這個專案的完整複製品了。
 
@@ -211,14 +215,14 @@ code index.html
 - 複製圖片中紅色框內的所有東西，從 `Contributor card START` 註解到 `Contributor card END` 註解。
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
-| :-----------------------------------------------------------------------: |
+| :------------------------------------------------------------------------: |
 
 - 把整段程式直接在要你貼上的註解下面貼上。
 - 確保你的卡片開始和結束的地方各自有一行空白。保持程式碼盡可能的乾淨是一種最佳實踐。
 - 永遠不要使用程式碼檢查工具 (linter) 或程式碼格式工具 (formatter)。這個專案有設置 Prettier。
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
-| :---------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - 現在這是一張**你**可以編輯和自訂的卡片了。
 
@@ -231,19 +235,19 @@ code index.html
 - 我們現在要開始編輯 html、改變我們卡片中可以自訂的欄位。
 
 | :arrow_right_hook: 用你的名字取代 'Name' | ![Change name](/readme-only/change-name.PNG 'Type your name') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :--------------------------------------- | :-----------------------------------------------------------: |
 
 - **注意： 不要改動 `class="name"`**
 
 | :arrow_right_hook: 插入你推特帳號的 URL `href="Insert URL here"`，在文字欄位中填入你的用戶名稱 | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
 
 - 如果你偏好使用推特以外的聯絡方式，你會需要到 [Font Awesome Icons](http://fontawesome.io/icons/) 尋找正確的圖示，並且取代推特的圖示 `<i class="fa fa-x-twitter"></i>`。舉例來說，用新的圖示如 `fa-facebook` 取代 `fa-x-twitter` 的部分。然後一樣照著上面的步驟進行。
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **告訴我們關於你的事情。保持簡短扼要。把它想成一則推特而非部落格文章**                                                                                                                |
-|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+|                                                                                                  ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                           :arrow_right_hook: **告訴我們關於你的事情。保持簡短扼要。把它想成一則推特而非部落格文章**                                                                                           |
+|                                                                      ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                       |
 | :arrow_right_hook: **與社群分享三個你覺得對於網頁開發有用的資源連結。它可以是任何東西，一部影片、一場對話、一集 podcast、一篇文章、一篇論文，或是一個工具。如果你是一位新手，不要被它嚇到，分享你知道的任何東西，就算你覺得它很基礎也一樣。你會對於多少人能受益感到驚訝的。** |
 
 - **連結：** 取代 `#` 並在 `href="here"` 插入連結。請避免使用網址縮短器或是任何不是從你要放的網站中取得的 URL！
@@ -306,17 +310,17 @@ git push -u origin $Username-card
 - 在你的儲存庫上方，你會看到一個被標註的的拉取請求訊息和一個綠色按鈕。
 
 |  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **點擊 `Compare and pull request`**                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                         :arrow_right_hook: **點擊 `Compare and pull request`**                                                         |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
-|                                              :arrow_right_hook: 這是一個`建立拉取請求`頁面的樣子                                               |
+|                                                          :arrow_right_hook: 這是一個`建立拉取請求`頁面的樣子                                                           |
 
 - 請記得 _你正在試著把你的分支和原本專案合併，而不是與你的分叉的 `Master` 分支_。
 - 下圖讓你對於你的拉取請求應該長怎樣有一個大概的概念。
 - master 分支的左側是原本的專案。在右邊是你的分叉與你建立的分支。
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")   |
+| :---------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **建立一個拉取請求：寫一個標題、在描述欄加上選擇性的資訊，並且點 `Create pull request`** |
 
 - 不要被其他選項嚇到。你目前只需要做這三個步驟。
@@ -361,7 +365,7 @@ git push -u origin $Username-card
 
 ### 致謝
 
-這個專案受到 [Roshan Jossey](https://github.com/Roshanjossey) 出色的  [first-contributions](https://github.com/Roshanjossey/first-contributions) 專案，和它卓越的教學影響很大。
+這個專案受到 [Roshan Jossey](https://github.com/Roshanjossey) 出色的 [first-contributions](https://github.com/Roshanjossey/first-contributions) 專案，和它卓越的教學影響很大。
 
 它也特別被 [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe 周邊優秀的社群所啟發。
 
