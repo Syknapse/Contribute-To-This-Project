@@ -23,6 +23,7 @@
 - [Introduction](#introduction)
 - [Who is this for?](#who-is-this-for)
 - [What am I going to contribute?](#what-am-i-going-to-contribute)
+- [Translations](#translations)
 - [Setup](#setup)
 - [Contribute](#contribute)
   - [Step 1: Fork this repository](#step-1-fork-this-repository)
@@ -50,6 +51,18 @@ Anyone comfortable enough with a terminal to run basic Git commands. You don't n
 ### What am I going to contribute?
 
 You'll add a personal card to the [project's web page](https://syknapse.github.io/Contribute-To-This-Project/). It will include your name, contact links, a short description, and links to developer resources you recommend.
+
+---
+
+## Translations
+
+This tutorial is also available in other languages. Note that translations may lag behind the English version.
+
+|      [Bengali](translations/terminal_tutorial/terminal_tutorial.ben.md)       | [German](translations/terminal_tutorial/terminal_tutorial.ger.md) |   [Hindi](translations/terminal_tutorial/terminal_tutorial.hin.md)   |          [Korean](translations/terminal_tutorial/terminal_tutorial.kor.md)          |
+| :---------------------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| [Portuguese (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrainian](translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) |
+
+> Translations for this tutorial are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ---
 
