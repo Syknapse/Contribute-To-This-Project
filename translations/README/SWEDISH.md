@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English README](../../README.md) for the current step-by-step tutorial.
+
+---
+
 # [Bidra till detta projekt](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![bild info](/favicon.png)
