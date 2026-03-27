@@ -184,7 +184,7 @@ function countUpTo(targetNumber) {
 // Sets data-theme on <body>. All styling is handled entirely by CSS — no per-card
 // class changes needed. Switching a theme is a single attribute write.
 
-const THEMES = ['candid-orange', 'mauritius', 'classic']
+const THEMES = ['candid-orange', 'mauritius', 'classic', 'retro']
 const DEFAULT_THEME = 'candid-orange'
 
 function applyTheme(themeName) {

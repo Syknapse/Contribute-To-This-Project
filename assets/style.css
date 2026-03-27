@@ -371,6 +371,11 @@ footer {
   border-color: #aaa;
 }
 
+.theme-swatch[data-theme='retro'] {
+  background: linear-gradient(135deg, #3a6ea5, #d9d9d9);
+  border-color: #3a6ea5;
+}
+
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;

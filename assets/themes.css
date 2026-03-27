@@ -93,6 +93,34 @@
   color: #333;
 }
 
+/* ── Retro ───────────────────────────────────────────────────────────────── */
+/* Windows XP-inspired palette. Contributed by Riddhima Biswas (@RiddhimaBiswas) */
+/* in PR #4390 — extracted and adapted to the CSS variable theme system.          */
+
+[data-theme='retro'] {
+  --color-primary: #3a6ea5;
+  --color-accent: #ffee58;
+  --color-bg: #bcd4f6;
+  --color-card-bg: #e6e6e6;
+  --color-surface: #3a6ea5;
+  --color-surface-alt: #f2f2f2;
+  --color-text: #000;
+  --color-heading: #1a4e8a;
+  --color-icon: #3a6ea5;
+  --color-link-hover: #1a4e8a;
+  --card-border: 2px solid #3a6ea5;
+  --card-radius: 10px;
+  --color-input-bg: #fff;
+  --color-input-text: #000;
+  --box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Retro: name section has blue bg so text must be white */
+[data-theme='retro'] .name,
+[data-theme='retro'] .contact {
+  color: #fff;
+}
+
 /* ── Template ────────────────────────────────────────────────────────────── */
 /*
 [data-theme="your-theme-name"] {
