@@ -256,7 +256,8 @@ function clearSearchHighlights() {
 
 function highlightMatchesInCard(searchValue, cardElement) {
   // Only highlight leaf nodes (elements with no children) that contain the search term
-  const regex = new RegExp(searchValue, 'gi')
+  const escaped = searchValue.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const regex = new RegExp(escaped, 'gi')
   const leafNodes = Array.from(cardElement.querySelectorAll('*')).filter(
     element => element.children.length === 0 && element.textContent.toLowerCase().includes(searchValue)
   )
