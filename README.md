@@ -188,12 +188,6 @@ _Estimated time: Less than 30 minutes_.
 - In the `cards/` folder you will find a file called `template.html`. That is your starting point.
 - Make a copy of `template.html` and rename the copy to `your-github-username.html`. For example, if your GitHub username is `octocat`, your file should be named `octocat.html`.
 
-If you are using the terminal:
-
-```bash
-cp cards/template.html cards/your-github-username.html
-```
-
 - Now open `cards/your-github-username.html` in your code editor. This is the only file you will be editing.
 
 [↑ Go to top ↑](#quick-access-index)
