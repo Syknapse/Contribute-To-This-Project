@@ -920,5 +920,33 @@
         "text": "CSS-Tricks"
       }
     ]
+  },
+  {
+    "name": "Akhilesh Kulal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Akhileshkulal",
+        "handle": "Akhileshkulal"
+      }
+    ],
+    "about": "Engineering student at Sahyadri Engineering College. Interested in AI,machine learning, web development and open source.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "MDN Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      }
+    ]
   }
 ]
