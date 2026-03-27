@@ -65,6 +65,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           CHANGED=$(gh pr view ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
             --json files --jq '[.files[].path] | join(" ")')
           if [ -z "$CHANGED" ]; then
             echo "No changed files found."
@@ -107,5 +108,5 @@ jobs:
               "" \
               "Alternatively, install the [Prettier VS Code extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and enable **Format on Save** — it will handle this automatically." \
               > /tmp/format-comment.md
-            gh pr comment ${{ github.event.pull_request.number }} --body-file /tmp/format-comment.md
+            gh pr comment ${{ github.event.pull_request.number }} --repo ${{ github.repository }} --body-file /tmp/format-comment.md
           fi
