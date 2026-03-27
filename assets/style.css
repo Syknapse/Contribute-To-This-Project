@@ -86,9 +86,25 @@ p {
   outline: none;
 }
 
-.twitter-button {
+.share-button-container {
   text-align: right;
   margin-bottom: 24px;
+}
+
+#shareButton {
+  padding: 10px 18px;
+  color: var(--white);
+  border-radius: 5px;
+  background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  transition: all 0.4s ease-in-out;
+}
+
+#shareButton:hover {
+  box-shadow: 4px 5px 27px 4px rgba(195, 164, 48, 1);
 }
 
 #contributions-number {

@@ -284,6 +284,34 @@ function searchCard() {
   }, 500)
 }
 
+// ── share button ───────────────────────────────────────────────────────────────
+// Uses the Web Share API on supported browsers (mobile + modern desktop).
+// Falls back to copying the URL to clipboard on unsupported browsers (Firefox).
+
+const shareButton = document.getElementById('shareButton')
+
+shareButton.addEventListener('click', async () => {
+  const shareData = {
+    title: 'Contribute To This Project',
+    text: 'Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial.',
+    url: 'https://syknapse.github.io/Contribute-To-This-Project/',
+  }
+
+  if (navigator.share) {
+    try {
+      await navigator.share(shareData)
+    } catch {
+      // User cancelled the share dialog — do nothing
+    }
+  } else {
+    // Fallback: copy URL to clipboard
+    await navigator.clipboard.writeText(shareData.url)
+    const original = shareButton.innerHTML
+    shareButton.innerHTML = '<i class="fas fa-check"></i> Copied!'
+    setTimeout(() => (shareButton.innerHTML = original), 2000)
+  }
+})
+
 // ── scroll to top ──────────────────────────────────────────────────────────────
 // Shows a "back to top" button once the user has scrolled 500px down.
 // Scroll events are debounced to avoid running on every pixel of scroll.

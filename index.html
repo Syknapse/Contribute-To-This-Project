@@ -12,6 +12,10 @@
     <link rel="icon" type="image/png" href="favicon.png" />
     <title>Contribute To This Project</title>
     <script type="module" src="assets/main.js" defer=""></script>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com; font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com; img-src * data:; object-src 'none'; base-uri 'self';"
+    />
   </head>
   <body>
     <div class="container">
@@ -50,21 +54,11 @@
         </div>
         <div class="column">
           <div class="column-right">
-            <div class="twitter-button">
-              <a
-                href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-                class="twitter-share-button"
-                data-size="large"
-                data-text="Contribute To This Project. An easy Git and GitHub project for first-time contributors, with a full tutorial."
-                data-url="https://github.com/Syknapse/Contribute-To-This-Project"
-                data-via="Syknapse"
-                data-hashtags="100DaysOfCode"
-                data-show-count="false"
-                title="Tweet this project"
-              >
-                Tweet
-              </a>
-              <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div class="share-button-container">
+              <button id="shareButton" type="button" aria-label="Share this project">
+                <i class="fas fa-share-nodes"></i>
+                Share
+              </button>
             </div>
             <p>Contributions so far...</p>
             <div class="animated" id="contributions-number">0</div>
