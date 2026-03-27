@@ -70,11 +70,6 @@ function renderCards(cardDataArray, sourceFile) {
 
   const grid = document.getElementById('contributions')
   grid.innerHTML += cardsHtml
-
-  // If night mode is active, apply the night class to any cards just added
-  if (localStorage.getItem('theme') === 'night') {
-    grid.querySelectorAll('.card:not(.night)').forEach(card => card.classList.add('night'))
-  }
 }
 
 // ── lazy loading ───────────────────────────────────────────────────────────────
@@ -185,57 +180,27 @@ function countUpTo(targetNumber) {
   tick()
 }
 
-// ── night mode ─────────────────────────────────────────────────────────────────
-// Toggles night mode on the body and all card elements. Cards are updated in
-// batches of 50 every 500ms to avoid layout jank when thousands are in the DOM.
+// ── theme switcher ─────────────────────────────────────────────────────────────
+// Sets data-theme on <body>. All styling is handled entirely by CSS — no per-card
+// class changes needed. Switching a theme is a single attribute write.
 
-let nightModeIntervalId = null
-const themeToggle = document.getElementById('toggle-box-checkbox')
+const THEMES = ['candid-orange', 'mauritius', 'classic']
+const DEFAULT_THEME = 'candid-orange'
 
-// Apply saved theme on page load
-const savedTheme = localStorage.getItem('theme')
-if (savedTheme === 'night') {
-  document.body.classList.add('night')
-  themeToggle.checked = true
+function applyTheme(themeName) {
+  const theme = THEMES.includes(themeName) ? themeName : DEFAULT_THEME
+  document.body.dataset.theme = theme
+  localStorage.setItem('theme', theme)
+  document.querySelectorAll('.theme-swatch').forEach(swatch => {
+    swatch.classList.toggle('active', swatch.dataset.theme === theme)
+  })
 }
 
-themeToggle.addEventListener('change', event => {
-  if (nightModeIntervalId) clearInterval(nightModeIntervalId)
+// Apply saved theme on load; fall back to default if unknown or first visit
+applyTheme(localStorage.getItem('theme'))
 
-  const cards = document.getElementsByClassName('card')
-  const totalCards = cards.length
-  let currentCardIndex = 0
-  const { checked: isNightMode } = event.target
-
-  // Apply to the body immediately, then batch-update the cards
-  if (isNightMode) {
-    document.body.classList.add('night')
-    localStorage.setItem('theme', 'night')
-  } else {
-    document.body.classList.remove('night')
-    localStorage.setItem('theme', 'light')
-  }
-
-  const CARDS_PER_BATCH = 50
-  const BATCH_INTERVAL_MS = 500
-
-  function updateNextCardBatch() {
-    for (let offset = 0; offset < CARDS_PER_BATCH; offset++) {
-      if (currentCardIndex + offset >= totalCards) {
-        clearInterval(nightModeIntervalId)
-        return
-      }
-      if (isNightMode) {
-        cards[currentCardIndex + offset].classList.add('night')
-      } else {
-        cards[currentCardIndex + offset].classList.remove('night')
-      }
-    }
-    currentCardIndex += CARDS_PER_BATCH
-  }
-
-  updateNextCardBatch()
-  nightModeIntervalId = setInterval(updateNextCardBatch, BATCH_INTERVAL_MS)
+document.querySelectorAll('.theme-swatch').forEach(swatch => {
+  swatch.addEventListener('click', () => applyTheme(swatch.dataset.theme))
 })
 
 // ── footer year ────────────────────────────────────────────────────────────────

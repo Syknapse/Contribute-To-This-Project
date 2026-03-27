@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/themes.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
@@ -17,21 +18,34 @@
       content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com; font-src 'self' https://fonts.gstatic.com https://use.fontawesome.com; img-src * data:; object-src 'none'; base-uri 'self';"
     />
   </head>
-  <body>
+  <body data-theme="candid-orange">
     <div class="container">
-      <div class="row">
-        <div class="column">
-          <!-- Night Mode Creation -->
-          <div class="nightmode">
-            <div class="toggle-box">
-              <input type="checkbox" name="checkbox1" id="toggle-box-checkbox" />
-              <label for="toggle-box-checkbox" class="toggle-box-label-left"></label>
-              <label for="toggle-box-checkbox" class="toggle-box-label"></label>
-            </div>
-          </div>
-          <!-- / Night Mode Creation -->
-        </div>
+      <!-- Theme switcher -->
+      <div class="theme-switcher">
+        <button
+          type="button"
+          class="theme-swatch"
+          data-theme="candid-orange"
+          title="Candid Orange"
+          aria-label="Candid Orange theme"
+        ></button>
+        <button
+          type="button"
+          class="theme-swatch"
+          data-theme="mauritius"
+          title="Mauritius"
+          aria-label="Mauritius theme"
+        ></button>
+        <button
+          type="button"
+          class="theme-swatch"
+          data-theme="classic"
+          title="Classic"
+          aria-label="Classic theme"
+        ></button>
       </div>
+      <!-- / Theme switcher -->
+
       <div class="row">
         <div class="column-double">
           <div class="column-left">
