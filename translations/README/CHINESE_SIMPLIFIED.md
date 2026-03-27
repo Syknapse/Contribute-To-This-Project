@@ -8,8 +8,6 @@
 
 > Logo 由 [CandidDeer](https://github.com/CandidDeer) 用 :sparkling_heart: 制作
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF '加入我们的 Discord 服务器！')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -338,7 +336,7 @@ cp cards/template.html cards/your-github-username.html
 - 过一会儿回来检查你已合并的 Pull Request。
 - 当你的卡片被合并时，你应该会收到 GitHub 的邮件。你也可以随时回到你的 PR 页面查看其状态。
 - 你也可以从这个_免费_系列中学习如何贡献：[如何在 GitHub 上为开源项目做贡献](https://kcd.im/pull-request)
-- 如果你发现这个项目**有用**，请在页面顶部给它一个 :star: 星标 :star: 并**发推**分享以帮助传播 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- 如果你发现这个项目**有用**，请在页面顶部给它一个 :star: 星标 :star: 并分享以帮助传播
 - 你可以加入我们的 [Discord 服务器](https://discord.gg/tWkvS4ueVF)
 - 你可以**关注我**并通过 [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') 或[使用这些其他方式](https://syknapse.github.io/Syk-Houdeib/#contact '我的联系部分 | 作品集')与我联系
 - 这是一个开源项目，所以除了贡献你的卡片，你也欢迎帮助修复 bug、改进或新功能。开启一个 [issue](https://help.github.com/articles/creating-an-issue/ 'Mastering Issues | GitHub Guides') 或发送一个新的 [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creating a pull request from a fork | GitHub Help')
@@ -365,5 +363,3 @@ cp cards/template.html cards/your-github-username.html
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 [返回顶部 &uparrow;](#简介)
-
-[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode '分享这个项目'
