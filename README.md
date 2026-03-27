@@ -4,8 +4,6 @@
 
 > Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
@@ -332,7 +330,7 @@ Your card will be automatically reviewed and merged if everything is correct. If
 - Come back in a while to check for your merged Pull Request.
 - You should receive an email from GitHub when your card has been merged. And you can always check back on your PR page to see its status.
 - You can also learn how to contribute from this _free_ series: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-- If you found this project **useful** please give it a :star: star :star: at the top of the page and **Tweet** about it to help spread the word [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- If you found this project **useful** please give it a :star: star :star: at the top of the page and share it to help spread the word
 - You can join our [Discord server](https://discord.gg/tWkvS4ueVF)
 - You can **follow me** and get in touch on [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') or [using any of these other options](https://syknapse.github.io/Syk-Houdeib/#contact 'My contact section | Portfolio')
 - This is an open source project so apart from contributing your card you are welcome to help fix bugs, make improvements, or add new features. Read the [Contributing Guide](CONTRIBUTING.md) to see what's welcome and how to get started
@@ -359,5 +357,3 @@ This project is licensed under the [MIT License](./LICENSE).
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 [Back to the top &uparrow;](#introduction)
-
-[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
