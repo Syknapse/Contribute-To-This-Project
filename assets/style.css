@@ -77,6 +77,18 @@ p {
   line-height: 1.7;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .searchContainer {
   background: none;
   text-decoration: inherit;
@@ -93,7 +105,7 @@ p {
 
 #searchbar {
   font-size: 1.1em;
-  width: 500px;
+  width: min(500px, 90vw);
   height: 50px;
   text-align: center;
   font-weight: 400;
@@ -247,7 +259,7 @@ footer {
   flex-direction: column;
   margin: 20px;
   border-radius: var(--card-radius);
-  width: 400px;
+  width: min(400px, 90vw);
   border: var(--card-border);
   background-color: var(--color-card-bg);
   box-shadow: var(--box-shadow);
