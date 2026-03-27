@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English README](../../README.md) for the current step-by-step tutorial.
+
+---
+
 > **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
 
 ---
@@ -83,11 +87,11 @@ Vous allez faire une copie du modèle de carte dans le fichier HTML et le person
 
 Ce tutoriel est également disponible dans d'[autres langues](/translations/README.md)
 
-|     [Arabe (عربي)](/translations/README/ARABIC.md)     |  [Bengali (বাংলা)](/translations/README/BANGLA.md)  | [Chinois (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [Anglais (English)](/README.md)             |  [Français (Français)](/translations/README/FRENCH.md)  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  [Allemand (Deutsch)](/translations/README/GERMAN.md)  |      [Hindu (हिंदी)](/translations/README/HINDI.md)      | [Italien (Italiano)](/translations/README/ITALIAN.md) | [Japonais (日本語)](/translations/README/JAPANESE.md) |  [Coréen (한국어)](/translations/README/KOREAN.md)  |
-  [Polonais (Polski)](/translations/README/POLISH.md)  | [Portuguais (Portuguese)](/translations/README/PORTUGUESE.md) | [Russe (Русский)](/translations/README/RUSSIAN.md) |  [Serbe (Српски)](/translations/README/SERBIAN.md)  | [Espagnol (Español)](/translations/README/SPANISH.md) |
-   [Turc (Türkçe)](/translations/README/TURKISH.md) | [Ukrainien (українська)](/translations/README/UKRAINIAN.md) | [Norvégien (Norsk)](/translations/README/NORWEGIAN.md)
+|    [Arabe (عربي)](/translations/README/ARABIC.md)    |       [Bengali (বাংলা)](/translations/README/BANGLA.md)       | [Chinois (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |            [Anglais (English)](/README.md)            | [Français (Français)](/translations/README/FRENCH.md) |
+| :--------------------------------------------------: | :-----------------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
+| [Allemand (Deutsch)](/translations/README/GERMAN.md) |        [Hindu (हिंदी)](/translations/README/HINDI.md)         |              [Italien (Italiano)](/translations/README/ITALIAN.md)              | [Japonais (日本語)](/translations/README/JAPANESE.md) |   [Coréen (한국어)](/translations/README/KOREAN.md)   |
+| [Polonais (Polski)](/translations/README/POLISH.md)  | [Portuguais (Portuguese)](/translations/README/PORTUGUESE.md) |               [Russe (Русский)](/translations/README/RUSSIAN.md)                |   [Serbe (Српски)](/translations/README/SERBIAN.md)   | [Espagnol (Español)](/translations/README/SPANISH.md) |
+|   [Turc (Türkçe)](/translations/README/TURKISH.md)   |  [Ukrainien (українська)](/translations/README/UKRAINIAN.md)  |             [Norvégien (Norsk)](/translations/README/NORWEGIAN.md)              |
 
 > Les traductions de documentations sont les bienvenues. Lisez le [`Guide du Traducteur`](/translations/README.md) pour contribuer.
 
@@ -125,8 +129,8 @@ _Temps estimé: moins de 30 minutes_.
 - Assurez-vous que vous êtes sur la [page principale](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de ce repo.
 
 | ![Fork](/readme-only/fork.png "cliquez sur 'Fork'") |
-| :---------------------------------------------: |
-|        **Cliquez sur le bouton _Fork_**         |
+| :-------------------------------------------------: |
+|          **Cliquez sur le bouton _Fork_**           |
 
 - Vous avez maintenant une copie complète du projet sur votre propre compte
 
@@ -140,18 +144,18 @@ _Temps estimé: moins de 30 minutes_.
 - Ouvrez l'application de bureau GitHub. Dans l'appli:
 
 | ![Clone](/readme-only/clone.PNG 'click clone repository') |
-| :------------------------------------------------------: |
-|    **Cliquez sur _File_ puis sur _Clone repository_**    |
+| :-------------------------------------------------------: |
+|    **Cliquez sur _File_ puis sur _Clone repository_**     |
 
 - Vous verrez une liste de vos projets et forks sur GitHub.
 - Sélectionnez `<votre-nom-github>/Contribute-To-This-Project`.
 - Cliquez sur _Clone_
 
 | ![Clone project](/readme-only/clone-project.PNG 'click on =your-github-username=/Contribute-To-This-Project') |
-|:----------------------------------------------------------------------------------------------------------: |
+| :-----------------------------------------------------------------------------------------------------------: |
 
-| :arrow_right_hook: Un projet forké aura le symbole fork sur la gauche. Votre fork aura votre propre nom d'utilisateur GitHub. | ![votre fork](/readme-only/clone-your-fork.PNG 'votre fork ressemblera à ça, avec votre propre nom d\'utilisateur') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: Un projet forké aura le symbole fork sur la gauche. Votre fork aura votre propre nom d'utilisateur GitHub. | ![votre fork](/readme-only/clone-your-fork.PNG "votre fork ressemblera à ça, avec votre propre nom d'utilisateur") |
+| :---------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------: |
 
 - La copie du projet sur votre disque dur prendra un moment. Il est conseillé de garder le chemin par défaut, qui est généralement `..\Documents\GitHub`.
 - Vous avez maintenant une copie locale du projet.
@@ -165,10 +169,10 @@ _Temps estimé: moins de 30 minutes_.
 - Une fois que le repo a été cloné et que vous l’avez ouvert dans GitHub Desktop, il est temps de créer une nouvelle branche.
 - Une branche est un moyen de séparer vos modifications de la partie principale du projet, appelée `master`. Par exemple, si les choses tournent mal et que vous n’êtes pas satisfait de vos modifications, vous pouvez simplement supprimer la branche et le projet principal ne sera pas affecté.
 
-| :arrow_right_hook: Cliquez sur _`Current branch`_, puis sur _`New`_ | ![Créer une branche](/readme-only/branch-new.PNG "Cliquez sur 'Branch', puis sur 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Donnez un nom à votre branche, puis cliquez sur `Create branch`** |                           ![Nommer la branche](/readme-only/branch-name.PNG 'Nommez votre branche')                            |
-| :arrow_right_hook: **Publiez votre nouvelle branche sur GitHub**                      | ![Publier la branche](/readme-only/branch-publish.PNG 'Cliquez sur Publier pour envoyer la nouvelle branche à votre référentiel distant sur GitHub') |
+| :arrow*right_hook: Cliquez sur *`Current branch`_, puis sur _`New`\_                   |                               ![Créer une branche](/readme-only/branch-new.PNG "Cliquez sur 'Branch', puis sur 'New'")                               |
+| :------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Donnez un nom à votre branche, puis cliquez sur `Create branch`** |                                      ![Nommer la branche](/readme-only/branch-name.PNG 'Nommez votre branche')                                       |
+| :arrow_right_hook: **Publiez votre nouvelle branche sur GitHub**                       | ![Publier la branche](/readme-only/branch-publish.PNG 'Cliquez sur Publier pour envoyer la nouvelle branche à votre référentiel distant sur GitHub') |
 
 - Vous pouvez la nommer comme vous voulez, mais puisqu'il s’agit d’une branche pour ajouter une carte avec votre nom au projet, l'appeler `your-name-card` est une bonne pratique, parce que cela rend l’intention de la branche claire.
 - Vous avez créé une nouvelle branche, séparée de la branche master.
@@ -187,8 +191,8 @@ _Temps estimé: moins de 30 minutes_.
 - Le fichier `index.html` est à la racine du dossier `Contribute-To-This-Project`.
 - Ouvrez votre éditeur de code (Sublime, VS Code, Atom..etc), utilisez la commande `Open file` et trouvez le fichier index.html dans le répertoire principal du projet
 
-|                  ![Ouvrir le fichier index.html](/readme-only/index-open.PNG 'Ouvrir l’index.html dans votre éditeur de texte')                   |
-| :---------------------------------------------------------------------------------------------------------------------: |
+|                           ![Ouvrir le fichier index.html](/readme-only/index-open.PNG 'Ouvrir l’index.html dans votre éditeur de texte')                           |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Vous pouvez également localiser le fichier sur votre disque dur, cliquer avec le bouton droit de la souris, et l’ouvrir avec votre éditeur.** |
 
 - Vous avez maintenant le fichier ouvert dans votre éditeur et vous êtes prêt à y apporter des modifications.
@@ -205,20 +209,20 @@ _Temps estimé: moins de 30 minutes_.
 - Vous devriez maintenant voir la section qui contient les cartes de contribution : `<div class="grid" id="contributions">`
 
 | ![Trouver le modèle de carte](/readme-only/find-card-template.png 'Trouver le modèle de carte') |
-| :-----------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------------------------: |
 
 - Dans cette section, vous trouverez la section intitulée `== TEMPLATE ==`
 - Copiez tout ce qui se trouve dans le carré rouge de l’image, du commentaire `Contributor card START` jusqu'au commentaire `Contributor card END`
 
 | ![Copier le modèle de carte](/readme-only/card-copy.PNG 'Copier le modèle de carte') |
-| :-----------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - Collez le tout directement sous le commentaire qui l’indique; juste au-dessus de la contribution la plus récente.
 - Assurez-vous qu’il y a une ligne de marge entre la fin de votre carte et le début de la dernière. Ajoutez également une ligne de marge au début de votre carte, en-dessous du commentaire `=== Paste YOUR CARD directly BELOW this line ===`. C’est une bonne pratique qui permet de garder notre code aussi clair que possible
 - N’utilisez pas de linters ou de formateurs de style. Le projet à une configuration Prettier
 
 | ![Coller le modèle de carte](/readme-only/card-paste.PNG 'Coller sous la ligne indiquée') |
-| :---------------------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------------------: |
 
 - **Vous** avez maintenant une carte à personnaliser et à modifier.
 
@@ -231,19 +235,19 @@ _Temps estimé: moins de 30 minutes_.
 - Nous allons maintenant commencer à éditer le html, en changeant les champs personnalisables de notre carte.
 
 | :arrow_right_hook: Remplacez 'Your name' par votre nom | ![Changez le nom](/readme-only/change-name.PNG 'Tapez votre nom') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :----------------------------------------------------- | :---------------------------------------------------------------: |
 
 - **Note: Ne changez pas `class="name"`**
 
 | :arrow_right_hook: Copiez l'URL de votre compte Twitter dans `href="URL ici"`, et votre identifiant à la place de 'Your handle' | ![Changez le contact](/readme-only/change-contact.PNG 'Insérez un lien vers votre compte Twitter et entrez votre identifiant') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------: |
 
 - Si vous préférez utiliser un contact autre que Twitter, vous allez devoir remplacer l'icône Twitter `<i class="fa fa-x-twitter"></i>` en allant sur [Font Awesome Icons](http://fontawesome.io/icons/) et en trouvant un icône plus approprié. Il faudra remplacer l'identificateur `fa-x-twitter` par un autre icône, `fa-facebook` par example, et répéter les étapes précédentes pour l'URL et l'identifiant.
 
-|                                                                                                                                         ![Changer la section About](/readme-only/change-about.PNG 'Ecrire un à-propos')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **Parlez-nous de vous. Soyez bref et concis. Voyez ça comme un tweet plutôt qu'un article de blog.**                                                                                                                |
-|                                                                                                              ![Changer la section Resources](/readme-only/change-resources.PNG 'Insérer un lien, rédiger une brève description et saisir le nom de la ressource')                                                                                                              |
+|                                                                                                                                                                             ![Changer la section About](/readme-only/change-about.PNG 'Ecrire un à-propos')                                                                                                                                                                              |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                         :arrow_right_hook: **Parlez-nous de vous. Soyez bref et concis. Voyez ça comme un tweet plutôt qu'un article de blog.**                                                                                                                                                          |
+|                                                                                                                                           ![Changer la section Resources](/readme-only/change-resources.PNG 'Insérer un lien, rédiger une brève description et saisir le nom de la ressource')                                                                                                                                           |
 | :arrow_right_hook: **Partagez avec la communauté 3 liens vers des ressources que vous trouvez utiles au développement web. Cela peut être n'importe quoi: une vidéo, une conférence, un podcast, un article, une référence ou un outil. Si vous êtes débutant, ne vous laissez pas intimider, partagez ce que vous connaissez, même si vous trouvez ça basique. Vous serez surpris par le nombre de personnes qui trouveront ça utile.** |
 
 - **Lien:** insérez le lien dans `href="ici"`, en remplaçant le `#`. Évitez les URL raccourcis, ou les liens qui pointent vers d'autres sites que celui que vous voulez montrer.
@@ -264,13 +268,13 @@ _Temps estimé: moins de 30 minutes_.
 - Cela signifie que Git a noté toutes les modifications **enregistrées**.
 - Cela devrait être reflété dans l'application. Les additions au fichier seront en vert, et les suppressions s'afficheront en rouge.
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "Les modifications que vous avez ajoutées doivent apparaître en vert sur le côté droit de l'application de bureau GitHub. Le bouton de validation est en bas à gauche")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: L'étape suivante s'appelle _`Commit`_. Cela signifie, grossièrement, `confirmer les modifications` |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "Les modifications que vous avez ajoutées doivent apparaître en vert sur le côté droit de l'application de bureau GitHub. Le bouton de validation est en bas à gauche")                                                                                               |
-|                                                                            :arrow_right_hook: **Voici à quoi devrait ressembler votre entête de bureau GitHub. Notez le symbole de la fourche à côté du nom du projet dans `Current repository` ; votre `Current branch` aura le nom que vous lui avez donné à l'étape 3**                                                                            |
-|                                                                                                                  ![Écrire un message et faire le commit](/readme-only/commit-message.PNG "Écrivez un bref message de commit dans la section «summary» et cliquez sur «commit»")                                                                                                                  |
-| :arrow_right_hook: **Pour _`Commit`_, vous devez remplir le champ _`Summary`_. C'est le message de validation expliquant ce que vous avez changé. Ici, `"Ajout des informations de ma carte"` serait un message raisonnable. Vous pouvez éventuellement ajouter une _`Description`_ plus détaillée. Cliquez sur le bouton _`Commit`_. Le bouton devrait dire `Commit to "your-branch-name"`** |
+|                                                                                         ![Commit changes](/readme-only/commit.PNG "Les modifications que vous avez ajoutées doivent apparaître en vert sur le côté droit de l'application de bureau GitHub. Le bouton de validation est en bas à gauche")                                                                                          |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                       :arrow*right_hook: L'étape suivante s'appelle *`Commit`\_. Cela signifie, grossièrement, `confirmer les modifications`                                                                                                                                       |
+|                                                                                      ![Commit changes](/readme-only/commit-header.PNG "Les modifications que vous avez ajoutées doivent apparaître en vert sur le côté droit de l'application de bureau GitHub. Le bouton de validation est en bas à gauche")                                                                                      |
+|                                                                          :arrow_right_hook: **Voici à quoi devrait ressembler votre entête de bureau GitHub. Notez le symbole de la fourche à côté du nom du projet dans `Current repository` ; votre `Current branch` aura le nom que vous lui avez donné à l'étape 3**                                                                           |
+|                                                                                                                   ![Écrire un message et faire le commit](/readme-only/commit-message.PNG 'Écrivez un bref message de commit dans la section «summary» et cliquez sur «commit»')                                                                                                                   |
+| :arrow*right_hook: \*\*Pour *`Commit`_, vous devez remplir le champ _`Summary`_. C'est le message de validation expliquant ce que vous avez changé. Ici, `"Ajout des informations de ma carte"` serait un message raisonnable. Vous pouvez éventuellement ajouter une _`Description`_ plus détaillée. Cliquez sur le bouton _`Commit`\_. Le bouton devrait dire `Commit to "your-branch-name"`\*\* |
 
 [↑ Retour à l'index ↑](#index)
 
@@ -281,8 +285,8 @@ _Temps estimé: moins de 30 minutes_.
 - Vos modifications sont maintenant enregistrées et committées. Mais les changements ne sont qu'en local, c'est-à-dire sur votre ordinateur.
 - La synchronisation des modifications locales avec votre repo Github s'appelle un _Push_. Vous «poussez» les modifications de votre dépôt local vers le dépôt distant sur Github.
 
-| :arrow_right_hook: Cliquez sur le bouton _`Push`_ | ![Pousser vers GitHub](/readme-only/push.PNG "Envoyez vos modifications sur GitHub, cliquez sur le bouton 'Push'") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: Cliquez sur le bouton *`Push`\_ | ![Pousser vers GitHub](/readme-only/push.PNG "Envoyez vos modifications sur GitHub, cliquez sur le bouton 'Push'") |
+| :------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------: |
 
 - Après quelques secondes, l'opération est terminée et vous avez la même version de cette branche sur GitHub que sur votre ordinateur.
 
@@ -295,22 +299,22 @@ _Temps estimé: moins de 30 minutes_.
 - C'est le moment que vous attendiez; soumettre une _Pull Request_ (PR).
 - Jusqu'à présent, tout le travail que vous avez effectué a été sur votre fork du projet, qui, comme vous vous en souvenez, réside sur votre propre compte de GitHub.
 - Il est maintenant temps d'envoyer vos modifications au projet principal pour les fusionner.
-- C'est ce qu'on appelle une [_Pull Request_](https://help.github.com/articles/about-pull-requests/ "About Pull Requests - Github Help"), parce que vous demandez au responsable du projet d'origine de "tirer" (_pull_) vos modifications dans son projet.
+- C'est ce qu'on appelle une [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'About Pull Requests - Github Help'), parce que vous demandez au responsable du projet d'origine de "tirer" (_pull_) vos modifications dans son projet.
 - Allez à la page principale de **votre fork** sur GitHub (elle aura l'icône de fork et votre nom d'utilisateur en haut).
 - Vers le haut du repo, vous verrez un message de pull request en surbrillance, avec un bouton vert.
 
-|  ![Soumettre une Pull Request](/readme-only/pull-request.PNG 'C\'est généralement vers le haut de la page, sous la description mais au-dessus des fichiers et dossiers du projet')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Cliquez sur `Compare and pull request`**                                                     |
-| ![Ouvrir une Pull Request](/readme-only/pull-request-branches.PNG 'Vous demandez de fusionner votre branche de votre fork dans la branche master du projet d\'origine') |
-|                                              :arrow_right_hook: Voilà à quoi la page `Open a pull request` ressemble.                                               |
+| ![Soumettre une Pull Request](/readme-only/pull-request.PNG "C'est généralement vers le haut de la page, sous la description mais au-dessus des fichiers et dossiers du projet") |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                          :arrow_right_hook: **Cliquez sur `Compare and pull request`**                                                           |
+|      ![Ouvrir une Pull Request](/readme-only/pull-request-branches.PNG "Vous demandez de fusionner votre branche de votre fork dans la branche master du projet d'origine")      |
+|                                                     :arrow_right_hook: Voilà à quoi la page `Open a pull request` ressemble.                                                     |
 
 - RAPPELEZ-VOUS: _vous essayez de fusionner votre branche avec le projet d'origine, et non avec la branche `Master` de votre fork_.
 - L'image ci-dessus vous donne une idée de ce à quoi devrait ressembler l'entête de votre pull request.
 - Sur la gauche se trouve le projet d'origine, suivi de la branche principale. Sur la droite se trouve votre fork et la branche que vous avez créée.
 
-|                   ![Soumettre une Pull Request](/readme-only/pull-request-open.PNG "Cliquez sur le bouton vert. N'ayez pas peur!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                         ![Soumettre une Pull Request](/readme-only/pull-request-open.PNG "Cliquez sur le bouton vert. N'ayez pas peur!")                         |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Créez une pull request: écrivez un titre, ajoutez les informations facultatives dans la description, et cliquez sur `Create pull request`** |
 
 - Ne soyez pas déconcerté par toutes les options. Il vous suffit de suivre ces trois étapes pour le moment.

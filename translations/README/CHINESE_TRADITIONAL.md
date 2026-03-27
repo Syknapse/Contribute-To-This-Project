@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English README](../../README.md) for the current step-by-step tutorial.
+
+---
+
 > **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
 
 ---
@@ -87,10 +91,10 @@
 這份教學也有[其他語言](/translations/README.md)的翻譯
 
 |     [Arabic](/translations/README/ARABIC.md)     |  [Bangla](/translations/README/BANGLA.md)  |            [English](/README.md)             |  [French](/translations/README/FRENCH.md)  |  [German](/translations/README/German.md)  |
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
+| :----------------------------------------------: | :----------------------------------------: | :------------------------------------------: | :----------------------------------------: | :----------------------------------------: |
 |      [Hindi](/translations/README/HINDI.md)      | [Italian](/translations/README/ITALIAN.md) | [Japanese](/translations/README/JAPANESE.md) |  [Korean](/translations/README/KOREAN.md)  |  [Polish](/translations/README/POLISH.md)  |
 | [Portuguese](/translations/README/PORTUGUESE.md) | [Russian](/translations/README/RUSSIAN.md) |  [Serbian](/translations/README/SERBIAN.md)  | [Spanish](/translations/README/SPANISH.md) | [Turkish](/translations/README/TURKISH.md) |
-| [Ukrainian](/translations/README/UKRAINIAN.md) |
+|  [Ukrainian](/translations/README/UKRAINIAN.md)  |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
 
@@ -127,8 +131,8 @@ _估計時間：少於30分鐘_.
 - 請確認你在這個儲存庫的[主頁](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project')。
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
-| :---------------------------------------------: |
-|         **點擊 _Fork_ 按鈕**          |
+| :----------------------------------------------: |
+|               **點擊 _Fork_ 按鈕**               |
 
 - 現在你在自己的帳號有一份這個專案的完整複製品了。
 
@@ -143,17 +147,17 @@ _估計時間：少於30分鐘_.
 
 | ![Clone](/readme-only/clone.PNG '點擊 clone repository') |
 | :------------------------------------------------------: |
-|       **點擊 _File_ 然後 _Clone repository_**        |
+|         **點擊 _File_ 然後 _Clone repository_**          |
 
 - 你會看到你的專案清單以及在 Github 上的分叉 (fork)。
 - 選擇 `<你的 github 帳號名稱>/Contribute-To-This-Project`.
 - 點擊 _Clone_
 
 | ![複製專案](/readme-only/clone-project.PNG '點擊 =你的 github 帳號名稱=/Contribute-To-This-Project') |
-| :----------------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: 一個分叉的專案在左邊會有一個叉子符號。你的分叉將會有你的 Github 名稱 | ![你的分叉](/readme-only/clone-your-fork.PNG '你的分叉看起來會像這樣，有你的使用者名稱。') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------: |
 
 - 把專案複製到你的硬碟會花一點時間。我建議你保持預設的路徑，通常是 `..\Documents\GitHub`。
 - 現在你有一份本專案的本地複製了。
@@ -167,10 +171,10 @@ _估計時間：少於30分鐘_.
 - 當儲存庫複製好了，而且在 GitHub desktop 開著時，是時候建立新的分支了。
 - 一個分支是一種讓你的變更和專案的主要部分（稱作 `Master`）分開的方法。舉例來說，如果事情出錯了，而且你對於你的變更不滿意，你可以簡單的刪掉那個分支而主專案則不會被影響。
 
-| :arrow_right_hook: 點擊 _`Current branch`_，然後點 _`New`_ | ![Create branch](/readme-only/branch-new.PNG "點 'Branch'，然後是 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: 點擊 *`Current branch`_，然後點 _`New`\_   |                      ![Create branch](/readme-only/branch-new.PNG "點 'Branch'，然後是 'New'")                       |
+| :------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **給你的分支取名，然後點 `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Name your branch')                            |
-| :arrow_right_hook: **把你的新分支發佈到 GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
+| :arrow_right_hook: **把你的新分支發佈到 GitHub**              | ![Name branch](/readme-only/branch-publish.PNG 'Click publish to send the new branch to your remote repo on GitHub') |
 
 - 你可以叫它任何東西，不過既然這是一個新增你的名字卡片到專案的分支，叫它`你的名字-card` 是一個最佳實踐，因為它能讓這個分支的目的很清楚。
 - 現在你已經建立了一個新的、和 master 分開的分支。
@@ -189,8 +193,8 @@ _估計時間：少於30分鐘_.
 - `index.html` 檔案就在 `Contribute-To-This-Project` 資料夾中。
 - 打開你的程式編輯器（Sublime、VS Code、Atom.. 等等）並且使用 `Open file` 命令，並且找到本專案主資料夾中的 index.html 檔案。
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')                   |
-| :---------------------------------------------------------------------------------------------------------------------: |
+|    ![Open index file](/readme-only/index-open.PNG 'Open index.html in your text editor')    |
+| :-----------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **或者你也可以在你的硬碟中找到你的檔案、右鍵點擊，並且用你的編輯器打開** |
 
 - 現在你已經在你的編輯器中打開了你要編輯的檔案，而你已經準備好要修改它了。
@@ -206,14 +210,14 @@ _估計時間：少於30分鐘_.
 - 複製圖片中紅色框內的所有東西，從 `Contributor card START` 註解到 `Contributor card END` 註解。
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy the card template') |
-| :-----------------------------------------------------------------------: |
+| :------------------------------------------------------------------------: |
 
 - 把整段程式直接在要你貼上的註解下面貼上。
 - 確保你的卡片開始和結束的地方各自有一行空白。保持程式碼盡可能的乾淨是一種最佳實踐。
 - 永遠不要使用程式碼檢查工具 (linter) 或程式碼格式工具 (formatter)。這個專案有設置 Prettier。
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Paste below the indicated line') |
-| :---------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - 現在這是一張**你**可以編輯和自訂的卡片了。
 
@@ -226,19 +230,19 @@ _估計時間：少於30分鐘_.
 - 我們現在要開始編輯 html、改變我們卡片中可以自訂的欄位。
 
 | :arrow_right_hook: 用你的名字取代 'Name' | ![Change name](/readme-only/change-name.PNG 'Type your name') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :--------------------------------------- | :-----------------------------------------------------------: |
 
 - **注意： 不要改動 `class="name"`**
 
 | :arrow_right_hook: 插入你推特帳號的 URL `href="Insert URL here"`，在文字欄位中填入你的用戶名稱 | ![Change contact](/readme-only/change-contact.PNG 'Insert a link to your Twitter account and type your handle') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
 
 - 如果你偏好使用推特以外的聯絡方式，你會需要到 [Font Awesome Icons](http://fontawesome.io/icons/) 尋找正確的圖示，並且取代推特的圖示 `<i class="fa fa-x-twitter"></i>`。舉例來說，用新的圖示如 `fa-facebook` 取代 `fa-x-twitter` 的部分。然後一樣照著上面的步驟進行。
 
-|                                                                                                                                         ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **告訴我們關於你的事情。保持簡短扼要。把它想成一則推特而非部落格文章**                                                                                                                |
-|                                                                                                              ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                                                              |
+|                                                                                                  ![Change about](/readme-only/change-about.PNG 'Write a sentence about you')                                                                                                  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                           :arrow_right_hook: **告訴我們關於你的事情。保持簡短扼要。把它想成一則推特而非部落格文章**                                                                                           |
+|                                                                      ![Change resources](/readme-only/change-resources.PNG 'Insert link, write a short description, and type the name of the resource')                                                                       |
 | :arrow_right_hook: **與社群分享三個你覺得對於網頁開發有用的資源連結。它可以是任何東西，一部影片、一場對話、一集 podcast、一篇文章、一篇論文，或是一個工具。如果你是一位新手，不要被它嚇到，分享你知道的任何東西，就算你覺得它很基礎也一樣。你會對於多少人能受益感到驚訝的。** |
 
 - **連結：** 取代 `#` 並在 `href="here"` 插入連結。請避免使用網址縮短器或是任何不是從你要放的網站中取得的 URL！
@@ -259,13 +263,13 @@ _估計時間：少於30分鐘_.
 - 這代表 Git 已經紀錄了所有**儲存的**變更。
 - 你可以在應用程式中看見這件事。你加入檔案的所有東西都會是綠色的，而刪掉的則是紅的。
 
-|                                                                                                  ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                      :arrow_right_hook: 下一步稱作 _`提交 (Commit)`_。這大概代表`確認變更`                                                                                                                                      |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                                               |
-|                                                                            :arrow_right_hook: **這是你的 GitHub desktop 頂部應該長的樣子。注意 `Current repository` 中、專案名稱旁的叉子符號，你的 `Current branch` 的名字會和你在第三步中時取的名字一樣。**                                                                            |
-|                                                                                                                  ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                                                  |
-| :arrow_right_hook: **為了 _`提交`_ ，你必須填寫 _`Summary`_ （概要）欄位。這是為了解釋你改了什麼的提交訊息。在這個例子中， `"Add my card information"` 會是一個合理的訊息。你可以選擇性的加上一個更詳細的 _`Description`_ （描述）。點 _`Commit`_ 按鈕。你的按鈕會顯示類似 `Commit to "your-branch-name"` 的訊息** |
+|                                                                      ![Commit changes](/readme-only/commit.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                      |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                         :arrow*right_hook: 下一步稱作 *`提交 (Commit)`\_。這大概代表`確認變更`                                                                                                                          |
+|                                                                  ![Commit changes](/readme-only/commit-header.PNG "The changes you've added should appear in green on the right side of GitHub desktop app. The commit button is on the bottom left")                                                                   |
+|                                                                    :arrow_right_hook: **這是你的 GitHub desktop 頂部應該長的樣子。注意 `Current repository` 中、專案名稱旁的叉子符號，你的 `Current branch` 的名字會和你在第三步中時取的名字一樣。**                                                                    |
+|                                                                                      ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and click 'commit'")                                                                                      |
+| :arrow*right_hook: \*\*為了 *`提交`_ ，你必須填寫 _`Summary`_ （概要）欄位。這是為了解釋你改了什麼的提交訊息。在這個例子中， `"Add my card information"` 會是一個合理的訊息。你可以選擇性的加上一個更詳細的 _`Description`_ （描述）。點 _`Commit`\_ 按鈕。你的按鈕會顯示類似 `Commit to "your-branch-name"` 的訊息\*\* |
 
 [↑ 回到頂部 ↑](#索引表)
 
@@ -276,8 +280,8 @@ _估計時間：少於30分鐘_.
 - 你的變更現在是已儲存或已提交的。但是他們只在本地中儲存，也就是在你的電腦上。
 - 將你本地的變更和 GitHub 上的儲存庫同步被稱作 _推送_。你在把你本地儲存庫的變更＂推＂到遠端 GitHub 上的儲存庫。
 
-| :arrow_right_hook: 點 _`Push`_ 按鈕 | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: 點 *`Push`\_ 按鈕 | ![Push to GitHub](/readme-only/push.PNG "Push your changes to GitHub, click on the 'Push' button") |
+| :----------------------------------- | :------------------------------------------------------------------------------------------------: |
 
 - 過了幾秒後，操作就會完成，而且現在你在你的電腦和 GitHub 上都會有著一模一樣的分支。
 
@@ -295,17 +299,17 @@ _估計時間：少於30分鐘_.
 - 在你的儲存庫上方，你會看到一個被標註的的拉取請求訊息和一個綠色按鈕。
 
 |  ![Submit a Pull Request](/readme-only/pull-request.PNG 'This is usually towards the top of the page, under the description and above the project files and folders')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **點擊 `Compare and pull request`**                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                         :arrow_right_hook: **點擊 `Compare and pull request`**                                                         |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'You are requesting to merge your branch from your fork into the master branch of the original project') |
-|                                              :arrow_right_hook: 這是一個`建立拉取請求`頁面的樣子                                               |
+|                                                          :arrow_right_hook: 這是一個`建立拉取請求`頁面的樣子                                                           |
 
 - 請記得 _你正在試著把你的分支和原本專案合併，而不是與你的分叉的 `Master` 分支_。
 - 下圖讓你對於你的拉取請求應該長怎樣有一個大概的概念。
 - master 分支的左側是原本的專案。在右邊是你的分叉與你建立的分支。
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Click the green button. Don't be scared!")   |
+| :---------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **建立一個拉取請求：寫一個標題、在描述欄加上選擇性的資訊，並且點 `Create pull request`** |
 
 - 不要被其他選項嚇到。你目前只需要做這三個步驟。
@@ -350,7 +354,7 @@ _估計時間：少於30分鐘_.
 
 ### 致謝
 
-這個專案受到 [Roshan Jossey](https://github.com/Roshanjossey) 出色的  [first-contributions](https://github.com/Roshanjossey/first-contributions) 專案，和它卓越的教學影響很大。
+這個專案受到 [Roshan Jossey](https://github.com/Roshanjossey) 出色的 [first-contributions](https://github.com/Roshanjossey/first-contributions) 專案，和它卓越的教學影響很大。
 
 它也特別被 [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class of 2017 Europe 周邊優秀的社群所啟發。
 

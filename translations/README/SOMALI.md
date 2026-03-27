@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English README](../../README.md) for the current step-by-step tutorial.
+
+---
+
 > **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
 
 ---
@@ -21,8 +25,8 @@
 > Ma jeceshahay inaad noqoto maamule (maintainer) mashruucan oo aad gacan ka gaysato sii socoshadiisa? Haddii aad xiisaynayso, akhri [hagaha maamulayaasha](/maintainer_guide.md), ku soo biir [server-kayaga Discord](https://discord.gg/tWkvS4ueVF), oo ka codso maamulayaasha mashruuca inaad ku soo biirto kooxda.
 
 ---
-### Jadwalka Mawduucyada
 
+### Jadwalka Mawduucyada
 
 - [Hordhac](#hordhac)
 - [Ujeedooyinka](#ujeedooyinka)
@@ -83,12 +87,12 @@ Waxaad copy ka samayn doontaa template-ka kaadhka ee ku dhex jira faylka HTML, k
 
 Casharkan waxaa sidoo kale ku heli karta [luuqado kale](/translations/README.md)
 
-|      [Arabic (عربي)](/translations/README/ARABIC.md)      |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) |            [English (English)](/README.md)             |  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [French (Français)](/translations/README/FRENCH.md) |  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |
-|  [Korean (한국어)](/translations/README/KOREAN.md)  | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
-|  [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |  [Urdu (اُردُو)](/translations/README/URDU.md) |
-| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md) |
+|    [Arabic (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Dutch](/translations/README/DUTCH.md)            |            [English (English)](/README.md)            |
+| :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------: |
+|  [French (Français)](/translations/README/FRENCH.md)   |  [German (Deutsch)](/translations/README/GERMAN.md)  |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Japanese (日本語)](/translations/README/JAPANESE.md) |
+|   [Korean (한국어)](/translations/README/KOREAN.md)    |  [Polish (Polski)](/translations/README/POLISH.md)   |          [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Russian (Русский)](/translations/README/RUSSIAN.md)     |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
+| [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |     [Urdu (اُردُو)](/translations/README/URDU.md)     |
+| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |    [Malayalam](/translations/README/MALAYALAM.md)    |
 
 > Turjumaadaha dukumentiyada mashruucan waa la soo dhaweynayaa. Akhri [`Hagaha Turjumaada`](/translations/README.md) si aad gacan uga gaysato.
 
@@ -111,8 +115,6 @@ Marka hore, aan isku diyaarino qabashada shaqada:
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
-
 ---
 
 ### Ka Qayb Qaado
@@ -128,14 +130,12 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Hubi inaad ku jirto [bogga rasmiga ah](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') ee kaydkan.
 
 | ![Fork](/readme-only/fork.png "guji 'Fork'") |
-| :---------------------------------------------: |
-|          **Guji badhanka _Fork_** |
+| :------------------------------------------: |
+|           **Guji badhanka _Fork_**           |
 
 - Hadda waxaad haysataa copy dhammaystiran oo mashruuca ah oo kugu dhex jira akoonkaaga.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 ---
 
@@ -146,24 +146,22 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 | ![Clone](/readme-only/clone.PNG 'guji clone repository') |
 | :------------------------------------------------------: |
-|       **Guji _File_ ka dibna _Clone repository_** |
+|       **Guji _File_ ka dibna _Clone repository_**        |
 
 - Waxaad arki doontaa liiska mashaariicdaada iyo fork-yada aad ku leedahay GitHub.
 - Dooro `<magacaaga-github>/Contribute-To-This-Project`.
 - Guji _Clone_
 
 | ![Clone project](/readme-only/clone-project.PNG 'guji <magacaaga-github>/Contribute-To-This-Project') |
-| :----------------------------------------------------------------------------------------------------------: |
+| :---------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: Mashruuca fork-ka ah wuxuu yeelan doonaa astaanta fork-ka ee dhanka bidix. Fork-gaaga wuxuu yeelan doonaa magacaaga GitHub | ![your fork](/readme-only/clone-your-fork.PNG 'fork-gaagu wuxuu u muuqan doonaa sidan, isagoo wata magacaaga') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
 
 - Tani waxay qaadan doontaa cabbaar inta mashruuca lagu koobiyeynayo hard disk-gaaga. Waxaan kugula talinayaa inaad u daysid meesha uu markaba dooranayo (default path) oo badanaa ah `..\Documents\GitHub`.
 - Hadda waxaad haysataa copy maxalli ah (local copy) oo mashruuca ah.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 ---
 
@@ -172,10 +170,10 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Marka kaydka (repo) la koobiyeeyo (cloned) oo aad ku furto GitHub Desktop, waxaa la joogaa waqtigii aad abuuri lahayd laan cusub.
 - Laantu (branch) waa hab aad isbeddelladaada uga sooci karto qaybta ugu muhiimsan ee mashruuca oo loo yaqaan `Master`. Tusaale ahaan, haddii ay wax khaldamaan oo aadan ku qanacsanayn isbeddelladaada, waxaad si fudud u tirtiri kartaa laanta, mashruuca weynna ma saameyn doono.
 
-| :arrow_right_hook: Guji _`Current branch`_, Ka dibna guji _`New`_ | ![Create branch](/readme-only/branch-new.PNG "Guji 'Branch', ka dibna 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Magac u bixi laantaada, ka dibna guji `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Magac u bixi laantaada')                             |
-| :arrow_right_hook: **U dir (Publish) laantaada cusub GitHub** | ![Name branch](/readme-only/branch-publish.PNG 'Guji publish si aad ugu dirto laanta cusub GitHub-kaaga') |
+| :arrow*right_hook: Guji *`Current branch`_, Ka dibna guji _`New`\_           |               ![Create branch](/readme-only/branch-new.PNG "Guji 'Branch', ka dibna 'New'")               |
+| :--------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Magac u bixi laantaada, ka dibna guji `Create branch`** |                   ![Name branch](/readme-only/branch-name.PNG 'Magac u bixi laantaada')                   |
+| :arrow_right_hook: **U dir (Publish) laantaada cusub GitHub**                | ![Name branch](/readme-only/branch-publish.PNG 'Guji publish si aad ugu dirto laanta cusub GitHub-kaaga') |
 
 - Waxaad u bixin kartaa magac kasta oo aad rabto, laakiin maadaama ay tani tahay laan aad ku darayso kaadh magacaaga leh, u bixinta `magacaaga-card` waa dhaqan wanaagsan waayo waxay caddaynaysaa ujeeddada laantaan.
 - Hadda waxaad abuurtay laan cusub oo ka madax-bannaan master-ka.
@@ -185,9 +183,7 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
 ---
-
 
 #### Tallaabada 4: Fur faylka index.html
 
@@ -196,16 +192,16 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Faylka `index.html` wuxuu si toos ah ugu dhex jiraa galka `Contribute-To-This-Project`.
 - Fur code editor-kaaga (sida VS Code, Sublime, Atom..iwm) oo isticmaal amarka `Open file`, ka dibna hel faylka index.html ee ku jira galka weyn ee mashruuca.
 
-|                  ![Open index file](/readme-only/index-open.PNG 'Ku fur index.html text editor-kaaga')                  |
-| :---------------------------------------------------------------------------------------------------------------------: |
+|                                        ![Open index file](/readme-only/index-open.PNG 'Ku fur index.html text editor-kaaga')                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Sidoo kale waxaad faylka ka raadin kartaa hard drive-kaaga, ka dibna midigta ayaad ku gujinaysaa (right click) si aad ugu furto editor-kaaga.** |
 
 - Hadda waxaad haysataa faylkii aad wax ka beddeli lahayd isagoo u furan editor-kaaga, waxaadna diyaar u tahay inaad bilowdo isbeddellada.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
 ---
+
 #### Tallaabada 5: Copy ka samee template-ka kaadhka
 
 - Waxaan samayn doonaa copy ka mid ah template-ka kaadhka si aan u bilowno ka shaqayntiisa.
@@ -214,25 +210,24 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Hadda waa inaad aragtaa qaybta ay ku dhex jiraan dhammaan kaadhka ka qayb-qaatayaasha: `<div class="grid" id="contributions">`
 
 | ![Find card template](/readme-only/find-card-template.png 'Hel template-ka kaadhka') |
-| :-----------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------: |
 
 - Qaybtan dhexdeeda, waxaad ka heli doontaa qayb ku calaamadsan `== TEMPLATE ==`.
 - Nuqul ka samee (Copy) wax kasta oo ku dhex jira sanduuqa cas ee sawirka, laga bilaabo faallada (comment) `Contributor card START` ilaa faallada `Contributor card END`.
 
 | ![Copy card template](/readme-only/card-copy.PNG 'Copy-garee template-ka kaadhka') |
-| :-----------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------: |
 
 - Ku dheji (Paste) wax kasta oo aad soo koobiyaysay meesha ay ku tusayso faallada hoosteeda; si toos ah uga sarreeya kaadhka ugu dambeeyay ee ka qayb-qaataha kale.
 - Hubi inuu jiro hal xariiq oo bannaan inta u dhaxaysa dhamaadka kaadhkaaga iyo bilowga kaadhkii u dambeeyay. Sidoo kale, ku dar xariiq bannaan oo u dhexeeya bilowga kaadhkaaga iyo xariiqda ay ku qoran tahay faallada `=== Paste YOUR CARD directly BELOW this line ===`. Waa dhaqan wanaagsan in koodkeena aan ka dhigno mid cad oo nadiif ah.
 - Weligaa ha isticmaalin "linters" ama kuwa koodka qaabeeya (style formatters). Mashruucan waxaa u diyaarsan Prettier.
 
 | ![Paste card template](/readme-only/card-paste.PNG 'Ku dheji xariiqda la tilmaamay hoosteeda') |
-| :---------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------: |
 
 - Kan hadda waa kaadhkaaga **adiga** si aad u habayso oo aad wax uga beddesho.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
 
 ---
 
@@ -241,19 +236,19 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Hadda waxaan bilaabaynaa wax ka beddelka HTML-ka, annagoo beddelayna meelaha loo baahan yahay in macluumaadkaaga lagu daro.
 
 | :arrow_right_hook: Ku beddel 'Name' magacaaga | ![Change name](/readme-only/change-name.PNG 'Qor magacaaga') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :-------------------------------------------- | :----------------------------------------------------------: |
 
 - **Fiiro gaar ah: Ha beddelin `class="name"`**
 
 | :arrow_right_hook: Geli URL-ka akoonkaaga Twitter-ka `href="Geli URL-ka halkan"`, ka dibna qor magacaaga Twitter-ka (handle) | ![Change contact](/readme-only/change-contact.PNG 'Geli xiriiriyaha Twitter-kaaga oo qor magacaaga Twitter-ka') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
 
 - Haddii aad doorbidayso inaad isticmaasho meel kale oo lagula soo xiriiro oo aan ahayn Twitter, waxaad u baahan tahay inaad beddesho astaanta (icon) Twitter-ka `<i class="fa fa-x-twitter"></i>`. Booqo [Font Awesome Icons](http://fontawesome.io/icons/) si aad u raadiso astaanta saxda ah, ka dibna beddel oo kaliya qaybta `fa-x-twitter` adigoo ku beddelaya astaanta cusub sida `fa-facebook` tusaale ahaan. Ka dib raac isla tallaabooyinka sare.
 
-|                                                                                                                                                                                                                                                                                             ![Change about](/readme-only/change-about.PNG 'Qor xukunto kugu saabsan')                                                                                                                                                                                                                                                                                             |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                                                                                                                                                 :arrow_right_hook: **Wax nooga sheeg naftaada. Ka dhig mid kooban oo macaan. U firi inay tahay sidii qoraal Tweet ah oo kale ee ma aha qoraal blog ah.** |
-|                                                                                                                                                                                                                                                                                           ![Change resources](/readme-only/change-resources.PNG 'Geli link, qor sharaxaad kooban, iyo magaca waxaad soo xigatay')                                                                                                                                                                                                                                                                                           |
+|                                                                                                                                                                                ![Change about](/readme-only/change-about.PNG 'Qor xukunto kugu saabsan')                                                                                                                                                                                |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                        :arrow_right_hook: **Wax nooga sheeg naftaada. Ka dhig mid kooban oo macaan. U firi inay tahay sidii qoraal Tweet ah oo kale ee ma aha qoraal blog ah.**                                                                                                                                         |
+|                                                                                                                                                         ![Change resources](/readme-only/change-resources.PNG 'Geli link, qor sharaxaad kooban, iyo magaca waxaad soo xigatay')                                                                                                                                                         |
 | :arrow_right_hook: **La wadaag bulshada 3 xiriiriye (links) oo waxtar u leh horumarinta web-dhisida (web development). Tani waxay noqon kartaa wax kasta: muuqaal, khudbad, podcast, maqaal, tixraac, ama qalab (tool). Haddii aad tahay qof hadda bilaabaya, ha ka baqin tan, la wadaag wax kasta oo aad taqaan xataa haddii aad u malaynayso inay yihiin wax iska fudud. Waxaad layaabi doontaa inta qof ee ka faa'iidaysan doonta.** |
 
 - **Link:** Geli xiriiriyaha `href="halkan"` adigoo ku beddelaya `#`. Fadlan iska ilaali isticmaalka URL-yada la soo gaabiyey (shorteners) ama URL-yo aan ka imaanin mareegta aad soo dhigayso!
@@ -265,9 +260,8 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
-
 ---
+
 #### Tallaabada 7: Commit-garee isbeddelladaada
 
 - Ku noqo GitHub Desktop app.
@@ -275,32 +269,29 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Tani waxay ka dhigan tahay in Git uu diiwaangeliyay dhammaan isbeddellada aad **kaydisay (saved)**.
 - Waxaad tan ku dhex arki kartaa app-ka. Wax kasta oo aad ku dartay faylka waxay ku dhex jiri doonaan midab cagaar ah, wixii aad tirtirtayna waxay u muuqan doonaan casaan.
 
-|                                                                                                                                                                                                                               ![Commit changes](/readme-only/commit.PNG "Isbeddellada aad ku dartay waa inay ku muuqdaan cagaar dhanka midig ee GitHub desktop app. Badhanka commit-ka wuxuu ku yaallaa bidixda hoose")                                                                                                                                                                                                                               |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: Tallaabada xigta waxaa la yiraahdaa _`Commit`_. Tani waxay qiyaas ahaan ka dhigan tahay `xaqiiji isbeddellada` |
-|                                                                                                                                                                                                                               ![Commit changes](/readme-only/commit-header.PNG "Isbeddellada aad ku dartay waa inay ku muuqdaan cagaar dhanka midig ee GitHub desktop app. Badhanka commit-ka wuxuu ku yaallaa bidixda hoose")                                                                                                                                                                                                                               |
-|                                                                                                                                                :arrow_right_hook: **Waa kan sida uu u u muuqan doono madaxa (header) GitHub desktop-kaaga. U fiirso astaanta fork-ka ee ku ag taal magaca mashruuca ee `Current repository`, `Current branch`-kaagana wuxuu yeelan doonaa magaca aad bixisay tallaabadii 3-aad** |
-|                                                                                                                                                                                                                                                                          ![Write commit message and commit](/readme-only/commit-message.PNG "Qor fariin kooban oo commit ah qaybta 'summary', ka dibna guji 'commit'")                                                                                                                                                                                                                                                                          |
-| :arrow_right_hook: **Si aad u samayso _`Commit`_, waa inaad buuxisaa meesha _`Summary`_. Tani waa fariinta commit-ka oo sharxaysa waxaad beddeshay. Xaaladdan, fariin macquul ah waxay noqon kartaa `"Add my card information"`. Haddii aad rabto waxaad ku dari kartaa _`Description`_ faahfaahsan. Guji badhanka _`Commit`_. Badhankaaga wuxuu dhihi doonaa wax u dhow `Commit to "magaca-branch-kaaga"`** |
+|                                                                                                             ![Commit changes](/readme-only/commit.PNG 'Isbeddellada aad ku dartay waa inay ku muuqdaan cagaar dhanka midig ee GitHub desktop app. Badhanka commit-ka wuxuu ku yaallaa bidixda hoose')                                                                                                             |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                        :arrow*right_hook: Tallaabada xigta waxaa la yiraahdaa *`Commit`\_. Tani waxay qiyaas ahaan ka dhigan tahay `xaqiiji isbeddellada`                                                                                                                                         |
+|                                                                                                         ![Commit changes](/readme-only/commit-header.PNG 'Isbeddellada aad ku dartay waa inay ku muuqdaan cagaar dhanka midig ee GitHub desktop app. Badhanka commit-ka wuxuu ku yaallaa bidixda hoose')                                                                                                          |
+|                                                                         :arrow_right_hook: **Waa kan sida uu u u muuqan doono madaxa (header) GitHub desktop-kaaga. U fiirso astaanta fork-ka ee ku ag taal magaca mashruuca ee `Current repository`, `Current branch`-kaagana wuxuu yeelan doonaa magaca aad bixisay tallaabadii 3-aad**                                                                         |
+|                                                                                                                                   ![Write commit message and commit](/readme-only/commit-message.PNG "Qor fariin kooban oo commit ah qaybta 'summary', ka dibna guji 'commit'")                                                                                                                                   |
+| :arrow*right_hook: \*\*Si aad u samayso *`Commit`_, waa inaad buuxisaa meesha _`Summary`_. Tani waa fariinta commit-ka oo sharxaysa waxaad beddeshay. Xaaladdan, fariin macquul ah waxay noqon kartaa `"Add my card information"`. Haddii aad rabto waxaad ku dari kartaa _`Description`_ faahfaahsan. Guji badhanka _`Commit`\_. Badhankaaga wuxuu dhihi doonaa wax u dhow `Commit to "magaca-branch-kaaga"`\*\* |
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
-
 ---
+
 #### Tallaabada 8: Isbeddelladaada u dir (Push) GitHub
 
 - Isbeddelladaada hadda waa la xaqiijiyay (committed). Laakiin waxay ku kaydsan yihiin gudaha (locally), taas oo macnaheedu yahay kombuyuutarkaaga uun.
 - Isku-dubaridka isbeddellada maxalliga ah iyo kaydkaaga GitHub waxaa la yiraahdaa _Push_. Waxaad "u riixaysaa" isbeddellada kaydkaaga maxalliga ah una diraysaa kaydka fog (remote repository) ee GitHub ku yaalla.
 
-| :arrow_right_hook: Guji badhanka _`Push`_ | ![Push to GitHub](/readme-only/push.PNG "Isbeddelladaada u dir GitHub, guji badhanka 'Push'") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :arrow*right_hook: Guji badhanka *`Push`\_ | ![Push to GitHub](/readme-only/push.PNG "Isbeddelladaada u dir GitHub, guji badhanka 'Push'") |
+| :----------------------------------------- | :-------------------------------------------------------------------------------------------: |
 
 - Muddo ilbiriqsiyo ah ka dib, hawshaas waa la dhammaystiri doonaa, haddana waxaad haysataa nuqul isku mid ah oo branch-kan ah oo ku jira mashiinkaaga iyo GitHub labadaba.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 ---
 
@@ -313,18 +304,18 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Tag bogga rasmiga ah ee **fork-gaaga** ee GitHub (wuxuu yeelan doonaa astaanta fork-ka iyo magacaaga oo xagga sare ku yaalla).
 - Xagga sare ee kaydka (repo), waxaad ku arki doontaa fariin pull request ah oo midabaysan oo leh badhan cagaar ah.
 
-|  ![Submit a Pull Request](/readme-only/pull-request.PNG 'Tani waxay badiyaa ku dhex jirtaa xagga sare ee bogga, sharraxaadda hoosteeda iyo faylasha mashruuca korkooda')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                      :arrow_right_hook: **Guji `Compare and pull request`** |
+|        ![Submit a Pull Request](/readme-only/pull-request.PNG 'Tani waxay badiyaa ku dhex jirtaa xagga sare ee bogga, sharraxaadda hoosteeda iyo faylasha mashruuca korkooda')        |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                :arrow_right_hook: **Guji `Compare and pull request`**                                                                 |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG 'Waxaad codsanaysaa in lagu daro branch-kaaga ka yimid fork-gaaga laguna daro branch-ka master ee mashruuca asalka ah') |
-|                                               :arrow_right_hook: Sidan waa sida uu u muuqdo bogga `Open a pull request`.                                               |
+|                                                      :arrow_right_hook: Sidan waa sida uu u muuqdo bogga `Open a pull request`.                                                       |
 
 - XASUUSNOW _waxaad isku dayaysaa inaad branch-kaaga ku darto mashruuca asalka ah, ee ma aha inaad ku darto branch-ka `Master` ee fork-gaaga u gaarka ah_.
 - Sawirka hoose wuxuu ku siinayaa fikrad ku saabsan sida uu u muuqan doono madaxa (header) pull request-kaaga.
 - Dhanka bidix waa mashruuca asalka ah, waxaana ku xiga branch-ka master. Dhanka midig waa fork-gaaga iyo branch-ka aad adigu samaysay.
 
-|                   ![Submit a Pull Request](/readme-only/pull-request-open.PNG "Guji badhanka cagaaran. Ha baqin!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                                 ![Submit a Pull Request](/readme-only/pull-request-open.PNG 'Guji badhanka cagaaran. Ha baqin!')                                  |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Abuur pull request: Qor cinwaan, ku dar macluumaad dheeraad ah qaybta description-ka haddii aad rabto, ka dibna guji `Create pull request`** |
 
 - Ha ku wareerin dhammaan xulashooyinka (options). Waxaad u baahan tahay oo kaliya inaad samayso saddexdan tallaabo hadda.
@@ -332,8 +323,6 @@ _Waqtiga lagu qiyaaso: In ka yar 30 daqiiqo_.
 - Hadda, _Pull Request_ waxaa loo diri doonaa maamulaha mashruuca. Isla marka la eego oo la aqbalo, isbeddelladaada waxay ka muuqan doonaan [bogga internetka ee mashruuca](https://syknapse.github.io/Contribute-To-This-Project 'Contribute To This Project web page').
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 ---
 
@@ -351,14 +340,13 @@ Waxaan ballan-qaadayaa inaan isku dayi doono inaan dib-u-eegis ku sameeyo oo aan
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
 
-
-
 ---
+
 ### Tallaabooyinka Xiga
 
 - Dib u soo laabo cabbaar ka dib si aad u hubiso in Pull Request-kaagii lagu daray (merged).
 - Waxaad GitHub ka heli doontaa iimayl marka isbeddelladaada la ansixiyo, ama haddii isbeddello dheeraad ah lagu weydiiyo. Sidoo kale, waxaad heli doontaa iimayl marka PR-ka rasmiga loogu daro master-ka oo kaadhkaagu uu ku soo biiro mareegta.
-- Waxaad sidoo kale ka baran kartaa sida wax loogu darsado mashaariicda kale silsiladan *lacag la'aanta* ah: [Sida looga qayb-qaato Mashruuc Furan oo GitHub ah](https://kcd.im/pull-request)
+- Waxaad sidoo kale ka baran kartaa sida wax loogu darsado mashaariicda kale silsiladan _lacag la'aanta_ ah: [Sida looga qayb-qaato Mashruuc Furan oo GitHub ah](https://kcd.im/pull-request)
 - Haddii aad mashruucan u aragtay mid **waxtar leh**, fadlan sii :star: star (xiddig) :star: xagga sare ee bogga, sidoo kale **Tweet** ka soo qor si aad u caawiso faafinta farriintan [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 - Waxaad ku soo biiri kartaa [Discord server-kayaga](https://discord.gg/tWkvS4ueVF)
 - Waxaad **ila soo xiriiri kartaa** adigoo igu soo raacaya [𝕏 (Twitter)](https://twitter.com/Syknapse '@Syknapse') ama [isticmaalaya mid ka mid ah xulashooyinkan kale](https://syknapse.github.io/Syk-Houdeib/#contact 'Qaybta xiriirka | Portfolio')
@@ -368,8 +356,6 @@ Waxaan ballan-qaadayaa inaan isku dayi doono inaan dib-u-eegis ku sameeyo oo aan
 - Sidoo kale, waxaan raadinayaa la-shaqeeyayaal gacan iga siiya dib-u-eegista iyo ku darista (merging) PR-yada. Haddii aad rabto inaad hesho tababar Git oo horumarsan, akhri [hagaha maamulayaasha](/maintainer_guide.md), ku soo biir [Discord server-kayaga](https://discord.gg/tWkvS4ueVF), oo ka codso maamulayaasha mashruuca inaad ku biirto kooxda.
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 ---
 
@@ -388,7 +374,5 @@ Mashruucan waxaa lagu bixiyay shatiga [MIT License](./LICENSE).
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 [↑ Ku noqo kor ↑](#jadwalka-mawduucyada)
-
-
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet-garee mashruucan'

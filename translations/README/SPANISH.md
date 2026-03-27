@@ -1,3 +1,7 @@
+> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English README](../../README.md) for the current step-by-step tutorial.
+
+---
+
 > **Note:** The contribution tutorial has been updated. Please follow the [main README](https://github.com/Syknapse/Contribute-To-This-Project#readme) for the current instructions — it is the authoritative guide regardless of language.
 
 ---
@@ -87,11 +91,11 @@ Vas a hacer una copia de la plantilla de la tarjeta dentro del archivo HTML y va
 
 Este tutorial tambien está disponible en [otros idiomas](/translations/README.md)
 
-|     [Árabe](/translations/README/ARABIC.md)     |  [Bengalí](/translations/README/BANGLA.md)  | [Chino (Tradicional)](/translations/README/CHINESE_TRADITIONAL.md) |            [Inglés](/README.md)             |  [Francés](/translations/README/FRENCH.md)  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-|  [Alemán](/translations/README/GERMAN.md)  |      [Hindú](/translations/README/HINDI.md)      | [Italiano](/translations/README/ITALIAN.md) | [Japonés](/translations/README/JAPANESE.md) |  [Coreano](/translations/README/KOREAN.md)  |
-  [Polaco](/translations/README/POLISH.md)  | [Portugués](/translations/README/PORTUGUESE.md) | [Ruso](/translations/README/RUSSIAN.md) |  [Serbio](/translations/README/SERBIAN.md)  | [Español](/translations/README/SPANISH.md) |
-   [Turco](/translations/README/TURKISH.md) | [Ucraniano](/translations/README/UKRAINIAN.md) |
+| [Árabe](/translations/README/ARABIC.md)  |    [Bengalí](/translations/README/BANGLA.md)    | [Chino (Tradicional)](/translations/README/CHINESE_TRADITIONAL.md) |            [Inglés](/README.md)             | [Francés](/translations/README/FRENCH.md)  |
+| :--------------------------------------: | :---------------------------------------------: | :----------------------------------------------------------------: | :-----------------------------------------: | :----------------------------------------: |
+| [Alemán](/translations/README/GERMAN.md) |     [Hindú](/translations/README/HINDI.md)      |            [Italiano](/translations/README/ITALIAN.md)             | [Japonés](/translations/README/JAPANESE.md) | [Coreano](/translations/README/KOREAN.md)  |
+| [Polaco](/translations/README/POLISH.md) | [Portugués](/translations/README/PORTUGUESE.md) |              [Ruso](/translations/README/RUSSIAN.md)               |  [Serbio](/translations/README/SERBIAN.md)  | [Español](/translations/README/SPANISH.md) |
+| [Turco](/translations/README/TURKISH.md) | [Ucraniano](/translations/README/UKRAINIAN.md)  |
 
 > Las traducciones para la documentación del proyecto son bienvenidas. Lee la [`Guia de traducciones`](/translations/README.md) para contribuir.
 
@@ -130,7 +134,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>Haz click en el botón _Fork_ </li></ul> | ![Fork](/readme-only/fork.png "Haz click en 'Fork'") |
 | :---------------------------------------------- | ---------------------------------------------------: |
 
-
 - Ahora tienes una copia completa del proyecto en tu propia cuenta.
 
 [↑ Ir arriba ↑](#índice-de-acceso-rápido)
@@ -145,10 +148,9 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>Haz click en _File_ y luego en _Clone repository_</li></ul> | ![Clone](/readme-only/clone.PNG 'Haz click en "clone repository"') |
 | :------------------------------------------------------------------ | -----------------------------------------------------------------: |
 
-
 | <ul><li>Vas a ver una lista de tus proyectos y bifurcaciones en GitHub.</li><li>Selecciona `<tu-nombre-de-usuario-de-github'>/Contribute-To-This-Project`.</li><li>Haz click en _Clone_</li></ul> | ![Clona el proyecto](/readme-only/clone-project.PNG 'Selecciona <tu-nombre-de-usuario-de-github>/Contribute-To-This-Project') |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------------------------------------------: |
-| ![Pega la plantilla de la tarjeta](/readme-only/card-paste.PNG 'Pega sobre la línea indicada')                                                                                                                                                                                                                                                               |
+| ![Pega la plantilla de la tarjeta](/readme-only/card-paste.PNG 'Pega sobre la línea indicada')                                                                                                    |
 
 - Va a tomar un momento realizar la copia del proyecto a tu disco duro. Te recomiendo que dejes la ruta por defecto que normalmente es `..\Documentos\GitHub`.
 - Ahora tienes una copia local del proyecto
@@ -165,16 +167,13 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>Haz click en _Current branch_</li><li>Luego en _New_</li></ul> | ![Crear rama](/readme-only/branch-new.PNG "Click en 'Branch', luego en 'New'") |
 | :--------------------------------------------------------------------- | -----------------------------------------------------------------------------: |
 
-
 | <ul><li>Dale un nombre a tu rama</li><li>Haz click en `Create branch`</li></ul> | ![Nombra tu rama](/readme-only/branch-name.PNG 'Nombra tu rama') |
 | :------------------------------------------------------------------------------ | ---------------------------------------------------------------: |
-
 
 - La puedes llamar como desees pero dado que es una rama en la que agregarás una tarjeta al proyecto, llamarla `tarjeta-de-tu-nombre` es una buena práctica, ya que quedará clara cual es la intención de la rama.
 
 | <ul><li>Publica tu nueva rama en Github</li></ul> | ![Nombre de la rama](/readme-only/branch-publish.PNG 'Haz click en "Publish" para enviar la nueva rama a tu repositorio en GitHub') |
 | :------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------: |
-
 
 - Haz creado una nueva rama separada de la rama 'master' (que es la principal).
 - Para los próximos cambios asegúrate de estar trabajando en ésta rama. Arriba y al centro de GitHub Desktop (donde se lee _Current Branch_) podrás ver el nombre de la rama en la que estas ubicado.
@@ -193,7 +192,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 
 | <ul><li>Abre tu editor (Sublime, VS Code, Atom, etc.) y utiliza el comando `Open file` para localizar el archivo index.html en el directorio principal del proyecto</li><li>También puedes hacerlo localizando el archivo en tu disco duro, darle click derecho y abrir con tu editor.</li></ul> | ![Abrir el archivo index](/readme-only/index-open.PNG 'Abrir index.html en tu editor de texto') |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------: |
-
 
 - Ahora tienes el archivo que vas a editar abierto en tu editor y estás listo para comenzar a hacer cambios en él.
 
@@ -226,7 +224,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>Reemplaza 'Name' con tu nombre</li><li>Nota: No cambies `class="name"`</li></ul> | ![Cambia el nombre](/readme-only/change-name.PNG 'Escribe tu nombre') |
 | :--------------------------------------------------------------------------------------- | --------------------------------------------------------------------: |
 
-
 | <ul><li>Inserta la URL de tu cuenta de Twitter `href="Insert URL here"`</li><li>Escribe tu @ en el campo de texto</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------- |
 | ![Cambiar contacto](/readme-only/change-contact.PNG 'Inserta un vínculo a tu cuenta de Twitter y escribe tu arroba')        |
@@ -235,7 +232,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 
 | <ul><li>Dinos algo acerca de tí</li><li>Hazlo corto y sencillo. Piensa mas en un tweet que en un artículo de un blog</li></ul> | ![Cambia el "Acerca de"](/readme-only/change-about.PNG 'Escribe una oración acerca de tí') |
 | :----------------------------------------------------------------------------------------------------------------------------- | -----------------------------------------------------------------------------------------: |
-
 
 | <ul><li>Comparte con la comunidad tres enlaces que puedan ser útiles para el desarrollo web</li><li>Puede ser lo que quieras: un vídeo, una charla, un podcast, un artículo, una referencia o una herramienta</li><li>Si eres un principiante no te sientas intimidado por ésto, comparte lo que conozcas aunque pienses que es básico. Te sorprenderá la cantidad de gente que se beneficiará de eso</li></ul> |
 | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -260,7 +256,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>El próximo paso se llama _Commit_</li><li>Ésto significa "confirma los cambios"</li></ul> | ![confirma los cambios](/readme-only/commit.PNG 'Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda') |
 | :------------------------------------------------------------------------------------------------ | -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
-
 | <ul><li>Así es como debería verse la cabecera de GitHub Desktop</li><li>Nota el símbolo de bifurcación cerca del nombre del proyecto en `Current repository` (Repositorio actual)</li><li>Tu `Current branch` (Rama actual) tendrá el nombre que le diste en el paso 3</li></ul> |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Confirma los cambios](/readme-only/commit-header.PNG 'Los cambios que has agregado deberían aparecer en verde a la derecha de GitHub Desktop. El botón Commit está abajo a la izquierda')                                                                                      |
@@ -280,7 +275,6 @@ _Tiempo estimado: Menos de 30 minutos_.
 | <ul><li>Haz click en el botón _Push_</li></ul> | ![Push a GitHub](/readme-only/push.PNG "Sube tus cambios a GitHub, haz click en el botón 'Push'") |
 | :--------------------------------------------- | ------------------------------------------------------------------------------------------------: |
 
-
 - Despues de unos segundos la operación se habrá completado y tendras exactamente la misma copia de esta rama tanto en tu computadora como en GitHub.
 
 [↑ Ir arriba ↑](#índice-de-acceso-rápido)
@@ -297,16 +291,14 @@ _Tiempo estimado: Menos de 30 minutos_.
 - Hacia la parte superior del repositorio verás un mensaje de Pull Request resaltado con un botón verde.
 
 | <ul><li>Haz click en `Compare and pull request`</li></ul> | ![Enviar una Pull Request](/readme-only/pull-request.PNG 'Ésto usualmente está ubicado hacia la parte superior de la página, bajo la descripción y sobre las carpetas y archivos del proyecto') |
-| :-------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-
+| :-------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 | <ul><li>Así es como luce la página `Open a pull request` (Abrir una Pull Request).</li><li>RECUERDA _estás tratando de unir tu rama con el proyecto original, no con la rama `master` de tu bifurcación_.</li><li>La imagen a continuación de una idea de como debería verse la cabecera de tu Pull Request.</li><li>A la izquierda el proyecto original, seguido por la rama master. A la derecha está tu bifurcación y la rama que creaste.</li></ul> |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Abre una Pull Request](/readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                                                   |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ![Abre una Pull Request](/readme-only/pull-request-branches.PNG 'Estás solicitando que se una la rama de tu bifurcación a la rama master del proyecto original')                                                                                                                                                                                                                                                                                        |
 
 | <ul><li>Crear una Pull Request:</li><li>Escribe un título</li><li>Agrega información adicional en la descripción</li><li>Haz click en `Create pull request`</li></ul> | ![Envía una Pull Request](/readme-only/pull-request-open.PNG 'Haz click en el boton verde, no tengas miedo!!') |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------: |
-
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------: |
 
 - No te marees con la cantidad de opciones. Solo necesitas seguir estos tres pasos por ahora.
 - Deja marcada la opción `Allow edits from maintainers` (Permitir que quien mantiene el proyecto haga cambios)
