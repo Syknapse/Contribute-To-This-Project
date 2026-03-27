@@ -1,0 +1,96 @@
+/* ── Themes ──────────────────────────────────────────────────────────────────
+ *
+ * Each theme is a single CSS block that overrides the variables defined in
+ * :root (in style.css). The browser instantly applies the new values to every
+ * element on the page — no JavaScript loops, no class changes on individual
+ * cards.
+ *
+ * ── How to contribute a new theme ────────────────────────────────────────────
+ *
+ *  1. Copy the template block at the bottom of this file.
+ *  2. Change the selector to [data-theme="your-theme-name"].
+ *  3. Fill in your colour values (all variables are required).
+ *  4. Add a swatch button to index.html inside .theme-switcher:
+ *       <button class="theme-swatch" data-theme="your-theme-name"
+ *               title="Your Theme Name" aria-label="Your Theme Name theme">
+ *       </button>
+ *  5. Style your swatch dot at the bottom of style.css (search "Theme swatches").
+ *  6. Open a pull request — that's it!
+ *
+ * ── Available variables ───────────────────────────────────────────────────────
+ *
+ *  --color-primary      Main accent colour — links, icons, button/gradient start
+ *  --color-accent       Secondary accent — hover states, button/gradient end
+ *  --color-bg           Page background
+ *  --color-surface      Card header and contact section background
+ *  --color-surface-alt  Card body section background (about & resources)
+ *  --color-text         Body and card text
+ *  --color-heading      Page h1 colour
+ *  --color-icon         FontAwesome icon colour inside cards
+ *  --color-link-hover   Resource link colour on hover
+ *  --card-border        Full border shorthand (e.g. '1px solid #ffbc22' or 'none')
+ *  --color-input-bg     Search bar background
+ *  --color-input-text   Search bar text colour
+ *  --box-shadow         Card and button drop shadow
+ *
+ * ─────────────────────────────────────────────────────────────────────────── */
+
+/* ── Candid Orange (default) ─────────────────────────────────────────────── */
+/* The current theme. Defaults live in :root in style.css.                    */
+
+/* ── Mauritius ───────────────────────────────────────────────────────────── */
+/* Night mode, created by Bhavini Harchad (@bhaviniharchad) in March 2018 —   */
+/* the first non-card contribution to this project. Named after the island     */
+/* of Mauritius, where she is from.                                            */
+
+[data-theme='mauritius'] {
+  --color-bg: #100633;
+  --color-surface: #1f0b6b;
+  --color-surface-alt: #100633;
+  --color-text: #d2d6dc;
+  --color-heading: #ffbc22;
+  --color-icon: #ffbc22;
+  --color-link-hover: #ffbc22;
+  --card-border: 1px solid #ffbc22;
+  --color-input-bg: #100633;
+  --color-input-text: #d2d6dc;
+}
+
+/* ── Classic ─────────────────────────────────────────────────────────────── */
+/* Inspired by the original design of the site from December 2017: blue and   */
+/* gold with a striking purple shadow.                                         */
+
+[data-theme='classic'] {
+  --color-primary: #1da1f2;
+  --color-accent: #f5e768;
+  --color-bg: #fff;
+  --color-surface: #1da1f2;
+  --color-surface-alt: rgba(245, 231, 104, 0.85);
+  --color-text: #100633;
+  --color-heading: #1da1f2;
+  --color-icon: #1da1f2;
+  --color-link-hover: #1582cc;
+  --card-border: none;
+  --color-input-bg: #fff;
+  --color-input-text: gray;
+  --box-shadow: 1px 1px 5px 1px rgba(54, 7, 255, 0.45);
+}
+
+/* ── Template ────────────────────────────────────────────────────────────── */
+/*
+[data-theme="your-theme-name"] {
+  --color-primary:     ;
+  --color-accent:      ;
+  --color-bg:          ;
+  --color-surface:     ;
+  --color-surface-alt: ;
+  --color-text:        ;
+  --color-heading:     ;
+  --color-icon:        ;
+  --color-link-hover:  ;
+  --card-border:       ;
+  --color-input-bg:    ;
+  --color-input-text:  ;
+  --box-shadow:        ;
+}
+*/
