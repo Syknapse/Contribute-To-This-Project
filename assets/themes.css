@@ -10,28 +10,34 @@
  *  1. Copy the template block at the bottom of this file.
  *  2. Change the selector to [data-theme="your-theme-name"].
  *  3. Fill in your colour values (all variables are required).
- *  4. Add a swatch button to index.html inside .theme-switcher:
- *       <button class="theme-swatch" data-theme="your-theme-name"
+ *  4. Add a swatch button to index.html inside .theme-swatches:
+ *       <button type="button" class="theme-swatch" data-theme="your-theme-name"
  *               title="Your Theme Name" aria-label="Your Theme Name theme">
  *       </button>
- *  5. Style your swatch dot at the bottom of style.css (search "Theme swatches").
+ *  5. Style your swatch dot at the bottom of style.css (search "Swatch dot colours").
  *  6. Open a pull request — that's it!
  *
  * ── Available variables ───────────────────────────────────────────────────────
  *
- *  --color-primary      Main accent colour — links, icons, button/gradient start
+ *  --color-primary      Main accent — links, icons, button/gradient start
  *  --color-accent       Secondary accent — hover states, button/gradient end
  *  --color-bg           Page background
- *  --color-surface      Card header and contact section background
- *  --color-surface-alt  Card body section background (about & resources)
+ *  --color-card-bg      Card background (fills any gaps between sections)
+ *  --color-surface      Card name section background
+ *  --color-surface-alt  Card about & resources section background
  *  --color-text         Body and card text
- *  --color-heading      Page h1 colour
+ *  --color-heading      Page h1
  *  --color-icon         FontAwesome icon colour inside cards
  *  --color-link-hover   Resource link colour on hover
  *  --card-border        Full border shorthand (e.g. '1px solid #ffbc22' or 'none')
+ *  --card-radius        Card corner radius (e.g. '5px' or '20px')
  *  --color-input-bg     Search bar background
  *  --color-input-text   Search bar text colour
  *  --box-shadow         Card and button drop shadow
+ *
+ *  Note: if your theme needs different backgrounds for the contact or resources
+ *  sections, add direct overrides after your variable block, e.g.:
+ *    [data-theme="your-theme"] .contact { background-color: ...; }
  *
  * ─────────────────────────────────────────────────────────────────────────── */
 
@@ -45,6 +51,7 @@
 
 [data-theme='mauritius'] {
   --color-bg: #100633;
+  --color-card-bg: #100633;
   --color-surface: #1f0b6b;
   --color-surface-alt: #100633;
   --color-text: #d2d6dc;
@@ -57,23 +64,33 @@
 }
 
 /* ── Classic ─────────────────────────────────────────────────────────────── */
-/* Inspired by the original design of the site from December 2017: blue and   */
-/* gold with a striking purple shadow.                                         */
+/* Recreates the design of the site before the Candid Orange theme:           */
+/* a sky-blue card with alternating yellow sections, rounded corners, and a   */
+/* strong drop shadow.                                                         */
 
 [data-theme='classic'] {
   --color-primary: #1da1f2;
-  --color-accent: #f5e768;
+  --color-accent: #ffe566;
   --color-bg: #fff;
-  --color-surface: #1da1f2;
-  --color-surface-alt: rgba(245, 231, 104, 0.85);
-  --color-text: #100633;
+  --color-card-bg: #4fc3f7;
+  --color-surface: #4fc3f7;
+  --color-surface-alt: #4fc3f7;
+  --color-text: #333;
   --color-heading: #1da1f2;
   --color-icon: #1da1f2;
   --color-link-hover: #1582cc;
-  --card-border: none;
+  --card-border: 2px solid #555;
+  --card-radius: 18px;
   --color-input-bg: #fff;
-  --color-input-text: gray;
-  --box-shadow: 1px 1px 5px 1px rgba(54, 7, 255, 0.45);
+  --color-input-text: #333;
+  --box-shadow: -7px 13px 15px -3px rgba(82, 81, 85, 0.53);
+}
+
+/* Classic: contact and resources use the yellow accent */
+[data-theme='classic'] .contact,
+[data-theme='classic'] .resources {
+  background-color: #ffe566;
+  color: #333;
 }
 
 /* ── Template ────────────────────────────────────────────────────────────── */
@@ -82,6 +99,7 @@
   --color-primary:     ;
   --color-accent:      ;
   --color-bg:          ;
+  --color-card-bg:     ;
   --color-surface:     ;
   --color-surface-alt: ;
   --color-text:        ;
@@ -89,6 +107,7 @@
   --color-icon:        ;
   --color-link-hover:  ;
   --card-border:       ;
+  --card-radius:       ;
   --color-input-bg:    ;
   --color-input-text:  ;
   --box-shadow:        ;

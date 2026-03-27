@@ -21,6 +21,8 @@
   --color-icon: var(--pink);
   --color-link-hover: var(--purple);
   --card-border: none;
+  --card-radius: 5px;
+  --color-card-bg: transparent;
   --color-input-bg: var(--white);
   --color-input-text: gray;
   --box-shadow: 1px 1px 5px 1px rgba(82, 81, 85, 0.25);
@@ -244,9 +246,10 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  border-radius: 5px;
+  border-radius: var(--card-radius);
   width: 400px;
   border: var(--card-border);
+  background-color: var(--color-card-bg);
   box-shadow: var(--box-shadow);
   transition: 0.5s;
 }
@@ -262,7 +265,7 @@ footer {
   background-color: var(--color-surface);
   color: var(--color-text);
   font-weight: bold;
-  border-radius: 5px 5px 0 0;
+  border-radius: var(--card-radius) var(--card-radius) 0 0;
   font-size: 20px;
 }
 
@@ -278,7 +281,7 @@ footer {
   color: var(--color-text);
   height: 100%;
   padding-right: 25px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 var(--card-radius) var(--card-radius);
   word-break: break-word;
 }
 
@@ -303,9 +306,12 @@ footer {
   gap: 10px;
   align-items: center;
   margin-bottom: 20px;
+  margin-left: 42px;
+  padding-top: 30px;
 }
 
 .theme-swatch {
+  position: relative;
   width: 22px;
   height: 22px;
   border-radius: 50%;
@@ -328,6 +334,28 @@ footer {
   transform: scale(1.15);
 }
 
+/* Tooltip: theme name appears above swatch on hover */
+.theme-swatch::after {
+  content: attr(title);
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.78);
+  color: #fff;
+  font-size: 11px;
+  padding: 3px 7px;
+  border-radius: 4px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.theme-swatch:hover::after {
+  opacity: 1;
+}
+
 /* Swatch dot colours — add one entry per theme */
 .theme-swatch[data-theme='candid-orange'] {
   background: linear-gradient(135deg, #fa3d66, #ffbc22);
@@ -339,7 +367,8 @@ footer {
 }
 
 .theme-swatch[data-theme='classic'] {
-  background: linear-gradient(135deg, #1da1f2, #f5e768);
+  background: linear-gradient(135deg, #4fc3f7, #ffe566);
+  border-color: #aaa;
 }
 
 @media screen and (min-width: 800px) {
