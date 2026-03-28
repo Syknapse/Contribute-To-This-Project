@@ -948,5 +948,33 @@
         "text": "Stack Overflow"
       }
     ]
+  },
+  {
+    "name": "Gautam Kumawat",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/gautam9892",
+        "handle": "gautam9892"
+      }
+    ],
+    "about": "Data Analyst and MCA student specializing in AI and Data Analytics. Passionate about Power BI, Python, and SQL.",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Data Science",
+        "link": "https://www.kaggle.com",
+        "text": "Kaggle"
+      },
+      {
+        "title": "Microsoft Learn",
+        "link": "https://learn.microsoft.com",
+        "text": "Microsoft Learn"
+      }
+    ]
   }
 ]
