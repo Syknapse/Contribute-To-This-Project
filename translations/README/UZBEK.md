@@ -1,4 +1,4 @@
-# [Loyihaga hissa qoʻshing](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Bu Loyihaga Hissa Qoʻshing](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![Tasvir maʼlumoti](/favicon.png)
 
@@ -20,28 +20,28 @@
 
 ### Qisqa kirish indeksi
 
-- [Soʻz boshi](#introduction)
-- [Maqsadlar](#objectives)
-- [Bu kim uchun?](#who-is-this-for)
-- [Nega buni bajarishingiz lozim?](#why-do-i-need-to-do-this)
-- [Qanday hissa qoʻshishingiz mumkin?](#what-am-i-going-to-contribute)
-- [Tarjimalar](#translations)
-- [Oʻrnatish! :)](#setup-)
-- [Hissa qoʻshish](#contribute)
-  - [1-qadam: Koʻd omborini forkʼlang](#step-1-fork-this-repository)
-  - [2-qadam: Nusxani yuklab oling](#step-2-clone-the-repository)
-  - [3-qadam: Yangi novda yarating](#step-3-create-a-new-branch)
-  - [4-qadam: Shablon fayldan nusxa oling](#step-4-copy-the-template-file)
-  - [5-qadam: Biletni toʻldiring](#step-5-fill-in-your-card)
-  - [6-qadam: Barchasini tekshiring](#step-6-check-your-work)
-  - [7-qadam: Oʻzgarishlarni topshiring](#step-7-commit-your-changes)
-  - [8-qadam: Oʻzgarishlarni Git Omboriga yuklang](#step-8-push-your-changes-to-github)
-  - [9-qadam: PR yuboring (Tortish soʻrovi)](#step-9-submit-a-pr-pull-request)
-  - [10-qadam: Nishonlang](#step-10-celebrate)
-- [Keyingi qadamlar](#next-steps)
-- [Minnatdorchilik](#acknowledgements)
-- [Litsenziya](#license)
-- [Top 100 Hissadorlar](#top-100-contributors)
+- [Soʻz boshi](#soʻz-boshi)
+- [Maqsadlar](#maqsadlar)
+- [Bu kim uchun?](#bu-kim-uchun)
+- [Nega buni bajarishingiz lozim?](#nega-buni-bajarishingiz-lozim)
+- [Qanday hissa qoʻshishingiz mumkin?](#qanday-hissa-qoʻshishingiz-mumkin)
+- [Tarjimalar](#tarjimalar)
+- [Oʻrnatish! :)](#oʻrnatish-)
+- [Hissa qoʻshish](#hissa-qoʻshish)
+  - [1-qadam: Loyihani forklang](#1-qadam-loyihani-forklang)
+  - [2-qadam: Nusxani yuklab oling](#2-qadam-nusxani-yuklab-oling)
+  - [3-qadam: Yangi novda yarating](#3-qadam-yangi-novda-yarating)
+  - [4-qadam: Shablon fayldan nusxa oling](#4-qadam-shablon-fayldan-nusxa-oling)
+  - [5-qadam: Biletni toʻldiring](#5-qadam-biletni-toʻldiring)
+  - [6-qadam: Barchasini tekshiring](#6-qadam-barchasini-tekshiring)
+  - [7-qadam: Oʻzgarishlarni topshiring](#7-qadam-oʻzgarishlarni-topshiring)
+  - [8-qadam: Oʻzgarishlarni Git Omboriga yuklang](#8-qadam-oʻzgarishlarni-git-omboriga-yuklang)
+  - [9-qadam: PR yuboring (Tortish soʻrovi)](#9-qadam-pr-yuboring-tortish-soʻrovi)
+  - [10-qadam: Nishonlang](#10-qadam-nishonlang)
+- [Keyingi qadamlar](#keyingi-qadamlar)
+- [Minnatdorchilik](#minnatdorchilik)
+- [Litsenziya](#litsenziya)
+- [Top 100 Hissadorlar](#top-100-hissadorlar)
 
 ---
 
@@ -79,12 +79,12 @@ Bunda siz tayyor shablon fayldan nusxa olib, oʻz maʼlumotlaringiz bilan toʻld
 
 Bu qoʻllanma [boshqa tillarda](/translations/README.md) ham mavjud
 
-|    [Arabcha (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Xitoycha (Anʼanaviy) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Golland](/translations/README/DUTCH.md)            |           [Ingliz (English)](/README.md)           |
+|    [Arabic (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinese (Simplified) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Dutch](/translations/README/DUTCH.md)            |           [English (English)](/README.md)           |
 | :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------: |
-|  [Fransuz (Français)](/translations/README/FRENCH.md)   |  [Nemis (Deutsch)](/translations/README/GERMAN.md)  |                 [Hind (हिंदी)](/translations/README/HINDI.md)                  |    [Italyan (Italiano)](/translations/README/ITALIAN.md)    | [Yapon (日本語)](/translations/日本語/README.md) |
-|   [Koreys (한국어)](/translations/README/KOREAN.md)    |  [Polyak (Polski)](/translations/README/POLISH.md)   |          [Portugal (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Rus (Русский)](/translations/README/RUSSIAN.md)     | [Serb (Српски)](/translations/README/SERBIAN.md) |
-| [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Ispan (Español)](/translations/README/SPANISH.md) |               [Turk (Türkçe)](/translations/README/TURKISH.md)               | [Ukrain (українська)](/translations/README/UKRAINIAN.md) |    [Urdu (اُردُو)](/translations/README/URDU.md)    |
-| [Norveg (Norsk)](/translations/README/NORWEGIAN.md) |    [Malay](/translations/README/MALAYALAM.md)    |               [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                 |                                                             |                                                     |
+|  [French (Français)](/translations/README/FRENCH.md)   |  [German (Deutsch)](/translations/README/GERMAN.md)  |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Japanese (日本語)](/translations/日本語/README.md) |
+|   [Korean (한국어)](/translations/README/KOREAN.md)    |  [Polish (Polski)](/translations/README/POLISH.md)   |          [Portugese (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Russian (Русский)](/translations/README/RUSSIAN.md)     | [Serbian (Српски)](/translations/README/SERBIAN.md) |
+| [Somalian (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |    [Urdu (اُردُو)](/translations/README/URDU.md)    |
+| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |    [Malaysian](/translations/README/MALAYALAM.md)    |               [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                 |                                                             |                                                     |
 
 > Loyiha qoʻllanmasi uchun tarjimalar joʻnatishingizdan faqatgina mamnun boʻlamiz. Hissa qoʻshish uchun [`Tarjima uchun Qoʻllanmani`](/translations/README.md) oʻqing.
 
@@ -115,7 +115,7 @@ Birinchi, qani keling, ish muhitini sozlab olamiz.
 
 _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 
-#### 1-qadam: Loyihani Forkʼlang
+#### 1-qadam: Loyihani forklang
 
 - Ayni maqsadimiz loyihadan nusxa olish va oʻz hisobingizga joylash.
 - Git Omborida loyiha — repository (repo) deb ataladi, va fork bu undan siz olgan nusxadir. 
@@ -315,7 +315,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 
 ---
 
-#### 10-qadam: Nishonlash
+#### 10-qadam: Nishonlang
 
 Manashular barchasi edi. Buni uddaladingiz! Siz Ochiq Manbaʼga Git Omborida hissa qoʼshdingiz. 
 
