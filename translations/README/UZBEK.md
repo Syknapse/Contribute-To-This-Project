@@ -6,8 +6,8 @@
 
 [![Tvit](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tvit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Bizning Discord serverimizga qoʻshiling!')
-[![PRs Hush koʻriladi](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Bizning%20Discord%20Serverimizga%20qoʻshiling&icon=discord)](https://discord.gg/tWkvS4ueVF 'Bizning Discord serverimizga qoʻshiling!')
+[![PRs Hush koʻriladi](https://img.shields.io/badge/PRʼlar-doim_hush_koʻriladi-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Ochiq Manba Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
