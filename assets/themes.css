@@ -93,6 +93,10 @@
   color: #333;
 }
 
+[data-theme='classic'] .card p small a {
+  color: #fff; 
+}
+
 /* ── Retro ───────────────────────────────────────────────────────────────── */
 /* Windows XP-inspired palette. Contributed by Riddhima Biswas (@RiddhimaBiswas) */
 /* in PR #4390 — extracted and adapted to the CSS variable theme system.          */
