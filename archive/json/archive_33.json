@@ -1004,5 +1004,33 @@
         "text": "Microsoft Learn"
       }
     ]
+  },
+  {
+    "name": "Dar Rehan Rasool",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/darrehanrasool",
+        "handle": "darrehanrasool"
+      }
+    ],
+    "about": "Computer Science student passionate about Machine Learning, Data Science, and Full Stack Development. Currently\n    building projects in AI-driven healthcare and web technologies.",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Learn to Code for Free",
+        "link": "https://freecodecamp.org",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "GitHub Platform",
+        "link": "https://github.com",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
