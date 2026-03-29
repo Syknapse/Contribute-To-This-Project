@@ -1032,5 +1032,33 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "name": "Dar Rehan Rasool",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/darrehanrasool",
+        "handle": "darrehanrasool"
+      }
+    ],
+    "about": "Computer Science student passionate about AI, Machine Learning, and Full-Stack Development. Building innovative\n    projects in healthcare and digital solutions.",
+    "resources": [
+      {
+        "title": "Claude AI",
+        "link": "https://claude.ai",
+        "text": "Claude"
+      },
+      {
+        "title": "OpenClaw",
+        "link": "https://github.com/openclaw",
+        "text": "OpenClaw"
+      },
+      {
+        "title": "DeepSeek AI",
+        "link": "https://deepseek.com",
+        "text": "DeepSeek"
+      }
+    ]
   }
 ]
