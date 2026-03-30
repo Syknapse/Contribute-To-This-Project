@@ -79,7 +79,7 @@ Bunda siz tayyor shablon fayldan nusxa olib, oʻz maʼlumotlaringiz bilan toʻld
 
 Bu qoʻllanma [boshqa tillarda](/translations/README.md) ham mavjud
 
-|    [Arabic (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinese (Simplified) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Dutch](/translations/README/DUTCH.md)            |           [English (English)](/README.md)           |
+|    [Arabcha (عربي)](/translations/README/ARABIC.md)     |   [Bangladeshcha (বাংলা)](/translations/README/BANGLA.md)   | [Xitoycha (Soddalashtirilgan) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Golland](/translations/README/DUTCH.md)            |           [Ingliz (English)](/README.md)           |
 | :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------: |
 |  [Fransuz (Français)](/translations/README/FRENCH.md)   |  [Nemis (Deutsch)](/translations/README/GERMAN.md)  |                 [Hind (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Yapon (日本語)](/translations/日本語/README.md) |
 |   [Koreys (한국어)](/translations/README/KOREAN.md)    |  [Polyak (Polski)](/translations/README/POLISH.md)   |          [Portugal (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Rus (Русский)](/translations/README/RUSSIAN.md)     | [Serb (Српски)](/translations/README/SERBIAN.md) |
