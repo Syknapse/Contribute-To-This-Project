@@ -1210,5 +1210,43 @@
         "text": "Full Stack Open (React, Node.js, MongoDB)"
       }
     ]
+  },
+  {
+    "name": "Yashvi Upadhyay",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/24f2007780",
+        "handle": "24f2007780"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/yashvi-upadhyay-a96546324",
+        "handle": "LinkedIn"
+      },
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://twitter.com/data_yashvi",
+        "handle": "Twitter"
+      }
+    ],
+    "about": "I mostly visualize life & work as charts, pros-cons in my mind & observe minute events mathematically. I'm into Business, Maths, World Economy News.",
+    "resources": [
+      {
+        "title": "Beginner-friendly Python course by Dr. Charles Severance",
+        "link": "https://www.py4e.com/lessons",
+        "text": "Python for Everybody"
+      },
+      {
+        "title": "MIT Linear Algebra course by Gilbert Strang",
+        "link": "https://web.mit.edu/18.06/www/old.shtml",
+        "text": "MIT Linear Algebra (Gilbert Strang)"
+      },
+      {
+        "title": "Modern full stack web development",
+        "link": "https://fullstackopen.com/en/",
+        "text": "Full Stack Open (React, Node.js, MongoDB)"
+      }
+    ]
   }
 ]
