@@ -247,7 +247,7 @@ footer {
   color: var(--color-bg);
 }
 [data-theme='retro'] .contact a {
-  color: var(--color-bg);
+  color: #f2f2f2;
 }
 .about {
   background-color: var(--color-surface-alt);
