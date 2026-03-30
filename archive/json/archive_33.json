@@ -1116,5 +1116,33 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "name": "Rishav Chandra",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/22f1001685",
+        "handle": "22f1001685"
+      }
+    ],
+    "about": "A data science student exploring machine learning, NLP, and real-world problem solving. Passionate about building projects and contributing to open source.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "Kaggle",
+        "link": "https://www.kaggle.com",
+        "text": "Kaggle"
+      }
+    ]
   }
 ]
