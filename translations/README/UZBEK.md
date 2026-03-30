@@ -79,12 +79,12 @@ Bunda siz tayyor shablon fayldan nusxa olib, oʻz maʼlumotlaringiz bilan toʻld
 
 Bu qoʻllanma [boshqa tillarda](/translations/README.md) ham mavjud
 
-|    [Arabcha (عربي)](/translations/README/ARABIC.md)     |   [Bangladeshcha (বাংলা)](/translations/README/BANGLA.md)   | [Xitoycha (Soddalashtirilgan) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Golland](/translations/README/DUTCH.md)            |           [Ingliz (English)](/README.md)           |
+|    [Arabcha (عربي)](/translations/README/ARABIC.md)     |   [Bangladeshcha (বাংলা)](/translations/README/BANGLA.md)   | [Xitoycha (Soddalashtirilgan) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Golland (Dutch)](/translations/README/DUTCH.md)            |           [Ingliz (English)](/README.md)           |
 | :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------: |
 |  [Fransuz (Français)](/translations/README/FRENCH.md)   |  [Nemis (Deutsch)](/translations/README/GERMAN.md)  |                 [Hind (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Yapon (日本語)](/translations/日本語/README.md) |
 |   [Koreys (한국어)](/translations/README/KOREAN.md)    |  [Polyak (Polski)](/translations/README/POLISH.md)   |          [Portugal (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Rus (Русский)](/translations/README/RUSSIAN.md)     | [Serb (Српски)](/translations/README/SERBIAN.md) |
 | [Somalian (Af-Soomaali)](/translations/README/SOMALI.md) | [Ispan (Español)](/translations/README/SPANISH.md) |               [Turk (Türkçe)](/translations/README/TURKISH.md)               | [Ukrain (українська)](/translations/README/UKRAINIAN.md) |    [Urdu (اُردُو)](/translations/README/URDU.md)    |
-| [Norveg (Norsk)](/translations/README/NORWEGIAN.md) |    [Malay](/translations/README/MALAYALAM.md)    |               [Oʻzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                 |                                                             |                                                     |
+| [Norveg (Norsk)](/translations/README/NORWEGIAN.md) |    [Malay (Malayam)](/translations/README/MALAYALAM.md)    |               [Oʻzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                 |                                                             |                                                     |
 
 > Loyiha qoʻllanmasi uchun tarjimalar joʻnatishingizdan faqatgina mamnun boʻlamiz. Hissa qoʻshish uchun [`Tarjima uchun Qoʻllanmani`](/translations/README.md) oʻqing.
 
