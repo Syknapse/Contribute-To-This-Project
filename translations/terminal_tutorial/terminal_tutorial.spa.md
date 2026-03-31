@@ -1,7 +1,3 @@
-> ⚠️ **This translation is outdated.** It describes an old workflow that no longer works. Please follow the [English terminal tutorial](../../terminal_tutorial.md) for the current step-by-step tutorial.
-
----
-
 # [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![image info](/favicon.png)
@@ -10,7 +6,7 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF '¡Únete a nuestro servidor de Discord!')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Únete a nuestro servidor de Discord')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
@@ -18,372 +14,270 @@
 
 > ## **Anuncio:**
 >
-> ¿Te gustaría convertirte en mantenedor de este proyecto y ayudar a mantenerlo activo? Si estás interesado, lee la [guía de mantenedores](/maintainer_guide.md) y envíame un mensaje directo en [Twitter](https://twitter.com/Syknapse).
+> ¿Te gustaría convertirte en mantenedor de este proyecto? Lee la [guía para mantenedores](/maintainer_guide.md), únete a nuestro [servidor de Discord](https://discord.gg/tWkvS4ueVF) y solicita unirte al equipo.
 
 ---
 
 ### Índice de acceso rápido
 
-#### Vista general
-
-- [Anuncios](#announcement)
-- [Introducción](#introduction)
-- [¿Para quién es esto?](#who-is-this-for)
-- [¿Por qué necesito hacer esto?](#why-do-i-need-to-do-this)
-- [¿A qué voy a contribuir?](#what-am-i-going-to-contribute)
-- [Traducciones](#translations)
-- [Configuración](#setup-)
-- [Próximos pasos](#next-steps)
-- [Agradecimientos](#acknowledgements)
-- [Top 100 Contribuidores](#top-100-contributors)
-
-#### Pasos
-
-- [Contribuir](#contribute)
-- [Paso 1 - Fork](#step-1-fork-this-repository)
-- [Paso 2 - Clonar](#step-2-clone-the-repository)
-- [Paso 3 - Crear una nueva rama](#step-3-create-a-new-branch)
-- [Paso 4 - Abrir el archivo index.html](#step-4-open-the-indexhtml-file)
-- [Paso 5 - Copiar la plantilla de tarjeta](#step-5-copy-the-card-template)
-- [Paso 6 - Aplicar tus cambios](#step-6-apply-your-changes)
-- [Paso 7 - Hacer commit](#step-7-commit-your-changes)
-- [Paso 8 - Hacer push a GitHub](#step-8-push-your-changes-to-github)
-- [Paso 9 - Enviar un PR](#step-9-submit-a-prpull-request)
-- [Paso 10 - Celebrar](#step-10-celebrate)
+- [Introducción](#introduccion)
+- [¿Para quién es esto?](#para-quien-es-esto)
+- [¿Con qué voy a contribuir?](#con-que-voy-a-contribuir)
+- [Traducciones](#traducciones)
+- [Preparación](#preparacion)
+- [Contribuir](#contribuir)
+  - [Paso 1: Haz fork de este repositorio](#paso-1-haz-fork-de-este-repositorio)
+  - [Paso 2: Clona el repositorio](#paso-2-clona-el-repositorio)
+  - [Paso 3: Crea una nueva rama](#paso-3-crea-una-nueva-rama)
+  - [Paso 4: Copia el archivo plantilla](#paso-4-copia-el-archivo-plantilla)
+  - [Paso 5: Completa tu tarjeta](#paso-5-completa-tu-tarjeta)
+  - [Paso 6: Revisa tu trabajo](#paso-6-revisa-tu-trabajo)
+  - [Paso 7: Haz commit de tus cambios](#paso-7-haz-commit-de-tus-cambios)
+  - [Paso 8: Sube tus cambios a GitHub](#paso-8-sube-tus-cambios-a-github)
+  - [Paso 9: Envía un PR](#paso-9-envia-un-pr-pull-request)
+  - [Paso 10: Celebra](#paso-10-celebra)
+- [Siguientes pasos](#siguientes-pasos)
 
 ---
 
 ## Introducción
 
-Aquí aprenderemos cómo contribuir a este proyecto o a GitHub/Git utilizando la _Terminal_.  
-Este es un tutorial para ayudar a contribuyentes primerizos a participar en un proyecto simple y fácil.
-
-### Objetivos
-
-- Realizar una contribución a un proyecto de código abierto.
-- Sentirte más cómodo usando GitHub.
+Esta es la versión del tutorial para terminal. Todo aquí usa Git por línea de comandos. Si prefieres una interfaz gráfica, usa [GitHub Desktop](/README.md).
 
 ### ¿Para quién es esto?
 
-- Esto es para principiantes absolutos. Si sabes cómo escribir y editar una etiqueta `<a href="" target=""></a>` puedes hacerlo.
-- También es para quienes ya tienen un poco de experiencia pero quieren hacer su primera contribución open source, o sumar más contribuciones para ganar experiencia y confianza.
+Para cualquier persona lo bastante cómoda con terminal como para ejecutar comandos básicos de Git. No necesitas ser experto: si puedes moverte entre carpetas y correr comandos, ya puedes hacerlo.
 
-### ¿Por qué necesito hacer esto?
+### ¿Con qué voy a contribuir?
 
-Cualquier desarrollador web, aspirante o experimentado, necesita usar el control de versiones Git, y GitHub es el servicio de hosting de Git más popular utilizado por todos. También es el corazón de la comunidad de código abierto. Sentirse cómodo usando GitHub es una habilidad esencial. Hacer una contribución a un proyecto aumenta tu confianza y te da algo que mostrar en tu perfil de GitHub.
-
-Si eres un desarrollador nuevo y te preguntas si necesitas aprender Git y GitHub, aquí tienes la respuesta:  
-[Deberías haber aprendido Git ayer (eng., You Should've Learned Git Yesterday)](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa '¿Eres un desarrollador nuevo? Deberías haber aprendido Git ayer. por Brandon Morelli, creador de CodeBurst.io').
-
-### ¿A qué voy a contribuir?
-
-![Tarjeta de contribuyente](/readme-only/card.PNG 'Tarjeta de contribuyente')
-
-Vas a contribuir una tarjeta como esta en la [página web del proyecto](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project'). Incluirá tu nombre, tu usuario de Twitter, una descripción corta y 3 enlaces a recursos útiles para desarrolladores web.
-
-Harás una copia de la plantilla dentro del archivo HTML y la personalizarás con tu información.
+Agregarás una tarjeta personal en la [página del proyecto](https://syknapse.github.io/Contribute-To-This-Project/). Incluirá tu nombre, enlaces de contacto, una descripción corta y enlaces a recursos para desarrolladores que recomiendes.
 
 ---
 
-### Traducciones
+## Traducciones
 
-Este tutorial también está disponible en [otros idiomas](/translations/README.md)
+Este tutorial también está disponible en otros idiomas. Ten en cuenta que las traducciones pueden ir un poco atrasadas frente a la versión en inglés.
 
-| [English](/terminal_tutorial.md) | [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
-| :----: | :----: | :----: | :----: | :----: |
-| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Spanish](/translations/terminal_tutorial/terminal_tutorial.spa.md)
+|      [Bengalí](translations/terminal_tutorial/terminal_tutorial.ben.md)      | [Alemán](translations/terminal_tutorial/terminal_tutorial.ger.md)  | [Hindi](translations/terminal_tutorial/terminal_tutorial.hin.md)  |  [Coreano](translations/terminal_tutorial/terminal_tutorial.kor.md)  | [Chino (Tradicional)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) |
+| :--------------------------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: | :-------------------------------------------------------------------------------: |
+| [Portugués (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Español](translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ucraniano](translations/terminal_tutorial/terminal_tutorial.ukr.md) |                                                                                   |
 
-> Las traducciones de la documentación del proyecto son bienvenidas. Leer [`Guía de traducciones`](/translations/README.md) para contribuir.
-
----
-
-### ¡Configuración! :)
-
-> [!Note]
-> Si no eres bueno con la interfaz de línea de comandos, aquí tienes el [tutorial GUI usando GitHub Desktop](/README.md)
-
-Primero configuremos todo para comenzar.
-
-1. Inicia sesión en tu cuenta de GitHub. Si aún no tienes cuenta, puedes [crear una aquí](https://github.com/join). Se recomienda completar el [tutorial GitHub Hello World](https://guides.github.com/activities/hello-world/) antes de continuar.
-2. Si no tienes Git instalado, [descárgalo desde aquí](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-> Ahora que ya tienes todo configurado, continuemos con la tarea de contribuir al proyecto.
-
-[↑ Volver arriba ↑](#quick-access-index)
+> Las traducciones de este tutorial son bienvenidas. Revisa [CONTRIBUTING.md](../../CONTRIBUTING.md) para empezar.
 
 ---
 
-### Contribuir
+## Preparación
 
-Conviértete en contribuidor open source en 10 pasos fáciles. 
-
-_Tiempo estimado: Menos de 30 minutos._
-
-#### Paso 1: Hacer un fork de este repositorio
-
-- El objetivo aquí es hacer una copia de este proyecto y colocarla en tu cuenta.
-- Un repositorio (repo) es como se llama a un proyecto en GitHub y un fork es una copia del mismo.
-- Asegúrate de estar en la [página principal](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') de este repositorio.
-
-| ![Fork](/readme-only/fork.png "clic on 'Fork'") |
-| :---------------------------------------------: |
-|       **Haz clic en el botón _Fork_**       |
-
-- Ahora tienes una copia completa del proyecto en tu propia cuenta.
-
-[↑ Volver arriba ↑](#quick-access-index)
-
----
-
-### Paso 2: Clonar el repositorio
-
-- Ahora queremos hacer una copia local del proyecto. Es decir, una copia guardada en tu propia máquina.
-
-![Clone](/readme-only/clone-terminal.png)
-
-- Ahora clona este repositorio en tu máquina. Haz clic en el botón de clonar y luego en el icono de copiar al portapapeles.
-- Un repositorio (repo) es como se llama a un proyecto en GitHub y un fork es una copia del mismo.
-
-Abre la terminal y ejecuta el siguiente comando:
+Asegúrate de tener Git instalado:
 
 ```bash
-git clone "url que acabas de copiar"
+git --version
 ```
 
-Por ejemplo:
-
-```bash
-git clone https://github.com/$Username/Contribute-To-This-Project.git
-```
-
-donde `$Username` es tu nombre de usuario de GitHub. Aquí estás copiando el contenido del repositorio first-contributions en GitHub a tu computadora.
-
-[↑ Volver arriba ↑](#quick-access-index)
+Si no lo tienes, [descarga Git aquí](https://git-scm.com/downloads).
 
 ---
 
-#### Paso 3: Crear una nueva rama
+## Contribuir
 
-Cambia al directorio del repositorio en tu computadora (si aún no estás allí):
+Conviértete en contribuyente de código abierto en 10 pasos.
+
+### Paso 1: Haz fork de este repositorio
+
+Haz fork de este proyecto haciendo clic en el botón **Fork** arriba a la derecha en la [página del repositorio](https://github.com/Syknapse/Contribute-To-This-Project). Esto crea una copia del proyecto en tu cuenta de GitHub.
+
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+
+---
+
+### Paso 2: Clona el repositorio
+
+Clona tu fork en tu máquina local:
+
+```bash
+git clone https://github.com/tu-usuario-github/Contribute-To-This-Project.git
+```
+
+Luego entra al directorio del proyecto:
 
 ```bash
 cd Contribute-To-This-Project
 ```
 
-Ahora crea una nueva rama usando el comando `git checkout`
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+
+---
+
+### Paso 3: Crea una nueva rama
+
+Crea y cambia a una rama nueva:
 
 ```bash
-git checkout -b tu-nombre-de-rama-nueva
+git checkout -b tu-nombre-card
 ```
 
-Por ejemplo:
+Usa un nombre descriptivo. `tu-nombre-card` es una buena convención para este proyecto.
+
+**NO trabajes en la rama `master`.**
+
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+
+---
+
+### Paso 4: Copia el archivo plantilla
+
+El proyecto tiene una plantilla de tarjeta lista en la carpeta `cards/`. Cópiala y renombra la copia con tu nombre de usuario exacto de GitHub:
 
 ```bash
-git checkout -b add-$Username-card
+cp cards/template.html cards/tu-usuario-github.html
 ```
 
-Nota: Cambia `$Username` con tu nombre de usuario de GitHub.
-
-- Ahora has creado una nueva rama separada de la master.
-- Para los siguientes pasos, asegúrate de estar trabajando en esta rama. Verás el nombre de la rama en la que estás en la parte inferior izquierda del editor de texto que estés usando, donde dice `$Username-card` como nombre de tu rama.
-
-**NO trabajes en la rama `master`**
-
-[↑ Volver arriba ↑](#quick-access-index)
-
----
-
-#### Paso 4: Abrir el archivo index.html
-
-Ahora necesitamos abrir el archivo que vamos a editar con tu editor de código favorito. Nosotros usamos [VSCode](https://code.visualstudio.com/) como nuestro editor de código preferido.
-
-- El archivo `index.html` está directamente en la carpeta `Contribute-To-This-Project`.
-- Puedes abrir el archivo con el siguiente comando:
+Por ejemplo, si tu usuario es `octocat`:
 
 ```bash
-code index.html
+cp cards/template.html cards/octocat.html
 ```
 
-Nota: Este es un código de terminal para abrir el archivo: `index.html` en `VSCode`.
+**Este es el único archivo que vas a editar.** No edites `cards/template.html`.
 
-- Ahora tienes el archivo que vas a editar abierto en tu editor y estás listo para comenzar a hacer cambios en él.
-
-[↑ Volver arriba ↑](#quick-access-index)
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
 
 ---
 
-#### Paso 5: Copiar la plantilla de la tarjeta
+### Paso 5: Completa tu tarjeta
 
-- Haremos una copia de la plantilla de la tarjeta para comenzar a trabajar en ella
-- En la parte superior del archivo html, debajo del `<head>` justo dentro del elemento `<body>`, hay disponible `<div class="container">` que contiene otras secciones
-- Las **primeras 2** secciones son exactamente como: `<div class="row">`
-- Contráelas haciendo clic en la flecha si usas VSCode como se muestra en la captura de pantalla 
-
-| ![Encontrar plantilla de tarjeta](/readme-only/find-card-template.png 'Encontrar plantilla de tarjeta') |
-| :--------------------------------------------------------------------------------: |
-
-- La plantilla de tarjeta de contribuciones llamada `<div class="grid" id="contributions">` debería ser visible ya que encontrarás la sección etiquetada como `== TEMPLATE ==`
-- Copia todo dentro del cuadrado rojo en la imagen, desde el comentario `Contributor card START` hasta el comentario `Contributor card END`
-
-| ![Copiar plantilla de tarjeta](/readme-only/card-copy.PNG 'Copiar plantilla de tarjeta') |
-| :-----------------------------------------------------------------------: |
-
-- Pega todo directamente debajo del comentario que lo indica
-- Asegúrate de que haya una sola línea de espacio entre el inicio de tu tarjeta y el final de la última tarjeta. Es una buena práctica mantener nuestro código lo más claro posible
-- Nunca uses linters o formateadores de estilo. El proyecto tiene Prettier configurado
-
-| ![Pegar plantilla de tarjeta](/readme-only/card-paste.PNG 'Pegar plantilla de tarjeta') |
-| :---------------------------------------------------------------------------------: |
-
-- Esta ahora es **tu** tarjeta para que la personalices y edites.
-
-[↑ Volver arriba ↑](#quick-access-index)
-
----
-
-#### Paso 6: Aplicar tus cambios
-
-- Ahora comenzaremos a editar html, cambiando los campos personalizables en nuestra tarjeta.
-
-| :arrow_right_hook: Reemplaza 'Name' con tu nombre | ![Cambiar nombre](/readme-only/change-name.PNG 'Escribe tu nombre') |
-| :------------------------------------------------ | :----------------------------------------------------------: |
-
-- **Note: No cambies`class="name"`**
-
-| :arrow_right_hook: Inserta la URL de tu cuenta de Twitter `href="Inserta URL aquí"`, Escribe tu nombre de usuario en el campo de texto | ![Cambiar contacto](/readme-only/change-contact.PNG 'Inserta un enlace a tu cuenta de Twitter y escribe tu nombre de usuario') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
-
-- Si prefieres usar otro método de contacto diferente a Twitter, deberás reemplazar el ícono de Twitter `<i class="fa fa-x-twitter"></i>` yendo a [Font Awesome Icons](http://fontawesome.io/icons/), buscando el ícono adecuado y reemplazando sólo la parte de `fa-x-twitter` con la del nuevo ícono. `fa-facebook` por ejemplo. Luego continúa con los mismos pasos.
-
-|![Cambiar el "Aceca de"](/readme-only/change-about.PNG 'Escribe una oración acerca de ti')|
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                              :arrow_right_hook: **Cuéntanos algo sobre ti. Mantenlo breve y conciso. Piensa en ello más como un tweet que como una publicación de blog**           |
-|                                                                                                               ![Cambiar recursos](/readme-only/change-resources.PNG 'Inserta un enlace, escribe una descripción corta y el nombre del recurso')                                                                                                              |
-| :arrow_right_hook: **Comparte con la comunidad 3 enlaces a recursos que sean útiles para el desarrollo web. Esto puede ser cualquier cosa: un video, una charla, un podcast, un artículo, una referencia o una herramienta. Si eres principiante, no te intimides por esto, comparte lo que sepas incluso si crees que es básico. Te sorprenderás de cuántas personas se beneficiarán.** |
-
-- **Link:** Inserta el enlace `href="aquí"` reemplazando el `#`. ¡Por favor, abstente de usar acortadores de URL o URLs que no sean del sitio que estás publicando!
-- **Titulo:** Escribe una breve descripción `title="here"`.
-- **Nombre:** Escribe el nombre del recurso en el campo de texto `>here</a>`.
-- Asegúrate de haber **guardado todos tus cambios**.
-- **Prueba tus cambios**. ¡ESTO ES IMPORTANTE! Abre el archivo HTML en tu navegador (por ejemplo, haciendo doble clic en él) y observa cómo se verá tu tarjeta en el sitio. Verifica que toda la página aún se vea igual y que nada esté roto. Haz clic en tus enlaces y asegúrate de que funcionen. Abre la consola (Ctrl + Shift + J en Windows/Linux, o Cmd + Opt + J en Mac) y comprueba que no haya mensajes de error.
-- ¡Genial, has terminado de editar tu código! Los siguientes pasos enviarán tus cambios a GitHub y luego los enviarán para que se fusionen con el proyecto principal.
-
-[↑ Volver arriba ↑](#quick-access-index)
-
----
-
-#### Paso 7: Hacer commit de tus cambios
-
-- Ahora abre la terminal en el directorio de tu proyecto y ejecuta `git status` y notarás que no hay cambios realizados en git.
-- Puedes agregar esos cambios que hiciste usando el comando `git-add`
+Abre tu archivo de tarjeta en el editor que prefieras:
 
 ```bash
-git add index.html
+code cards/tu-usuario-github.html   # VS Code
+# o: nano, vim, etc.
 ```
 
-- Ahora haz commit de esos cambios usando el comando `git commit`
+Tu tarjeta se ve así:
+
+```html
+<div class="card">
+  <p class="name">Your name</p>
+  <p class="contact">
+    <!-- Add one or more contact links. At minimum, include your GitHub. -->
+    <i class="fab fa-github"></i>
+    <a href="https://www.github.com/your_user_handle" target="_blank">Your handle</a>
+  </p>
+  <p class="about">Write a sentence or two about yourself.</p>
+  <div class="resources">
+    <p>3 Useful Dev Resources</p>
+    <ul>
+      <li>
+        <a href="#" target="_blank" title="First Resource">Resource 1</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="Second Resource">Resource 2</a>
+      </li>
+      <li>
+        <a href="#" target="_blank" title="Third Resource">Resource 3</a>
+      </li>
+    </ul>
+  </div>
+</div>
+```
+
+Complétala así:
+
+- **Nombre**: reemplaza `Your name` por tu nombre. No cambies `class="name"`.
+- **Contacto**: reemplaza el enlace y usuario de GitHub por los tuyos. Puedes agregar más contactos. Busca clases de iconos en [Font Awesome Icons](https://fontawesome.com/icons) (ej. `fab fa-linkedin`, `fab fa-x-twitter`).
+- **About**: reemplaza el texto de ejemplo con una descripción corta sobre ti.
+- **Recursos**: reemplaza `#` con URLs reales, actualiza `title=""` y el texto de cada enlace. Son opcionales, pero si los incluyes, cada uno debe tener enlace real. Máximo 5.
+
+**No cambies nombres de clases ni la estructura del HTML.** El bot de validación revisa eso.
+
+Guarda el archivo cuando termines.
+
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+
+---
+
+### Paso 6: Revisa tu trabajo
+
+Abre tu archivo de tarjeta y revisa que:
+
+- Ya no haya texto de plantilla
+- Todos los enlaces empiecen con `https://`
+- El nombre del archivo coincida exactamente con tu usuario de GitHub
+
+La validación automática al enviar el PR detectará cualquier problema estructural que se te haya escapado.
+
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+
+---
+
+### Paso 7: Haz commit de tus cambios
+
+Agrega tu archivo de tarjeta:
 
 ```bash
-git commit -m "Add $Username card info"
+git add cards/tu-usuario-github.html
 ```
 
-- Reemplazando `$Username` con tu nombre de usuario de Github.
-
-[↑ Volver arriba ↑](#quick-access-index)
-
----
-
-#### Paso 8: Hacer push de tus cambios a GitHub
-
-- Tus cambios ahora están guardados o confirmados. Pero solo se guardan localmente, es decir, en tu computadora.
-- Sincronizar los cambios locales con tu repositorio en GitHub se llama _Push_. Estás "empujando" los cambios desde tu repositorio local al repositorio remoto en GitHub.
-- Usamos el comando `git push` para enviar cambios a github:
+Haz commit con un mensaje corto:
 
 ```bash
-git push -u origin $Username-card
+git commit -m "Add my card"
 ```
 
-- Reemplazando `$Username-card` con el nombre de tu rama.
-
-- Después de unos segundos, la operación se completa y ahora tienes exactamente la misma copia de esta rama en tu máquina y en GitHub.
-
-[↑ Volver arriba ↑](#quick-access-index)
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
 
 ---
 
-#### Paso 9: Enviar un PR (Pull Request)
+### Paso 8: Sube tus cambios a GitHub
 
-- ste es el momento que has estado esperando; enviar un _Pull Request_ (PR).
-- Hasta ahora, todo el trabajo que has hecho ha sido en el fork del proyecto, que como recordarás reside en tu propia cuenta de GitHub.
-- Ahora es el momento de enviar tus cambios al proyecto principal para que se fusionen con él.
-- Esto se llama [_Pull Request_](https://help.github.com/articles/about-pull-requests/ 'Acerca de las Pull Requests - Ayuda de GitHub') porque estás pidiendo al mantenedor del proyecto original que "extraiga (pull)" tus cambios a su proyecto.
-- Ve a la página principal de **tu fork** en GitHub (tendrá el icono de fork y tu propio nombre de usuario en la parte superior).
-- Hacia la parte superior del repo verás un mensaje de pull request resaltado con un botón verde.
+Haz push de tu rama a tu fork:
 
-|  ![Enviar un Pull Request](/readme-only/pull-request.PNG 'Esto normalmente se encuentra hacia la parte superior de la página, debajo de la descripción y encima de los archivos y carpetas del proyecto.')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Haz clic en `Compare and pull request`**                                                     |
-| ![Abrir un Pull Request](/readme-only/pull-request-branches.PNG 'Estás solicitando fusionar tu rama desde tu fork con la rama master del proyecto original.') |
-|                                              :arrow_right_hook: Así es como se ve la página `Open a pull request` (Abrir un Pull Request).                                             |
+```bash
+git push origin tu-nombre-card
+```
 
-- RECUERDA _estás intentando fusionar tu rama con el proyecto original, no con la rama `Master` en tu fork_.
-- La imagen de abajo te da una idea de cómo debería verse el encabezado de tu pull request.
-- A la izquierda está el proyecto original, seguido de la rama master. A la derecha está tu fork y la rama que creaste.
-
-|                   ![Enviar un Pull Request](/readme-only/pull-request-open.PNG "¡Haz clic en el botón verde. ¡No tengas miedo!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Crear un pull request: Escribe un título, agrega información opcional en la descripción y haz clic en `Create pull request` (Crear pull request)** |
-
-- No te sientas abrumado por todas las opciones. Solo necesitas hacer estos tres pasos por ahora.
-- Deja marcada la opción `Allow edits from maintainers` (Permitir ediciones de los mantenedores).
-- Ahora, se enviará un _Pull Request_ al mantenedor del proyecto. Tan pronto como sea revisado y aceptado, tus cambios aparecerán en la [página web del proyecto](https://syknapse.github.io/Contribute-To-This-Project 'Página web de Contribuir a este Proyecto').
-
-[↑ Volver arriba ↑](#quick-access-index)
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
 
 ---
 
-#### Paso 10: Celebrar
+### Paso 9: Envía un PR (Pull Request)
 
-¡Eso es todo. ¡Lo has logrado! Ahora has contribuido al código abierto en GitHub.
+Ve a tu fork en GitHub. Verás un mensaje para abrir un pull request de la rama que acabas de subir. Haz clic en **Compare & pull request**.
 
-Has agregado código a una página web en vivo: [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project)
+Asegúrate de que el repositorio base sea `Syknapse/Contribute-To-This-Project` y la rama base sea `master`.
 
-Tus cambios **no serán visibles inmediatamente**; primero deben ser revisados, aceptados y fusionados por el mantenedor del proyecto. Una vez que se fusionen, tu tarjeta debería ser visible y estar en vivo en la página.
+Deja activada la opción **Allow edits from maintainers** y luego haz clic en **Create pull request**.
 
-Es muy normal que un revisor solicite cambios en un PR. Considérelo una buena práctica si te sucede. Estate atento a los comentarios y cambios solicitados. Una vez que realices los cambios solicitados (nuevamente en tu rama), todo lo que tienes que hacer es confirmar y enviar tus cambios. El PR se actualizará automáticamente con los nuevos cambios.
+Un bot validará tu tarjeta automáticamente. Si todo está bien, la fusiona solo. Si hay algo que corregir, el bot dejará un comentario explicando exactamente qué cambiar. Haz push del arreglo a la misma rama y se vuelve a validar.
 
-Prometo que intentaré revisar y fusionar lo antes posible, pero lo hago en mi tiempo libre, por lo que es inevitable un retraso de unos días.
-
-[↑ Volver arriba ↑](#quick-access-index)
+[↑ Ir arriba ↑](#indice-de-acceso-rapido)
 
 ---
 
-### Próximos pasos
+### Paso 10: Celebra
 
-- Vuelve en un rato para verificar tu Pull Request fusionado.
-- Deberías recibir un correo electrónico de GitHub cuando tus cambios hayan sido aprobados, o si se solicitan cambios adicionales. Y cuando el PR finalmente se fusiona con el master y se ha agregado tu tarjeta.
-- También puedes aprender a contribuir desde esta serie _gratuita_: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
-- Si encontraste este proyecto **útil** por favor dale una :star: estrella :star: en la parte superior de la página y **Tweet** al respecto para ayudar a correr la voz [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
-- Puedes **seguirme** y ponerte en contacto en Twitter [Twitter](https://twitter.com/Syknapse '@Syknapse') o [usando cualquiera de estas otras opciones](https://syknapse.github.io/Syk-Houdeib/#contact 'Mi sección de contacto | Portafolio')
-- Este es un proyecto de código abierto, por lo que aparte de contribuir con tu tarjeta, eres bienvenido a ayudar a corregir errores, mejoras o nuevas características. Abre un [issue](https://help.github.com/articles/creating-an-issue/ 'Dominando los Issues | Guías de GitHub') o envía un nuevo [pull request](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Creando un pull request desde un fork | Ayuda de GitHub')
-- Para ayudar a mejorar nuestra comunidad, echa un vistazo a la pestaña de GitHub [Discussions](https://github.com/Syknapse/Contribute-To-This-Project/discussions) ubicada junto a Pull Requests. Esta área es un lugar para presentarte, profundizar en discusiones sobre Código Abierto y comunicarte con los Mantenedores del Proyecto. ¿Nos ayudarás a desarrollar esta función y mejorar nuestra comunidad?
-- **Gracias por contribuir a este proyecto**. Ahora puedes seguir adelante y probar a contribuir a otros proyectos; busca la etiqueta ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para opciones de contribución aptas para principiantes.
-- También estoy buscando colaboradores que me ayuden a revisar y fusionar PRs. Si te gustaría obtener más práctica avanzada con Git, envíame un MD en Twitter y lee la [guía del mantenedor](/maintainer_guide.md).
+Ya hiciste tu primera contribución open source. Tu tarjeta aparecerá en [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project) poco después del merge.
 
-[↑ Volver arriba ↑](#quick-access-index)
+**¿Dónde quedó mi archivo HTML?** Después de un tiempo, las tarjetas enviadas se archivan automáticamente para mantener el repositorio liviano. Tu archivo se elimina de `cards/`, pero sus datos se conservan en el archivo y tu tarjeta sigue apareciendo en el sitio. [Más información](../../archive/README.md).
 
 ---
 
-### Reconocimientos
+## Siguientes pasos
 
-Este proyecto está fuertemente influenciado por [Roshan Jossey's](https://github.com/Roshanjossey) en su gran proyecto [first-contributions](https://github.com/Roshanjossey/first-contributions) con su excelente tutorial.
+- También puedes aprender a contribuir con esta serie _gratuita_: [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
+- Si este proyecto te fue **útil**, deja una :star: estrella :star: y comparte en X [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+- Únete a nuestro [servidor de Discord](https://discord.gg/tWkvS4ueVF)
+- ¿Quieres contribuir más allá de tu tarjeta? Revisa [CONTRIBUTING.md](../../CONTRIBUTING.md) para la guía completa.
+- **Gracias por contribuir!** Ahora puedes probar contribuir en otros proyectos. Busca la etiqueta ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para opciones amigables para principiantes.
 
-También está particularmente inspirado por la gran comunidad alrededor de [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleUdacityScholars?src=hash) The Google Challenge Scholarship: Front-End Web Dev, class de 2017 Europa.
+---
+
+### Agradecimientos
+
+Este proyecto está fuertemente influenciado por el gran proyecto [first-contributions](https://github.com/Roshanjossey/first-contributions) de [Roshan Jossey](https://github.com/Roshanjossey).
 
 ### Top 100 Contributors
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
-
-[↑ Volver arriba ↑](#quick-access-index)
 
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet este proyecto'
