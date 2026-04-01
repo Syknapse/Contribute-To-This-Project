@@ -1248,5 +1248,33 @@
         "text": "Full Stack Open (React, Node.js, MongoDB)"
       }
     ]
+  },
+  {
+    "name": "Yu Cheng",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/yuchengpersonal",
+        "handle": "yuchengpersonal"
+      }
+    ],
+    "about": "Open source enthusiast, love contributing to projects and learning new technologies.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
