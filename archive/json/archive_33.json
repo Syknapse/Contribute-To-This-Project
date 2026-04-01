@@ -1060,5 +1060,249 @@
         "text": "DeepSeek"
       }
     ]
+  },
+  {
+    "name": "Jarrett West",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/jaydubya818",
+        "handle": "jaydubya818"
+      }
+    ],
+    "about": "Developer exploring open source and building cool things on GitHub.",
+    "resources": [
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      }
+    ]
+  },
+  {
+    "name": "Annu Bharti",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/23f2003697",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://flask.palletsprojects.com/en/stable/",
+        "text": "Resource 1"
+      },
+      {
+        "title": "js",
+        "link": "https://devdocs.io/javascript/",
+        "text": "Resource 2"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.w3schools.com/python/python_reference.asp",
+        "text": "Resource 3"
+      }
+    ]
+  },
+  {
+    "name": "Rishav Chandra",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/22f1001685",
+        "handle": "22f1001685"
+      }
+    ],
+    "about": "A data science student exploring machine learning, NLP, and real-world problem solving. Passionate about building projects and contributing to open source.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "Kaggle",
+        "link": "https://www.kaggle.com",
+        "text": "Kaggle"
+      }
+    ]
+  },
+  {
+    "name": "Rishav Chandra",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/22f1001685",
+        "handle": "22f1001685"
+      }
+    ],
+    "about": "A data science student exploring machine learning, NLP, and real-world problem solving. Passionate about building projects and contributing to open source.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "Kaggle",
+        "link": "https://www.kaggle.com",
+        "text": "Kaggle"
+      }
+    ]
+  },
+  {
+    "name": "Yashvi Upadhyay",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/24f2007780",
+        "handle": "24f2007780"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/yashvi-upadhyay-a96546324",
+        "handle": "LinkedIn"
+      },
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://twitter.com/data_yashvi",
+        "handle": "Twitter"
+      }
+    ],
+    "about": "I mostly visualize life & work as charts, pros-cons in my mind & observe minute events mathematically. I'm into Business, Maths, World Economy News.",
+    "resources": [
+      {
+        "title": "Beginner-friendly Python course by Dr. Charles Severance",
+        "link": "https://www.py4e.com/lessons",
+        "text": "Python for Everybody"
+      },
+      {
+        "title": "MIT Linear Algebra course by Gilbert Strang",
+        "link": "https://web.mit.edu/18.06/www/old.shtml",
+        "text": "MIT Linear Algebra (Gilbert Strang)"
+      },
+      {
+        "title": "Modern full stack web development",
+        "link": "https://fullstackopen.com/en/",
+        "text": "Full Stack Open (React, Node.js, MongoDB)"
+      }
+    ]
+  },
+  {
+    "name": "Yashvi Upadhyay",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/24f2007780",
+        "handle": "24f2007780"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/yashvi-upadhyay-a96546324",
+        "handle": "LinkedIn"
+      },
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://twitter.com/data_yashvi",
+        "handle": "Twitter"
+      }
+    ],
+    "about": "I mostly visualize life & work as charts, pros-cons in my mind & observe minute events mathematically. I'm into Business, Maths, World Economy News.",
+    "resources": [
+      {
+        "title": "Beginner-friendly Python course by Dr. Charles Severance",
+        "link": "https://www.py4e.com/lessons",
+        "text": "Python for Everybody"
+      },
+      {
+        "title": "MIT Linear Algebra course by Gilbert Strang",
+        "link": "https://web.mit.edu/18.06/www/old.shtml",
+        "text": "MIT Linear Algebra (Gilbert Strang)"
+      },
+      {
+        "title": "Modern full stack web development",
+        "link": "https://fullstackopen.com/en/",
+        "text": "Full Stack Open (React, Node.js, MongoDB)"
+      }
+    ]
+  },
+  {
+    "name": "Yu Cheng",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/yuchengpersonal",
+        "handle": "yuchengpersonal"
+      }
+    ],
+    "about": "Open source enthusiast, love contributing to projects and learning new technologies.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      }
+    ]
+  },
+  {
+    "name": "GabrielCalixt",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/GabrielCalixt",
+        "handle": "GabrielCalixt"
+      }
+    ],
+    "about": "I'm discovering myself in the world of web development. I have a passion for books and walkable cities.",
+    "resources": [
+      {
+        "title": "API best practices",
+        "link": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "text": "API best practices"
+      },
+      {
+        "title": "System Design Interview",
+        "link": "https://www.youtube.com/c/SystemDesignInterview",
+        "text": "System Design Interview"
+      },
+      {
+        "title": "AWS Architecture",
+        "link": "https://aws.amazon.com/pt/architecture/this-is-my-architecture/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.category=*all&awsf.industry=*all&awsf.language=*all&awsf.show=*all&awsm.page-tma=2",
+        "text": "AWS Architecture"
+      }
+    ]
   }
 ]
