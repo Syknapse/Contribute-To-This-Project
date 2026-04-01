@@ -1276,5 +1276,33 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "name": "GabrielCalixt",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/GabrielCalixt",
+        "handle": "GabrielCalixt"
+      }
+    ],
+    "about": "I'm discovering myself in the world of web development. I have a passion for books and walkable cities.",
+    "resources": [
+      {
+        "title": "API best practices",
+        "link": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+        "text": "API best practices"
+      },
+      {
+        "title": "System Design Interview",
+        "link": "https://www.youtube.com/c/SystemDesignInterview",
+        "text": "System Design Interview"
+      },
+      {
+        "title": "AWS Architecture",
+        "link": "https://aws.amazon.com/pt/architecture/this-is-my-architecture/?tma.sort-by=item.additionalFields.airDate&tma.sort-order=desc&awsf.category=*all&awsf.industry=*all&awsf.language=*all&awsf.show=*all&awsm.page-tma=2",
+        "text": "AWS Architecture"
+      }
+    ]
   }
 ]
