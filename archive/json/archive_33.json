@@ -1304,5 +1304,38 @@
         "text": "AWS Architecture"
       }
     ]
+  },
+  {
+    "name": "Pranav M S Krishnan",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Pranav-MSK",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://linkedin.com/in/pranav-m-s-krishnan-25b5982a9",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "Developer passionate about data, web, and cloud technologies, actively building projects and exploring open-source to strengthen real-world skills.",
+    "resources": [
+      {
+        "title": "Step-by-step developer learning roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Developer Roadmaps"
+      },
+      {
+        "title": "Fast, all-in-one searchable documentation",
+        "link": "https://devdocs.io/",
+        "text": "DevDocs Reference Tool"
+      },
+      {
+        "title": "Real-world frontend coding challenges with designs",
+        "link": "https://www.frontendmentor.io/",
+        "text": "Frontend Mentor Challenges"
+      }
+    ]
   }
 ]
