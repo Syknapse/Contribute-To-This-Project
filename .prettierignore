@@ -3,6 +3,7 @@
 # prettier action can't write back to the contributor's branch).
 cards/*.html
 
-# Archive data files
-archive/cards/*.json
+# Archive data files — auto-generated, never format manually
+archive/json/*.json
+archive/manifest.json
 archive/archiveFilesTotal.js
