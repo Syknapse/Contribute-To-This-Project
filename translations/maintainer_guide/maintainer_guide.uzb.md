@@ -13,7 +13,7 @@ Qoʻllanma [boshqa tillarda](translations/README.md) ham mavjud.
 | [Portugalcha (Português)](translations/maintainer_guide/maintainer_guide.por.md) | [Rus (Pусский](translations/maintainer_guide/maintainer_guide.rus.md) | [Ukrain (Yкраїнська)](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
 > Loyiha qoʻllanmasi uchun tarjimalar hush koʻriladi.
-> Bunda oʻz hissangizni qoʻshish uchun [`Tarjima Qilish Qoʻllanmasini`](translations/README.md) oʻqing.
+> Bunda oʻz hissangizni qoʻshish uchun [`Tarjima Qilish Qoʻllanmasini`](/translations/README.md) oʻqing.
 
 ---
 

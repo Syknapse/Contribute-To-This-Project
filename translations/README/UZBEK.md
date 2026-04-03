@@ -105,7 +105,7 @@ Birinchi, qani keling, ish muhitini sozlab olamiz.
    
 > Mana endi sizda barchasi shay holatda, demak ishni boshlab loyihaga hissa qoʻshishni boshlasak ham boʻladi.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -128,7 +128,7 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 
 - Endi sizda butun repoʼning nusxasi oʻz hisobingizda mavjud.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -153,7 +153,7 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 
 - Loyiha sizning qurilmaga saqlangunicha bir qancha vaqt olishi mumkin. Standart manzilni oʻzgartirmaslikni tavsiya qilaman, odatda `..\Documents\GitHub`.
 
-[↑ Qoʻllanma boshiqa qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -173,7 +173,7 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 
 **`master` novdada ISHLAMANG**
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -192,7 +192,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 
 - Endi `cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html`ni kod tahrirlovchingizda oching. Siz faqatgina shu faylni tahrirlashingiz kerak boʻladi.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -238,17 +238,17 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 
 - **Eslatma: class nomlarini, hamda, HTML asosini oʻzgartirmang.** PRʼni tekshiruvchi bot siz joʻnatgan PR toʻgʻriligini tekshiruvdan oʻtkizadi.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
 #### 6-qadam: Barchasini tekshiring
 
-- Oʻz karta faylingizni oching va bir boshdan oʻqib chiqing. Ishonch komil qilingki barcha oʻzgartirish kerak boʻlgan math toʻgʻirlangan, havolalar `https://` bilan boshlangan, va boshqa hech narsa hato koʻrinmayabdi.
+- Oʻz karta faylingizni oching va bir boshdan oʻqib chiqing. Ishonch komil qilingki barcha oʻzgartirish kerak boʻlgan maydon toʻgʻirlangan, havolalar `https://` bilan boshlangan, va boshqa hech narsa hato koʻrinmayabdi.
 - Havolalarni brauzeringizda ochib koʻrib, toʻgʻri ishlayotganini tekshirish ham sinalgan usuldir.
 - Manashular tekshirish uchun yetarlicha. Avtomatlashtirilgan tekshiruv sizning PRʼingizdan boshqa oʻtkazib yuborilgan tuzilma yetishmovchiliklarini tutib qoladi.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -267,7 +267,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 |                                                                                                                 ![Oʻzgarishlarga izoh yozing va topshiring](/readme-only/commit-message.PNG "'summary' qismida topshirish habari uchun qisqa izoh yozing, keyin 'commit' ustiga bosing")                                                                                                                  |
 | :arrow*right_hook: \*\**`Commit`_ qilish uchun siz birinchi navbatda _`Summary`_ qismini toʻldirishingiz lozim. Bu topshirish habari nimani oʻzgartirganingizni taʼriflashi kerak. Shunday ekan `"Mening kartamni qoʻshish"` yaxshi izoh boʻla oladi. Ihtiyoriy ravishda _`Description`_ orqali batafsilroq maʻlumot keltirishingiz mumkin. _`Commit`\_ tugmasini bosing. Tugma `Commit to "sizning-novdangiz-nomi"`\*\* |
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -281,7 +281,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 
 - Bir necha soniyadan soʻng jarayon yakunlanadi va endi sizda novdaning bir nusxasi ham mahalliy qurilmangizda, ham Git omborida mavjud.ub.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -311,7 +311,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 - `Allow edits from maintainers`ni belgilash esingizdan chiqmasin.
 - Mana endi _Tortish Soʻrovi_ loyihaga joʻnatildi. Bot avtomatik ravishda kartangizni tekshirib, agar barchasi yaxshi boʻlsa, loyiha bilan birlashtirib yuboradi. Barchasi tugaganidan soʻng Git Omboridan bildirishnoma olasiz. 
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -325,7 +325,7 @@ Sizning kartangiz avtomatik tarzda koʻrib chiqiladi va agar hammasi toʻgʻri b
 
 **Mening HTML faylim qayoqga ketdi?** Biq qancha vaqtdan soʻng, joʻnatilgan kartalar loyiha hajmini yengil saqlash uchun avtomatik arxivlanadi. Sizning HTML faylingiz avtomatik tarzda `cards/` jildidan oʻchiriladi, lekin maʼlumoti arxivda tutiladi. Kartangiz web sahifada paydo boʼlsa ham. [Koʻproq bilish uchun](archive/README.md)
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
@@ -342,13 +342,13 @@ Sizning kartangiz avtomatik tarzda koʻrib chiqiladi va agar hammasi toʻgʻri b
 - **Loyihaga hissa qoʻshganingizdan bagʻoyatda mamnunmiz**. Endi siz boshqa loyihalarga hissa qoʻshishda oʻzingizni sinab koʻrsangiz boʻladi; Boshlanishiga osson boʻlishi uchun ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) yorligʻi bor masalalarni nishonga oling.
 - Tortish Soʻrovlarini koʻrib chiqishda hamkorlar yordamiga ham muhtojligim bor. Agar chuqurroq Git amaliyotlariga qatnashish sizni qiziqtirsa, [boshqaruvchilar qoʻllanmasini](/naubtauber_guide.md) oʻqing, bizning [Discord serverimizga](https://discord.gg/tWkvS4ueVF), va loyiha boshqaruvchilaridan jamoaga qoʻshilishni soʻrang.
 
-[↑ Qoʻllanma boshiga qaytish ↑](#quick-access-index)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 ---
 
 ### Minnatdorchilik
 
-Bu loyiha [Roshan Josseyʼning](https://github.com/Roshanjossey) ajoyib [first-contributions](https://github.com/Roshanjossey/first-contributions) loyihasi bilan birga aʼlo darajada tushuntirilgan qoʻllanmasidan ilhomlanilgan.
+Bu loyiha [Roshan Josseyʼning](https://github.com/Roshanjossey) ajoyib [first-contributions](https://github.com/Roshanjossey/first-contributions) loyihasidan bagʻoyatda ilhomlanilgan.
 
 Alohida taʼkidlash joizki, [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleSchoblars?src=hash) Google Challenge Scholarship: Front-End Web Dev, sinf 2017 Europe, va uning atrofidagi qoyilmaqom hamjamiyat katta ilhom berdi. 
 
@@ -358,8 +358,8 @@ Bu loyiha [MIT_License](./LICENSE) ostida litsenziyalandi.
 
 ### Top 100 Hissadorlar
 
-[![GitHub Hissadorlari Rasm](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
+[![GitHub Hissadorlar Rasmi](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[Qoʻllanma boshiga qaytish &uparrow;](#introduction)
+[↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
 [tvit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Loyihani tvit qiling'
