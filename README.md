@@ -85,7 +85,7 @@ This tutorial is also available in [other languages](/translations/README.md)
 | [Japanese (日本語)](/translations/日本語/README.md) | [Korean (한국어)](/translations/README/KOREAN.md) | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |
 | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: | :---------------------------------------------: |
 | [Serbian (Српски)](/translations/README/SERBIAN.md) | [Somali (Af-Soomaali)](/translations/README/SOMALI.md) | [Spanish (Español)](/translations/README/SPANISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |
-| [Urdu (اُردُو)](/translations/README/URDU.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md) | | |
+| [Urdu (اُردُو)](/translations/README/URDU.md) | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md) | [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md) | |
 
 > Translations for project documentation are welcome. Read [`Translation Guide`](/translations/README.md) to contribute.
 
