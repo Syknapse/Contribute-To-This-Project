@@ -53,17 +53,16 @@ Terminal orqali sodda Git buyruqlarini ishga tushura oladigan barcha. Mutaxassis
 
 ### Qanday hissa qoʻshishingiz mumkin?
 
-
 Siz manashunday karta toʻldirish orqali [loyiha web sahifasiga](https://syknapse.github.io/Contribute-To-This-Project/ 'https://syknapse.github.io/Contribute-To-This-Project') hissa qoʻshasiz. Unda sizning ismingiz, siz bilan bogʻlanish usullari, qisqa izoh, va oʻzingiz tavsiya qiladigan, web dasturchilar uchun 3ta foydali resurslarga havola aks etadi.
 
 ---
 
 ## Tarjimalar
 
-Qoʻllanma boshqa tillarda ham mavjud. Esda tuting, tarjimalar ingliz versiyasidan ortda boʻlishi mumkin. 
+Qoʻllanma boshqa tillarda ham mavjud. Esda tuting, tarjimalar ingliz versiyasidan ortda boʻlishi mumkin.
 
-|      [Bengal](translations/terminal_tutorial/terminal_tutorial.ben.md)       | [Nemis](translations/terminal_tutorial/terminal_tutorial.ger.md) |   [Hind](translations/terminal_tutorial/terminal_tutorial.hin.md)   |          [Koreys](translations/terminal_tutorial/terminal_tutorial.kor.md)          |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+|      [Bengal](translations/terminal_tutorial/terminal_tutorial.ben.md)      | [Nemis](translations/terminal_tutorial/terminal_tutorial.ger.md) |  [Hind](translations/terminal_tutorial/terminal_tutorial.hin.md)  | [Koreys](translations/terminal_tutorial/terminal_tutorial.kor.md) |
+| :-------------------------------------------------------------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: | ------------------------------------------------------------------------------- | ------------------------------------------------ |
 | [Portugal (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ispan](translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrain](translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Xitoy (Anʼanaviy)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Oʻzbek](/translations/terminal_tutorial.uzb.md) |
 
 > Bu qoʻllanma uchun tarjimalar joʻnatishingizdan faqatgina mamnun boʻlamiz. Boshlash uchun: [`CONTRIBUTING.md`](CONTRIBUTING.md).
@@ -88,7 +87,7 @@ Agar oʻrnatilmagan boʻlsa, [bu yerdan Gitni yuklab oling](https://git-scm.com/
 
 ### 1-qadam: Loyihani forklang
 
-[Loyiha sahifasining](https://github.com/Syknapse/Contribute-To-This-Project) tepa oʻng tarafdagi  **Fork** tugmasi orqali loyihani forklang. Bu loyihadan oʻzingizning Git Ombori hisobingizga nusxa yaratadi.
+[Loyiha sahifasining](https://github.com/Syknapse/Contribute-To-This-Project) tepa oʻng tarafdagi **Fork** tugmasi orqali loyihani forklang. Bu loyihadan oʻzingizning Git Ombori hisobingizga nusxa yaratadi.
 
 [↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
@@ -187,7 +186,7 @@ Kartangiz shu koʻrinishda boʻladi:
 
 Fill it in:
 
-- **Name** —  Yozuvni oʻz ismingiz bilan almashtiring. **`class="name"` oʻzgarishsiz qolsin**.
+- **Name** — Yozuvni oʻz ismingiz bilan almashtiring. **`class="name"` oʻzgarishsiz qolsin**.
 - **Contact** — Git Ombori havolasi va havola koʻruvchisi uchun foydalanuvchi nomingizni oʻzgartiring. Agar koʻproq havola qoʻshmoqchi boʻlsangiz [Font Awesome Icons](https://fontawesome.com/icons) orqali mos keladigan shrift va namunani izlab topib classʼni almashtiring (misol uchun `fab fa-linkedin`, `fab fa-x-twitter`).
 - **About** — Qismni oʻzingizdan kelib chiqib oʻzgartiring. Buni blog postidan koʻra qisqa tvit deb hisoblasangiz boʻladi.
 - **Resources** — `#`larni haqiqiy havola bilan almashtiring, `title=""` va havola joyini oʻzgartiring. Bular ihtiyoriy, lekin hohlasangiz ishlaydigan havola kiriting, koʻpi bilan 5ta.
@@ -202,7 +201,8 @@ Tugatib, faylni saqlang.
 
 ### 6-qadam: Barchasini tekshiring
 
-Karta faylingizni oching va bir boshdan oʻqib chiqing. Ishonch komil qiling: 
+Karta faylingizni oching va bir boshdan oʻqib chiqing. Ishonch komil qiling:
+
 - barcha oʻzgartirish kerak boʻlgan maydon toʻgʻirlangan
 - havolalar `https://` bilan boshlangan
 - fayl nomi Git Ombori foydalanuvchi nomingizga toʻgʻri keladi
@@ -245,7 +245,7 @@ git push origin sizning-ismingiz-kartasi
 
 ### 9-qadam: PR yuboring (Tortish soʻrovi)
 
-Git Omboridagi forkʼingizga oʻting. U yerda tortish soʻroviga taklif paydo boʻlganini koʻrasiz — **Compare & pull request" tugmasini bosing.
+Git Omboridagi forkʼingizga oʻting. U yerda tortish soʻroviga taklif paydo boʻlganini koʻrasiz — \*\*Compare & pull request" tugmasini bosing.
 
 asosiy loyiha `Syknapse/Contribute-To-This-Project` va asosiy novda esa `master` ekanligiga ishonch hosil qiling.
 

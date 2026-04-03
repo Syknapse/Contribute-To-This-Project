@@ -57,7 +57,7 @@ Qoʻllanma birinchi bor contribute qilmoqchi boʻlganlarga kichik va sodda loyih
 ### Bu kim uchun?
 
 - Yangi boshlovchilar. Agar langar teg `<a href="" target=""></a>` yozishni bilsangiz, qoʻlingizdan keladi.
-- Ozgina tajribali lekin ochiq manbaʼga hech hissa qoʻshib koʻrmaganlar, yoki bilimini oʻtkirlamoqchi boʻlgan har kim. 
+- Ozgina tajribali lekin ochiq manbaʼga hech hissa qoʻshib koʻrmaganlar, yoki bilimini oʻtkirlamoqchi boʻlgan har kim.
 
 ### Nega buni bajarishingiz lozim?
 
@@ -79,12 +79,12 @@ Bunda siz tayyor shablon fayldan nusxa olib, oʻz maʼlumotlaringiz bilan toʻld
 
 Bu qoʻllanma [boshqa tillarda](/translations/README.md) ham mavjud
 
-|    [Arabcha (عربي)](/translations/README/ARABIC.md)     |   [Bangladeshcha (বাংলা)](/translations/README/BANGLA.md)   | [Xitoycha (Soddalashtirilgan) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Golland (Dutch)](/translations/README/DUTCH.md)            |           [Ingliz (English)](/README.md)           |
-| :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :-------------------------------------------------: |
-|  [Fransuz (Français)](/translations/README/FRENCH.md)   |  [Nemis (Deutsch)](/translations/README/GERMAN.md)  |                 [Hind (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Yapon (日本語)](/translations/日本語/README.md) |
-|   [Koreys (한국어)](/translations/README/KOREAN.md)    |  [Polyak (Polski)](/translations/README/POLISH.md)   |          [Portugal (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Rus (Русский)](/translations/README/RUSSIAN.md)     | [Serb (Српски)](/translations/README/SERBIAN.md) |
-| [Somalian (Af-Soomaali)](/translations/README/SOMALI.md) | [Ispan (Español)](/translations/README/SPANISH.md) |               [Turk (Türkçe)](/translations/README/TURKISH.md)               | [Ukrain (українська)](/translations/README/UKRAINIAN.md) |    [Urdu (اُردُو)](/translations/README/URDU.md)    |
-| [Norveg (Norsk)](/translations/README/NORWEGIAN.md) |    [Malay (Malayam)](/translations/README/MALAYALAM.md)    |               [Oʻzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                 |                                                             |                                                     |
+|     [Arabcha (عربي)](/translations/README/ARABIC.md)     | [Bangladeshcha (বাংলা)](/translations/README/BANGLA.md) | [Xitoycha (Soddalashtirilgan) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |     [Golland (Dutch)](/translations/README/DUTCH.md)     |          [Ingliz (English)](/README.md)          |
+| :------------------------------------------------------: | :-----------------------------------------------------: | :------------------------------------------------------------------------------------: | :------------------------------------------------------: | :----------------------------------------------: |
+|   [Fransuz (Français)](/translations/README/FRENCH.md)   |    [Nemis (Deutsch)](/translations/README/GERMAN.md)    |                     [Hind (हिंदी)](/translations/README/HINDI.md)                      |  [Italian (Italiano)](/translations/README/ITALIAN.md)   | [Yapon (日本語)](/translations/日本語/README.md) |
+|    [Koreys (한국어)](/translations/README/KOREAN.md)     |    [Polyak (Polski)](/translations/README/POLISH.md)    |              [Portugal (Portuguese)](/translations/README/PORTUGUESE.md)               |     [Rus (Русский)](/translations/README/RUSSIAN.md)     | [Serb (Српски)](/translations/README/SERBIAN.md) |
+| [Somalian (Af-Soomaali)](/translations/README/SOMALI.md) |   [Ispan (Español)](/translations/README/SPANISH.md)    |                    [Turk (Türkçe)](/translations/README/TURKISH.md)                    | [Ukrain (українська)](/translations/README/UKRAINIAN.md) |  [Urdu (اُردُو)](/translations/README/URDU.md)   |
+|   [Norveg (Norsk)](/translations/README/NORWEGIAN.md)    |  [Malay (Malayam)](/translations/README/MALAYALAM.md)   |                  [Oʻzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                   |                                                          |                                                  |
 
 > Loyiha qoʻllanmasi uchun tarjimalar joʻnatishingizdan faqatgina mamnun boʻlamiz. Hissa qoʻshish uchun [`Tarjima uchun Qoʻllanmani`](/translations/README.md) oʻqing.
 
@@ -101,8 +101,8 @@ Birinchi, qani keling, ish muhitini sozlab olamiz.
 2. [GitHub Desktop ilovasini](https://desktop.github.com/) yuklab oling.
    - Muqobil ravishda buyuruq qatoridan foydalansangiz boʻladi. [`Manabu Buyuruq Qatori Interfeysi uchun darslik`](/terminal_tutorial.md)
    - Agar [VS Code](https://code.visualstudio.com 'Visual Studio Code web sayti') ilovasidan foydalansangiz Git unda integratsiyalashgan, va toʻgʻridan toʻgʻri barcha ishlarni ilovadan turib bajarishingizga imkoniyat yaratadi.
-   - Ammo, eng sodda va osson yoʻl bu GitHub Desktopʼdan foydalanib shu qoʻllanma bilan davom etishdir. 
-   
+   - Ammo, eng sodda va osson yoʻl bu GitHub Desktopʼdan foydalanib shu qoʻllanma bilan davom etishdir.
+
 > Mana endi sizda barchasi shay holatda, demak ishni boshlab loyihaga hissa qoʻshishni boshlasak ham boʻladi.
 
 [↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
@@ -118,13 +118,12 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 #### 1-qadam: Loyihani forklang
 
 - Ayni maqsadimiz loyihadan nusxa olish va oʻz hisobingizga joylash.
-- Git Omborida loyiha — repository (repo) deb ataladi, va fork bu undan siz olgan nusxadir. 
+- Git Omborida loyiha — repository (repo) deb ataladi, va fork bu undan siz olgan nusxadir.
 - Bu repoʼning [asosiy sahifasida](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') ekaningizga ishonch hosil qiling.
 
-
 | ![Fork](/readme-only/fork.png "'Fork' ustiga bosing") |
-| :----------------------------------------------: |
-|         **_Fork_ tugmasi ustiga bosing**         |
+| :---------------------------------------------------: |
+|           **_Fork_ tugmasi ustiga bosing**            |
 
 - Endi sizda butun repoʼning nusxasi oʻz hisobingizda mavjud.
 
@@ -138,18 +137,18 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 - GitHub Desktop ilovasini oching. Ilova ichida:
 
 | ![Clone](/readme-only/clone.PNG 'clone repository ustiga bosing') |
-| :-------------------------------------------------------: |
-|    **_File_ ustiga bosing, keyin _Clone repository_**     |
+| :---------------------------------------------------------------: |
+|        **_File_ ustiga bosing, keyin _Clone repository_**         |
 
 - Git Omboridagi loyihalaringiz va forkʼlaringiz roʻyhatini koʻrishingiz mumkin.
 - `<sizning-git-omboridagi-foydalanuvchi-nomingiz>/Contribute-To-This-Project`ni tanlang.
 - _Clone_ ustiga bosing.
 
 | ![Loyihani cloneʼlang](/readme-only/clone-project.PNG 'sizning-github-username=/Contribute-To-This-Project= ustiga bosing') |
-| :-----------------------------------------------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: Fork qilingan loyihaning chap tarafida fork belgisi boʻladi. Sizning forkda Git Omboridagi foydalanuvchi nomingiz boʻladi | ![sizning fork](/readme-only/clone-your-fork.PNG 'sizning fork shunday koʻrinishda boʻ ladi, oʻz foydalanuvchi nomingiz bilan') |
-| :----------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------: |
 
 - Loyiha sizning qurilmaga saqlangunicha bir qancha vaqt olishi mumkin. Standart manzilni oʻzgartirmaslikni tavsiya qilaman, odatda `..\Documents\GitHub`.
 
@@ -162,12 +161,12 @@ _Taxminiy ketadigan vaqt: 30 daqiqadan kamroq_.
 - Repo yuklab boʻlindi ham deylik, endi yangi boʻlim yaratish vaqti keldi.
 - Novda yaratish orqali oʻzgarishlarni loyihaning `Master` deb ataladigan asosiy qismidan alohida saqlay olasiz. Masalan, siz biror hatolikga yoʻl qoʻydingiz, va shunchaki novdani oʻchirib tashlash asosiy loyihangizga taʼsirsiz muammoni hal qiladi.
 
-| :arrow*right_hook: *`Current branch` ustiga bosing_, Soʻngra _`New`\_        |                    ![Novda yarating](/readme-only/branch-new.PNG " 'Branch' ustiga bosing, keyin 'New'")                     |
-| :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Novdaga nom bering, hamda `Create branch` ustiga bosing** |                           ![Novdani nomlang](/readme-only/branch-name.PNG 'Name your branch')                            |
+| :arrow*right_hook: *`Current branch` ustiga bosing*, Soʻngra *`New`\_          |                         ![Novda yarating](/readme-only/branch-new.PNG " 'Branch' ustiga bosing, keyin 'New'")                         |
+| :----------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Novdaga nom bering, hamda `Create branch` ustiga bosing** |                                  ![Novdani nomlang](/readme-only/branch-name.PNG 'Name your branch')                                  |
 | :arrow_right_hook: **Novdangizni Git Omboriga joʻnating**                      | ![Novdani nomlang](/readme-only/branch-publish.PNG 'Publish ustiga bosish orqali yangi novdani Git Omboridagi loyihangizga yuboring') |
 
-- Novdaga hohlagan nomingizni berishingiz mumkin, lekin bu novda yordamida loyihaga oʻz kartangizni qoʻshar ekansiz `sizning-ismingiz-karta` deb nomlash yaxshi usul, qanchalar toza va aniq oʻqilishi sabab. 
+- Novdaga hohlagan nomingizni berishingiz mumkin, lekin bu novda yordamida loyihaga oʻz kartangizni qoʻshar ekansiz `sizning-ismingiz-karta` deb nomlash yaxshi usul, qanchalar toza va aniq oʻqilishi sabab.
 - Ana endi sizda master novdadan alohida novda yaratilgan.
 - Keyingi bosqichlarda shu novdada ishlayotganingizga ishonch hosil qiling. GitHub Desktopʼning tepa markaz qismidagi _Current Branch_ deb yozib qoʻyilgan joyida siz ishlayotgan novdaning nomini koʻrsangiz boʻladi.
 
@@ -233,7 +232,6 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
   - **Havola** `href="https://biror-havola.com"` — faqatgina toʻliq havolalar, qisqartmalardan foydalanmang.
   - **Sarlavha** `title="Qisqa izoh"` — bir nechta soʻz yetadi.
   - **Nom** Yozuv `>Resurs nomi</a>`
-  
 - **hammasini saqlaganingizga** ishonch komil qiling.
 
 - **Eslatma: class nomlarini, hamda, HTML asosini oʻzgartirmang.** PRʼni tekshiruvchi bot siz joʻnatgan PR toʻgʻriligini tekshiruvdan oʻtkizadi.
@@ -259,13 +257,13 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 - Bu degani Git barcha **saqlangan** o'zgarishlarni yozib olgan.
 - Buni siz ilovada aks ettirilganini koʻrishingiz mumkin. Barcha faylga qoʻshgan narsalaringiz yashil, oʻchirganlaringiz esa qizil rangda.
 
-|                                                                                                 ![Oʻzgarishlarni topshiring](/readme-only/commit.PNG "Qilgan oʻzgarishlaringiz GitHub Desktop ilovasining oʻng tarafida, yashil rangda aks etadi. Topshirish tugmasi ilovaning chap pastki qismida")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        :arrow*right_hook: Keyingi bosqich *`Commit`\_ deb ataladi. Bu huddi `oʻzgarishlarni tasdiqla` deyishdek                                                                                                                                        |
-|                                                                                              ![Oʻzgarishlarni topshiring](/readme-only/commit-header.PNG "Qilgan oʻzgarishlaringiz GitHub Desktop ilovasining oʻng tarafida, yashil rangda aks etadi. Topshirish tugmasi ilovaning chap pastki qismida")                                                                                              |
-|                                                                          :arrow_right_hook: **Sizning GitHub Desktop ilovangiz shunday koʻrinishda boʻlishi kerak. `Current repository` yonidagi fork belgisiga eʼtibor bering, va `Current branch` ostida siz 3-qadamda bergan nom boʻladi**                                                                          |
-|                                                                                                                 ![Oʻzgarishlarga izoh yozing va topshiring](/readme-only/commit-message.PNG "'summary' qismida topshirish habari uchun qisqa izoh yozing, keyin 'commit' ustiga bosing")                                                                                                                  |
-| :arrow*right_hook: \*\**`Commit`_ qilish uchun siz birinchi navbatda _`Summary`_ qismini toʻldirishingiz lozim. Bu topshirish habari nimani oʻzgartirganingizni taʼriflashi kerak. Shunday ekan `"Mening kartamni qoʻshish"` yaxshi izoh boʻla oladi. Ihtiyoriy ravishda _`Description`_ orqali batafsilroq maʻlumot keltirishingiz mumkin. _`Commit`\_ tugmasini bosing. Tugma `Commit to "sizning-novdangiz-nomi"`\*\* |
+|                                                                                                            ![Oʻzgarishlarni topshiring](/readme-only/commit.PNG 'Qilgan oʻzgarishlaringiz GitHub Desktop ilovasining oʻng tarafida, yashil rangda aks etadi. Topshirish tugmasi ilovaning chap pastki qismida')                                                                                                             |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                          :arrow*right_hook: Keyingi bosqich *`Commit`\_ deb ataladi. Bu huddi `oʻzgarishlarni tasdiqla` deyishdek                                                                                                                                                           |
+|                                                                                                         ![Oʻzgarishlarni topshiring](/readme-only/commit-header.PNG 'Qilgan oʻzgarishlaringiz GitHub Desktop ilovasining oʻng tarafida, yashil rangda aks etadi. Topshirish tugmasi ilovaning chap pastki qismida')                                                                                                         |
+|                                                                                                    :arrow_right_hook: **Sizning GitHub Desktop ilovangiz shunday koʻrinishda boʻlishi kerak. `Current repository` yonidagi fork belgisiga eʼtibor bering, va `Current branch` ostida siz 3-qadamda bergan nom boʻladi**                                                                                                     |
+|                                                                                                                          ![Oʻzgarishlarga izoh yozing va topshiring](/readme-only/commit-message.PNG "'summary' qismida topshirish habari uchun qisqa izoh yozing, keyin 'commit' ustiga bosing")                                                                                                                           |
+| :arrow\*right*hook: \*\*\*`Commit`* qilish uchun siz birinchi navbatda _`Summary`_ qismini toʻldirishingiz lozim. Bu topshirish habari nimani oʻzgartirganingizni taʼriflashi kerak. Shunday ekan `"Mening kartamni qoʻshish"` yaxshi izoh boʻla oladi. Ihtiyoriy ravishda _`Description`_ orqali batafsilroq maʻlumot keltirishingiz mumkin. \_`Commit`\_ tugmasini bosing. Tugma `Commit to "sizning-novdangiz-nomi"`\*\* |
 
 [↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
@@ -274,10 +272,10 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 #### 8-qadam: Oʻzgarishlarni Git Omboriga yuklang
 
 - Oʻzgarishlaringiz endi saqlangan yoki topshirilgan. Lekin ular hozir faqatgina mahalliy ravishda, qurilmangiz hotirasida.
-- Mahalliy oʻzgarishlarni Git Omboringizdagi loyiha bilan sinxronlash esa _Surish_ deb ataladi. Siz oʻzgarishlarni mahalliy loyihangizdan "Surib", Git Omboridagi masofaviy loyihahaga oʻtkizmoqdasiz. 
+- Mahalliy oʻzgarishlarni Git Omboringizdagi loyiha bilan sinxronlash esa _Surish_ deb ataladi. Siz oʻzgarishlarni mahalliy loyihangizdan "Surib", Git Omboridagi masofaviy loyihahaga oʻtkizmoqdasiz.
 
 | :arrow*right_hook: *`Push`\_ tugmasini bosing | ![Git Omboriga surish](/readme-only/push.PNG "Oʻzgarishlaringizni Git Omboriga suring, 'Push' tugmasi ustiga bosing") |
-| :-------------------------------------------- | :------------------------------------------------------------------------------------------------: |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------: |
 
 - Bir necha soniyadan soʻng jarayon yakunlanadi va endi sizda novdaning bir nusxasi ham mahalliy qurilmangizda, ham Git omborida mavjud.ub.
 
@@ -294,22 +292,22 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 - **Sizning novdangizning** Git Omboridagi asosiy sarlavhasiga boring (u yerda fork belgisi va oʻz foydalanuvchi nomingizni tepa qismida koʻrishingiz mumkin)
 - Tepa tomonda soʻrov habarini aks etganini yashil tugma bilan birga koʻrishingiz mumkin.
 
-|  ![PR oching](/readme-only/pull-request.PNG 'Bu odatda sahifaning tepa tomonida aks etadi, izoh ostida, loyiha jild va fayllari ustida')  |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **`Compare and pull request` ustiga bosing**                                                     |
+|                  ![PR oching](/readme-only/pull-request.PNG 'Bu odatda sahifaning tepa tomonida aks etadi, izoh ostida, loyiha jild va fayllari ustida')                  |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                      :arrow_right_hook: **`Compare and pull request` ustiga bosing**                                                      |
 | ![PR oching](/readme-only/pull-request-branches.PNG 'Siz oʻzingizning forkʼdagi novdadan haqiqiy loyihadagi asosiy master novdaga tortib, birlashtirishni soʻramoqdasiz') |
-|                                               :arrow_right_hook: Bu esa `Open a pull request` sahifasining koʻrinishi.                                               |
+|                                                 :arrow_right_hook: Bu esa `Open a pull request` sahifasining koʻrinishi.                                                  |
 
 - ESLATMA: _siz oʻz novdangizni haqiqiy loyiha bilan birlashtirishga urinmoqdasiz, oʻz forkʼingizdagi `Master` novda bilan emas_.
 - Pastdagi ushbu suratdan siz joʻnatgan Tortish Soʻrovi qanday koʻrinishda boʻlishi kerakligini koʻrsangiz boʻladi.
 
-|                  ![Tortish Soʻrovi yuborish](/readme-only/pull-request-open.PNG "Yashil tugmani bosing. Dadil boʻling!")                  |
-| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                       ![Tortish Soʻrovi yuborish](/readme-only/pull-request-open.PNG 'Yashil tugmani bosing. Dadil boʻling!')                        |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Tortish Soʻrovi yaratish: Sarlavha yozing, istasangiz pastiga izoh yozishingiz mumkin, va `Create pull request` ustiga bosing** |
 
 - Koʻp tugmalarni koʻrib havotirlanmang. Hozircha shu 3 bosqichni qilsangiz yetadi.
 - `Allow edits from maintainers`ni belgilash esingizdan chiqmasin.
-- Mana endi _Tortish Soʻrovi_ loyihaga joʻnatildi. Bot avtomatik ravishda kartangizni tekshirib, agar barchasi yaxshi boʻlsa, loyiha bilan birlashtirib yuboradi. Barchasi tugaganidan soʻng Git Omboridan bildirishnoma olasiz. 
+- Mana endi _Tortish Soʻrovi_ loyihaga joʻnatildi. Bot avtomatik ravishda kartangizni tekshirib, agar barchasi yaxshi boʻlsa, loyiha bilan birlashtirib yuboradi. Barchasi tugaganidan soʻng Git Omboridan bildirishnoma olasiz.
 
 [↑ Qoʻllanma boshiga qaytish ↑](#qisqa-kirish-indeksi)
 
@@ -317,7 +315,7 @@ cp cards/template.html cards/sizning-git-omboridagi-foydalanuvchi-nomingiz.html
 
 #### 10-qadam: Nishonlang
 
-Manashular barchasi edi. Buni uddaladingiz! Siz Ochiq Manbaʼga Git Omborida hissa qoʼshdingiz. 
+Manashular barchasi edi. Buni uddaladingiz! Siz Ochiq Manbaʼga Git Omborida hissa qoʼshdingiz.
 
 Siz ishlab turgan [https://syknapse.github.io/Contribute-To-This-Project](https://syknapse.github.io/Contribute-To-This-Project) web saytiga kod qoʻshdingiz.
 
@@ -338,7 +336,7 @@ Sizning kartangiz avtomatik tarzda koʻrib chiqiladi va agar hammasi toʻgʻri b
 - Bizning [Discord serverimizga](https://discord.gg/tWkvS4ueVF) qoʻshilishingiz mumkin.
 - Menga [𝕏 (Twitterda)](https://twitter.com/Syknapse '@Syknapse') yoki [bu yerda](https://syknapse.github.io/Syk-Houdeib/#contact 'Men bilan bogʻlanish usullari | Portfolio') berilgan usullar orqali **obuna** boʻling.
 - Bu Ochiq Manbaʼli loyiha ekan, karta qoʻshishdan tashqari muammolarni toʻgʻirlash, tuzatishlar, yoki yangi xususiyatlar qoʻshish orqali ham hissa qoʻshishingiz mumkin. [Masala](https://help.github.com/articles/creating-an-issue/ 'Muammolarga Ustalik qilish | GitHub Qoʻllanmalari') oching yoki yangi [tortish soʻrovi](https://help.github.com/articles/creating-a-pull-request-from-a-fork/ 'Forkʼdan yangi Tortish Soʻrovi yaratish') joʻnating.
-- Jamiyatimizni takomillashtirishda Tortish Soʻrovi yonida turgan [Munozaralar](https://github.com/Syknapse/Contribute-To-This-Project/discussions) yorligʻiga murojaat eting. U joy oʻzingizni tanishtirish uchun juda mos keladi, Ochiq Manba toʻgʻrisida chuqur munozaralarga kirishing, va Loyiha Boshqaruvchilari bilan fikrlashing. Bizga bu xususiyatlarni qurishda va hamjamiyatimizni takomillashtirishda yordam berasizmi? 
+- Jamiyatimizni takomillashtirishda Tortish Soʻrovi yonida turgan [Munozaralar](https://github.com/Syknapse/Contribute-To-This-Project/discussions) yorligʻiga murojaat eting. U joy oʻzingizni tanishtirish uchun juda mos keladi, Ochiq Manba toʻgʻrisida chuqur munozaralarga kirishing, va Loyiha Boshqaruvchilari bilan fikrlashing. Bizga bu xususiyatlarni qurishda va hamjamiyatimizni takomillashtirishda yordam berasizmi?
 - **Loyihaga hissa qoʻshganingizdan bagʻoyatda mamnunmiz**. Endi siz boshqa loyihalarga hissa qoʻshishda oʻzingizni sinab koʻrsangiz boʻladi; Boshlanishiga osson boʻlishi uchun ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) yorligʻi bor masalalarni nishonga oling.
 - Tortish Soʻrovlarini koʻrib chiqishda hamkorlar yordamiga ham muhtojligim bor. Agar chuqurroq Git amaliyotlariga qatnashish sizni qiziqtirsa, [boshqaruvchilar qoʻllanmasini](/naubtauber_guide.md) oʻqing, bizning [Discord serverimizga](https://discord.gg/tWkvS4ueVF), va loyiha boshqaruvchilaridan jamoaga qoʻshilishni soʻrang.
 
@@ -350,7 +348,7 @@ Sizning kartangiz avtomatik tarzda koʻrib chiqiladi va agar hammasi toʻgʻri b
 
 Bu loyiha [Roshan Josseyʼning](https://github.com/Roshanjossey) ajoyib [first-contributions](https://github.com/Roshanjossey/first-contributions) loyihasidan bagʻoyatda ilhomlanilgan.
 
-Alohida taʼkidlash joizki, [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleSchoblars?src=hash) Google Challenge Scholarship: Front-End Web Dev, sinf 2017 Europe, va uning atrofidagi qoyilmaqom hamjamiyat katta ilhom berdi. 
+Alohida taʼkidlash joizki, [#GoogleUdacityScholars](https://twitter.com/hashtag/GoogleSchoblars?src=hash) Google Challenge Scholarship: Front-End Web Dev, sinf 2017 Europe, va uning atrofidagi qoyilmaqom hamjamiyat katta ilhom berdi.
 
 ### Litsenziya
 
