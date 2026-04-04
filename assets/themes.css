@@ -142,18 +142,16 @@
 }
 */
 
-
 /* changing color for the sourceFile in classic for contrast*/
 
-[data-theme='classic'] .sourceFile{
-  color:#0d47a1;
+[data-theme='classic'] .sourceFile {
+  color: #0d47a1;
 }
 
 /* changing color for the footer text of the card when it is hovered for contrast */
 [data-theme='mauritius'] .card:hover .source-link {
-  color: #555; 
+  color: #555;
 }
-[data-theme='mauritius'] .card:hover .sourceFile{
-    color:#0d47a1;
- 
+[data-theme='mauritius'] .card:hover .sourceFile {
+  color: #0d47a1;
 }
