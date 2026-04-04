@@ -62,7 +62,8 @@ function renderCards(cardDataArray, sourceFile) {
                 .join('')}
             </ul>
           </div>
-          <p><small>Fetched From: <a href="${sourceFileUrl}" target="_blank">${sourceFile}</a></small></p>
+          <p class="source-link"><small>Fetched From: <a href="${sourceFileUrl}" target="_blank"
+          class="sourceFile">${sourceFile}</a></small></p>
         </div>
       `
     })
