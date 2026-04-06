@@ -1374,5 +1374,33 @@
         "text": "MDN – Web Docs (Best Reference Ever)"
       }
     ]
+  },
+  {
+    "name": "Zero89-sys",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Zero89-sys",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I like coding, chess and silence.",
+    "resources": [
+      {
+        "title": "C# tutorial",
+        "link": "https://www.youtube.com/watch?v=wxznTygnRfQ&t=14125s",
+        "text": "C# YT tutorial"
+      },
+      {
+        "title": "Documentation for Js, HTML, CSS",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN documentation"
+      },
+      {
+        "title": "Basic resource for C#",
+        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+        "text": "Microsoft C# guide"
+      }
+    ]
   }
 ]
