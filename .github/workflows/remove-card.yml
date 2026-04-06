@@ -1,0 +1,70 @@
+name: Remove Card
+
+# Maintainer-only workflow to remove a contributor card from the archive.
+# Searches by display name or GitHub username, removes the entry, recounts,
+# and commits the result — no manual JSON editing required.
+#
+# Dry-run mode shows what would be removed without making any changes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      identifier:
+        description: 'Display name (e.g. "Ada Lovelace") or GitHub username (e.g. "octocat")'
+        required: true
+      identifier_type:
+        description: 'Search by'
+        required: true
+        default: 'username'
+        type: choice
+        options:
+          - username
+          - name
+      index:
+        description: 'If multiple matches are found, re-run with the index number shown in the output (0, 1, 2…)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run (preview only, no changes committed)'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.DEPLOY_KEY && secrets.DEPLOY_KEY || secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run remove-card script
+        run: |
+          FLAG="${{ inputs.identifier_type == 'username' && '--username' || '--name' }}"
+          IDX="${{ inputs.index != '' && format('--index {0}', inputs.index) || '' }}"
+          DRY="${{ inputs.dry_run == true && '--dry-run' || '' }}"
+          node scripts/remove-card.js $FLAG "${{ inputs.identifier }}" $IDX $DRY
+
+      - name: Commit and push changes
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Nothing to commit."
+          else
+            git commit -am "fix: remove card for ${{ inputs.identifier }} from archive [skip ci]"
+            git push
+          fi
