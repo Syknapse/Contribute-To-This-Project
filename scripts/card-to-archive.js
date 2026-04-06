@@ -87,6 +87,34 @@ const card = {
 
 console.log(`📇 Parsed card for: ${card.name}`)
 
+// ── upsert: remove any existing archive entry for this username ────────────────
+// If the contributor already has a card in the archive (e.g. they opened a new PR
+// to fix a mistake), remove the old entry before appending the new one.
+// This prevents duplicate archive entries without requiring a special update flow.
+const username = path.basename(filename, '.html').toLowerCase()
+const allArchiveFiles = fs
+  .readdirSync(ARCHIVE_DIR)
+  .filter(f => f.match(/^archive_\d+\.json$/))
+  .sort((a, b) => parseInt(a.match(/\d+/)[0]) - parseInt(b.match(/\d+/)[0]))
+
+for (const archiveFile of allArchiveFiles) {
+  const filePath = path.join(ARCHIVE_DIR, archiveFile)
+  const entries = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
+  const idx = entries.findIndex(entry =>
+    entry.contacts.some(c => {
+      const handle = (c.handle || '').replace(/^@/, '').toLowerCase()
+      const link = (c.link || '').toLowerCase()
+      return handle === username || link.endsWith(`/${username}`)
+    })
+  )
+  if (idx !== -1) {
+    entries.splice(idx, 1)
+    fs.writeFileSync(filePath, JSON.stringify(entries, null, 2))
+    console.log(`🔄 Removed existing entry for "${username}" from ${archiveFile} — will be replaced with updated card`)
+    break
+  }
+}
+
 // ── determine target archive file ──────────────────────────────────────────────
 const archiveFiles = fs
   .readdirSync(ARCHIVE_DIR)

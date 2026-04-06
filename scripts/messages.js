@@ -11,7 +11,9 @@ function successMerged(author) {
 
 Thank you so much for your contribution!
 
-Your card has been merged and will be live at [Contribute To This Project](${SITE_URL}) shortly.
+Your card is valid and will merge automatically — it should be live at [Contribute To This Project](${SITE_URL}) within a few minutes.
+
+If you spot a mistake on the live site and want to update your card, just open a new PR with \`cards/${author}.html\` and the bot will update your existing entry automatically.
 
 Welcome to the project — you've just made your mark in open source! Feel free to share it, star the repo, and help other first-timers find their way here. 🌟`
 }
@@ -52,6 +54,24 @@ function submitTemplate(author) {
 It looks like you submitted \`cards/template.html\` itself rather than a copy of it.
 
 Please copy \`cards/template.html\` to \`cards/your-github-username.html\` (using your actual GitHub username as the filename), fill it in, and submit that file instead.`
+}
+
+function deletedTemplate(author) {
+  return `Hi @${author}! 👋
+
+Your PR deletes \`cards/template.html\`, which must stay in the repository for other contributors to use.
+
+Your card should be in \`cards/${author}.html\` — please restore \`cards/template.html\` and make sure only your own card file is included in this PR.
+
+The easiest fix: sync your fork with upstream master (which will restore the template), then push again.`
+}
+
+function filenameMismatch(author, filename) {
+  return `Hi @${author}! 👋
+
+Your card filename \`${filename}\` doesn't match your GitHub username.
+
+Please rename the file to \`${author}.html\` so the bot can link your card to your GitHub account, then push again.`
 }
 
 function invalidFilename(author, filename) {
@@ -99,7 +119,9 @@ module.exports = {
   wrongFile,
   tooManyFiles,
   submitTemplate,
+  deletedTemplate,
   invalidFilename,
+  filenameMismatch,
   duplicateFilename,
   staleArchivedFiles,
   fetchFailed,
