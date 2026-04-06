@@ -6,10 +6,11 @@
 //
 // The script:
 //   1. Reads cards/<filename>, parses the card div
-//   2. Extracts name, contacts, about, resources
-//   3. Appends to the latest archive JSON (creates a new file if latest has >=50 entries)
-//   4. Regenerates archive/manifest.json (file list + total card count)
-//   5. Deletes cards/<filename>
+//   2. Extracts GitHub username (from filename), name, contacts, about, resources
+//   3. Upserts: removes any existing entry for this username before appending
+//   4. Appends to the latest archive JSON (creates a new file if latest has >=50 entries)
+//   5. Regenerates archive/manifest.json (file list + total card count)
+//   6. Deletes cards/<filename>
 
 const fs = require('fs')
 const path = require('path')
@@ -34,6 +35,10 @@ if (!fs.existsSync(cardPath)) {
   console.error(`File not found: ${cardPath}`)
   process.exit(1)
 }
+
+// The filename is enforced by validate-card-pr.js to match the PR author's GitHub handle,
+// so it is the authoritative source of truth for the contributor's GitHub username.
+const username = path.basename(filename, '.html').toLowerCase()
 
 // ── extraction helpers (ported from archive/archive_cards_script.js) ───────────
 function extractContactDetails($, contactElement) {
@@ -79,19 +84,18 @@ if ($card.length === 0) {
 }
 
 const card = {
+  username,
   name: $card.find('.name').text().trim(),
   contacts: extractContactDetails($, $card.find('.contact')),
   about: $card.find('.about').text().trim(),
   resources: extractResourceDetails($, $card.find('.resources')),
 }
 
-console.log(`📇 Parsed card for: ${card.name}`)
+console.log(`📇 Parsed card for: ${card.name} (@${username})`)
 
 // ── upsert: remove any existing archive entry for this username ────────────────
 // If the contributor already has a card in the archive (e.g. they opened a new PR
 // to fix a mistake), remove the old entry before appending the new one.
-// This prevents duplicate archive entries without requiring a special update flow.
-const username = path.basename(filename, '.html').toLowerCase()
 const allArchiveFiles = fs
   .readdirSync(ARCHIVE_DIR)
   .filter(f => f.match(/^archive_\d+\.json$/))
@@ -100,13 +104,7 @@ const allArchiveFiles = fs
 for (const archiveFile of allArchiveFiles) {
   const filePath = path.join(ARCHIVE_DIR, archiveFile)
   const entries = JSON.parse(fs.readFileSync(filePath, 'utf-8'))
-  const idx = entries.findIndex(entry =>
-    entry.contacts.some(c => {
-      const handle = (c.handle || '').replace(/^@/, '').toLowerCase()
-      const link = (c.link || '').toLowerCase()
-      return handle === username || link.endsWith(`/${username}`)
-    })
-  )
+  const idx = entries.findIndex(entry => entry.username === username)
   if (idx !== -1) {
     entries.splice(idx, 1)
     fs.writeFileSync(filePath, JSON.stringify(entries, null, 2))

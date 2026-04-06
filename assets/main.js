@@ -37,9 +37,9 @@ function renderCards(cardDataArray, sourceFile) {
 
   const cardsHtml = cardDataArray
     .map(card => {
-      const { name, contacts, about, resources } = card
+      const { username, name, contacts, about, resources } = card
       return `
-        <div class="card">
+        <div class="card"${username ? ` data-username="${username}"` : ''}>
           <!-- Fetched from Archive: ${sourceFile} -->
           <p class="name">${name}</p>
           <p class="contact">

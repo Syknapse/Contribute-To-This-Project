@@ -44,25 +44,25 @@ Use the **Remove Card** GitHub Actions workflow — never edit archive JSON file
 **Via GitHub UI:**
 
 1. Go to **Actions** → **Remove Card** → **Run workflow**
-2. Enter the contributor's display name or GitHub username
-3. Choose whether to search by `name` or `username`
+2. Enter the contributor's **GitHub username** (preferred) — the username is shown in the issue they open to request removal. Use display name only if the username is unknown.
+3. Leave **Search by** as `username` (or switch to `name` if searching by display name)
 4. Optionally enable **Dry run** to preview what would be removed without committing
-5. Run — if multiple cards match, the output will list them with index numbers; re-run with the **Index** field set to pick the right one
+5. Run — if multiple cards match (can happen with `--name`), the output will list them with index numbers; re-run with the **Index** field set to pick the right one
 6. Once a single card is confirmed, the script removes it, recounts, updates `manifest.json`, and commits
 
 **Via CLI:**
 
 ```bash
-# Preview (no changes)
-node scripts/remove-card.js --username octocat --dry-run
-
-# Remove by GitHub username
+# Remove by GitHub username (preferred — direct match on canonical id)
 node scripts/remove-card.js --username octocat
 
-# Remove by display name
+# Preview only (no changes)
+node scripts/remove-card.js --username octocat --dry-run
+
+# Remove by display name (if username is unknown)
 node scripts/remove-card.js --name "Ada Lovelace"
 
-# Multiple matches? Pick one by index (shown in the output above)
+# Multiple name matches? Pick one by index (shown in the output above)
 node scripts/remove-card.js --name "Ada Lovelace" --index 1
 ```
 
