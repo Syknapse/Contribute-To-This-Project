@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       identifier:
-        description: 'Display name (e.g. "Ada Lovelace") or GitHub username (e.g. "octocat")'
+        description: 'GitHub username (e.g. "octocat") — preferred. Or display name (e.g. "Ada Lovelace") if username is unknown.'
         required: true
       identifier_type:
         description: 'Search by'
