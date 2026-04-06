@@ -66,3 +66,33 @@ jobs:
         run: |
           echo "Validating index.html on master branch..."
           npx html-validate index.html
+
+  archive-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 'lts/*'
+
+      - name: Verify manifest totalArchivedCards matches archive files
+        run: |
+          node -e "
+            const fs = require('fs'), path = require('path')
+            const manifest = JSON.parse(fs.readFileSync('archive/manifest.json', 'utf-8'))
+            let actual = 0
+            for (const f of manifest.files) {
+              actual += JSON.parse(fs.readFileSync(path.join('archive/json', f), 'utf-8')).length
+            }
+            if (actual !== manifest.totalArchivedCards) {
+              console.error('archive/manifest.json is out of sync:')
+              console.error('  totalArchivedCards = ' + manifest.totalArchivedCards)
+              console.error('  actual count       = ' + actual)
+              console.error('Do not edit archive files manually. Use the Remove Card workflow.')
+              process.exit(1)
+            }
+            console.log('✅ manifest.json is consistent: ' + actual + ' cards across ' + manifest.files.length + ' files')
+          "

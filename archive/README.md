@@ -1,7 +1,7 @@
 # Archive
 
 > [!WARNING]
-> Never edit files in `archive/json/` or `archive/manifest.json` by hand. They are fully managed by `scripts/card-to-archive.js`.
+> Never edit files in `archive/json/` or `archive/manifest.json` by hand. They are fully managed by automation. To remove a card, use the [Remove Card workflow](#removing-a-card-maintainers).
 
 ## Where did my card go?
 
@@ -16,30 +16,71 @@ The original HTML file and your full contribution history are preserved in git h
 
 ---
 
+## How do I remove my card?
+
+If you'd like your card removed from the site, open a GitHub issue with the title **"Remove my card"** and include your GitHub username. A maintainer will remove it using the automated workflow.
+
+---
+
 ## How the archive system works (for maintainers)
 
-### Pipeline
+### Adding cards (automatic)
 
-Archiving is fully automated and runs after every card merge:
+Archiving runs automatically after every card PR is merged:
 
 1. A card PR is merged into `master`
-2. `validate-card-pr.js` polls until the merge is confirmed, then dispatches `card-to-archive.yml` via `workflow_dispatch`
+2. `validate-card-pr.js` polls until the merge is confirmed, then dispatches `card-to-archive.yml`
 3. `scripts/card-to-archive.js` runs:
    - Parses `cards/<username>.html` and extracts name, contacts, about, and resources
    - Appends the card data to the latest `archive/json/archive_N.json` (max 50 entries per file — creates a new file when full)
-   - Regenerates `archive/manifest.json` with the updated file list and total card count
+   - Recounts all entries across all archive files and regenerates `archive/manifest.json`
    - Deletes `cards/<username>.html`
 4. The bot commits and pushes the changes to `master`
 
-### Manual trigger
+### Removing a card (maintainers)
 
-If archiving fails (e.g. the workflow timed out or was skipped), re-run it manually:
+Use the **Remove Card** GitHub Actions workflow — never edit archive JSON files by hand.
+
+**Via GitHub UI:**
+
+1. Go to **Actions** → **Remove Card** → **Run workflow**
+2. Enter the contributor's display name or GitHub username
+3. Choose whether to search by `name` or `username`
+4. Optionally enable **Dry run** to preview what would be removed without committing
+5. Run — if multiple cards match, the output will list them with index numbers; re-run with the **Index** field set to pick the right one
+6. Once a single card is confirmed, the script removes it, recounts, updates `manifest.json`, and commits
+
+**Via CLI:**
+
+```bash
+# Preview (no changes)
+node scripts/remove-card.js --username octocat --dry-run
+
+# Remove by GitHub username
+node scripts/remove-card.js --username octocat
+
+# Remove by display name
+node scripts/remove-card.js --name "Ada Lovelace"
+
+# Multiple matches? Pick one by index (shown in the output above)
+node scripts/remove-card.js --name "Ada Lovelace" --index 1
+```
+
+The script errors if no match is found. If multiple cards match, it lists them with indices and waits for `--index N` — so nothing is ever deleted ambiguously.
+
+### Manual archive trigger
+
+If archiving fails (e.g. the workflow timed out), re-run it manually:
 
 ```bash
 gh workflow run card-to-archive.yml --ref master -f filename=<username>.html
 ```
 
-Or trigger it from the Actions tab in GitHub: **Archive Card** → **Run workflow** → enter the filename.
+Or from the Actions tab: **Archive Card** → **Run workflow** → enter the filename.
+
+### Integrity check
+
+Every CI run verifies that `manifest.totalArchivedCards` matches the actual sum of entries across all archive files. If someone edits the archive directly and gets the count wrong, CI will fail with a clear error. This check runs on every PR and push to `master`.
 
 ### Files in this directory
 
