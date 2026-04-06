@@ -70,3 +70,5 @@ Node.js automation only — not browser code:
 `prettier.config.js`: print width 120, single quotes, no semicolons, 2-space indent, trailing commas (ES5), LF line endings. Markdown files are excluded from Prettier formatting (`.prettierignore`).
 
 `html-validate` rules (`.htmlvalidate.json`): self-closing void elements, double-quoted attributes, doctype required. A separate config in `cards/.htmlvalidate.json` relaxes rules for card fragments (no doctype required).
+
+`i am just learning`
