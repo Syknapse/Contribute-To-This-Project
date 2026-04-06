@@ -320,39 +320,6 @@
     ]
   },
   {
-    "name": "Kishore M",
-    "contacts": [
-      {
-        "icon": "fa-brands fa-instagram",
-        "link": "https://www.instagram.com/kishore0_0_7/",
-        "handle": "Kishore0-0-7"
-      },
-      {
-        "icon": "fab fa-github",
-        "link": "https://github.com/Kishore0-0-7",
-        "handle": "Kishore0-0-7"
-      }
-    ],
-    "about": "Software Developer, Python Developer, Beginner Programmer",
-    "resources": [
-      {
-        "title": "First Resource",
-        "link": "https://www.youtube.com/@takeUforward",
-        "text": "Resource 1"
-      },
-      {
-        "title": "Second Resource",
-        "link": "https://pythontutor.com/render.html#mode=edit",
-        "text": "Resource 2"
-      },
-      {
-        "title": "Third resource",
-        "link": "https://wiki.python.org/moin/BeginnersGuide",
-        "text": "Resource 3"
-      }
-    ]
-  },
-  {
     "name": "Chard Peter",
     "contacts": [
       {
@@ -978,62 +945,6 @@
     ]
   },
   {
-    "name": "Gautam Kumawat",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/gautam9892",
-        "handle": "gautam9892"
-      }
-    ],
-    "about": "Data Analyst and MCA student specializing in AI and Data Analytics. Passionate about Power BI, Python, and SQL.",
-    "resources": [
-      {
-        "title": "Developer Roadmaps",
-        "link": "https://roadmap.sh",
-        "text": "roadmap.sh"
-      },
-      {
-        "title": "Data Science",
-        "link": "https://www.kaggle.com",
-        "text": "Kaggle"
-      },
-      {
-        "title": "Microsoft Learn",
-        "link": "https://learn.microsoft.com",
-        "text": "Microsoft Learn"
-      }
-    ]
-  },
-  {
-    "name": "Dar Rehan Rasool",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://github.com/darrehanrasool",
-        "handle": "darrehanrasool"
-      }
-    ],
-    "about": "Computer Science student passionate about Machine Learning, Data Science, and Full Stack Development. Currently\n    building projects in AI-driven healthcare and web technologies.",
-    "resources": [
-      {
-        "title": "Developer Roadmaps",
-        "link": "https://roadmap.sh",
-        "text": "roadmap.sh"
-      },
-      {
-        "title": "Learn to Code for Free",
-        "link": "https://freecodecamp.org",
-        "text": "freeCodeCamp"
-      },
-      {
-        "title": "GitHub Platform",
-        "link": "https://github.com",
-        "text": "GitHub"
-      }
-    ]
-  },
-  {
     "name": "Dar Rehan Rasool",
     "contacts": [
       {
@@ -1142,72 +1053,6 @@
         "title": "Kaggle",
         "link": "https://www.kaggle.com",
         "text": "Kaggle"
-      }
-    ]
-  },
-  {
-    "name": "Rishav Chandra",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/22f1001685",
-        "handle": "22f1001685"
-      }
-    ],
-    "about": "A data science student exploring machine learning, NLP, and real-world problem solving. Passionate about building projects and contributing to open source.",
-    "resources": [
-      {
-        "title": "GitHub",
-        "link": "https://github.com",
-        "text": "GitHub"
-      },
-      {
-        "title": "Stack Overflow",
-        "link": "https://stackoverflow.com",
-        "text": "Stack Overflow"
-      },
-      {
-        "title": "Kaggle",
-        "link": "https://www.kaggle.com",
-        "text": "Kaggle"
-      }
-    ]
-  },
-  {
-    "name": "Yashvi Upadhyay",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/24f2007780",
-        "handle": "24f2007780"
-      },
-      {
-        "icon": "fab fa-linkedin",
-        "link": "https://www.linkedin.com/in/yashvi-upadhyay-a96546324",
-        "handle": "LinkedIn"
-      },
-      {
-        "icon": "fab fa-x-twitter",
-        "link": "https://twitter.com/data_yashvi",
-        "handle": "Twitter"
-      }
-    ],
-    "about": "I mostly visualize life & work as charts, pros-cons in my mind & observe minute events mathematically. I'm into Business, Maths, World Economy News.",
-    "resources": [
-      {
-        "title": "Beginner-friendly Python course by Dr. Charles Severance",
-        "link": "https://www.py4e.com/lessons",
-        "text": "Python for Everybody"
-      },
-      {
-        "title": "MIT Linear Algebra course by Gilbert Strang",
-        "link": "https://web.mit.edu/18.06/www/old.shtml",
-        "text": "MIT Linear Algebra (Gilbert Strang)"
-      },
-      {
-        "title": "Modern full stack web development",
-        "link": "https://fullstackopen.com/en/",
-        "text": "Full Stack Open (React, Node.js, MongoDB)"
       }
     ]
   },
