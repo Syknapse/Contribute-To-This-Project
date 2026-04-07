@@ -752,35 +752,6 @@
     ]
   },
   {
-    "username": "syknapse",
-    "name": "Syk Houdeib",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://www.github.com/Syknapse",
-        "handle": "@Syknapse"
-      }
-    ],
-    "about": "I am a front end developer and I made this project.",
-    "resources": [
-      {
-        "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org",
-        "text": "MDN Web Docs"
-      },
-      {
-        "title": "CSS Tricks",
-        "link": "https://css-tricks.com",
-        "text": "CSS Tricks"
-      },
-      {
-        "title": "JavaScript.info",
-        "link": "https://javascript.info",
-        "text": "JavaScript.info"
-      }
-    ]
-  },
-  {
     "username": "sumankr1211",
     "name": "Suman Kumar",
     "contacts": [
@@ -1285,6 +1256,35 @@
         "title": "Basic resource for C#",
         "link": "https://learn.microsoft.com/en-us/dotnet/csharp/",
         "text": "Microsoft C# guide"
+      }
+    ]
+  },
+  {
+    "username": "syknapse",
+    "name": "Syk Houdeib",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Syknapse",
+        "handle": "@Syknapse"
+      }
+    ],
+    "about": "I am a front end developer and I made this project.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "CSS Tricks",
+        "link": "https://css-tricks.com",
+        "text": "CSS Tricks"
+      },
+      {
+        "title": "JavaScript.info",
+        "link": "https://javascript.info",
+        "text": "JavaScript.info"
       }
     ]
   }
