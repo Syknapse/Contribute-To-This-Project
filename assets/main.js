@@ -243,9 +243,9 @@ function searchCard() {
     clearSearchHighlights()
 
     for (let index = 0; index < cards.length; index++) {
-      const cardMatchesSearch = cards[index].textContent.toLowerCase().includes(searchInput)
-      cards[index].style.display = cardMatchesSearch ? 'flex' : 'none'
-      if (cardMatchesSearch) highlightMatchesInCard(searchInput, cards[index])
+      const cardMatchesSearch = !searchInput || cards[index].textContent.toLowerCase().includes(searchInput)
+      cards[index].classList.toggle('hidden', !cardMatchesSearch)
+      if (cardMatchesSearch && searchInput) highlightMatchesInCard(searchInput, cards[index])
     }
   }, 500)
 }
@@ -279,7 +279,7 @@ shareButton.addEventListener('click', async () => {
 })
 
 // ── scroll to top ──────────────────────────────────────────────────────────────
-// Shows a "back to top" button once the user has scrolled 500px down.
+// Shows a "back to top" button once the user has scrolled 200px down.
 // Scroll events are debounced to avoid running on every pixel of scroll.
 
 const topButton = document.getElementById('topButton')
@@ -291,7 +291,7 @@ window.addEventListener('scroll', () => {
 })
 
 function updateTopButtonVisibility() {
-  const scrolled = document.body.scrollTop > 500 || document.documentElement.scrollTop > 500
+  const scrolled = document.body.scrollTop > 200 || document.documentElement.scrollTop > 200
   topButton.style.display = scrolled ? 'flex' : 'none'
 }
 
