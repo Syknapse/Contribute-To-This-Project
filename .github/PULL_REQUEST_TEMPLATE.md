@@ -4,7 +4,7 @@
 
 ## 🃏 Submitting a card?
 
-*Not submitting a card? Delete this entire section.*
+_Not submitting a card? Delete this entire section._
 
 - [ ] I copied `cards/template.html` to `cards/my-github-username.html` — I did NOT edit or delete `template.html` itself
 - [ ] My filename matches my exact GitHub username
@@ -16,7 +16,7 @@
 
 ## 📝 Making another type of change?
 
-*Submitting a card? Delete this entire section.*
+_Submitting a card? Delete this entire section._
 
 ### What does this PR change?
 
