@@ -1004,35 +1004,6 @@
     ]
   },
   {
-    "username": "23f2003697",
-    "name": "Annu Bharti",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://github.com/23f2003697",
-        "handle": "Your handle"
-      }
-    ],
-    "about": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.",
-    "resources": [
-      {
-        "title": "First Resource",
-        "link": "https://flask.palletsprojects.com/en/stable/",
-        "text": "Resource 1"
-      },
-      {
-        "title": "js",
-        "link": "https://devdocs.io/javascript/",
-        "text": "Resource 2"
-      },
-      {
-        "title": "Third Resource",
-        "link": "https://www.w3schools.com/python/python_reference.asp",
-        "text": "Resource 3"
-      }
-    ]
-  },
-  {
     "username": "22f1001685",
     "name": "Rishav Chandra",
     "contacts": [
