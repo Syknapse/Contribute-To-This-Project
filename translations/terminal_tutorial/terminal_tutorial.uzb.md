@@ -38,7 +38,6 @@
   - [10-qadam: Nishonlang](#10-qadam-nishonlang)
 - [Keyingi qadamlar](#keyingi-qadamlar)
 - [Minnatdorchilik](#minnatdorchilik)
-- [Litsenziya](#litsenziya)
 - [Top 100 Hissadorlar](#top-100-hissadorlar)
 
 ---
@@ -61,9 +60,9 @@ Siz manashunday karta toʻldirish orqali [loyiha web sahifasiga](https://syknaps
 
 Qoʻllanma boshqa tillarda ham mavjud. Esda tuting, tarjimalar ingliz versiyasidan ortda boʻlishi mumkin.
 
-|      [Bengal](translations/terminal_tutorial/terminal_tutorial.ben.md)      | [Nemis](translations/terminal_tutorial/terminal_tutorial.ger.md) |  [Hind](translations/terminal_tutorial/terminal_tutorial.hin.md)  | [Koreys](translations/terminal_tutorial/terminal_tutorial.kor.md) |
-| :-------------------------------------------------------------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------------: | :---------------------------------------------------------------: | ------------------------------------------------------------------------------- | ------------------------------------------------ |
-| [Portugal (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Ispan](translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrain](translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Xitoy (Anʼanaviy)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Oʻzbek](/translations/terminal_tutorial.uzb.md) |
+|      [Bengal](translations/terminal_tutorial/terminal_tutorial.ben.md)       | [Nemis](translations/terminal_tutorial/terminal_tutorial.ger.md) |   [Hind](translations/terminal_tutorial/terminal_tutorial.hin.md)   |          [Koreys](translations/terminal_tutorial/terminal_tutorial.kor.md)          |     [Portugal (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) |
+| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------:  | :---------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| [Ispan](translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrain](translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Xitoy (Anʼanaviy)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [Oʻzbek](/translations/terminal_tutorial.uzb.md) | | | |
 
 > Bu qoʻllanma uchun tarjimalar joʻnatishingizdan faqatgina mamnun boʻlamiz. Boshlash uchun: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
@@ -213,7 +212,7 @@ Avtomatlashtirilgan jarayon hammasini sinovdan oʻtkazib, asosiy tuzilmadan orti
 
 ---
 
-### Step 7: Oʻzgarishlarni topshiring
+### 7-qadam: Oʻzgarishlarni topshiring
 
 Kartangiz faylini topshiring:
 
