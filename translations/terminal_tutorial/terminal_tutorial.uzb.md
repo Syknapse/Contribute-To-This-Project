@@ -1,20 +1,20 @@
 # [Bu Loyihaga Hissa Qoʻshing](https://syknapse.github.io/Contribute-To-This-Project/)
 
-![image info](/favicon.png)
+![Tasvir maʼlumoti](/favicon.png)
 
-> Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+> Ushbu logotipning yaratuvchisi :sparkling_heart: [CandidDeer](https://github.com/CandidDeer)
 
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
+[![Tvit](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tvit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Bizning%20Discord%20Serverimizga%20qoʻshiling&icon=discord)](https://discord.gg/tWkvS4ueVF 'Bizning Discord serverimizga qoʻshiling!')
+[![PRs Hush koʻriladi](https://img.shields.io/badge/PRʼlar-doim_hush_koʻriladi-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Ochiq Manba Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
 
-> ## **Announcement:**
+> ## **Eʼlon:**
 >
-> Would you like to become a maintainer on this project? Read the [maintainer's guide](/maintainer_guide.md), join our [Discord server](https://discord.gg/tWkvS4ueVF), and request to join the team.
+> Loyiha boshqaruvchisi boʻlishni va bardavom boʻlishiga hissa qoʻshishni hohlaysizmi? Agar bu sizga qiziq boʻlsa, [boshqaruvchilar uchun qoʻllanmani](/maintainer_guide.md) oʻqing, bizning [Discord serverga](https://discord.gg/tWkvS4ueVF) aʼzo boʻling, va jamoaga qoʻshilishni loyiha boshqaruvchilaridan soʻrang.
 
 ---
 
