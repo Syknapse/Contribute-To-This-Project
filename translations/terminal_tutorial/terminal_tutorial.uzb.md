@@ -24,7 +24,7 @@
 - [Bu kim uchun?](#bu-kim-uchun)
 - [Qanday hissa qoʻshishingiz mumkin?](#qanday-hissa-qoʻshishingiz-mumkin)
 - [Tarjimalar](#tarjimalar)
-- [Oʻrnatish)](#oʻrnatish)
+- [Oʻrnatish](#oʻrnatish)
 - [Hissa qoʻshish](#hissa-qoʻshish)
   - [1-qadam: Loyihani forklang](#1-qadam-loyihani-forklang)
   - [2-qadam: Nusxani yuklab oling](#2-qadam-nusxani-yuklab-oling)
