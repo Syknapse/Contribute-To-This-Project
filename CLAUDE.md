@@ -2,6 +2,18 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Project Philosophy
+
+Three principles govern every decision in this project — for AI assistants, human maintainers, and anyone proposing changes:
+
+1. **Contributors first.** This project exists for first-time contributors. Every decision should minimise friction, provide clear feedback, and keep the experience as close to real-world Git/GitHub practice as possible.
+
+2. **Minimum maintainability.** The goal is zero required maintainer intervention for normal card submissions. Automation should handle the full lifecycle. Maintainer time is precious — don't create processes that require regular manual attention.
+
+3. **Simplicity.** No over-engineering. Prefer the simpler solution. Aggressively question whether added complexity is justified. Three lines of clear code beats a clever abstraction. When in doubt, do less.
+
+These three principles exist in tension with each other (automation = complexity; security = friction). Always resolve that tension by asking: _what is the minimum intervention that keeps the contributor experience smooth and the maintainer burden low?_
+
 ## Project Overview
 
 An educational open-source project that teaches first-time contributors how to use Git and GitHub. Contributors add a personal card by submitting a single HTML file via pull request. A bot validates and auto-merges valid submissions.

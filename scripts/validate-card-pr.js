@@ -52,6 +52,18 @@ const prFilesData = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files
 const prFiles = prFilesData.map(f => f.path)
 console.log(`Changed files: ${prFiles.join(', ')}`)
 
+// ── template.html guard ────────────────────────────────────────────────────────
+// template.html must never appear in a contributor PR — not added, modified, or deleted.
+// This check runs before everything else so the error is always precise.
+const templateEntry = prFilesData.find(f => path.basename(f.path) === 'template.html')
+if (templateEntry) {
+  if (templateEntry.changeType === 'DELETED') {
+    fail(messages.deletedTemplate(PR_AUTHOR))
+  } else {
+    fail(messages.submitTemplate(PR_AUTHOR))
+  }
+}
+
 // ── file scope ─────────────────────────────────────────────────────────────────
 const nonCardFiles = prFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
 if (nonCardFiles.length > 0) {
@@ -100,6 +112,11 @@ if (filename === 'template.html') {
 
 if (!/^[a-zA-Z0-9_-]+\.html$/.test(filename)) {
   fail(messages.invalidFilename(PR_AUTHOR, filename))
+}
+
+// ── filename must match the PR author's GitHub username ────────────────────────
+if (path.basename(filename, '.html').toLowerCase() !== PR_AUTHOR.toLowerCase()) {
+  fail(messages.filenameMismatch(PR_AUTHOR, filename))
 }
 
 // ── check for duplicate card filename ──────────────────────────────────────────
@@ -154,6 +171,15 @@ if (prState === 'MERGED') {
 }
 if (prState === 'CLOSED') {
   console.log(`⚠️  PR #${PR_NUMBER} is closed — skipping merge.`)
+  process.exit(0)
+}
+
+// Guard: if a previous validate run already enabled auto-merge, this is a duplicate
+// run (e.g. triggered by a late synchronize event). Skip to avoid double comments
+// and double archive dispatches.
+const autoMergeRequest = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json autoMergeRequest`)).autoMergeRequest
+if (autoMergeRequest) {
+  console.log('✅ Auto-merge already enabled by a previous run — skipping duplicate processing.')
   process.exit(0)
 }
 
