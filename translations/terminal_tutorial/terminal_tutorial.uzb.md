@@ -244,7 +244,7 @@ git push origin sizning-ismingiz-kartasi
 
 ### 9-qadam: PR yuboring (Tortish soʻrovi)
 
-Git Omboridagi forkʼingizga oʻting. U yerda tortish soʻroviga taklif paydo boʻlganini koʻrasiz — \*\*Compare & pull request" tugmasini bosing.
+Git Omboridagi forkʼingizga oʻting. U yerda tortish soʻroviga taklif paydo boʻlganini koʻrasiz — **Compare & pull request** tugmasini bosing.
 
 asosiy loyiha `Syknapse/Contribute-To-This-Project` va asosiy novda esa `master` ekanligiga ishonch hosil qiling.
 
