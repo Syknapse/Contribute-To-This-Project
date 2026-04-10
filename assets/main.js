@@ -69,7 +69,7 @@ function renderCards(cardDataArray, sourceFile) {
     .join('')
 
   const grid = document.getElementById('contributions')
-  grid.innerHTML += cardsHtml
+  grid.insertAdjacentHTML('beforeend', cardsHtml)
 }
 
 // ── lazy loading ───────────────────────────────────────────────────────────────
