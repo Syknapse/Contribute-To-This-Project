@@ -251,6 +251,13 @@ footer {
   margin-right: 0;
 }
 
+/* retro specific */
+[data-theme='retro'] .contact i {
+  color: var(--color-bg);
+}
+[data-theme='retro'] .contact a {
+  color: #f2f2f2;
+}
 .about {
   background-color: var(--color-surface-alt);
   word-break: break-word;
