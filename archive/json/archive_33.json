@@ -1258,5 +1258,34 @@
         "text": "JavaScript.info"
       }
     ]
+  },
+  {
+    "username": "thomaschant",
+    "name": "Thomas Chant",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/ThomasChant",
+        "handle": "ThomasChant"
+      }
+    ],
+    "about": "I build JSON Swiss, an in-browser toolkit for formatting, validating, repairing, and exporting JSON. Here are three pages I use\n    most often when turning messy payloads into something shippable.",
+    "resources": [
+      {
+        "title": "Convert JSON to table online, review every row faster, and edit data in a clean JSON to Table view. Free, local, and built for readable JSON table workflows.",
+        "link": "https://jsonswiss.com/json-table-editor",
+        "text": "JSON to Table - Convert JSON to Table Online | JSONSwiss"
+      },
+      {
+        "title": "Free online JSON repair tool. Automatically fix missing quotes, trailing commas, bracket mismatches, single quotes, and escape issues. Supports local repair first with AI-assisted deep repair for more complex payloads.",
+        "link": "https://jsonswiss.com/repair",
+        "text": "JSON Repair Tool - Fix Invalid JSON | JSONSwiss"
+      },
+      {
+        "title": "Convert JSON to Excel (XLSX, XLS, CSV) instantly. Features live table preview, nested data flattening, and secure client-side processing for large files.",
+        "link": "https://jsonswiss.com/converter/json-to-excel",
+        "text": "JSON to Excel Converter Online | JSONSwiss"
+      }
+    ]
   }
 ]
