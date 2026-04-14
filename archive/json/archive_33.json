@@ -1287,5 +1287,34 @@
         "text": "JSON to Excel Converter Online | JSONSwiss"
       }
     ]
+  },
+  {
+    "username": "rayrishu19-wq",
+    "name": "Rishu",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/rayrishu19-wq",
+        "handle": "rayrishu19-wq"
+      }
+    ],
+    "about": "I am a passionate developer eager to learn and contribute to open source.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Roadmap.sh"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
