@@ -1,11 +1,11 @@
-# [Contribuye a este proyecto](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Contribuye a este Proyecto](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![Logo del proyecto](/favicon.png)
 
-> Logo Created with :sparkling_heart: By [CandidDeer](https://github.com/CandidDeer)
+> Logo creado con :sparkling_heart: por [CandidDeer](https://github.com/CandidDeer)
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Únete a nuestro servidor de Discord')
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=%C3%9Anete%20a%20nuestro%20servidor%20de%20Discord&icon=discord)](https://discord.gg/tWkvS4ueVF 'Únete a nuestro servidor de Discord')
+[![PRs Bienvenidos](https://img.shields.io/badge/PRs-Bienvenidos-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ---
@@ -18,13 +18,13 @@
 
 ### Índice de acceso rápido
 
-- [Introducción](#introduccion)
+- [Introducción](#introducción)
 - [Objetivos](#objetivos)
-- [¿Para quién es esto?](#para-quien-es-esto)
-- [¿Por qué necesito hacer esto?](#por-que-necesito-hacer-esto)
-- [¿Con qué voy a contribuir?](#con-que-voy-a-contribuir)
+- [¿Para quién es esto?](#para-quién-es-esto)
+- [¿Por qué necesito hacer esto?](#por-qué-necesito-hacer-esto)
+- [¿Con qué voy a contribuir?](#con-qué-voy-a-contribuir)
 - [Traducciones](#traducciones)
-- [Preparación :)](#preparacion-)
+- [Preparación! :)](#preparación-)
 - [Contribuir](#contribuir)
   - [Paso 1: Haz un fork de este repositorio](#paso-1-haz-un-fork-de-este-repositorio)
   - [Paso 2: Clona el repositorio](#paso-2-clona-el-repositorio)
@@ -34,7 +34,7 @@
   - [Paso 6: Revisa tu trabajo](#paso-6-revisa-tu-trabajo)
   - [Paso 7: Haz commit de tus cambios](#paso-7-haz-commit-de-tus-cambios)
   - [Paso 8: Sube tus cambios a GitHub](#paso-8-sube-tus-cambios-a-github)
-  - [Paso 9: Envía un PR (Pull Request)](#paso-9-envia-un-pr-pull-request)
+  - [Paso 9: Envía un PR (Pull Request)](#paso-9-envía-un-pr-pull-request)
   - [Paso 10: Celebra](#paso-10-celebra)
 - [Siguientes pasos](#siguientes-pasos)
 - [Agradecimientos](#agradecimientos)
@@ -61,7 +61,7 @@ Este es un tutorial para ayudar a personas que contribuyen por primera vez a par
 
 Cualquier desarrollador web, principiante o con experiencia, necesita usar control de versiones con Git, y GitHub es el servicio de alojamiento de Git más popular. También es el corazón de la comunidad Open Source. Sentirte cómodo usando GitHub es una habilidad esencial. Hacer una contribución a un proyecto mejora tu confianza y te da algo para mostrar en tu perfil de GitHub.
 
-Si eres nuevo en desarrollo y te preguntas si necesitas aprender Git y GitHub, aquí está la respuesta: [You Should've Learned Git Yesterday](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should have learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
+Si eres nuevo en desarrollo y te preguntas si necesitas aprender Git y GitHub, aquí está la respuesta: [¿Deberías haber aprendido Git ayer?](https://codeburst.io/number-one-piece-of-advice-for-new-developers-ddd08abc8bfa 'New Developer? You should have learned Git yesterday. by Brandon Morelli, creator of CodeBurst.io').
 
 ### ¿Con qué voy a contribuir?
 
@@ -83,7 +83,6 @@ Este tutorial también está disponible en [otros idiomas](/translations/README.
 | :------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :---------------------------------------------------------: |
 |           [Inglés (English)](/README.md)           |  [Francés (Français)](/translations/README/FRENCH.md)  |             [Alemán (Deutsch)](/translations/README/GERMAN.md)              |               [Hindi (हिंदी)](/translations/README/HINDI.md)                |         [Italiano](/translations/README/ITALIAN.md)         |
 | [Japonés (日本語)](/translations/日本語/README.md) |   [Coreano (한국어)](/translations/README/KOREAN.md)   |              [Polaco (Polski)](/translations/README/POLISH.md)              |        [Portugués (Portuguese)](/translations/README/PORTUGUESE.md)         |      [Ruso (Русский)](/translations/README/RUSSIAN.md)      |
-|  :---------------------------------------------:   |    :---------------------------------------------:     |               :---------------------------------------------:               |               :---------------------------------------------:               |       :---------------------------------------------:       |
 | [Serbio (Српски)](/translations/README/SERBIAN.md) | [Somali (Af-Soomaali)](/translations/README/SOMALI.md) |        [Español (Latinoamericano)](/translations/README/SPANISH.md)         |              [Turco (Türkçe)](/translations/README/TURKISH.md)              | [Ucraniano (українська)](/translations/README/UKRAINIAN.md) |
 |   [Urdu (اُردُو)](/translations/README/URDU.md)    |  [Noruego (Norsk)](/translations/README/NORWEGIAN.md)  |               [Malayalam](/translations/README/MALAYALAM.md)                |                                                                             |                                                             |
 
@@ -91,7 +90,7 @@ Este tutorial también está disponible en [otros idiomas](/translations/README.
 
 ---
 
-### Preparación :)
+### Preparación! :)
 
 > [!Note]
 > Este tutorial está basado en GitHub Desktop. [Si te sientes cómodo con la terminal, ve a este tutorial](/terminal_tutorial.md)
@@ -109,7 +108,7 @@ Primero, deja todo listo para trabajar.
 
 > Ahora que ya está todo listo, empecemos a contribuir al proyecto.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -131,7 +130,7 @@ _Tiempo estimado: menos de 30 minutos_.
 
 - Ahora tienes una copia completa del proyecto en tu propia cuenta.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -157,7 +156,7 @@ _Tiempo estimado: menos de 30 minutos_.
 - Esto puede tomar un momento mientras se copia el proyecto a tu disco. Se recomienda dejar la ruta por defecto, que suele ser `..\Documents\GitHub`.
 - Ahora ya tienes una copia local del proyecto.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -177,7 +176,7 @@ _Tiempo estimado: menos de 30 minutos_.
 
 **NO trabajes sobre la rama `master`**
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -190,7 +189,7 @@ _Tiempo estimado: menos de 30 minutos_.
 
 - Ahora abre `cards/tu-usuario-de-github.html` en tu editor de código. Este es el único archivo que vas a editar.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -236,7 +235,7 @@ _Tiempo estimado: menos de 30 minutos_.
 
 - **Nota: no cambies nombres de clases ni la estructura del HTML.** El bot que valida tu PR revisa esto.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -246,7 +245,7 @@ _Tiempo estimado: menos de 30 minutos_.
 - También es buena práctica probar tus enlaces en el navegador para confirmar que funcionan y abren donde esperas.
 - Eso es todo el testing que necesitas hacer. La validación automática al enviar tu PR detectará cualquier problema estructural que se te haya pasado.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -265,7 +264,7 @@ _Tiempo estimado: menos de 30 minutos_.
 |                                                                                 ![Write commit message and commit](/readme-only/commit-message.PNG "Write a brief commit message in the 'summary' input, and clic 'commit'")                                                                                 |
 | :arrow_right_hook: **Para hacer `Commit`, completa el campo `Summary`. Ese es el mensaje de commit que explica qué cambiaste. En este caso, `Add my card information` es razonable. Opcionalmente puedes agregar una `Description`. Haz clic en `Commit`. El botón dirá algo como `Commit to \"tu-rama\"`.** |
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -279,7 +278,7 @@ _Tiempo estimado: menos de 30 minutos_.
 
 - Después de unos segundos, la operación terminará y tendrás exactamente la misma copia de esa rama en tu máquina y en GitHub.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -309,7 +308,7 @@ _Tiempo estimado: menos de 30 minutos_.
 - Deja marcada la opción `Allow edits from maintainers`.
 - Ahora se enviará el _Pull Request_ al proyecto. Un bot revisará tu tarjeta automáticamente y, si todo se ve bien, la fusionará. Recibirás una notificación de GitHub cuando termine.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -323,7 +322,7 @@ Tu tarjeta se revisará y fusionará automáticamente si todo está correcto. Si
 
 **¿Dónde se fue mi archivo HTML?** Después de un tiempo, las tarjetas enviadas se archivan automáticamente para mantener el repositorio liviano. Tu archivo html se eliminará automáticamente del directorio `cards/`, pero sus datos se conservan en el archivo de historial. Tu tarjeta seguirá apareciendo en el sitio. [Más información](../../archive/README.md).
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -340,7 +339,7 @@ Tu tarjeta se revisará y fusionará automáticamente si todo está correcto. Si
 - **Gracias por contribuir a este proyecto**. Ahora puedes intentar contribuir en otros proyectos; busca la etiqueta ![Good First Issue](https://user-images.githubusercontent.com/29199184/33852733-e23b7070-debb-11e7-907b-4e7a03aad436.png) para opciones amigables para principiantes.
 - También se buscan colaboradores para ayudar revisando y fusionando PRs. Si quieres practicar Git de forma más avanzada, lee la [guía para mantenedores](/maintainer_guide.md), únete a nuestro [servidor de Discord](https://discord.gg/tWkvS4ueVF) y solicita unirte al equipo de mantenedores.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -358,4 +357,4 @@ Este proyecto está licenciado bajo la [Licencia MIT](../../LICENSE).
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[Volver arriba &uparrow;](#introduccion)
+[Volver arriba &uparrow;](#introducción)
