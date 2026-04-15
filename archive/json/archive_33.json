@@ -1316,5 +1316,39 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "ayushi227",
+    "name": "Ayushi Khare",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Ayushi227",
+        "handle": "Github"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/ayushi-khare-083b5b205/",
+        "handle": "Linkedin"
+      }
+    ],
+    "about": "I am a software developer, currently pursuing my masters. I know git but I have never contirbuted to open source- so starting here today!",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://claude.ai/new",
+        "text": "Claude"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://nextjs.org/docs",
+        "text": "Documentation"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://medium.com/",
+        "text": "Medium"
+      }
+    ]
   }
 ]
