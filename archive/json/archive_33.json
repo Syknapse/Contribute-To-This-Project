@@ -1350,5 +1350,34 @@
         "text": "Medium"
       }
     ]
+  },
+  {
+    "username": "ramnau",
+    "name": "ramnau",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/ramnau",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "Hi, my name is ramnau, and I have just started learning how to program. I am a beginner, but I am excited to improve my skills and build my first projects.",
+    "resources": [
+      {
+        "title": "w3schools.com",
+        "link": "https://www.w3schools.com/",
+        "text": "Resource 1"
+      },
+      {
+        "title": "learnpython.org",
+        "link": "https://www.learnpython.org/",
+        "text": "Resource 2"
+      },
+      {
+        "title": "freecodecamp.org",
+        "link": "https://www.freecodecamp.org/learn/python-v9/",
+        "text": "Resource 3"
+      }
+    ]
   }
 ]
