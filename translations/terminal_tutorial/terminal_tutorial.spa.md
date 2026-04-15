@@ -1,4 +1,4 @@
-# [Contribute To This Project](https://syknapse.github.io/Contribute-To-This-Project/)
+# [Contribuye a este Proyecto](https://syknapse.github.io/Contribute-To-This-Project/)
 
 ![image info](/favicon.png)
 
@@ -6,7 +6,7 @@
 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][twit]
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Únete a nuestro servidor de Discord')
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=%C3%9Anete%20a%20nuestro%20servidor%20de%20Discord&icon=discord)](https://discord.gg/tWkvS4ueVF 'Únete a nuestro servidor de Discord')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
@@ -20,11 +20,11 @@
 
 ### Índice de acceso rápido
 
-- [Introducción](#introduccion)
-- [¿Para quién es esto?](#para-quien-es-esto)
-- [¿Con qué voy a contribuir?](#con-que-voy-a-contribuir)
+- [Introducción](#introducción)
+- [¿Para quién es esto?](#para-quién-es-esto)
+- [¿Con qué voy a contribuir?](#con-qué-voy-a-contribuir)
 - [Traducciones](#traducciones)
-- [Preparación](#preparacion)
+- [Preparación](#preparación)
 - [Contribuir](#contribuir)
   - [Paso 1: Haz fork de este repositorio](#paso-1-haz-fork-de-este-repositorio)
   - [Paso 2: Clona el repositorio](#paso-2-clona-el-repositorio)
@@ -34,7 +34,7 @@
   - [Paso 6: Revisa tu trabajo](#paso-6-revisa-tu-trabajo)
   - [Paso 7: Haz commit de tus cambios](#paso-7-haz-commit-de-tus-cambios)
   - [Paso 8: Sube tus cambios a GitHub](#paso-8-sube-tus-cambios-a-github)
-  - [Paso 9: Envía un PR](#paso-9-envia-un-pr-pull-request)
+  - [Paso 9: Envía un PR](#paso-9-envía-un-pr-pull-request)
   - [Paso 10: Celebra](#paso-10-celebra)
 - [Siguientes pasos](#siguientes-pasos)
 
@@ -86,7 +86,7 @@ Conviértete en contribuyente de código abierto en 10 pasos.
 
 Haz fork de este proyecto haciendo clic en el botón **Fork** arriba a la derecha en la [página del repositorio](https://github.com/Syknapse/Contribute-To-This-Project). Esto crea una copia del proyecto en tu cuenta de GitHub.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -104,7 +104,7 @@ Luego entra al directorio del proyecto:
 cd Contribute-To-This-Project
 ```
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -120,7 +120,7 @@ Usa un nombre descriptivo. `tu-nombre-card` es una buena convención para este p
 
 **NO trabajes en la rama `master`.**
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -140,7 +140,7 @@ cp cards/template.html cards/octocat.html
 
 **Este es el único archivo que vas a editar.** No edites `cards/template.html`.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -192,7 +192,7 @@ Complétala así:
 
 Guarda el archivo cuando termines.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -206,7 +206,7 @@ Abre tu archivo de tarjeta y revisa que:
 
 La validación automática al enviar el PR detectará cualquier problema estructural que se te haya escapado.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -224,7 +224,7 @@ Haz commit con un mensaje corto:
 git commit -m "Add my card"
 ```
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -236,7 +236,7 @@ Haz push de tu rama a tu fork:
 git push origin tu-nombre-card
 ```
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -250,7 +250,7 @@ Deja activada la opción **Allow edits from maintainers** y luego haz clic en **
 
 Un bot validará tu tarjeta automáticamente. Si todo está bien, la fusiona solo. Si hay algo que corregir, el bot dejará un comentario explicando exactamente qué cambiar. Haz push del arreglo a la misma rama y se vuelve a validar.
 
-[↑ Ir arriba ↑](#indice-de-acceso-rapido)
+[↑ Ir arriba ↑](#índice-de-acceso-rápido)
 
 ---
 
@@ -280,4 +280,4 @@ Este proyecto está fuertemente influenciado por el gran proyecto [first-contrib
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
-[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet este proyecto'
+[twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet del proyecto'
