@@ -4,12 +4,12 @@
     "name": "Bruno Justino",
     "contacts": [
       {
-        "icon": "fa-solid fa-house-user",
+        "icon": "fas fa-house-user",
         "link": "https://portfolio.brunojustino.com/",
         "handle": "Portfolio"
       },
       {
-        "icon": "fa-solid fa-atom",
+        "icon": "fas fa-atom",
         "link": "https://www.codewars.com/users/brunojustino",
         "handle": "Codewars"
       },
@@ -1168,6 +1168,7 @@
     "name": "Niraj Rathod",
     "contacts": [
       {
+        "icon": "fas fa-house-user",
         "link": "https://nirajrathod.me",
         "handle": "Portfolio"
       },
