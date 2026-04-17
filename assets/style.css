@@ -261,6 +261,7 @@ footer {
 .about {
   background-color: var(--color-surface-alt);
   word-break: break-word;
+  text-align: justify;
 }
 
 .resources p {
