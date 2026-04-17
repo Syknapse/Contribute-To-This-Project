@@ -327,10 +327,10 @@ footer {
   background-color: var(--color-accent);
 }
 [data-theme='mauritius'] .card:hover small {
-  color: var(--color-bg); /* dark text */
+  color: var(--color-surface); /* dark text */
 }
 [data-theme='mauritius'] .card:hover small a {
-  color: var(--color-bg);
+  color: var(--color-surface);
 }
 [data-theme='mauritius'] .card .resources:hover {
   color: var(--color-primary);
