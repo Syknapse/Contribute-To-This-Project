@@ -46,7 +46,7 @@ function renderCards(cardDataArray, sourceFile) {
             ${contacts
               .map(
                 contact =>
-                  `<i class="${contact.icon}"></i><a href="${contact.link}" target="_blank">${contact.handle}</a>`
+                  `<a href="${contact.link}" target="_blank"><i class="${contact.icon}"></i>${contact.handle}</a>`
               )
               .join('')}
           </p>
