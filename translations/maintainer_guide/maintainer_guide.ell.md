@@ -66,4 +66,4 @@ npx prettier --write index.html
 
 Ελάτε μαζί μας για να βοηθήσουμε να αναπτύξουμε αυτό το έργο μαζί. Επικοινωνήστε μαζί μου στο [Twitter](https://twitter.com/Syknapse) και στείλτε μου το όνομα χρήστη σας στο GitHub για να σας προσθέσω. Μπορείτε επίσης να εγγραφείτε στην Κοινότητα Discord μας κάνοντας κλικ στο παρακάτω κουμπί:
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF "Εγγραφείτε στο διακομιστή Discord μας !")
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Εγγραφείτε στο διακομιστή Discord μας !')

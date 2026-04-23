@@ -8,9 +8,9 @@
 
 이 튜토리얼은 [다른 언어](../README.md)로도 제공됩니다.
 
-| [English](/maintainer_guide.md)   | [Bangla](maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide.zho-tc.md) | [German](maintainer_guide.ger.md) | [Hindi](maintainer_guide.hin.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Italian](maintainer_guide.ita.md) | [Japanese](maintainer_guide.jpn.md) | [Portuguese](maintainer_guide.por.md) | [Ukrainian](maintainer_guide.ukr.md) |
+|  [English](/maintainer_guide.md)   |  [Bangla](maintainer_guide.ben.md)  | [Chinese (Traditional)](maintainer_guide.zho-tc.md) |  [German](maintainer_guide.ger.md)   | [Hindi](maintainer_guide.hin.md) |
+| :--------------------------------: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------: | :------------------------------: |
+| [Italian](maintainer_guide.ita.md) | [Japanese](maintainer_guide.jpn.md) |        [Portuguese](maintainer_guide.por.md)        | [Ukrainian](maintainer_guide.ukr.md) |
 
 > 프로젝트 문서 번역을 하고 싶다면 환영입니다. [`번역 가이드`](../README.md)를 읽고 기여해주세요.
 

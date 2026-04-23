@@ -8,8 +8,8 @@
 
 這份教學也有[其他語言](/translations/README.md)的翻譯
 
-| [English](/maintainer_guide.md)   | [Bangla](/translations/maintainer_guide/maintainer_guide.ben.md) | [German](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](/translations/maintainer_guide/maintainer_guide.jpn.md) |
-| :---: | :---: | :---: | :---: | :---: |
+|                   [English](/maintainer_guide.md)                    |  [Bangla](/translations/maintainer_guide/maintainer_guide.ben.md)   | [German](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](/translations/maintainer_guide/maintainer_guide.jpn.md) |
+| :------------------------------------------------------------------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------------------------: |
 | [Portuguese](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。
