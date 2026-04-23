@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # পরিচালনা নির্দেশাবলি
 
 যারা আমাদের প্রকল্প পরিচালনা ও বজায় রাখতে সহায়তা করতে প্রকল্পে রক্ষণাবেক্ষণকারী হিসাবে যোগদান করতে চান তাদের জন্য আমাদের এই পথ নির্দেশিকা। (দ্রষ্টব্যঃ এটি **নবীনদের** জন্য নয়।)

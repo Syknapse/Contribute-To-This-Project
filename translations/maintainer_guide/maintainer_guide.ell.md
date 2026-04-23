@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Οδηγός Συντηρητή
 
 Αυτός ο οδηγός είναι για όσους θέλουν να συμμετάσχουν στο έργο ως συντηρητές, για να βοηθήσουν στη διαχείριση και τη διατήρηση του έργου για την κοινότητα. (Αυτός δεν είναι ένας οδηγός για **τους συνεισφέροντες για πρώτη φορά**)

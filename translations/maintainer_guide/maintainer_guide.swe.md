@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Underhållarguide
 
 Denna guide är för dig som vill bli underhållare i projektet och hjälpa till att hantera och underhålla det för communityn. (Detta är inte en guide för **förstagångsbidragare**)

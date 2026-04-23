@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # मेंटेनर मार्गदर्शिका
 
 यह मार्गदर्शिका उन लोगों के लिए है जो समुदाय के हित में इस परियोजना के प्रबंधन और रखरखाव में योगदान देना चाहते हैं और मेंटेनर (Maintainer) के रूप में जुड़ना चाहते हैं।  

@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # देखभाल करणाऱ्यांचे मार्गदर्शक
 
 हे मार्गदर्शक त्यांच्यासाठी आहे जे प्रकल्पात देखभालकर्ता म्हणून सामील होऊ इच्छितात, समुदायासाठी प्रकल्प व्यवस्थापित करण्यात आणि देखरेख करण्यात मदत करण्यासाठी. (हे **पहिल्यांदा योगदानकर्त्यांसाठी मार्गदर्शक नाही**)

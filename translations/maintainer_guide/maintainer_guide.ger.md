@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Leitfaden für Maintainer
 
 Dieser Leitfaden richtet sich an diejenigen, die dem Projekt als Maintainer beitreten möchten, um die Verwaltung und Pflege des Projekts für die Community zu unterstützen. (Dies ist kein Leitfaden für **Erstbeiträger**)

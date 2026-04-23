@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Guida del Manutentore (Italiano)
 
 Questa guida è destinata a coloro che desiderano unirsi al progetto come manutentori, per contribuire a gestire e mantenere il progetto per la comunità. (Questa **non è una guida per i nuovi contributori**)
@@ -62,4 +64,3 @@ Se noti che il file HTML sembra disordinato, esegui il seguente comando nella di
 
 ```js
 npx prettier --write index.html
-

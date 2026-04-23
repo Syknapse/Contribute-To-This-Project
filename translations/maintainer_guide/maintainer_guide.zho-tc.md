@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # 維護者指南
 
 本指南是為了那些想要作為維護者加入本專案的人，為了替社群幫忙管理和維護專案。（這不是給 **第一次貢獻者**的指南）
