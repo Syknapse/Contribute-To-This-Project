@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes an old workflow that no longer works. Please follow the English README for the current step-by-step tutorial.
+
 # Berkontribusi ke Proyek Ini
 
 ![image info](/favicon.png)
@@ -6,7 +8,7 @@
 
 ---
 
-### Daftar Isi Cepat
+### Quick access index
 
 - [Pendahuluan](#pendahuluan)
 - [Tujuan](#tujuan)
