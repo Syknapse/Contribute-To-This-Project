@@ -74,41 +74,53 @@ Kamu hanya perlu menyalin template kartu, mengisinya, lalu mengirimkannya.
 ### Kontribusi
 
 #### Langkah 1: Fork repository
+
 Salin repository ini ke akun GitHub kamu.
 
 #### Langkah 2: Clone repository
+
 Download repository ke komputer kamu.
 
 #### Langkah 3: Buat branch baru
+
 Gunakan branch untuk memisahkan perubahan dari project utama.
 
 #### Langkah 4: Copy template
+
 - Masuk ke folder `cards/`
 - Copy `template.html`
 - Rename menjadi `username.html`
 
 #### Langkah 5: Isi kartu
+
 Isi:
+
 - Nama
 - Kontak
 - Deskripsi
 - Resource
 
 #### Langkah 6: Cek hasil
+
 Pastikan:
+
 - Tidak ada placeholder
 - Semua link valid
 
 #### Langkah 7: Commit
+
 Simpan perubahan dengan commit.
 
 #### Langkah 8: Push
+
 Upload ke GitHub.
 
 #### Langkah 9: Pull Request
+
 Kirim perubahan ke repository utama.
 
 #### Langkah 10: Selesai 🎉
+
 Selamat! Kamu sudah berkontribusi ke open source.
 
 ---
