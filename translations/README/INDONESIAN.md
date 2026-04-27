@@ -4,7 +4,7 @@
 
 > Logo dibuat dengan :sparkling_heart: oleh [CandidDeer](https://github.com/CandidDeer)
 
-[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Gabung%20Server%20Discord\&icon=discord)](https://discord.gg/tWkvS4ueVF "Gabung server Discord kami!")
+[![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Gabung%20Server%20Discord&icon=discord)](https://discord.gg/tWkvS4ueVF 'Gabung server Discord kami!')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
 
@@ -18,29 +18,29 @@
 
 ### Indeks Akses Cepat
 
-* [Pendahuluan](#introduction)
-* [Tujuan](#objectives)
-* [Untuk siapa ini?](#who-is-this-for)
-* [Kenapa saya perlu melakukan ini?](#why-do-i-need-to-do-this)
-* [Apa yang akan saya kontribusikan?](#what-am-i-going-to-contribute)
-* [Terjemahan](#translations)
-* [Setup! :)](#setup-)
-* [Kontribusi](#contribute)
+- [Pendahuluan](#introduction)
+- [Tujuan](#objectives)
+- [Untuk siapa ini?](#who-is-this-for)
+- [Kenapa saya perlu melakukan ini?](#why-do-i-need-to-do-this)
+- [Apa yang akan saya kontribusikan?](#what-am-i-going-to-contribute)
+- [Terjemahan](#translations)
+- [Setup! :)](#setup-)
+- [Kontribusi](#contribute)
+  - [Langkah 1: Fork repository](#step-1-fork-this-repository)
+  - [Langkah 2: Clone repository](#step-2-clone-the-repository)
+  - [Langkah 3: Buat branch baru](#step-3-create-a-new-branch)
+  - [Langkah 4: Salin file template](#step-4-copy-the-template-file)
+  - [Langkah 5: Isi kartu kamu](#step-5-fill-in-your-card)
+  - [Langkah 6: Periksa hasil pekerjaan](#step-6-check-your-work)
+  - [Langkah 7: Commit perubahan](#step-7-commit-your-changes)
+  - [Langkah 8: Push ke GitHub](#step-8-push-your-changes-to-github)
+  - [Langkah 9: Kirim PR (Pull Request)](#step-9-submit-a-pr-pull-request)
+  - [Langkah 10: Rayakan](#step-10-celebrate)
 
-  * [Langkah 1: Fork repository](#step-1-fork-this-repository)
-  * [Langkah 2: Clone repository](#step-2-clone-the-repository)
-  * [Langkah 3: Buat branch baru](#step-3-create-a-new-branch)
-  * [Langkah 4: Salin file template](#step-4-copy-the-template-file)
-  * [Langkah 5: Isi kartu kamu](#step-5-fill-in-your-card)
-  * [Langkah 6: Periksa hasil pekerjaan](#step-6-check-your-work)
-  * [Langkah 7: Commit perubahan](#step-7-commit-your-changes)
-  * [Langkah 8: Push ke GitHub](#step-8-push-your-changes-to-github)
-  * [Langkah 9: Kirim PR (Pull Request)](#step-9-submit-a-pr-pull-request)
-  * [Langkah 10: Rayakan](#step-10-celebrate)
-* [Langkah Selanjutnya](#next-steps)
-* [Ucapan Terima Kasih](#acknowledgements)
-* [Lisensi](#license)
-* [Top 100 Kontributor](#top-100-contributors)
+- [Langkah Selanjutnya](#next-steps)
+- [Ucapan Terima Kasih](#acknowledgements)
+- [Lisensi](#license)
+- [Top 100 Kontributor](#top-100-contributors)
 
 ---
 
@@ -50,13 +50,13 @@ Ini adalah tutorial untuk membantu kontributor pertama kali berpartisipasi dalam
 
 ### Objectives
 
-* Melakukan kontribusi ke proyek open source.
-* Menjadi lebih terbiasa menggunakan GitHub.
+- Melakukan kontribusi ke proyek open source.
+- Menjadi lebih terbiasa menggunakan GitHub.
 
 ### Who is this for?
 
-* Untuk pemula absolut. Jika kamu tahu cara menulis dan mengedit tag `<a href="" target=""></a>`, maka kamu seharusnya bisa melakukannya.
-* Juga untuk mereka yang sudah memiliki sedikit pengalaman tetapi ingin membuat kontribusi open source pertama, atau mendapatkan lebih banyak pengalaman dan kepercayaan diri.
+- Untuk pemula absolut. Jika kamu tahu cara menulis dan mengedit tag `<a href="" target=""></a>`, maka kamu seharusnya bisa melakukannya.
+- Juga untuk mereka yang sudah memiliki sedikit pengalaman tetapi ingin membuat kontribusi open source pertama, atau mendapatkan lebih banyak pengalaman dan kepercayaan diri.
 
 ### Why do I need to do this?
 
@@ -66,7 +66,7 @@ Jika kamu adalah developer baru dan bertanya apakah perlu belajar Git dan GitHub
 
 ### What am I going to contribute?
 
-![Contributor Card](/readme-only/card.PNG "Contributor Card")
+![Contributor Card](/readme-only/card.PNG 'Contributor Card')
 
 Kamu akan berkontribusi sebuah kartu seperti ini ke [halaman web proyek](https://syknapse.github.io/Contribute-To-This-Project/). Kartu tersebut akan berisi nama kamu, detail kontak, deskripsi singkat, dan 3 link resource berguna untuk web developer yang kamu rekomendasikan.
 
@@ -80,13 +80,13 @@ Kamu akan menyalin file template kartu yang sudah tersedia, mengisinya dengan in
 
 Tutorial ini juga tersedia dalam [bahasa lain](/translations/README.md)
 
-|   [Arabic (عربي)](/translations/README/ARABIC.md)   |    [Bangla (বাংলা)](/translations/README/BANGLA.md)    | [Chinese (Simplified) (简体中文)](/translations/README/CHINESE_SIMPLIFIED.md) | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |                [Dutch](/translations/README/DUTCH.md)               |
-| :-------------------------------------------------: | :----------------------------------------------------: | :-----------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
-|           [English (English)](/README.md)           |   [French (Français)](/translations/README/FRENCH.md)  |             [German (Deutsch)](/translations/README/GERMAN.md)            |                [Hindi (हिंदी)](/translations/README/HINDI.md)               |        [Italian (Italiano)](/translations/README/ITALIAN.md)        |
-|    [Japanese (日本語)](/translations/日本語/README.md)    |     [Korean (한국어)](/translations/README/KOREAN.md)     |             [Polish (Polski)](/translations/README/POLISH.md)             |        [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)        |         [Russian (Русский)](/translations/README/RUSSIAN.md)        |
-|   :---------------------------------------------:   |     :---------------------------------------------:    |              :---------------------------------------------:              |               :---------------------------------------------:               |           :---------------------------------------------:           |
-| [Serbian (Српски)](/translations/README/SERBIAN.md) | [Somali (Af-Soomaali)](/translations/README/SOMALI.md) |            [Spanish (Español)](/translations/README/SPANISH.md)           |             [Turkish (Türkçe)](/translations/README/TURKISH.md)             |     [Ukrainian (українська)](/translations/README/UKRAINIAN.md)     |
-|    [Urdu (اُردُو)](/translations/README/URDU.md)    | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |               [Malayalam](/translations/README/MALAYALAM.md)              |              [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md)             | [Indonesian (Bahasa Indonesia)](/translations/README/INDONESIAN.md) |
+|   [Arabic (عربي)](/translations/README/ARABIC.md)   |    [Bangla (বাংলা)](/translations/README/BANGLA.md)    | [Chinese (Simplified) (简体中文)](/translations/README/CHINESE_SIMPLIFIED.md) | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |               [Dutch](/translations/README/DUTCH.md)                |
+| :-------------------------------------------------: | :----------------------------------------------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|           [English (English)](/README.md)           |  [French (Français)](/translations/README/FRENCH.md)   |              [German (Deutsch)](/translations/README/GERMAN.md)               |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |        [Italian (Italiano)](/translations/README/ITALIAN.md)        |
+| [Japanese (日本語)](/translations/日本語/README.md) |   [Korean (한국어)](/translations/README/KOREAN.md)    |               [Polish (Polski)](/translations/README/POLISH.md)               |          [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)          |        [Russian (Русский)](/translations/README/RUSSIAN.md)         |
+|   :---------------------------------------------:   |    :---------------------------------------------:     |                :---------------------------------------------:                |                 :---------------------------------------------:                 |           :---------------------------------------------:           |
+| [Serbian (Српски)](/translations/README/SERBIAN.md) | [Somali (Af-Soomaali)](/translations/README/SOMALI.md) |             [Spanish (Español)](/translations/README/SPANISH.md)              |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               |     [Ukrainian (українська)](/translations/README/UKRAINIAN.md)     |
+|    [Urdu (اُردُو)](/translations/README/URDU.md)    | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |                [Malayalam](/translations/README/MALAYALAM.md)                 |               [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                | [Indonesian (Bahasa Indonesia)](/translations/README/INDONESIAN.md) |
 
 > Terjemahan dokumentasi sangat terbuka. Baca [`Translation Guide`](/translations/README.md) untuk berkontribusi.
 
@@ -101,10 +101,9 @@ Pertama, mari kita siapkan semuanya.
 
 1. Login ke akun GitHub kamu. Jika belum punya akun, silakan [daftar GitHub](https://github.com/join).
 2. Download [GitHub Desktop](https://desktop.github.com/).
-
-   * Alternatif: gunakan terminal.
-   * Jika menggunakan VS Code, sudah ada Git bawaan.
-   * Cara termudah tetap menggunakan GitHub Desktop.
+   - Alternatif: gunakan terminal.
+   - Jika menggunakan VS Code, sudah ada Git bawaan.
+   - Cara termudah tetap menggunakan GitHub Desktop.
 
 **Ingin meningkatkan proyek ini?** Terjemahan, bug fix, dan improvement lainnya sangat diterima — tapi buat PR terpisah dari kartu kamu.
 
@@ -116,17 +115,17 @@ Jadilah kontributor open source dalam 10 langkah mudah.
 
 #### Step 1: Fork this repository
 
-* Salin repository ke akun kamu.
+- Salin repository ke akun kamu.
 
 | ![Fork](/readme-only/fork.png "click on 'Fork'") |
 | :----------------------------------------------: |
-|              **Klik tombol *Fork***              |
+|              **Klik tombol _Fork_**              |
 
 ---
 
 #### Step 2: Clone the repository
 
-* Buat salinan lokal project.
+- Buat salinan lokal project.
 
 | ![Clone](/readme-only/clone.PNG) |
 | :------------------------------: |
@@ -136,15 +135,15 @@ Jadilah kontributor open source dalam 10 langkah mudah.
 
 #### Step 3: Create a new branch
 
-* Buat branch baru agar perubahan terpisah dari `master`.
+- Buat branch baru agar perubahan terpisah dari `master`.
 
 ---
 
 #### Step 4: Copy the template file
 
-* Masuk folder `cards/`
-* Copy `template.html`
-* Rename jadi `username.html`
+- Masuk folder `cards/`
+- Copy `template.html`
+- Rename jadi `username.html`
 
 ---
 
@@ -160,25 +159,25 @@ Jadilah kontributor open source dalam 10 langkah mudah.
 
 #### Step 6: Check your work
 
-* Pastikan tidak ada error
+- Pastikan tidak ada error
 
 ---
 
 #### Step 7: Commit your changes
 
-* Simpan perubahan
+- Simpan perubahan
 
 ---
 
 #### Step 8: Push your changes to GitHub
 
-* Upload ke GitHub
+- Upload ke GitHub
 
 ---
 
 #### Step 9: Submit a PR
 
-* Klik "Compare & pull request"
+- Klik "Compare & pull request"
 
 ---
 
@@ -190,8 +189,8 @@ Selamat! Kamu berhasil kontribusi.
 
 ### Next Steps
 
-* Cek status PR kamu
-* Pelajari open source lebih lanjut
+- Cek status PR kamu
+- Pelajari open source lebih lanjut
 
 ---
 
