@@ -7,7 +7,7 @@
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Gabung%20Server%20Discord&icon=discord)](https://discord.gg/tWkvS4ueVF 'Gabung server Discord kami!')
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://syknapse.github.io/Contribute-To-This-Project/)
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://syknapse.github.io/Contribute-To-This-Project/)
- 
+
 ---
 
 > ## **Pengumuman:**
