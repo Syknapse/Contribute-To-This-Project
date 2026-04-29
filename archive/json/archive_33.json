@@ -1380,5 +1380,34 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "username": "armin028",
+    "name": "Armin",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/armin028",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I am Armin and i want to learn this. This is my 1st contribution!",
+    "resources": [
+      {
+        "title": "mdn",
+        "link": "https://developer.mozilla.org/de/",
+        "text": "mdn"
+      },
+      {
+        "title": "w3schools",
+        "link": "https://www.w3schools.com/",
+        "text": "w3schools"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com/",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
