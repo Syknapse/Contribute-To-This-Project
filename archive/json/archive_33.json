@@ -1409,5 +1409,39 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "username": "aspectza27",
+    "name": "aspectZA27",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/aspectZA27",
+        "handle": "aspectZA27"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/ruan-kruger-2a9a02261/",
+        "handle": "Ruan Kruger"
+      }
+    ],
+    "about": "I'm a Junior Developer always eager to learn and improve.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.freecodecamp.org",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.codecademy.com",
+        "text": "Codecademy"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.udemy.com",
+        "text": "Udemy"
+      }
+    ]
   }
 ]
