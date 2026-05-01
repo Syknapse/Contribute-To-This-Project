@@ -1443,5 +1443,34 @@
         "text": "Udemy"
       }
     ]
+  },
+  {
+    "username": "tadanobutubutu",
+    "name": "tadanobutubutu",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/tadanobutubutu",
+        "handle": "tadanobutubutu"
+      }
+    ],
+    "about": "I am a student learning open source contribution and automated development with AI.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub Copilot",
+        "link": "https://github.com/features/copilot",
+        "text": "GitHub Copilot"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com/",
+        "text": "Stack Overflow"
+      }
+    ]
   }
 ]
