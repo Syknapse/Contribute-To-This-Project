@@ -1472,5 +1472,34 @@
         "text": "Stack Overflow"
       }
     ]
+  },
+  {
+    "username": "igalgulidin",
+    "name": "Igal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/IgalGulidin",
+        "handle": "IgalGulidin"
+      }
+    ],
+    "about": "25 year old, got a glipmse of coding after my military service by my friend, decided to do a full stack course after I played around with HTML CSS for a month here and there and now we are here.",
+    "resources": [
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com/questions",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "FreeCodeCamp",
+        "link": "https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ",
+        "text": "FreeCodeCamp"
+      },
+      {
+        "title": "Documentations",
+        "link": "https://react.dev/learn",
+        "text": "Any documentation - added React because i like theirs."
+      }
+    ]
   }
 ]
