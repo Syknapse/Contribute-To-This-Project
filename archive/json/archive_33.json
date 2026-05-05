@@ -1501,5 +1501,34 @@
         "text": "Any documentation - added React because i like theirs."
       }
     ]
+  },
+  {
+    "username": "richardewhite",
+    "name": "Richard White",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/richardewhite",
+        "handle": "richardewhite"
+      }
+    ],
+    "about": "Richard E. White is a technical writer and author with a background in emergency medical services, leadership, and professional writing. He specializes in translating complex processes into clear, structured documentation and is currently pursuing his MFA in Creative Writing.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.linkedin.com/in/richardwhite27/",
+        "text": "LinkedIn"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://authorrichardwhite.com",
+        "text": "Author Website"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://x.com/Rich_White27",
+        "text": "X.com"
+      }
+    ]
   }
 ]
