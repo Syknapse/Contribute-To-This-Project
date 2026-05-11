@@ -1530,5 +1530,34 @@
         "text": "X.com"
       }
     ]
+  },
+  {
+    "username": "pandzatomislav-cyber",
+    "name": "Tomislav Pandza",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/pandzatomislav-cyber",
+        "handle": "pandzatomislav-cyber"
+      }
+    ],
+    "about": "Transitioning to IT and on my way to becoming a cloud engineer. Currently enrolled in an MSc Data Analytics program, combining theory with hands-on lab practice to make the journey real.",
+    "resources": [
+      {
+        "title": "DataCamp",
+        "link": "https://www.datacamp.com",
+        "text": "DataCamp"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Anthropic",
+        "link": "https://www.anthropic.com",
+        "text": "Anthropic"
+      }
+    ]
   }
 ]
