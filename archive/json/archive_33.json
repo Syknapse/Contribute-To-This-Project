@@ -1559,5 +1559,34 @@
         "text": "Anthropic"
       }
     ]
+  },
+  {
+    "username": "swastikjha008-jpg",
+    "name": "Swastik Jha",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/swastikjha008-jpg",
+        "handle": "swastikjha008-jpg"
+      }
+    ],
+    "about": "Aspiring full-stack developer from India, currently learning React,\n    JavaScript, C++, and open source contribution by building practical\n    projects step by step.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "React Documentation",
+        "link": "https://react.dev/",
+        "text": "React Documentation"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
