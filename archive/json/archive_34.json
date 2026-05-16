@@ -1,0 +1,36 @@
+[
+  {
+    "username": "mathispimpare",
+    "name": "Mathis Pimparé",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/mathispimpare",
+        "handle": "Github"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/mathispimpare",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "Hi, I'm Mathis, a computer science student at Université de Montréal.\nIf you want to check what I'm working on, you have my GitHub and LinkedIn right there !",
+    "resources": [
+      {
+        "title": "Functional programming language",
+        "link": "https://www.haskell.org/",
+        "text": "Haskell"
+      },
+      {
+        "title": "Web development documentation",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Common web security risks",
+        "link": "https://owasp.org/www-project-top-ten/",
+        "text": "OWASP Top 10"
+      }
+    ]
+  }
+]
