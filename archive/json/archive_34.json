@@ -32,5 +32,44 @@
         "text": "OWASP Top 10"
       }
     ]
+  },
+  {
+    "username": "okbatti",
+    "name": "Owais Batti",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Okbatti",
+        "handle": "Okbatti"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/owais-ali-khadim-batti-2278831a1/",
+        "handle": "Owais Batti"
+      },
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/OwaisBatti",
+        "handle": "OwaisBatti"
+      }
+    ],
+    "about": "First-time open-source contributor learning Git, GitHub, and web dev one commit at a time.",
+    "resources": [
+      {
+        "title": "Linkedin reference",
+        "link": "https://www.linkedin.com/in/owais-ali-khadim-batti-2278831a1/",
+        "text": "Linkedin Profile"
+      },
+      {
+        "title": "twitter/X reference",
+        "link": "https://x.com/OwaisBatti",
+        "text": "twitter/X Profile"
+      },
+      {
+        "title": "GitHub reference",
+        "link": "https://github.com/Okbatti",
+        "text": "GitHub Profile"
+      }
+    ]
   }
 ]
