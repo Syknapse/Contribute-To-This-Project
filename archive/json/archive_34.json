@@ -110,5 +110,34 @@
         "text": "Numberblocks Playground - Play Number Block Generator Online"
       }
     ]
+  },
+  {
+    "username": "7med-1",
+    "name": "7med-1",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/7med-1",
+        "handle": "7med-1"
+      }
+    ],
+    "about": "I’m a Data Engineering student from Morocco who enjoys coding and exploring new technologies.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freecodecamp"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.youtube.com",
+        "text": "Youtube"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.slack.com",
+        "text": "slack"
+      }
+    ]
   }
 ]
