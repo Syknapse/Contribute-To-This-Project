@@ -139,5 +139,34 @@
         "text": "slack"
       }
     ]
+  },
+  {
+    "username": "sylvou3947",
+    "name": "sylvou3947",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/sylvou3947",
+        "handle": "sylvou3947"
+      }
+    ],
+    "about": "Hey guys! I am a developer from Indonesia. Aspiring to be an amazing UI/UX designer/engineer!",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://about.readthedocs.com/",
+        "text": "readthedocs.org"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.youtube.com/@syntaxfm",
+        "text": "Syntax YouTube (fun guys!)"
+      }
+    ]
   }
 ]
