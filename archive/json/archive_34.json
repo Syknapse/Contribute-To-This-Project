@@ -168,5 +168,34 @@
         "text": "Syntax YouTube (fun guys!)"
       }
     ]
+  },
+  {
+    "username": "summykumari567",
+    "name": "Summy Kumari",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/summykumari567",
+        "handle": "summykumari567"
+      }
+    ],
+    "about": "I am a developer from Bihar, India, learning open source contributions and exploring new opportunities.",
+    "resources": [
+      {
+        "title": "Vaibhav Sisinity YouTube",
+        "link": "https://www.youtube.com/@vaibhavsisinty",
+        "text": "Vaibhav Sisinity"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://www.github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Naukri",
+        "link": "https://www.naukri.com",
+        "text": "Naukri"
+      }
+    ]
   }
 ]
