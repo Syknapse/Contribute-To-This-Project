@@ -197,5 +197,34 @@
         "text": "Naukri"
       }
     ]
+  },
+  {
+    "username": "paule777",
+    "name": "Paul E.",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/PaulE777",
+        "handle": "PaulE777"
+      }
+    ],
+    "about": "Hello! I am just a guy who's getting back into programming after some years of walking away from it.",
+    "resources": [
+      {
+        "title": "Coding Sloth Channel",
+        "link": "https://www.youtube.com/@TheCodingSloth",
+        "text": "The Coding Sloth"
+      },
+      {
+        "title": "Career path roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Developer Roadmaps"
+      },
+      {
+        "title": "GitHub beginner repos",
+        "link": "https://github.com/mungell/awesome-for-beginners",
+        "text": "Awesome first pull request opportunities"
+      }
+    ]
   }
 ]
