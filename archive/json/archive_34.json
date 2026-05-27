@@ -226,5 +226,34 @@
         "text": "Awesome first pull request opportunities"
       }
     ]
+  },
+  {
+    "username": "gajendrachary",
+    "name": "Gajendrachary",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/gajendrachary",
+        "handle": "gajendrachary"
+      }
+    ],
+    "about": "Founder & Full-Stack Developer at DevHorizon Technologies. Building premium digital products with clean engineering and real business value.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "CSS Tricks",
+        "link": "https://css-tricks.com",
+        "text": "CSS Tricks"
+      }
+    ]
   }
 ]
