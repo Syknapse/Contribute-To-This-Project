@@ -255,5 +255,34 @@
         "text": "CSS Tricks"
       }
     ]
+  },
+  {
+    "username": "samliaitwork-hub",
+    "name": "Samuel",
+    "contacts": [
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://github.com/samliaitwork-hub",
+        "handle": "samliaitwork-hub"
+      }
+    ],
+    "about": "Hey! I'm a computer programmer who's learning the ropes of this whole Github thing. Also I like chicken.",
+    "resources": [
+      {
+        "title": "C# in 100 Seconds",
+        "link": "https://youtu.be/ravLFzIguCM",
+        "text": "C# in 100 Seconds"
+      },
+      {
+        "title": "Java Full Course for free",
+        "link": "https://youtu.be/xTtL8E4LzTQ",
+        "text": "Java Full Course for free"
+      },
+      {
+        "title": "Codecademy",
+        "link": "https://www.codecademy.com/learn",
+        "text": "Codecademy"
+      }
+    ]
   }
 ]
