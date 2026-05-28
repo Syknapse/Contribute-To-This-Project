@@ -284,5 +284,34 @@
         "text": "Codecademy"
       }
     ]
+  },
+  {
+    "username": "dewanshi-txt",
+    "name": "Dewanshi",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/dewanshi-txt",
+        "handle": "dewanshi-txt"
+      }
+    ],
+    "about": "Computer Science student passionate about web development and learning about open source.",
+    "resources": [
+      {
+        "title": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "Resource 1"
+      },
+      {
+        "title": "LeetCode",
+        "link": "https://leetcode.com/",
+        "text": "Resource 2"
+      },
+      {
+        "title": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "Resource 3"
+      }
+    ]
   }
 ]
