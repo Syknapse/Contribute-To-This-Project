@@ -313,5 +313,34 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "username": "redpyroking",
+    "name": "Redpyro",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Redpyroking",
+        "handle": "My handle"
+      }
+    ],
+    "about": "This is first pratice. My first contribution",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.youtube.com/watch?v=qnwFpjIqsrA&list=PLSDeUiTMfxW6nMcmZPUG4SgFPAlazWB_S",
+        "text": "Full React Course"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.youtube.com/watch?v=kiPrrtclZOA&list=PLSDeUiTMfxW6nMcmZPUG4SgFPAlazWB_S&index=8",
+        "text": "Full Next.js code"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.youtube.com/watch?v=MIJt9H69QVc",
+        "text": "full Backend Course"
+      }
+    ]
   }
 ]
