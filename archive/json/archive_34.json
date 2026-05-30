@@ -371,5 +371,34 @@
         "text": "GitHub Copilot Docs"
       }
     ]
+  },
+  {
+    "username": "harverysappa",
+    "name": "Harverysappa",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Harverysappa",
+        "handle": "Harverysappa"
+      }
+    ],
+    "about": "Software Engineer learning how to make contributions to GitHub.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://example.com/resource1",
+        "text": "Resource 1"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://example.com/resource2",
+        "text": "Resource 2"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://example.com/resource3",
+        "text": "Resource 3"
+      }
+    ]
   }
 ]
