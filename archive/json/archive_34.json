@@ -342,5 +342,34 @@
         "text": "full Backend Course"
       }
     ]
+  },
+  {
+    "username": "snakeeye-sudo",
+    "name": "Sangam Krishna",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/SnakeEye-sudo",
+        "handle": "SnakeEye-sudo"
+      }
+    ],
+    "about": "Full-stack developer & AI/ML enthusiast from Bettiah, Bihar, India. Building open-source projects and contributing to the dev community. Currently working on AI Guardian and various web applications.",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Modern JavaScript Tutorial",
+        "link": "https://javascript.info",
+        "text": "javascript.info"
+      },
+      {
+        "title": "GitHub Copilot Docs",
+        "link": "https://docs.github.com/en/copilot",
+        "text": "GitHub Copilot Docs"
+      }
+    ]
   }
 ]
