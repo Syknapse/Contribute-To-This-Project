@@ -458,5 +458,18 @@
         "text": "Stack Overflow"
       }
     ]
+  },
+  {
+    "username": "dor11126",
+    "name": "Dor Cohen",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Dor11126",
+        "handle": ""
+      }
+    ],
+    "about": "Passionate about engineering, problem-solving and open-source.",
+    "resources": []
   }
 ]
