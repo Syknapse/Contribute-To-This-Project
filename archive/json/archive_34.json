@@ -429,5 +429,34 @@
         "text": "Stack Overflow"
       }
     ]
+  },
+  {
+    "username": "siborne",
+    "name": "Siborne",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Siborne",
+        "handle": "Siborne"
+      }
+    ],
+    "about": "我是 Siborne，GitHub 名字也同样是 Siborne。我喜欢通过动手实践来学习 Git 和 GitHub。",
+    "resources": [
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com/",
+        "text": "Stack Overflow"
+      }
+    ]
   }
 ]
