@@ -46,6 +46,22 @@ function fail(body) {
 
 const README = `https://github.com/${GITHUB_REPOSITORY}#readme`
 
+// ── check if author is a maintainer/collaborator ───────────────────────────────
+let isMaintainer = false
+try {
+  const prDetails = JSON.parse(gh(`gh api repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}`))
+  const association = prDetails.author_association
+  isMaintainer = ['OWNER', 'MEMBER', 'COLLABORATOR'].includes(association)
+  console.log(`PR Author: ${PR_AUTHOR}, Association: ${association}, Is Maintainer: ${isMaintainer}`)
+} catch (err) {
+  console.log(`Warning: Could not fetch PR author association: ${err.message}`)
+}
+
+if (isMaintainer) {
+  console.log('✅ Maintainer/Collaborator PR detected. Skipping card validation workflow.')
+  process.exit(0)
+}
+
 // ── get changed files ──────────────────────────────────────────────────────────
 // Keep full file objects (path + changeType) for later checks.
 const prFilesData = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files
