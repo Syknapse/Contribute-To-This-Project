@@ -400,5 +400,34 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "username": "phuck40clnq",
+    "name": "Phuc",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/phuck40clnq",
+        "handle": "phuck40clnq"
+      }
+    ],
+    "about": "Hi, I'm a computer science student. Glad to join the community!",
+    "resources": [
+      {
+        "title": "W3Schools Online Web Tutorials",
+        "link": "https://www.w3schools.com",
+        "text": "W3Schools"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com",
+        "text": "Stack Overflow"
+      }
+    ]
   }
 ]
