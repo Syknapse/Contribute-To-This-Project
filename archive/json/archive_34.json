@@ -471,5 +471,39 @@
     ],
     "about": "Passionate about engineering, problem-solving and open-source",
     "resources": []
+  },
+  {
+    "username": "erickyy29",
+    "name": "Eric Liang",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/erickyy29",
+        "handle": "erickyy29"
+      },
+      {
+        "icon": "fas fa-globe",
+        "link": "https://lowkeyagency.ca",
+        "handle": "Lowkey Agency"
+      }
+    ],
+    "about": "Founder of Lowkey Agency — AI automation & growth infrastructure for B2B operators, and a finance content creator.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "n8n Automation Docs",
+        "link": "https://docs.n8n.io",
+        "text": "n8n Automation Docs"
+      },
+      {
+        "title": "OpenAI API Docs",
+        "link": "https://platform.openai.com/docs",
+        "text": "OpenAI API Docs"
+      }
+    ]
   }
 ]
