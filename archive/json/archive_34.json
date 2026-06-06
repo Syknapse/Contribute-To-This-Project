@@ -505,5 +505,34 @@
         "text": "OpenAI API Docs"
       }
     ]
+  },
+  {
+    "username": "avamshika",
+    "name": "Aelpula Vamshika",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Avamshika",
+        "handle": "Avamshika"
+      }
+    ],
+    "about": "B.Tech student passionate about Full Stack Development, Open Source, AI, and building practical software projects. Currently learning JavaScript and contributing to open source.",
+    "resources": [
+      {
+        "title": "MDN",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "GeeksforGeeks",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "GeeksforGeeks"
+      }
+    ]
   }
 ]
