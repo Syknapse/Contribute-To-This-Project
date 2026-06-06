@@ -534,5 +534,44 @@
         "text": "GeeksforGeeks"
       }
     ]
+  },
+  {
+    "username": "dean-8",
+    "name": "Dean Potishman",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/dean-8",
+        "handle": "dean-8"
+      },
+      {
+        "icon": "fa-sharp fa-solid fa-address-book",
+        "link": "https://devdean.co.uk",
+        "handle": "Portfolio Site"
+      },
+      {
+        "icon": "fa-brands fa-linkedin",
+        "link": "https://www.linkedin.com/in/dean-potishman-7523823a0/?skipRedirect=true",
+        "handle": "Dean Potishman"
+      }
+    ],
+    "about": "English Computer Science student, trying to understand how to use github (not going well)",
+    "resources": [
+      {
+        "title": "current go to method of learning code",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "Great website for difficult coding problem solving",
+        "link": "https://projecteuler.net/archives",
+        "text": "Project Euler - Porblem archives"
+      },
+      {
+        "title": "The best.",
+        "link": "https://claude.ai/",
+        "text": "Claude"
+      }
+    ]
   }
 ]
