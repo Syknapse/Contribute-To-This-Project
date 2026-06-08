@@ -573,5 +573,34 @@
         "text": "Claude"
       }
     ]
+  },
+  {
+    "username": "truongandevops",
+    "name": "TruongAnDev",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/truonganDevOps",
+        "handle": "truonganDevOps"
+      }
+    ],
+    "about": "Full Stack Developer who loves building web apps and contributing to open source.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Awesome Lists",
+        "link": "https://github.com/sindresorhus/awesome",
+        "text": "Awesome Lists"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "Developer Roadmaps"
+      }
+    ]
   }
 ]
