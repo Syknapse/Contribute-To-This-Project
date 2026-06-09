@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Guia dos Mantenedores
 
 Esse guia é para aqueles que gostariam de se juntar ao projeto como mantenedores, para ajudar a administrar e manter o projeto para a comunidade. (Esse não é um guia para **colaboradores iniciantes**)
