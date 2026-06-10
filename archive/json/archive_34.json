@@ -602,5 +602,34 @@
         "text": "Developer Roadmaps"
       }
     ]
+  },
+  {
+    "username": "gauravbuildz",
+    "name": "Gaurav Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/gauravbuildz",
+        "handle": "gauravbuildz"
+      }
+    ],
+    "about": "B.Tech CSE student passionate about DSA, AI/ML, Web Development, and Open Source. Currently learning problem solving and building projects to strengthen my development skills.",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "First Contributions",
+        "link": "https://github.com/firstcontributions/first-contributions",
+        "text": "First Contributions"
+      }
+    ]
   }
 ]
