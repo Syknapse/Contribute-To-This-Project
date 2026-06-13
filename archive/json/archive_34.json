@@ -631,5 +631,34 @@
         "text": "First Contributions"
       }
     ]
+  },
+  {
+    "username": "javed-ak",
+    "name": "Javed Akhtar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/javed-ak",
+        "handle": "javed-ak"
+      }
+    ],
+    "about": "Hii everyone, I'm Javed a upcoming best full stack developer. This is my starting point where I'm learning and in future I'll become a great developer. I belive in myself and I'm loyal towords my work. This is one of my initial PR. That's all about me. Thank you",
+    "resources": [
+      {
+        "title": "YouTube",
+        "link": "https://youtube.com",
+        "text": "YouTube"
+      },
+      {
+        "title": "W3Schools Online Web Tutorials",
+        "link": "https://www.w3schools.com",
+        "text": "W3Schools"
+      },
+      {
+        "title": "Where Future Tech Leaders Are Built",
+        "link": "https://100xschool.in",
+        "text": "100xSchool"
+      }
+    ]
   }
 ]
