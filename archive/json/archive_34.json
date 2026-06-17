@@ -660,5 +660,34 @@
         "text": "100xSchool"
       }
     ]
+  },
+  {
+    "username": "gopisaroja",
+    "name": "Gopisaroja",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Gopisaroja",
+        "handle": "Gopisaroja"
+      }
+    ],
+    "about": "First year computer science and engineering students interested in web development and open source contribution.",
+    "resources": [
+      {
+        "title": "w3schools",
+        "link": "https://www.w3schools.com",
+        "text": "Resource 1"
+      },
+      {
+        "title": "TakeUForward",
+        "link": "https://takeuforward.org/strivers-a2z-dsa-course/",
+        "text": "Resource 2"
+      },
+      {
+        "title": "Github",
+        "link": "https://github.com",
+        "text": "Resource 3"
+      }
+    ]
   }
 ]
