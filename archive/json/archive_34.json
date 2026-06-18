@@ -689,5 +689,34 @@
         "text": "GitHub Profile"
       }
     ]
+  },
+  {
+    "username": "drishtyaggarwal",
+    "name": "Drishty Aggarwal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Drishtyaggarwal",
+        "handle": "Drishtyaggarwal"
+      }
+    ],
+    "about": "BCA graduate | Aspiring SDE | Building BingeBase & solving DSA daily",
+    "resources": [
+      {
+        "title": "Striver's DSA Sheet",
+        "link": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+        "text": "Striver's A2Z DSA Sheet"
+      },
+      {
+        "title": "Good First Issue",
+        "link": "https://goodfirstissue.dev",
+        "text": "Good First Issue"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
