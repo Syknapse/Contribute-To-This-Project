@@ -307,7 +307,7 @@ footer {
   background-color: var(--color-surface);
   color: var(--color-text);
   border-bottom: 1px solid var(--color-text);
-  margin-bottom: 8px;
+  margin-bottom: 0;
 }
 
 .resources {
