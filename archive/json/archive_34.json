@@ -718,5 +718,34 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "username": "mohdkaifshaikh",
+    "name": "Mohammad Kaif Shaikh",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/mohdkaifshaikh",
+        "handle": "mohdkaifshaikh"
+      }
+    ],
+    "about": "i'm Kaif,a software developer passionate about backend engineering and open source development.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://github.com/hagopj13/node-express-boilerplate",
+        "text": "full project boiler plate"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://github.com/Syknapse/Contribute-To-This-Project",
+        "text": "for first contribution"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.udemy.com",
+        "text": "udemy All learning resources is here"
+      }
+    ]
   }
 ]
