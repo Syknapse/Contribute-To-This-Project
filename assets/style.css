@@ -325,11 +325,17 @@ footer {
 
 /* Mauritius-specific card behaviours (Bhavini's original design) */
 [data-theme='mauritius'] .card:hover {
-  background-color: var(--purple) !important;
+  /* background-color: var(--color-accent); */
 }
-[data-theme='mauritius'] .card:hover > p:last-child {
-  background-color: var(--color-purple) !important;
-  color: var(--color-text) !important;
+[data-theme='mauritius'] .card:hover small {
+  /* color: var(--color-bg); */
+}
+[data-theme='mauritius'].card:hover small a {
+  /* color: var(--color- surface); */
+}
+[data-theme='mauritius'] .card .resources:hover {
+  /* color: var(--color-primary);
+  background-color: var(--purple); */
 }
 
 /* Theme switcher swatches
