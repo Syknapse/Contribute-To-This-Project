@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Guide du responsable
 
 Ce guide est destiné à ceux qui souhaitent rejoindre le projet en tant que responsables, pour aider à gérer et maintenir le projet pour la communauté. (Ceci n'est pas un guide pour les **contributeurs débutants**)
@@ -64,6 +66,3 @@ Si jamais vous avez des doutes, vous pouvez toujours me mentionner ou mentionner
 Rejoignez-nous pour contribuer à faire grandir ce projet ensemble. Contactez-moi au [Twitter](https://twitter.com/Syknapse) et envoyez-moi votre nom d'utilisateur GitHub pour que je puisse vous ajouter. Vous pouvez également rejoindre notre communauté Discord en cliquant sur le bouton ci-dessous :
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-
-
-
