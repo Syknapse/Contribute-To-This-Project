@@ -776,5 +776,44 @@
         "text": "Fireship"
       }
     ]
+  },
+  {
+    "username": "khangnguyen04work-program",
+    "name": "Khang Nguyen",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/khangnguyen04work-program",
+        "handle": "My GitHub"
+      },
+      {
+        "icon": "fa-brands fa-square-linkedin",
+        "link": "https://tinyurl.com/4snbtmbk",
+        "handle": "My LinkedIn"
+      },
+      {
+        "icon": "fa-brands fa-instagram",
+        "link": "https://www.instagram.com/kh9ng_/",
+        "handle": "My Insta"
+      }
+    ],
+    "about": "My name is Khang. I love exploring open sources and contributing to coding projects.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.youtube.com/watch?v=pJYOG6klqj8&list=PLcousIYQw17I",
+        "text": "GitHub Guide"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.youtube.com/watch?v=vA5TTz6BXhY&list=PLcousIYQw17I&index=2",
+        "text": "Git & GitHub Crash Course 2025"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.youtube.com/watch?v=JJmcL1N2KQs&t=1392s",
+        "text": "Python Crash"
+      }
+    ]
   }
 ]
