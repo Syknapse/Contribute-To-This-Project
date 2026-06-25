@@ -747,5 +747,34 @@
         "text": "udemy All learning resources is here"
       }
     ]
+  },
+  {
+    "username": "kylenngu135",
+    "name": "Kylen Nguyen",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/kylenngu135",
+        "handle": "My Github"
+      }
+    ],
+    "about": "I like playing video games, programming and learning new things.",
+    "resources": [
+      {
+        "title": "A roadmap for full-stack developers",
+        "link": "https://roadmap.sh/full-stack",
+        "text": "FullStack Developer Roadmap"
+      },
+      {
+        "title": "A young SWE influencer in Canada",
+        "link": "https://www.youtube.com/@SWErikCodes",
+        "text": "SWErikCodes"
+      },
+      {
+        "title": "A youtube channel that covers current events in the tech world",
+        "link": "https://www.youtube.com/@Fireship",
+        "text": "Fireship"
+      }
+    ]
   }
 ]
