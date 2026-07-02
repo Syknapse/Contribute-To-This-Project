@@ -815,5 +815,34 @@
         "text": "Python Crash"
       }
     ]
+  },
+  {
+    "username": "snakeeaters",
+    "name": "SnakeEaterS",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SnakeEaterS",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "I am a student trying to learn about contributions on Github and hopefully to jumpstart contributing on the platform.",
+    "resources": [
+      {
+        "title": "Game/CG developer website for free starting textures.",
+        "link": "https://ambientcg.com/",
+        "text": "Resource 1"
+      },
+      {
+        "title": "A nice little world map generator.",
+        "link": "https://azgaar.github.io/Fantasy-Map-Generator/",
+        "text": "Resource 2"
+      },
+      {
+        "title": "Image to pixel art repo.",
+        "link": "https://github.com/sedthh/pyxelate",
+        "text": "Resource 3"
+      }
+    ]
   }
 ]
