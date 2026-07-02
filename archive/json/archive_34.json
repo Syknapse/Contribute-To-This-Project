@@ -844,5 +844,34 @@
         "text": "Resource 3"
       }
     ]
+  },
+  {
+    "username": "gaurav31052",
+    "name": "Gaurav",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Gaurav31052",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Full Stack Developer | MERN Developer | Software Engineer | React.js | Node.js | Java | WordPress & WooCommerce | SQL | Software developer | DSA | REST APIs | MongoDB | Express.js",
+    "resources": [
+      {
+        "title": "Swaadlo a dryfruit and Spices Brand",
+        "link": "https://swaadlo.com/",
+        "text": "It is a wordpress website which is developed and deployed by Me."
+      },
+      {
+        "title": "RevoPix",
+        "link": "https://revopix.onrender.com/",
+        "text": "An AI Generated Image and Image backgroud Remover developed using MERN Stack"
+      },
+      {
+        "title": "Portfolio",
+        "link": "https://portfolio-gaurav-kumar.netlify.app/",
+        "text": "This is my portfolio"
+      }
+    ]
   }
 ]
