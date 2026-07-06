@@ -873,5 +873,39 @@
         "text": "This is my portfolio"
       }
     ]
+  },
+  {
+    "username": "amhansonn",
+    "name": "AMHansonn",
+    "contacts": [
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/amhansonn",
+        "handle": "LinkedIn"
+      },
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/AMHansonn",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I am an undergraduate student at East Carolina University majoring in psychology, neuroscience, and chemistry. I am an aspiring physician-scientist, but I want to bridge the gap between biomedical research and computer science.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.freecodecamp.org",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.w3schools.com",
+        "text": "W3Schools"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.code.org",
+        "text": "Code.org (Now called CodeAI.)"
+      }
+    ]
   }
 ]
