@@ -907,5 +907,34 @@
         "text": "Code.org (Now called CodeAI.)"
       }
     ]
+  },
+  {
+    "username": "lu-86",
+    "name": "Luciano",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Lu-86",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "Hi, im an college student from argentina. im very exited to start my journed in development and open\n    source. i like videogames and cars",
+    "resources": [
+      {
+        "title": "buttons generator",
+        "link": "https://markodenic.com/tools/buttons-generator/",
+        "text": "markodenic"
+      },
+      {
+        "title": "websites inspirations",
+        "link": "https://websitevice.com/",
+        "text": "websitevice"
+      },
+      {
+        "title": "coding challenges",
+        "link": "https://www.hackerrank.com/",
+        "text": "hackerrank"
+      }
+    ]
   }
 ]
