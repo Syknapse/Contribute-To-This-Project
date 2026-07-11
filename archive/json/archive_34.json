@@ -936,5 +936,24 @@
         "text": "hackerrank"
       }
     ]
+  },
+  {
+    "username": "sabaawais",
+    "name": "Saba Awais",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/SabaAwais",
+        "handle": "SabaAwais"
+      }
+    ],
+    "about": "Write a sentence or two about yourself.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://up-for-grabs.net/#/",
+        "text": "Resource 1"
+      }
+    ]
   }
 ]
