@@ -955,5 +955,34 @@
         "text": "Resource 1"
       }
     ]
+  },
+  {
+    "username": "slikhithreddy22",
+    "name": "slikhithreddy22",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/slikhithreddy22/",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "I am UG CS student who loves to contribute to opensource.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://github.com/slikhithreddy22",
+        "text": "github"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.linkedin.com/in/likhithreddys/",
+        "text": "linkedin"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://leetcode.com/u/theachyut/",
+        "text": "leetcode"
+      }
+    ]
   }
 ]
