@@ -996,5 +996,24 @@
     ],
     "about": "Just a developer out here chasing those green contribution squares on GitHub. Learning Git, building cool things, and making my first open-source steps!",
     "resources": []
+  },
+  {
+    "username": "riday-kumar",
+    "name": "Riday Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/riday-kumar",
+        "handle": "Riday Kumar"
+      }
+    ],
+    "about": "I am a web developer. I want to explore new technologies and build useful applications.",
+    "resources": [
+      {
+        "title": "w3schools",
+        "link": "https://www.w3schools.com/html/",
+        "text": "w3schools HTML"
+      }
+    ]
   }
 ]
