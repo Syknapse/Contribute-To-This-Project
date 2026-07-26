@@ -1015,5 +1015,24 @@
         "text": "w3schools HTML"
       }
     ]
+  },
+  {
+    "username": "marilioalmeida",
+    "name": "Marilio Almeida",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/marilioalmeida",
+        "handle": "Marilio Almeida"
+      }
+    ],
+    "about": "I'm a software developer. I keep a public study blog about .NET and backend topics, where I write down what I learn.",
+    "resources": [
+      {
+        "title": "Study blog",
+        "link": "https://www.marilioalmeida.com",
+        "text": "My study blog (EN/PT)"
+      }
+    ]
   }
 ]
