@@ -1034,5 +1034,34 @@
         "text": "My study blog (EN/PT)"
       }
     ]
+  },
+  {
+    "username": "vigneshwar-bala",
+    "name": "Vigneshwar Balakumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Vigneshwar-bala",
+        "handle": "Vigneshwar-bala"
+      }
+    ],
+    "about": "A dev with creativity who loves building clean and useful web experiences.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "CSS-Tricks",
+        "link": "https://css-tricks.com",
+        "text": "CSS-Tricks"
+      },
+      {
+        "title": "GitHub Trending",
+        "link": "https://github.com/trending",
+        "text": "GitHub Trending"
+      }
+    ]
   }
 ]
