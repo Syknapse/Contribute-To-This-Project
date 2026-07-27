@@ -1063,5 +1063,34 @@
         "text": "GitHub Trending"
       }
     ]
+  },
+  {
+    "username": "rakeshplvl-ops",
+    "name": "Rakesh",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rakeshplvl-ops",
+        "handle": "rakeshplvl-ops"
+      }
+    ],
+    "about": "I'm a Full .Net Stack Developer. I love to create, develop and contribute to impactful projects. I use React.js for the frontend as it offers better UI and support throughout the coding journey.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://github.com",
+        "text": "^Github"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.hackerrank.com/",
+        "text": "$HackerRank 2"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://leetcode.com/problemset/",
+        "text": "#leetcode"
+      }
+    ]
   }
 ]
