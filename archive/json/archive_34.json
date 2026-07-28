@@ -1092,5 +1092,34 @@
         "text": "#leetcode"
       }
     ]
+  },
+  {
+    "username": "kamilyvtr",
+    "name": "Kamily Vitória",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/kamilyvtr",
+        "handle": "kamilyvtr"
+      }
+    ],
+    "about": "Front-end developer em formação, apaixonada por interfaces e experiência do usuário.",
+    "resources": [
+      {
+        "title": "MDN Web Docs - Referência completa de desenvolvimento web",
+        "link": "https://developer.mozilla.org/pt-BR/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Frontend Mentor - Desafios práticos de código",
+        "link": "https://www.frontendmentor.io/",
+        "text": "Frontend Mentor"
+      },
+      {
+        "title": "CSS Tricks - Tutoriais e dicas de CSS",
+        "link": "https://css-tricks.com/",
+        "text": "CSS Tricks"
+      }
+    ]
   }
 ]
