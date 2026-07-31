@@ -1155,5 +1155,34 @@
         "text": "Apna College"
       }
     ]
+  },
+  {
+    "username": "agrawalpraveen12",
+    "name": "Praveen Agrawal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/agrawalpraveen12",
+        "handle": "agrawalpraveen12"
+      }
+    ],
+    "about": "AI Engineer building production-grade GenAI systems — multi-agent orchestration with LangGraph, hybrid RAG pipelines, LoRA fine-tuning, and scalable FastAPI backends. M.Sc. Data Science @ IIIT Lucknow.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://github.com/agrawalpraveen12",
+        "text": "^GitHub Portfolio"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://python.langchain.com/docs/introduction/",
+        "text": "$LangChain Docs"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://huggingface.co/docs",
+        "text": "#HuggingFace Docs"
+      }
+    ]
   }
 ]
