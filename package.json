@@ -3,6 +3,7 @@
     "html-validate": "^10.9.0",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
+    "playwright": "^1.62.1",
     "prettier": "^3.8.1"
   },
   "scripts": {
