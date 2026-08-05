@@ -1184,5 +1184,34 @@
         "text": "#HuggingFace Docs"
       }
     ]
+  },
+  {
+    "username": "lisalasuger",
+    "name": "SALA-LI",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SALA-LI",
+        "handle": "SALA-LI"
+      }
+    ],
+    "about": "北国风光，千里冰封，万里雪飘。",
+    "resources": [
+      {
+        "title": "Web documentation",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Free coding lessons",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "CSS tips and tricks",
+        "link": "https://css-tricks.com/",
+        "text": "CSS-Tricks"
+      }
+    ]
   }
 ]
