@@ -1213,5 +1213,34 @@
         "text": "CSS-Tricks"
       }
     ]
+  },
+  {
+    "username": "anikeshroyy",
+    "name": "Anikesh Roy",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/anikeshroyy",
+        "handle": "Github"
+      }
+    ],
+    "about": "MERN Stack Developer and Computer Science student passionate about building modern, responsive web\n        applications. I enjoy open-source, solving real-world problems, and continuously learning new technologies.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "React Documentation",
+        "link": "https://react.dev/",
+        "text": "React Documentation"
+      },
+      {
+        "title": "JavaScript.info",
+        "link": "https://javascript.info/",
+        "text": "JavaScript.info"
+      }
+    ]
   }
 ]
