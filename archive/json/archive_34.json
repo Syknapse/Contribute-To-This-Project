@@ -1242,5 +1242,34 @@
         "text": "JavaScript.info"
       }
     ]
+  },
+  {
+    "username": "jihad011",
+    "name": "Md.Jihad Hossain",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Jihad011",
+        "handle": "Jihad011"
+      }
+    ],
+    "about": "Software Engineer passionate about System Design.",
+    "resources": [
+      {
+        "title": "System Design Primer",
+        "link": "https://github.com/donnemartin/system-design-primer",
+        "text": "System Design Primer"
+      },
+      {
+        "title": "React Documentation",
+        "link": "https://react.dev/",
+        "text": "React Docs"
+      },
+      {
+        "title": "First Contributions",
+        "link": "https://github.com/firstcontributions/first-contributions",
+        "text": "First Contributions"
+      }
+    ]
   }
 ]
