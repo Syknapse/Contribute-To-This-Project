@@ -1271,5 +1271,44 @@
         "text": "First Contributions"
       }
     ]
+  },
+  {
+    "username": "kesleydavid",
+    "name": "Kesley David",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/KesleyDavid",
+        "handle": "KesleyDavid"
+      },
+      {
+        "icon": "fab fa-x-twitter",
+        "link": "https://x.com/kesleydev",
+        "handle": "kesleydev"
+      },
+      {
+        "icon": "fas fa-globe",
+        "link": "https://kesley.dev",
+        "handle": "kesley.dev"
+      }
+    ],
+    "about": "Full Stack Developer working with Next.js, Node.js, React Native and TypeScript. Building tools and learning in public.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "React official documentation",
+        "link": "https://react.dev/",
+        "text": "React Docs"
+      },
+      {
+        "title": "TypeScript Handbook",
+        "link": "https://www.typescriptlang.org/docs/",
+        "text": "TypeScript Handbook"
+      }
+    ]
   }
 ]
