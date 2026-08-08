@@ -1310,5 +1310,44 @@
         "text": "TypeScript Handbook"
       }
     ]
+  },
+  {
+    "username": "flyzuzii",
+    "name": "Fluzyyx",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Flyzuzii",
+        "handle": "Flyzuzii"
+      },
+      {
+        "icon": "fas fa-globe",
+        "link": "https://fauzi-portfolio-ruby.vercel.app/#reviews",
+        "handle": "Portfolio"
+      }
+    ],
+    "about": "Full Stack Web Developer specializing in building scalable applications. Passionate about modern technologies, clean code, and open source contributions. Always learning and exploring new frameworks.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/",
+        "text": "MDN Web Docs - Comprehensive Web Development Guide"
+      },
+      {
+        "title": "The Odin Project",
+        "link": "https://www.theodinproject.com/",
+        "text": "The Odin Project - Free Coding Curriculum"
+      },
+      {
+        "title": "Awesome Selfhosted",
+        "link": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+        "text": "Awesome Selfhosted - Open Source Projects Collection"
+      },
+      {
+        "title": "FreeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "FreeCodeCamp - Free Online Coding Courses"
+      }
+    ]
   }
 ]
