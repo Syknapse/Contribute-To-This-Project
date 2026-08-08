@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Boshqaruvchilar uchun Qoʻllanma
 
 Bu qoʻllanma boshqaruvchi sifatida qoʻshilib, hamjamiyat uchun loyihani nazorat qilishni hohlaganlar uchun.
