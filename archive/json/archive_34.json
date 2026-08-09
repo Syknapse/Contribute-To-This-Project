@@ -1349,5 +1349,34 @@
         "text": "FreeCodeCamp - Free Online Coding Courses"
       }
     ]
+  },
+  {
+    "username": "pixelcrafter-ath",
+    "name": "Atharva Randive",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/PixelCrafter-ath",
+        "handle": "PixelCrafter-ath"
+      }
+    ],
+    "about": "An aspiring developer exploring open source and web development.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub Guides",
+        "link": "https://github.com",
+        "text": "GitHub Guides"
+      },
+      {
+        "title": "W3Schools",
+        "link": "https://w3schools.com",
+        "text": "W3Schools"
+      }
+    ]
   }
 ]
