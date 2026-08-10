@@ -1378,5 +1378,39 @@
         "text": "W3Schools"
       }
     ]
+  },
+  {
+    "username": "abdullahalmsaodi",
+    "name": "Abdullah Almsaodi",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/abdullahalmsaodi",
+        "handle": "abdullahalmsaodi"
+      },
+      {
+        "icon": "fa-brands fa-linktree",
+        "link": "https://linktr.ee/abdullahalmsaodi",
+        "handle": "abdullahalmsaodi"
+      }
+    ],
+    "about": "Software Engineer • Integration Engineer • React.js • API & Automation Enthusiast..",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://goodfirstissue.dev/",
+        "text": "Good First Issue: Make your first open-source contribution"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://component.gallery/",
+        "text": "The Component Gallery: 60 components,\n95 design systems,\n2,671 examples"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.deeplearning.ai/",
+        "text": "Deeplearning.ai: Join over 7 million people learning\nhow to use and build AI"
+      }
+    ]
   }
 ]
