@@ -1412,5 +1412,39 @@
         "text": "Deeplearning.ai: Join over 7 million people learning\nhow to use and build AI"
       }
     ]
+  },
+  {
+    "username": "thrilokmanjunath",
+    "name": "Thrilok Manjunath",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/thrilokmanjunath",
+        "handle": "thrilokmanjunath"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/thrilokmanjunath",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "MSc Data Science student building AI/ML systems, generative AI applications, and full-stack engineering platforms.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "PyTorch Documentation",
+        "link": "https://pytorch.org/docs",
+        "text": "PyTorch Documentation"
+      },
+      {
+        "title": "FastAPI Documentation",
+        "link": "https://fastapi.tiangolo.com",
+        "text": "FastAPI Documentation"
+      }
+    ]
   }
 ]
