@@ -1446,5 +1446,44 @@
         "text": "FastAPI Documentation"
       }
     ]
+  },
+  {
+    "username": "ferminriv20",
+    "name": "Fermín Rivero",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/ferminriv20",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fab fa-instagram",
+        "link": "https://www.instagram.com/fermin_riv/",
+        "handle": "Instagram"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/ferminrivero/",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "I’m an aspiring computational scientist interested in computer vision and image analysis.",
+    "resources": [
+      {
+        "title": "streamlit",
+        "link": "https://streamlit.io/",
+        "text": "streamlit"
+      },
+      {
+        "title": "tensorflow",
+        "link": "https://www.tensorflow.org/",
+        "text": "tensorflow"
+      },
+      {
+        "title": "pytorch",
+        "link": "https://pytorch.org/",
+        "text": "pytorch"
+      }
+    ]
   }
 ]
