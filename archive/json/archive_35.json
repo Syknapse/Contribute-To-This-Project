@@ -1,0 +1,31 @@
+[
+  {
+    "username": "somuai",
+    "name": "Soumyajit Ghosh",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/somuai",
+        "handle": "somuai GitHub Profile"
+      }
+    ],
+    "about": "Software developer interested in autonomous AI agents, distributed systems, and open source development.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "The Modern JavaScript Tutorial",
+        "link": "https://javascript.info/",
+        "text": "The Modern JavaScript Tutorial"
+      }
+    ]
+  }
+]
