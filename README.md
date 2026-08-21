@@ -72,6 +72,7 @@ You are going to contribute a card just like this one to this [project's web pag
 You will copy a ready-made card template file, fill it in with your own information, and submit it.
 
 > Already contributed a card? There are other ways to help — translations, bug fixes, accessibility improvements, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
+
 ---
 
 ### Translations
