@@ -51,7 +51,7 @@
 
 [data-theme='mauritius'] {
   --color-bg: #100633;
-  --color-card-bg: #100633;
+  --color-card-bg: #1f0b6b;
   --color-surface: #1f0b6b;
   --color-surface-alt: #100633;
   --color-text: #d2d6dc;
@@ -105,7 +105,7 @@
   --color-primary: #3a6ea5;
   --color-accent: #ffee58;
   --color-bg: #bcd4f6;
-  --color-card-bg: #e6e6e6;
+  --color-card-bg: #3a6ea5;
   --color-surface: #3a6ea5;
   --color-surface-alt: #f2f2f2;
   --color-text: #000;
