@@ -10,7 +10,7 @@
  *  1. Copy the template block at the bottom of this file.
  *  2. Change the selector to [data-theme="your-theme-name"].
  *  3. Fill in your colour values (all variables are required).
- *  4. Add a swatch button to index.html inside .theme-swatches:
+ *  4. Add a swatch button to index.html inside .theme-switcher:
  *       <button type="button" class="theme-swatch" data-theme="your-theme-name"
  *               title="Your Theme Name" aria-label="Your Theme Name theme">
  *       </button>
