@@ -64,6 +64,3 @@ Si jamais vous avez des doutes, vous pouvez toujours me mentionner ou mentionner
 Rejoignez-nous pour contribuer à faire grandir ce projet ensemble. Contactez-moi au [Twitter](https://twitter.com/Syknapse) et envoyez-moi votre nom d'utilisateur GitHub pour que je puisse vous ajouter. Vous pouvez également rejoindre notre communauté Discord en cliquant sur le bouton ci-dessous :
 
 [![Discord](https://badgen.net/discord/online-members/tWkvS4ueVF?label=Join%20Our%20Discord%20Server&icon=discord)](https://discord.gg/tWkvS4ueVF 'Join our Discord server!')
-
-
-

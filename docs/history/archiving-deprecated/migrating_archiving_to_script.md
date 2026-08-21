@@ -8,7 +8,7 @@ first run:
 npm i
 ```
 
- in the project base to download required node module.
+in the project base to download required node module.
 then go to the JSON folder by running this command:
 
 ```cmd
@@ -62,38 +62,39 @@ Finally we will need to bring the archived json files back into the DOM when the
 Example of delete cards script
 
 ```node
-const fs = require('fs');
-const cheerio = require('cheerio');
+const fs = require('fs')
+const cheerio = require('cheerio')
 
 function deleteElements(filePath, elementSelector, keepCount) {
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
-      console.error('Error reading file:', err);
-      return;
+      console.error('Error reading file:', err)
+      return
     }
 
-    const $ = cheerio.load(data);
-    const elementsToDelete = $(elementSelector);
+    const $ = cheerio.load(data)
+    const elementsToDelete = $(elementSelector)
 
     // Remove elements except for the first 'keepCount' items
-    elementsToDelete.slice(keepCount).remove();
+    elementsToDelete.slice(keepCount).remove()
 
-    const modifiedContent = $.html();
+    const modifiedContent = $.html()
 
-    fs.writeFile(filePath, modifiedContent, 'utf8', (err) => {
+    fs.writeFile(filePath, modifiedContent, 'utf8', err => {
       if (err) {
-        console.error('Error writing file:', err);
-        return;
+        console.error('Error writing file:', err)
+        return
       }
 
-      console.log('Elements deleted successfully.');
-    });
-  });
+      console.log('Elements deleted successfully.')
+    })
+  })
 }
 
 // Usage example
-const filePath = 'path/to/index.html';
-const elementSelector = '.card';   // Selector for the elements to delete
-const keepCount = 10;               // Number of elements to keep
+const filePath = 'path/to/index.html'
+const elementSelector = '.card' // Selector for the elements to delete
+const keepCount = 10 // Number of elements to keep
 
-deleteElements(filePath, elementSelector, keepCount);
+deleteElements(filePath, elementSelector, keepCount)
+```

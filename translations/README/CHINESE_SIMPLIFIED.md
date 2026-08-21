@@ -81,12 +81,12 @@
 
 本教程也有[其他语言](/translations/README.md)版本
 
-| [阿拉伯语 (عربي)](/translations/README/ARABIC.md) | [孟加拉语 (বাংলা)](/translations/README/BANGLA.md) | [繁体中文 (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [荷兰语](/translations/README/DUTCH.md) | [英语 (English)](/README.md) |
-| :-----------------------------------------------: | :-----------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------: | :--------------------------: |
-| [法语 (Français)](/translations/README/FRENCH.md) | [德语 (Deutsch)](/translations/README/GERMAN.md) | [印地语 (हिंदी)](/translations/README/HINDI.md) | [意大利语 (Italiano)](/translations/README/ITALIAN.md) | [日语 (日本語)](/translations/日本語/README.md) |
-| [韩语 (한국어)](/translations/README/KOREAN.md) | [波兰语 (Polski)](/translations/README/POLISH.md) | [葡萄牙语 (Portuguese)](/translations/README/PORTUGUESE.md) | [俄语 (Русский)](/translations/README/RUSSIAN.md) | [塞尔维亚语 (Српски)](/translations/README/SERBIAN.md) |
-| [索马里语 (Af-Soomaali)](/translations/README/SOMALI.md) | [西班牙语 (Español)](/translations/README/SPANISH.md) | [土耳其语 (Türkçe)](/translations/README/TURKISH.md) | [乌克兰语 (українська)](/translations/README/UKRAINIAN.md) | [乌尔都语 (اُردُو)](/translations/README/URDU.md) |
-| [挪威语 (Norsk)](/translations/README/NORWEGIAN.md) | [马拉雅拉姆语](/translations/README/MALAYALAM.md) | | | |
+|    [阿拉伯语 (عربي)](/translations/README/ARABIC.md)     |  [孟加拉语 (বাংলা)](/translations/README/BANGLA.md)   | [繁体中文 (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |          [荷兰语](/translations/README/DUTCH.md)           |              [英语 (English)](/README.md)              |
+| :------------------------------------------------------: | :---------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------: |
+|    [法语 (Français)](/translations/README/FRENCH.md)     |   [德语 (Deutsch)](/translations/README/GERMAN.md)    |          [印地语 (हिंदी)](/translations/README/HINDI.md)           |   [意大利语 (Italiano)](/translations/README/ITALIAN.md)   |    [日语 (日本語)](/translations/日本語/README.md)     |
+|     [韩语 (한국어)](/translations/README/KOREAN.md)      |   [波兰语 (Polski)](/translations/README/POLISH.md)   |    [葡萄牙语 (Portuguese)](/translations/README/PORTUGUESE.md)     |     [俄语 (Русский)](/translations/README/RUSSIAN.md)      | [塞尔维亚语 (Српски)](/translations/README/SERBIAN.md) |
+| [索马里语 (Af-Soomaali)](/translations/README/SOMALI.md) | [西班牙语 (Español)](/translations/README/SPANISH.md) |        [土耳其语 (Türkçe)](/translations/README/TURKISH.md)        | [乌克兰语 (українська)](/translations/README/UKRAINIAN.md) |   [乌尔都语 (اُردُو)](/translations/README/URDU.md)    |
+|   [挪威语 (Norsk)](/translations/README/NORWEGIAN.md)    |   [马拉雅拉姆语](/translations/README/MALAYALAM.md)   |                                                                    |                                                            |                                                        |
 
 > 欢迎翻译项目文档。阅读[`翻译指南`](/translations/README.md)来贡献。
 
@@ -125,7 +125,7 @@ _预计时间：不到 30 分钟_。
 
 | ![Fork](/readme-only/fork.png "点击 'Fork'") |
 | :------------------------------------------: |
-|        **点击 _Fork_ 按钮**        |
+|             **点击 _Fork_ 按钮**             |
 
 - 现在你在自己的账户中有了这个项目的完整副本。
 
@@ -140,7 +140,7 @@ _预计时间：不到 30 分钟_。
 
 | ![Clone](/readme-only/clone.PNG '点击克隆仓库') |
 | :---------------------------------------------: |
-|      **点击 _File_ 然后 _Clone repository_**      |
+|     **点击 _File_ 然后 _Clone repository_**     |
 
 - 你将看到你在 GitHub 上的项目和 fork 列表。
 - 选择 `<your-github-username>/Contribute-To-This-Project`。
@@ -150,7 +150,7 @@ _预计时间：不到 30 分钟_。
 | :-------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: 一个 fork 的项目左边会有 fork 符号。你的 fork 会有你自己的 GitHub 用户名 | ![your fork](/readme-only/clone-your-fork.PNG '你的 fork 看起来像这样，有你自己的用户名') |
-| :------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------------: |
+| :------------------------------------------------------------------------------------------ | :---------------------------------------------------------------------------------------: |
 
 - 这需要一点时间，因为项目会被复制到你的硬盘上。我建议你保持默认路径，通常是 `..\Documents\GitHub`。
 - 现在你有了项目的本地副本。
@@ -164,10 +164,10 @@ _预计时间：不到 30 分钟_。
 - 一旦仓库克隆完成并在 GitHub Desktop 中打开，就是时候创建一个新分支了。
 - 分支是一种将你的更改与项目主要部分（称为 `Master`）分开的方式。例如，如果出了问题，你对更改不满意，你可以简单地删除分支，主项目不会受到影响。
 
-| :arrow_right_hook: 点击 _`Current branch`_，然后点击 _`New`_ |                    ![Create branch](/readme-only/branch-new.PNG "点击 'Branch'，然后 'New'")                    |
-| :----------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **给你的分支命名，然后点击 `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG '命名你的分支')                            |
-| :arrow_right_hook: **将你的新分支发布到 GitHub**              | ![Name branch](/readme-only/branch-publish.PNG '点击 publish 将新分支发送到你在 GitHub 上的远程仓库') |
+| :arrow_right_hook: 点击 _`Current branch`_，然后点击 _`New`_    |               ![Create branch](/readme-only/branch-new.PNG "点击 'Branch'，然后 'New'")               |
+| :-------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **给你的分支命名，然后点击 `Create branch`** |                      ![Name branch](/readme-only/branch-name.PNG '命名你的分支')                      |
+| :arrow_right_hook: **将你的新分支发布到 GitHub**                | ![Name branch](/readme-only/branch-publish.PNG '点击 publish 将新分支发送到你在 GitHub 上的远程仓库') |
 
 - 你可以随意命名，但由于这是一个添加带有你名字的卡片的分支，将其命名为 `your-name-card` 是好的做法，因为这能保持此分支意图的清晰。
 - 现在你已经创建了一个独立于 master 的新分支。
@@ -261,12 +261,12 @@ cp cards/template.html cards/your-github-username.html
 - 这意味着 Git 已经记录了所有**已保存**的更改。
 - 你可以在应用中看到这一点。你添加到文件的所有内容都会显示为绿色，删除的内容会显示为红色。
 
-|                                                                                                 ![Commit changes](/readme-only/commit.PNG "你添加的更改应该在 GitHub Desktop 应用的右侧显示为绿色。提交按钮在左下角")                                                                                                  |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        :arrow_right_hook: 下一步叫做 _`Commit`_。这大致意味着 `确认更改`                                                                                                                                        |
-|                                                                                              ![Commit changes](/readme-only/commit-header.PNG "你添加的更改应该在 GitHub Desktop 应用的右侧显示为绿色。提交按钮在左下角")                                                                                              |
-|                                                                          :arrow_right_hook: **这就是你的 GitHub Desktop 标题应该看起来的样子。注意 `Current repository` 中项目名称旁边的 fork 符号，以及你的 `Current branch` 会显示你在第三步中给它的名字**                                                                          |
-|                                                                                                                 ![Write commit message and commit](/readme-only/commit-message.PNG "在 'summary' 输入框中写一个简短的提交信息，然后点击 'commit'")                                                                                                                  |
+|                                                                               ![Commit changes](/readme-only/commit.PNG '你添加的更改应该在 GitHub Desktop 应用的右侧显示为绿色。提交按钮在左下角')                                                                               |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                         :arrow_right_hook: 下一步叫做 _`Commit`_。这大致意味着 `确认更改`                                                                                                         |
+|                                                                           ![Commit changes](/readme-only/commit-header.PNG '你添加的更改应该在 GitHub Desktop 应用的右侧显示为绿色。提交按钮在左下角')                                                                            |
+|                                                :arrow_right_hook: **这就是你的 GitHub Desktop 标题应该看起来的样子。注意 `Current repository` 中项目名称旁边的 fork 符号，以及你的 `Current branch` 会显示你在第三步中给它的名字**                                                |
+|                                                                        ![Write commit message and commit](/readme-only/commit-message.PNG "在 'summary' 输入框中写一个简短的提交信息，然后点击 'commit'")                                                                         |
 | :arrow_right_hook: **要 _`Commit`_ 你必须填写 _`Summary`_ 字段。这是解释你更改了什么的提交信息。在这种情况下，`"Add my card information"` 会是一个合理的信息。你也可以选择添加更详细的 _`Description`_。点击 _`Commit`_ 按钮。你的按钮会显示类似 `Commit to "your-branch-name"`** |
 
 [↑ 返回顶部 ↑](#快速访问索引)
@@ -279,7 +279,7 @@ cp cards/template.html cards/your-github-username.html
 - 将本地更改与你在 GitHub 上的仓库同步叫做 _Push_。你正在将更改从本地仓库"推送"到 GitHub 上的远程仓库。
 
 | :arrow_right_hook: 点击 _`Push`_ 按钮 | ![Push to GitHub](/readme-only/push.PNG "将你的更改推送到 GitHub，点击 'Push' 按钮") |
-| :------------------------------------ | :---------------------------------------------------------------------------------: |
+| :------------------------------------ | :----------------------------------------------------------------------------------: |
 
 - 几秒钟后操作完成，现在你的机器和 GitHub 上都有了这个分支的完全相同的副本。
 
@@ -296,17 +296,17 @@ cp cards/template.html cards/your-github-username.html
 - 前往 GitHub 上**你的 fork** 的主页面（顶部会有 fork 图标和你自己的用户名）。
 - 在仓库顶部附近，你会看到一条高亮的 pull request 消息和一个绿色按钮。
 
-|  ![Submit a Pull Request](/readme-only/pull-request.PNG '这通常在页面顶部附近，描述下方，项目文件和文件夹上方')  |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                       :arrow_right_hook: **点击 `Compare and pull request`**                                                       |
+|     ![Submit a Pull Request](/readme-only/pull-request.PNG '这通常在页面顶部附近，描述下方，项目文件和文件夹上方')      |
+| :---------------------------------------------------------------------------------------------------------------------: |
+|                                 :arrow_right_hook: **点击 `Compare and pull request`**                                  |
 | ![Open a Pull Request](/readme-only/pull-request-branches.PNG '你正在请求将你 fork 的分支合并到原始项目的 master 分支') |
-|                                               :arrow_right_hook: 这就是 `Open a pull request` 页面的样子。                                               |
+|                              :arrow_right_hook: 这就是 `Open a pull request` 页面的样子。                               |
 
 - 记住：_你正在尝试将你的分支与原始项目合并，而不是与你 fork 上的 `Master` 分支合并_。
 - 下图让你了解 pull request 的标题应该是什么样子。左边是原始项目，后面是 master 分支。右边是你的 fork 和你创建的分支。
 
-|                  ![Submit a Pull Request](/readme-only/pull-request-open.PNG "点击绿色按钮。不要害怕！")                  |
-| :-----------------------------------------------------------------------------------------------------------------------: |
+|          ![Submit a Pull Request](/readme-only/pull-request-open.PNG '点击绿色按钮。不要害怕！')           |
+| :--------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **创建 pull request：写一个标题，在描述中添加可选信息，然后点击 `Create pull request`** |
 
 - 不要被所有选项吓到。你现在只需要做这三步。

@@ -71,18 +71,18 @@ Owner has full admin access to the GitHub repo (branch protection, Actions, secr
 
 These are improvements that make the project easier to contribute to, maintain, and run — addressed after the two main workstreams are complete.
 
-| Item | Priority | Notes |
-| ------ | ---------- | ------- |
-| Create `CONTRIBUTING.md` | High | Missing entirely; critical for a first-timer project (GH issue #4455) |
-| Stale bot timing | High | Currently closes PRs in 1–4 days — far too aggressive for first-timers; needs loosening |
-| Prettier upgrade | Medium | Pinned to `^1.18.2` (2018); upgrade to `^3.x` |
-| CI Prettier enforcement gaps | Medium | Issue #4422 — not all cases caught |
-| Automated link validation | Medium | Issue #4421 — no link checking in CI |
-| Font Awesome update | Medium | Flagged in issue #4117 |
-| Fix broken links in Turkish README | Medium | Issue #4436 |
-| Rename `.github/workflows/.travis.yml` | Low | Misleading filename for a GitHub Actions workflow |
-| Scroll debounce in `assets/script.js:219` | Low | TODO already in code |
-| More beginner-friendly issues | Low | Issue #4223 |
+| Item                                      | Priority | Notes                                                                                   |
+| ----------------------------------------- | -------- | --------------------------------------------------------------------------------------- |
+| Create `CONTRIBUTING.md`                  | High     | Missing entirely; critical for a first-timer project (GH issue #4455)                   |
+| Stale bot timing                          | High     | Currently closes PRs in 1–4 days — far too aggressive for first-timers; needs loosening |
+| Prettier upgrade                          | Medium   | Pinned to `^1.18.2` (2018); upgrade to `^3.x`                                           |
+| CI Prettier enforcement gaps              | Medium   | Issue #4422 — not all cases caught                                                      |
+| Automated link validation                 | Medium   | Issue #4421 — no link checking in CI                                                    |
+| Font Awesome update                       | Medium   | Flagged in issue #4117                                                                  |
+| Fix broken links in Turkish README        | Medium   | Issue #4436                                                                             |
+| Rename `.github/workflows/.travis.yml`    | Low      | Misleading filename for a GitHub Actions workflow                                       |
+| Scroll debounce in `assets/script.js:219` | Low      | TODO already in code                                                                    |
+| More beginner-friendly issues             | Low      | Issue #4223                                                                             |
 
 ---
 

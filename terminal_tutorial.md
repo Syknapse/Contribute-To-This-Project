@@ -58,8 +58,8 @@ You'll add a personal card to the [project's web page](https://syknapse.github.i
 
 This tutorial is also available in other languages. Note that translations may lag behind the English version.
 
-|      [Bengali](translations/terminal_tutorial/terminal_tutorial.ben.md)       | [German](translations/terminal_tutorial/terminal_tutorial.ger.md) |   [Hindi](translations/terminal_tutorial/terminal_tutorial.hin.md)   |          [Korean](translations/terminal_tutorial/terminal_tutorial.kor.md)          |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+|      [Bengali](translations/terminal_tutorial/terminal_tutorial.ben.md)       | [German](translations/terminal_tutorial/terminal_tutorial.ger.md)  | [Hindi](translations/terminal_tutorial/terminal_tutorial.hin.md)  |  [Korean](translations/terminal_tutorial/terminal_tutorial.kor.md)   |
+| :---------------------------------------------------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: | :------------------------------------------------------------------: |
 | [Portuguese (BR)](translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Spanish](translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrainian](translations/terminal_tutorial/terminal_tutorial.ukr.md) | [Chinese (Traditional)](translations/terminal_tutorial/terminal_tutorial.zho-tc.md) |
 
 > Translations for this tutorial are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.

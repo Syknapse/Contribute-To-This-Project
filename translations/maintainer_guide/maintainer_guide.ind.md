@@ -6,10 +6,10 @@ Panduan ini ialah ditujukan kepada mereka yang ingin bergabung dengan proyek seb
 
 Panduan ini pula tersedia dalam [bahasa lain](../README.md)
 
-| [Inggris](/maintainer_guide.md) | [Bengali](maintainer_guide.ben.md) | [Zhōngwén (Tradisional)](maintainer_guide.zho-tc.md) | [Jerman](maintainer_guide.ger.md) | [Hindi](maintainer_guide.hin.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Italia](maintainer_guide.ita.md) | [Jepang](maintainer_guide.jpn.md) | [Korea](maintainer_guide.kor.md) | [Marathi](maintainer_guide.mar.md) | [Portugis](maintainer_guide.por.md) 
-| [Prancis (français)](maintainer_guide.fra.md) | [Rusia](maintainer_guide.rus.md) | [Ukraina](maintainer_guide.ukr.md)
+|        [Inggris](/maintainer_guide.md)        | [Bengali](maintainer_guide.ben.md) | [Zhōngwén (Tradisional)](maintainer_guide.zho-tc.md) | [Jerman](maintainer_guide.ger.md)  |  [Hindi](maintainer_guide.hin.md)   |
+| :-------------------------------------------: | :--------------------------------: | :--------------------------------------------------: | :--------------------------------: | :---------------------------------: |
+|       [Italia](maintainer_guide.ita.md)       | [Jepang](maintainer_guide.jpn.md)  |           [Korea](maintainer_guide.kor.md)           | [Marathi](maintainer_guide.mar.md) | [Portugis](maintainer_guide.por.md) |
+| [Prancis (français)](maintainer_guide.fra.md) |  [Rusia](maintainer_guide.rus.md)  |          [Ukraina](maintainer_guide.ukr.md)          |
 
 > Terjemahan kepada proyek dokumentasi ialah dipersilakan. Lihat [`Panduan Terjemahan`](../README.md) untuk berkontribusi.
 
@@ -17,7 +17,7 @@ Panduan ini pula tersedia dalam [bahasa lain](../README.md)
 
 ## Tujuan
 
-Tujuan utama kami ialah memberikan umpan balik tercepat sebisa mungkin kepada kontributor sejak mereka membuat permintaan penggabungan (*pull request* / PR) mereka. Hal terutama memberikan tinjauan kode dan menggabungkan PR yang diterima.
+Tujuan utama kami ialah memberikan umpan balik tercepat sebisa mungkin kepada kontributor sejak mereka membuat permintaan penggabungan (_pull request_ / PR) mereka. Hal terutama memberikan tinjauan kode dan menggabungkan PR yang diterima.
 Selain itu, kami dapat memelihara proyek menjamin semua berfungsi dengan benar sebagaimana membantu dan bermanfaat kepada kontributor kami.
 
 ## Untuk siapakah ini?
@@ -32,8 +32,8 @@ Anda dapat berkomitmen sebanyak atau sekadar waktu yang Anda inginkan. Di antara
 - Buka sebuah PR, pilih ke label perubahan berkas dan mulai tinjauan kode.
 - Periksalah PR, pastikan itu mengikuti spesifikasi dalam tutorial.
 - Pastikan pula HTML, tautan dan data ialah benar secara keseluruhan. Pastikan kartu diposisikan pada awal berkas sebagaimana yang dimaksudkan.
-- Lalu periksa apakah terdapat konflik. Gabungkan `master` ke dalam percabangan (*branch*) PR untuk memperbaiki konflik. Konflik secara umum berlangsung ketika telah sekian lama semenjak penggabungan terakhir dan beberapa PR menggunakan versi sama yang telah ketinggalan.
-- Bila ini menjadi kasus, perbaiki konflik. Secara umum Anda akan perlu menambahkan kartu baru di atas kartu yang telah ditambahkan sejak (*fork*) dibuat.
+- Lalu periksa apakah terdapat konflik. Gabungkan `master` ke dalam percabangan (_branch_) PR untuk memperbaiki konflik. Konflik secara umum berlangsung ketika telah sekian lama semenjak penggabungan terakhir dan beberapa PR menggunakan versi sama yang telah ketinggalan.
+- Bila ini menjadi kasus, perbaiki konflik. Secara umum Anda akan perlu menambahkan kartu baru di atas kartu yang telah ditambahkan sejak (_fork_) dibuat.
 - Bila semua terlihat baik, setujui PR, tulislah pesan kepada kontributor dengan berterima kasih atas kontribusi mereka (mengingat mereka ialah pemula dan akan memperoleh manfaat dari pemberian semangat).
 - Gabungkan PR ke dalam `master`.
 
