@@ -72,7 +72,6 @@ You are going to contribute a card just like this one to this [project's web pag
 You will copy a ready-made card template file, fill it in with your own information, and submit it.
 
 > Already contributed a card? There are other ways to help — translations, bug fixes, accessibility improvements, and more. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
 ---
 
 ### Translations
@@ -83,7 +82,6 @@ This tutorial is also available in [other languages](/translations/README.md)
 | :-------------------------------------------------: | :----------------------------------------------------: | :---------------------------------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: |
 |           [English (English)](/README.md)           |  [French (Français)](/translations/README/FRENCH.md)   |              [German (Deutsch)](/translations/README/GERMAN.md)               |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    |
 | [Japanese (日本語)](/translations/日本語/README.md) |   [Korean (한국어)](/translations/README/KOREAN.md)    |               [Polish (Polski)](/translations/README/POLISH.md)               |          [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Russian (Русский)](/translations/README/RUSSIAN.md)     |
-|   :---------------------------------------------:   |    :---------------------------------------------:     |                :---------------------------------------------:                |                 :---------------------------------------------:                 |       :---------------------------------------------:       |
 | [Serbian (Српски)](/translations/README/SERBIAN.md) | [Somali (Af-Soomaali)](/translations/README/SOMALI.md) |             [Spanish (Español)](/translations/README/SPANISH.md)              |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |
 |    [Urdu (اُردُو)](/translations/README/URDU.md)    | [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |                [Malayalam](/translations/README/MALAYALAM.md)                 |               [Uzbek (Oʻzbekcha)](/translations/README/UZBEK.md)                |                                                             |
 
