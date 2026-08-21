@@ -10,14 +10,14 @@ Migration was completed in early 2026. Nothing here needs to run again.
 
 ## Contents
 
-| Path | Description |
-| --- | --- |
-| `ROADMAP.md` | Full implementation guide — phases, design rationale, transition sequence |
-| `spec.md` | Original v2 specification |
-| `scripts/README.md` | Phase 1 backlog-processing run guide |
-| `scripts/process-backlog.js` | Phase 1 — processed ~223 open PRs by injecting cards directly into `index.html` |
+| Path                         | Description                                                                      |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| `ROADMAP.md`                 | Full implementation guide — phases, design rationale, transition sequence        |
+| `spec.md`                    | Original v2 specification                                                        |
+| `scripts/README.md`          | Phase 1 backlog-processing run guide                                             |
+| `scripts/process-backlog.js` | Phase 1 — processed ~223 open PRs by injecting cards directly into `index.html`  |
 | `scripts/check-fixed-prs.js` | Pre-merge — re-validated `changes-requested` PRs; merged any that had been fixed |
-| `scripts/notify-v1-prs.js` | Post-merge — posted v2 migration instructions on every remaining v1-style PR |
+| `scripts/notify-v1-prs.js`   | Post-merge — posted v2 migration instructions on every remaining v1-style PR     |
 
 ---
 
@@ -34,11 +34,11 @@ closed the PR with an explanation comment.
 
 **Outcome:**
 
-| Category | Count |
-| --- | --- |
-| Cards injected + PR closed | 173 |
-| `changes-requested` (invalid cards) | 19 |
-| `maintainer-review` (non-card PRs) | 30 |
+| Category                            | Count |
+| ----------------------------------- | ----- |
+| Cards injected + PR closed          | 173   |
+| `changes-requested` (invalid cards) | 19    |
+| `maintainer-review` (non-card PRs)  | 30    |
 
 State tracked in `_v2/scripts/processed.json`.
 

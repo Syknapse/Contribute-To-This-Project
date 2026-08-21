@@ -83,12 +83,12 @@ Du kommer att göra en kopia av kortmallen i HTML-filen och anpassa den med din 
 
 Denna guide finns även på andra språk [andra språk](/translations/README.md)
 
-|     [Arabic (عربي)](/translations/README/ARABIC.md)     |  [Bangla (বাংলা)](/translations/README/BANGLA.md)  | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) | [Dutch](/translations/README/DUTCH.md) |            [English (English)](/README.md)             |  
-| :---------------------------------------------: | :---------------------------------------: | :-----------------------------------------: | :---------------------------------------: | :---------------------------------------: |
-| [French (Français)](/translations/README/FRENCH.md) |  [German (Deutsch)](/translations/README/GERMAN.md)  |      [Hindi (हिंदी)](/translations/README/HINDI.md)      | [Italian (Italiano)](/translations/README/ITALIAN.md) | [Japanese (日本語)](/translations/README/JAPANESE.md) |
-  [Korean (한국어)](/translations/README/KOREAN.md)  | [Polish (Polski)](/translations/README/POLISH.md) | [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md) | [Russian (Русский)](/translations/README/RUSSIAN.md) |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
-  [Spanish (Español)](/translations/README/SPANISH.md) | [Swedish (Svenska)](/translations/README/SWEDISH.md) | [Turkish (Türkçe)](/translations/README/TURKISH.md) | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |  [Urdu (اُردُو)](/translations/README/URDU.md) | 
-  [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) | [Malayalam](/translations/README/MALAYALAM.md)
+|    [Arabic (عربي)](/translations/README/ARABIC.md)     |   [Bangla (বাংলা)](/translations/README/BANGLA.md)   | [Chinese (Traditional) (繁體中文)](/translations/README/CHINESE_TRADITIONAL.md) |           [Dutch](/translations/README/DUTCH.md)            |            [English (English)](/README.md)            |
+| :----------------------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------: | :---------------------------------------------------------: | :---------------------------------------------------: |
+|  [French (Français)](/translations/README/FRENCH.md)   |  [German (Deutsch)](/translations/README/GERMAN.md)  |                 [Hindi (हिंदी)](/translations/README/HINDI.md)                  |    [Italian (Italiano)](/translations/README/ITALIAN.md)    | [Japanese (日本語)](/translations/README/JAPANESE.md) |
+|   [Korean (한국어)](/translations/README/KOREAN.md)    |  [Polish (Polski)](/translations/README/POLISH.md)   |          [Portuguese (Portuguese)](/translations/README/PORTUGUESE.md)          |    [Russian (Русский)](/translations/README/RUSSIAN.md)     |  [Serbian (Српски)](/translations/README/SERBIAN.md)  |
+|  [Spanish (Español)](/translations/README/SPANISH.md)  | [Swedish (Svenska)](/translations/README/SWEDISH.md) |               [Turkish (Türkçe)](/translations/README/TURKISH.md)               | [Ukrainian (українська)](/translations/README/UKRAINIAN.md) |     [Urdu (اُردُو)](/translations/README/URDU.md)     |
+| [Norwegian (Norsk)](/translations/README/NORWEGIAN.md) |    [Malayalam](/translations/README/MALAYALAM.md)    |
 
 > Översättningar av projektdokumentationen är välkomna. Läs [`Översättningsguide`](/translations/README.md) för att bidra.
 
@@ -126,8 +126,8 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Se till att du är på [huvudsidan](https://github.com/Syknapse/Contribute-To-This-Project 'https://github.com/Syknapse/Contribute-To-This-Project') för detta repo.
 
 | ![Fork](/readme-only/fork.png "Klicka på 'Fork'") |
-| :---------------------------------------------: |
-|         **Klicka på _Fork_ knappen**          |
+| :-----------------------------------------------: |
+|           **Klicka på _Fork_ knappen**            |
 
 - Nu har du en komplett kopia av projektet i ditt eget konto.
 
@@ -141,18 +141,18 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Öppna GitHub Desktop-appen. I appen:
 
 | ![Klona](/readme-only/clone.PNG 'klicka clone repository') |
-| :------------------------------------------------------: |
-|       **Klicka på _File_ sen _Clone repository_**        |
+| :--------------------------------------------------------: |
+|        **Klicka på _File_ sen _Clone repository_**         |
 
 - Du kommer att se en lista över dina projekt och forkade repos på GitHub.
 - Välj `<ditt-github-användarnamn>/Contribute-To-This-Project>`.
 - Klicka på _Clone_
 
 | ![Klona projekt](/readme-only/clone-project.PNG 'Klicka på =ditt-github-användarnamn=/Contribute-To-This-Project>') |
-| :----------------------------------------------------------------------------------------------------------: |
+| :-----------------------------------------------------------------------------------------------------------------: |
 
 | :arrow_right_hook: Ett forkat projekt har en fork-symbol till vänster. Din fork kommer att ha ditt eget GitHub-användarnamn. | ![din fork](/readme-only/clone-your-fork.PNG 'din fork kommer att se ut så här, med ditt eget användarnamn') |
-| :------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------: |
+| :--------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------: |
 
 - Detta tar en stund medan projektet kopieras till din hårddisk. Jag rekommenderar att du behåller standardvägen, som vanligtvis är `..\Documents\GitHub`.
 - Nu har du en lokal kopia av projektet.
@@ -166,10 +166,10 @@ _Beräknad tid: Mindre än 30 minuter_.
 - När repot har klonats och du har det öppet i GitHub Desktop är det dags att skapa en ny branch.
 - Branchen är ett sätt att hålla dina ändringar separerade från huvudprojektet, som kallas `Master`. Om något går fel och du inte är nöjd med ändringarna kan du helt enkelt ta bort branchen och huvudprojektet påverkas inte.
 
-| :arrow_right_hook: Klicka på _`Current branch`_, sendan _`New`_ | ![Skapa branch](/readme-only/branch-new.PNG "Klicka på 'Branch', sedan 'New'") |
-| :---------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: **Ge din branch ett namn, klicka sedan på `Create branch`** |                           ![Name branch](/readme-only/branch-name.PNG 'Namge din branch')                            |
-| :arrow_right_hook: **Publicera din nya branch till GitHub**                      | ![Name branch](/readme-only/branch-publish.PNG 'Klicka på "Publish" för att skicka den nya branchen till ditt fjärr-repo på GitHub') |
+| :arrow_right_hook: Klicka på _`Current branch`_, sendan _`New`_                |                            ![Skapa branch](/readme-only/branch-new.PNG "Klicka på 'Branch', sedan 'New'")                            |
+| :----------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------: |
+| :arrow_right_hook: **Ge din branch ett namn, klicka sedan på `Create branch`** |                                   ![Name branch](/readme-only/branch-name.PNG 'Namge din branch')                                    |
+| :arrow_right_hook: **Publicera din nya branch till GitHub**                    | ![Name branch](/readme-only/branch-publish.PNG 'Klicka på "Publish" för att skicka den nya branchen till ditt fjärr-repo på GitHub') |
 
 - Du kan namnge den som du vill, men eftersom detta är en branch för att lägga till ett kort med ditt namn, är det god praxis att kalla den `ditt-namn-kort`. Det gör syftet med branchen tydlig.
 - Nu har du skapat en ny branch som är separerad från master.
@@ -188,8 +188,8 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Filen `index.html` ligger direkt i mappen `Contribute-To-This-Project`.
 - Öppna din kodredigerare (Sublime, VS Code, Atom osv.) och använd kommandot `Open file` för att hitta och öppna index.html i projektets huvudmapp.
 
-|                  ![Öppna index fil](/readme-only/index-open.PNG 'Öppna index.html i din textredigerare')                |
-| :---------------------------------------------------------------------------------------------------------------------: |
+|               ![Öppna index fil](/readme-only/index-open.PNG 'Öppna index.html i din textredigerare')                |
+| :------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Alternativt kan du hitta filen på hårddisken, högerklicka och välja Öppna med din redigerare.** |
 
 - Nu har du filen du ska redigera öppen i din editor och du är redo att börja göra ändringar.
@@ -206,20 +206,20 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Nu bör du se sektionen som innehåller alla bidragskort: `<div class="grid" id="contributions">`
 
 | ![Hitta kortmallen](/readme-only/find-card-template.png 'Hitta kortmallen') |
-| :-----------------------------------------------------------------------: |
+| :-------------------------------------------------------------------------: |
 
 - Inuti denna sektion hittar du delen markerad med `== TEMPLATE ==`
 - Kopiera allt inom den röda rutan i bilden, från kommentaren `Contributor card START` till `Contributor card END`
 
 | ![Kopiera kortmallen](/readme-only/card-copy.PNG 'Kopiera kortmallen') |
-| :-----------------------------------------------------------------------: |
+| :--------------------------------------------------------------------: |
 
 - Klistra in hela delen direkt under kommentaren som anger det; ovanpå det senaste bidragsgivarens kort.
 - Se till att det finns en tom rad mellan slutet på ditt kort och början på det senaste kortet. Lägg också till en tom rad mellan början på ditt kort och raden med kommentaren `=== Paste YOUR CARD directly BELOW this line ===`. Det är god praxis att hålla koden så tydlig som möjligt.
 - Använd aldrig linters eller formaterare manuellt. Projektet har Prettier konfigurerat.
 
 | ![Klistra in kortmallen](/readme-only/card-paste.PNG 'Klistra in under den angivna raden') |
-| :---------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------------: |
 
 - Detta är nu ditt kort, redo för dig att anpassas och redigeras!
 
@@ -232,19 +232,19 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Nu börjar vi redigera HTML-koden och fylla i de anpassningsbara fälten i ditt kort.
 
 | :arrow_right_hook: Ersätt 'Name' med ditt namn | ![Redigera namn](/readme-only/change-name.PNG 'Skriv ditt namn') |
-| :----------------------------------------------- | :----------------------------------------------------------: |
+| :--------------------------------------------- | :--------------------------------------------------------------: |
 
 - **Note: Ändra INTE `class="name"`**
 
 | :arrow_right_hook: Lägg in URL:en till ditt X-konto `href="Insert URL here"`, skriv ditt användarnamn i textfältet | ![Redigera kontakt](/readme-only/change-contact.PNG 'Lägg in en länk till ditt X-konto och skriv ditt användarnamn') |
-| :--------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------: |
+| :----------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: |
 
 - Om du föredrar en annan kontakt än X, byt ut X-ikonen <i class="fa fa-x-twitter"></i> genom att gå till [Font Awesome ikoner](http://fontawesome.io/icons/), söka efter rätt ikon och endast ersätta `fa-x-twitter` med den nya, t.ex. `fa-facebook`. Följ sedan samma steg som ovan.
 
-|                                                                                                                                         ![Redigera om mig](/readme-only/change-about.PNG 'Skriv en mening om dig själv')                                                                                                                                          |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                               :arrow_right_hook: **Berätta något om dig. Håll det kort och koncist, tänk som en tweet, inte ett blogginlägg.**                                                                                                                |
-|                                                                                                              ![Redigera resurser](/readme-only/change-resources.PNG 'Lägg in länk, skriv en kort beskrivning och ange resursens namn')                                                                                                              |
+|                                                                                                                                            ![Redigera om mig](/readme-only/change-about.PNG 'Skriv en mening om dig själv')                                                                                                                                            |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                            :arrow_right_hook: **Berätta något om dig. Håll det kort och koncist, tänk som en tweet, inte ett blogginlägg.**                                                                                                                            |
+|                                                                                                                       ![Redigera resurser](/readme-only/change-resources.PNG 'Lägg in länk, skriv en kort beskrivning och ange resursens namn')                                                                                                                        |
 | :arrow_right_hook: **Dela med communityn tre länkar till resurser som är användbara för webbutveckling. Det kan vara vad som helst: en video, ett föredrag, en podcast, en artikel, en referens eller ett verktyg. Är du nybörjare? Oroa dig inte, dela det du kan, även om det känns grundläggande. Du kommer att bli förvånad över hur många som har nytta av det!** |
 
 - **Länk:** Lägg in länken `href="here"` och ersätt `#`. Använd INTE URL-förkortare eller länkar som inte kommer direkt från webbplatsen!
@@ -265,12 +265,12 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Det betyder att Git har registrerat alla sparade ändringar.
 - Du ser detta i appen: allt du lagt till visas i grönt, och borttaget visas i rött.
 
-|                                                                                                  ![Committa ändringar](/readme-only/commit.PNG "Dina ändringar visas i grönt till höger i GitHub Desktop. Commit-knappen finns längst ner till vänster.")                                                                                                  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| :arrow_right_hook: Nästa steg kallas _`Commit`_. Det betyder ungefär `bekräfta ändringarna`. |
-|                                                                                              ![Committa ändringar](/readme-only/commit-header.PNG "Dina ändringar visas i grönt till höger i GitHub Desktop. Commit-knappen finns längst ner till vänster.")                                                                                               |
-|                                                                            :arrow_right_hook: **Så här ska huvudet i GitHub Desktop se ut. Lägg märke till fork-symbolen bredvid projektnamnet under `Current repository`, din `Current branch` har namnet du gav den i steg 3.**                                                                            |
-|                                                                                                                  ![Skriv ett commit meddelande och committa](/readme-only/commit-message.PNG "Skriv ett kort commit meddelande i fältet 'Summary' och klicka på 'Commit'.")                                                                                                                  |
+|                                                                                                                     ![Committa ändringar](/readme-only/commit.PNG 'Dina ändringar visas i grönt till höger i GitHub Desktop. Commit-knappen finns längst ner till vänster.')                                                                                                                     |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                                   :arrow_right_hook: Nästa steg kallas _`Commit`_. Det betyder ungefär `bekräfta ändringarna`.                                                                                                                                                   |
+|                                                                                                                 ![Committa ändringar](/readme-only/commit-header.PNG 'Dina ändringar visas i grönt till höger i GitHub Desktop. Commit-knappen finns längst ner till vänster.')                                                                                                                  |
+|                                                                                              :arrow_right_hook: **Så här ska huvudet i GitHub Desktop se ut. Lägg märke till fork-symbolen bredvid projektnamnet under `Current repository`, din `Current branch` har namnet du gav den i steg 3.**                                                                                              |
+|                                                                                                                    ![Skriv ett commit meddelande och committa](/readme-only/commit-message.PNG "Skriv ett kort commit meddelande i fältet 'Summary' och klicka på 'Commit'.")                                                                                                                    |
 | :arrow_right_hook: **För att _`Commit`_ måste du fylla i fältet _`Summary`_. Detta är ditt commit meddelande som förklarar vad du ändrat. I detta fall är t.ex. `"Lade till mitt kort"` ett bra meddelande. Du kan också lägga till en mer detaljerad _`Description`_ om du vill. Klicka sedan på _`Commit`_-knappen. Knappen kommer att säga något i stil med `Commit to "ditt-branch-namn"`.** |
 
 [↑ Tillbaka till toppen ↑](#quick-access-index)
@@ -283,7 +283,7 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Att synkronisera lokala ändringar med ditt repository på GitHub kallas _Push_. Du "pushar" ändringarna från ditt lokala repository till det fjärranslutna på GitHub.
 
 | :arrow_right_hook: Klicka på _`Push`_-knappen | ![Push to GitHub](/readme-only/push.PNG "Pusha dina ändringar till GitHub, klicka på 'Push'") |
-| :------------------------------------------- | :-----------------------------------------------------------------------------------------------: |
+| :-------------------------------------------- | :-------------------------------------------------------------------------------------------: |
 
 - Efter några sekunder är operationen klar. Nu har du exakt samma version av branchen både på din dator och på GitHub.
 
@@ -291,7 +291,7 @@ _Beräknad tid: Mindre än 30 minuter_.
 
 ---
 
-#### Steg 9: Skicka in en PR (*Pull Request*)
+#### Steg 9: Skicka in en PR (_Pull Request_)
 
 - Detta är ögonblicket du väntat på: att skicka in en _Pull Request_ (PR).
 - Hittills har allt arbete gjorts på din fork av projektet, den som finns i ditt eget GitHub-konto.
@@ -300,18 +300,18 @@ _Beräknad tid: Mindre än 30 minuter_.
 - Gå till huvudsidan för din fork på GitHub (den har fork-ikonen och ditt användarnamn högst upp).
 - Högst upp i repot ser du ett markerat meddelande om Pull Request med en grön knapp
 
-| ![Skicka in en Pull Request](/readme-only/pull-request.PNG 'Detta ligger vanligtvis högst upp på sidan, under beskrivningen och ovanför filerna och mapparna.')  |
-| :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                    :arrow_right_hook: **Klicka på `Compare and pull request`**                                                     |
-| ![Öppna en Pull Request](/readme-only/pull-request-branches.PNG 'Du begär att merga din branch från din fork in i master-branchen i originalprojektet.') |
-|                                              :arrow_right_hook: Så här ser sidan `Open a pull request` ut.                                               |
+| ![Skicka in en Pull Request](/readme-only/pull-request.PNG 'Detta ligger vanligtvis högst upp på sidan, under beskrivningen och ovanför filerna och mapparna.') |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                   :arrow_right_hook: **Klicka på `Compare and pull request`**                                                   |
+|    ![Öppna en Pull Request](/readme-only/pull-request-branches.PNG 'Du begär att merga din branch från din fork in i master-branchen i originalprojektet.')     |
+|                                                  :arrow_right_hook: Så här ser sidan `Open a pull request` ut.                                                  |
 
 - VIKTIGT: _Du försöker merga din branch med originalprojektet INTE med master-branchen i din egen fork_.
 - Bilden nedanför visar hur rubriken för din Pull Request ska se ut:
 - På vänster är det ursprungliga projektet, följt av master-branchen. På höger sida är din fork och den branch du skapade.
 
-|                   ![Skicka in en Pull Request](/readme-only/pull-request-open.PNG "Klicka på den gröna knappen. Var inte rädd!")                    |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: |
+|                ![Skicka in en Pull Request](/readme-only/pull-request-open.PNG 'Klicka på den gröna knappen. Var inte rädd!')                |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
 | :arrow_right_hook: **Skapa en pull request: Skriv en titel, lägg till valfri information i beskrivning och klicka på `Create pull request`** |
 
 - Oroa dig inte för alla alternativ. Du behöver bara göra dessa tre steg just nu.
@@ -354,6 +354,7 @@ _Beräknad tid: Mindre än 30 minuter_.
 [↑ Tillbaka till toppen ↑](#quick-access-index)
 
 ---
+
 ### Tack till
 
 Detta projekt är inspirerat av [Roshan Jossey's](https://github.com/Roshanjossey) grymma [first-contributions](https://github.com/Roshanjossey/first-contributions) projekt med dess utmärkta guide.

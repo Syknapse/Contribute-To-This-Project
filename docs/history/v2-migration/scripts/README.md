@@ -29,11 +29,11 @@ node _v2/scripts/process-backlog.js --batch 30
 
 Processes open PRs in batches of 30 (default). For each PR:
 
-| PR type | Action |
-| --- | --- |
-| Only `index.html` changed, has a real name | Welcome comment → merge (squash) |
-| Only `index.html` changed, name is missing/placeholder or no card found | Specific error comment → `changes-requested` label |
-| Any other files changed | Maintainer note comment → `maintainer-review` label |
+| PR type                                                                 | Action                                              |
+| ----------------------------------------------------------------------- | --------------------------------------------------- |
+| Only `index.html` changed, has a real name                              | Welcome comment → merge (squash)                    |
+| Only `index.html` changed, name is missing/placeholder or no card found | Specific error comment → `changes-requested` label  |
+| Any other files changed                                                 | Maintainer note comment → `maintainer-review` label |
 
 Every 10 merges, `npm run archive_cards` runs automatically to keep `index.html` tidy.
 
@@ -50,17 +50,18 @@ If your laptop restarts mid-run, just run the script again. It picks up where it
 
 ## Flags
 
-| Flag | Effect |
-| --- | --- |
+| Flag        | Effect                                        |
+| ----------- | --------------------------------------------- |
 | `--dry-run` | Preview only. No comments, labels, or merges. |
-| `--batch N` | Process N PRs per run (default: 30). |
-| `--batch=N` | Same, alternative syntax. |
+| `--batch N` | Process N PRs per run (default: 30).          |
+| `--batch=N` | Same, alternative syntax.                     |
 
 ---
 
 ## Validation logic (Phase 1 — lenient)
 
 A card PR passes if:
+
 1. Exactly one `.card` div appears in the diff
 2. The `.name` element is present, non-empty, and not the template placeholder (`"Your name"`)
 
@@ -73,23 +74,23 @@ Phase 2 will use a stricter mode of the same validator at PR submission time.
 
 ## Files
 
-| File | Purpose |
-| --- | --- |
-| `process-backlog.js` | Main script — run this |
-| `validate-card.js` | Card validation (phase1/phase2 modes) |
-| `backlog-messages.js` | Comment templates |
-| `processed.json` | Auto-generated state file (created on first run) |
+| File                  | Purpose                                          |
+| --------------------- | ------------------------------------------------ |
+| `process-backlog.js`  | Main script — run this                           |
+| `validate-card.js`    | Card validation (phase1/phase2 modes)            |
+| `backlog-messages.js` | Comment templates                                |
+| `processed.json`      | Auto-generated state file (created on first run) |
 
 ---
 
 ## Expected outcome (from dry run on 2026-03-20)
 
-| Result | Count |
-| --- | --- |
-| Merges | ~74 (will increase with lenient validator) |
-| Changes requested | ~119 (will decrease) |
-| Maintainer review | ~30 |
-| Total open PRs | 223 |
+| Result            | Count                                      |
+| ----------------- | ------------------------------------------ |
+| Merges            | ~74 (will increase with lenient validator) |
+| Changes requested | ~119 (will decrease)                       |
+| Maintainer review | ~30                                        |
+| Total open PRs    | 223                                        |
 
 With the lenient Phase 1 validator (name-only check), expect merge count to rise significantly
 from the 74 shown in the dry run — many of those 119 invalids had real names but minor issues.

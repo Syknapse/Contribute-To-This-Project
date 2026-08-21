@@ -7,10 +7,10 @@ This guide is for people who would like to join the project as maintainers and h
 
 This tutorial is also available in [other languages](translations/README.md).
 
-| [English](maintainer_guide.md) | [Bangla](translations/maintainer_guide/maintainer_guide.ben.md) | [Chinese (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [French (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Hindi](translations/maintainer_guide/maintainer_guide.hin.md) | [Indonesian](translations/maintainer_guide/maintainer_guide.ind.md) | [Italian](translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md) | [Korean](translations/maintainer_guide/maintainer_guide.kor.md) |
-| [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) | [Russian](translations/maintainer_guide/maintainer_guide.rus.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+|                   [English](maintainer_guide.md)                    |   [Bangla](translations/maintainer_guide/maintainer_guide.ben.md)   | [Chinese (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [French (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [German](translations/maintainer_guide/maintainer_guide.ger.md) |
+| :-----------------------------------------------------------------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-------------------------------------------------------------: |
+|   [Hindi](translations/maintainer_guide/maintainer_guide.hin.md)    | [Indonesian](translations/maintainer_guide/maintainer_guide.ind.md) |          [Italian](translations/maintainer_guide/maintainer_guide.ita.md)          |      [Japanese](translations/maintainer_guide/maintainer_guide.jpn.md)      | [Korean](translations/maintainer_guide/maintainer_guide.kor.md) |
+| [Portuguese](translations/maintainer_guide/maintainer_guide.por.md) |  [Russian](translations/maintainer_guide/maintainer_guide.rus.md)   |        [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md)         |
 
 > Translations for project documentation are welcome.  
 > Please read the [`Translation Guide`](translations/README.md) to contribute.
