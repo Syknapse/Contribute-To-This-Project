@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # メンテナンスガイド
 
 このガイドは、コミュニティのためにプロジェクトを管理・維持するメンテナーとして、プロジェクトに参加したい人向けのものです。(このガイドは**初回コントリビュータ向け**のものではありません)
