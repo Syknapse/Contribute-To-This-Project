@@ -27,5 +27,39 @@
         "text": "The Modern JavaScript Tutorial"
       }
     ]
+  },
+  {
+    "username": "rastogi-codes",
+    "name": "rastogi-codes",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rastogi-codes",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/krishna-rastogi0/",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "I am a B.Tech CSE student and an aspiring software developer.\n    I am starting my open-source journey with my first contribution\n    and looking forward to learning, building, and contributing to\n    meaningful projects.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "JavaScript.info",
+        "link": "https://javascript.info/",
+        "text": "JavaScript.info"
+      }
+    ]
   }
 ]
