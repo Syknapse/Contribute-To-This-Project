@@ -27,10 +27,13 @@ jobs:
 
       - name: Check formatting with Prettier
         if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           # cards/*.html and archive files are excluded via .prettierignore
           # --ignore-unknown skips files Prettier has no parser for (extensionless files, etc.)
-          npx prettier --check --ignore-unknown --ignore-path .prettierignore ${{ steps.changed-files.outputs.all_changed_files }}
+          # shellcheck disable=SC2086
+          npx prettier --check --ignore-unknown --ignore-path .prettierignore $ALL_CHANGED_FILES
 
   html-validation:
     runs-on: ubuntu-latest
@@ -55,10 +58,13 @@ jobs:
 
       - name: Validate HTML files
         if: steps.changed-files.outputs.any_changed == 'true'
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           echo "Validating HTML files..."
-          echo "Changed files: ${{ steps.changed-files.outputs.all_changed_files }}"
-          npx html-validate ${{ steps.changed-files.outputs.all_changed_files }}
+          echo "Changed files: $ALL_CHANGED_FILES"
+          # shellcheck disable=SC2086
+          npx html-validate $ALL_CHANGED_FILES
         continue-on-error: false
 
       - name: Validate index.html (always run on master)
