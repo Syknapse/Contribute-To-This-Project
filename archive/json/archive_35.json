@@ -61,5 +61,34 @@
         "text": "JavaScript.info"
       }
     ]
+  },
+  {
+    "username": "vampsoutside",
+    "name": "Kith_",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Vampsoutside",
+        "handle": "Vampsoutside"
+      }
+    ],
+    "about": "DA-DS-AI/ML student at Hansraj College. Passionate about Music, Money and Fashion. Making my first open source contribution!",
+    "resources": [
+      {
+        "title": "Free interactive coding lessons",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "MDN Web Docs - the best web documentation",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Excellent CSS tips and techniques",
+        "link": "https://css-tricks.com/",
+        "text": "CSS-Tricks"
+      }
+    ]
   }
 ]
