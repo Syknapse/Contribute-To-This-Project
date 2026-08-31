@@ -53,6 +53,7 @@
   --color-bg: #100633;
   --color-card-bg: #1f0b6b;
   --color-surface: #1f0b6b;
+
   --color-surface-alt: #100633;
   --color-text: #d2d6dc;
   --color-heading: #ffbc22;
@@ -122,6 +123,9 @@
 /* Retro: name section has blue bg so text must be white */
 [data-theme='retro'] .name,
 [data-theme='retro'] .contact {
+  color: #fff;
+}
+[data-theme='retro'] .card p small a {
   color: #fff;
 }
 
