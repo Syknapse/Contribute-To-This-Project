@@ -358,3 +358,4 @@ This project is licensed under the [MIT License](./LICENSE).
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
 [Back to the top &uparrow;](#introduction)
+- [Stefanut](https://github.com/stefanutc1) - Homelab, Kernel & Low-Level Linux Systems Engineer.
