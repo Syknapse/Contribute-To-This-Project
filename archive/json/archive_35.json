@@ -90,5 +90,34 @@
         "text": "CSS-Tricks"
       }
     ]
+  },
+  {
+    "username": "sravankarapakula",
+    "name": "sravankarapakula",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/sravankarapakula",
+        "handle": "GitHub Profile"
+      }
+    ],
+    "about": "I am a aspiring software developer. I am new to open source contribution and this is my first contribution.",
+    "resources": [
+      {
+        "title": "freecodecamp",
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "freecodecamp"
+      },
+      {
+        "title": "chai-aur-code",
+        "link": "http://youtube.com/@chaiaurcode",
+        "text": "ChaiAurCode"
+      },
+      {
+        "title": "geeksforgeeks",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "geeksforgeeks"
+      }
+    ]
   }
 ]
