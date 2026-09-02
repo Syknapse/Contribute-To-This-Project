@@ -119,5 +119,34 @@
         "text": "Python Docs"
       }
     ]
+  },
+  {
+    "username": "mohitmohan2005-wq",
+    "name": "Mohit Mohan",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/mohitmohan2005-wq",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I am the coolest and here to learn.",
+    "resources": [
+      {
+        "title": "w3school",
+        "link": "https://w3school.com",
+        "text": "W3schools"
+      },
+      {
+        "title": "googlefonts",
+        "link": "https://fonts.google.com",
+        "text": "Google Fonts"
+      },
+      {
+        "title": "googleanalytics",
+        "link": "https://analytics.google.com",
+        "text": "Google Analytics"
+      }
+    ]
   }
 ]
