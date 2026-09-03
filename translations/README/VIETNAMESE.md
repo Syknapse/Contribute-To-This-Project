@@ -79,13 +79,12 @@ Bạn sẽ sao chép một file danh thiếp mẫu có sẵn, điền thông tin
 
 Hướng dẫn này cũng có sẵn bằng [các ngôn ngữ khác](../README.md)
 
-|           [Arabic (عربي)](ARABIC.md)            |           [Bangla (বাংলা)](BANGLA.md)           | [Chinese (Simplified) (简体中文)](CHINESE_SIMPLIFIED.md) | [Chinese (Traditional) (繁體中文)](CHINESE_TRADITIONAL.md) |                [Dutch](DUTCH.md)                |
-| :---------------------------------------------: | :---------------------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------: | :---------------------------------------------: |
-|      [English (English)](../../README.md)       |         [French (Français)](FRENCH.md)          |              [German (Deutsch)](GERMAN.md)               |                 [Hindi (हिंदी)](HINDI.md)                  |        [Italian (Italiano)](ITALIAN.md)         |
-|        [Japanese (日本語)](JAPANESE.md)         |          [Korean (한국어)](KOREAN.md)           |               [Polish (Polski)](POLISH.md)               |          [Portuguese (Portuguese)](PORTUGUESE.md)          |         [Russian (Русский)](RUSSIAN.md)         |
-| :---------------------------------------------: | :---------------------------------------------: |     :---------------------------------------------:      |      :---------------------------------------------:       | :---------------------------------------------: |
-|         [Serbian (Српски)](SERBIAN.md)          |        [Somali (Af-Soomaali)](SOMALI.md)        |             [Spanish (Español)](SPANISH.md)              |               [Turkish (Türkçe)](TURKISH.md)               |     [Ukrainian (українська)](UKRAINIAN.md)      |
-|            [Urdu (اُردُو)](URDU.md)             |        [Norwegian (Norsk)](NORWEGIAN.md)        |                [Malayalam](MALAYALAM.md)                 |               [Uzbek (Oʻzbekcha)](UZBEK.md)                |    [Vietnamese (Tiếng Việt)](VIETNAMESE.md)     |
+|      [Arabic (عربي)](ARABIC.md)      |    [Bangla (বাংলা)](BANGLA.md)    | [Chinese (Simplified) (简体中文)](CHINESE_SIMPLIFIED.md) | [Chinese (Traditional) (繁體中文)](CHINESE_TRADITIONAL.md) |            [Dutch](DUTCH.md)             |
+| :----------------------------------: | :-------------------------------: | :------------------------------------------------------: | :--------------------------------------------------------: | :--------------------------------------: |
+| [English (English)](../../README.md) |  [French (Français)](FRENCH.md)   |              [German (Deutsch)](GERMAN.md)               |                 [Hindi (हिंदी)](HINDI.md)                  |     [Italian (Italiano)](ITALIAN.md)     |
+|   [Japanese (日本語)](JAPANESE.md)   |   [Korean (한국어)](KOREAN.md)    |               [Polish (Polski)](POLISH.md)               |          [Portuguese (Portuguese)](PORTUGUESE.md)          |     [Russian (Русский)](RUSSIAN.md)      |
+|    [Serbian (Српски)](SERBIAN.md)    | [Somali (Af-Soomaali)](SOMALI.md) |             [Spanish (Español)](SPANISH.md)              |               [Turkish (Türkçe)](TURKISH.md)               |  [Ukrainian (українська)](UKRAINIAN.md)  |
+|       [Urdu (اُردُو)](URDU.md)       | [Norwegian (Norsk)](NORWEGIAN.md) |                [Malayalam](MALAYALAM.md)                 |               [Uzbek (Oʻzbekcha)](UZBEK.md)                | [Vietnamese (Tiếng Việt)](VIETNAMESE.md) |
 
 > Rất hoan nghênh các bản dịch tài liệu dự án. Đọc [`Hướng dẫn Dịch thuật`](../README.md) để biết cách đóng góp.
 
