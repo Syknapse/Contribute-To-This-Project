@@ -1,15 +1,107 @@
 [
   {
+    "username": "rastogi-codes",
+    "name": "rastogi-codes",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rastogi-codes",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/krishna-rastogi0/",
+        "handle": "LinkedIn"
+      }
+    ],
+    "about": "I am a B.Tech CSE student and an aspiring software developer.\n    I am starting my open-source journey with my first contribution\n    and looking forward to learning, building, and contributing to\n    meaningful projects.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "JavaScript.info",
+        "link": "https://javascript.info/",
+        "text": "JavaScript.info"
+      }
+    ]
+  },
+  {
+    "username": "vampsoutside",
+    "name": "Kith_",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Vampsoutside",
+        "handle": "Vampsoutside"
+      }
+    ],
+    "about": "DA-DS-AI/ML student at Hansraj College. Passionate about Music, Money and Fashion. Making my first open source contribution!",
+    "resources": [
+      {
+        "title": "Free interactive coding lessons",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "MDN Web Docs - the best web documentation",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Excellent CSS tips and techniques",
+        "link": "https://css-tricks.com/",
+        "text": "CSS-Tricks"
+      }
+    ]
+  },
+  {
+    "username": "sravankarapakula",
+    "name": "sravankarapakula",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/sravankarapakula",
+        "handle": "GitHub Profile"
+      }
+    ],
+    "about": "I am a aspiring software developer. I am new to open source contribution and this is my first contribution.",
+    "resources": [
+      {
+        "title": "freecodecamp",
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "freecodecamp"
+      },
+      {
+        "title": "chai-aur-code",
+        "link": "http://youtube.com/@chaiaurcode",
+        "text": "ChaiAurCode"
+      },
+      {
+        "title": "geeksforgeeks",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "geeksforgeeks"
+      }
+    ]
+  },
+  {
     "username": "somuai",
     "name": "Soumyajit Ghosh",
     "contacts": [
       {
         "icon": "fab fa-github",
-        "link": "https://www.github.com/somuai",
-        "handle": "somuai GitHub Profile"
+        "link": "https://github.com/somuai",
+        "handle": "somuai"
       }
     ],
-    "about": "Software developer interested in autonomous AI agents, distributed systems, and open source development.",
+    "about": "Full-stack software engineer and open-source contributor focusing on AI agent architectures, TypeScript, Python, and scalable backend infrastructure.",
     "resources": [
       {
         "title": "MDN Web Docs",
@@ -17,14 +109,106 @@
         "text": "MDN Web Docs"
       },
       {
-        "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/news/",
-        "text": "freeCodeCamp"
+        "title": "TypeScript Documentation",
+        "link": "https://www.typescriptlang.org/docs/",
+        "text": "TypeScript Docs"
       },
       {
-        "title": "The Modern JavaScript Tutorial",
-        "link": "https://javascript.info/",
-        "text": "The Modern JavaScript Tutorial"
+        "title": "Python Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Docs"
+      }
+    ]
+  },
+  {
+    "username": "mohitmohan2005-wq",
+    "name": "Mohit Mohan",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/mohitmohan2005-wq",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I am the coolest and here to learn.",
+    "resources": [
+      {
+        "title": "w3school",
+        "link": "https://w3school.com",
+        "text": "W3schools"
+      },
+      {
+        "title": "googlefonts",
+        "link": "https://fonts.google.com",
+        "text": "Google Fonts"
+      },
+      {
+        "title": "googleanalytics",
+        "link": "https://analytics.google.com",
+        "text": "Google Analytics"
+      }
+    ]
+  },
+  {
+    "username": "jotilohana21",
+    "name": "Joti Lohana",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/jotilohana21",
+        "handle": "jotilohana21"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/joti-lohana-6471a62a6",
+        "handle": "Joti Lohana"
+      }
+    ],
+    "about": "CS student at QUEST Nawabshah, Pakistan 🇵🇰. Building AI/ML tools for real-world impact.",
+    "resources": [
+      {
+        "title": "Kaggle",
+        "link": "https://kaggle.com",
+        "text": "Kaggle — Best for ML practice"
+      },
+      {
+        "title": "Roadmap.sh",
+        "link": "https://roadmap.sh",
+        "text": "Roadmap.sh — Dev learning paths"
+      },
+      {
+        "title": "Good First Issue",
+        "link": "https://goodfirstissue.dev",
+        "text": "Good First Issue — Open source"
+      }
+    ]
+  },
+  {
+    "username": "drishtyaggarwal",
+    "name": "Drishty Aggarwal",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Drishtyaggarwal",
+        "handle": "Drishtyaggarwal"
+      }
+    ],
+    "about": "BCA graduate | Aspiring SDE | Building BingeBase & solving DSA daily",
+    "resources": [
+      {
+        "title": "Striver's DSA Sheet",
+        "link": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+        "text": "Striver's A2Z DSA Sheet"
+      },
+      {
+        "title": "Good First Issue",
+        "link": "https://goodfirstissue.dev",
+        "text": "Good First Issue"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
       }
     ]
   }
