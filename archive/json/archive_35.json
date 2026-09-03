@@ -148,5 +148,39 @@
         "text": "Google Analytics"
       }
     ]
+  },
+  {
+    "username": "jotilohana21",
+    "name": "Joti Lohana",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/jotilohana21",
+        "handle": "jotilohana21"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/joti-lohana-6471a62a6",
+        "handle": "Joti Lohana"
+      }
+    ],
+    "about": "CS student at QUEST Nawabshah, Pakistan 🇵🇰. Building AI/ML tools for real-world impact.",
+    "resources": [
+      {
+        "title": "Kaggle",
+        "link": "https://kaggle.com",
+        "text": "Kaggle — Best for ML practice"
+      },
+      {
+        "title": "Roadmap.sh",
+        "link": "https://roadmap.sh",
+        "text": "Roadmap.sh — Dev learning paths"
+      },
+      {
+        "title": "Good First Issue",
+        "link": "https://goodfirstissue.dev",
+        "text": "Good First Issue — Open source"
+      }
+    ]
   }
 ]
