@@ -211,5 +211,34 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "username": "dean-op",
+    "name": "Dean",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Dean-op",
+        "handle": "Dean-op"
+      }
+    ],
+    "about": "Passionate about AI Agents, LLM applications, and full-stack engineering.",
+    "resources": [
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Vue.js",
+        "link": "https://vuejs.org",
+        "text": "Vue.js"
+      }
+    ]
   }
 ]
