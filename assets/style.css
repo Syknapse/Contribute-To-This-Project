@@ -307,7 +307,7 @@ footer {
   background-color: var(--color-surface);
   color: var(--color-text);
   border-bottom: 1px solid var(--color-text);
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .resources {
@@ -327,12 +327,15 @@ footer {
 [data-theme='mauritius'] .card:hover {
   background-color: var(--color-accent);
 }
+
 [data-theme='mauritius'] .card:hover small {
-  color: var(--color-bg); /* dark text */
+  color: var(--color-bg);
 }
+
 [data-theme='mauritius'] .card:hover small a {
   color: var(--color-surface);
 }
+
 [data-theme='mauritius'] .card .resources:hover {
   color: var(--color-primary);
   background-color: var(--purple);
