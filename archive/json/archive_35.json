@@ -342,5 +342,34 @@
         "text": "Hugging Face"
       }
     ]
+  },
+  {
+    "username": "devika2806",
+    "name": "Devika Sawant",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/DEVIKA2806",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "BSc Computer Science graduate and aspiring web developer building projects with HTML, CSS, JavaScript, and Node.js.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Free Coding Courses",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
