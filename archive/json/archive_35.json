@@ -371,5 +371,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "abdellox",
+    "name": "Abdel Ali",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Abdellox",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software Engineer from Morocco passionate about open source and building tools that help developers.",
+    "resources": [
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
