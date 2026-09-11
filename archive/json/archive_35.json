@@ -400,5 +400,34 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "username": "ibrahimali111",
+    "name": "Ibrahim",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/ibrahimali111",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Developer passionate about open source, cloud automation, Docker, and building clean tools.",
+    "resources": [
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Docker Hub",
+        "link": "https://hub.docker.com/",
+        "text": "Docker Hub"
+      },
+      {
+        "title": "Python Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Docs"
+      }
+    ]
   }
 ]
