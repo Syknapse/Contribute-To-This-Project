@@ -458,5 +458,39 @@
         "text": "Laravel docs"
       }
     ]
+  },
+  {
+    "username": "hhshah2809",
+    "name": "Het Is Cool",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/hhshah2809",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fa-solid fa-school",
+        "link": "https://leetcode.com/hetshah005",
+        "handle": "LeetCode"
+      }
+    ],
+    "about": "I am really cool and like to code websites",
+    "resources": [
+      {
+        "title": "lc",
+        "link": "https://leetcode.com",
+        "text": "leetcode"
+      },
+      {
+        "title": "googlefonts",
+        "link": "https://fonts.google.com",
+        "text": "Google Fonts"
+      },
+      {
+        "title": "googleanalytics",
+        "link": "https://analytics.google.com",
+        "text": "Google Analytics"
+      }
+    ]
   }
 ]
