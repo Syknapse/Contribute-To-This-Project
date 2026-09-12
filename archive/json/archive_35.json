@@ -429,5 +429,34 @@
         "text": "Python Docs"
       }
     ]
+  },
+  {
+    "username": "sktamalik",
+    "name": "Andi Sakta Malik",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/sktamalik",
+        "handle": "my github profile"
+      }
+    ],
+    "about": "Full Stack Web Developer from Makassar, Indonesia. Laravel, Next.js, WordPress.",
+    "resources": [
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Tailwind CSS docs",
+        "link": "https://tailwindcss.com/docs",
+        "text": "Tailwind CSS docs"
+      },
+      {
+        "title": "Laravel docs",
+        "link": "https://laravel.com/docs",
+        "text": "Laravel docs"
+      }
+    ]
   }
 ]
