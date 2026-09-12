@@ -42,7 +42,7 @@
 
 ## Introduction
 
-This is the terminal version of the tutorial. Everything here uses Git on the command line. If you prefer a GUI, use [GitHub Desktop instead](/README.md).
+This is the terminal version of the tutorial. Everything here uses Git on the command line. If you prefer a GUI, use [GitHub Desktop instead](README.md).
 
 ### Who is this for?
 
