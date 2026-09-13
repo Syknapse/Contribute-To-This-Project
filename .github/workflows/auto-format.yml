@@ -40,6 +40,7 @@ jobs:
           # Use head SHA (not ref) to avoid TOCTOU races
           ref: ${{ github.event.pull_request.head.sha }}
           repository: ${{ github.event.pull_request.head.repo.full_name }}
+          allow-unsafe-pr-checkout: true
 
       - name: Override with trusted Prettier config from master
         env:
