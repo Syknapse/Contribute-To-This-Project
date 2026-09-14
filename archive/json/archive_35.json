@@ -492,5 +492,34 @@
         "text": "Google Analytics"
       }
     ]
+  },
+  {
+    "username": "yzh888",
+    "name": "Zihao (Hanser) Yan",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/yzh888",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Master of Computer Science student at the University of Sydney,\n    interested in backend development, computer vision, and AI agents.",
+    "resources": [
+      {
+        "title": "Python Docs",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Docs"
+      },
+      {
+        "title": "OpenCV Docs",
+        "link": "https://docs.opencv.org/",
+        "text": "OpenCV Docs"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
