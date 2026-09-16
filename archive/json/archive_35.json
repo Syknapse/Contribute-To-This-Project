@@ -521,5 +521,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "sweranauman-sketch",
+    "name": "Swera Nauman",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/sweranauman-sketch",
+        "handle": "my github profile"
+      }
+    ],
+    "about": "Student",
+    "resources": [
+      {
+        "title": "freecodecamp",
+        "link": "https://www.freecodecamp.org/news/",
+        "text": "freecodecamp"
+      },
+      {
+        "title": "css-tricks",
+        "link": "https://css-tricks.com/category/articles/",
+        "text": "css-tricks"
+      },
+      {
+        "title": "geeksforgeeks",
+        "link": "https://www.geeksforgeeks.org/",
+        "text": "geeksforgeeks"
+      }
+    ]
   }
 ]
