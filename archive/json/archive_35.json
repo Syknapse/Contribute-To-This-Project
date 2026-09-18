@@ -590,7 +590,7 @@
         "handle": "GitHub"
       }
     ],
-    "about": "Software developer and systems builder.",
+    "about": "Software developer, AI systems architect and open source contributor.",
     "resources": [
       {
         "title": "MDN Web Docs",
@@ -603,9 +603,9 @@
         "text": "The Rust Book"
       },
       {
-        "title": "GitHub",
-        "link": "https://github.com",
-        "text": "GitHub"
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh",
+        "text": "Roadmap.sh"
       }
     ]
   }
