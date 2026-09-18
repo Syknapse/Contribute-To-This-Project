@@ -550,5 +550,34 @@
         "text": "geeksforgeeks"
       }
     ]
+  },
+  {
+    "username": "dakcoe",
+    "name": "dakcoe",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/dakcoe",
+        "handle": "dakcoe"
+      }
+    ],
+    "about": "Hello! I am a developer who loves building cool games and web projects.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      },
+      {
+        "title": "Matter.js",
+        "link": "https://brm.io/matter-js/",
+        "text": "Matter.js"
+      }
+    ]
   }
 ]
