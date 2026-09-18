@@ -579,5 +579,34 @@
         "text": "Matter.js"
       }
     ]
+  },
+  {
+    "username": "dixtuel",
+    "name": "Asrın Kılıç",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/dixtuel",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software developer and systems builder.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "The Rust Programming Language",
+        "link": "https://doc.rust-lang.org/book/",
+        "text": "The Rust Book"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
