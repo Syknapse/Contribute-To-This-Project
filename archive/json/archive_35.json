@@ -608,5 +608,44 @@
         "text": "Roadmap.sh"
       }
     ]
+  },
+  {
+    "username": "naveenkumarmasabathula",
+    "name": "Masabathula Naveen Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Naveenkumarmasabathula",
+        "handle": "GitHub"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/masabathulanaveenkumar",
+        "handle": "LinkedIn"
+      },
+      {
+        "icon": "fas fa-code",
+        "link": "https://leetcode.com/u/Naveen_CP/",
+        "handle": "LeetCode"
+      }
+    ],
+    "about": "Full-stack developer and B.Tech CSE student at RGUKT Srikakulam, building with the MERN stack and Next.js.\n    Web dev intern at ScaleOxperts, and I run Aakaar, a freelance web design studio for local businesses.",
+    "resources": [
+      {
+        "title": "Comprehensive docs for HTML, CSS, JS",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Official Next.js documentation",
+        "link": "https://nextjs.org/docs",
+        "text": "Next.js Docs"
+      },
+      {
+        "title": "Free coding tutorials and projects",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
