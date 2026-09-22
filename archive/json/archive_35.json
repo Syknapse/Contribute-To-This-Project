@@ -647,5 +647,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "jaideepkrishna2008-ui",
+    "name": "Jaideep Krishna A",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/jaideepkrishna2008-ui",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "AI and Data Science student, Microsoft Store app publisher, and open-source enthusiast passionate about building high-performance developer tools.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Python Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Docs"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
