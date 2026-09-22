@@ -705,5 +705,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "mezouar-oualid-abdelbar",
+    "name": "walid",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/mezouar-oualid-abdelbar",
+        "handle": "walid"
+      }
+    ],
+    "about": "im walid and i love coding.",
+    "resources": [
+      {
+        "title": "for everything",
+        "link": "https://www.w3schools.com/",
+        "text": "w3schools"
+      },
+      {
+        "title": "for short tutorials",
+        "link": "https://www.youtube.com/@BroCodez",
+        "text": "bro code"
+      },
+      {
+        "title": "for laravel tutorials",
+        "link": "https://laracasts.com/",
+        "text": "laracasts"
+      }
+    ]
   }
 ]
