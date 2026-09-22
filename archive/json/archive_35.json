@@ -676,5 +676,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "rajeevranjany",
+    "name": "Rajeev Ranjan",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/RajeevRanjany",
+        "handle": "RajeevRanjany"
+      }
+    ],
+    "about": "I'm Rajeev Ranjan, an SDE & AI Engineer with ~9 months of experience.",
+    "resources": [
+      {
+        "title": "Hitesh Choudhary YouTube",
+        "link": "https://www.youtube.com/@HiteshCodeLab",
+        "text": "Hitesh Choudhary - YouTube"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
