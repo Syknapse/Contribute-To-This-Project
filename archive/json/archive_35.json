@@ -734,5 +734,34 @@
         "text": "laracasts"
       }
     ]
+  },
+  {
+    "username": "vigyamishra43-eng",
+    "name": "Vigya Mishra",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/vigyamishra43-eng",
+        "handle": "vigyamishra43-eng"
+      }
+    ],
+    "about": "I'm a Btech CSE student. Learning to make my first open source contribution.",
+    "resources": [
+      {
+        "title": "Web development documentation",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN web resource"
+      },
+      {
+        "title": "Free coding lessons",
+        "link": "https://www.freecodecamp.org/",
+        "text": "Free code camp"
+      },
+      {
+        "title": "Git and GitHub documentation",
+        "link": "https://docs.github.com/",
+        "text": "Github"
+      }
+    ]
   }
 ]
