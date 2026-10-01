@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Посібник з супроводу
 
 Цей посібник призначений для тих, хто хотів би приєднатися до проєкту як супроводжуючі, щоб допомогти керувати та підтримувати проєкт для спільноти. (Це не посібник для тих, хто **робить внесок вперше**)
