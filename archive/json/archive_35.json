@@ -763,5 +763,34 @@
         "text": "Github"
       }
     ]
+  },
+  {
+    "username": "ayuuxploits",
+    "name": "Ayush Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/ayuuXploits",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hello! I'm Ayush and this is my first open source contribution on this repo to earn the Pull Shark badge!",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com/",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com/",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
