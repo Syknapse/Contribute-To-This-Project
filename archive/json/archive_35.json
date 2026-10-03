@@ -792,5 +792,39 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "username": "karnika-23",
+    "name": "Karnika-Vadivel",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/KARNIKA-23",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I’m a AI&ML student interested in software development, AI/ML, \n    and UI/UX. I enjoy learning new technologies, building projects, and \n    contributing to open-source communities.",
+    "resources": [
+      {
+        "title": "Figma",
+        "link": "https://www.figma.com/",
+        "text": "Figma"
+      },
+      {
+        "title": "Stitch",
+        "link": "https://stitch.withgoogle.com",
+        "text": "Stitch"
+      },
+      {
+        "title": "Bootstrap",
+        "link": "https://getbootstrap.com",
+        "text": "Bootstrap"
+      },
+      {
+        "title": "Python-Karni",
+        "link": "https://github.com/KARNIKA-23/pydude.git",
+        "text": "Python"
+      }
+    ]
   }
 ]
