@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Leitfaden für Maintainer
 
 Dieser Leitfaden richtet sich an diejenigen, die dem Projekt als Maintainer beitreten möchten, um die Verwaltung und Pflege des Projekts für die Community zu unterstützen. (Dies ist kein Leitfaden für **Erstbeiträger**)
@@ -6,9 +8,9 @@ Dieser Leitfaden richtet sich an diejenigen, die dem Projekt als Maintainer beit
 
 Dieses Tutorial ist auch in [anderen Sprachen verfügbar](/translations/README.md)
 
-| [Englisch](/maintainer_guide.md) | [Bengali](/translations/maintainer_guide/maintainer_guide.ben.md) | [Chinesische (Traditionell)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Deutsch](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italienisch](/translations/maintainer_guide/maintainer_guide.ita.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Japanisch](/translations/maintainer_guide/maintainer_guide.jpn.md) | [Portugiesisch](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainisch](/translations/maintainer_guide/maintainer_guide.ukr.md) |
+|                  [Englisch](/maintainer_guide.md)                   |    [Bengali](/translations/maintainer_guide/maintainer_guide.ben.md)    | [Chinesische (Traditionell)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Deutsch](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italienisch](/translations/maintainer_guide/maintainer_guide.ita.md) |
+| :-----------------------------------------------------------------: | :---------------------------------------------------------------------: | :-------------------------------------------------------------------------------------: | :---------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| [Japanisch](/translations/maintainer_guide/maintainer_guide.jpn.md) | [Portugiesisch](/translations/maintainer_guide/maintainer_guide.por.md) |          [Ukrainisch](/translations/maintainer_guide/maintainer_guide.ukr.md)           |
 
 > Übersetzungen für Projektdokumentationen sind willkommen. Lesen Sie den [`Übersetzungsleitfaden`](/translations/README.md), um beizutragen.
 
@@ -59,6 +61,7 @@ Falls Sie feststellen, dass die HTML-Datei unordentlich aussieht, führen Sie de
 ```js
 npx prettier --write index.html
 ```
+
 Es sollte versuchen, die Datei zu formatieren, und wenn es nicht kann, wird es Ihnen die Fehler anzeigen. Manchmal wird ein fehlendes schließendes Tag oder kaputtes HTML versehentlich gemergt, und dies ist eine gute Möglichkeit, es zu erkennen und zu beheben.
 
 Wenn Sie jemals Zweifel haben, können Sie mich oder die anderen Maintainer jederzeit im PR selbst erwähnen oder mir eine DM auf [Twitter](https://twitter.com/Syknapse) senden.
