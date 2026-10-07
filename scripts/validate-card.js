@@ -36,9 +36,9 @@ function validateCard($, { changedFiles = [], mode = 'phase1' } = {}) {
 
   // --- File scope (re-assert; categorisation already checked this) ---
   if (changedFiles.length > 0) {
-    const nonIndex = changedFiles.filter(f => f !== 'index.html')
-    if (nonIndex.length > 0) {
-      errors.push(`PR changes files other than index.html: ${nonIndex.join(', ')}`)
+    const nonCardFiles = changedFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
+    if (nonCardFiles.length > 0) {
+      errors.push(`PR changes files other than cards/*.html: ${nonCardFiles.join(', ')}`)
     }
   }
 
