@@ -282,4 +282,8 @@ This project is heavily influenced by [Roshan Jossey's](https://github.com/Rosha
 
 [![GitHub Contributors Image](https://contrib.rocks/image?repo=Syknapse/Contribute-To-This-Project)](https://github.com/Syknapse/Contribute-To-This-Project/graphs/contributors)
 
+
+---
+
+> **Windows users:** If you are using PowerShell instead of Git Bash, replace git switch -c with git checkout -b if your Git version is older than 2.23. All other commands work the same across terminals.
 [twit]: https://twitter.com/intent/tweet?text=Contribute%20To%20This%20Project.%20An%20easy%20project%20for%20first-time%20contributors,%20with%20a%20full%20tutorial.%20By%20@Syknapse&url=https://github.com/Syknapse/Contribute-To-This-Project&hashtags=100DaysofCode 'Tweet this project'
