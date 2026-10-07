@@ -852,5 +852,34 @@
     ],
     "about": "This is my Contribution as a 1st Year student at Msot.",
     "resources": []
+  },
+  {
+    "username": "kunal988-gif",
+    "name": "Kunal Patel",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Kunal988-gif",
+        "handle": "Kunal988-gif"
+      }
+    ],
+    "about": "I'm learning web development, Git, GitHub, and open source. I'm excited to contribute and learn from the open-source community.",
+    "resources": [
+      {
+        "title": "MDN HTML",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "text": "MDN HTML"
+      },
+      {
+        "title": "MDN CSS",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "text": "MDN CSS"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/en/get-started",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
