@@ -881,5 +881,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "deepakkr7975",
+    "name": "Deepak Kumar",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/deepakkr7975",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hi, my name is Deepak and I’m passionate about computing and keen to learn and improve in the world of software development. I work with frameworks such as Spring Boot, ML, Agentic AI.",
+    "resources": [
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "YouTube - freeCodeCamp",
+        "link": "https://www.youtube.com/@freecodecampes",
+        "text": "YouTube - freeCodeCamp"
+      }
+    ]
   }
 ]
