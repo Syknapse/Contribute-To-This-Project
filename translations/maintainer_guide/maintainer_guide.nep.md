@@ -7,10 +7,10 @@
 
 यो ट्युटोरियल [अन्य भाषाहरूमा](translations/README.md) पनि उपलब्ध छ।
 
-| [अङ्ग्रेजी](maintainer_guide.md) | [बङ्गाली](translations/maintainer_guide/maintainer_guide.ben.md) | [चिनियाँ (परम्परागत)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [फ्रेन्च](translations/maintainer_guide/maintainer_guide.fra.md) | [जर्मन](translations/maintainer_guide/maintainer_guide.ger.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [हिन्दी](translations/maintainer_guide/maintainer_guide.hin.md) | [इन्डोनेसियाली](translations/maintainer_guide/maintainer_guide.ind.md) | [इटालियन](translations/maintainer_guide/maintainer_guide.ita.md) | [जापानी](translations/maintainer_guide/maintainer_guide.jpn.md) | [कोरियाली](translations/maintainer_guide/maintainer_guide.kor.md) |
-| [पोर्चुगिज](translations/maintainer_guide/maintainer_guide.por.md) | [रूसी](translations/maintainer_guide/maintainer_guide.rus.md) | [युक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) | | |
+|                  [अङ्ग्रेजी](maintainer_guide.md)                  |    [बङ्गाली](translations/maintainer_guide/maintainer_guide.ben.md)    | [चिनियाँ (परम्परागत)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [फ्रेन्च](translations/maintainer_guide/maintainer_guide.fra.md) |  [जर्मन](translations/maintainer_guide/maintainer_guide.ger.md)   |
+| :----------------------------------------------------------------: | :--------------------------------------------------------------------: | :------------------------------------------------------------------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------------: |
+|  [हिन्दी](translations/maintainer_guide/maintainer_guide.hin.md)   | [इन्डोनेसियाली](translations/maintainer_guide/maintainer_guide.ind.md) |         [इटालियन](translations/maintainer_guide/maintainer_guide.ita.md)         | [जापानी](translations/maintainer_guide/maintainer_guide.jpn.md)  | [कोरियाली](translations/maintainer_guide/maintainer_guide.kor.md) |
+| [पोर्चुगिज](translations/maintainer_guide/maintainer_guide.por.md) |     [रूसी](translations/maintainer_guide/maintainer_guide.rus.md)      |        [युक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md)        |                                                                  |                                                                   |
 
 > परियोजनासम्बन्धी दस्तावेजहरूको अनुवाद स्वागतयोग्य छ।  
 > योगदान गर्न कृपया [`अनुवाद मार्गदर्शिका`](translations/README.md) पढ्नुहोस्।
