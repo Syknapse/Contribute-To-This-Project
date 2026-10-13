@@ -910,5 +910,34 @@
         "text": "YouTube - freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "milannsharma",
+    "name": "Milan Sharma",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/MilannSharma",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Full-stack developer building AI-assisted screencasting and video productivity tools.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Vite",
+        "link": "https://vitejs.dev/",
+        "text": "Vite"
+      }
+    ]
   }
 ]
