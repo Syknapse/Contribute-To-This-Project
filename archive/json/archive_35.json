@@ -939,5 +939,34 @@
         "text": "Vite"
       }
     ]
+  },
+  {
+    "username": "kevinjosh10",
+    "name": "Kevin Joshua",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/kevinjosh10",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software engineer and open-source enthusiast passionate about building developer tools and accessible applications.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Astro",
+        "link": "https://astro.build/",
+        "text": "Astro"
+      }
+    ]
   }
 ]
