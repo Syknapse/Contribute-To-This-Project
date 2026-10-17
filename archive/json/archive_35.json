@@ -968,5 +968,34 @@
         "text": "Astro"
       }
     ]
+  },
+  {
+    "username": "khoahaaoj",
+    "name": "Ha Nhat Khoa",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/khoahaaoj",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Cybersecurity Student at UIT (VNU-HCM). Passionate about Game Development and Ethical Hacking.",
+    "resources": [
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Pygame",
+        "link": "https://www.pygame.org/",
+        "text": "Pygame"
+      },
+      {
+        "title": "OverTheWire",
+        "link": "https://overthewire.org/wargames/",
+        "text": "OverTheWire"
+      }
+    ]
   }
 ]
