@@ -1060,5 +1060,39 @@
         "text": "roadmap.sh"
       }
     ]
+  },
+  {
+    "username": "e-luque",
+    "name": "Cristian Luque",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/e-luque",
+        "handle": "My Github"
+      },
+      {
+        "icon": "fa-brands fa-youtube",
+        "link": "https://www.youtube.com/@cristian46jerez",
+        "handle": "My Youtube Channel"
+      }
+    ],
+    "about": "Hi! You can call me Luque, I'm a Web Design Student and a Gamer!",
+    "resources": [
+      {
+        "title": "PHP dot net",
+        "link": "https://www.php.net/",
+        "text": "PHP Documentation"
+      },
+      {
+        "title": "Docs Python",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Documentation"
+      },
+      {
+        "title": "Javascript wiki",
+        "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+        "text": "Javascript Guide"
+      }
+    ]
   }
 ]
