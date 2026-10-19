@@ -1031,5 +1031,34 @@
         "text": "YouTube - freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "3dagger",
+    "name": "SooHyun Lee",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/3dagger",
+        "handle": "3dagger"
+      }
+    ],
+    "about": "hi im 3dagger",
+    "resources": [
+      {
+        "title": "Web docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "Developer roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      }
+    ]
   }
 ]
