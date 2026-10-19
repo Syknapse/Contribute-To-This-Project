@@ -1094,5 +1094,18 @@
         "text": "Javascript Guide"
       }
     ]
+  },
+  {
+    "username": "samtheman8620",
+    "name": "SamTheMan8620",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SamTheMan8620",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "This is my first PR.",
+    "resources": []
   }
 ]
