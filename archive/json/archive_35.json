@@ -997,5 +997,39 @@
         "text": "OverTheWire"
       }
     ]
+  },
+  {
+    "username": "ameer77-tech",
+    "name": "Shaik Mohamamd Ameer",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Ameer77-tech",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "HI, My Name Is Shaik Mohamamd Ameer, Happy to contribute to the repo, still learning things focusing on becoming an Engineer who knows Systems - started with backend engineering with Node.js",
+    "resources": [
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "BettaTech",
+        "link": "https://www.youtube.com/@BettaTech",
+        "text": "BettaTech"
+      },
+      {
+        "title": "YouTube - freeCodeCamp",
+        "link": "https://www.youtube.com/@freecodecampes",
+        "text": "YouTube - freeCodeCamp"
+      }
+    ]
   }
 ]
