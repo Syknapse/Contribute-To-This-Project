@@ -1107,5 +1107,34 @@
     ],
     "about": "This is my first PR.",
     "resources": []
+  },
+  {
+    "username": "jgarrido95",
+    "name": "Jorge Garrido",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/JGarrido95",
+        "handle": "JGarrido95"
+      }
+    ],
+    "about": "Ey! I'm Jorge, a second year web application developer student. I'm starting using now Git-Hub and trying to figure out and learn how to contribute properly in different projects here in Git-Hub.",
+    "resources": [
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "codecademy",
+        "link": "https://www.codecademy.com/resources/cheatsheets/all",
+        "text": "codecademy"
+      }
+    ]
   }
 ]
