@@ -1136,5 +1136,34 @@
         "text": "codecademy"
       }
     ]
+  },
+  {
+    "username": "nuro-frantastic",
+    "name": "Francisco",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Nuro-Frantastic",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "I'm a web development student learning Python, HTML, CSS, JavaScript and Git.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Git Documentation",
+        "link": "https://git-scm.com/doc",
+        "text": "Git Documentation"
+      }
+    ]
   }
 ]
