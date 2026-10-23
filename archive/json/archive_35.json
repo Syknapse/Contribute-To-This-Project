@@ -1165,5 +1165,34 @@
         "text": "Git Documentation"
       }
     ]
+  },
+  {
+    "username": "iescman2002",
+    "name": "Iker",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/iescman2002",
+        "handle": "Github"
+      }
+    ],
+    "about": "I'm a full-stack development student currently learning how to contribute to GitHub projects.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://www.learnpython.org/es/",
+        "text": "Learning Python"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://www.learnjavaonline.org/",
+        "text": "Learning Java"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.w3schools.com/",
+        "text": "Learning most languages"
+      }
+    ]
   }
 ]
