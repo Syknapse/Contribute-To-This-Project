@@ -1223,5 +1223,34 @@
         "text": "BettaTech"
       }
     ]
+  },
+  {
+    "username": "lidianavarro97",
+    "name": "Lidia Navarro",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/LidiaNavarro97",
+        "handle": "LidiaNavarro97"
+      }
+    ],
+    "about": "Soy una estudiante de 2ºDAW y me interesa mucho el desarrollo web y la creación de nuevos proyectos. \n    Actualmente estoy aprendiendo tecnologías como Java, JavaScript, Python... \n    Tengo muchas ganas de seguir aprendiendo y mejorar mis habilidades",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
