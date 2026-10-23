@@ -1194,5 +1194,34 @@
         "text": "Learning most languages"
       }
     ]
+  },
+  {
+    "username": "esteba199",
+    "name": "Adulis Lopez",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/esteba199",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hi, my name is Adulis and I’m passionate about computing and keen to learn and improve in the world of software development. I work with frameworks such as Bootstrap, TailwindCSS, Laravel and Spring Boot.",
+    "resources": [
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "BettaTech",
+        "link": "https://www.youtube.com/@BettaTech",
+        "text": "BettaTech"
+      }
+    ]
   }
 ]
