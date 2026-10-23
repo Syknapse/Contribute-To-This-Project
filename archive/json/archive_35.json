@@ -1252,5 +1252,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "smateos0712",
+    "name": "Sergio Mateos",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/smateos0712",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hola! soy Sergio, estudiante de segundo de DAW. Tengo muchas ganas de aprender, actualmente estoy aprendiendo JavaScript y Python en React y Django.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/es-ES/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "Stack Overflow",
+        "link": "https://stackoverflow.com/",
+        "text": "Stack Overflow"
+      }
+    ]
   }
 ]
