@@ -1339,5 +1339,34 @@
         "text": "PHP Manual"
       }
     ]
+  },
+  {
+    "username": "anishkundu980",
+    "name": "Anish Kundu",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/anishkundu980",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Final-year ECE student learning full-stack web development with React\n    and exploring open source contributions. I enjoy building real-world\n    projects and improving my coding skills.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "React Documentation",
+        "link": "https://react.dev/",
+        "text": "React Documentation"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
