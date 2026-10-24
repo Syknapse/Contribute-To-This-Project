@@ -1281,5 +1281,34 @@
         "text": "Stack Overflow"
       }
     ]
+  },
+  {
+    "username": "altamashahmad",
+    "name": "Altamash Ahmad",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/AltamashAhmad",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Full Stack Software Engineer specializing in TypeScript, Next.js, React, Node.js, and PostgreSQL. Open source contributor.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Next.js Documentation",
+        "link": "https://nextjs.org/docs",
+        "text": "Next.js Docs"
+      },
+      {
+        "title": "TypeScript Documentation",
+        "link": "https://www.typescriptlang.org/docs/",
+        "text": "TypeScript Docs"
+      }
+    ]
   }
 ]
