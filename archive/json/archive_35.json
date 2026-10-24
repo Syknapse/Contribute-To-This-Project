@@ -1310,5 +1310,34 @@
         "text": "TypeScript Docs"
       }
     ]
+  },
+  {
+    "username": "robertoponcepaniagua",
+    "name": "Roberto Ponce Paniagua",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/robertoponcepaniagua",
+        "handle": "Github"
+      }
+    ],
+    "about": "I'm a Web Development student (DAW) interested in both frontend and backend development. I'm currently improving my skills in JavaScript, PHP, HTML, CSS, databases and Git, while learning to build complete web applications and contribute to open source projects.",
+    "resources": [
+      {
+        "title": "HTML Documentation",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "text": "HTML Documentation"
+      },
+      {
+        "title": "JavaScript Documentation",
+        "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "text": "JavaScript Documentation"
+      },
+      {
+        "title": "PHP Manual",
+        "link": "https://www.php.net/manual/en/",
+        "text": "PHP Manual"
+      }
+    ]
   }
 ]
