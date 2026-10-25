@@ -56,5 +56,34 @@
         "text": "roadmap.sh"
       }
     ]
+  },
+  {
+    "username": "mescrico",
+    "name": "Mario",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Mescrico",
+        "handle": "My Github Profile"
+      }
+    ],
+    "about": "Hola soy Mario y estoy cursando 2DAW, tengo ganas de aprender y formarme durante el curso",
+    "resources": [
+      {
+        "title": "PHPDocumentation",
+        "link": "https://www.php.net/docs.php",
+        "text": "PHP Documentation"
+      },
+      {
+        "title": "GitDocs",
+        "link": "https://git-scm.com/docs",
+        "text": "Git docs"
+      },
+      {
+        "title": "DockerManuals",
+        "link": "https://docs.docker.com/manuals/",
+        "text": "Docker Manuals"
+      }
+    ]
   }
 ]
