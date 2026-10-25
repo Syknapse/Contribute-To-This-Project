@@ -1426,5 +1426,34 @@
         "text": "Pro Git"
       }
     ]
+  },
+  {
+    "username": "oalvluc0702",
+    "name": "Óscar Álvarez",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/oalvluc0702",
+        "handle": "oalvluc0702"
+      }
+    ],
+    "about": "Soy un estudiante de desarrollo web que le gusta aprender cosas nuevas y no tan nuevas.",
+    "resources": [
+      {
+        "title": "Java",
+        "link": "https://www.java.com/es/",
+        "text": "Java"
+      },
+      {
+        "title": "PHP",
+        "link": "https://www.php.net/",
+        "text": "PHP"
+      },
+      {
+        "title": "django",
+        "link": "https://docs.djangoproject.com/en/6.1/",
+        "text": "django"
+      }
+    ]
   }
 ]
