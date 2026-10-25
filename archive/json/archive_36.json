@@ -27,5 +27,34 @@
         "text": "DevDocs"
       }
     ]
+  },
+  {
+    "username": "perezismaelo",
+    "name": "Ismael Pérez",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/PerezismaelO",
+        "handle": "PerezismaelO"
+      }
+    ],
+    "about": "Hi, I'm Ismael, a second-year Web Application Development (DAW) student from Spain.\n    I enjoy building websites and I'm really interested in AI and e-commerce. \n    I work with JavaScript, SQL, php and Python, and this is my first contribution to an open source project.",
+    "resources": [
+      {
+        "title": "The reference docs for HTML, CSS and JavaScript",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Modern JavaScript tutorial, from basics to advanced",
+        "link": "https://javascript.info/",
+        "text": "javascript.info"
+      },
+      {
+        "title": "Community roadmaps to plan what to learn next",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      }
+    ]
   }
 ]
