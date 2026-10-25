@@ -1,0 +1,31 @@
+[
+  {
+    "username": "jaimesf14",
+    "name": "Jaime Soto",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Jaimesf14",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hello, my name is Jaime, and I am a young student of web application development. I work with languages such as Java, Python and JavaScript",
+    "resources": [
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "DevDocs",
+        "link": "https://devdocs.io/",
+        "text": "DevDocs"
+      }
+    ]
+  }
+]
