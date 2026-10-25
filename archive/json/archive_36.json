@@ -114,5 +114,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "claudia7003",
+    "name": "Claudia Troya Rosado",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/claudia7003",
+        "handle": "claudia7003"
+      }
+    ],
+    "about": "WI'm a computer science student who thrives on turning complex problems \n    into elegant solutions.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://es.react.dev/learn",
+        "text": "React"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://angular.dev/overview",
+        "text": "Angular"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://www.typescriptlang.org/docs/",
+        "text": "TypeScript"
+      }
+    ]
   }
 ]
