@@ -1397,5 +1397,34 @@
         "text": "roadmap.sh"
       }
     ]
+  },
+  {
+    "username": "marcopalomequemonje",
+    "name": "Marco Palomeque",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/marcopalomequemonje",
+        "handle": "Your handle"
+      }
+    ],
+    "about": "DAW student from Spain learning full stack web development, one commit at a time.",
+    "resources": [
+      {
+        "title": "Documentación de referencia de HTML, CSS y JavaScript",
+        "link": "https://developer.mozilla.org/es/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Manual oficial de PHP en español",
+        "link": "https://www.php.net/manual/es/",
+        "text": "Manual de PHP"
+      },
+      {
+        "title": "Libro oficial y gratuito para aprender Git",
+        "link": "https://git-scm.com/book/es/v2",
+        "text": "Pro Git"
+      }
+    ]
   }
 ]
