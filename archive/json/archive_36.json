@@ -143,5 +143,39 @@
         "text": "TypeScript"
       }
     ]
+  },
+  {
+    "username": "mj-curtido",
+    "name": "Manuel Jesús Curtido Rosado",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/MJ-Curtido",
+        "handle": "My github"
+      },
+      {
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/manuel-jes%C3%BAs-curtido-rosado-2337a726a/",
+        "handle": "My linkedin"
+      }
+    ],
+    "about": "Hi! I'm Manu, a Web Application Development student and a qualified Multiplatform Application Development Technician. I have experience in Front-End development with React, and I'm currently exploring Back-End development using Python and Django. I'm also learning Docker to expand my skills and become a more versatile developer.",
+    "resources": [
+      {
+        "title": "mdnwebdocs",
+        "link": "https://developer.mozilla.org/es/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "stackoverflow",
+        "link": "https://stackoverflow.com/questions",
+        "text": "Stack Overflow"
+      },
+      {
+        "title": "w3schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3 Schools"
+      }
+    ]
   }
 ]
