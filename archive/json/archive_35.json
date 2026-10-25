@@ -1368,5 +1368,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "rishitha-dhanala",
+    "name": "Rishitha Dhanala",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/RISHITHA-DHANALA",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hi, I'm Rishitha, a Computer Science student learning web development\n    and exploring open-source contributions. I enjoy building projects,\n    improving my coding skills, and learning new technologies.",
+    "resources": [
+      {
+        "title": "W3Schools",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      }
+    ]
   }
 ]
