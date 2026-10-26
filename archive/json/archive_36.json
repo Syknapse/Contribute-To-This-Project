@@ -177,5 +177,34 @@
         "text": "W3 Schools"
       }
     ]
+  },
+  {
+    "username": "adriang614",
+    "name": "Adrian Gonzalez",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/adriang614",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Hi, my name is Adrian and I'm a second-year Web Application Development (DAW) student. I'm passionate about programming and eager to keep learning and improving in the world of software development. I work with HTML, CSS, JavaScript, PHP and SQL, and I'm learning to collaborate on real projects with Git and GitHub.",
+    "resources": [
+      {
+        "title": "PHP Documentation",
+        "link": "https://www.php.net/docs.php",
+        "text": "PHP Documentation"
+      },
+      {
+        "title": "Python Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Documentation"
+      },
+      {
+        "title": "Java Documentation",
+        "link": "https://docs.oracle.com/en/java/",
+        "text": "Java Documentation"
+      }
+    ]
   }
 ]
