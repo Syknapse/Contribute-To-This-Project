@@ -206,5 +206,34 @@
         "text": "Java Documentation"
       }
     ]
+  },
+  {
+    "username": "heyitsak",
+    "name": "Ak (heyitsak)",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/heyitsak",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Student developer focused on modern web standards, systems architecture, and first-principles software.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "web.dev",
+        "link": "https://web.dev/",
+        "text": "web.dev"
+      }
+    ]
   }
 ]
