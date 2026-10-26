@@ -87,35 +87,6 @@
     ]
   },
   {
-    "username": "viviberi",
-    "name": "Beri Vivian",
-    "contacts": [
-      {
-        "icon": "fab fa-github",
-        "link": "https://github.com/ViviBeri",
-        "handle": "GitHub"
-      }
-    ],
-    "about": "Engineer and aspiring software developer interested in web development,\n    Java, mobile apps, and practical AI projects. I enjoy building useful\n    tools and learning through open source.",
-    "resources": [
-      {
-        "title": "MDN Web Docs",
-        "link": "https://developer.mozilla.org/",
-        "text": "MDN Web Docs"
-      },
-      {
-        "title": "GitHub Docs",
-        "link": "https://docs.github.com/",
-        "text": "GitHub Docs"
-      },
-      {
-        "title": "freeCodeCamp",
-        "link": "https://www.freecodecamp.org/",
-        "text": "freeCodeCamp"
-      }
-    ]
-  },
-  {
     "username": "claudia7003",
     "name": "Claudia Troya Rosado",
     "contacts": [
@@ -233,6 +204,35 @@
         "title": "web.dev",
         "link": "https://web.dev/",
         "text": "web.dev"
+      }
+    ]
+  },
+  {
+    "username": "viviberi",
+    "name": "Beri Vivian",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/ViviBeri",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Engineer and aspiring software developer interested in web development,\n    Java, mobile apps, and practical AI projects. I enjoy building useful\n    tools and learning through open source.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
       }
     ]
   }
