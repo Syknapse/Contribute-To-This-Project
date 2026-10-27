@@ -218,5 +218,34 @@
     ],
     "about": "I'm making my first contribution to this open-source project and sharing resources that are useful for learning web development!",
     "resources": []
+  },
+  {
+    "username": "ali0zdas",
+    "name": "Ali Ozdas",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/ali0zdas",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software developer building open-source projects, Antigravity multi-agent systems, and Windows customizations.",
+    "resources": [
+      {
+        "title": "GitHub Trending",
+        "link": "https://github.com/trending",
+        "text": "GitHub Trending"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Developer Roadmaps"
+      }
+    ]
   }
 ]
