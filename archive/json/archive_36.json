@@ -276,5 +276,34 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "username": "jeremym07",
+    "name": "JeremyM",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/JeremyM07",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Second-year Computer Science/Software Engineering student at the University of Birmingham. I love working as team and collaborating with others to create something people would use.",
+    "resources": [
+      {
+        "title": "roadmap.sh",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "neetcode",
+        "link": "https://neetcode.io/roadmap",
+        "text": "neetcode"
+      }
+    ]
   }
 ]
