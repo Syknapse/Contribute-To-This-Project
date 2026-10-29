@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # मेंटेनर मार्गदर्शिका
 
 यह मार्गदर्शिका उन लोगों के लिए है जो समुदाय के हित में इस परियोजना के प्रबंधन और रखरखाव में योगदान देना चाहते हैं और मेंटेनर (Maintainer) के रूप में जुड़ना चाहते हैं।  
@@ -9,9 +11,9 @@
 
 यह ट्यूटोरियल [अन्य भाषाओं](../README.md) में भी उपलब्ध है।
 
-| [अंग्रेज़ी](../../maintainer_guide.md) | [बांग्ला](/translations/maintainer_guide/maintainer_guide.ben.md) | [जर्मन](/translations/maintainer_guide/maintainer_guide.ger.md) | [इतालवी](/translations/maintainer_guide/maintainer_guide.ita.md) | [जापानी](/translations/maintainer_guide/maintainer_guide.jpn.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [हिंदी](maintainer_guide.hin.md) | [पुर्तगाली](/translations/maintainer_guide/maintainer_guide.por.md) | [यूक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपरिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) |
+| [अंग्रेज़ी](../../maintainer_guide.md) |  [बांग्ला](/translations/maintainer_guide/maintainer_guide.ben.md)  |  [जर्मन](/translations/maintainer_guide/maintainer_guide.ger.md)   |       [इतालवी](/translations/maintainer_guide/maintainer_guide.ita.md)       | [जापानी](/translations/maintainer_guide/maintainer_guide.jpn.md) |
+| :------------------------------------: | :-----------------------------------------------------------------: | :----------------------------------------------------------------: | :--------------------------------------------------------------------------: | :--------------------------------------------------------------: |
+|    [हिंदी](maintainer_guide.hin.md)    | [पुर्तगाली](/translations/maintainer_guide/maintainer_guide.por.md) | [यूक्रेनी](/translations/maintainer_guide/maintainer_guide.ukr.md) | [चीनी (पारंपरिक)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) |
 
 > परियोजना के दस्तावेज़ों के अनुवाद का स्वागत है।  
 > योगदान करने के लिए कृपया [`अनुवाद मार्गदर्शिका`](../README.md) पढ़ें।
@@ -96,3 +98,4 @@ GitKraken डाउनलोड करें, परियोजना क्ल
 
 ```js
 npx prettier --write index.html
+```
