@@ -247,5 +247,34 @@
         "text": "Developer Roadmaps"
       }
     ]
+  },
+  {
+    "username": "anant-rajj",
+    "name": "Anant Raj",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/anant-rajj",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software developer passionate about systems programming, open source, and AI agent architectures.",
+    "resources": [
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Developer Roadmaps"
+      },
+      {
+        "title": "freeCodeCamp",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
