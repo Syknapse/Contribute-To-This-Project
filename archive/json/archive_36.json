@@ -317,5 +317,34 @@
     ],
     "about": "Hi! I'm a beginner contributor interested in learning open source and web development.\n    Learning HTML, CSS, and GitHub.\n    Happy to contribute to open-source projects!",
     "resources": []
+  },
+  {
+    "username": "0xposa",
+    "name": "Oppaikiller",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/0xposa",
+        "handle": "0xposa"
+      }
+    ],
+    "about": "Developer from Indonesia who is learning open source and GitHub.\n    Interested in Android and AI agents.",
+    "resources": [
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "Learn to Code for Free",
+        "link": "https://www.freecodecamp.org/",
+        "text": "freeCodeCamp"
+      }
+    ]
   }
 ]
