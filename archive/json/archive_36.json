@@ -305,5 +305,17 @@
         "text": "neetcode"
       }
     ]
+  },
+  {
+    "username": "daminir18",
+    "name": "Daminir Rathod",
+    "contacts": [
+      {
+        "link": "https://github.com/daminir18",
+        "handle": "daminir18"
+      }
+    ],
+    "about": "Hi! I'm a beginner contributor interested in learning open source and web development.\n    Learning HTML, CSS, and GitHub.\n    Happy to contribute to open-source projects!",
+    "resources": []
   }
 ]
