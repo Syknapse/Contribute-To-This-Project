@@ -346,5 +346,34 @@
         "text": "freeCodeCamp"
       }
     ]
+  },
+  {
+    "username": "thiago-a-gomes",
+    "name": "Thiago Gomes",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/Thiago-A-Gomes",
+        "handle": "Thiago-A-Gomes"
+      }
+    ],
+    "about": "Desenvolvedor full stack, estudante de Engenharia de Software pela Uninter e formado em Análise e Desenvolvimento de Sistemas pelo CEUNSP. Fui estagiário na John Deere e atualmente busco minha primeira oportunidade profissional como desenvolvedor.",
+    "resources": [
+      {
+        "title": "Documentação para desenvolvimento web",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Escola de programação",
+        "link": "https://www.codecademy.com/learn",
+        "text": "Codecademy"
+      },
+      {
+        "title": "Plataforma de cursos online",
+        "link": "https://www.coursera.org/",
+        "text": "Coursera"
+      }
+    ]
   }
 ]
