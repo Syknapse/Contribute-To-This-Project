@@ -375,5 +375,34 @@
         "text": "Coursera"
       }
     ]
+  },
+  {
+    "username": "madhurasontakke1111",
+    "name": "Madhura Sontakke",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/madhurasontakke1111",
+        "handle": "madhurasontakke1111"
+      }
+    ],
+    "about": "I am a computer science student interested in\n    Artificial Intelligence, Machine Learning and\n    software development. I enjoy learning new\n    technologies and contributing to open source.",
+    "resources": [
+      {
+        "title": "Learn web development",
+        "link": "https://www.w3schools.com/",
+        "text": "W3Schools"
+      },
+      {
+        "title": "Web development documentation",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Explore open source projects",
+        "link": "https://github.com/",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
