@@ -404,5 +404,34 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "username": "mhd-ali-houria",
+    "name": "Mhd Ali Houria",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/mhd-ali-houria/",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software Engineering student and someone trying find what I like about programming in order to become reallllyyyy good by contributing to open source",
+    "resources": [
+      {
+        "title": "Scrimba",
+        "link": "https://scrimba.com/",
+        "text": "Scrimba"
+      },
+      {
+        "title": "Roadmap SH",
+        "link": "https://https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
