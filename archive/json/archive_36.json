@@ -433,5 +433,34 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "username": "rithulraveendran",
+    "name": "Rithul",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/rithulraveendran",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software enthusiast passionate about AI, Python, and open-source software development.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Roadmap SH",
+        "link": "https://roadmap.sh/",
+        "text": "roadmap.sh"
+      },
+      {
+        "title": "GitHub",
+        "link": "https://github.com/",
+        "text": "GitHub"
+      }
+    ]
   }
 ]
