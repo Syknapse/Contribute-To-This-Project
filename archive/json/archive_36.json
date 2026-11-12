@@ -491,5 +491,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "wixipiz",
+    "name": "wixipiz",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/wixipiz",
+        "handle": "wixipiz"
+      }
+    ],
+    "about": "Just make code for fun.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://freestuff.dev/",
+        "text": "Free Dev Tools"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://finddev.tools/",
+        "text": "Find Dev Tools"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://theresanaiforthat.com/",
+        "text": "There's an AI for that 3"
+      }
+    ]
   }
 ]
