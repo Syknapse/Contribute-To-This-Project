@@ -462,5 +462,34 @@
         "text": "GitHub"
       }
     ]
+  },
+  {
+    "username": "ismeetpandey",
+    "name": "Ismeet Pandey",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/IsmeetPandey",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Software developer and open source contributor passionate about Python, developer tooling, CLI utilities, and modern web applications.",
+    "resources": [
+      {
+        "title": "Python 3 Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python 3 Docs"
+      },
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
