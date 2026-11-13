@@ -520,5 +520,34 @@
         "text": "There's an AI for that 3"
       }
     ]
+  },
+  {
+    "username": "saifali-s",
+    "name": "Saif Ali",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/SaifAli-S",
+        "handle": "SaifAli-S"
+      }
+    ],
+    "about": "Computer science student and open-source enthusiast passionate about software engineering and developer tooling.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Developer Roadmaps",
+        "link": "https://roadmap.sh/",
+        "text": "Developer Roadmaps"
+      },
+      {
+        "title": "GitHub Documentation",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Documentation"
+      }
+    ]
   }
 ]
