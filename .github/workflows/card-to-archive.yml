@@ -54,10 +54,11 @@ jobs:
         id: card
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          INPUT_FILENAME: ${{ inputs.filename }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             # Filename passed directly as input
-            FILENAME="${{ inputs.filename }}"
+            FILENAME="$INPUT_FILENAME"
           else
             # Detect from PR's changed files (fallback pull_request_target path)
             FILENAME=$(gh pr view ${{ github.event.pull_request.number }} --json files \
@@ -73,19 +74,23 @@ jobs:
 
       - name: Archive card
         if: steps.card.outputs.filename != ''
+        env:
+          CARD_FILENAME: ${{ steps.card.outputs.filename }}
         run: |
-          FILE="cards/${{ steps.card.outputs.filename }}"
+          FILE="cards/$CARD_FILENAME"
           echo "Formatting and archiving $FILE..."
           npx prettier --write "$FILE"
-          node scripts/card-to-archive.js "${{ steps.card.outputs.filename }}"
+          node scripts/card-to-archive.js "$CARD_FILENAME"
 
       - name: Commit archived card
         if: steps.card.outputs.filename != ''
+        env:
+          CARD_FILENAME: ${{ steps.card.outputs.filename }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add archive/json/ archive/manifest.json
           git add -A cards/
           git diff --cached --quiet && echo "Nothing to commit" && exit 0
-          git commit -m "archive card: ${{ steps.card.outputs.filename }} [skip ci]"
+          git commit -m "archive card: $CARD_FILENAME [skip ci]"
           git push
