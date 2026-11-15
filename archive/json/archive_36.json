@@ -549,5 +549,34 @@
         "text": "GitHub Documentation"
       }
     ]
+  },
+  {
+    "username": "techkayacodes",
+    "name": "Kemal Codes",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/techkayacodes",
+        "handle": "@techkayacodes"
+      }
+    ],
+    "about": "Open-source maintainer building Keyboard Cheat Codes (interactive 3D\n    mechanical keyboard playground and shortcut trainer) and Web Audio developer\n    tools.",
+    "resources": [
+      {
+        "title": "Keyboard Cheat Codes",
+        "link": "https://github.com/techkayacodes/keyboard-cheat-codes",
+        "text": "Keyboard Cheat Codes"
+      },
+      {
+        "title": "tldr-pages",
+        "link": "https://github.com/tldr-pages/tldr",
+        "text": "tldr-pages CLI Cheat Sheets"
+      },
+      {
+        "title": "Astro Documentation",
+        "link": "https://docs.astro.build",
+        "text": "Astro Official Documentation"
+      }
+    ]
   }
 ]
