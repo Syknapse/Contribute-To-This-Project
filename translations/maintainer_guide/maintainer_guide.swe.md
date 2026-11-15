@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Underhållarguide
 
 Denna guide är för dig som vill bli underhållare i projektet och hjälpa till att hantera och underhålla det för communityn. (Detta är inte en guide för **förstagångsbidragare**)
@@ -23,8 +25,8 @@ Du kan lägga så mycket eller så lite tid du vill på detta. Tillsammans hoppa
 
 ## Metod
 
-- Gå till projektets avsnitt för pull requests och börja med den äldsta pull request som inte är i tillståndet *changes requested*.
-- Öppna en PR, gå till fliken *Files changed* och påbörja en kodgranskning
+- Gå till projektets avsnitt för pull requests och börja med den äldsta pull request som inte är i tillståndet _changes requested_.
+- Öppna en PR, gå till fliken _Files changed_ och påbörja en kodgranskning
 - Kontrollera PR:en och säkerställ att den följer specifikationen i tutorialen.
 - Se till att HTML, länkar och data är korrekta. Kontrollera att kortet är placerat i början av filen där det ska vara.
 - Kontrollera sedan efter eventuella konflikter. Merga `master` in i PR-grenen för att lösa konflikterna. Konflikter uppstår oftast när det gått en tid sedan senaste mergen och flera PR:er använder samma föråldrade version.
@@ -58,7 +60,7 @@ npx prettier --write index.html
 
 Det kommer att försöka formatera filen, och om det inte går visas felen. Ibland smyger sig en saknad stängtag eller trasig HTML in vid merge detta är ett bra sätt att upptäcka och åtgärda det.
 
-Om du någonsin är osäker kan du alltid nämna mig eller andra underhållare direkt i PR:en eller skicka ett DM till mig på [X](https://x.com/Syknapse) f.d *Twitter*.
+Om du någonsin är osäker kan du alltid nämna mig eller andra underhållare direkt i PR:en eller skicka ett DM till mig på [X](https://x.com/Syknapse) f.d _Twitter_.
 
 ## Gå med oss
 

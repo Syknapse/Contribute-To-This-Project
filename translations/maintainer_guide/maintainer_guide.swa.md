@@ -1,15 +1,18 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # Mwongozo wa Mtunzaji
 
-Mwongozo huu ni kwa wale ambao wangependa kujiunga na mradi huu kama watunzaji, 
+Mwongozo huu ni kwa wale ambao wangependa kujiunga na mradi huu kama watunzaji,
 ili kusaidia kusimamia na kudumisha mradi huu kwa jamii. (Mwongozo huu sio kwa: **wale wanao changia kwa mara ya kwanza**)
+
 ## Tafsiri
 
 Mafunzo haya pia yanapatikana katika [lugha zingine](translations/README.md)
 
-| [Kingereza](maintainer_guide.md)   | [Kibangla](translations/maintainer_guide/maintainer_guide.ben.md) | [Kichina (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Kifaransa (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [Kijerumani](translations/maintainer_guide/maintainer_guide.ger.md) |
-| :---: | :---: | :---: | :---: | :---: |
-[kihindi](translations/maintainer_guide/maintainer_guide.hin.md) | [Kiindonesia](translations/maintainer_guide/maintainer_guide.ind.md) | [Kiitaliano](translations/maintainer_guide/maintainer_guide.ita.md) | [Kijapani](translations/maintainer_guide/maintainer_guide.jpn.md) | [Kikorea](translations/maintainer_guide/maintainer_guide.kor.md) | 
-[Kireno](translations/maintainer_guide/maintainer_guide.por.md) | [Kirusi](translations/maintainer_guide/maintainer_guide.rus.md) | [Kiukreni](/translations/maintainer_guide/maintainer_guide.ukr.md) | [Kiswahili](translations/maintainer_guide/maintainer_guide.swa.md) |
+|                 [Kingereza](maintainer_guide.md)                 |  [Kibangla](translations/maintainer_guide/maintainer_guide.ben.md)   | [Kichina (Traditional)](/translations/maintainer_guide/maintainer_guide.zho-tc.md) | [Kifaransa (française)](translations/maintainer_guide/maintainer_guide.fra.md) | [Kijerumani](translations/maintainer_guide/maintainer_guide.ger.md) |
+| :--------------------------------------------------------------: | :------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :----------------------------------------------------------------------------: | :-----------------------------------------------------------------: |
+| [kihindi](translations/maintainer_guide/maintainer_guide.hin.md) | [Kiindonesia](translations/maintainer_guide/maintainer_guide.ind.md) |        [Kiitaliano](translations/maintainer_guide/maintainer_guide.ita.md)         |       [Kijapani](translations/maintainer_guide/maintainer_guide.jpn.md)        |  [Kikorea](translations/maintainer_guide/maintainer_guide.kor.md)   |
+| [Kireno](translations/maintainer_guide/maintainer_guide.por.md)  |   [Kirusi](translations/maintainer_guide/maintainer_guide.rus.md)    |         [Kiukreni](/translations/maintainer_guide/maintainer_guide.ukr.md)         |       [Kiswahili](translations/maintainer_guide/maintainer_guide.swa.md)       |
 
 > Tafsiri za nyaraka za miradi zinakaribishwa. Soma [`Mwongozo wa Tafsiri`](translations/README.md) ili kuchangia.
 
@@ -17,7 +20,7 @@ Mafunzo haya pia yanapatikana katika [lugha zingine](translations/README.md)
 
 ## Malengo
 
-Lengo letu kuu ni kuwapa wachangiaji wetu maoni ya haraka iwezekanavyo kuanzia pale wanapotuma ombi lao la kuchangia. Hii ina maana kwamba utakagua mabadiliko yaliyofanywa na kuunganisha maombi ya kuchangia kwa kiufupi `PRs` zilizokubalika. 
+Lengo letu kuu ni kuwapa wachangiaji wetu maoni ya haraka iwezekanavyo kuanzia pale wanapotuma ombi lao la kuchangia. Hii ina maana kwamba utakagua mabadiliko yaliyofanywa na kuunganisha maombi ya kuchangia kwa kiufupi `PRs` zilizokubalika.
 Zaidi ya hayo, tunaweza kudumisha mradi huu kwa kuhakikisha kila kitu kinafanya kazi kwa usahihi, yenye umuhimu na kusaidia wachangiaji wetu kadri inavyowezekana.
 
 ## Hii ni kwa ajili ya nani?
@@ -53,7 +56,7 @@ Ni bora kuyajaribu mabadiliko hayo kwenye mashine yako binafsi (locally) kabla y
 ## Zana za matumizi
 
 Ikiwa hakuna idadi kubwa ya ombi la kuchangia, mchakato huu wote unaweza kufanywa moja kwa moja kwenye ukurasa wa GitHub.  
-Hata hivyo, si jambo la ajabu kuwa na PR kadhaa zikisubiri, na hapo mara nyingi kutakuwa na migongano katika kuunganisha PR hizo. Unaweza kutumia zana zozote unazozifahamu kuona `diffs` na kutatua migongano hiyo.  
+Hata hivyo, si jambo la ajabu kuwa na PR kadhaa zikisubiri, na hapo mara nyingi kutakuwa na migongano katika kuunganisha PR hizo. Unaweza kutumia zana zozote unazozifahamu kuona `diffs` na kutatua migongano hiyo.
 
 Ninapendekeza kutumia zana kama [GitKraken](https://www.gitkraken.com/download), ambayo ina kiolesura cha mtumiaji na inarahisisha usimamizi wa mradi pale ambapo kuna PR nyingi za kupitia.  
 Pakia GitKraken, kisha tengeneza nakala (clone). Kutumia mchanganyiko wa kihariri chako cha msimbo na kifaa cha GitKraken cha kushughulikia migongano ya muunganiko kunakupa udhibiti kamili wa kupitia PR haraka, kutatua migongano na kuunganisha.
