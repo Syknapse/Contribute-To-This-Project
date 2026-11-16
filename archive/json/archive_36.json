@@ -578,5 +578,34 @@
         "text": "Astro Official Documentation"
       }
     ]
+  },
+  {
+    "username": "drowningintheocean",
+    "name": "Suiko",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://www.github.com/drowningintheocean",
+        "handle": "my github profile"
+      }
+    ],
+    "about": "Hello, my name is Suiko. Interested in web, game development and AI.",
+    "resources": [
+      {
+        "title": "freecodecamp",
+        "link": "https://www.freecodecamp.org",
+        "text": "freecodecamp"
+      },
+      {
+        "title": "w3schools",
+        "link": "https://www.w3schools.com/",
+        "text": "w3schools"
+      },
+      {
+        "title": "tutorialspoint",
+        "link": "https://www.tutorialspoint.com/",
+        "text": "tutorialspoint"
+      }
+    ]
   }
 ]
