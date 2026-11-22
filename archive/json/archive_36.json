@@ -636,5 +636,34 @@
         "text": "GitHub Skills"
       }
     ]
+  },
+  {
+    "username": "titanefe",
+    "name": "titanefe",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/titanefe",
+        "handle": "titanefe"
+      }
+    ],
+    "about": "Learning Git and GitHub one pull request at a time. This card was my first open-source contribution.",
+    "resources": [
+      {
+        "title": "Free official book on how Git works",
+        "link": "https://git-scm.com/book/en/v2",
+        "text": "Pro Git Book"
+      },
+      {
+        "title": "Official guide to getting started with GitHub",
+        "link": "https://docs.github.com/en/get-started",
+        "text": "GitHub Docs: Get Started"
+      },
+      {
+        "title": "Reference for HTML, CSS and JavaScript",
+        "link": "https://developer.mozilla.org/en-US/",
+        "text": "MDN Web Docs"
+      }
+    ]
   }
 ]
