@@ -665,5 +665,34 @@
         "text": "MDN Web Docs"
       }
     ]
+  },
+  {
+    "username": "hariharan18092006",
+    "name": "Hariharan K.S",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/Hariharan18092006",
+        "handle": "GitHub"
+      }
+    ],
+    "about": "Aspiring software engineer interested in open source, Python, and web development.",
+    "resources": [
+      {
+        "title": "MDN Web Docs",
+        "link": "https://developer.mozilla.org/",
+        "text": "MDN Web Docs"
+      },
+      {
+        "title": "Python Documentation",
+        "link": "https://docs.python.org/3/",
+        "text": "Python Docs"
+      },
+      {
+        "title": "GitHub Docs",
+        "link": "https://docs.github.com/",
+        "text": "GitHub Docs"
+      }
+    ]
   }
 ]
