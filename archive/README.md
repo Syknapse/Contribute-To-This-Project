@@ -5,7 +5,7 @@
 
 ## Where did my card go?
 
-When a pull request is merged, cards are moved from their individual HTML files (`cards/<username>.html`) into archive JSON files. This keeps the repository lightweight and reduces merge conflicts for contributors.
+When a pull request is merged, cards are moved from their individual HTML files (`cards/<username>.html`) into archive JSON files. This keeps the repository lightweight and reduces merge conflicts for contributors. abcdjksjdksd
 
 **This happens automatically — you don't need to do anything.**
 
