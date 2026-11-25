@@ -694,5 +694,34 @@
         "text": "GitHub Docs"
       }
     ]
+  },
+  {
+    "username": "samrajsundar2007-png",
+    "name": "Samraj S",
+    "contacts": [
+      {
+        "icon": "fab fa-github",
+        "link": "https://github.com/samrajsundar2007-png",
+        "handle": "samrajsundar2007-png"
+      }
+    ],
+    "about": "Second-year B.Tech AIML student passionate about competitive programming, machine learning, and open-source development.",
+    "resources": [
+      {
+        "title": "First Resource",
+        "link": "https://neetcode.io/",
+        "text": "NeetCode - Structured DSA Roadmap"
+      },
+      {
+        "title": "Second Resource",
+        "link": "https://docs.opencv.org/",
+        "text": "OpenCV Documentation"
+      },
+      {
+        "title": "Third Resource",
+        "link": "https://git-scm.com/doc",
+        "text": "Official Git Documentation"
+      }
+    ]
   }
 ]
