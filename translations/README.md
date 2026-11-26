@@ -19,28 +19,31 @@ All Translations regarding Project Documentations are welcome. There are certain
 
 ## README Translations
 
-|   [Arabic](README/ARABIC.md)   |  [Bangla](README/BANGLA.md)  | [Chinese (Traditional)](README/CHINESE_TRADITIONAL.md) |      [Dutch](README/DUTCH.md)      |   [English](../README.md)    |
-| :----------------------------: | :--------------------------: | :----------------------------------------------------: | :--------------------------------: | :--------------------------: |
-|   [French](README/FRENCH.md)   |  [German](README/GERMAN.md)  |                [Greek](README/GREEK.md)                |      [Hindi](README/HINDI.md)      | [Italian](README/ITALIAN.md) |
-| [Japanese](README/JAPANESE.md) |  [Korean](README/KOREAN.md)  |               [Polish](README/POLISH.md)               | [Portuguese](README/PORTUGUESE.md) | [Russian](README/RUSSIAN.md) |
-|  [Serbian](README/SERBIAN.md)  | [Spanish](README/SPANISH.md) |              [Turkish](README/TURKISH.md)              |  [Ukrainian](README/UKRAINIAN.md)  |   [Uzbek](README/UZBEK.md)   |
-| [Vietnamese](README/VIETNAMESE.md) | | | | |
+|    [Arabic](README/ARABIC.md)    |   [Bangla](README/BANGLA.md)   | [Chinese (Simplified)](README/CHINESE_SIMPLIFIED.md) | [Chinese (Traditional)](README/CHINESE_TRADITIONAL.md) |   [Dutch](README/DUTCH.md)   |
+| :------------------------------: | :----------------------------: | :--------------------------------------------------: | :----------------------------------------------------: | :--------------------------: |
+|     [English](../README.md)      |   [French](README/FRENCH.md)   |              [German](README/GERMAN.md)              |                [Greek](README/GREEK.md)                |   [Hindi](README/HINDI.md)   |
+|   [Italian](README/ITALIAN.md)   | [Japanese](README/JAPANESE.md) |              [Korean](README/KOREAN.md)              |            [Malayalam](README/MALAYALAM.md)            | [Marathi](README/MARATHI.md) |
+| [Norwegian](README/NORWEGIAN.md) |   [Polish](README/POLISH.md)   |          [Portuguese](README/PORTUGUESE.md)          |              [Russian](README/RUSSIAN.md)              | [Serbian](README/SERBIAN.md) |
+|    [Somali](README/SOMALI.md)    |  [Spanish](README/SPANISH.md)  |             [Swahili](README/SWAHILI.md)             |              [Swedish](README/SWEDISH.md)              | [Turkish](README/TURKISH.md) |
+| [Ukrainian](README/UKRAINIAN.md) |     [Urdu](README/URDU.md)     |               [Uzbek](README/UZBEK.md)               |           [Vietnamese](README/VIETNAMESE.md)           |                              |
 
 ---
 
 ## Maintainers Guide Translations
 
-|   [Bangla](maintainer_guide/maintainer_guide.ben.md)   | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) |           [English](../maintainer_guide.md)           |  [German](maintainer_guide/maintainer_guide.ger.md)  | [Greek](maintainer_guide/maintainer_guide.ell.md)  |
-| :----------------------------------------------------: | :------------------------------------------------------------------: | :---------------------------------------------------: | :--------------------------------------------------: | :------------------------------------------------: |
-|   [Hindi](maintainer_guide/maintainer_guide.hin.md)    |        [Indonesian](maintainer_guide/maintainer_guide.ind.md)        |  [Italian](maintainer_guide/maintainer_guide.ita.md)  | [Japanese](maintainer_guide/maintainer_guide.jpn.md) | [Korean](maintainer_guide/maintainer_guide.kor.md) |
-| [Portuguese](maintainer_guide/maintainer_guide.por.md) |         [Russian](maintainer_guide/maintainer_guide.rus.md)          | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md) |               [Uzbek](README/UZBEK.md)               |
+| [Bangla](maintainer_guide/maintainer_guide.ben.md)  | [Chinese (Traditional)](maintainer_guide/maintainer_guide.zho-tc.md) |           [English](../maintainer_guide.md)            | [French](maintainer_guide/maintainer_guide.fra.md)  |  [German](maintainer_guide/maintainer_guide.ger.md)  |
+| :-------------------------------------------------: | :------------------------------------------------------------------: | :----------------------------------------------------: | :-------------------------------------------------: | :--------------------------------------------------: |
+|  [Greek](maintainer_guide/maintainer_guide.ell.md)  |          [Hindi](maintainer_guide/maintainer_guide.hin.md)           | [Indonesian](maintainer_guide/maintainer_guide.ind.md) | [Italian](maintainer_guide/maintainer_guide.ita.md) | [Japanese](maintainer_guide/maintainer_guide.jpn.md) |
+| [Korean](maintainer_guide/maintainer_guide.kor.md)  |         [Marathi](maintainer_guide/maintainer_guide.mar.md)          | [Portuguese](maintainer_guide/maintainer_guide.por.md) | [Russian](maintainer_guide/maintainer_guide.rus.md) | [Spanish](maintainer_guide/maintainer_guide.spa.md)  |
+| [Swahili](maintainer_guide/maintainer_guide.swa.md) |         [Swedish](maintainer_guide/maintainer_guide.swe.md)          | [Ukrainian](maintainer_guide/maintainer_guide.ukr.md)  |  [Uzbek](maintainer_guide/maintainer_guide.uzb.md)  |                                                      |
 
 ---
 
 ## Terminal Tutorial
 
-|          [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md)           | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md) | [English](/terminal_tutorial.md) | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) | [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md) |
-| :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :------------------------------: | :----------------------------------------------------------------: | :---------------------------------------------------------------: |
-| [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) |        [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md)         |     [Uzbek](README/UZBEK.md)     |
+| [Bangla](/translations/terminal_tutorial/terminal_tutorial.ben.md) | [Chinese (Traditional)](/translations/terminal_tutorial/terminal_tutorial.zho-tc.md)  |                  [English](/terminal_tutorial.md)                   | [German](/translations/terminal_tutorial/terminal_tutorial.ger.md) |   [Hindi](/translations/terminal_tutorial/terminal_tutorial.hin.md)   |
+| :----------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :-----------------------------------------------------------------: | :----------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| [Korean](/translations/terminal_tutorial/terminal_tutorial.kor.md) | [Portuguese (Brazilian)](/translations/terminal_tutorial/terminal_tutorial.por-br.md) | [Spanish](/translations/terminal_tutorial/terminal_tutorial.spa.md) | [Telugu](/translations/terminal_tutorial/terminal_tutorial.tel.md) | [Ukrainian](/translations/terminal_tutorial/terminal_tutorial.ukr.md) |
+| [Uzbek](/translations/terminal_tutorial/terminal_tutorial.uzb.md)  |                                                                                       |                                                                     |                                                                    |                                                                       |
 
 ---
