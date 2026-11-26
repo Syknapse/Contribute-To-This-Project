@@ -52,6 +52,26 @@ const prFilesData = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files
 const prFiles = prFilesData.map(f => f.path)
 console.log(`Changed files: ${prFiles.join(', ')}`)
 
+// ── template.html rename guard ─────────────────────────────────────────────────
+// GitHub's `gh pr view --json files` exposes the current path, but a renamed
+// template.html no longer has `template.html` as its current path.
+// Query the PR files API so renamed files can also be checked by their
+// previous filename.
+//
+// This prevents a contributor from bypassing the template protection by
+// renaming cards/template.html to a contributor card filename.
+const prFileApiData = JSON.parse(
+  gh(`gh api --paginate --slurp "repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}/files?per_page=100"`)
+).flat()
+
+const renamedTemplateEntry = prFileApiData.find(
+  f => f.status === 'renamed' && f.previous_filename === 'cards/template.html'
+)
+
+if (renamedTemplateEntry) {
+  fail(messages.submitTemplate(PR_AUTHOR))
+}
+
 // ── template.html guard ────────────────────────────────────────────────────────
 // template.html must never appear in a contributor PR — not added, modified, or deleted.
 // This check runs before everything else so the error is always precise.
@@ -165,10 +185,12 @@ if (!result.valid) {
 // Guard against re-runs on already-merged/closed PRs (e.g. a late synchronize
 // event arriving after the PR has already been processed).
 const prState = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json state`)).state
+
 if (prState === 'MERGED') {
   console.log(`✅ PR #${PR_NUMBER} is already merged — nothing to do.`)
   process.exit(0)
 }
+
 if (prState === 'CLOSED') {
   console.log(`⚠️  PR #${PR_NUMBER} is closed — skipping merge.`)
   process.exit(0)
@@ -178,6 +200,7 @@ if (prState === 'CLOSED') {
 // run (e.g. triggered by a late synchronize event). Skip to avoid double comments
 // and double archive dispatches.
 const autoMergeRequest = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json autoMergeRequest`)).autoMergeRequest
+
 if (autoMergeRequest) {
   console.log('✅ Auto-merge already enabled by a previous run — skipping duplicate processing.')
   process.exit(0)
@@ -196,6 +219,7 @@ for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
   execSync(`sleep ${POLL_INTERVAL_SECONDS}`)
   const state = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json state`)).state
   console.log(`Attempt ${attempt}/${MAX_ATTEMPTS} — PR state: ${state}`)
+
   if (state === 'MERGED') {
     merged = true
     break
