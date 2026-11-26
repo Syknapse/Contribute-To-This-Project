@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # 維護者指南
 
 本指南是為了那些想要作為維護者加入本專案的人，為了替社群幫忙管理和維護專案。（這不是給 **第一次貢獻者**的指南）
@@ -6,8 +8,8 @@
 
 這份教學也有[其他語言](/translations/README.md)的翻譯
 
-| [English](/maintainer_guide.md)   | [Bangla](/translations/maintainer_guide/maintainer_guide.ben.md) | [German](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](/translations/maintainer_guide/maintainer_guide.jpn.md) |
-| :---: | :---: | :---: | :---: | :---: |
+|                   [English](/maintainer_guide.md)                    |  [Bangla](/translations/maintainer_guide/maintainer_guide.ben.md)   | [German](/translations/maintainer_guide/maintainer_guide.ger.md) | [Italian](/translations/maintainer_guide/maintainer_guide.ita.md) | [Japanese](/translations/maintainer_guide/maintainer_guide.jpn.md) |
+| :------------------------------------------------------------------: | :-----------------------------------------------------------------: | :--------------------------------------------------------------: | :---------------------------------------------------------------: | :----------------------------------------------------------------: |
 | [Portuguese](/translations/maintainer_guide/maintainer_guide.por.md) | [Ukrainian](/translations/maintainer_guide/maintainer_guide.ukr.md) |
 
 > 歡迎將專案的文件翻成其他語言。閱讀[`翻譯指南`](/translations/README.md)來做出貢獻。

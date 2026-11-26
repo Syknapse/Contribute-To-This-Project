@@ -1,3 +1,5 @@
+⚠️ This translation is outdated. It describes the old v1 manual workflow. The project now uses automated validation and merging (v2). Please refer to the [English maintainer guide](../../maintainer_guide.md) for current instructions.
+
 # 메인테이너 가이드
 
 이 가이드는 커뮤니티를 위해 프로젝트를 관리하고 유지하는 데 도움을 주고 싶은 사람들을 위한 가이드입니다.( **처음으로 프로젝트에 기여하는 분들**을 위한 가이드가 아닙니다.)
@@ -6,9 +8,9 @@
 
 이 튜토리얼은 [다른 언어](../README.md)로도 제공됩니다.
 
-| [English](/maintainer_guide.md)   | [Bangla](maintainer_guide.ben.md) | [Chinese (Traditional)](maintainer_guide.zho-tc.md) | [German](maintainer_guide.ger.md) | [Hindi](maintainer_guide.hin.md) |
-| :---: | :---: | :---: | :---: | :---: |
-| [Italian](maintainer_guide.ita.md) | [Japanese](maintainer_guide.jpn.md) | [Portuguese](maintainer_guide.por.md) | [Ukrainian](maintainer_guide.ukr.md) |
+|  [English](/maintainer_guide.md)   |  [Bangla](maintainer_guide.ben.md)  | [Chinese (Traditional)](maintainer_guide.zho-tc.md) |  [German](maintainer_guide.ger.md)   | [Hindi](maintainer_guide.hin.md) |
+| :--------------------------------: | :---------------------------------: | :-------------------------------------------------: | :----------------------------------: | :------------------------------: |
+| [Italian](maintainer_guide.ita.md) | [Japanese](maintainer_guide.jpn.md) |        [Portuguese](maintainer_guide.por.md)        | [Ukrainian](maintainer_guide.ukr.md) |
 
 > 프로젝트 문서 번역을 하고 싶다면 환영입니다. [`번역 가이드`](../README.md)를 읽고 기여해주세요.
 
