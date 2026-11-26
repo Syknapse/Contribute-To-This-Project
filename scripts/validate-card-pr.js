@@ -46,11 +46,50 @@ function fail(body) {
 
 const README = `https://github.com/${GITHUB_REPOSITORY}#readme`
 
+// ── check if author is a maintainer/collaborator ───────────────────────────────
+let isMaintainer = false
+try {
+  const prDetails = JSON.parse(gh(`gh api repos/${GITHUB_REPOSITORY}/pulls/${PR_NUMBER}`))
+  const association = prDetails.author_association
+  isMaintainer = ['OWNER', 'MEMBER', 'COLLABORATOR'].includes(association)
+  console.log(`PR Author: ${PR_AUTHOR}, Association: ${association}, Is Maintainer: ${isMaintainer}`)
+} catch (err) {
+  console.log(`Warning: Could not fetch PR author association: ${err.message}`)
+}
+
+if (isMaintainer) {
+  console.log('✅ Maintainer/Collaborator PR detected. Skipping card validation workflow.')
+  process.exit(0)
+}
+
 // ── get changed files ──────────────────────────────────────────────────────────
 // Keep full file objects (path + changeType) for later checks.
 const prFilesData = JSON.parse(gh(`gh pr view ${PR_NUMBER} --json files`)).files
 const prFiles = prFilesData.map(f => f.path)
 console.log(`Changed files: ${prFiles.join(', ')}`)
+
+// ── file scope / codebase PR bypass ────────────────────────────────────────────
+const nonCardFiles = prFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
+if (nonCardFiles.length > 0) {
+  const isCodebasePR = nonCardFiles.some(
+    f =>
+      f.startsWith('.github/') ||
+      f.startsWith('scripts/') ||
+      f === 'package.json' ||
+      f === 'package-lock.json' ||
+      f === 'maintainer_guide.md' ||
+      f === 'CONTRIBUTING.md' ||
+      f === 'README.md' ||
+      f === 'terminal_tutorial.md'
+  )
+
+  if (isCodebasePR) {
+    console.log('ℹ️ Codebase/Maintenance PR detected. Skipping card validation.')
+    process.exit(0)
+  }
+
+  fail(messages.wrongFile(PR_AUTHOR, nonCardFiles))
+}
 
 // ── template.html guard ────────────────────────────────────────────────────────
 // template.html must never appear in a contributor PR — not added, modified, or deleted.
@@ -62,12 +101,6 @@ if (templateEntry) {
   } else {
     fail(messages.submitTemplate(PR_AUTHOR))
   }
-}
-
-// ── file scope ─────────────────────────────────────────────────────────────────
-const nonCardFiles = prFiles.filter(f => !/^cards\/[^/]+\.html$/.test(f))
-if (nonCardFiles.length > 0) {
-  fail(messages.wrongFile(PR_AUTHOR, nonCardFiles))
 }
 
 if (prFiles.length > 1) {
